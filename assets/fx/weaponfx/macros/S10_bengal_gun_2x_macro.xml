@@ -5,7 +5,7 @@
     <component ref="bullet_railgun_m" />
     <properties>
       <ammunition value="1" reload="12" />
-      <bullet speed="1400" lifetime="4" amount="1" barrelamount="2" icon="weapon_cannon_mk2" timediff="0.007" angle="0.5" maxhits="1" ricochet="1" restitution="1" scale="0" attach="0" selfdestruct="1"/>
+      <bullet speed="1400" lifetime="4" amount="1" barrelamount="2" icon="weapon_cannon_mk2" timediff="0.007" angle="0.2" maxhits="1" ricochet="1" restitution="1" scale="0" attach="0" selfdestruct="1"/>
       <reload rate="1" />
       <areadamage value="200" range="128" time="1" lifetime="1" />
       <damage value="2000" hull="80" repair="0" />

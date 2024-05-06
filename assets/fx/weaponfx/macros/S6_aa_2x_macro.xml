@@ -5,7 +5,7 @@
     <component ref="bullet_blue_s" />
     <properties>
       <ammunition value="2" reload="6" />
-      <bullet speed="1400" lifetime="3" amount="1" barrelamount="2" icon="weapon_cannon_mk2" timediff="0.007" angle="0.5" maxhits="1" ricochet="1" restitution="1" scale="0" attach="0" selfdestruct="1"/>
+      <bullet speed="1400" lifetime="3" amount="1" barrelamount="2" icon="weapon_cannon_mk2" timediff="0.007" angle="0.1" maxhits="1" ricochet="1" restitution="1" scale="0" attach="0" selfdestruct="1"/>
       <reload rate="1" />
       <areadamage value="100" range="128" time="1" lifetime="1" />
       <damage value="400" hull="20" repair="0" />
