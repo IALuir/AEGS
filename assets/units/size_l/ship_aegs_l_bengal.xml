@@ -473,6 +473,606 @@
         </offset>
 			</connection>
 
+      <connection name="hardpoint_AA_turret_01" group="mid_top_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="-105.372" y="24.49597" z="41.09335" />
+          <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_02" group="mid_top_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="105.6081" y="24.49573" z="113.2746" />
+          <quaternion qx="0" qy="-0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_03" group="mid_top_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="105.6081" y="24.49585" z="41.09335" />
+          <quaternion qx="0" qy="-0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_04" group="mid_top_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="-105.372" y="24.49587" z="113.2746" />
+          <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_004" group="mid_top_aa_2  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_AA_turret_05" group="mid_bot_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="-31.53389" y="-34.09696" z="377.2024" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_06" group="mid_bot_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="31.77998" y="-34.09696" z="377.2023" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_005" group="mid_bot_aa_2  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_AA_turret_07" group="mid_top_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="33.65054" y="28.38179" z="330.6162" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_08" group="mid_top_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="-33.65483" y="28.38179" z="330.6162" />
+        </offset>
+      </connection>
+
+      <connection name="hardpoint_AA_turret_09" group="mid_bot_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="75.63316" y="-24.70103" z="140.3964" />
+          <quaternion qx="-0.7071069" qy="5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_10" group="mid_bot_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="-75.35319" y="-24.70112" z="140.3965" />
+          <quaternion qx="0.7071069" qy="-5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_11" group="mid_bot_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="-31.64668" y="-28.90681" z="257.0586" />
+          <quaternion qx="0.7071069" qy="-5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_12" group="mid_bot_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="31.8063" y="-28.89335" z="256.9383" />
+          <quaternion qx="-0.7071069" qy="5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_13" group="mid_bot_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="-61.35054" y="-24.25895" z="178.7925" />
+          <quaternion qx="0.7071069" qy="-5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_14" group="mid_bot_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="61.51017" y="-24.70107" z="178.9129" />
+          <quaternion qx="-0.7071069" qy="5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_007" group="mid_bot_aa  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+      <connection name="con_shieldgen_008" group="mid_bot_aa  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_AA_turret_15" group="mid_top_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="105.6251" y="24.49583" z="65.15376" />
+          <quaternion qx="0" qy="-0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_16" group="mid_top_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="-105.355" y="24.49589" z="65.15374" />
+          <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_17" group="mid_top_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="-105.495" y="24.4959" z="89.21413" />
+          <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_18" group="mid_top_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="105.4851" y="24.49579" z="89.21413" />
+          <quaternion qx="0" qy="-0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_009" group="mid_top_aa  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_AA_turret_19" group="mid_top_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="4.854636" y="92.01521" z="158.7475" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_20" group="mid_top_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="-4.854587" y="92.01521" z="158.7475" />
+        </offset>
+      </connection>
+
+      <connection name="hardpoint_AA_turret_21" group="  mid_bot_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="0" y="-34.3469" z="481.0485" />
+          <quaternion qx="4.999999e-07" qy="-4.999999e-07" qz="-1" qw="-7.549815e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_22" group="mid_bot_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="0" y="-34.3469" z="383.2059" />
+          <quaternion qx="4.999999e-07" qy="-4.999999e-07" qz="-1" qw="-7.549815e-08" />
+        </offset>
+      </connection>
+
+      <connection name="hardpoint_AA_turret_24" group="back_top_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="-0.000302" y="60.93184" z="-67.37032" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-5.523351e-07" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_25" group="back_top_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="-0.018112" y="71.31466" z="-17.091" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_26" group="back_top_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="-0.005333" y="70.902" z="26.38255" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_012" group="back_top_aa  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_AA_turret_29" group="back_top_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="-34.68838" y="25.22659" z="-337.7516" />
+          <quaternion qx="-3.293182e-09" qy="-0.9990482" qz="0.04361951" qw="-7.542604e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_30" group="back_top_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="34.68975" y="25.21439" z="-337.7516" />
+          <quaternion qx="-3.293182e-09" qy="-0.9990482" qz="0.04361951" qw="-7.542604e-08" />
+        </offset>
+      </connection>
+
+      <connection name="hardpoint_AA_turret_31" group="mid_bot_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="22.44872" y="-25.05188" z="-389.5428" />
+          <quaternion qx="-1" qy="0" qz="0" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_32" group="mid_bot_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="-22.44876" y="-25.05439" z="-389.5428" />
+          <quaternion qx="-1" qy="0" qz="0" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_014" group="mid_bot_aa  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_AA_turret_33" group=" mid_bot_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="44.1181" y="-38.6194" z="-191.55" />
+          <quaternion qx="-1" qy="0" qz="0" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_34" group=" mid_bot_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="-44.1181" y="-38.6194" z="-191.55" />
+          <quaternion qx="-1" qy="0" qz="0" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_37" group="mid_bot_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="74.10889" y="-44.86008" z="-34.35654" />
+          <quaternion qx="-0.7071069" qy="5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AA_turret_38" group="mid_bot_aa " tags="turret medium component combat aegs_bengal_aa">
+        <offset>
+          <position x="-73.82888" y="-44.85992" z="-34.35654" />
+          <quaternion qx="0.7071069" qy="-5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
+        </offset>
+      </connection>
+
+      <connection name="hardpoint_AI_turret_01" group="mid_top_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="61.43941" y="49.51101" z="116.6081" />
+          <quaternion qx="0" qy="-0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AI_turret_02" group="mid_top_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="-60.70639" y="49.51052" z="-0.353906" />
+          <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_016" group="mid_top_ai  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_AI_turret_03" group="front_top_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="0.130979" y="24.53802" z="474.5758" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AI_turret_04" group="front_top_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="0.130879" y="23.65879" z="434.2078" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_017" group="front_top_ai  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_AI_turret_05" group="mid_top_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="59.97144" y="49.51054" z="-0.353945" />
+          <quaternion qx="0" qy="-0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AI_turret_06" group="mid_top_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="-61.43952" y="49.51123" z="116.6081" />
+          <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AI_turret_07" group="front_top_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="75.41853" y="5.888965" z="545.6462" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AI_turret_08" group="front_top_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="-75.1537" y="5.872432" z="545.6458" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AI_turret_09" group="mid_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="35.73503" y="-32.63423" z="481.0485" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AI_turret_10" group="mid_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="-35.47026" y="-32.63422" z="481.0484" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_018" group="mid_bot_ai  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_AI_turret_11" group="back_top_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="20.48247" y="49.79926" z="-175.8845" />
+          <quaternion qx="-0.003559828" qy="0.9994864" qz="-0.0310792" qw="-0.006948852" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AI_turret_12" group="back_top_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="-20.38512" y="49.82542" z="-176.075" />
+          <quaternion qx="0.00419218" qy="-0.9994206" qz="0.03100022" qw="-0.01341572" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_019" group="back_top_ai  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_AI_turret_13" group="mid_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="42.94356" y="-24.23772" z="218.3779" />
+          <quaternion qx="-0.7071069" qy="5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AI_turret_14" group="mid_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="-42.94355" y="-24.25929" z="218.3612" />
+          <quaternion qx="0.7071069" qy="-5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_020" group="mid_bot_ai  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_AI_turret_15" group="back_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="-13.33548" y="-28.78606" z="-312.6125" />
+          <quaternion qx="-1" qy="0" qz="0" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AI_turret_16" group="back_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="13.33706" y="-28.78557" z="-312.6125" />
+          <quaternion qx="-1" qy="0" qz="0" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+
+      <connection name="hardpoint_AI_turret_17" group="mid_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="73.99751" y="-43.99614" z="56.974" />
+          <quaternion qx="-0.7071069" qy="5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AI_turret_18" group="mid_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="-73.99751" y="-43.99601" z="56.99065" />
+          <quaternion qx="-0.7071069" qy="-5.338507e-08" qz="0.7071066" qw="-5.338508e-08" />
+        </offset>
+      </connection>
+
+      <connection name="hardpoint_AI_turret_19" group="back_top_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="-25.7682" y="31.69703" z="-284.6038" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AI_turret_20" group="back_top_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="25.768" y="31.69703" z="-284.6038" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+
+      <connection name="hardpoint_AI_turret_21" group="back_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="45.7601" y="-42.986" z="-112.6928" />
+          <quaternion qx="-1" qy="0" qz="0" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AI_turret_22" group="back_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="-45.7602" y="-42.75179" z="-112.6613" />
+          <quaternion qx="-1" qy="0" qz="0" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AI_turret_23" group="back_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="44.02162" y="-40.14211" z="-156.9418" />
+          <quaternion qx="0.9990482" qy="0" qz="0" qw="-0.04361954" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_AI_turret_24" group="back_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+        <offset>
+          <position x="-44.02172" y="-39.91153" z="-156.89" />
+          <quaternion qx="0.9990482" qy="0" qz="0" qw="-0.04361942" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_024" group="back_bot_ai  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_medium_turret_01" group="front_top_gun " tags="turret large component combat aegs_bengal_m_gun">
+        <offset>
+          <position x="46.84352" y="31.55707" z="209.4835" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_medium_turret_02" group="front_top_gun " tags="turret large component combat aegs_bengal_m_gun">
+        <offset>
+          <position x="-46.5634" y="31.55707" z="209.4835" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_025" group="front_top_gun  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_medium_turret_03" group="front_top_gun " tags="turret large component combat aegs_bengal_m_gun">
+        <offset>
+          <position x="37.93687" y="23.21107" z="419.2662" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_medium_turret_04" group="front_top_gun " tags="turret large component combat aegs_bengal_m_gun">
+        <offset>
+          <position x="-37.65672" y="23.21107" z="419.2662" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_026" group="front_top_gun  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_medium_turret_05" group="back_top_gun " tags="turret large component combat aegs_bengal_m_gun">
+        <offset>
+          <position x="-0.004841" y="56.11381" z="-139.7916" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_medium_turret_06" group="back_top_gun " tags="turret large component combat aegs_bengal_m_gun">
+        <offset>
+          <position x="-0.004841" y="34.2601" z="-244.5756" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_027" group="back_top_gun  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_phalanx_turret_01" group="back_bot_gat " tags="turret medium component combat aegs_bengal_gat">
+        <offset>
+          <position x="55.96861" y="-17.79355" z="-373.9398" />
+          <quaternion qx="-0.7986353" qy="4.543579e-08" qz="-0.6018153" qw="-6.029529e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_phalanx_turret_02" group="back_bot_gat " tags="turret medium component combat aegs_bengal_gat">
+        <offset>
+          <position x="-55.96861" y="-17.79338" z="-373.9398" />
+          <quaternion qx="-0.7986357" qy="-4.543575e-08" qz="0.6018148" qw="-6.029531e-08" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_028" group="back_bot_gat  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_phalanx_turret_03" group="back_top_gat " tags="turret medium component combat aegs_bengal_gat">
+        <offset>
+          <position x="-22.38523" y="72.3145" z="166.5111" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_phalanx_turret_04" group="back_top_gat " tags="turret medium component combat aegs_bengal_gat">
+        <offset>
+          <position x="22.38514" y="72.3145" z="166.5111" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_029" group="back_top_gat  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_phalanx_turret_05" group="back_top_gat " tags="turret medium component combat aegs_bengal_gat">
+        <offset>
+          <position x="-30.60081" y="54.54173" z="-99.89989" />
+          <quaternion qx="0.0343763" qy="0.6969422" qz="-0.03343956" qw="-0.715522" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_phalanx_turret_06" group="back_top_gat " tags="turret medium component combat aegs_bengal_gat">
+        <offset>
+          <position x="30.60082" y="54.54173" z="-99.89984" />
+          <quaternion qx="0.03343957" qy="-0.7155221" qz="0.0343763" qw="-0.6969421" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_030" group="back_top_gat  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_phalanx_turret_07" group="back_bot_gat " tags="turret medium component combat aegs_bengal_gat">
+        <offset>
+          <position x="-73.99754" y="-43.99661" z="37.21249" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_phalanx_turret_08" group="back_bot_gat " tags="turret medium component combat aegs_bengal_gat">
+        <offset>
+          <position x="73.99754" y="-43.9963" z="37.21249" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_031" group="back_bot_gat  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="hardpoint_phalanx_turret_09" group="back_bot_gat " tags="turret medium component combat aegs_bengal_gat">
+        <offset>
+          <position x="62.32932" y="-28.94197" z="522.4756" />
+          <quaternion qx="-0.7071069" qy="5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_phalanx_turret_10" group="back_bot_gat " tags="turret medium component combat aegs_bengal_gat">
+        <offset>
+          <position x="-62.06449" y="-28.94197" z="522.5883" />
+          <quaternion qx="-0.7071069" qy="-5.338507e-08" qz="0.7071066" qw="-5.338508e-08" />
+        </offset>
+      </connection>
+
+      <connection name="hardpoint_phalanx_turret_11" group="back_top_gat " tags="turret medium component combat aegs_bengal_gat">
+        <offset>
+          <position x="31.13755" y="50.43975" z="70.25958" />
+          <quaternion qx="0" qy="-0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_phalanx_turret_12" group="back_top_gat " tags="turret medium component combat aegs_bengal_gat">
+        <offset>
+          <position x="-31.13766" y="50.4401" z="70.25945" />
+          <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+      </connection>
+
+      <connection name="hardpoint_phalanx_turret_13" group="front_top_gat " tags="turret medium component combat aegs_bengal_gat">
+        <offset>
+          <position x="27.81605" y="23.03403" z="382.9943" />
+          <quaternion qx="0" qy="-0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_phalanx_turret_14" group="front_top_gat " tags="turret medium component combat aegs_bengal_gat">
+        <offset>
+          <position x="-27.81605" y="23.03403" z="382.9942" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_phalanx_turret_15" group="front_top_gat " tags="turret medium component combat aegs_bengal_gat">
+        <offset>
+          <position x="-37.96875" y="21.36404" z="489.7258" />
+          <quaternion qx="0" qy="0.3987486" qz="0" qw="-0.9170603" />
+        </offset>
+      </connection>
+      <connection name="hardpoint_phalanx_turret_16" group="front_top_gat " tags="turret medium component combat aegs_bengal_gat">
+        <offset>
+          <position x="37.99141" y="21.36404" z="489.6222" />
+          <quaternion qx="0" qy="-0.3987492" qz="0" qw="-0.91706" />
+        </offset>
+      </connection>
+      <connection name="con_shieldgen_034" group="front_top_gat  " tags="medium shield hittable  standard invisible ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="con_shieldgenerator_l_001" tags="large shield  standard ">
+			</connection>
+      <connection name="shield_xl" tags="extralarge shield standard ">
+      </connection>
+      <connection name="shield_xl001" tags="extralarge shield standard ">
+      </connection>
+      
+
       
 
       <connection name="con_storage01" tags="storage ">

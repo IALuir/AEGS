@@ -424,6 +424,7 @@
 
       <entry name="S10_bengal_gun_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S10_bengal_gun_2x_macro"/>
       <entry name="S6_aa_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S6_aa_2x_macro"/>
+      <entry name="S5_gat_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S5_gat_macro"/>
 
       <!-- 导弹 -->
       <entry name="missile_s12_seeker_xii_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s12_seeker_xii_macro"/>
