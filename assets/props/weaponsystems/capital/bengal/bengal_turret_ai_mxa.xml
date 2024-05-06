@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Exported on 2024-05-05 23:57:54 from Blender-->
 <components>
-  <component name="bengal_turret_ai" class="turret">
+  <component name="bengal_turret_ai_mxa" class="turret">
     <source geometry="extensions\aegs\assets\props\weaponsystems\capital\bengal\bengal_turret_ai_data" />
     <layers>
       <layer />
