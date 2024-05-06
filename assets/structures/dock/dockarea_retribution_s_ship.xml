@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported on 2023-02-16 15:49:06-->
+<components>
+  <component name="dockarea_retribution_s_ship" class="dockarea">
+    <source geometry="extensions\aegs\assets\structures\dock\dockarea_aegs_s_javelin_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="position" tags="position" value="1" />
+      <connection name="con_dockarea_01" tags="component dockarea " />
+      <connection name="con_launchpos_01" group="  dockingbay_01 " tags="launchpos ">
+        <offset>
+          <position x="100" y="20" z="45" />
+        </offset>
+      </connection>
+      <connection name="con_launchpos_02" group=" dockingbay_02 " tags="launchpos ">
+        <offset>
+          <position x="-100" y="20" z="45" />
+        </offset>
+      </connection>
+      <connection name="con_launchpos_03" group=" dockingbay_03 " tags="launchpos ">
+        <offset>
+          <position x="100" y="20" z="0" />
+        </offset>
+      </connection>
+      <connection name="con_launchpos_04" group=" dockingbay_04 " tags="launchpos ">
+        <offset>
+          <position x="-100" y="20" z="0" />
+        </offset>
+      </connection>
+      <connection name="con_launchpos_05" group=" dockingbay_05 " tags="launchpos ">
+        <offset>
+          <position x="100" y="20" z="-45" />
+        </offset>
+      </connection>
+      <connection name="con_launchpos_06" group=" dockingbay_06 " tags="launchpos ">
+        <offset>
+          <position x="-100" y="20" z="-45" />
+        </offset>
+      </connection>
+
+      <connection name="con_todock_01" group="  dockingbay_01 " tags="todock ">
+        <offset>
+          <position x="100" y="20" z="45" />
+        </offset>
+      </connection>
+      <connection name="con_todock_02" group=" dockingbay_02 " tags="todock ">
+        <offset>
+          <position x="-100" y="20" z="45" />
+        </offset>
+      </connection>
+      <connection name="con_todock_03" group=" dockingbay_03 " tags="todock ">
+        <offset>
+          <position x="100" y="20" z="0" />
+        </offset>
+      </connection>
+      <connection name="con_todock_04" group=" dockingbay_04 " tags="todock ">
+        <offset>
+          <position x="-100" y="20" z="0" />
+        </offset>
+      </connection>
+      <connection name="con_todock_05" group=" dockingbay_05 " tags="todock ">
+        <offset>
+          <position x="100" y="20" z="-45" />
+        </offset>
+      </connection>
+      <connection name="con_todock_06" group=" dockingbay_06 " tags="todock ">
+        <offset>
+          <position x="-100" y="20" z="-45" />
+        </offset>
+      </connection>
+      
+      <connection name="ConnectionFordockingbay_arg_s_01_macro#000" group="dockingbay_01" tags="dockingbay">
+        <offset>
+          <position x="20" y="0" z="45" />
+        </offset>
+      </connection>
+      <connection name="ConnectionFordockingbay_arg_s_01_macro#001" group="dockingbay_02" tags="dockingbay">
+        <offset>
+          <position x="-20" y="0" z="45" />
+        </offset>
+      </connection>
+      <connection name="ConnectionFordockingbay_arg_s_01_macro#002" group="dockingbay_03" tags="dockingbay">
+        <offset>
+          <position x="20" y="0" z="0" />
+        </offset>
+      </connection>
+      <connection name="ConnectionFordockingbay_arg_s_01_macro#003" group="dockingbay_04" tags="dockingbay">
+        <offset>
+          <position x="-20" y="0" z="0" />
+        </offset>
+      </connection>
+      <connection name="ConnectionFordockingbay_arg_s_01_macro#004" group="dockingbay_05" tags="dockingbay">
+        <offset>
+          <position x="20" y="0" z="-45" />
+        </offset>
+      </connection>
+      <connection name="ConnectionFordockingbay_arg_s_01_macro#005" group="dockingbay_06" tags="dockingbay">
+        <offset>
+          <position x="-20" y="0" z="-45" />
+        </offset>
+      </connection>
+
+      <connection name="ConnectionForfence" tags="part platformcollision">
+        <parts>
+          <part name="fence">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="40" y="3" z="67.5" />
+              <center x="-9.536743e-07" y="3" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

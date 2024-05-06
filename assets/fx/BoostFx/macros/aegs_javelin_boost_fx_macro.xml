@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Christian (192.168.3.126) at 15.04.2016_17-05-20-->
+<macros>
+  <macro name="aegs_javelin_boost_fx_macro" class="effectobject">
+    <component ref="aegs_javelin_boost_fx" />
+    <properties>
+      <identification unique="0" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-25 11:05:33 from Blender-->
+<components>
+  <component name="spirit_a1_inner" class="storage">
+    <source geometry="extensions\AEGS\assets\units\size_m\inner\spirit_a1_inner_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="storage">
+				<offset/>
+			</connection>
+      <connection name="ConnectionFormid_room" tags="part ">
+        <offset>
+          <position x="0" y="-0.5" z="-6.5" />
+        </offset>
+        <parts>
+          <part name="mid_room">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.starlifter_int_mtl_Paint_Red_LF" />
+                  <material id="2" ref="generic.starlifter_int_mtl_Paint_Red_LF" />
+                  <material id="3" ref="generic.crus_spirit_int_mtl_HS_Tiled_Metal_Diagonal" />
+                  <material id="4" ref="generic.starlifter_int_mtl_Glows_Unlinked" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_decal_diffuse_black" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="7" ref="generic.crus_spirit_int_mtl_HS_Tiled_Plastic_Dark_A" />
+                  <material id="8" ref="generic.crus_spirit_int_mtl_HS_Tiled_Plastic_Dark_A" />
+                  <material id="9" ref="generic.vanguard_interior_warden_mtl_rubber_quilting" />
+                  <material id="10" ref="generic.aegs_gladius_int_mtl_Metal_Red" />
+                  <material id="11" ref="generic.rsi_bengal_int_mtl_rubber_floor" />
+                  <material id="12" ref="generic.starlifter_int_mtl_Rubber_LF" />
+                  <material id="13" ref="p1.cockpit_glass_outside_01" />
+                  <material id="14" ref="p1.cockpit_glass_outside_01" />
+                  <material id="15" ref="generic.crus_spirit_ext_mtl_Alpha_Trim_Grips" />
+                  <material id="16" ref="generic.behr_turret_1_mtl_H_parkerized_01_B" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.starlifter_int_mtl_Paint_Red_LF" />
+                  <material id="2" ref="generic.starlifter_int_mtl_Paint_Red_LF" />
+                  <material id="3" ref="generic.crus_spirit_int_mtl_HS_Tiled_Metal_Diagonal" />
+                  <material id="4" ref="generic.starlifter_int_mtl_Glows_Unlinked" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_decal_diffuse_black" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="7" ref="generic.crus_spirit_int_mtl_HS_Tiled_Plastic_Dark_A" />
+                  <material id="8" ref="generic.crus_spirit_int_mtl_HS_Tiled_Plastic_Dark_A" />
+                  <material id="9" ref="generic.vanguard_interior_warden_mtl_rubber_quilting" />
+                  <material id="10" ref="generic.aegs_gladius_int_mtl_Metal_Red" />
+                  <material id="11" ref="generic.rsi_bengal_int_mtl_rubber_floor" />
+                  <material id="12" ref="generic.starlifter_int_mtl_Rubber_LF" />
+                  <material id="13" ref="p1.cockpit_glass_outside_01" />
+                  <material id="14" ref="p1.cockpit_glass_outside_01" />
+                  <material id="15" ref="generic.crus_spirit_ext_mtl_Alpha_Trim_Grips" />
+                  <material id="16" ref="generic.behr_turret_1_mtl_H_parkerized_01_B" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.starlifter_int_mtl_Paint_Red_LF" />
+                  <material id="2" ref="generic.starlifter_int_mtl_Paint_Red_LF" />
+                  <material id="3" ref="generic.crus_spirit_int_mtl_HS_Tiled_Metal_Diagonal" />
+                  <material id="4" ref="generic.starlifter_int_mtl_Glows_Unlinked" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_decal_diffuse_black" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="7" ref="generic.crus_spirit_int_mtl_HS_Tiled_Plastic_Dark_A" />
+                  <material id="8" ref="generic.crus_spirit_int_mtl_HS_Tiled_Plastic_Dark_A" />
+                  <material id="9" ref="generic.vanguard_interior_warden_mtl_rubber_quilting" />
+                  <material id="10" ref="generic.aegs_gladius_int_mtl_Metal_Red" />
+                  <material id="11" ref="generic.rsi_bengal_int_mtl_rubber_floor" />
+                  <material id="12" ref="generic.starlifter_int_mtl_Rubber_LF" />
+                  <material id="13" ref="p1.cockpit_glass_outside_01" />
+                  <material id="14" ref="p1.cockpit_glass_outside_01" />
+                  <material id="15" ref="generic.crus_spirit_ext_mtl_Alpha_Trim_Grips" />
+                  <material id="16" ref="generic.behr_turret_1_mtl_H_parkerized_01_B" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.starlifter_int_mtl_Paint_Red_LF" />
+                  <material id="2" ref="generic.starlifter_int_mtl_Paint_Red_LF" />
+                  <material id="3" ref="generic.crus_spirit_int_mtl_HS_Tiled_Metal_Diagonal" />
+                  <material id="4" ref="generic.starlifter_int_mtl_Glows_Unlinked" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_decal_diffuse_black" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="7" ref="generic.crus_spirit_int_mtl_HS_Tiled_Plastic_Dark_A" />
+                  <material id="8" ref="generic.crus_spirit_int_mtl_HS_Tiled_Plastic_Dark_A" />
+                  <material id="9" ref="generic.vanguard_interior_warden_mtl_rubber_quilting" />
+                  <material id="10" ref="generic.aegs_gladius_int_mtl_Metal_Red" />
+                  <material id="11" ref="generic.rsi_bengal_int_mtl_rubber_floor" />
+                  <material id="12" ref="generic.starlifter_int_mtl_Rubber_LF" />
+                  <material id="13" ref="p1.cockpit_glass_outside_01" />
+                  <material id="14" ref="p1.cockpit_glass_outside_01" />
+                  <material id="15" ref="generic.crus_spirit_ext_mtl_Alpha_Trim_Grips" />
+                  <material id="16" ref="generic.behr_turret_1_mtl_H_parkerized_01_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.174367" y="2.450396" z="6.683242" />
+              <center x="0" y="1.850397" z="4.920621" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormid_room1" tags="part ">
+        <offset>
+          <position x="0" y="-0.5" z="-6.5" />
+        </offset>
+        <parts>
+          <part name="mid_room1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.starlifter_int_mtl_Grate" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_ext_trim_white" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_trim_black" />
+                  <material id="4" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="5" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="6" ref="generic.aegs_gladius_int_mtl_metal_grey" />
+                  <material id="7" ref="generic.starlifter_int_mtl_POM_Opaque" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="9" ref="generic.starlifter_int_mtl_Glows_Unlinked" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Trim_Embedded_Cable" />
+                  <material id="11" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="12" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="13" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="14" ref="generic.behr_turret_1_mtl_H_parkerized_01_B" />
+                  <material id="15" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.starlifter_int_mtl_Grate" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_ext_trim_white" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_trim_black" />
+                  <material id="4" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="5" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="6" ref="generic.aegs_gladius_int_mtl_metal_grey" />
+                  <material id="7" ref="generic.starlifter_int_mtl_POM_Opaque" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="9" ref="generic.starlifter_int_mtl_Glows_Unlinked" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Trim_Embedded_Cable" />
+                  <material id="11" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="12" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="13" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="14" ref="generic.behr_turret_1_mtl_H_parkerized_01_B" />
+                  <material id="15" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.starlifter_int_mtl_Grate" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_ext_trim_white" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_trim_black" />
+                  <material id="4" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="5" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="6" ref="generic.aegs_gladius_int_mtl_metal_grey" />
+                  <material id="7" ref="generic.starlifter_int_mtl_POM_Opaque" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="9" ref="generic.starlifter_int_mtl_Glows_Unlinked" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Trim_Embedded_Cable" />
+                  <material id="11" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="12" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="13" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="14" ref="generic.behr_turret_1_mtl_H_parkerized_01_B" />
+                  <material id="15" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.starlifter_int_mtl_Grate" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_ext_trim_white" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_trim_black" />
+                  <material id="4" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="5" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="6" ref="generic.aegs_gladius_int_mtl_metal_grey" />
+                  <material id="7" ref="generic.starlifter_int_mtl_POM_Opaque" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="9" ref="generic.starlifter_int_mtl_Glows_Unlinked" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Trim_Embedded_Cable" />
+                  <material id="11" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="12" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="13" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                  <material id="14" ref="generic.behr_turret_1_mtl_H_parkerized_01_B" />
+                  <material id="15" ref="generic.starlifter_int_mtl_Metal_Aluminum_LF" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.036693" y="2.544512" z="6.793125" />
+              <center x="1.192093e-07" y="1.825578" z="5.030504" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

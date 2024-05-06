@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="/effects">
+    <effect name="flak_split_impact" emitterfilename="particles\explosions\flak_impact">
+      <parameters>
+        <material name="particles.explosion_missile"/>
+      </parameters>
+    </effect>
+  </add>
+</diff>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-10 18:51:16 from Blender-->
+<components>
+  <component name="sabre_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\sabre_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="positional" />
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForseat" tags="part ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation ">
+        <parts>
+          <part name="seat">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_pom_int" />
+                  <material id="2" ref="generic.sabre_mtl_decals_int" />
+                  <material id="3" ref="generic.sabre_mtl_stitches" />
+                  <material id="4" ref="generic.sabre_mtl_leather" />
+                  <material id="5" ref="generic.sabre_mtl_cockpit_02" />
+                  <material id="6" ref="generic.sabre_mtl_cockpit_03" />
+                  <material id="7" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.327952" y="0.74279" z="0.5635545" />
+              <center x="9.909272e-07" y="0.8376796" z="-0.1909766" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseat_mesh" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="seat">
+        <parts>
+          <part name="seat_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_pom_int" />
+                  <material id="2" ref="generic.sabre_mtl_decals_int" />
+                  <material id="3" ref="generic.sabre_mtl_stitches" />
+                  <material id="4" ref="generic.sabre_mtl_leather" />
+                  <material id="5" ref="generic.sabre_mtl_cockpit_02" />
+                  <material id="6" ref="generic.sabre_mtl_cockpit_03" />
+                  <material id="7" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.327952" y="0.74279" z="0.5635545" />
+              <center x="9.909272e-07" y="0.8376796" z="-0.1909766" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

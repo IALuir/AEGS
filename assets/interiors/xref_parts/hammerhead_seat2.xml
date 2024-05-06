@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-09 13:11:52 from Blender-->
+<components>
+  <component name="hammerhead_seat2" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\hammerhead_seat2_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForhorizontal_rotation_pivot2" tags="part animation ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation">
+        <animations>
+					<animation name="chair_default_inactive" start="1" end="1"/>
+					<animation name="chair_default_activating" start="1" end="40" startsound="1">
+						<sounds>
+							<sound ref="cockpit_chair_activating"/>
+						</sounds>
+					</animation>
+					<animation name="chair_default_active" start="40" end="40"/>
+					<animation name="chair_default_deactivating" start="40" end="90" startsound="1">
+						<sounds>
+							<sound ref="cockpit_chair_deactivating"/>
+						</sounds>
+					</animation>
+					<animation name="chair_paranid_inactive" start="1" end="1"/>
+					<animation name="chair_paranid_activating" start="1" end="40"/>
+					<animation name="chair_paranid_active" start="40" end="40"/>
+					<animation name="chair_paranid_deactivating" start="40" end="90"/>
+					<animation name="chair_default_to_paranid" start="1" end="1"/>
+					<animation name="chair_paranid_to_default" start="1" end="1"/>
+				</animations>
+        <parts>
+          <part name="horizontal_rotation_pivot2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_hammerhead_int_mtl_decals_diff" />
+                  <material id="5" ref="generic.aegs_hammerhead_int_mtl_decals_diff_b" />
+                  <material id="6" ref="generic.aegs_hammerhead_int_mtl_accents_red" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3995796" y="0.135381" z="0.504022" />
+              <center x="0.158682" y="2.569584" z="0.2527184" />
+            </size>
+            <size_raw>
+              <max x="0.2338212" y="0.135381" z="0.233821" />
+              <center x="-0.007076405" y="2.569584" z="-0.01748256" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpedal_left2" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="pedal_left2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_hammerhead_int_mtl_decals_diff_b" />
+                  <material id="5" ref="generic.aegs_hammerhead_int_mtl_base_grey_panels" />
+                  <material id="6" ref="generic.aegs_hammerhead_int_mtl_rubber_grip" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2885624" y="0.1307743" z="0.5097666" />
+              <center x="-0.03697193" y="-0.04550141" z="0.7123368" />
+            </size>
+            <size_raw>
+              <max x="0.122804" y="0.1307743" z="0.2395656" />
+              <center x="-0.2027303" y="-0.04550141" z="0.4421357" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpedal_right2" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="pedal_right2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_hammerhead_int_mtl_decals_diff_b" />
+                  <material id="5" ref="generic.aegs_hammerhead_int_mtl_base_grey_panels" />
+                  <material id="6" ref="generic.aegs_hammerhead_int_mtl_rubber_grip" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.288808" y="0.1307609" z="0.509742" />
+              <center x="0.3685849" y="-0.04628724" z="0.7122803" />
+            </size>
+            <size_raw>
+              <max x="0.1230496" y="0.1307609" z="0.239541" />
+              <center x="0.2028265" y="-0.04628724" z="0.4420793" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpilot_ownshipmfd2" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="pilot_ownshipmfd2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3220266" y="0.115536" z="0.2906677" />
+              <center x="-0.3830118" y="0.7865471" z="0.6794424" />
+            </size>
+            <size_raw>
+              <max x="0.1562682" y="0.115536" z="0.02046666" />
+              <center x="-0.5487702" y="0.786547" z="0.4092414" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpilot_targetingmfd2" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="pilot_targetingmfd2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3220266" y="0.115536" z="0.2906677" />
+              <center x="0.7173837" y="0.7847861" z="0.6784528" />
+            </size>
+            <size_raw>
+              <max x="0.1562682" y="0.115536" z="0.02046667" />
+              <center x="0.5516254" y="0.784786" z="0.4082519" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpilotseat_mainseat2" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer" parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="pilotseat_mainseat2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_hammerhead_int_mtl_decals_diff" />
+                  <material id="5" ref="generic.aegs_hammerhead_int_mtl_decals_diff_b" />
+                  <material id="6" ref="generic.aegs_hammerhead_int_mtl_buttons" />
+                  <material id="7" ref="generic.aegs_hammerhead_int_mtl_linked_glow" />
+                  <material id="8" ref="generic.aegs_hammerhead_int_mtl_accents_yellow" />
+                  <material id="9" ref="generic.aegs_hammerhead_int_mtl_base_grey_panels" />
+                  <material id="10" ref="generic.aegs_hammerhead_int_mtl_leather" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7109727" y="0.8978776" z="0.9845438" />
+              <center x="0.1673055" y="0.7756448" z="0.01574868" />
+            </size>
+            <size_raw>
+              <max x="0.5452142" y="0.8978776" z="0.7143428" />
+              <center x="0.001547039" y="0.7756448" z="-0.2544523" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpilotseat_seat_joystick2" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="pilotseat_seat_joystick2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_hammerhead_int_mtl_accents_yellow" />
+                  <material id="5" ref="generic.aegs_hammerhead_int_mtl_base_grey_panels" />
+                  <material id="6" ref="generic.aegs_hammerhead_int_mtl_leather" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2225911" y="0.1509137" z="0.3473964" />
+              <center x="0.5557203" y="0.8321048" z="0.5404347" />
+            </size>
+            <size_raw>
+              <max x="0.05683272" y="0.1509137" z="0.07719544" />
+              <center x="0.3899618" y="0.8321047" z="0.2702337" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpilotseat_seat_joystick_mount2" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="pilotseat_seat_joystick_mount2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_darks_grey_highgloss" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_decals_diff" />
+                  <material id="4" ref="generic.aegs_hammerhead_int_mtl_decals_diff_b" />
+                  <material id="5" ref="generic.aegs_hammerhead_int_mtl_base_grey_panels" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2396743" y="0.06710958" z="0.3485789" />
+              <center x="0.5820323" y="0.667266" z="0.5733436" />
+            </size>
+            <size_raw>
+              <max x="0.07391587" y="0.06710958" z="0.0783779" />
+              <center x="0.4162739" y="0.667266" z="0.3031426" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpilotseat_seat_screen_extenders2" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="pilotseat_seat_screen_extenders2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_darks_grey_highgloss" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_decals_diff" />
+                  <material id="4" ref="generic.aegs_hammerhead_int_mtl_decals_diff_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7539405" y="0.05871534" z="0.4379744" />
+              <center x="0.1670234" y="0.6270367" z="0.5852871" />
+            </size>
+            <size_raw>
+              <max x="0.5881821" y="0.05871534" z="0.1677734" />
+              <center x="0.001265019" y="0.6270366" z="0.3150862" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpilotseat_seat_throttle2" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="pilotseat_seat_throttle2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_hammerhead_int_mtl_accents_yellow" />
+                  <material id="5" ref="generic.aegs_hammerhead_int_mtl_base_grey_panels" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2280445" y="0.09725571" z="0.3389532" />
+              <center x="-0.2363383" y="0.7466103" z="0.557413" />
+            </size>
+            <size_raw>
+              <max x="0.06228608" y="0.09725571" z="0.06875221" />
+              <center x="-0.4020967" y="0.7466102" z="0.2872121" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseat_supportscreens2" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="seat_supportscreens2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_darks_grey_highgloss" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_decals_diff" />
+                  <material id="4" ref="generic.aegs_hammerhead_int_mtl_decals_diff_b" />
+                  <material id="5" ref="generic.aegs_hammerhead_int_mtl_base_grey_panels" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8824726" y="0.1618998" z="0.3156599" />
+              <center x="0.1673905" y="0.7465571" z="0.6975516" />
+            </size>
+            <size_raw>
+              <max x="0.7167142" y="0.1618998" z="0.04545887" />
+              <center x="0.001632154" y="0.7465571" z="0.4273507" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseat_throttle_mount2" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="seat_throttle_mount2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_hammerhead_int_mtl_decals_diff" />
+                  <material id="5" ref="generic.aegs_hammerhead_int_mtl_base_grey_panels" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2258426" y="0.07533002" z="0.3509162" />
+              <center x="-0.2346256" y="0.6760587" z="0.5793556" />
+            </size>
+            <size_raw>
+              <max x="0.06008422" y="0.07533002" z="0.08071522" />
+              <center x="-0.400384" y="0.6760586" z="0.3091546" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseatmount_piston_lower2" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="seatmount_piston_lower2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_base_grey_panels" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2204773" y="0.1839561" z="0.4567474" />
+              <center x="0.2058174" y="1.886869" z="-0.09910381" />
+            </size>
+            <size_raw>
+              <max x="0.05471893" y="0.1839561" z="0.1865463" />
+              <center x="0.04005899" y="1.886869" z="-0.3693048" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseatmount_piston_upper2" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="seatmount_piston_upper2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_metals_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2062507" y="0.2623963" z="0.5375111" />
+              <center x="0.2057972" y="2.098978" z="0.1180781" />
+            </size>
+            <size_raw>
+              <max x="0.04049227" y="0.2623963" z="0.2673101" />
+              <center x="0.04003878" y="2.098978" z="-0.1521229" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseatmount_support_012" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="seatmount_support_012">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_hammerhead_int_mtl_decals_diff" />
+                  <material id="5" ref="generic.aegs_hammerhead_int_mtl_decals_diff_b" />
+                  <material id="6" ref="generic.aegs_hammerhead_int_mtl_buttons" />
+                  <material id="7" ref="generic.aegs_hammerhead_int_mtl_linked_glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2723821" y="0.4147205" z="0.6779423" />
+              <center x="0.2432227" y="2.24916" z="0.5576414" />
+            </size>
+            <size_raw>
+              <max x="0.1066237" y="0.4147205" z="0.4077414" />
+              <center x="0.0774643" y="2.24916" z="0.2874404" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseatmount_support_022" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="seatmount_support_022">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_darks_grey_highgloss" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_decals_diff" />
+                  <material id="4" ref="generic.aegs_hammerhead_int_mtl_decals_diff_b" />
+                  <material id="5" ref="generic.aegs_hammerhead_int_mtl_accents_yellow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3516593" y="0.287832" z="1.080347" />
+              <center x="0.2829905" y="1.783855" z="0.1105794" />
+            </size>
+            <size_raw>
+              <max x="0.1859009" y="0.287832" z="0.8101459" />
+              <center x="0.1172321" y="1.783855" z="-0.1596216" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseatmount_support_rotation_012" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="seatmount_support_rotation_012">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_metals_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.187998" y="0.07256401" z="0.3427543" />
+              <center x="0.2049334" y="2.547209" z="0.2641995" />
+            </size>
+            <size_raw>
+              <max x="0.02223956" y="0.07256401" z="0.07255331" />
+              <center x="0.03917499" y="2.547209" z="-0.006001536" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseatmount_support_rotation_022" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="seatmount_support_rotation_022">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_metals_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1879982" y="0.07819557" z="0.3488651" />
+              <center x="0.2921828" y="1.974219" z="0.8177557" />
+            </size>
+            <size_raw>
+              <max x="0.02223979" y="0.07819557" z="0.07866408" />
+              <center x="0.1264244" y="1.974218" z="0.5475547" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseatmount_support_rotation_032" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="horizontal_rotation_pivot2">
+        <parts>
+          <part name="seatmount_support_rotation_032">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_metals_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1879982" y="0.072474" z="0.3426634" />
+              <center x="0.2907057" y="1.590211" z="-0.5917054" />
+            </size>
+            <size_raw>
+              <max x="0.02223978" y="0.072474" z="0.07246241" />
+              <center x="0.1249473" y="1.590211" z="-0.8619063" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<components>
+	<component name="dockingbay_aegs_bengal_inner" class="dockingbay">
+	<source geometry="extensions\aegs\assets\structures\dock\dockingbay_aegs_bengal_inner_data"/>
+  <layers>
+      <layer>
+        <lights>
+          <arealight name="ego_area" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="66" g="101" b="127" intensity="0.3343702" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="24.02804" y="14.32847" z="-129.0755" />
+              <quaternion qx="-0.009388422" qy="-0.03853279" qz="0.4212654" qw="-0.9060698" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="66" g="101" b="127" intensity="0.3343702" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="24.02804" y="14.32847" z="-147.3242" />
+              <quaternion qx="-0.009388422" qy="-0.03853279" qz="0.4212654" qw="-0.9060698" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area002" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="66" g="101" b="127" intensity="0.3343702" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="24.02804" y="14.32847" z="-166.3784" />
+              <quaternion qx="-0.009388422" qy="-0.03853279" qz="0.4212654" qw="-0.9060698" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area003" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="66" g="101" b="127" intensity="0.3343702" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="24.02804" y="14.32847" z="-183.4839" />
+              <quaternion qx="-0.009388422" qy="-0.03853279" qz="0.4212654" qw="-0.9060698" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area004" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="66" g="101" b="127" intensity="0.3343702" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="24.02804" y="14.32847" z="-202.6458" />
+              <quaternion qx="-0.009388422" qy="-0.03853279" qz="0.4212654" qw="-0.9060698" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area005" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="66" g="101" b="127" intensity="0.3343702" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-25.50681" y="14.32847" z="-202.4876" />
+              <quaternion qx="-0.4212655" qy="0.9060698" qz="-0.009388429" qw="-0.03853277" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area006" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="66" g="101" b="127" intensity="0.3343702" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-25.50682" y="14.32847" z="-184.2389" />
+              <quaternion qx="-0.4212655" qy="0.9060698" qz="-0.009388429" qw="-0.03853277" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area007" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="66" g="101" b="127" intensity="0.3343702" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-25.50682" y="14.32847" z="-165.1847" />
+              <quaternion qx="-0.4212655" qy="0.9060698" qz="-0.009388429" qw="-0.03853277" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area008" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="66" g="101" b="127" intensity="0.3343702" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-25.50682" y="14.32847" z="-148.0792" />
+              <quaternion qx="-0.4212655" qy="0.9060698" qz="-0.009388429" qw="-0.03853277" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area009" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="66" g="101" b="127" intensity="0.3343702" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-25.50682" y="14.32847" z="-128.9173" />
+              <quaternion qx="-0.4212655" qy="0.9060698" qz="-0.009388429" qw="-0.03853277" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+	<connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="dockingbay">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForaux_door" tags="part animation anim_floor nocollision  ">
+        <animations>
+					<animation name="dockingbay_idle" start="0" end="0"/>
+					<animation name="dockingbay_storingship_fastest" start="0" end="260" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_storing_ship_s_fastest"/>
+						</sounds>
+					</animation>
+					<animation name="dockingbay_retrievingship_fastest" start="260" end="580" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_retrieving_ship_s_fastest"/>
+						</sounds>
+					</animation>
+					<animation name="dockingbay_storingship_faster" start="0" end="260" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_storing_ship_s_faster"/>
+						</sounds>
+					</animation>
+					<animation name="dockingbay_retrievingship_faster" start="260" end="580" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_retrieving_ship_s_faster"/>
+						</sounds>
+					</animation>
+					<animation name="dockingbay_storingship" start="0" end="260" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_storing_ship_s"/>
+						</sounds>
+					</animation>
+					<animation name="dockingbay_retrievingship" start="260" end="580" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_retrieving_ship_s"/>
+						</sounds>
+					</animation>
+				</animations>
+        <offset>
+          <position x="-0.058256" y="-24.6269" z="-267.0629" />
+        </offset>
+        <parts>
+          <part name="aux_door">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_int_mtl_pom_decals" />
+                  <material id="2" ref="generic.rsi_bengal_int_mtl_trims_b_alpha" />
+                  <material id="3" ref="generic.rsi_bengal_int_mtl_hangar_asphalt" />
+                  <material id="4" ref="generic.rsi_bengal_int_mtl_interlocking_trims" />
+                  <material id="5" ref="generic.rsi_bengal_int_mtl_trims_b_metal" />
+                  <material id="6" ref="generic.rsi_bengal_int_mtl_panel_b_gray" />
+                  <material id="7" ref="generic.rsi_bengal_int_mtl_panel_b_gray_dark" />
+                  <material id="8" ref="generic.rsi_bengal_int_mtl_trim_a_gray" />
+                  <material id="9" ref="generic.rsi_bengal_int_mtl_panel_a_gray" />
+                  <material id="10" ref="generic.rsi_bengal_int_mtl_panel_a_gray_dark" />
+                  <material id="11" ref="generic.rsi_bengal_int_mtl_tileable_decal" />
+                  <material id="12" ref="generic.rsi_bengal_int_mtl_ext_pom_decal" />
+                  <material id="13" ref="generic.rsi_bengal_int_mtl_hangar_floor_decal_trims" />
+                  <material id="14" ref="generic.rsi_bengal_int_mtl_hangar_pom_decals" />
+                  <material id="15" ref="generic.rsi_bengal_int_mtl_ext_trim_a_dark" />
+                  <material id="16" ref="generic.rsi_bengal_int_mtl_ext_panel_a_gray_dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="33.64792" y="20.08182" z="6.465172" />
+              <center x="1.758337e-06" y="22.18928" z="165.2866" />
+            </size>
+            <size_raw>
+              <max x="33.64792" y="10.59493" z="6.465172" />
+              <center x="-9.536743e-07" y="31.67616" z="165.2866" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal" tags="part animation nocollision  ">
+        <animations>
+					<animation name="dockingbay_idle" start="0" end="0"/>
+					<animation name="dockingbay_storingship_fastest" start="0" end="260" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_storing_ship_s_fastest"/>
+						</sounds>
+					</animation>
+					<animation name="dockingbay_retrievingship_fastest" start="260" end="580" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_retrieving_ship_s_fastest"/>
+						</sounds>
+					</animation>
+					<animation name="dockingbay_storingship_faster" start="0" end="260" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_storing_ship_s_faster"/>
+						</sounds>
+					</animation>
+					<animation name="dockingbay_retrievingship_faster" start="260" end="580" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_retrieving_ship_s_faster"/>
+						</sounds>
+					</animation>
+					<animation name="dockingbay_storingship" start="0" end="260" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_storing_ship_s"/>
+						</sounds>
+					</animation>
+					<animation name="dockingbay_retrievingship" start="260" end="580" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_retrieving_ship_s"/>
+						</sounds>
+					</animation>
+				</animations>
+        <offset>
+          <position x="0" y="-1" z="0" />
+        </offset>
+        <parts>
+          <part name="part_animal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_wreck" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1" y="1" z="76" />
+              <center x="0" y="-1" z="-75" />
+            </size>
+            <size_raw>
+              <max x="1" y="1" z="1" />
+              <center x="0" y="-1" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrunway_tarmac" tags="part walk_dockingbay platformcollision collision">
+        <parts>
+          <part name="runway_tarmac">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_decal_diff" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_green_detail" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_engine_nopom" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_top_deck" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_top_deck_pom_decals" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_top_deck_markings" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="28.95742" y="0.3485355" z="167.722" />
+              <center x="-0.01607275" y="-0.2924519" z="-65.70111" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      
+      <connection name="Connection27" group="transporter_01 " tags="part  ">
+				<offset>
+          <position x="-26.3926" y="1.23" z="-94.07201" />
+          <quaternion qx="0" qy="-0.3420202" qz="0" qw="-0.9396927" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.part_main" name="part_main01"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection28" tags="part iklink  " parent="part_main01">
+				<offset>
+					<position x="1.907349E-06" y="5.153775E-02" z="3.353691E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals" name="detail_m_decals"/>
+				</parts>
+			</connection>
+			<connection name="Connection35" group="transporter_01 " tags="part detail_l  " parent="part_main01">
+				<offset>
+					<position x="1.42" y="0.03" z="0"/>
+					<quaternion qx="0" qy="0.8660254" qz="0" qw="-0.5" />
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_l_button" name="detail_l_button"/>
+				</parts>
+			</connection>
+			<connection name="Connection36" group="transporter_01 " tags="part  ">
+				<offset>
+					<position x="16.29162" y="-0.2695136" z="19.65658"/>
+					<quaternion qx="-0.5" qy="-0.5019301" qz="-0.4980627" qw="0.4999998"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.dummy_sound_animation" name="dummy_sound_animation"/>
+				</parts>
+			</connection>
+
+      <connection name="con_dockpos" tags="dockpos" parent="part_animal">
+        <offset>
+					<position x="0" y="1" z="0"/>
+				</offset>
+			</connection>
+			<connection name="con_dockpos_pivot" tags="dockpos_pivot" parent="part_animal">
+				<offset>
+					<position x="0" y="1" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_todock" tags="todock ">
+				<offset>
+					<position x="0" y="5" z="0"/>
+				</offset>
+			</connection>
+			<connection name="con_launchpos" tags="launchpos ">
+				<offset>
+					<position x="0" y="5" z="0"/>
+				</offset>
+			</connection>
+
+      
+
+    </connections>
+  </component>
+</components>

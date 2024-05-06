@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<icons>
+
+ <icon name="upgrade_*" texture="extensions\aegs\assets\fx\gui\textures\upgrades\*.dds" height="256" width="256"></icon>
+ <icon name="ship_*" texture="extensions\aegs\assets\fx\gui\textures\ships\*.tga" height="256" width="256"></icon>
+ 
+</icons>
+

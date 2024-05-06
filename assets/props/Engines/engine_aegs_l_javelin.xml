@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<components>
+	<component name="engine_aegs_l_javelin" class="engine">
+		<source geometry="extensions\AEGS\assets\props\Engines\engine_aegs_l_javelin_data" />
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionFordetail_s" tags="part ">
+        <parts>
+          <part name="detail_s">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_blackedout_mtl_decal_pom" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.9740909" y="0.8926778" z="3.310337" />
+              <center x="4.691239" y="2.43029" z="-12.58307" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfront_engine" tags="part ">
+        <parts>
+          <part name="front_engine">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_blackedout_mtl_Black_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="19.97617" y="9.485134" z="6.74213" />
+              <center x="0.003562927" y="-0.003342628" z="68.00027" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormain_engine" tags="part ">
+        <parts>
+          <part name="main_engine" wreck="main_engine-wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_blackedout_mtl_decal_text" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_decal_pom" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Black_Panel" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_engine_glow" />
+                  <material id="7" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="9" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="10" ref="generic.javelin_exterior_blackedout_mtl_Emissive_Alpha" />
+                  <material id="11" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="12" ref="generic.javelin_exterior_blackedout_mtl_Green_No_Panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="22.10071" y="11.63588" z="45.77575" />
+              <center x="0.003573895" y="-0.003343582" z="28.8474" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+       <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="12.77205" y="1.481803" z="15.54313" />
+              <center x="-0.08359933" y="-0.09290648" z="-19.73794" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrear_engine" tags="part ">
+        <parts>
+          <part name="rear_engine">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_blackedout_mtl_decal_pom" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_engine_glow" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Green_No_Panel" />
+                  <material id="7" ref="generic.javelin_exterior_blackedout_mtl_tech_trims" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_mid_trim" />
+                  <material id="9" ref="generic.javelin_exterior_blackedout_mtl_tech_trims_nopom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="19.29684" y="4.887196" z="19.83484" />
+              <center x="0.003578186" y="-0.003275394" z="1.538331" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrear_engine_fx" tags="part ">
+        <parts>
+          <part name="rear_engine_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="12.69044" y="1.892712" z="0.9160242" />
+              <center x="0.003577948" y="-0.003275514" z="-7.458846" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="con_engine_01" tags="engine large component aegs">
+			<offset/>
+		</connection>
+    </connections>
+	</component>
+</components>

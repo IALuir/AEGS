@@ -1,0 +1,1641 @@
+<?xml version="1.0"?>
+<components>
+	<component name="dockingbay_aegs_s" class="dockingbay">
+	<source geometry="extensions\aegs\assets\structures\dock\dockingbay_aegs_s_data"/>
+
+	<connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="dockingbay">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForbigdoor1" tags="part animation anim_fence nocollision">
+        <animations>
+					<animation name="dockingbay_closed" start="300" end="300"/>
+					<animation name="dockingbay_opening" start="300" end="600"/>
+					<animation name="dockingbay_open" start="0" end="0"/>
+					<animation name="dockingbay_closing" start="0" end="300"/>
+				</animations>
+        <offset>
+          <position x="37.70927" y="6.518466" z="-5.966822" />
+        </offset>
+        <parts>
+          <part name="bigdoor1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Black_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="4" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="5" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="6" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_trims" />
+                  <material id="8" ref="generic.javelin_exterior_mtl_internal_damage" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="20.85102" y="1.952634" z="29.19686" />
+              <center x="-20.5822" y="-1.658354" z="-0.2121391" />
+            </size>
+            <size_raw>
+              <max x="9.51189" y="1.952634" z="29.19686" />
+              <center x="-9.243063" y="-1.658354" z="-0.2121391" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbigdoor2" tags="part animation anim_fence nocollision" parent="bigdoor1">
+        <animations>
+					<animation name="dockingbay_closed" start="300" end="300"/>
+					<animation name="dockingbay_opening" start="300" end="600"/>
+					<animation name="dockingbay_open" start="0" end="0"/>
+					<animation name="dockingbay_closing" start="0" end="300"/>
+				</animations>
+        <offset>
+          <position x="8.8" y="0.6" z="0" />
+        </offset>
+        <parts>
+          <part name="bigdoor2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Black_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="4" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="5" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="6" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="8" ref="generic.javelin_exterior_mtl_Darker_Panel" />
+                  <material id="9" ref="generic.javelin_exterior_mtl_Dirt_Mark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="16.87398" y="3.422455" z="29.14517" />
+              <center x="-25.48397" y="-3.978722" z="-0.4381351" />
+            </size>
+            <size_raw>
+              <max x="12.42677" y="2.669205" z="29.14517" />
+              <center x="-21.03941" y="-3.225921" z="-0.4381349" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_add_light_a001" tags="part ">
+        <parts>
+          <part name="hg_add_light_a001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.867531" y="6.437704" z="29.91637" />
+              <center x="19.32791" y="-6.812458" z="-8.177687" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_add_light_b001" tags="part ">
+        <parts>
+          <part name="hg_add_light_b001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7311001" y="0.8513741" z="5.703701" />
+              <center x="29.2218" y="-5.89857" z="-12.3622" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_add_light_c001" tags="part ">
+        <parts>
+          <part name="hg_add_light_c001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2597055" y="0.4864316" z="4.257542" />
+              <center x="19.42665" y="-1.872174" z="12.7628" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_add_light_d005" tags="part ">
+        <parts>
+          <part name="hg_add_light_d005">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="7" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="21.86332" y="2.296025" z="16.66391" />
+              <center x="6.419856" y="-3.168993" z="12.8457" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_bulkead_1-5m001" tags="part ">
+        <parts>
+          <part name="hg_bulkead_1-5m001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.011677" y="7.643374" z="30.18923" />
+              <center x="20.94217" y="-6.268332" z="-8.174696" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_bulkhead_075m_a001" tags="part ">
+        <parts>
+          <part name="hg_bulkhead_075m_a001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.674523" y="8.187502" z="9.125012" />
+              <center x="21.52839" y="-6.187456" z="13.6378" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_bulkhead_075m_b001" tags="part ">
+        <parts>
+          <part name="hg_bulkhead_075m_b001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.47923" y="7.875001" z="21.0626" />
+              <center x="21.47368" y="-6.499958" z="-18.04969" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_bulkhead_1m_a001" tags="part ">
+        <parts>
+          <part name="hg_bulkhead_1m_a001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.062521" y="8.249924" z="37.8125" />
+              <center x="16.14041" y="-6.124882" z="-5.174694" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_bulkhead_1m_b001" tags="part ">
+        <parts>
+          <part name="hg_bulkhead_1m_b001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.812501" y="8.249866" z="21.68764" />
+              <center x="24.39041" y="-6.125093" z="8.825304" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_bulkhead_1m_c001" tags="part ">
+        <parts>
+          <part name="hg_bulkhead_1m_c001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="7" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.187498" y="3.887501" z="0.5001373" />
+              <center x="22.01541" y="-10.48746" z="12.5128" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_bulkhead_1m_custom" tags="part ">
+        <parts>
+          <part name="hg_bulkhead_1m_custom">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.942509" y="2.312498" z="37.8125" />
+              <center x="4.515411" y="-0.1874559" z="-5.174694" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_bulkhead_1m_d001" tags="part ">
+        <parts>
+          <part name="hg_bulkhead_1m_d001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.937521" y="6.437422" z="37.8125" />
+              <center x="4.51541" y="-7.937384" z="-5.174694" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_crane_arm_a001" tags="part ">
+        <parts>
+          <part name="hg_crane_arm_a001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8506117" y="0.7041534" z="4.761248" />
+              <center x="17.20286" y="-4.185154" z="-12.76068" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_crane_arm_b001" tags="part ">
+        <parts>
+          <part name="hg_crane_arm_b001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.54039" y="0.2956333" z="5.874981" />
+              <center x="17.20259" y="-3.127877" z="-7.192543" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_crane_arm_joint001" tags="part ">
+        <parts>
+          <part name="hg_crane_arm_joint001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7640915" y="0.4277477" z="0.7640934" />
+              <center x="17.20259" y="-3.354957" z="-10.69425" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_crane_arms_up_a001" tags="part ">
+        <parts>
+          <part name="hg_crane_arms_up_a001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.359043" y="0.7488022" z="5.029493" />
+              <center x="25.70175" y="-1.870495" z="-12.3622" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_crane_arms_up_b001" tags="part ">
+        <parts>
+          <part name="hg_crane_arms_up_b001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.007883" y="0.8890963" z="5.104408" />
+              <center x="26.05297" y="-1.875907" z="-12.36219" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_crane_base001" tags="part ">
+        <parts>
+          <part name="hg_crane_base001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.054015" y="0.8315372" z="16.60267" />
+              <center x="23.00688" y="-2.09438" z="-12.36219" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_crane_hook001" tags="part ">
+        <parts>
+          <part name="hg_crane_hook001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4492321" y="1.109187" z="1.372009" />
+              <center x="18.56075" y="-4.975423" z="-15.5672" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_crane_hook_base001" tags="part ">
+        <parts>
+          <part name="hg_crane_hook_base001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.388784" y="0.6062497" z="0.499939" />
+              <center x="17.64867" y="-3.982796" z="-15.56761" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_elevator001" tags="part animation walk_dockingbay anim_floor collision  ">
+				<animations>
+					<animation name="dockingbay_fence_closed" start="0" end="0"/>
+					<animation name="dockingbay_fence_opening" start="0" end="300"/>
+					<animation name="dockingbay_fence_open" start="300" end="300"/>
+					<animation name="dockingbay_fence_closing" start="300" end="600"/>
+				</animations>
+        <offset>
+          <position x="0" y="-0" z="0" />
+        </offset>
+        <parts>
+          <part name="hg_elevator001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="6" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="8" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="9" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="10" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="11" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="12" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="13" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="14" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="17.17492" y="8.853581" z="29.30818" />
+              <center x="-1.355637" y="-8.408266" z="-5.987116" />
+            </size>
+            <size_raw>
+              <max x="17.17492" y="3.103582" z="29.30818" />
+              <center x="-1.355637" y="-2.659125" z="-5.987116" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_ev_shaft001" tags="part ">
+        <parts>
+          <part name="hg_ev_shaft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.618689" y="4.437498" z="16" />
+              <center x="-18.67841" y="-9.687457" z="-7.612191" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_ev_shaft_top001" tags="part ">
+        <parts>
+          <part name="hg_ev_shaft_top001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.704931" y="2.401033" z="16.17172" />
+              <center x="-18.59216" y="-2.848925" z="-7.612185" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_ev_support001" tags="part " parent="hg_elevator001">
+        <parts>
+          <part name="hg_ev_support001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="7" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="8" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="9" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="17.26857" y="5.183237" z="16.98604" />
+              <center x="-1.628079" y="-7.433202" z="-7.612191" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_025m001" tags="part ">
+        <parts>
+          <part name="hg_floor_025m001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.749999" y="0.2250133" z="33.75" />
+              <center x="10.32791" y="-13.64996" z="-5.487194" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_1-5m_a001" tags="part ">
+        <parts>
+          <part name="hg_floor_1-5m_a001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.375" y="0.2250133" z="33.75001" />
+              <center x="11.45291" y="-13.64996" z="-5.4872" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_1-5m_b001" tags="part ">
+        <parts>
+          <part name="hg_floor_1-5m_b001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.50001" y="0.2250438" z="33.75001" />
+              <center x="12.32791" y="-13.64991" z="-5.487198" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_1m_a001" tags="part ">
+        <parts>
+          <part name="hg_floor_1m_a001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="7" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="8" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.874998" y="0.236763" z="33.75" />
+              <center x="10.95291" y="-13.63819" z="-5.487196" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_1m_b001" tags="part ">
+        <parts>
+          <part name="hg_floor_1m_b001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="7" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="8" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.250014" y="0.236763" z="33.75" />
+              <center x="11.57789" y="-13.63819" z="-5.487196" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_1m_c001" tags="part ">
+        <parts>
+          <part name="hg_floor_1m_c001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.750007" y="0.2250133" z="31.37501" />
+              <center x="11.0779" y="-13.64996" z="-3.112204" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_1m_d002" tags="part ">
+        <parts>
+          <part name="hg_floor_1m_d002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.999997" y="0.2250438" z="2.374994" />
+              <center x="12.82792" y="-13.64991" z="25.88782" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_3m001" tags="part ">
+        <parts>
+          <part name="hg_floor_3m001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="7" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="8" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="10.37499" y="0.2250438" z="30.87501" />
+              <center x="9.452918" y="-13.64991" z="-8.362188" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_a001" tags="part ">
+        <parts>
+          <part name="hg_floor_a001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.72407" y="0.5000763" z="36.63564" />
+              <center x="12.05198" y="-13.74989" z="-6.549697" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_cargo_a001" tags="part ">
+        <parts>
+          <part name="hg_floor_cargo_a001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="7" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="8" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="9" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="10" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.222604" y="0.2311773" z="10.95651" />
+              <center x="24.80051" y="-13.64378" z="-8.65579" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_cargo_b001" tags="part ">
+        <parts>
+          <part name="hg_floor_cargo_b001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.064608" y="0.2350535" z="4.375105" />
+              <center x="23.64253" y="-13.63989" z="-8.487196" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_cargo_c001" tags="part ">
+        <parts>
+          <part name="hg_floor_cargo_c001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="7" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="8" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.312501" y="1.037608" z="3.280033" />
+              <center x="24.89041" y="-14.46235" z="-0.8621973" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_corner" tags="part ">
+        <parts>
+          <part name="hg_floor_corner">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.875006" y="0.2250438" z="33.75001" />
+              <center x="17.95292" y="-13.64991" z="-5.48719" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_decal_01001" tags="part ">
+        <parts>
+          <part name="hg_floor_decal_01001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4217653" y="0" z="0.7833481" />
+              <center x="20.32791" y="-13.42496" z="-5.987194" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_decal_02001" tags="part ">
+        <parts>
+          <part name="hg_floor_decal_02001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4217653" y="0" z="0.9245586" />
+              <center x="20.32791" y="-13.42496" z="-9.878405" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_end001" tags="part ">
+        <parts>
+          <part name="hg_floor_end001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8124952" y="0.217597" z="1.250105" />
+              <center x="19.06542" y="-13.65736" z="29.26291" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_end_l001" tags="part ">
+        <parts>
+          <part name="hg_floor_end_l001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="7" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.312541" y="0.412488" z="1.6875" />
+              <center x="-1.23456" y="-13.83746" z="-37.54969" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_end_r001" tags="part ">
+        <parts>
+          <part name="hg_floor_end_r001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="7" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3125401" y="0.412488" z="1.6875" />
+              <center x="2.015436" y="-13.83746" z="26.5753" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_trim_a001" tags="part ">
+        <parts>
+          <part name="hg_floor_trim_a001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.385005" y="0.3626208" z="1.687497" />
+              <center x="9.067916" y="-13.88734" z="23.2003" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_trim_b001" tags="part ">
+        <parts>
+          <part name="hg_floor_trim_b001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4033332" y="0.3625598" z="27.5625" />
+              <center x="16.04959" y="-13.8874" z="-6.049694" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_floor_trim_c001" tags="part ">
+        <parts>
+          <part name="hg_floor_trim_c001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.000005" y="0.3626213" z="1.125118" />
+              <center x="7.452916" y="-13.88734" z="-34.7373" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_shield_light001" tags="part ">
+        <parts>
+          <part name="hg_shield_light001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="16.53544" y="2.129664" z="29.18761" />
+              <center x="-1.502244" y="0.7386978" z="-6.091013" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_wall_a001" tags="part ">
+        <parts>
+          <part name="hg_wall_a001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="7" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="8" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="9" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.586182" y="3.887594" z="32.81252" />
+              <center x="22.16408" y="-10.48755" z="-3.299696" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_wall_b001" tags="part ">
+        <parts>
+          <part name="hg_wall_b001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.12501" y="3.887594" z="3.517643" />
+              <center x="10.70291" y="-10.48755" z="-42.50482" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_wall_corner_left001" tags="part ">
+        <parts>
+          <part name="hg_wall_corner_left001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.761125" y="7.218811" z="9.148472" />
+              <center x="-11.18128" y="-7.156147" z="-32.76067" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_wall_corner_right001" tags="part ">
+        <parts>
+          <part name="hg_wall_corner_right001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="7" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="8" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="9" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.32467" y="7.245159" z="11.62696" />
+              <center x="-9.621749" y="-7.129833" z="20.0148" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_wall_crane" tags="part ">
+        <parts>
+          <part name="hg_wall_crane">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.002503" y="4.125" z="7.249998" />
+              <center x="23.05836" y="-2.624958" z="-12.3622" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_wall_d001" tags="part ">
+        <parts>
+          <part name="hg_wall_d001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="7" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="8" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="9" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.38192" y="3.887526" z="7.250008" />
+              <center x="30.58483" y="-10.48748" z="-12.36219" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_wall_end_a001" tags="part ">
+        <parts>
+          <part name="hg_wall_end_a001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="14.28221" y="8.249875" z="38.06269" />
+              <center x="16.67073" y="-6.125093" z="-7.049513" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_wall_end_b001" tags="part ">
+        <parts>
+          <part name="hg_wall_end_b001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.437505" y="7.874999" z="0.2500381" />
+              <center x="27.39042" y="-6.499964" z="2.637707" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_wall_lift_b001" tags="part ">
+        <parts>
+          <part name="hg_wall_lift_b001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.941254" y="7.874999" z="3.750004" />
+              <center x="28.27186" y="-6.49996" z="-0.8621976" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_wall_shaft001" tags="part ">
+        <parts>
+          <part name="hg_wall_shaft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.829369" y="5.733846" z="7.000053" />
+              <center x="-19.09663" y="-8.608808" z="-7.612225" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_wall_up_a002" tags="part ">
+        <parts>
+          <part name="hg_wall_up_a002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.02393" y="4.0625" z="6.75" />
+              <center x="20.9673" y="-2.687459" z="-29.3622" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_wall_up_b001" tags="part ">
+        <parts>
+          <part name="hg_wall_up_b001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.023922" y="4.4375" z="3.374999" />
+              <center x="20.9673" y="-2.312459" z="26.1378" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_wall_up_c001" tags="part ">
+        <parts>
+          <part name="hg_wall_up_c001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.125" y="3.437392" z="0.4625092" />
+              <center x="10.70291" y="-3.312575" z="-41.19968" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_wall_window_a001" tags="part ">
+        <parts>
+          <part name="hg_wall_window_a001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.442933" y="4.062501" z="3.875004" />
+              <center x="21.38632" y="-2.687458" z="9.13781" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_wall_window_b001" tags="part ">
+        <parts>
+          <part name="hg_wall_window_b001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="2" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="3" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="4" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="5" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                  <material id="6" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.442934" y="4.062501" z="3.375" />
+              <center x="21.38632" y="-2.687458" z="16.13779" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwall_crn_l_glow01001" tags="part ">
+        <parts>
+          <part name="wall_crn_l_glow01001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.08032417" y="0.0233469" z="0.08032227" />
+              <center x="-15.08521" y="-13.88797" z="-31.30573" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwall_crn_l_glow02001" tags="part ">
+        <parts>
+          <part name="wall_crn_l_glow02001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.495932" y="0.0233469" z="1.49593" />
+              <center x="-11.91575" y="-13.88797" z="-34.47519" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwall_crn_l_glow03001" tags="part ">
+        <parts>
+          <part name="wall_crn_l_glow03001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.805425" y="0.0233469" z="0.8409996" />
+              <center x="-6.973848" y="-13.88797" z="-38.44466" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwall_crn_r_glow01001" tags="part ">
+        <parts>
+          <part name="wall_crn_r_glow01001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1136208" y="0.0233469" z="0" />
+              <center x="-1.409001" y="-13.90491" z="28.20628" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwall_crn_r_glow02001" tags="part ">
+        <parts>
+          <part name="wall_crn_r_glow02001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.453903" y="0.02334642" z="1.450132" />
+              <center x="-7.257358" y="-13.90491" z="23.7706" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwall_crn_r_glow03001" tags="part ">
+        <parts>
+          <part name="wall_crn_r_glow03001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.521519" y="0.02334642" z="1.522451" />
+              <center x="-12.7462" y="-13.90491" z="18.27405" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwall_crn_r_glow04001" tags="part ">
+        <parts>
+          <part name="wall_crn_r_glow04001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Javelin_interior_aegs_javeli" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.08032417" y="0.02334642" z="0.08032417" />
+              <center x="-16.59663" y="-13.90491" z="14.41757" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="con_dockpos" tags="dockpos" parent="hg_elevator001">
+				<offset>
+					<position x="0" y="0" z="10"/>
+				</offset>
+			</connection>
+			<connection name="con_dockpos_pivot" tags="dockpos_pivot" parent="hg_elevator001">
+				<offset>
+					<position x="0" y="0" z="10"/>
+				</offset>
+			</connection>
+      <connection name="launchpos" tags="launchpos" parent="hg_elevator001">
+        <offset>
+          <position x="0" y="10" z="10"/>
+        </offset>
+      </connection>
+      <connection name="todockpos" tags="todock" parent="hg_elevator001">
+        <offset>
+          <position x="0" y="10" z="10"/>
+        </offset>
+      </connection>
+
+      <connection name="Connection27" group="transporter_01 " tags="part  ">
+				<offset>
+					<position x="20.39102" y="-12.46575" z="21.25143" />
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.part_main" name="part_main01"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection28" tags="part iklink  " parent="part_main01">
+				<offset>
+					<position x="1.907349E-06" y="5.153775E-02" z="3.353691E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals" name="detail_m_decals"/>
+				</parts>
+			</connection>
+			<connection name="Connection29" group="transporter_01 " tags="part animation  ">
+				<offset>
+					<position x="19.23972" y="-12.4726" z="21.80323" />
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_left" name="anim_door_left"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection30" tags="part iklink  " parent="anim_door_left">
+				<offset>
+					<position x="-0.4329338" y="3.161669E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_left" name="detail_m_decals_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection31" tags="part nocollision iklink  " parent="anim_door_left">
+				<offset>
+					<position x="6.044197E-02" y="9.536743E-07" z="-2.479553E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_left" name="detail_m_light_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection32" group="transporter_01 " tags="part animation  ">
+				<offset>
+					<position x="19.23972" y="-12.47299" z="20.70913" />
+					<quaternion qx="6.181723E-08" qy="0.7071068" qz="6.181724E-08" qw="-0.7071067"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_right" name="anim_door_right"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection33" tags="part iklink  " parent="anim_door_right">
+				<offset>
+					<position x="0.4321251" y="3.553271E-03" z="-8.512115E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_right" name="detail_m_decals_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection34" tags="part nocollision iklink  " parent="anim_door_right">
+				<offset>
+					<position x="-6.109619E-02" y="3.925562E-04" z="-2.46048E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_right" name="detail_m_light_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection35" group="transporter_01 " tags="part detail_l  ">
+				<offset>
+					<position x="20.47592" y="-12.43934" z="22.46473" />
+					<quaternion qx="-0" qy="-1" qz="-0" qw="-3.139165E-07"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_l_button" name="detail_l_button"/>
+				</parts>
+			</connection>
+			<connection name="Connection36" group="transporter_01 " tags="part  ">
+				<offset>
+					<position x="19.50102" y="-11.32992" z="21.25173" />
+					<quaternion qx="-0.5" qy="-0.5019301" qz="-0.4980627" qw="0.4999998"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.dummy_sound_animation" name="dummy_sound_animation"/>
+				</parts>
+			</connection>
+
+    </connections>
+  </component>
+</components>

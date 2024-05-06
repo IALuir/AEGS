@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<components>
+	<component name="aegs_hammer_boost_fx" class="effectobject">
+		<source geometry="extensions\aegs\assets\fx\BoostFx\aegs_hammer_boost_fx_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="effectobject">
+				<offset/>
+			</connection>
+		<connection name="ConnectionForpart_animal_fx" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="14.78997" y="0.825608" z="4.078634" />
+              <center x="-48.69752" y="-0.7970726" z="-0.5608149" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx" tags="part ">
+        <parts>
+          <part name="part_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="15.35956" y="1.356277" z="0.09577203" />
+              <center x="13.40808" y="-0.02276516" z="0.0002211332" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+		</connections>
+	</component>
+</components>

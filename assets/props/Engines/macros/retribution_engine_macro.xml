@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="retribution_engine_macro" class="engine">
+    <component ref="retribution_engine" />
+    <properties>
+      <identification name="{996670,7}" basename="{996670,7}" shortname="{996670,7}" makerrace="terran" description="{996670,8}" mk="1" />
+      <boost duration="29" thrust="2" attack="10" release="0" />
+      <travel charge="30" thrust="38.8" attack="15" release="1.5" />
+      <thrust forward="9850" reverse="18605" />
+      <angular />
+      <hull max="80000" threshold="0.3" />
+      <effects>
+        <boosting ref="aegs_m_boost_fx_macro" />
+      </effects>
+      <sounds>
+        <enginedetail ref="enginedetail_ship_xl_01" />
+      </sounds>
+    </properties>
+  </macro>
+</macros>

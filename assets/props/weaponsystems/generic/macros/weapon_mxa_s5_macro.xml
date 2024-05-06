@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) at 25.11.2018_17-56-48-->
+<macros>
+  <macro name="weapon_mxa_s5_macro" class="weapon">
+    <component ref="weapon_mxa_s5" />
+    <properties>
+      <identification name="{996667,29}" basename="{996667,29}" shortname="{996667,29}" description="{996667,30}" mk="1" />
+      <bullet class="S5_mxa_macro" />
+      <heat overheat="10000" cooldelay="1.25" coolrate="2250" reenable="0" />
+      <rotationspeed max="47.4" />
+      <rotationacceleration max="94.8" />
+      <reload />
+      <hull max="500" hittable="1" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Volodymyr (192.168.3.68) on 2023-03-14 15:18:08-->
+<macros>
+  <macro name="room_aegs_javelin_room1_macro" class="dockingbay">
+    <component ref="javelin_room1" />
+    <properties>
+      <identification name="{996671,11}" />
+      <sound_environment ref="ar_corridor_narrow_01" />
+      <dock external="0" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-30 19:28:39 from Blender-->
+<components>
+  <component name="cutlass_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\cutlass_engine_data" />
+    <layers>
+      <layer>
+        <trailemitters>
+          <emitter name="trail_aegs_s_01" type="trail_aegs_s_01">
+            <offset>
+              <position x="0" y="0" z="-4.994337" />
+            </offset>
+          </emitter>
+        </trailemitters>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForcutlass_thruster_main_nozzle" tags="part ">
+        <offset>
+          <position x="-1.270273e-07" y="0" z="-0.4956702" />
+        </offset>
+        <parts>
+          <part name="cutlass_thruster_main_nozzle">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7283545" y="0.0005185008" z="0.744865" />
+              <center x="-2.488494e-06" y="-0.3501535" z="-1.013279e-06" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <offset>
+          <position x="0" y="0" z="-0.0769105" />
+        </offset>
+        <parts>
+          <part name="part_animal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.044094" y="1.044093" z="6.522075" />
+              <center x="-0.0112251" y="-1.811981e-05" z="-6.592255" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_cutlass">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

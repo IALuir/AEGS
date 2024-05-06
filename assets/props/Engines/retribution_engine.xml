@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-31 17:20:51 from Blender-->
+<components>
+  <component name="retribution_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\retribution_engine_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForanim" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="anim">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="189.5905" y="27.46352" z="172.074" />
+              <center x="-0.06020737" y="-40.78743" z="-209.8423" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx" tags="part ">
+        <parts>
+          <part name="part_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="310.4568" y="133.4159" z="231.6821" />
+              <center x="0" y="38.1903" z="183.4085" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main" wreck="part_main_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="generic.generic_p1_alphatexture" />
+                  <material id="3" ref="p1paint.paint_p1_decal_01" />
+                  <material id="4" ref="generic.generic_p1_hulltexture" />
+                  <material id="5" ref="generic.generic_p1_alphatexture" />
+                  <material id="6" ref="generic.generic_p1_hullpattern" />
+                  <material id="7" ref="p1paint.paint_p1_decal_01" />
+                  <material id="8" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="generic.generic_p1_alphatexture" />
+                  <material id="3" ref="p1paint.paint_p1_decal_01" />
+                  <material id="4" ref="generic.generic_p1_hulltexture" />
+                  <material id="5" ref="generic.generic_p1_alphatexture" />
+                  <material id="6" ref="generic.generic_p1_hullpattern" />
+                  <material id="7" ref="p1paint.paint_p1_decal_01" />
+                  <material id="8" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="generic.generic_p1_alphatexture" />
+                  <material id="3" ref="p1paint.paint_p1_decal_01" />
+                  <material id="4" ref="generic.generic_p1_hulltexture" />
+                  <material id="5" ref="generic.generic_p1_alphatexture" />
+                  <material id="6" ref="generic.generic_p1_hullpattern" />
+                  <material id="7" ref="p1paint.paint_p1_decal_01" />
+                  <material id="8" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="generic.generic_p1_alphatexture" />
+                  <material id="3" ref="p1paint.paint_p1_decal_01" />
+                  <material id="4" ref="generic.generic_p1_hulltexture" />
+                  <material id="5" ref="generic.generic_p1_alphatexture" />
+                  <material id="6" ref="generic.generic_p1_hullpattern" />
+                  <material id="7" ref="p1paint.paint_p1_decal_01" />
+                  <material id="8" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="316.699" y="122.6135" z="159.1974" />
+              <center x="8.392334e-05" y="29.27941" z="102.8305" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine extralarge component aegs_retribution">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

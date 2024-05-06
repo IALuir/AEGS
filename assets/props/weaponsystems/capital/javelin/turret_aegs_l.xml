@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-10-03 16:15:59 from Blender-->
+<components>
+  <component name="turret_aegs_l" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\javelin\turret_aegs_l_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionFordetail_gun" tags="forceoutline iklink nocollision part" parent="part_gun">
+        <parts>
+          <part name="detail_gun" wreck="detail_gun-wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_dull_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="6" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="16.11582" y="5.529695" z="11.63358" />
+              <center x="0" y="0.5317202" z="1.933807" />
+            </size>
+            <size_raw>
+              <max x="16.11582" y="5.529695" z="11.63358" />
+              <center x="0" y="0.5317204" z="1.933807" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_barrel" tags="forceoutline iklink nocollision part" parent="part_gun">
+        <parts>
+          <part name="part_barrel" wreck="part_barrel-wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_dull_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                  <material id="6" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="15.84032" y="4.010656" z="11.3001" />
+              <center x="0" y="0.5542147" z="13.87103" />
+            </size>
+            <size_raw>
+              <max x="15.84032" y="4.010656" z="11.3001" />
+              <center x="0" y="0.5542148" z="13.87103" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_gun" tags="forceoutline iklink nocollision part" parent="part_rotator">
+        <restrictions>
+					<restriction type="rotation_x"/>
+				</restrictions>
+        <parts>
+          <part name="part_gun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Brown_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_mtl_trims" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="10.88662" y="4.657331" z="4.284225" />
+              <center x="-0.05657482" y="0.3828473" z="-0.03752899" />
+            </size>
+            <size_raw>
+              <max x="10.88662" y="4.657331" z="4.284225" />
+              <center x="-0.05657458" y="0.3828473" z="-0.03752899" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_rotator" tags="iklink part" parent="part_socket">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="part_rotator" wreck="part_rotator-wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_mtl_Brown_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_mtl_trims" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_Black_Panel" />
+                  <material id="8" ref="generic.javelin_exterior_mtl_Dark_No_Panel" />
+                  <material id="9" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="10" ref="generic.javelin_exterior_mtl_Green_Panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.538111" y="4.913036" z="17.17249" />
+              <center x="6.961823e-05" y="0.2994776" z="-5.047768" />
+            </size>
+            <size_raw>
+              <max x="9.538111" y="4.913036" z="17.17249" />
+              <center x="6.985664e-05" y="0.2994776" z="-5.047768" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_socket" tags="part animation">
+        <animations>
+					<animation name="turret_inactive" start="200" end="200"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="81"/>
+					<animation name="turret_deactivating" start="110" end="200"/>
+					<animation name="gun_firing" start="90" end="100"/>
+				</animations>
+        <offset>
+          <position x="0" y="0" z="-65" />
+        </offset>
+        <parts>
+          <part name="part_socket">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_mtl_Dark_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_mtl_Black_No_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_mtl_Various_Materials" />
+                  <material id="6" ref="generic.javelin_exterior_mtl_internal_damage" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.211312" y="4.085034" z="42.68213" />
+              <center x="-0.09862375" y="-4.166386" z="29.6996" />
+            </size>
+            <size_raw>
+              <max x="7.211312" y="4.085034" z="10.18213" />
+              <center x="-0.09862375" y="-4.166385" z="-2.800404" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="con_laser_01" tags="laser" parent="part_barrel">
+        <offset>
+          <position x="14.68243" y="-2.4911" z="19.73995" />
+        </offset>
+      </connection>
+      <connection name="con_laser_02" tags="laser" parent="part_barrel">
+        <offset>
+          <position x="-14.6824" y="-2.4911" z="19.73995" />
+        </offset>
+      </connection>
+      <connection name="con_laser_03" tags="laser" parent="part_barrel">
+        <offset>
+          <position x="14.68243" y="3.411105" z="24.4483" />
+        </offset>
+      </connection>
+      <connection name="con_laser_04" tags="laser" parent="part_barrel">
+        <offset>
+          <position x="-14.6824" y="3.411105" z="24.4483" />
+        </offset>
+      </connection>
+      <connection name="con_turret_laser_l" tags="turret large component combat aegs_javelin">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-11 13:23:01 from Blender-->
+<components>
+  <component name="reclaimer_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\reclaimer_engine_data" />
+    <layers>
+      <layer>
+        <trailemitters>
+          <emitter name="trail_ship_m_blue" type="trail_ship_m_blue">
+            <offset>
+              <position x="0" y="0" z="-20" />
+            </offset>
+          </emitter>
+        </trailemitters>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForengine" tags="part ">
+        <parts>
+          <part name="engine">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_emissives_unlinked" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.298968" y="0.02760506" z="3.128816" />
+              <center x="0.0007791519" y="0.001430511" z="-0.01614571" />
+            </size>
+            <size_raw>
+              <max x="2.298968" y="0.02760506" z="3.128816" />
+              <center x="0.0007791519" y="0.001430511" z="-0.01614583" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine medium component aegs_reclaimer">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

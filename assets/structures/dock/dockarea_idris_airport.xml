@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-10-28 14:31:02 from Blender-->
+<components>
+  <component name="dockarea_idris_airport" class="dockarea">
+    <source geometry="extensions\aegs\assets\structures\dock\dockarea_aegs_benga_dockbaya_data" />
+    <layers>
+      <layer>
+        <waypoints>
+          <waypoint name="zroad000" tags="dockpath start speed_normal typenormal" group="group_01" x="0" y="-2" z="-200" qx="0" qy="0" qz="-0.7071068" qw="-0.7071068">
+            <links>
+              <link ref="" />
+              <link ref="zroad001" />
+            </links>
+          </waypoint>
+          <waypoint name="zroad001" tags="dockpath speed_normal typenormal" group="group_01" x="0" y="-2" z="-120" qx="0" qy="0" qz="-0.7071068" qw="-0.7071068">
+            <links>
+              <link ref="" />
+              <link ref="zroad002" />
+            </links>
+          </waypoint>
+          <waypoint name="zroad002" tags="dockpath speed_normal typenormal" group="group_01" x="0" y="-3" z="-2" qx="0" qy="0" qz="-0.7071068" qw="-0.7071068">
+            <links>
+              <link ref="" />
+              <link ref="zroad003" />
+            </links>
+          </waypoint>
+          <waypoint name="zroad003" tags="dockpath speed_normal typenormal" group="group_01" x="0" y="-3" z="40" qx="0" qy="0" qz="-0.7071068" qw="-0.7071068">
+            <links>
+              <link ref="" />
+              <link ref="zroad004" />
+            </links>
+          </waypoint>
+          <waypoint name="zroad004" tags="dockpath speed_normal typenormal" group="group_01" x="0" y="-3" z="70" qx="0" qy="0" qz="-0.7071068" qw="-0.7071068">
+            <links>
+              <link ref="" />
+              <link ref="zroad005" />
+            </links>
+          </waypoint>
+		      <waypoint name="zroad005" tags="dockpath speed_normal typenormal" group="group_01" x="0" y="-3" z="100" qx="0" qy="0" qz="-0.7071068" qw="-0.7071068">
+            <links>
+              <link ref="" />
+              <link ref="zroad006" />
+            </links>
+          </waypoint>
+          <waypoint name="zroad006" tags="dockpath end speed_normal typenormal" group="group_01" x="0" y="-3" z="150" qx="0" qy="0" qz="-0.7071068" qw="-0.7071068">
+            <links>
+            </links>
+          </waypoint>
+        </waypoints>
+      </layer>
+    </layers>
+		<connections>
+			<connection name="position" tags="position" value="1" />
+      <connection name="con_dockarea_01" tags="component dockarea " />
+
+      <connection name="Connection01" hidden="true" tags="part nocollision  ">
+				<offset/>
+				<parts>
+					<part name="part_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hullpattern"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.8157368" y="0.6352959" z="0.9177036"/>
+							<center x="0" y="-0.6352959" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+
+
+      <connection name="con_entrypos"  tags="entrypos">
+				<offset>
+					<position x="0" y="-3" z="-400"/>
+				</offset>
+			</connection>
+
+      <connection name="con_launchpos_01" group="group_01" tags="launchpos ">
+        <offset>
+          <position x="0" y="-3" z="-300" />
+        </offset>
+      </connection>
+      <connection name="con_todock_01" group="group_01" tags="todock ">
+        <offset>
+          <position x="0" y="-3" z="300"/>
+        </offset>
+      </connection>
+
+
+      <connection name="ConnectionFor_dockingbay_arg_s_01_macro001" group="group_01" tags="dockingbay">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+
+      
+	</connections>
+
+  </component>
+</components>

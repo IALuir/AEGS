@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Lino (192.168.3.56) at 08.04.2020_09-52-07-->
+<macros>
+  <macro name="antares_emp_macro" class="bullet">
+    <component ref="bullet_aegs_empt" />
+    <properties>
+      <ammunition value="1" reload="60" />
+      <bullet speed="1" lifetime="0.01" amount="1" barrelamount="1" influencelist="antares_emp" icon="weapon_cannon_mk1" timediff="0.007" angle="0.61" maxhits="1" ricochet="1" scale="0" attach="0" selfdestruct="1" plannedselfdestruct="1" selfdestructtimediff="0.12" selfdestructmintime="0.2" />
+      <reload rate="60" />
+      <heat initial="6000" value="4000" />
+      <damage value="1" repair="0" />
+      <areadamage value="1" range="2000" time="1" lifetime="3" />
+      <effects>
+        <impact ref="impact_aegs_antares_emp" />
+        <launch ref="muzzle_aegs_l_railgun_s10" />
+      </effects>
+      <weapon system="turret_midrange" />
+    </properties>
+  </macro>
+</macros>

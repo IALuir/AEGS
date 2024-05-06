@@ -1,0 +1,403 @@
+<?xml version="1.0"?>
+<components>
+	<component name="aegs_javelin_boost_fx" class="effectobject">
+		<source geometry="extensions\aegs\assets\fx\BoostFx\aegs_javelin_boost_fx_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="effectobject">
+				<offset/>
+			</connection>
+			<connection name="ConnectionForpart_animal_fx" tags="nocollision part detail_l textureanimation animation  ">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+				</animations>
+        <parts>
+          <part name="part_animal_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.647171" y="2.469672" z="12.9526" />
+              <center x="-96.70328" y="7.856507" z="-6.619806" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="2" value="0"/>
+									<key frame="4" value="0"/>
+									<key frame="6" value="0"/>
+									<key frame="8" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx001" tags="nocollision part detail_l textureanimation animation  ">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+				</animations>
+        <parts>
+          <part name="part_animal_fx001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.647171" y="2.469672" z="12.9526" />
+              <center x="96.31974" y="7.856507" z="-6.619806" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="2" value="0"/>
+									<key frame="4" value="0"/>
+									<key frame="6" value="0"/>
+									<key frame="8" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx002" tags="nocollision part detail_l textureanimation animation  ">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+				</animations>
+        <parts>
+          <part name="part_animal_fx002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.647171" y="2.469672" z="12.95261" />
+              <center x="70.5814" y="7.856509" z="-20.86313" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="2" value="0"/>
+									<key frame="4" value="0"/>
+									<key frame="6" value="0"/>
+									<key frame="8" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx003" tags="nocollision part detail_l textureanimation animation  ">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+				</animations>
+        <parts>
+          <part name="part_animal_fx003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.647171" y="2.469672" z="12.95261" />
+              <center x="70.5814" y="-9.343303" z="-20.86313" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="2" value="0"/>
+									<key frame="4" value="0"/>
+									<key frame="6" value="0"/>
+									<key frame="8" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx004" tags="nocollision part detail_l textureanimation animation  ">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+				</animations>
+        <parts>
+          <part name="part_animal_fx004">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.647171" y="2.469672" z="12.9526" />
+              <center x="96.31974" y="-9.353831" z="-6.619806" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="2" value="0"/>
+									<key frame="4" value="0"/>
+									<key frame="6" value="0"/>
+									<key frame="8" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx005" tags="nocollision part detail_l textureanimation animation  ">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+				</animations>
+        <parts>
+          <part name="part_animal_fx005">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.647171" y="2.469672" z="12.9526" />
+              <center x="-96.70328" y="-9.34122" z="-6.619806" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="2" value="0"/>
+									<key frame="4" value="0"/>
+									<key frame="6" value="0"/>
+									<key frame="8" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx006" tags="nocollision part detail_l textureanimation animation  ">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+				</animations>
+        <parts>
+          <part name="part_animal_fx006">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.647171" y="2.469672" z="12.95261" />
+              <center x="-71.01838" y="-9.34122" z="-20.86958" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="2" value="0"/>
+									<key frame="4" value="0"/>
+									<key frame="6" value="0"/>
+									<key frame="8" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx007" tags="nocollision part detail_l textureanimation animation  ">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+				</animations>
+        <parts>
+          <part name="part_animal_fx007">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.647171" y="2.469672" z="12.95261" />
+              <center x="-71.01838" y="7.80766" z="-20.86958" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="2" value="0"/>
+									<key frame="4" value="0"/>
+									<key frame="6" value="0"/>
+									<key frame="8" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx008" tags="nocollision part detail_l textureanimation animation  ">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+				</animations>
+        <parts>
+          <part name="part_animal_fx008">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.56499" y="7.528992" z="15.54313" />
+              <center x="-35.92132" y="21.43225" z="-78.00622" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="2" value="0"/>
+									<key frame="4" value="0"/>
+									<key frame="6" value="0"/>
+									<key frame="8" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx009" tags="nocollision part detail_l textureanimation animation  ">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+				</animations>
+        <parts>
+          <part name="part_animal_fx009">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.56499" y="7.528991" z="15.54313" />
+              <center x="35.95001" y="21.40901" z="-78.00622" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="2" value="0"/>
+									<key frame="4" value="0"/>
+									<key frame="6" value="0"/>
+									<key frame="8" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx010" tags="nocollision part detail_l textureanimation animation  ">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+				</animations>
+        <parts>
+          <part name="part_animal_fx010">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.56499" y="7.528991" z="15.54313" />
+              <center x="35.92134" y="-21.43228" z="-78.00625" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="2" value="0"/>
+									<key frame="4" value="0"/>
+									<key frame="6" value="0"/>
+									<key frame="8" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx011" tags="nocollision part detail_l textureanimation animation  ">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+				</animations>
+        <parts>
+          <part name="part_animal_fx011">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.56499" y="7.528991" z="15.54313" />
+              <center x="-35.95006" y="-21.40901" z="-78.00625" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="2" value="0"/>
+									<key frame="4" value="0"/>
+									<key frame="6" value="0"/>
+									<key frame="8" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+		</connections>
+	</component>
+</components>

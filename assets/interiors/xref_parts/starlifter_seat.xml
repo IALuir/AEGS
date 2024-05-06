@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-24 19:28:59 from Blender-->
+<components>
+  <component name="starlifter_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\starlifter_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForseat" tags="part animation iklink detail_xl chair platformcollision forceoutline walk_exclude walk_excludeplayer">
+        <animations>
+					<animation name="chair_default_inactive" start="1" end="1"/>
+					<animation name="chair_default_activating" start="1" end="80"/>
+					<animation name="chair_default_active" start="80" end="80"/>
+					<animation name="chair_default_deactivating" start="80" end="240"/>
+					<animation name="chair_paranid_inactive" start="1" end="1"/>
+					<animation name="chair_paranid_activating" start="1" end="80"/>
+					<animation name="chair_paranid_active" start="80" end="80"/>
+					<animation name="chair_paranid_deactivating" start="80" end="240"/>
+					<animation name="chair_default_to_paranid" start="1" end="1"/>
+					<animation name="chair_paranid_to_default" start="1" end="1"/>
+				</animations>
+        <parts>
+          <part name="seat">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.starlifter_int_mtl_Decal_Diffuse" />
+                  <material id="2" ref="generic.starlifter_int_mtl_POM_Opaque" />
+                  <material id="3" ref="generic.starlifter_int_mtl_Trim_Mechanical_Alpha" />
+                  <material id="4" ref="generic.starlifter_int_mtl_Trim_Mechanical" />
+                  <material id="5" ref="generic.starlifter_int_mtl_Trim_Leathers" />
+                  <material id="6" ref="generic.starlifter_int_mtl_Paint_White_Tile" />
+                  <material id="7" ref="generic.starlifter_int_mtl_Paint_Red_Tile" />
+                  <material id="8" ref="generic.starlifter_int_mtl_Paint_Dark_Tile" />
+                  <material id="9" ref="generic.starlifter_int_mtl_Metal_Dark_Tile" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.373062" y="0.7781435" z="1.863958" />
+              <center x="0" y="0.7592422" z="1.085591" />
+            </size>
+            <size_raw>
+              <max x="0.373062" y="0.7781435" z="0.613958" />
+              <center x="7.450581e-09" y="0.7592422" z="-0.164409" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseat2" tags="part animation ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation" parent="seat">
+        <parts>
+          <part name="seat2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.starlifter_int_mtl_Decal_Diffuse" />
+                  <material id="2" ref="generic.starlifter_int_mtl_POM_Opaque" />
+                  <material id="3" ref="generic.starlifter_int_mtl_Trim_Mechanical_Alpha" />
+                  <material id="4" ref="generic.starlifter_int_mtl_Trim_Mechanical" />
+                  <material id="5" ref="generic.starlifter_int_mtl_Trim_Leathers" />
+                  <material id="6" ref="generic.starlifter_int_mtl_Paint_White_Tile" />
+                  <material id="7" ref="generic.starlifter_int_mtl_Paint_Red_Tile" />
+                  <material id="8" ref="generic.starlifter_int_mtl_Paint_Dark_Tile" />
+                  <material id="9" ref="generic.starlifter_int_mtl_Metal_Dark_Tile" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.373062" y="0.7796037" z="1.862805" />
+              <center x="0" y="0.7607024" z="1.084715" />
+            </size>
+            <size_raw>
+              <max x="0.373062" y="0.7796037" z="0.6128045" />
+              <center x="7.450581e-09" y="0.7607024" z="-0.1652855" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

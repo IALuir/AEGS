@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-28 21:24:29 from Blender-->
+<components>
+  <component name="S10_bullet" class="bullet">
+    <source geometry="extensions\AEGS\assets\fx\weaponfx\S10_bullet_data" />
+    <layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="30" g="144" b="255" range="80" shadowrange="80" lighteffect="1" trigger="1" intensity="4" specularintensity="1">
+						<lightanimations/>
+						<offset/>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+    <connections>
+      <connection name="space" tags="bullet" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForpart_bullet" tags="part ">
+        <parts>
+          <part name="part_bullet">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="effects.bullets_fx_master" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5" y="5" z="56.25" />
+              <center x="0" y="-4.768372e-07" z="0" />
+            </size>
+            <size_raw>
+              <max x="5" y="5" z="56.25" />
+              <center x="0" y="-2.384186e-07" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx" tags="part ">
+        <parts>
+          <part name="part_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="effects.bullets_fx_master_complex" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="15.6103" y="15.6103" z="100.7947" />
+              <center x="0.02189231" y="-0.00821209" z="-2.841499" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection_Laser01" tags="laser">
+				<offset>
+					<position x="0" y="0" z="-10"/>
+				</offset>
+			</connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-31 16:26:39 from Blender-->
+<components>
+  <component name="retribution" class="ship_xl">
+    <source geometry="extensions\AEGS\assets\units\size_xl\retribution_data" />
+    <layers>
+			<layer>
+        <waypoints>
+				  <waypoint name="001" tags="sizeLevel1 typedock start dynamicmasstraffic " x="0" y="0" z="0" qx="0" qy="0" qz="-0.7071068" qw="-0.7071068">
+            <links>
+              <link ref="" />
+              <link ref="002" />
+            </links>
+          </waypoint>
+          <waypoint name="002" tags="closelink typenormal sizeLevel1 dynamicmasstraffic" x="0" y="0" z="1611.6476" qx="0" qy="0" qz="0" qw="-1">
+            <links>
+              <link ref="" />
+            </links>
+          </waypoint>
+          <waypoint name="003" tags="typenormal sizeLevel1 dynamicmasstraffic closelink" x="0" y="0" z="1611.6476" qx="0.7071068" qy="0.7071068" qz="0" qw="0">
+            <links>
+              <link ref="" />
+              <link ref="004" />
+            </links>
+          </waypoint>
+          <waypoint name="004" tags="sizeLevel1 typedock end dynamicmasstraffic" x="0" y="0" z="0" qx="0" qy="0" qz="0" qw="-1">
+            <links>
+              <link ref="" />
+            </links>
+          </waypoint>
+        </waypoints>
+			</layer>
+		</layers>
+    <connections>
+      <connection name="space" tags="ship_xl ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionFordetail" tags="detail_xl nocollision part ">
+        <parts>
+          <part name="detail">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_mid_nodetail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_girders" />
+                  <material id="5" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="306.1778" y="127.4104" z="1084.394" />
+              <center x="7.629395e-06" y="105.0564" z="579.9528" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordetail2" tags="detail_xl nocollision part ">
+        <parts>
+          <part name="detail2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hullpattern" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_light_nodetail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_mid_nodetail" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_dirt_decal" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_decal_diff" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="12" ref="generic.rsi_bengal_exterior_mtl_green_detail" />
+                  <material id="13" ref="p1terran.ter_p1_hullpattern_01_b" />
+                  <material id="14" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="15" ref="p2boron.bor_p2_fx_01" />
+                  <material id="16" ref="p1terran.ter_p1_fx_01" />
+                  <material id="17" ref="generic.generic_p1_fx" />
+                  <material id="18" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="247.5493" y="2.982434" z="113.0298" />
+              <center x="-3.814697e-06" y="-16.45813" z="257.36" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordetaile3" tags="detail_xxl part ">
+        <parts>
+          <part name="detaile3">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="307.4383" y="173.9729" z="1377.256" />
+              <center x="-7.629395e-06" y="50.26952" z="329.4327" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main" wreck="part_main_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_light_nodetail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_mid_nodetail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_dirt_decal" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_decal_diff" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_green_detail" />
+                  <material id="12" ref="generic.generic_p1_hullpattern" />
+                  <material id="13" ref="p1terran.ter_p1_hullpattern_01_b" />
+                  <material id="14" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="15" ref="p2boron.bor_p2_fx_01" />
+                  <material id="16" ref="p1terran.ter_p1_fx_01" />
+                  <material id="17" ref="generic.generic_p1_fx" />
+                  <material id="18" ref="p1effects.p1_gradient_colour" />
+                  <material id="19" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="20" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_light_nodetail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_mid_nodetail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_dirt_decal" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_decal_diff" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_green_detail" />
+                  <material id="12" ref="generic.generic_p1_hullpattern" />
+                  <material id="13" ref="p1terran.ter_p1_hullpattern_01_b" />
+                  <material id="14" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="15" ref="p2boron.bor_p2_fx_01" />
+                  <material id="16" ref="p1terran.ter_p1_fx_01" />
+                  <material id="17" ref="generic.generic_p1_fx" />
+                  <material id="18" ref="p1effects.p1_gradient_colour" />
+                  <material id="19" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="20" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_light_nodetail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_mid_nodetail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_dirt_decal" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_decal_diff" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_green_detail" />
+                  <material id="12" ref="generic.generic_p1_hullpattern" />
+                  <material id="13" ref="p1terran.ter_p1_hullpattern_01_b" />
+                  <material id="14" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="15" ref="p2boron.bor_p2_fx_01" />
+                  <material id="16" ref="p1terran.ter_p1_fx_01" />
+                  <material id="17" ref="generic.generic_p1_fx" />
+                  <material id="18" ref="p1effects.p1_gradient_colour" />
+                  <material id="19" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="20" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_light_nodetail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_mid_nodetail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_dirt_decal" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_decal_diff" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_green_detail" />
+                  <material id="12" ref="generic.generic_p1_hullpattern" />
+                  <material id="13" ref="p1terran.ter_p1_hullpattern_01_b" />
+                  <material id="14" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="15" ref="p2boron.bor_p2_fx_01" />
+                  <material id="16" ref="p1terran.ter_p1_fx_01" />
+                  <material id="17" ref="generic.generic_p1_fx" />
+                  <material id="18" ref="p1effects.p1_gradient_colour" />
+                  <material id="19" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="20" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="461.0844" y="197.4547" z="1921.689" />
+              <center x="-7.629395e-06" y="23.75629" z="-181.6832" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_id" tags="part nocollision detail_xxl">
+        <parts>
+          <part name="fx_id">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_idcode" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="18.37439" y="7.388435" z="112.6772" />
+              <center x="-157.2251" y="53.44799" z="804.2402" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_logo" tags="part nocollision detail_xxl">
+        <parts>
+          <part name="fx_logo">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_logo" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="13.6487" y="0" z="13.64871" />
+              <center x="0.2251246" y="169.253" z="-399.809" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_dockarea_arg_s_ship" tags="dockarea ">
+        <offset>
+          <position x="0" y="210.8" z="-814.371" />
+          <quaternion qx="0.03053852" qy="0" qz="0" qw="-0.9995336" />
+        </offset>
+      </connection>
+
+      <connection name="con_launchtube_arg_s_000" tags="dockingbay ">
+        <offset>
+          <position x="-136.3286" y="11.55492" z="258.1945" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="con_launchtube_arg_s_001" tags="dockingbay ">
+        <offset>
+          <position x="-136.3286" y="11.55492" z="344.1945" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="con_launchtube_arg_s_002" tags="dockingbay ">
+        <offset>
+          <position x="-136.3286" y="11.55492" z="170.1945" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="con_launchtube_arg_s_003" tags="dockingbay ">
+        <offset>
+          <position x="136.329" y="11.55492" z="170.1945" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="con_launchtube_arg_s_004" tags="dockingbay ">
+        <offset>
+          <position x="136.329" y="11.55492" z="344.1945" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="con_launchtube_arg_s_005" tags="dockingbay ">
+        <offset>
+          <position x="136.329" y="11.55492" z="258.1945" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="180" z="-410" />
+        </offset>
+			</connection>
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+          <position x="0" y="180" z="-410" />
+        </offset>
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="209.893" z="-483.37" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="-188.0728" y="-24.28644" z="-230.4538" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_02" tags="countermeasures ">
+				<offset>
+          <position x="-175.9801" y="-40.10776" z="-230.4538" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_03" tags="countermeasures ">
+				<offset>
+          <position x="-165.6309" y="-53.99744" z="-230.4538" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_04" tags="countermeasures ">
+				<offset>
+          <position x="188.073" y="-24.28644" z="-230.4538" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_05" tags="countermeasures ">
+				<offset>
+          <position x="175.98" y="-40.10776" z="-230.4538" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_06" tags="countermeasures ">
+				<offset>
+          <position x="165.631" y="-53.99744" z="-230.4538" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+
+      <connection name="con_storage01" tags="storage ">
+			</connection>
+      <connection name="con_shipstorage01" tags="dockingbay ">
+			</connection>
+      <connection name="con_shiptradernpc1" value="-1" tags="shiptrader ">
+				<offset>
+					<position x="-29.6497" y="-74.7341" z="244.288"/>
+				</offset>
+			</connection>
+      <connection name="con_shiptradernpc2" value="-1" tags="shiptrader ">
+				<offset>
+					<position x="29.6497" y="-74.7341" z="244.288"/>
+				</offset>
+			</connection>
+      <connection name="con_buildmodule" tags="buildmodule">
+			</connection>
+
+      <connection name="con_weapon_01" tags="weapon extralarge aegs_retribution">
+        <offset>
+          <position x="0" y="46.594" z="432.665" />
+        </offset>
+			</connection>
+
+      <connection name="con_engine_01" group="engine" tags="engine extralarge component aegs_retribution">
+				<offset>
+          <position x="0" y="0" z="-1203.75" />
+        </offset>
+			</connection>
+      <connection name="shield_l010" group="engine " tags="large shield hittable  standard ">
+        <offset>
+          <position x="-195.7678" y="110.1341" z="-1083.477" />
+        </offset>
+      </connection>
+      <connection name="shield_l011" group="engine " tags="large shield hittable  standard ">
+        <offset>
+          <position x="195.768" y="110.1341" z="-1083.477" />
+        </offset>
+      </connection>
+      <connection name="shield_l012" group="engine " tags="large shield hittable  standard ">
+        <offset>
+          <position x="224.34" y="110.1341" z="-1083.477" />
+        </offset>
+      </connection>
+      <connection name="shield_l013" group="engine " tags="large shield hittable  standard ">
+        <offset>
+          <position x="-224.34" y="110.1341" z="-1083.477" />
+        </offset>
+      </connection>
+
+      <connection name="shield_l" group="mid_s12 " tags="large shield hittable standard">
+        <offset>
+          <position x="-16.26789" y="-142.7117" z="-75.32069" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_l001" group="mid_s12 " tags="large shield hittable standard">
+        <offset>
+          <position x="16.2679" y="-142.7117" z="-75.32069" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_l002" group=" back_s12 " tags="large shield hittable standard">
+        <offset>
+          <position x="16.2679" y="-86.12762" z="-772.9451" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_l003" group=" back_s12 " tags="large shield hittable standard">
+        <offset>
+          <position x="-16.2679" y="-86.12762" z="-772.9451" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_l004" group="  left_sx " tags="large shield hittable standard">
+        <offset>
+          <position x="-321.89" y="36.18211" z="-808.2975" />
+          <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="shield_l005" group="  left_sx " tags="large shield hittable standard">
+        <offset>
+          <position x="-321.89" y="36.18211" z="-878.4927" />
+          <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="shield_l006" group="   right_sx " tags="large shield hittable standard">
+        <offset>
+          <position x="321.89" y="36.18211" z="-878.4927" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="shield_l007" group="   right_sx " tags="large shield hittable standard">
+        <offset>
+          <position x="321.89" y="36.18211" z="-808.2975" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="shield_l008" group="    right_s11 " tags="large shield hittable standard">
+        <offset>
+          <position x="204.4645" y="2.796278" z="-7.388367" />
+        </offset>
+      </connection>
+      <connection name="shield_l009" group="     left_s11 " tags="large shield hittable standard">
+        <offset>
+          <position x="-204.465" y="2.796278" z="-7.388367" />
+        </offset>
+      </connection>
+      <connection name="shield_l014" group="       bottom_s11 " tags="large shield hittable standard">
+        <offset>
+          <position x="-105.6603" y="-85.88967" z="-44.78851" />
+          <quaternion qx="0.7071068" qy="3.090862e-08" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_l015" group="       bottom_s11 " tags="large shield hittable standard">
+        <offset>
+          <position x="105.66" y="-85.88967" z="-44.78851" />
+          <quaternion qx="0.7071068" qy="3.090862e-08" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+      </connection>
+
+      <connection name="shield_m" group="front_top_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="96.14413" y="79.62772" z="1563.956" />
+        </offset>
+      </connection>
+      <connection name="shield_m001" group="front_top_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-96.1441" y="79.62772" z="1563.956" />
+        </offset>
+      </connection>
+      <connection name="shield_m002" group="front_top_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-102.7246" y="79.62772" z="1563.956" />
+        </offset>
+      </connection>
+      <connection name="shield_m003" group="front_top_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="102.725" y="79.62772" z="1563.956" />
+        </offset>
+      </connection>
+      <connection name="shield_m004" group=" front_bot_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="131.6791" y="-0.5997407" z="1663.644" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_m005" group=" front_bot_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="118.9958" y="-0.5997407" z="1663.644" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_m006" group=" front_bot_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-118.996" y="-0.5997407" z="1663.644" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_m007" group=" front_bot_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-132.546" y="-0.5997407" z="1663.644" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_m008" group="  right_top_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="209.1456" y="8.171551" z="736.578" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="shield_m009" group="  right_top_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="209.1456" y="8.171551" z="793.8727" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="shield_m010" group="   left_top_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-209.146" y="8.171551" z="793.8727" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="shield_m011" group="   left_top_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-209.146" y="8.171551" z="736.578" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="shield_m012" group="     mid_top_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-59.84745" y="68.67293" z="159.2073" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="shield_m013" group="     mid_top_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-59.84745" y="68.67293" z="145.9751" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="shield_m014" group="     mid_top_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="59.8475" y="68.67293" z="145.9751" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="shield_m015" group="     mid_top_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="59.8475" y="68.67293" z="159.2073" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="shield_m016" group="      rear_top_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-4.394311" y="210.1985" z="-637.9189" />
+        </offset>
+      </connection>
+      <connection name="shield_m017" group="      rear_top_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="4.39431" y="210.1985" z="-637.9189" />
+        </offset>
+      </connection>
+      <connection name="shield_m018" group="       rear_bot_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="65.89751" y="-86.08494" z="-820.8309" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_m019" group="       rear_bot_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-65.8975" y="-86.08494" z="-820.8309" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_m020" group="        mid_bot_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-65.8975" y="-170.0844" z="-188.6246" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_m021" group="        mid_bot_s10 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="65.8975" y="-170.0844" z="-188.6246" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_m022" group="         front_top_s5 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="149.2402" y="-21.57372" z="1318.907" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_m023" group="         front_top_s5 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="142.4016" y="-21.57372" z="1318.907" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_m024" group="         front_top_s5 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-142.402" y="-21.57372" z="1318.907" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_m025" group="         front_top_s5 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-150.0955" y="-21.57372" z="1318.907" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_m026" group="          front_mid_left_s5 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-181.8683" y="8.143417" z="1152.865" />
+        </offset>
+      </connection>
+      <connection name="shield_m027" group="           front_mid_right_s5 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="181.868" y="8.143417" z="1152.865" />
+        </offset>
+      </connection>
+      <connection name="shield_m028" group="            mid_top " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="59.91501" y="68.73809" z="152.347" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="shield_m029" group="              mid_top " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-59.915" y="68.73809" z="152.347" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="shield_m030" group="               rear_top_s5 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-48.9506" y="211.1431" z="-806.9661" />
+          <quaternion qx="0.02617695" qy="0" qz="0" qw="-0.9996573" />
+        </offset>
+      </connection>
+      <connection name="shield_m031" group="                rear_top_s5_2 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="48.9506" y="211.1431" z="-806.9661" />
+          <quaternion qx="0.02617695" qy="0" qz="0" qw="-0.9996573" />
+        </offset>
+      </connection>
+      <connection name="shield_m032" group="                 rear_bot_s5 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="0" y="-86.10257" z="-856.7826" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_m033" group="                  mid_bot_s5 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-51.32445" y="-72.93675" z="254.1872" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_m034" group="                  mid_bot_s5 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="51.3244" y="-72.93675" z="254.1872" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_m035" group="                   front_bot_s5 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="98.53911" y="-43.38067" z="1027.846" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_m036" group="                   front_bot_s5 " tags="medium shield unhittable  standard">
+        <offset>
+          <position x="-98.5391" y="-43.38067" z="1027.846" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+
+      <connection name="turret_s10" group="front_top_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="100.1098" y="78.17352" z="1592.374" />
+        </offset>
+      </connection>
+      <connection name="turret_s10001" group="front_top_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="-100.11" y="78.17352" z="1592.374" />
+        </offset>
+      </connection>
+      <connection name="turret_s10002" group="front_top_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="-100.11" y="52.86201" z="1707.241" />
+        </offset>
+      </connection>
+      <connection name="turret_s10003" group="front_top_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="100.11" y="52.86201" z="1707.241" />
+        </offset>
+      </connection>
+      <connection name="turret_s10004" group=" front_bot_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="124.9489" y="1.546101" z="1688.055" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s10005" group=" front_bot_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="-124.949" y="1.546101" z="1688.055" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s10006" group=" front_bot_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="-179.9843" y="-19.98552" z="1325.989" />
+          <quaternion qx="0.7071068" qy="3.090862e-08" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s10007" group=" front_bot_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="179.984" y="-19.98552" z="1325.989" />
+          <quaternion qx="-0.7071068" qy="-3.090862e-08" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s10008" group="  right_top_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="215.859" y="6.100652" z="809.6444" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s10009" group="   left_top_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="-215.859" y="6.100652" z="809.6444" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s10010" group="  right_top_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="215.859" y="6.100652" z="721.4375" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s10011" group="   left_top_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="-215.859" y="6.100652" z="721.4375" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s10012" group="    mid_top_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="0" y="162.1049" z="-366.8817" />
+        </offset>
+      </connection>
+      <connection name="turret_s10013" group="    mid_top_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="0" y="209.1372" z="-676.4687" />
+        </offset>
+      </connection>
+      <connection name="turret_s10014" group="     rear_top_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="136.974" y="87.96915" z="-1259.085" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s10015" group="     rear_top_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="-136.974" y="87.96915" z="-1259.085" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s10016" group="      rear_bot_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="-63.46978" y="-29.53098" z="-1259.661" />
+          <quaternion qx="0.05233595" qy="-0.9986295" qz="2.287677e-09" qw="-4.365149e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s10017" group="      rear_bot_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="63.4698" y="-29.53098" z="-1259.661" />
+          <quaternion qx="0.05233595" qy="-0.9986295" qz="2.287677e-09" qw="-4.365149e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s10018" group="      rear_bot_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="81.78673" y="-84.55521" z="-815.031" />
+          <quaternion qx="-1" qy="-4.371139e-08" qz="-4.371139e-08" qw="0" />
+        </offset>
+      </connection>
+      <connection name="turret_s10019" group="      rear_bot_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="-81.7867" y="-84.55521" z="-815.031" />
+          <quaternion qx="-1" qy="-4.371139e-08" qz="-4.371139e-08" qw="0" />
+        </offset>
+      </connection>
+      <connection name="turret_s10020" group="       mid_bot_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="143.6314" y="-84.55521" z="-44.77038" />
+          <quaternion qx="-0.7071068" qy="-3.090862e-08" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s10021" group="       mid_bot_s10 " tags="turret large component combat aegs_retribution_s10">
+        <offset>
+          <position x="-143.631" y="-84.55521" z="-44.77038" />
+          <quaternion qx="0.7071068" qy="3.090862e-08" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+      </connection>
+
+      <connection name="turret_s11" group="right_s11 " tags="turret extralarge component combat aegs_retribution_l2x">
+        <offset>
+          <position x="256.4327" y="2.727499" z="566.1478" />
+        </offset>
+      </connection>
+      <connection name="turret_s11001" group="left_s11 " tags="turret extralarge component combat aegs_retribution_l2x">
+        <offset>
+          <position x="-256.433" y="2.727499" z="566.1478" />
+        </offset>
+      </connection>
+      <connection name="turret_s11002" group=" bottom_s11 " tags="turret extralarge component combat aegs_retribution_l2x">
+        <offset>
+          <position x="-125.5751" y="-36.9901" z="44.62949" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s11003" group=" bottom_s11 " tags="turret extralarge component combat aegs_retribution_l2x">
+        <offset>
+          <position x="125.575" y="-36.9901" z="44.62949" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      
+      <connection name="turret_s12" group="mid_s12 " tags="turret extralarge component combat aegs_bengal">
+        <offset>
+          <position x="0" y="-166.2623" z="-218.7456" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s12001" group="back_s12 " tags="turret extralarge component combat aegs_bengal">
+        <offset>
+          <position x="0" y="-119.4582" z="-520.1563" />
+          <quaternion qx="-1" qy="-4.371139e-08" qz="-4.371139e-08" qw="0" />
+        </offset>
+      </connection>
+
+      <connection name="turret_s13" group="left_sx " tags="turret extralarge component combat aegs_retribution_sx">
+        <offset>
+          <position x="-294.0586" y="-47.80085" z="-687.5665" />
+          <quaternion qx="0" qy="0" qz="-0.8829476" qw="-0.4694716" />
+        </offset>
+      </connection>
+      <connection name="turret_s13001" group="right_sx " tags="turret extralarge component combat aegs_retribution_sx">
+        <offset>
+          <position x="294.059" y="-47.80085" z="-687.5665" />
+          <quaternion qx="0" qy="0" qz="0.8829476" qw="-0.4694716" />
+        </offset>
+      </connection>
+
+      <connection name="turret_s5" group="front_top_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="63.99107" y="32.87959" z="1717.931" />
+        </offset>
+      </connection>
+      <connection name="turret_s5001" group="front_top_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-63.9911" y="32.87959" z="1717.93" />
+        </offset>
+      </connection>
+      <connection name="turret_s5002" group="front_top_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-162.6322" y="9.99857" z="1695.835" />
+        </offset>
+      </connection>
+      <connection name="turret_s5003" group="front_top_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="162.632" y="9.99857" z="1695.835" />
+        </offset>
+      </connection>
+      <connection name="turret_s5004" group="front_top_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="99.76975" y="76.71853" z="1429.701" />
+        </offset>
+      </connection>
+      <connection name="turret_s5005" group="front_top_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-99.7698" y="76.71853" z="1429.701" />
+        </offset>
+      </connection>
+      <connection name="turret_s5006" group=" front_mid_left_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-99.7698" y="76.71853" z="1085.636" />
+        </offset>
+      </connection>
+      <connection name="turret_s5007" group="  front_mid_right_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="99.7698" y="76.71853" z="1085.636" />
+        </offset>
+      </connection>
+      <connection name="turret_s5008" group="  front_mid_right_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="99.7698" y="76.71853" z="876.7878" />
+        </offset>
+      </connection>
+      <connection name="turret_s5009" group="   front_mid_left_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-99.7698" y="76.71853" z="876.7878" />
+        </offset>
+      </connection>
+      <connection name="turret_s5010" group="   front_mid_left_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-185.5392" y="10.0956" z="1399.188" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s5011" group="   front_mid_left_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-192.1097" y="10.0956" z="1280.676" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s5012" group="   front_mid_left_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-199.2607" y="10.0956" z="1080.681" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s5013" group="   front_mid_left_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-210.079" y="10.0956" z="950.9802" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s5014" group="    front_mid_right_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="210.079" y="10.0956" z="950.9802" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s5015" group="    front_mid_right_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="199.261" y="10.0956" z="1080.681" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s5016" group="   front_mid_left_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="192.11" y="10.0956" z="1280.676" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s5017" group="   front_mid_left_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="185.539" y="10.0956" z="1399.188" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s5018" group="    mid_top " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="146.9233" y="72.7114" z="215.9319" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s5019" group="    mid_top " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="143.0953" y="73.21856" z="298.2094" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s5020" group="    mid_top " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-143.095" y="73.21856" z="298.2094" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s5021" group="    mid_top " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-146.923" y="72.7114" z="215.9319" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s5022" group="    mid_top " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-55.24917" y="80.44179" z="357.5347" />
+        </offset>
+      </connection>
+      <connection name="turret_s5023" group="    mid_top " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="55.2492" y="80.44179" z="357.5347" />
+        </offset>
+      </connection>
+      <connection name="turret_s5024" group="     rear_top_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="47.61969" y="215.4304" z="-766.1697" />
+          <quaternion qx="0.0185099" qy="-0.7068645" qz="0.0185099" qw="-0.7068645" />
+        </offset>
+      </connection>
+      <connection name="turret_s5025" group="     rear_top_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-47.6197" y="215.4304" z="-766.1697" />
+          <quaternion qx="0.0185099" qy="0.7068645" qz="-0.0185099" qw="-0.7068645" />
+        </offset>
+      </connection>
+      <connection name="turret_s5026" group="     rear_top_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-47.6197" y="210.6596" z="-842.7664" />
+          <quaternion qx="0.0185099" qy="0.7068645" qz="-0.0185099" qw="-0.7068645" />
+        </offset>
+      </connection>
+      <connection name="turret_s5027" group="     rear_top_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="47.6197" y="210.6596" z="-842.7664" />
+          <quaternion qx="0.0185099" qy="-0.7068645" qz="0.0185099" qw="-0.7068645" />
+        </offset>
+      </connection>
+      <connection name="turret_s5028" group="      rear_top_s5_2 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="146.9733" y="91.81641" z="-1339.198" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s5029" group="      rear_top_s5_2 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-146.973" y="91.81641" z="-1339.198" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="turret_s5030" group="       rear_bot_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-166.7622" y="-106.0595" z="-991.1468" />
+          <quaternion qx="0.7071068" qy="3.090862e-08" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s5031" group="       rear_bot_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-166.7622" y="-106.0595" z="-952.4683" />
+          <quaternion qx="0.7071068" qy="3.090862e-08" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s5032" group="       rear_bot_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="166.762" y="-106.0595" z="-952.4683" />
+          <quaternion qx="-0.7071068" qy="-3.090862e-08" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s5033" group="       rear_bot_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="166.762" y="-106.0595" z="-991.1468" />
+          <quaternion qx="-0.7071068" qy="-3.090862e-08" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s5034" group="       rear_bot_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-20.88957" y="-87.98594" z="-858.0765" />
+          <quaternion qx="-1" qy="-4.371139e-08" qz="-4.371139e-08" qw="0" />
+        </offset>
+      </connection>
+      <connection name="turret_s5035" group="       rear_bot_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="20.8896" y="-87.98594" z="-858.0765" />
+          <quaternion qx="-1" qy="-4.371139e-08" qz="-4.371139e-08" qw="0" />
+        </offset>
+      </connection>
+      <connection name="turret_s5036" group="        mid_bot_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="22.81859" y="-144.8468" z="-34.31924" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s5037" group="        mid_bot_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-22.8186" y="-144.8468" z="-34.31924" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s5038" group="        mid_bot_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-51.5576" y="-74.88232" z="275.7408" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s5039" group="        mid_bot_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="51.5576" y="-74.88232" z="275.7408" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s5040" group="         front_bot_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="181.6795" y="-23.65211" z="1539.968" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s5041" group="         front_bot_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-181.68" y="-23.65211" z="1539.968" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s5042" group="         front_bot_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-56.06424" y="21.33319" z="1671.568" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s5043" group="         front_bot_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="56.0642" y="21.33319" z="1671.568" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s5044" group="         front_bot_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="97.89962" y="-45.35437" z="1047.194" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="turret_s5045" group="         front_bot_s5 " tags="turret medium component combat aegs_javelin_s5">
+        <offset>
+          <position x="-97.8996" y="-45.35437" z="1047.19" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+
+      
+      
+
+      <connection name="shield_xl" tags="extralarge shield standard ">
+        <offset>
+          <position x="-228.3432" y="2.86898" z="-130.2724" />
+        </offset>
+      </connection>
+      <connection name="shield_xl001" tags="extralarge shield standard ">
+        <offset>
+          <position x="228.343" y="2.86898" z="-130.2724" />
+        </offset>
+      </connection>
+      <connection name="shield_xl002" tags="extralarge shield standard ">
+        <offset>
+          <position x="164.7771" y="-21.36989" z="1450.45" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+      <connection name="shield_xl003" tags="extralarge shield standard ">
+        <offset>
+          <position x="-164.777" y="-21.36989" z="1450.45" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

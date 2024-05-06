@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="eclipse_missile_macro" class="turret">
+    <component ref="eclipse_missile" />
+    <properties>
+      <identification name="{996671,3}" basename="{996671,3}" shortname="{996671,3}" makerrace="terran" description="{996671,4}" mk="1" />
+      <ammunition tags="aegs_s9" />
+      <bullet class="missile_s9_argos_ix_macro" />
+      <reload />
+      <storage capacity="0" />
+      <hull hittable="0" integrated="1" />
+    </properties>
+  </macro>
+</macros>

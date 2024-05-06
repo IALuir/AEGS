@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-19 22:52:49 from Blender-->
+<components>
+  <component name="scorpius_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\scorpius_engine_data" />
+    <layers>
+      <layer>
+        <trailemitters>
+          <emitter name="trail_aegs_s_01" type="trail_aegs_s_01">
+            <offset>
+              <position x="0" y="0" z="-4.994337" />
+            </offset>
+          </emitter>
+        </trailemitters>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForpart_animal_fx" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4065965" y="0.1481804" z="2.176038" />
+              <center x="0.002408914" y="0.002990142" z="-1.092321" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx" tags="part ">
+        <parts>
+          <part name="fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.45" y="0.14" z="0.01000005" />
+              <center x="7.450581e-09" y="0" z="0.4574043" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_scorpius">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

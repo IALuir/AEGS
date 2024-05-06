@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="engine_kraken_engine_macro" class="engine">
+    <component ref="kraken_engine" />
+    <properties>
+      <identification name="{996670,3}" basename="{996670,3}" shortname="{996670,3}" makerrace="terran" description="{996670,4}" mk="1" />
+      <boost duration="29" thrust="2" attack="10" release="0" />
+      <travel charge="20" thrust="38" attack="16.5" release="1.5" />
+      <thrust forward="3575" reverse="6686" />
+      <angular />
+      <hull max="6000" threshold="0.3" integrated="0"/>
+      <effects>
+        <boosting ref="aegs_m_boost_fx_macro" />
+      </effects>
+      <sounds>
+        <enginedetail ref="enginedetail_ship_terran_l_xl_02" />
+      </sounds>
+    </properties>
+  </macro>
+</macros>

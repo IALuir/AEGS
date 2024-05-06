@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="mole_animations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		<cue name="mole_animations_start" instantiate="true">
+			<conditions>
+                <check_any>
+					<event_game_started />
+					<event_game_loaded />
+				</check_any>
+            </conditions>
+			<actions>
+				<create_group groupname="$Object_moleGroup"/>
+				<create_group groupname="$Object_moleGroup_turrets"/>
+			</actions>
+			<cues>
+				<cue name="mole_animations_start_01" instantiate="true" checkinterval="10s">
+					<actions>
+						<clear_group group="$Object_moleGroup_turrets"/>
+						<clear_group group="$Object_moleGroup"/>
+						<find_ship name="$Object_mole" macro="macro.mole_macro"  multiple="true" />
+						<do_for_each name="$ship" in="$Object_mole">
+							<add_to_group groupname="$Object_moleGroup" object="$ship"/>
+						</do_for_each>
+						<do_all exact="$Object_moleGroup.count" counter="$i">
+							<do_all exact="$Object_moleGroup.list.{$i}.turrets.all.count" counter="$j">
+								<add_to_group groupname="$Object_moleGroup_turrets" object="$Object_moleGroup.list.{$i}.turrets.all.list.{$j}"/>
+							</do_all>
+						</do_all>
+					</actions>
+				</cue>
+				<cue name="mole_animations_01" >
+					<conditions>
+						<event_weapon_fired group="$Object_moleGroup_turrets"/>
+					</conditions>
+					<actions>
+						<do_if value="$Object_moleGroup.list.{$i}.turrets.all.list.{$j}.mode == weaponmode.mining">
+							<trigger_animation object="event.object.parent" group="'right_turret'" trigger="activate_turret_hatch" />
+							<trigger_animation object="event.object.parent" group="'left_turret'" trigger="activate_turret_hatch" />
+						</do_if>
+						<do_else>
+							<trigger_animation object="event.object.parent" group="'right_turret'" trigger="deactivate_turret_hatch" />
+							<trigger_animation object="event.object.parent" group="'left_turret'" trigger="deactivate_turret_hatch" />
+						</do_else>
+					</actions>
+				</cue>
+			</cues>
+		</cue>
+	</cues>
+</mdscript>

@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-10-24 22:31:40 from Blender-->
+<components>
+  <component name="ship_aegs_l_bengal" class="ship_l">
+    <source geometry="extensions\AEGS\assets\units\size_l\ship_aegs_l_bengal_data" />
+    <layers>
+			<layer>
+        <waypoints>
+				  <waypoint name="001" tags="sizeLevel1 typedock start dynamicmasstraffic " x="0" y="0" z="0" qx="0" qy="0" qz="-0.7071068" qw="-0.7071068">
+            <links>
+              <link ref="" />
+              <link ref="002" />
+            </links>
+          </waypoint>
+          <waypoint name="002" tags="closelink typenormal sizeLevel1 dynamicmasstraffic" x="0" y="0" z="811.6476" qx="0" qy="0" qz="0" qw="-1">
+            <links>
+              <link ref="" />
+            </links>
+          </waypoint>
+          <waypoint name="003" tags="typenormal sizeLevel1 dynamicmasstraffic closelink" x="0" y="0" z="811.6476" qx="0.7071068" qy="0.7071068" qz="0" qw="0">
+            <links>
+              <link ref="" />
+              <link ref="004" />
+            </links>
+          </waypoint>
+          <waypoint name="004" tags="sizeLevel1 typedock end dynamicmasstraffic" x="0" y="0" z="0" qx="0" qy="0" qz="0" qw="-1">
+            <links>
+              <link ref="" />
+            </links>
+          </waypoint>
+
+          
+        </waypoints>
+			</layer>
+		</layers>
+    <connections>
+      <connection name="space" tags="ship_l ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForauxdoor" tags="part ">
+        <offset>
+          <position x="0" y="24.43542" z="170.3751" />
+        </offset>
+        <parts>
+          <part name="auxdoor">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_int_mtl_pom_decals" />
+                  <material id="2" ref="generic.rsi_bengal_int_mtl_trims_b_alpha" />
+                  <material id="3" ref="generic.rsi_bengal_int_mtl_hangar_asphalt" />
+                  <material id="4" ref="generic.rsi_bengal_int_mtl_interlocking_trims" />
+                  <material id="5" ref="generic.rsi_bengal_int_mtl_trims_b_metal" />
+                  <material id="6" ref="generic.rsi_bengal_int_mtl_panel_b_gray" />
+                  <material id="7" ref="generic.rsi_bengal_int_mtl_panel_b_gray_dark" />
+                  <material id="8" ref="generic.rsi_bengal_int_mtl_trim_a_gray" />
+                  <material id="9" ref="generic.rsi_bengal_int_mtl_panel_a_gray" />
+                  <material id="10" ref="generic.rsi_bengal_int_mtl_panel_a_gray_dark" />
+                  <material id="11" ref="generic.rsi_bengal_int_mtl_tileable_decal" />
+                  <material id="12" ref="generic.rsi_bengal_int_mtl_ext_pom_decal" />
+                  <material id="13" ref="generic.rsi_bengal_int_mtl_hangar_floor_decal_trims" />
+                  <material id="14" ref="generic.rsi_bengal_int_mtl_hangar_pom_decals" />
+                  <material id="15" ref="generic.rsi_bengal_int_mtl_ext_trim_a_dark" />
+                  <material id="16" ref="generic.rsi_bengal_int_mtl_ext_panel_a_gray_dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="33.64792" y="10.59493" z="6.465171" />
+              <center x="-9.536743e-07" y="7.24074" z="-5.08854" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbackdoor" tags="part ">
+        <offset>
+          <position x="-0.0533905" y="4.478331" z="-361.9778" />
+          <quaternion qx="0.000801617" qy="0.001736848" qz="1.326392e-06" qw="-0.9999982" />
+        </offset>
+        <parts>
+          <part name="backdoor">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_int_mtl_decals" />
+                  <material id="2" ref="generic.rsi_bengal_int_mtl_trim_b_gray" />
+                  <material id="3" ref="generic.rsi_bengal_int_mtl_hangar_wall_structure_01" />
+                  <material id="4" ref="generic.rsi_bengal_int_mtl_tiling_metal_dark_a" />
+                  <material id="5" ref="generic.rsi_bengal_int_mtl_panel_b_olive" />
+                  <material id="6" ref="generic.rsi_bengal_int_mtl_panel_b_olive_saturated" />
+                  <material id="7" ref="generic.rsi_bengal_int_mtl_pom_decals" />
+                  <material id="8" ref="generic.rsi_bengal_int_mtl_hangar_decal" />
+                  <material id="9" ref="generic.rsi_bengal_int_mtl_trims_a_olive" />
+                  <material id="10" ref="generic.rsi_bengal_int_mtl_panel_b_gray" />
+                  <material id="11" ref="generic.rsi_bengal_int_mtl_hangar_floor_b" />
+                  <material id="12" ref="generic.rsi_bengal_int_mtl_ext_light_grey_detail" />
+                  <material id="13" ref="generic.rsi_bengal_int_mtl_ext_mid_grey_detail" />
+                  <material id="14" ref="generic.rsi_bengal_int_mtl_ext_green_detail" />
+                  <material id="15" ref="generic.rsi_bengal_int_mtl_ext_pom_decal" />
+                  <material id="16" ref="generic.rsi_bengal_int_mtl_ext_trims_02_dark" />
+                  <material id="17" ref="generic.rsi_bengal_int_mtl_ext_trims_02" />
+                  <material id="18" ref="generic.rsi_bengal_int_mtl_trim_a_metal" />
+                  <material id="19" ref="generic.rsi_bengal_int_mtl_glows_light_linked" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="39.31983" y="15.84908" z="16.82926" />
+              <center x="-0.004849434" y="-1.499812" z="-2.241799" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbackdoor2" tags="part ">
+        <offset>
+          <position x="15.02324" y="-11.06754" z="-377.6006" />
+          <quaternion qx="-0.6591796" qy="-0.6598954" qz="0.2540424" qw="-0.2558962" />
+        </offset>
+        <parts>
+          <part name="backdoor2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_int_mtl_trim_b_gray" />
+                  <material id="2" ref="generic.rsi_bengal_int_mtl_ext_light_grey_detail" />
+                  <material id="3" ref="generic.rsi_bengal_int_mtl_ext_mid_grey_detail" />
+                  <material id="4" ref="generic.rsi_bengal_int_mtl_ext_pom_decal" />
+                  <material id="5" ref="generic.rsi_bengal_int_mtl_ext_trims_02_dark" />
+                  <material id="6" ref="generic.rsi_bengal_int_mtl_ext_trims_02" />
+                  <material id="7" ref="generic.rsi_bengal_int_mtl_panel_a_dark" />
+                  <material id="8" ref="generic.rsi_bengal_int_mtl_ext_decal_diff" />
+                  <material id="9" ref="generic.rsi_bengal_int_mtl_hangar_asphalt" />
+                  <material id="10" ref="generic.rsi_bengal_int_mtl_panel_b_olive" />
+                  <material id="11" ref="generic.rsi_bengal_int_mtl_hangar_decal" />
+                  <material id="12" ref="generic.rsi_bengal_int_mtl_trims_a_olive" />
+                  <material id="13" ref="generic.rsi_bengal_int_mtl_panel_b_gray" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.346239" y="39.3111" z="5.871546" />
+              <center x="1.133963" y="-15.02152" z="2.992194" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody" tags="part ">
+        <offset>
+          <position x="1e-05" y="0.221055" z="-0.000156" />
+        </offset>
+        <parts>
+          <part name="body">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_int_mtl_ext_trim_a_dark" />
+                  <material id="2" ref="generic.rsi_bengal_int_mtl_ext_panel_a_gray_dark" />
+                  <material id="3" ref="generic.rsi_bengal_int_mtl_grill" />
+                  <material id="4" ref="generic.rsi_bengal_int_mtl_rubber_floor" />
+                  <material id="5" ref="generic.rsi_bengal_int_mtl_internal_gubbins" />
+                  <material id="6" ref="generic.rsi_bengal_int_mtl_ceiling_greeble" />
+                  <material id="7" ref="generic.rsi_bengal_int_mtl_tiling_metal_dark_a" />
+                  <material id="8" ref="generic.rsi_bengal_int_mtl_trim_a_gray_dark" />
+                  <material id="9" ref="generic.rsi_bengal_int_mtl_hangar_wall_structure_01" />
+                  <material id="10" ref="generic.rsi_bengal_int_mtl_hangar_girders" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="136.0309" y="52.66077" z="326.6547" />
+              <center x="0.01693726" y="3.343688" z="260.7747" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody01" tags="part ">
+        <offset>
+          <position x="1e-05" y="0.221055" z="-0.000156" />
+        </offset>
+        <parts>
+          <part name="body01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_lights" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_dark_grey_blue_spec_nodetail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_girders" />
+                  <material id="5" ref="p1.cockpit_glass_outside_01" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_greeble_tiling" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trim_02_light" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_shields" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_green_detail" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_trims_02_dark" />
+                  <material id="12" ref="generic.rsi_bengal_exterior_mtl_engine_nopom" />
+                  <material id="13" ref="generic.rsi_bengal_exterior_mtl_dark_grey_nodetail" />
+                  <material id="14" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="15" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="16" ref="generic.rsi_bengal_exterior_mtl_internal_structure" />
+                  <material id="17" ref="generic.rsi_bengal_exterior_mtl_vent" />
+                  <material id="18" ref="generic.rsi_bengal_exterior_mtl_engine_ribbing" />
+                  <material id="19" ref="generic.rsi_bengal_exterior_mtl_top_deck" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="266.9692" y="173.605" z="492.3194" />
+              <center x="-0.1230774" y="-28.05887" z="95.72937" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody02" tags="part ">
+        <offset>
+          <position x="1e-05" y="0.221055" z="-0.000156" />
+        </offset>
+        <parts>
+          <part name="body02">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nopom" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_top_deck_pom_decals" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_top_deck_markings" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_panel_a" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_engine_nopom" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_engine_ribbing" />
+                  <material id="12" ref="generic.rsi_bengal_int_mtl_pom_decals" />
+                  <material id="13" ref="generic.rsi_bengal_int_mtl_trim_a_gray" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="218.075" y="45.34304" z="454.1194" />
+              <center x="-0.07526016" y="10.84886" z="76.81433" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody03" tags="part ">
+        <offset>
+          <position x="1e-05" y="0.221055" z="-0.000156" />
+        </offset>
+        <parts>
+          <part name="body03">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_mid_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_light_nodetail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_mid_nodetail" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_light_grey_flat" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_mid_grey_flat" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="12" ref="generic.rsi_bengal_exterior_mtl_decal_diff" />
+                  <material id="13" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="267.0406" y="173.8074" z="492.7317" />
+              <center x="-0.1230469" y="-28.14756" z="95.31705" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody04" tags="part ">
+        <offset>
+          <position x="1e-05" y="0.221055" z="-0.000156" />
+        </offset>
+        <parts>
+          <part name="body04">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_int_mtl_panel_a_olive" />
+                  <material id="2" ref="generic.rsi_bengal_int_mtl_panel_b_olive" />
+                  <material id="3" ref="generic.rsi_bengal_int_mtl_hangar_floor_b" />
+                  <material id="4" ref="generic.rsi_bengal_int_mtl_trim_b_gray" />
+                  <material id="5" ref="generic.rsi_bengal_int_mtl_hangar_wall_structure_02" />
+                  <material id="6" ref="generic.rsi_bengal_int_mtl_hangar_large_trims" />
+                  <material id="7" ref="generic.rsi_bengal_int_mtl_hangar_detail_pipes" />
+                  <material id="8" ref="generic.rsi_bengal_int_mtl_interlocking_trims" />
+                  <material id="9" ref="generic.rsi_bengal_int_mtl_panel_b_gray" />
+                  <material id="10" ref="generic.rsi_bengal_int_mtl_panel_a_gray" />
+                  <material id="11" ref="generic.rsi_bengal_int_mtl_panel_a_gray_dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="35.85773" y="12.48956" z="26.70931" />
+              <center x="-8.010864e-05" y="30.15489" z="164.6483" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbotdoor" tags="part ">
+        <offset>
+          <position x="0.06730501" y="6.662687" z="567.0302" />
+          <quaternion qx="-0.0001905831" qy="-0.9811617" qz="0.1931864" qw="-0.0009679483" />
+        </offset>
+        <parts>
+          <part name="botdoor">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_int_mtl_panel_b_olive" />
+                  <material id="2" ref="generic.rsi_bengal_int_mtl_trim_a_gray" />
+                  <material id="3" ref="generic.rsi_bengal_int_mtl_hangar_wall_structure_01" />
+                  <material id="4" ref="generic.rsi_bengal_int_mtl_hangar_wall_structure_02" />
+                  <material id="5" ref="generic.rsi_bengal_int_mtl_ext_light_grey_detail" />
+                  <material id="6" ref="generic.rsi_bengal_int_mtl_ext_mid_grey_detail" />
+                  <material id="7" ref="generic.rsi_bengal_int_mtl_ext_pom_decal" />
+                  <material id="8" ref="generic.rsi_bengal_int_mtl_ext_trims_02_dark" />
+                  <material id="9" ref="generic.rsi_bengal_int_mtl_ext_trims_02" />
+                  <material id="10" ref="generic.rsi_bengal_int_mtl_ext_mid_grey_flat" />
+                  <material id="11" ref="generic.rsi_bengal_int_mtl_pom_decals" />
+                  <material id="12" ref="generic.rsi_bengal_int_mtl_panel_b_olive_saturated" />
+                  <material id="13" ref="generic.rsi_bengal_int_mtl_trims_a_olive" />
+                  <material id="14" ref="generic.rsi_bengal_int_mtl_trim_b_gray" />
+                  <material id="15" ref="generic.rsi_bengal_int_mtl_hangar_large_trims" />
+                  <material id="16" ref="generic.rsi_bengal_int_mtl_trims_b_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="46.21667" y="3.4194" z="20.04844" />
+              <center x="-0.883399" y="-23.5991" z="7.512418" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcentraldoormech" tags="part ">
+        <offset>
+          <position x="-2.998679e-06" y="-10.2899" z="586.0389" />
+          <quaternion qx="-5e-07" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="centraldoormech">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_int_mtl_ext_mid_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_int_mtl_ext_green_detail" />
+                  <material id="3" ref="generic.rsi_bengal_int_mtl_ext_pom_decal" />
+                  <material id="4" ref="generic.rsi_bengal_int_mtl_ext_trims_02" />
+                  <material id="5" ref="generic.rsi_bengal_int_mtl_ext_mid_grey_flat" />
+                  <material id="6" ref="generic.rsi_bengal_int_mtl_trims_a_olive" />
+                  <material id="7" ref="generic.rsi_bengal_int_mtl_hangar_floor_b" />
+                  <material id="8" ref="generic.rsi_bengal_int_mtl_pom_decals" />
+                  <material id="9" ref="generic.rsi_bengal_int_mtl_panel_b_olive_saturated" />
+                  <material id="10" ref="generic.rsi_bengal_int_mtl_panel_b_gray_dark" />
+                  <material id="11" ref="generic.rsi_bengal_int_mtl_trim_b_gray" />
+                  <material id="12" ref="generic.rsi_bengal_int_mtl_hangar_large_trims" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="45.21417" y="3.475999" z="1.129436" />
+              <center x="0" y="2.899431" z="0.4016168" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortopdoor" tags="part ">
+        <offset>
+          <position x="7.247925e-05" y="19.41117" z="528.8751" />
+          <quaternion qx="-6.639957e-05" qy="5.4787e-06" qz="-3.81813e-07" qw="-1" />
+        </offset>
+        <parts>
+          <part name="topdoor">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_int_mtl_hangar_decal" />
+                  <material id="2" ref="generic.rsi_bengal_int_mtl_trims_a_olive" />
+                  <material id="3" ref="generic.rsi_bengal_int_mtl_ceiling_greeble" />
+                  <material id="4" ref="generic.rsi_bengal_int_mtl_panel_b_gray" />
+                  <material id="5" ref="generic.rsi_bengal_int_mtl_panel_b_gray_dark" />
+                  <material id="6" ref="generic.rsi_bengal_int_mtl_trim_a_gray" />
+                  <material id="7" ref="generic.rsi_bengal_int_mtl_trim_a_gray_dark" />
+                  <material id="8" ref="generic.rsi_bengal_int_mtl_trim_b_gray" />
+                  <material id="9" ref="generic.rsi_bengal_int_mtl_hangar_wall_structure_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="45.60512" y="12.54167" z="30.23716" />
+              <center x="0.02017117" y="-15.54017" z="27.49305" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortopdoor01" tags="part " parent="topdoor">
+        <offset>
+          <position x="9.313226e-10" y="-1.41561e-07" z="0" />
+          <quaternion qx="0" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="topdoor01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_int_mtl_ext_light_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_int_mtl_ext_mid_grey_detail" />
+                  <material id="3" ref="generic.rsi_bengal_int_mtl_ext_green_detail" />
+                  <material id="4" ref="generic.rsi_bengal_int_mtl_ext_pom_decal" />
+                  <material id="5" ref="generic.rsi_bengal_int_mtl_ext_trims_02_dark" />
+                  <material id="6" ref="generic.rsi_bengal_int_mtl_ext_trims_02" />
+                  <material id="7" ref="generic.rsi_bengal_int_mtl_ext_mid_grey_flat" />
+                  <material id="8" ref="generic.rsi_bengal_int_mtl_pom_decals" />
+                  <material id="9" ref="generic.rsi_bengal_int_mtl_tiling_metal_dark_a" />
+                  <material id="10" ref="generic.rsi_bengal_int_mtl_panel_b_olive" />
+                  <material id="11" ref="generic.rsi_bengal_int_mtl_panel_b_olive_saturated" />
+                  <material id="12" ref="generic.rsi_bengal_int_mtl_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="45.29394" y="12.25876" z="29.39827" />
+              <center x="0.01553822" y="-14.77569" z="28.34768" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="66.93279" z="195.4281" />
+        </offset>
+			</connection>
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+          <position x="0" y="66.93279" z="195.4281" />
+        </offset>
+			</connection>
+
+      <connection name="con_engine_01" group="group_back_engine" tags="engine extralarge component bengal">
+				<offset>
+					<position x="0" y="0" z="-223.89"/>
+				</offset>
+			</connection>
+      <connection name="con_shieldgen_001" group="group_back_engine  " tags="large shield hittable  standard ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+      <connection name="con_shieldgen_002" group="group_back_engine  " tags="large shield hittable  standard ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="con_biggun" group="group_maingun" tags="turret extralarge component combat aegs_bengal">
+				<offset>
+          <position x="0" y="-41.25808" z="0" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+      <connection name="con_shieldgen_003" group="group_maingun  " tags="large shield hittable  standard ">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
+
+      
+
+      <connection name="con_storage01" tags="storage ">
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="71.17104" z="70.07273" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071067" />
+        </offset>
+			</connection>
+
+      <!-- <connection name="con_dockarea_bengal" tags="dockarea ">
+        <offset>
+          <position x="0.05825602" y="24.62695" z="267.0629" />
+        </offset>
+			</connection>
+      <connection name="con_dockarea_bengal2" tags="dockarea ">
+			</connection> -->
+
+
+      <connection name="con_buildmodule" tags="buildmodule">
+			</connection>
+      <connection name="con_shiptradernpc" value="-1" tags="shiptrader ">
+			</connection>
+    </connections>
+  </component>
+</components>

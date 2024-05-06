@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="turret_f7a_s3_gtx_macro" class="turret">
+    <component ref="f7a_turret_gtx" />
+    <properties>
+      <identification name="{996667,30005}" basename="{996667,30005}" shortname="{996667,30005}" makerrace="terran" description="{996667,30006}" mk="1" />
+      <bullet class="S3_gtx_2x_macro" />
+      <rotationspeed max="105" />
+      <rotationacceleration max="200" />
+      <reload rate="1" time="1" />
+      <hull hull="600" threshold="0.2" integrated="1" />
+    </properties>
+  </macro>
+</macros>

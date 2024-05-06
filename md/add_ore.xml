@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="add_ore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+			
+		<cue name="add_ore" instantiate="true" checkinterval="10s">	
+			<actions>
+			
+			  <find_ship name="$Ships" macro="macro.ship_drak_kraken_macro"  multiple="true" />
+			  
+              <do_all exact="$Ships.count" counter="$i">
+
+                   <add_tradeware object="$Ships.{$i}" ware="ware.ore" allowbuy="true" allowsell="false" />
+                   <add_tradeware object="$Ships.{$i}" ware="ware.refinedmetals" allowbuy="false" allowsell="true" />
+                   <set_tradeoffers_enabled object="$Ships.{$i}" enabled="true"/>
+                   <set_value name="$ore" exact="$Ships.{$i}.cargo.{ware.ore}.count"/>
+                   <do_if value="$ore ge 60" >
+				          <remove_cargo object="$Ships.{$i}" ware="ware.ore" exact="160"/>
+                          <add_cargo object="$Ships.{$i}" ware="ware.refinedmetals" exact="40"/>
+                   </do_if>
+              </do_all>
+			</actions>
+		</cue>
+		
+	</cues>
+</mdscript>

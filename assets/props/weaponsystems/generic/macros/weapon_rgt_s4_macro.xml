@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) at 25.11.2018_17-56-48-->
+<macros>
+  <macro name="weapon_rgt_s4_macro" class="weapon">
+    <component ref="weapon_rgt_s4" />
+    <properties>
+      <identification name="{996667,40003}" basename="{996667,40003}" shortname="{996667,40003}" description="{996667,40004}" mk="1" />
+      <bullet class="S4_rgt_macro" />
+      <heat overheat="100000" cooldelay="1.13" coolrate="1000" reenable="0" />
+      <rotationspeed max="47.4" />
+      <rotationacceleration max="94.8" />
+      <reload />
+      <hull max="500" hittable="1" />
+      <effects>
+        <firing start="startshooting_gen_m_gatling_01_mk1" stop="stopshooting_gen_m_gatling_01_mk1" />
+      </effects>
+      <sounds>
+        <firing ref="mg_firing" />
+      </sounds>
+    </properties>
+  </macro>
+</macros>

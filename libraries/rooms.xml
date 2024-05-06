@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rooms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
+  <room id="aegs_javelin_room1" group="aegs_javelin">
+    <category tags="[room, aegs_javelin]" race="terran" />
+  </room>
+</rooms>

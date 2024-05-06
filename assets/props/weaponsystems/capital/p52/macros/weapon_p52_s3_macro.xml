@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Markus (192.168.3.72) at 26.01.2022_13-52-25-->
+<macros>
+  <macro name="weapon_p52_s3_macro" class="weapon">
+    <component ref="weapon_p52_s3" />
+    <properties>
+      <identification name="{996667,30005}" basename="{996667,30005}" shortname="{996667,30005}" description="{996667,30006}" mk="1" />
+      <bullet class="S3_gtx_macro" />
+      <heat overheat="100000" cooldelay="1.13" coolrate="1000" reenable="0" />
+      <rotationspeed max="0" />
+      <rotationacceleration max="0" />
+      <reload />
+      <effects>
+        <firing start="startshooting_gen_m_gatling_01_mk1" stop="stopshooting_gen_m_gatling_01_mk1" />
+      </effects>
+      <sounds>
+        <firing ref="mg_firing" />
+      </sounds>
+      <hull max="8000" integrated="1"/>
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-08 15:44:37 from Blender-->
+<components>
+  <component name="missile_s2" class="missilelauncher">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\generic\missile_s2_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionFormissile" tags="part">
+        <offset>
+          <quaternion qx="4.190959e-09" qy="0" qz="-1.862642e-09" qw="-1" />
+        </offset>
+        <parts>
+          <part name="missile">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.fski_ignite_s2_mtl_graphic_decals_a" />
+                  <material id="2" ref="generic.fski_ignite_s2_mtl_dull_metal_01" />
+                  <material id="3" ref="generic.fski_ignite_s2_mtl_painted_metal_01" />
+                  <material id="4" ref="generic.fski_ignite_s2_mtl_pom_decals" />
+                  <material id="5" ref="generic.fski_ignite_s2_mtl_parkerized_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.135594" y="0.1355942" z="0.966094" />
+              <center x="0" y="0" z="-0.01518804" />
+            </size>
+            <size_raw>
+              <max x="0.135594" y="0.1355942" z="0.966094" />
+              <center x="3.72529e-09" y="0" z="-0.01518805" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="rocket " />
+
+      <connection name="WeaponCon_01" tags="component weapon small missile aegs_generic_s2_missile">
+			<offset/>
+		</connection>
+    </connections>
+  </component>
+</components>

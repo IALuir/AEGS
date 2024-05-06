@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-10 22:34:02 from Blender-->
+<components>
+  <component name="hammerhead_turret_s4_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\hammerhead_turret_s4_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForseatbase" tags="part animation ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation">
+        <animations>
+					<animation name="chair_default_inactive" start="1" end="1"/>
+					<animation name="chair_default_activating" start="1" end="40" startsound="1">
+						<sounds>
+							<sound ref="cockpit_chair_activating"/>
+						</sounds>
+					</animation>
+					<animation name="chair_default_active" start="40" end="40"/>
+					<animation name="chair_default_deactivating" start="40" end="90" startsound="1">
+						<sounds>
+							<sound ref="cockpit_chair_deactivating"/>
+						</sounds>
+					</animation>
+					<animation name="chair_paranid_inactive" start="1" end="1"/>
+					<animation name="chair_paranid_activating" start="1" end="40"/>
+					<animation name="chair_paranid_active" start="40" end="40"/>
+					<animation name="chair_paranid_deactivating" start="40" end="90"/>
+					<animation name="chair_default_to_paranid" start="1" end="1"/>
+					<animation name="chair_paranid_to_default" start="1" end="1"/>
+				</animations>
+        <parts>
+          <part name="seatbase">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_decals_diff" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_dark_grey_panels" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_red_panels" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_metals_atlas" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_pipe_trimsA" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.375861" y="0.1233388" z="1.404971" />
+              <center x="0.1786002" y="-0.03307676" z="1.38628" />
+            </size>
+            <size_raw>
+              <max x="0.375861" y="0.1233388" z="0.2049705" />
+              <center x="0.1786002" y="-0.03307676" z="0.1862803" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseat_swivel" tags="part animation iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer" parent="seatbase">
+        <animations>
+					<animation name="chair_default_inactive" start="1" end="1"/>
+					<animation name="chair_default_activating" start="1" end="40" startsound="1">
+						<sounds>
+							<sound ref="cockpit_chair_activating"/>
+						</sounds>
+					</animation>
+					<animation name="chair_default_active" start="40" end="40"/>
+					<animation name="chair_default_deactivating" start="40" end="90" startsound="1">
+						<sounds>
+							<sound ref="cockpit_chair_deactivating"/>
+						</sounds>
+					</animation>
+					<animation name="chair_paranid_inactive" start="1" end="1"/>
+					<animation name="chair_paranid_activating" start="1" end="40"/>
+					<animation name="chair_paranid_active" start="40" end="40"/>
+					<animation name="chair_paranid_deactivating" start="40" end="90"/>
+					<animation name="chair_default_to_paranid" start="1" end="1"/>
+					<animation name="chair_paranid_to_default" start="1" end="1"/>
+				</animations>
+        <offset>
+          <position x="0.001681554" y="0.06133909" z="0.1908232" />
+        </offset>
+        <parts>
+          <part name="seat_swivel">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_dark_grey_panels" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1401635" y="0.1525544" z="1.384495" />
+              <center x="-0.0002105864" y="0.1077693" z="1.148761" />
+            </size>
+            <size_raw>
+              <max x="0.1401635" y="0.1525544" z="0.1844947" />
+              <center x="-0.000210572" y="0.1077693" z="-0.05123871" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseat_chair" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer" parent="seat_swivel">
+        <offset>
+          <position x="0.0007320227" y="0.5424165" z="0.009300411" />
+        </offset>
+        <parts>
+          <part name="seat_chair">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_decals_diff" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_mid_grey_panels" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_dark_grey_panels" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_red_panels" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_metals_atlas" />
+                  <material id="7" ref="generic.aegs_hammerhead_turrets_mtl_pipe_trimsA" />
+                  <material id="8" ref="generic.aegs_hammerhead_turrets_mtl_leather" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4174017" y="0.7308197" z="1.877237" />
+              <center x="0.002623701" y="-0.0578872" z="0.926798" />
+            </size>
+            <size_raw>
+              <max x="0.4123711" y="0.7308197" z="0.6865372" />
+              <center x="-0.0009428337" y="-0.0578872" z="-0.2639015" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

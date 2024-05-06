@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<components>
+	<component name="aegs_m_boost_fx" class="effectobject">
+		<source geometry="extensions\aegs\assets\fx\BoostFx\aegs_m_boost_fx_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="effectobject">
+				<offset/>
+			</connection>
+
+    </connections>
+	</component>
+</components>
