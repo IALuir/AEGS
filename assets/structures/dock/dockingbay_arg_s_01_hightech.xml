@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<diff>
+	<replace sel="//components/component/connections/connection[@name='con_todock']/offset/position">
+		<position x="0" y="10" z="16"/>
+	</replace>
+	<replace sel="//components/component/connections/connection[@name='con_launchpos']/offset/position">
+		<position x="0" y="10" z="16"/>
+	</replace>
+</diff>
+

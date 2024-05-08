@@ -2993,13 +2993,13 @@
 		  <owner faction="terran" />	  
 		</ware>
 		<ware id="retribution_sx" name="{996671,16}" description="{996671,17}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-		  <price min="37646781" average="37646781" max="37646781" />
+		  <price min="48657291" average="48657291" max="48657291" />
 		  <production time="12" amount="1" method="default" name="{996671,16}">
 				<primary>
-				<ware ware="computronicsubstrate" amount="1862" />
-				<ware ware="energycells" amount="3612" />
-				<ware ware="metallicmicrolattice" amount="4091" />
-				<ware ware="siliconcarbide" amount="1238" />
+				<ware ware="computronicsubstrate" amount="1442" />
+				<ware ware="energycells" amount="2908" />
+				<ware ware="metallicmicrolattice" amount="5582" />
+				<ware ware="siliconcarbide" amount="1346" />
       			</primary>
 		  </production>
 		  <component ref="retribution_sx_macro" amount="1" />
@@ -3054,13 +3054,13 @@
 		  <owner faction="terran" />	  
 		</ware>
 		<ware id="bengal_turret_aa" name="{996671,24}" description="{996671,25}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-		  <price min="1495631" average="1495631" max="1495631" />
+		  <price min="5756833" average="5756833" max="5756833" />
 		  <production time="6" amount="1" method="default" name="{996671,24}">
 				<primary>
-				<ware ware="computronicsubstrate" amount="41" />
-				<ware ware="energycells" amount="181" />
-				<ware ware="metallicmicrolattice" amount="187" />
-				<ware ware="siliconcarbide" amount="32" />
+				<ware ware="computronicsubstrate" amount="70" />
+				<ware ware="energycells" amount="129" />
+				<ware ware="metallicmicrolattice" amount="286" />
+				<ware ware="siliconcarbide" amount="57" />
       			</primary>
 		  </production>
 		  <component ref="bengal_turret_aa_macro" amount="1" />
@@ -3084,13 +3084,13 @@
 		  <owner faction="terran" />	  
 		</ware>
 		<ware id="bengal_turret_medium_gun" name="{996671,26}" description="{996671,27}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-		  <price min="3195631" average="3195631" max="3195631" />
+		  <price min="5756834" average="5756834" max="5756834" />
 		  <production time="6" amount="1" method="default" name="{996671,26}">
 				<primary>
-				<ware ware="computronicsubstrate" amount="81" />
-				<ware ware="energycells" amount="251" />
-				<ware ware="metallicmicrolattice" amount="197" />
-				<ware ware="siliconcarbide" amount="82" />
+				<ware ware="computronicsubstrate" amount="470" />
+				<ware ware="energycells" amount="949" />
+				<ware ware="metallicmicrolattice" amount="1821" />
+				<ware ware="siliconcarbide" amount="439" />
       			</primary>
 		  </production>
 		  <component ref="bengal_turret_medium_gun_macro" amount="1" />

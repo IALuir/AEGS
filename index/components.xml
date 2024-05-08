@@ -267,9 +267,7 @@
 		<!-- 停机坪 -->
 		<entry name="dockingbay_aegs_s" value="extensions\AEGS\assets\structures\dock\dockingbay_aegs_s"/>
 		<entry name="dockarea_aegs_s_javelin" value="extensions\AEGS\assets\structures\dock\dockarea_aegs_s_javelin"/>
-		<entry name="dockingbay_aegs_bengal_inner" value="extensions\AEGS\assets\structures\dock\dockingbay_aegs_bengal_inner"/>
 		<entry name="dockingbay_aegs_bengal_m" value="extensions\AEGS\assets\structures\dock\dockingbay_aegs_bengal_m"/>
-		<entry name="dockarea_aegs_bengal_inner" value="extensions\AEGS\assets\structures\dock\dockarea_aegs_bengal_inner"/>
 		<entry name="kraken_airport" value="extensions\AEGS\assets\structures\dock\kraken_airport"/>
 		<entry name="dockarea_kraken_airport" value="extensions\AEGS\assets\structures\dock\dockarea_kraken_airport"/>
 		<entry name="kraken_airporta" value="extensions\AEGS\assets\structures\dock\kraken_airporta"/>

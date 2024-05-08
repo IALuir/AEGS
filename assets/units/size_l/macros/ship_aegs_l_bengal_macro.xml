@@ -36,7 +36,7 @@
         <macro ref="bridge_arg_xl_01_macro" connection="con_cockpit" />
       </connection>
       <connection ref="con_dockarea_bengal">
-        <macro ref="dockarea_aegs_bengal_inner_macro" connection="con_dockarea_01" />
+        <macro ref="launchtube_arg_s_01_macro" connection="Connection02" />
       </connection>
       <connection ref="con_dockarea_bengal2">
         <macro ref="dockarea_aegs_bengal_dockbaya_macro" connection="Connection01" />

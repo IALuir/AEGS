@@ -1971,10 +1971,6 @@
 			</connection>
       <connection name="con_shield_02" tags="medium shield unhittable  standard invisible">
 			</connection>
-      <connection name="con_shield_03" tags="medium shield unhittable  standard invisible">
-			</connection>
-      <connection name="con_shield_04" tags="medium shield unhittable  standard invisible">
-			</connection>
 
     </connections>
   </component>

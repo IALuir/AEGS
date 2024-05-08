@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="ship_animations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		<cue name="bengal_animations_start" instantiate="true">
+			<conditions>
+                <check_any>
+					<event_game_started />
+					<event_game_loaded />
+				</check_any>
+            </conditions>
+			<actions>
+				<create_group groupname="$Object_bengal_sub"/>
+			</actions>
+			<cues>
+				<cue name="bengal_animations_start_01" instantiate="true" checkinterval="6s">
+					<actions>
+						<clear_group group="$Object_bengal_sub"/>
+						<find_ship name="$Object" macro="macro.ship_aegs_l_bengal_macro"  multiple="true" />
+						<do_for_each name="$ship" in="$Object">
+							<set_value name="$hasshipdock" exact="0"/>
+							<find_dockingbay name="$dockingbays" object="$ship" multiple="true">
+								<match_dock size="tag.dock_s" walkable="true"/>
+							</find_dockingbay>
+							<do_all exact="$dockingbays.count" counter="$i">
+								<do_if value="$dockingbays.{$i}.assignedship.macro">
+									<set_value name="$hasshipdock" exact="1"/>
+								</do_if>
+							</do_all>
+							<include_actions ref="bengal_animations_store"/>
+							<do_if value="$hasshipdock == 1">
+								<trigger_animation object="$ship" group="'front_door'" trigger="activate" />
+								<trigger_animation object="$ship" group="'back_door'" trigger="activate" />
+								<trigger_animation object="$ship" group="'top_door'" trigger="activate" />
+							</do_if>
+							<do_else>
+								<trigger_animation object="$ship" group="'front_door'" trigger="deactivate" />
+								<trigger_animation object="$ship" group="'back_door'" trigger="deactivate" />
+								<trigger_animation object="$ship" group="'top_door'" trigger="deactivate" />
+							</do_else>
+						</do_for_each>
+					</actions>
+				</cue>
+
+				<library name="bengal_animations_store" >
+					<actions>
+						<debug_text text="$Ship + ' ' + $dockingbays.{$i}.assignedship"/>
+						<request_store_ship object="$Ship" allowplayeronly="true" highpriority="false" ship="$dockingbays.{$i}.assignedship" skiptimeout="false" />
+					</actions>
+				</library>
+
+			</cues>
+		</cue>
+	</cues>
+</mdscript>

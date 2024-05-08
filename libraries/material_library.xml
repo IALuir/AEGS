@@ -14837,8 +14837,8 @@
           <property type="Float" name="color_dirt_tiling_v" value="10.0" />
           <property type="Float" name="color_dirtStr" value="1.0" />
           <property type="Float" name="environmentStr" value="1.0" />
-          <property type="Float" name="Smoothness" value="0.6" />
-          <property type="Float" name="Metallness" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.8" />
+          <property type="Float" name="Metallness" value="0.8" />
         </properties>
       </material>
     <material name="rsi_bengal_exterior_mtl_trims_02" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
@@ -14935,7 +14935,7 @@
           <property type="Float" name="Metallness" value="0.2" />
         </properties>
       </material>
-    <material name="rsi_bengal_exterior_mtl_pom_decal" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+    <material name="rsi_bengal_exterior_mtl_pom_decal" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
         <properties>
           <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\generic\rsi_ext_pom_decal_01_diff" />
           <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\generic\rsi_ext_pom_decal_01_ddn" />
@@ -14954,8 +14954,8 @@
           <property type="Float" name="color_dirt_tiling_v" value="10.0" />
           <property type="Float" name="color_dirtStr" value="1.0" />
           <property type="Float" name="environmentStr" value="1.0" />
-          <property type="Float" name="Smoothness" value="0.6" />
-          <property type="Float" name="Metallness" value="0.6" />
+          <property type="Float" name="Smoothness" value="0.8" />
+          <property type="Float" name="Metallness" value="0.8" />
         </properties>
       </material>
     <material name="rsi_bengal_exterior_mtl_dirt_decal" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
@@ -14975,8 +14975,8 @@
           <property type="Float" name="color_dirt_tiling_v" value="10.0" />
           <property type="Float" name="color_dirtStr" value="1.0" />
           <property type="Float" name="environmentStr" value="1.0" />
-          <property type="Float" name="Smoothness" value="0.4" />
-          <property type="Float" name="Metallness" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
         </properties>
       </material>
     <material name="rsi_bengal_exterior_mtl_mid_grey_flat" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
