@@ -5,7 +5,7 @@
     <component ref="bullet_aegs_l_flak" />
     <properties>
       <ammunition value="30" reload="1.5"/>
-      <bullet speed="1400" lifetime="6.6" amount="1" barrelamount="1" icon="weapon_cannon_mk1" timediff="0.007" angle="0.08" maxhits="1" ricochet="0" scale="0" attach="0" />
+      <bullet speed="1400" lifetime="6.25" amount="1" barrelamount="1" icon="weapon_cannon_mk1" timediff="0.007" angle="0.08" maxhits="1" ricochet="0" scale="0" attach="0" />
       <reload rate="1.44" />
       <damage value="2060" shield="206" repair="0" />
       <effects>

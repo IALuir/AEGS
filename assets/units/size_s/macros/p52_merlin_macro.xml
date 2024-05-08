@@ -24,7 +24,7 @@
       </sounds>
       <physics mass="8.35">
         <inertia pitch="1.478" yaw="1.626" roll="1.478" />
-        <drag forward="2.46" reverse="10.5" horizontal="3.02" vertical="3.02" pitch="6.11" yaw="2.88" roll="1.98" />
+        <drag forward="2.15" reverse="10.5" horizontal="3.02" vertical="3.02" pitch="6.11" yaw="2.88" roll="1.98" />
       </physics>
       <thruster tags="small" />
       <enginearticulation y="1" z="1" />

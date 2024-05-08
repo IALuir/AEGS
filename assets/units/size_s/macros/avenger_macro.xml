@@ -15,20 +15,20 @@
         <software ware="software_trademk1" compatible="1" />
       </software>
       <storage missile="0" countermeasure="40" deployable="50"/>
-      <hull max="5200" />
+      <hull max="3800" />
       <secrecy level="2" />
       <purpose primary="trade" />
       <people capacity="1" />
       <sounds>
         <shipdetail ref="shipdetail_ship_01" />
       </sounds>
-      <physics mass="8.7">
-        <inertia pitch="3.15" yaw="2.45" roll="3.15" />
-        <drag forward="3.9" reverse="22.1" horizontal="3.1" vertical="3.1" pitch="7" yaw="3.825" roll="2.52" />
+      <physics mass="8.35">
+        <inertia pitch="1.478" yaw="1.626" roll="1.478" />
+        <drag forward="2.59" reverse="10.89" horizontal="3.02" vertical="3.02" pitch="5.14" yaw="2.63" roll="1.75" />
       </physics>
       <thruster tags="small" />
       <enginearticulation y="1" z="1" />
-      <ship type="courier" />
+      <ship type="scout" />
       <sound_occlusion inside="0.5" />
     </properties>
     <connections>

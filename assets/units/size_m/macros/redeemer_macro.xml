@@ -15,16 +15,16 @@
         <software ware="software_trademk1" compatible="1" />
       </software>
       <storage missile="96" unit="0" countermeasure="40" deployable="50"/>
-      <hull max="31000" />
+      <hull max="29500" />
       <secrecy level="2" />
       <purpose primary="fight" />
-      <people capacity="7" />
+      <people capacity="5" />
       <sounds>
         <shipdetail ref="shipdetail_ship_01" />
       </sounds>
-      <physics mass="42.29">
+      <physics mass="25.68">
         <inertia pitch="4.412" yaw="3.529" roll="4.412" />
-        <drag forward="27.9" reverse="129.8" horizontal="13.477" vertical="13.477" pitch="15.64" yaw="7.38" roll="5.25" />
+        <drag forward="9.15" reverse="39.89" horizontal="13.477" vertical="13.477" pitch="20.85" yaw="9.84" roll="10.94" />
       </physics>
       <thruster tags="medium" />
       <enginearticulation y="1" z="1" />

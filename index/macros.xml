@@ -444,9 +444,7 @@
       <!-- 停机坪 -->
       <entry name="dockingbay_aegs_s_macro" value="extensions\AEGS\assets\structures\dock\macros\dockingbay_aegs_s_macro"/>
       <entry name="dockarea_aegs_s_javelin_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_aegs_s_javelin_macro"/>
-      <entry name="dockingbay_aegs_bengal_inner_macro" value="extensions\AEGS\assets\structures\dock\macros\dockingbay_aegs_bengal_inner_macro"/>
       <entry name="dockingbay_aegs_bengal_m_macro" value="extensions\AEGS\assets\structures\dock\macros\dockingbay_aegs_bengal_m_macro"/>
-      <entry name="dockarea_aegs_bengal_inner_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_aegs_bengal_inner_macro"/>
       <entry name="kraken_airport_macro" value="extensions\AEGS\assets\structures\dock\macros\kraken_airport_macro"/>
       <entry name="dockarea_kraken_airport_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_kraken_airport_macro"/>
       <entry name="kraken_airportb_macro" value="extensions\AEGS\assets\structures\dock\macros\kraken_airportb_macro"/>

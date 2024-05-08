@@ -4,11 +4,11 @@
   <macro name="SX_rail_macro" class="bullet">
     <component ref="bullet_railgun_sx" />
     <properties>
-      <ammunition value="1" reload="40"/>
-      <bullet speed="5400" lifetime="3" amount="1" barrelamount="2" icon="weapon_cannon_mk1" timediff="0.5" angle="0.25" maxhits="1" ricochet="0" scale="0" attach="0" selfdestruct="1"  />
+      <ammunition value="1" reload="22.5"/>
+      <bullet speed="1800" lifetime="6.5" amount="1" barrelamount="2" icon="weapon_cannon_mk1" timediff="0.5" angle="0.25" maxhits="1" ricochet="0" scale="0" attach="0" selfdestruct="1"  />
       <reload rate="0.2" />
-      <areadamage value="575" range="64" time="1" lifetime="1" />
-      <damage value="18000" hull="6000" repair="0" />
+      <areadamage value="2500" range="256" time="1" lifetime="1" />
+      <damage value="31500" hull="7800" repair="0" />
       <effects>
         <impact ref="impact_aegs_xl_railgun_sx" />
         <launch ref="muzzle_aegs_xl_railgun_sx" />

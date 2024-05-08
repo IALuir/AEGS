@@ -36,9 +36,16 @@
     <connections>
       <connection name="space" tags="ship_l ship" />
       <connection name="position" tags="position" value="1" />
-      <connection name="ConnectionForauxdoor" tags="part ">
+      
+      <connection name="ConnectionForauxdoor" group="top_door" tags="nocollision part animation">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
         <offset>
-          <position x="0" y="24.43542" z="170.3751" />
+          <position x="0" y="24.3532" z="169.3971" />
         </offset>
         <parts>
           <part name="auxdoor">
@@ -65,16 +72,26 @@
               </lod>
             </lods>
             <size>
+              <max x="33.64792" y="10.59493" z="10.92703" />
+              <center x="0" y="7.24074" z="-0.6557617" />
+            </size>
+            <size_raw>
               <max x="33.64792" y="10.59493" z="6.465171" />
               <center x="-9.536743e-07" y="7.24074" z="-5.08854" />
-            </size>
+            </size_raw>
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForbackdoor" tags="part ">
+      <connection name="ConnectionForbackdoor" group="back_door" tags=" part animation">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
         <offset>
-          <position x="-0.0533905" y="4.478331" z="-361.9778" />
-          <quaternion qx="0.000801617" qy="0.001736848" qz="1.326392e-06" qw="-0.9999982" />
+          <position x="-0.0533905" y="4.492105" z="-361.9497" />
+          <quaternion qx="0.0005492577" qy="0.001736849" qz="8.880815e-07" qw="-0.9999984" />
         </offset>
         <parts>
           <part name="backdoor">
@@ -104,16 +121,26 @@
               </lod>
             </lods>
             <size>
+              <max x="39.31983" y="24.2063" z="33.84401" />
+              <center x="-0.004848611" y="6.843636" z="14.74487" />
+            </size>
+            <size_raw>
               <max x="39.31983" y="15.84908" z="16.82926" />
               <center x="-0.004849434" y="-1.499812" z="-2.241799" />
-            </size>
+            </size_raw>
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForbackdoor2" tags="part ">
+      <connection name="ConnectionForbackdoor2" group="back_door" tags=" part animation">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
         <offset>
-          <position x="15.02324" y="-11.06754" z="-377.6006" />
-          <quaternion qx="-0.6591796" qy="-0.6598954" qz="0.2540424" qw="-0.2558962" />
+          <position x="15.02324" y="-11.07306" z="-377.6035" />
+          <quaternion qx="-0.6592574" qy="-0.6599725" qz="0.2538418" qw="-0.2556958" />
         </offset>
         <parts>
           <part name="backdoor2">
@@ -137,20 +164,66 @@
               </lod>
             </lods>
             <size>
+              <max x="1.346239" y="42.66062" z="7.675034" />
+              <center x="1.133965" y="-18.36551" z="1.191681" />
+            </size>
+            <size_raw>
               <max x="1.346239" y="39.3111" z="5.871546" />
               <center x="1.133963" y="-15.02152" z="2.992194" />
-            </size>
+            </size_raw>
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForbody" tags="part ">
+      <connection name="ConnectionForbody" tags="nocollision part ">
         <offset>
           <position x="1e-05" y="0.221055" z="-0.000156" />
         </offset>
         <parts>
-          <part name="body">
+          <part name="body" wreck="body_wreck">
             <lods>
               <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_int_mtl_ext_trim_a_dark" />
+                  <material id="2" ref="generic.rsi_bengal_int_mtl_ext_panel_a_gray_dark" />
+                  <material id="3" ref="generic.rsi_bengal_int_mtl_grill" />
+                  <material id="4" ref="generic.rsi_bengal_int_mtl_rubber_floor" />
+                  <material id="5" ref="generic.rsi_bengal_int_mtl_internal_gubbins" />
+                  <material id="6" ref="generic.rsi_bengal_int_mtl_ceiling_greeble" />
+                  <material id="7" ref="generic.rsi_bengal_int_mtl_tiling_metal_dark_a" />
+                  <material id="8" ref="generic.rsi_bengal_int_mtl_trim_a_gray_dark" />
+                  <material id="9" ref="generic.rsi_bengal_int_mtl_hangar_wall_structure_01" />
+                  <material id="10" ref="generic.rsi_bengal_int_mtl_hangar_girders" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_int_mtl_ext_trim_a_dark" />
+                  <material id="2" ref="generic.rsi_bengal_int_mtl_ext_panel_a_gray_dark" />
+                  <material id="3" ref="generic.rsi_bengal_int_mtl_grill" />
+                  <material id="4" ref="generic.rsi_bengal_int_mtl_rubber_floor" />
+                  <material id="5" ref="generic.rsi_bengal_int_mtl_internal_gubbins" />
+                  <material id="6" ref="generic.rsi_bengal_int_mtl_ceiling_greeble" />
+                  <material id="7" ref="generic.rsi_bengal_int_mtl_tiling_metal_dark_a" />
+                  <material id="8" ref="generic.rsi_bengal_int_mtl_trim_a_gray_dark" />
+                  <material id="9" ref="generic.rsi_bengal_int_mtl_hangar_wall_structure_01" />
+                  <material id="10" ref="generic.rsi_bengal_int_mtl_hangar_girders" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_int_mtl_ext_trim_a_dark" />
+                  <material id="2" ref="generic.rsi_bengal_int_mtl_ext_panel_a_gray_dark" />
+                  <material id="3" ref="generic.rsi_bengal_int_mtl_grill" />
+                  <material id="4" ref="generic.rsi_bengal_int_mtl_rubber_floor" />
+                  <material id="5" ref="generic.rsi_bengal_int_mtl_internal_gubbins" />
+                  <material id="6" ref="generic.rsi_bengal_int_mtl_ceiling_greeble" />
+                  <material id="7" ref="generic.rsi_bengal_int_mtl_tiling_metal_dark_a" />
+                  <material id="8" ref="generic.rsi_bengal_int_mtl_trim_a_gray_dark" />
+                  <material id="9" ref="generic.rsi_bengal_int_mtl_hangar_wall_structure_01" />
+                  <material id="10" ref="generic.rsi_bengal_int_mtl_hangar_girders" />
+                </materials>
+              </lod>
+              <lod index="3">
                 <materials>
                   <material id="1" ref="generic.rsi_bengal_int_mtl_ext_trim_a_dark" />
                   <material id="2" ref="generic.rsi_bengal_int_mtl_ext_panel_a_gray_dark" />
@@ -172,7 +245,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForbody01" tags="part ">
+      <connection name="ConnectionForbody01" tags="nocollision part ">
         <offset>
           <position x="1e-05" y="0.221055" z="-0.000156" />
         </offset>
@@ -180,6 +253,75 @@
           <part name="body01">
             <lods>
               <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_lights" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_dark_grey_blue_spec_nodetail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_girders" />
+                  <material id="5" ref="p1.cockpit_glass_outside_01" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_greeble_tiling" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trim_02_light" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_shields" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_green_detail" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_trims_02_dark" />
+                  <material id="12" ref="generic.rsi_bengal_exterior_mtl_engine_nopom" />
+                  <material id="13" ref="generic.rsi_bengal_exterior_mtl_dark_grey_nodetail" />
+                  <material id="14" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="15" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="16" ref="generic.rsi_bengal_exterior_mtl_internal_structure" />
+                  <material id="17" ref="generic.rsi_bengal_exterior_mtl_vent" />
+                  <material id="18" ref="generic.rsi_bengal_exterior_mtl_engine_ribbing" />
+                  <material id="19" ref="generic.rsi_bengal_exterior_mtl_top_deck" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_lights" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_dark_grey_blue_spec_nodetail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_girders" />
+                  <material id="5" ref="p1.cockpit_glass_outside_01" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_greeble_tiling" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trim_02_light" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_shields" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_green_detail" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_trims_02_dark" />
+                  <material id="12" ref="generic.rsi_bengal_exterior_mtl_engine_nopom" />
+                  <material id="13" ref="generic.rsi_bengal_exterior_mtl_dark_grey_nodetail" />
+                  <material id="14" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="15" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="16" ref="generic.rsi_bengal_exterior_mtl_internal_structure" />
+                  <material id="17" ref="generic.rsi_bengal_exterior_mtl_vent" />
+                  <material id="18" ref="generic.rsi_bengal_exterior_mtl_engine_ribbing" />
+                  <material id="19" ref="generic.rsi_bengal_exterior_mtl_top_deck" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_lights" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_dark_grey_blue_spec_nodetail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_girders" />
+                  <material id="5" ref="p1.cockpit_glass_outside_01" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_greeble_tiling" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trim_02_light" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_shields" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_green_detail" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_trims_02_dark" />
+                  <material id="12" ref="generic.rsi_bengal_exterior_mtl_engine_nopom" />
+                  <material id="13" ref="generic.rsi_bengal_exterior_mtl_dark_grey_nodetail" />
+                  <material id="14" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="15" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="16" ref="generic.rsi_bengal_exterior_mtl_internal_structure" />
+                  <material id="17" ref="generic.rsi_bengal_exterior_mtl_vent" />
+                  <material id="18" ref="generic.rsi_bengal_exterior_mtl_engine_ribbing" />
+                  <material id="19" ref="generic.rsi_bengal_exterior_mtl_top_deck" />
+                </materials>
+              </lod>
+              <lod index="3">
                 <materials>
                   <material id="1" ref="generic.rsi_bengal_exterior_mtl_lights" />
                   <material id="2" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
@@ -210,7 +352,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForbody02" tags="part ">
+      <connection name="ConnectionForbody02" tags="nocollision part ">
         <offset>
           <position x="1e-05" y="0.221055" z="-0.000156" />
         </offset>
@@ -218,6 +360,57 @@
           <part name="body02">
             <lods>
               <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nopom" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_top_deck_pom_decals" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_top_deck_markings" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_panel_a" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_engine_nopom" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_engine_ribbing" />
+                  <material id="12" ref="generic.rsi_bengal_int_mtl_pom_decals" />
+                  <material id="13" ref="generic.rsi_bengal_int_mtl_trim_a_gray" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nopom" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_top_deck_pom_decals" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_top_deck_markings" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_panel_a" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_engine_nopom" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_engine_ribbing" />
+                  <material id="12" ref="generic.rsi_bengal_int_mtl_pom_decals" />
+                  <material id="13" ref="generic.rsi_bengal_int_mtl_trim_a_gray" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nopom" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_top_deck_pom_decals" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_top_deck_markings" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_panel_a" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_engine_nopom" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_engine_ribbing" />
+                  <material id="12" ref="generic.rsi_bengal_int_mtl_pom_decals" />
+                  <material id="13" ref="generic.rsi_bengal_int_mtl_trim_a_gray" />
+                </materials>
+              </lod>
+              <lod index="3">
                 <materials>
                   <material id="1" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nopom" />
                   <material id="2" ref="generic.rsi_bengal_exterior_mtl_top_deck_pom_decals" />
@@ -266,6 +459,57 @@
                   <material id="13" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
                 </materials>
               </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_mid_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_light_nodetail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_mid_nodetail" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_light_grey_flat" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_mid_grey_flat" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="12" ref="generic.rsi_bengal_exterior_mtl_decal_diff" />
+                  <material id="13" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_mid_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_light_nodetail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_mid_nodetail" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_light_grey_flat" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_mid_grey_flat" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="12" ref="generic.rsi_bengal_exterior_mtl_decal_diff" />
+                  <material id="13" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_mid_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_light_nodetail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_mid_nodetail" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_light_grey_flat" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_mid_grey_flat" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="12" ref="generic.rsi_bengal_exterior_mtl_decal_diff" />
+                  <material id="13" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
+                </materials>
+              </lod>
             </lods>
             <size>
               <max x="267.0406" y="173.8074" z="492.7317" />
@@ -274,7 +518,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForbody04" tags="part ">
+      <connection name="ConnectionForbody04" tags="nocollision part ">
         <offset>
           <position x="1e-05" y="0.221055" z="-0.000156" />
         </offset>
@@ -282,6 +526,51 @@
           <part name="body04">
             <lods>
               <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_int_mtl_panel_a_olive" />
+                  <material id="2" ref="generic.rsi_bengal_int_mtl_panel_b_olive" />
+                  <material id="3" ref="generic.rsi_bengal_int_mtl_hangar_floor_b" />
+                  <material id="4" ref="generic.rsi_bengal_int_mtl_trim_b_gray" />
+                  <material id="5" ref="generic.rsi_bengal_int_mtl_hangar_wall_structure_02" />
+                  <material id="6" ref="generic.rsi_bengal_int_mtl_hangar_large_trims" />
+                  <material id="7" ref="generic.rsi_bengal_int_mtl_hangar_detail_pipes" />
+                  <material id="8" ref="generic.rsi_bengal_int_mtl_interlocking_trims" />
+                  <material id="9" ref="generic.rsi_bengal_int_mtl_panel_b_gray" />
+                  <material id="10" ref="generic.rsi_bengal_int_mtl_panel_a_gray" />
+                  <material id="11" ref="generic.rsi_bengal_int_mtl_panel_a_gray_dark" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_int_mtl_panel_a_olive" />
+                  <material id="2" ref="generic.rsi_bengal_int_mtl_panel_b_olive" />
+                  <material id="3" ref="generic.rsi_bengal_int_mtl_hangar_floor_b" />
+                  <material id="4" ref="generic.rsi_bengal_int_mtl_trim_b_gray" />
+                  <material id="5" ref="generic.rsi_bengal_int_mtl_hangar_wall_structure_02" />
+                  <material id="6" ref="generic.rsi_bengal_int_mtl_hangar_large_trims" />
+                  <material id="7" ref="generic.rsi_bengal_int_mtl_hangar_detail_pipes" />
+                  <material id="8" ref="generic.rsi_bengal_int_mtl_interlocking_trims" />
+                  <material id="9" ref="generic.rsi_bengal_int_mtl_panel_b_gray" />
+                  <material id="10" ref="generic.rsi_bengal_int_mtl_panel_a_gray" />
+                  <material id="11" ref="generic.rsi_bengal_int_mtl_panel_a_gray_dark" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_int_mtl_panel_a_olive" />
+                  <material id="2" ref="generic.rsi_bengal_int_mtl_panel_b_olive" />
+                  <material id="3" ref="generic.rsi_bengal_int_mtl_hangar_floor_b" />
+                  <material id="4" ref="generic.rsi_bengal_int_mtl_trim_b_gray" />
+                  <material id="5" ref="generic.rsi_bengal_int_mtl_hangar_wall_structure_02" />
+                  <material id="6" ref="generic.rsi_bengal_int_mtl_hangar_large_trims" />
+                  <material id="7" ref="generic.rsi_bengal_int_mtl_hangar_detail_pipes" />
+                  <material id="8" ref="generic.rsi_bengal_int_mtl_interlocking_trims" />
+                  <material id="9" ref="generic.rsi_bengal_int_mtl_panel_b_gray" />
+                  <material id="10" ref="generic.rsi_bengal_int_mtl_panel_a_gray" />
+                  <material id="11" ref="generic.rsi_bengal_int_mtl_panel_a_gray_dark" />
+                </materials>
+              </lod>
+              <lod index="3">
                 <materials>
                   <material id="1" ref="generic.rsi_bengal_int_mtl_panel_a_olive" />
                   <material id="2" ref="generic.rsi_bengal_int_mtl_panel_b_olive" />
@@ -304,10 +593,16 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForbotdoor" tags="part ">
+      <connection name="ConnectionForbotdoor" group="front_door" tags=" part animation">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
         <offset>
-          <position x="0.06730501" y="6.662687" z="567.0302" />
-          <quaternion qx="-0.0001905831" qy="-0.9811617" qz="0.1931864" qw="-0.0009679483" />
+          <position x="0.06730501" y="6.655131" z="567.0099" />
+          <quaternion qx="-0.000190428" qy="-0.9811925" qz="0.1930292" qw="-0.0009679789" />
         </offset>
         <parts>
           <part name="botdoor">
@@ -334,16 +629,26 @@
               </lod>
             </lods>
             <size>
-              <max x="46.21667" y="3.4194" z="20.04844" />
-              <center x="-0.883399" y="-23.5991" z="7.512418" />
+              <max x="46.21666" y="8.004005" z="32.33774" />
+              <center x="-0.8833985" y="-28.17616" z="-4.756592" />
             </size>
+            <size_raw>
+              <max x="46.21666" y="3.4194" z="20.04844" />
+              <center x="-0.883399" y="-23.5991" z="7.512418" />
+            </size_raw>
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForcentraldoormech" tags="part ">
+      <connection name="ConnectionForcentraldoormech" group="front_door" tags=" part animation">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
         <offset>
-          <position x="-2.998679e-06" y="-10.2899" z="586.0389" />
-          <quaternion qx="-5e-07" qy="0" qz="0" qw="-1" />
+          <position x="-2.998679e-06" y="-10.30196" z="586.0112" />
+          <quaternion qx="0.0006467267" qy="0" qz="0" qw="-0.9999998" />
         </offset>
         <parts>
           <part name="centraldoormech">
@@ -366,16 +671,60 @@
               </lod>
             </lods>
             <size>
+              <max x="45.21417" y="10.79088" z="17.97211" />
+              <center x="-8.160182e-07" y="-4.403394" z="-16.41327" />
+            </size>
+            <size_raw>
               <max x="45.21417" y="3.475999" z="1.129436" />
               <center x="0" y="2.899431" z="0.4016168" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_dock" tags="part nocollision">
+        <parts>
+          <part name="inner_dock">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="106.2405" y="23.91232" z="486.1165" />
+              <center x="1.907349e-06" y="-2.20501" z="100.5935" />
             </size>
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFortopdoor" tags="part ">
+      <connection name="ConnectionFortop_dock" tags="part nocollision">
+        <parts>
+          <part name="top_dock">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="35.80628" y="8.844108" z="36.9296" />
+              <center x="-4.768372e-06" y="33.36134" z="117.3993" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortopdoor" group="front_door" tags=" part animation">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
         <offset>
-          <position x="7.247925e-05" y="19.41117" z="528.8751" />
-          <quaternion qx="-6.639957e-05" qy="5.4787e-06" qz="-3.81813e-07" qw="-1" />
+          <position x="7.247925e-05" y="19.41117" z="528.8253" />
+          <quaternion qx="7.748323e-05" qy="5.478755e-06" qz="-3.810248e-07" qw="-1" />
         </offset>
         <parts>
           <part name="topdoor">
@@ -395,15 +744,25 @@
               </lod>
             </lods>
             <size>
+              <max x="45.60512" y="12.54167" z="60.47655" />
+              <center x="0.02017212" y="-15.54017" z="-2.696472" />
+            </size>
+            <size_raw>
               <max x="45.60512" y="12.54167" z="30.23716" />
               <center x="0.02017117" y="-15.54017" z="27.49305" />
-            </size>
+            </size_raw>
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFortopdoor01" tags="part " parent="topdoor">
+      <connection name="ConnectionFortopdoor01" group="front_door" tags="nocollision part animation" parent="topdoor">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
         <offset>
-          <position x="9.313226e-10" y="-1.41561e-07" z="0" />
+          <position x="4.656613e-10" y="9.685755e-07" z="-6.103516e-05" />
           <quaternion qx="0" qy="0" qz="0" qw="-1" />
         </offset>
         <parts>
@@ -427,9 +786,13 @@
               </lod>
             </lods>
             <size>
+              <max x="45.29394" y="12.25879" z="59.6377" />
+              <center x="0.01553726" y="-14.7757" z="-1.841736" />
+            </size>
+            <size_raw>
               <max x="45.29394" y="12.25876" z="29.39827" />
               <center x="0.01553822" y="-14.77569" z="28.34768" />
-            </size>
+            </size_raw>
           </part>
         </parts>
       </connection>
@@ -479,7 +842,7 @@
           <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
         </offset>
       </connection>
-      <connection name="hardpoint_AA_turret_02" group="mid_top_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+      <connection name="hardpoint_AA_turret_02" group="mid_top_aa " tags="turret medium component combat aegs_bengal_aa">
         <offset>
           <position x="105.6081" y="24.49573" z="113.2746" />
           <quaternion qx="0" qy="-0.7071066" qz="0" qw="-0.7071069" />
@@ -491,42 +854,42 @@
           <quaternion qx="0" qy="-0.7071066" qz="0" qw="-0.7071069" />
         </offset>
       </connection>
-      <connection name="hardpoint_AA_turret_04" group="mid_top_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+      <connection name="hardpoint_AA_turret_04" group="mid_top_aa " tags="turret medium component combat aegs_bengal_aa">
         <offset>
           <position x="-105.372" y="24.49587" z="113.2746" />
           <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_004" group="mid_top_aa_2  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_004" group="mid_top_aa  " tags="medium shield hittable  standard invisible ">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
 			</connection>
 
-      <connection name="hardpoint_AA_turret_05" group="mid_bot_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+      <connection name="hardpoint_AA_turret_05" group="mid_bot_aa " tags="turret medium component combat aegs_bengal_aa">
         <offset>
           <position x="-31.53389" y="-34.09696" z="377.2024" />
           <quaternion qx="0" qy="0" qz="-1" qw="-7.54979e-08" />
         </offset>
       </connection>
-      <connection name="hardpoint_AA_turret_06" group="mid_bot_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+      <connection name="hardpoint_AA_turret_06" group="mid_bot_aa " tags="turret medium component combat aegs_bengal_aa">
         <offset>
           <position x="31.77998" y="-34.09696" z="377.2023" />
           <quaternion qx="0" qy="0" qz="-1" qw="-7.54979e-08" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_005" group="mid_bot_aa_2  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_005" group="mid_bot_aa  " tags="medium shield hittable  standard invisible ">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
 			</connection>
 
-      <connection name="hardpoint_AA_turret_07" group="mid_top_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+      <connection name="hardpoint_AA_turret_07" group="mid_top_aa " tags="turret medium component combat aegs_bengal_aa">
         <offset>
           <position x="33.65054" y="28.38179" z="330.6162" />
         </offset>
       </connection>
-      <connection name="hardpoint_AA_turret_08" group="mid_top_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+      <connection name="hardpoint_AA_turret_08" group="mid_top_aa " tags="turret medium component combat aegs_bengal_aa">
         <offset>
           <position x="-33.65483" y="28.38179" z="330.6162" />
         </offset>
@@ -544,13 +907,13 @@
           <quaternion qx="0.7071069" qy="-5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
         </offset>
       </connection>
-      <connection name="hardpoint_AA_turret_11" group="mid_bot_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+      <connection name="hardpoint_AA_turret_11" group="mid_bot_aa " tags="turret medium component combat aegs_bengal_aa">
         <offset>
           <position x="-31.64668" y="-28.90681" z="257.0586" />
           <quaternion qx="0.7071069" qy="-5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
         </offset>
       </connection>
-      <connection name="hardpoint_AA_turret_12" group="mid_bot_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+      <connection name="hardpoint_AA_turret_12" group="mid_bot_aa " tags="turret medium component combat aegs_bengal_aa">
         <offset>
           <position x="31.8063" y="-28.89335" z="256.9383" />
           <quaternion qx="-0.7071069" qy="5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
@@ -620,13 +983,13 @@
         </offset>
       </connection>
 
-      <connection name="hardpoint_AA_turret_21" group="  mid_bot_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+      <connection name="hardpoint_AA_turret_21" group="  mid_bot_aa " tags="turret medium component combat aegs_bengal_aa">
         <offset>
           <position x="0" y="-34.3469" z="481.0485" />
           <quaternion qx="4.999999e-07" qy="-4.999999e-07" qz="-1" qw="-7.549815e-08" />
         </offset>
       </connection>
-      <connection name="hardpoint_AA_turret_22" group="mid_bot_aa_2 " tags="turret medium component combat aegs_bengal_aa">
+      <connection name="hardpoint_AA_turret_22" group="mid_bot_aa " tags="turret medium component combat aegs_bengal_aa">
         <offset>
           <position x="0" y="-34.3469" z="383.2059" />
           <quaternion qx="4.999999e-07" qy="-4.999999e-07" qz="-1" qw="-7.549815e-08" />
@@ -713,19 +1076,19 @@
         </offset>
       </connection>
 
-      <connection name="hardpoint_AI_turret_01" group="mid_top_ai " tags="turret medium component combat aegs_bengal_ai">
+      <connection name="hardpoint_AI_turret_01" group="back_top_ai " tags="turret medium component combat aegs_bengal_ai">
         <offset>
           <position x="61.43941" y="49.51101" z="116.6081" />
           <quaternion qx="0" qy="-0.7071066" qz="0" qw="-0.7071069" />
         </offset>
       </connection>
-      <connection name="hardpoint_AI_turret_02" group="mid_top_ai " tags="turret medium component combat aegs_bengal_ai">
+      <connection name="hardpoint_AI_turret_02" group="back_top_ai " tags="turret medium component combat aegs_bengal_ai">
         <offset>
           <position x="-60.70639" y="49.51052" z="-0.353906" />
           <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_016" group="mid_top_ai  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_016" group="back_top_ai  " tags="medium shield hittable  standard invisible ">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -747,13 +1110,13 @@
         </offset>
 			</connection>
 
-      <connection name="hardpoint_AI_turret_05" group="mid_top_ai " tags="turret medium component combat aegs_bengal_ai">
+      <connection name="hardpoint_AI_turret_05" group="back_top_ai " tags="turret medium component combat aegs_bengal_ai">
         <offset>
           <position x="59.97144" y="49.51054" z="-0.353945" />
           <quaternion qx="0" qy="-0.7071066" qz="0" qw="-0.7071069" />
         </offset>
       </connection>
-      <connection name="hardpoint_AI_turret_06" group="mid_top_ai " tags="turret medium component combat aegs_bengal_ai">
+      <connection name="hardpoint_AI_turret_06" group="back_top_ai " tags="turret medium component combat aegs_bengal_ai">
         <offset>
           <position x="-61.43952" y="49.51123" z="116.6081" />
           <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
@@ -769,19 +1132,19 @@
           <position x="-75.1537" y="5.872432" z="545.6458" />
         </offset>
       </connection>
-      <connection name="hardpoint_AI_turret_09" group="mid_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+      <connection name="hardpoint_AI_turret_09" group="back_bot_ai " tags="turret medium component combat aegs_bengal_ai">
         <offset>
           <position x="35.73503" y="-32.63423" z="481.0485" />
           <quaternion qx="0" qy="0" qz="-1" qw="-7.54979e-08" />
         </offset>
       </connection>
-      <connection name="hardpoint_AI_turret_10" group="mid_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+      <connection name="hardpoint_AI_turret_10" group="back_bot_ai " tags="turret medium component combat aegs_bengal_ai">
         <offset>
           <position x="-35.47026" y="-32.63422" z="481.0484" />
           <quaternion qx="0" qy="0" qz="-1" qw="-7.54979e-08" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_018" group="mid_bot_ai  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_018" group="back_bot_ai  " tags="medium shield hittable  standard invisible ">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -805,19 +1168,19 @@
         </offset>
 			</connection>
 
-      <connection name="hardpoint_AI_turret_13" group="mid_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+      <connection name="hardpoint_AI_turret_13" group="back_bot_ai " tags="turret medium component combat aegs_bengal_ai">
         <offset>
           <position x="42.94356" y="-24.23772" z="218.3779" />
           <quaternion qx="-0.7071069" qy="5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
         </offset>
       </connection>
-      <connection name="hardpoint_AI_turret_14" group="mid_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+      <connection name="hardpoint_AI_turret_14" group="back_bot_ai " tags="turret medium component combat aegs_bengal_ai">
         <offset>
           <position x="-42.94355" y="-24.25929" z="218.3612" />
           <quaternion qx="0.7071069" qy="-5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_020" group="mid_bot_ai  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_020" group="back_bot_ai  " tags="medium shield hittable  standard invisible ">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -836,13 +1199,13 @@
         </offset>
       </connection>
 
-      <connection name="hardpoint_AI_turret_17" group="mid_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+      <connection name="hardpoint_AI_turret_17" group="back_bot_ai " tags="turret medium component combat aegs_bengal_ai">
         <offset>
           <position x="73.99751" y="-43.99614" z="56.974" />
           <quaternion qx="-0.7071069" qy="5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
         </offset>
       </connection>
-      <connection name="hardpoint_AI_turret_18" group="mid_bot_ai " tags="turret medium component combat aegs_bengal_ai">
+      <connection name="hardpoint_AI_turret_18" group="back_bot_ai " tags="turret medium component combat aegs_bengal_ai">
         <offset>
           <position x="-73.99751" y="-43.99601" z="56.99065" />
           <quaternion qx="-0.7071069" qy="-5.338507e-08" qz="0.7071066" qw="-5.338508e-08" />
@@ -1066,10 +1429,19 @@
 			</connection>
 
       <connection name="con_shieldgenerator_l_001" tags="large shield  standard ">
+        <offset>
+          <position x="0" y="25" z="-30" />
+        </offset>
 			</connection>
       <connection name="shield_xl" tags="extralarge shield standard ">
+        <offset>
+          <position x="0" y="25" z="-30" />
+        </offset>
       </connection>
       <connection name="shield_xl001" tags="extralarge shield standard ">
+        <offset>
+          <position x="0" y="25" z="-30" />
+        </offset>
       </connection>
       
 
@@ -1077,25 +1449,28 @@
 
       <connection name="con_storage01" tags="storage ">
 			</connection>
+      <connection name="con_shipstorage02" tags="dockingbay ">
+			</connection>
       <connection name="con_dock_xs" tags="dock_xs ">
 				<offset>
           <position x="0" y="71.17104" z="70.07273" />
-          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071067" />
         </offset>
 			</connection>
 
-      <!-- <connection name="con_dockarea_bengal" tags="dockarea ">
+      <connection name="con_dockarea_bengal" tags="dockingbay ">
         <offset>
-          <position x="0.05825602" y="24.62695" z="267.0629" />
+          <position x="0" y="35.25517" z="69.4149" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-4.371139e-08" />
         </offset>
 			</connection>
       <connection name="con_dockarea_bengal2" tags="dockarea ">
-			</connection> -->
+        <offset>
+          <position x="0" y="0" z="0" />
+        </offset>
+			</connection>
 
 
       <connection name="con_buildmodule" tags="buildmodule">
-			</connection>
-      <connection name="con_shiptradernpc" value="-1" tags="shiptrader ">
 			</connection>
     </connections>
   </component>

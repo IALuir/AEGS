@@ -1420,6 +1420,21 @@
 					<position x="0" y="0" z="0"/>
 				</offset>
 			</connection>
+      <connection name="con_shield_06" tags="small shield unhittable  standard ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_07" tags="small shield unhittable  standard ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_08" tags="small shield unhittable  standard ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
 
       <connection name="con_primaryweapon_01" tags="weapon small platformcollision aegs_weapon_s2 ">
 				<offset>
