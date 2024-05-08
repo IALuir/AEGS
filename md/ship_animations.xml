@@ -14,7 +14,6 @@
 			<cues>
 				<cue name="bengal_animations_start_01" instantiate="true" checkinterval="6s">
 					<actions>
-						<clear_group group="$Object_bengal_sub"/>
 						<find_ship name="$Object" macro="macro.ship_aegs_l_bengal_macro"  multiple="true" />
 						<do_for_each name="$ship" in="$Object">
 							<set_value name="$hasshipdock" exact="0"/>
@@ -24,9 +23,9 @@
 							<do_all exact="$dockingbays.count" counter="$i">
 								<do_if value="$dockingbays.{$i}.assignedship.macro">
 									<set_value name="$hasshipdock" exact="1"/>
+									<add_to_group groupname="$Object_bengal_sub" object="$dockingbays.{$i}.assignedship"/>
 								</do_if>
 							</do_all>
-							<include_actions ref="bengal_animations_store"/>
 							<do_if value="$hasshipdock == 1">
 								<trigger_animation object="$ship" group="'front_door'" trigger="activate" />
 								<trigger_animation object="$ship" group="'back_door'" trigger="activate" />
@@ -40,14 +39,15 @@
 						</do_for_each>
 					</actions>
 				</cue>
-
-				<library name="bengal_animations_store" >
+				<cue name="bengal_animations_start_02" instantiate="true">
+					<conditions>
+						<event_object_docked group="$Object_bengal_sub" />
+					</conditions>
 					<actions>
-						<debug_text text="$Ship + ' ' + $dockingbays.{$i}.assignedship"/>
-						<request_store_ship object="$Ship" allowplayeronly="true" highpriority="false" ship="$dockingbays.{$i}.assignedship" skiptimeout="false" />
+						<request_store_ship object="event.param" allowplayeronly="true" highpriority="false" ship="event.object" skiptimeout="false" />
+						<remove_from_group group="$Object_bengal_sub" object="event.object"/>
 					</actions>
-				</library>
-
+				</cue>
 			</cues>
 		</cue>
 	</cues>
