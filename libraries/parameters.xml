@@ -202,10 +202,5 @@
         </dock>
     </add>
 
-    <replace sel="//parameters/docking/dock[@tags='dock_s']/takeoff/entry[0]/release/@dy">0</replace>
-    <replace sel="//parameters/docking/dock[@tags='dock_s']/takeoff/entry[1]/release/@dy">0</replace>
-    <replace sel="//parameters/docking/dock[@tags='dock_s']/takeoff/entry[2]/release/@dy">0</replace>
-    <replace sel="//parameters/docking/dock[@tags='dock_s']/takeoff/entry[3]/release/@dy">0</replace>
-    <replace sel="//parameters/docking/dock[@tags='dock_s']/takeoff/entry[4]/release/@dy">0</replace>
-    <replace sel="//parameters/docking/dock[@tags='dock_s']/takeoff/entry[5]/release/@dy">0</replace>
+    <replace sel="//parameters/docking/dock[@tags='dock_s']/@allowrotated">false</replace>
 </diff>

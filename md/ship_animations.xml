@@ -50,5 +50,69 @@
 				</cue>
 			</cues>
 		</cue>
+
+		<cue name="polaris_animations_start" instantiate="true">
+			<conditions>
+                <check_any>
+					<event_game_started />
+					<event_game_loaded />
+				</check_any>
+            </conditions>
+			<actions>
+				<create_group groupname="$Object_polaris_sub"/>
+			</actions>
+			<cues>
+				<cue name="polaris_animations_start_01" instantiate="true" checkinterval="3s">
+					<actions>
+						<find_ship name="$Object" macro="macro.polaris_macro"  multiple="true" />
+						<do_for_each name="$ship" in="$Object">
+							<set_value name="$hasactive" exact="0"/>
+							<find_object_component name="$turrets" object="$ship" class="class.turret" checkoperational="false" multiple="true"/>
+							<do_if value="$turrets.count">
+								<do_all exact="$turrets.count" counter="$i">
+									<do_if value="$turrets.{$i}.isactive">
+										<set_value name="$hasactive" exact="1"/>
+									</do_if>
+								</do_all>
+							</do_if>
+							<do_if value="$hasactive == 1">
+								<trigger_animation object="$ship" group="'left_turret'" trigger="activate_turret_hatch" />
+								<trigger_animation object="$ship" group="'right_turret'" trigger="activate_turret_hatch" />
+							</do_if>
+							<do_else>
+								<trigger_animation object="$ship" group="'left_turret'" trigger="deactivate_turret_hatch" />
+								<trigger_animation object="$ship" group="'right_turret'" trigger="deactivate_turret_hatch" />
+							</do_else>
+							<set_value name="$hasshipdock" exact="0"/>
+							<find_dockingbay name="$dockingbays" object="$ship" multiple="true">
+								<match_dock size="tag.dock_s" walkable="true"/>
+							</find_dockingbay>
+							<do_all exact="$dockingbays.count" counter="$i">
+								<do_if value="$dockingbays.{$i}.assignedship.macro">
+									<set_value name="$hasshipdock" exact="1"/>
+									<add_to_group groupname="$Object_polaris_sub" object="$dockingbays.{$i}.assignedship"/>
+								</do_if>
+							</do_all>
+							<do_if value="$hasshipdock == 1">
+								<trigger_animation object="$ship" group="'door'" trigger="activate" />
+							</do_if>
+							<do_else>
+								<trigger_animation object="$ship" group="'door'" trigger="deactivate" />
+							</do_else>
+						</do_for_each>
+					</actions>
+				</cue>
+				<cue name="polaris_animations_start_02" instantiate="true">
+					<conditions>
+						<event_object_docked group="$Object_polaris_sub" />
+					</conditions>
+					<actions>
+						<request_store_ship object="event.param" allowplayeronly="true" highpriority="false" ship="event.object" skiptimeout="false" />
+						<trigger_animation object="event.param" group="'door'" trigger="deactivate" />
+						<remove_from_group group="$Object_polaris_sub" object="event.object"/>
+					</actions>
+				</cue>
+			</cues>
+		</cue>
 	</cues>
 </mdscript>

@@ -82,7 +82,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForbackdoor" group="back_door" tags=" part animation">
+      <connection name="ConnectionForbackdoor" group="back_door" tags="nocollision part animation">
         <animations>
           <animation name="deactivated" start="1" end="1" />
           <animation name="activating" start="1" end="80" />
@@ -131,7 +131,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForbackdoor2" group="back_door" tags=" part animation">
+      <connection name="ConnectionForbackdoor2" group="back_door" tags="nocollision part animation">
         <animations>
           <animation name="deactivated" start="1" end="1" />
           <animation name="activating" start="1" end="80" />
@@ -593,7 +593,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForbotdoor" group="front_door" tags=" part animation">
+      <connection name="ConnectionForbotdoor" group="front_door" tags="nocollision part animation">
         <animations>
           <animation name="deactivated" start="1" end="1" />
           <animation name="activating" start="1" end="80" />
@@ -639,7 +639,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForcentraldoormech" group="front_door" tags=" part animation">
+      <connection name="ConnectionForcentraldoormech" group="front_door" tags="nocollision part animation">
         <animations>
           <animation name="deactivated" start="1" end="1" />
           <animation name="activating" start="1" end="80" />
@@ -715,7 +715,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFortopdoor" group="front_door" tags=" part animation">
+      <connection name="ConnectionFortopdoor" group="front_door" tags="nocollision part animation">
         <animations>
           <animation name="deactivated" start="1" end="1" />
           <animation name="activating" start="1" end="80" />
@@ -1430,17 +1430,17 @@
 
       <connection name="con_shieldgenerator_l_001" tags="large shield  standard ">
         <offset>
-          <position x="0" y="25" z="-30" />
+          <position x="0" y="25" z="-80" />
         </offset>
 			</connection>
       <connection name="shield_xl" tags="extralarge shield standard ">
         <offset>
-          <position x="0" y="25" z="-30" />
+          <position x="0" y="25" z="-80" />
         </offset>
       </connection>
       <connection name="shield_xl001" tags="extralarge shield standard ">
         <offset>
-          <position x="0" y="25" z="-30" />
+          <position x="0" y="25" z="-80" />
         </offset>
       </connection>
       
@@ -1450,6 +1450,8 @@
       <connection name="con_storage01" tags="storage ">
 			</connection>
       <connection name="con_shipstorage02" tags="dockingbay ">
+			</connection>
+      <connection name="con_shipstorage03" tags="dockingbay ">
 			</connection>
       <connection name="con_dock_xs" tags="dock_xs ">
 				<offset>

@@ -3,7 +3,7 @@
 	<add sel="/wares">
 		<ware id="retribution" name="{996666,11}" description="{996666,12}" group="ships_terran" transport="ship" volume="1" tags="ship blueprintsaleonly ">
 			<price min="60319580" average="60319580" max="60319580" />
-			<production time="4800" amount="1" method="default" name="{996666,11}">
+			<production time="3600" amount="1" method="default" name="{996666,11}">
 				<primary>
 					<ware ware="computronicsubstrate" amount="1246" />
 					<ware ware="energycells" amount="4586" />
@@ -456,6 +456,19 @@
 			<restriction licence="militaryship" />
 			<owner faction="terran" />
 		</ware>
+		<ware id="polaris" name="{996666,73}" description="{996666,74}" transport="ship" volume="1" tags="ship">
+			<price min="3800000" average="3800000" max="3800000" />
+			<production time="90" amount="1" method="default" name="{996666,73}">
+			<primary>
+				<ware ware="computronicsubstrate" amount="160" />
+				<ware ware="energycells" amount="500" />
+				<ware ware="metallicmicrolattice" amount="224" />
+			</primary>
+			</production>
+			<component ref="polaris_macro" />
+			<restriction licence="militaryship" />
+			<owner faction="terran" />
+		</ware>
 		
 		
 		<ware id="engine_aegs_max_javelin_macro" name="{996670,5}" description="{996670,5}" group="engines" transport="equipment" volume="1" tags="equipment engine ">
@@ -832,6 +845,20 @@
 				</primary>
 			</production>
 			<component ref="mole_engine_macro" amount="1" />
+			<restriction licence="generaluseequipment" />
+			<use threshold="0" />
+			<owner faction="terran" />
+		</ware>
+		<ware id="polaris_engine" name="{996670,1}" description="{996670,1}" group="engines" transport="equipment" volume="1" tags="equipment engine ">
+			<price min="1" average="1" max="1" />
+			<production time="10" amount="1" method="default" name="{996670,1}">
+			<primary>
+				<ware ware="computronicsubstrate" amount="1" />
+				<ware ware="energycells" amount="1" />
+				<ware ware="metallicmicrolattice" amount="1" />
+				</primary>
+			</production>
+			<component ref="polaris_engine_macro" amount="1" />
 			<restriction licence="generaluseequipment" />
 			<use threshold="0" />
 			<owner faction="terran" />
@@ -1725,6 +1752,142 @@
       			</primary>
 		  </production>
 		  <component ref="turret_starlifter_s4_mxa_macro" amount="1" />
+		  <restriction licence="generaluseequipment" />
+		  <use threshold="0"/>		  
+		  <owner faction="terran" />	  
+		</ware>
+
+		<ware id="polaris_turret_cf" name="{996667,5}" description="{996667,5}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+		  <price min="722912" average="722912" max="722912" />
+		  <production time="4" amount="1" method="default" name="{996667,5}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="19" />
+				<ware ware="energycells" amount="98" />
+				<ware ware="metallicmicrolattice" amount="131" />
+				<ware ware="siliconcarbide" amount="20" />
+      			</primary>
+		  </production>
+		  <component ref="polaris_turret_cf_macro" amount="1" />
+		  <restriction licence="generaluseequipment" />
+		  <use threshold="0"/>		  
+		  <owner faction="terran" />	  
+		</ware>
+		<ware id="polaris_turret_ad" name="{996667,30007}" description="{996667,30008}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+		  <price min="737370" average="737370" max="737370" />
+		  <production time="4" amount="1" method="default" name="{996667,30007}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="19" />
+				<ware ware="energycells" amount="100" />
+				<ware ware="metallicmicrolattice" amount="134" />
+				<ware ware="siliconcarbide" amount="20" />
+      			</primary>
+		  </production>
+		  <component ref="polaris_turret_ad_macro" amount="1" />
+		  <restriction licence="generaluseequipment" />
+		  <use threshold="0"/>		  
+		  <owner faction="terran" />	  
+		</ware>
+		<ware id="polaris_turret_mxa" name="{996667,27}" description="{996667,27}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+		  <price min="759058" average="759058" max="759058" />
+		  <production time="4" amount="1" method="default" name="{996667,27}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="21" />
+				<ware ware="energycells" amount="123" />
+				<ware ware="metallicmicrolattice" amount="144" />
+				<ware ware="siliconcarbide" amount="22" />
+      			</primary>
+		  </production>
+		  <component ref="polaris_turret_mxa_macro" amount="1" />
+		  <restriction licence="generaluseequipment" />
+		  <use threshold="0"/>		  
+		  <owner faction="terran" />	  
+		</ware>
+		<ware id="polaris_turret_db" name="{996667,70005}" description="{996667,70006}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+		  <price min="759058" average="759058" max="759058" />
+		  <production time="4" amount="1" method="default" name="{996667,70005}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="21" />
+				<ware ware="energycells" amount="123" />
+				<ware ware="metallicmicrolattice" amount="144" />
+				<ware ware="siliconcarbide" amount="22" />
+      			</primary>
+		  </production>
+		  <component ref="polaris_turret_db_macro" amount="1" />
+		  <restriction licence="generaluseequipment" />
+		  <use threshold="0"/>		  
+		  <owner faction="terran" />	  
+		</ware>
+		<ware id="polaris_turret2_mxa" name="{996667,23}" description="{996667,23}" group="turrets" transport="equipment" volume="1" tags="equipment turret ">
+		  <price min="691689" average="691689" max="691689" />
+		  <production time="3" amount="1" method="default" name="{996667,23}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="15" />
+				<ware ware="energycells" amount="108" />
+				<ware ware="metallicmicrolattice" amount="123" />
+				<ware ware="siliconcarbide" amount="19" />
+      			</primary>
+		  </production>
+		  <component ref="polaris_turret2_mxa_macro" amount="1" />
+		  <restriction licence="generaluseequipment" />
+		  <use threshold="0"/>		  
+		  <owner faction="terran" />	  
+		</ware>
+		<ware id="polaris_turret2_cf" name="{996667,3}" description="{996667,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret ">
+		  <price min="658751" average="658751" max="658751" />
+		  <production time="3" amount="1" method="default" name="{996667,3}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="14" />
+				<ware ware="energycells" amount="86" />
+				<ware ware="metallicmicrolattice" amount="112" />
+				<ware ware="siliconcarbide" amount="17" />
+      			</primary>
+		  </production>
+		  <component ref="polaris_turret2_cf_macro" amount="1" />
+		  <restriction licence="generaluseequipment" />
+		  <use threshold="0"/>		  
+		  <owner faction="terran" />	  
+		</ware>
+		<ware id="polaris_turret2_gtx" name="{996667,30005}" description="{996667,30006}" group="turrets" transport="equipment" volume="1" tags="equipment turret ">
+		  <price min="671926" average="671926" max="671926" />
+		  <production time="3" amount="1" method="default" name="{996667,30005}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="14" />
+				<ware ware="energycells" amount="88" />
+				<ware ware="metallicmicrolattice" amount="114" />
+				<ware ware="siliconcarbide" amount="17" />
+      			</primary>
+		  </production>
+		  <component ref="polaris_turret2_gtx_macro" amount="1" />
+		  <restriction licence="generaluseequipment" />
+		  <use threshold="0"/>		  
+		  <owner faction="terran" />	  
+		</ware>
+		<ware id="polaris_turret2_sp" name="{996667,30037}" description="{996667,30038}" group="turrets" transport="equipment" volume="1" tags="equipment turret ">
+		  <price min="724626" average="724626" max="724626" />
+		  <production time="10" amount="1" method="default" name="{996667,30037}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="15" />
+				<ware ware="energycells" amount="108" />
+				<ware ware="metallicmicrolattice" amount="123" />
+				<ware ware="siliconcarbide" amount="19" />
+      			</primary>
+		  </production>
+		  <component ref="turret_f8_s3_sp_macro" amount="1" />
+		  <restriction licence="generaluseequipment" />
+		  <use threshold="0"/>		  
+		  <owner faction="terran" />	  
+		</ware>
+		<ware id="polaris_turret2_missile" name="{996668,3}" description="{996668,4}" group="turrets" transport="equipment" volume="1" tags="equipment turret ">
+		  <price min="824626" average="824626" max="824626" />
+		  <production time="10" amount="1" method="default" name="{996668,3}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="15" />
+				<ware ware="energycells" amount="108" />
+				<ware ware="metallicmicrolattice" amount="123" />
+				<ware ware="siliconcarbide" amount="19" />
+      			</primary>
+		  </production>
+		  <component ref="polaris_turret2_missile_macro" amount="1" />
 		  <restriction licence="generaluseequipment" />
 		  <use threshold="0"/>		  
 		  <owner faction="terran" />	  

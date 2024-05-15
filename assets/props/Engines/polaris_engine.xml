@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-13 21:16:20 from Blender-->
+<components>
+  <component name="polaris_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\polaris_engine_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForengine" tags="part ">
+        <parts>
+          <part name="engine">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="38.02703" y="16.46842" z="13.20223" />
+              <center x="0.001654625" y="-0.2762985" z="7.207035" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_animal" tags="animation detail_l fx nocollision part speedscale_forward textureanimation useobjectrotation ">
+        <animations>
+					<animation name="loop" start="1" end="120"/>
+			  </animations>
+        <parts>
+          <part name="fx_animal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2fx.fx_p2_thruster_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="34.39229" y="14.60698" z="29.39" />
+              <center x="0" y="4.768372e-07" z="-28.04919" />
+            </size>
+            <uv_animations>
+              <uv_animation rotaroundcenter="1" mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="8" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="0" />
+                </uv_property>
+              </uv_animation>
+              <uv_animation rotaroundcenter="1" mapchannel="2">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="2" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="-16" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine medium component aegs_polaris">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

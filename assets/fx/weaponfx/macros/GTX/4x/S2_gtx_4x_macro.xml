@@ -5,7 +5,7 @@
     <component ref="bullet_gen_s_gatling_01_mk2" />
     <properties>
       <ammunition value="219" reload="2.1" />
-      <bullet speed="1400" lifetime="1.75" amount="1" barrelamount="4" icon="weapon_gatling_mk2" timediff="0.0125" angle="0.1" maxhits="2" ricochet="0.01" restitution="0.3" scale="0" attach="0" />
+      <bullet speed="1400" lifetime="1.75" amount="4" barrelamount="4" icon="weapon_gatling_mk2" timediff="0.0125" angle="0.1" maxhits="2" ricochet="0.01" restitution="0.3" scale="0" attach="0" />
       <reload rate="18.33" />
       <damage value="4.35" hull="2.175" repair="0" />
       <effects>
