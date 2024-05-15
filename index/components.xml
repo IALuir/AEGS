@@ -37,6 +37,7 @@
 		<entry name="spirit_c1" value="extensions\AEGS\assets\units\size_m\spirit_c1"/>
 		<entry name="redeemer" value="extensions\AEGS\assets\units\size_m\redeemer"/>
 		<entry name="mole" value="extensions\AEGS\assets\units\size_m\mole"/>
+		<entry name="polaris" value="extensions\AEGS\assets\units\size_m\polaris"/>
 
 		<!-- 引擎 -->
 		<entry name="engine_aegs_m_javelin" value="extensions\AEGS\assets\props\Engines\engine_aegs_m_javelin" />
@@ -68,6 +69,7 @@
 		<entry name="spirit_a1_engine" value="extensions\AEGS\assets\props\Engines\spirit_a1_engine" />
 		<entry name="redeemer_engine" value="extensions\AEGS\assets\props\Engines\redeemer_engine" />
 		<entry name="mole_engine" value="extensions\AEGS\assets\props\Engines\mole_engine" />
+		<entry name="polaris_engine" value="extensions\AEGS\assets\props\Engines\polaris_engine" />
 
 		<!-- 炮塔 -->
 		<entry name="turret_aegs_l" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\turret_aegs_l"/>
@@ -152,6 +154,15 @@
 		<entry name="redeemer_turret_b_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\redeemer\redeemer_turret_b_sp"/>
 		<entry name="mole_turret" value="extensions\AEGS\assets\props\weaponsystems\capital\mole\mole_turret"/>
 		<entry name="mole_turret2" value="extensions\AEGS\assets\props\weaponsystems\capital\mole\mole_turret2"/>
+		<entry name="polaris_turret_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret_cf"/>
+		<entry name="polaris_turret_ad" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret_ad"/>
+		<entry name="polaris_turret_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret_mxa"/>
+		<entry name="polaris_turret_db" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret_db"/>
+		<entry name="polaris_turret2_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret2_cf"/>
+		<entry name="polaris_turret2_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret2_gtx"/>
+		<entry name="polaris_turret2_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret2_mxa"/>
+		<entry name="polaris_turret2_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret2_sp"/>
+		<entry name="polaris_turret2_missile" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret2_missile"/>
 
 		<!-- 特殊武器 -->
 		<entry name="wepon_f8c_missile" value="extensions\AEGS\assets\props\weaponsystems\capital\f8\wepon_f8c_missile"/>
@@ -284,6 +295,8 @@
 		<entry name="constellation_andromeda_dockingbay" value="extensions\AEGS\assets\structures\dock\constellation_andromeda_dockingbay"/>
 		<entry name="dockarea_aegs_empty_s" value="extensions\AEGS\assets\structures\dock\dockarea_aegs_empty_s"/>
 		<entry name="dockingbay_aegs_empty_s" value="extensions\AEGS\assets\structures\dock\dockingbay_aegs_empty_s"/>
+		<entry name="polaris_dockingbay" value="extensions\AEGS\assets\structures\dock\polaris_dockingbay"/>
+		<entry name="dockarea_polaris" value="extensions\AEGS\assets\structures\dock\dockarea_polaris"/>
 
 		<!-- 引擎特效 -->
 		<entry name="aegs_javelin_boost_fx" value="extensions\AEGS\assets\fx\BoostFx\aegs_javelin_boost_fx"/>
@@ -336,6 +349,7 @@
 		<entry name="spirit_c1_inner" value="extensions\AEGS\assets\units\size_m\inner\spirit_c1_inner"/>
 		<entry name="redeemer_seat" value="extensions\AEGS\assets\interiors\xref_parts\redeemer_seat"/>
 		<entry name="mole_seat" value="extensions\AEGS\assets\interiors\xref_parts\mole_seat"/>
+		<entry name="polaris_seat" value="extensions\AEGS\assets\interiors\xref_parts\polaris_seat"/>
 
 	</add>
 </diff>

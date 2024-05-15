@@ -60,8 +60,9 @@
                 ware.generic_s1_missile,
                 ware.avenger_engine,
                 ware.spirit_a1_engine,
-                ware.redeemer_engine，
-                ware.mole_engine
+                ware.redeemer_engine,
+                ware.mole_engine,
+                ware.polaris_engine
                 ]" />
                 <!-- passing the list to add_blueprints -->
                 <add_blueprints wares="$aegswares" />

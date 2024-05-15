@@ -37,6 +37,7 @@
       <entry name="spirit_c1_macro" value="extensions\AEGS\assets\units\size_m\macros\spirit_c1_macro" />
       <entry name="redeemer_macro" value="extensions\AEGS\assets\units\size_m\macros\redeemer_macro" />
       <entry name="mole_macro" value="extensions\AEGS\assets\units\size_m\macros\mole_macro" />
+      <entry name="polaris_macro" value="extensions\AEGS\assets\units\size_m\macros\polaris_macro" />
 
       <!-- 引擎 -->
       <entry name="engine_aegs_m_javelin_macro" value="extensions\AEGS\assets\props\Engines\macros\engine_aegs_m_javelin_macro" />
@@ -68,6 +69,7 @@
       <entry name="spirit_a1_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\spirit_a1_engine_macro" />
       <entry name="redeemer_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\redeemer_engine_macro" />
       <entry name="mole_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\mole_engine_macro" />
+      <entry name="polaris_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\polaris_engine_macro" />
 
       <!-- 炮塔 -->
       <entry name="turret_javelin_s9_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\macros\turret_javelin_s9_mxa_macro"/>
@@ -171,6 +173,16 @@
 
       <entry name="mole_turret_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\mole\macros\mole_turret_macro"/>
       <entry name="mole_turret2_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\mole\macros\mole_turret2_macro"/>
+
+      <entry name="polaris_turret_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret_cf_macro"/>
+      <entry name="polaris_turret_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret_mxa_macro"/>
+      <entry name="polaris_turret_ad_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret_ad_macro"/>
+      <entry name="polaris_turret_db_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret_db_macro"/>
+      <entry name="polaris_turret2_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret2_cf_macro"/>
+      <entry name="polaris_turret2_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret2_mxa_macro"/>
+      <entry name="polaris_turret2_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret2_gtx_macro"/>
+      <entry name="polaris_turret2_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret2_sp_macro"/>
+      <entry name="polaris_turret2_missile_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret2_missile_macro"/>
 
       
 
@@ -408,6 +420,24 @@
       <entry name="S8_db_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\S8_db_macro"/>
       <entry name="S7_db_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\S7_db_macro"/>
       <entry name="S9_db_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\S9_db_macro"/>
+
+      <entry name="S2_db_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\2x\S2_db_2x_macro"/>
+      <entry name="S3_db_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\2x\S3_db_2x_macro"/>
+      <entry name="S4_db_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\2x\S4_db_2x_macro"/>
+      <entry name="S5_db_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\2x\S5_db_2x_macro"/>
+      <entry name="S6_db_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\2x\S6_db_2x_macro"/>
+      <entry name="S8_db_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\2x\S8_db_2x_macro"/>
+      <entry name="S7_db_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\2x\S7_db_2x_macro"/>
+      <entry name="S9_db_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\2x\S9_db_2x_macro"/>
+
+      <entry name="S2_db_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\4x\S2_db_4x_macro"/>
+      <entry name="S3_db_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\4x\S3_db_4x_macro"/>
+      <entry name="S4_db_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\4x\S4_db_4x_macro"/>
+      <entry name="S5_db_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\4x\S5_db_4x_macro"/>
+      <entry name="S6_db_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\4x\S6_db_4x_macro"/>
+      <entry name="S8_db_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\4x\S8_db_4x_macro"/>
+      <entry name="S7_db_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\4x\S7_db_4x_macro"/>
+      <entry name="S9_db_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\4x\S9_db_4x_macro"/>
             <!-- 其他 -->
       <entry name="S12_rail_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S12_rail_macro"/>
       <entry name="S10_rail_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S10_rail_macro"/>
@@ -461,6 +491,8 @@
       <entry name="constellation_andromeda_dockingbay_macro" value="extensions\AEGS\assets\structures\dock\macros\constellation_andromeda_dockingbay_macro"/>
       <entry name="dockarea_aegs_empty_s_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_aegs_empty_s_macro"/>
       <entry name="dockingbay_aegs_empty_s_macro" value="extensions\AEGS\assets\structures\dock\macros\dockingbay_aegs_empty_s_macro"/>
+      <entry name="polaris_dockingbay_macro" value="extensions\AEGS\assets\structures\dock\macros\polaris_dockingbay_macro"/>
+      <entry name="dockarea_polaris_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_polaris_macro"/>
       
       <!-- 引擎特效 -->
       <entry name="aegs_javelin_boost_fx_macro" value="extensions\AEGS\assets\fx\boostfx\macros\aegs_javelin_boost_fx_macro"/>
