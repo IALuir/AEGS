@@ -4,7 +4,7 @@
   <macro name="dockarea_polaris_macro" class="dockarea">
     <component ref="dockarea_polaris" />
     <properties>
-      <identification name="{996666, 70001}" description="{996666, 70002}" />
+      <identification name="{996671, 28}" description="{996671, 28}" />
       <hull integrated="1" />
       <sound_occlusion inside="0.2" outside="0.5" />
     </properties>
