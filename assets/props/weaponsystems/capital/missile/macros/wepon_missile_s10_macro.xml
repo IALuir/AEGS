@@ -6,7 +6,7 @@
     <properties>
       <identification name="{996668,17}" basename="{996668,17}" shortname="{996668,17}" makerrace="terran" description="{996668,18}" unique="0" mk="1" />
       <ammunition tags="aegs_s10" />
-      <bullet class="missile_guided_light_mk1_macro" />
+      <bullet class="missile_s10_typhoon_x_macro" />
       <reload />
       <hull hittable="0" integrated="1" />
     </properties>

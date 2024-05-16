@@ -30,7 +30,7 @@
                   <material id="4" ref="generic.grin_salvage_head_s1_1_mtl_black_painted_metal_matte" />
                   <material id="5" ref="generic.fski_bomb_s5_mtl_trim_mat" />
                   <material id="6" ref="p1.cockpit_glass_outside_01" />
-                  <material id="7" ref="generic.powr_aegs_s02_pl01_mtl_cap_painted_metal_black.001" />
+                  <material id="7" ref="generic.powr_aegs_s02_pl01_mtl_cap_painted_metal_black" />
                 </materials>
               </lod>
             </lods>

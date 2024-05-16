@@ -1872,7 +1872,7 @@
 				<ware ware="siliconcarbide" amount="19" />
       			</primary>
 		  </production>
-		  <component ref="turret_f8_s3_sp_macro" amount="1" />
+		  <component ref="polaris_turret2_sp_macro" amount="1" />
 		  <restriction licence="generaluseequipment" />
 		  <use threshold="0"/>		  
 		  <owner faction="terran" />	  
@@ -2137,9 +2137,23 @@
 			<use threshold="0" />
 			<owner faction="terran" />
     	</ware>
-		<ware id="missile_s9_argos_ix" name="{996669, 5}" description="{996669, 5}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+		<ware id="missile_s10_typhoon_x" name="{996669, 5}" description="{996669, 5}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="5120" average="5120" max="5120" />
+			<production time="12" amount="1" method="default" name="{996669,5}">
+				<primary>
+				<ware ware="energycells" amount="1024" />
+        		<ware ware="metallicmicrolattice" amount="10" />
+				</primary>
+			</production>
+			<component ref="missile_s10_typhoon_x_macro" amount="1" />
+			<restriction licence="generaluseequipment" />
+			<container ref="sm_gen_pickup_equipment_01_macro" />
+			<use threshold="0" />
+			<owner faction="terran" />
+    	</ware>
+		<ware id="missile_s9_argos_ix" name="{996669, 27}" description="{996669, 28}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
 			<price min="2560" average="2560" max="2560" />
-			<production time="15" amount="1" method="default" name="{996669,5}">
+			<production time="9" amount="1" method="default" name="{996669,27}">
 				<primary>
 				<ware ware="energycells" amount="512" />
         		<ware ware="metallicmicrolattice" amount="9" />
@@ -2153,7 +2167,7 @@
     	</ware>
 		<ware id="missile_s8_scimitar_viii" name="{996669, 17}" description="{996669, 18}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
 			<price min="1280" average="1280" max="1280" />
-			<production time="15" amount="1" method="default" name="{996669,17}">
+			<production time="8" amount="1" method="default" name="{996669,17}">
 				<primary>
 				<ware ware="energycells" amount="256" />
         		<ware ware="metallicmicrolattice" amount="8" />
@@ -2167,7 +2181,7 @@
     	</ware>
 		<ware id="missile_s2_tempest_ii" name="{996669, 9}" description="{996669, 10}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
 			<price min="20" average="20" max="20" />
-			<production time="15" amount="1" method="default" name="{996669,9}">
+			<production time="2" amount="1" method="default" name="{996669,9}">
 				<primary>
 				<ware ware="energycells" amount="4" />
         		<ware ware="metallicmicrolattice" amount="2" />
@@ -2181,7 +2195,7 @@
     	</ware>
 		<ware id="missile_s2_ignite_ii" name="{996669, 7}" description="{996669, 8}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
 			<price min="20" average="20" max="20" />
-			<production time="15" amount="1" method="default" name="{996669,7}">
+			<production time="2" amount="1" method="default" name="{996669,7}">
 				<primary>
 				<ware ware="energycells" amount="4" />
         		<ware ware="metallicmicrolattice" amount="2" />
@@ -2195,7 +2209,7 @@
     	</ware>
 		<ware id="missile_s3_viper_iii" name="{996669, 11}" description="{996669, 12}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
 			<price min="40" average="40" max="40" />
-			<production time="15" amount="1" method="default" name="{996669,11}">
+			<production time="3" amount="1" method="default" name="{996669,11}">
 				<primary>
 				<ware ware="energycells" amount="8" />
         		<ware ware="metallicmicrolattice" amount="3" />
@@ -2209,7 +2223,7 @@
     	</ware>
 		<ware id="missile_s3_arrester_iii" name="{996669, 13}" description="{996669, 14}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
 			<price min="40" average="40" max="40" />
-			<production time="15" amount="1" method="default" name="{996669,13}">
+			<production time="3" amount="1" method="default" name="{996669,13}">
 				<primary>
 				<ware ware="energycells" amount="8" />
         		<ware ware="metallicmicrolattice" amount="3" />
@@ -2223,7 +2237,7 @@
     	</ware>
 		<ware id="missile_s1_taskforce_i" name="{996669, 23}" description="{996669, 24}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
 			<price min="10" average="10" max="10" />
-			<production time="15" amount="1" method="default" name="{996669,23}">
+			<production time="1" amount="1" method="default" name="{996669,23}">
 				<primary>
 				<ware ware="energycells" amount="2" />
         		<ware ware="metallicmicrolattice" amount="1" />
@@ -2237,7 +2251,7 @@
     	</ware>
 		<ware id="missile_s1_spark_i" name="{996669, 19}" description="{996669, 20}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
 			<price min="10" average="10" max="10" />
-			<production time="15" amount="1" method="default" name="{996669,19}">
+			<production time="1" amount="1" method="default" name="{996669,19}">
 				<primary>
 				<ware ware="energycells" amount="2" />
         		<ware ware="metallicmicrolattice" amount="1" />
@@ -2251,7 +2265,7 @@
     	</ware>
 		<ware id="missile_s1_marksman_i" name="{996669, 21}" description="{996669, 22}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
 			<price min="10" average="10" max="10" />
-			<production time="15" amount="1" method="default" name="{996669,21}">
+			<production time="1" amount="1" method="default" name="{996669,21}">
 				<primary>
 				<ware ware="energycells" amount="2" />
         		<ware ware="metallicmicrolattice" amount="1" />
@@ -2266,7 +2280,7 @@
 
 		<ware id="missile_spirit_a1_fski" name="{996669,25}" description="{996669, 26}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
 			<price min="200" average="200" max="200" />
-			<production time="15" amount="1" method="default" name="{996669,25}">
+			<production time="5" amount="1" method="default" name="{996669,25}">
 				<primary>
 				<ware ware="energycells" amount="40" />
         		<ware ware="metallicmicrolattice" amount="15" />

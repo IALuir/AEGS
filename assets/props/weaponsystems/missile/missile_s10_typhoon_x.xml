@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-16 12:22:56 from Blender-->
+<components>
+  <component name="missile_s10_typhoon_x" class="missile">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\missile\missile_s10_typhoon_x_data" />
+    <layers>
+			<layer>
+				<waypoints/>
+				<trailemitters>
+					<emitter name="trail_red_small_01" type="trail_red_small_01">
+						<offset>
+							<position x="0" y="0" z="-6"/>
+						</offset>
+					</emitter>
+				</trailemitters>
+			</layer>
+		</layers>
+    <connections>
+      <connection name="space" tags="missile" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForanim_booster" tags="part nocollision animation textureanimation">
+        <animations>
+			    <animation name="loop" start="1" end="500"/>
+		    </animations>
+        <parts>
+          <part name="anim_booster">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="effects.booster" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2631573" y="0.2631573" z="1.814942" />
+              <center x="-7.450581e-09" y="0" z="-6.691405" />
+            </size>
+            <uv_animations>
+					    <uv_animation mapchannel="1">
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="0" value="0"/>
+                  <key frame="500" value="-50"/>
+                </uv_property>
+            </uv_animation>
+          </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormissile" tags="part ">
+        <parts>
+          <part name="missile">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.taln_retaliator_s9_mtl_metal_painted" />
+                  <material id="2" ref="generic.taln_retaliator_s9_mtl_decals_pom" />
+                  <material id="3" ref="generic.taln_retaliator_s9_mtl_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4599054" y="0.456903" z="4.457436" />
+              <center x="-0.0013083" y="5.066395e-07" z="-0.550262" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.205" y="2.205" z="6.615001" />
+              <center x="0" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine01" tags="engine standard ">
+        <offset>
+              <position x="0" y="0" z="0" />
+        </offset>
+	    </connection>
+    </connections>
+  </component>
+</components>
