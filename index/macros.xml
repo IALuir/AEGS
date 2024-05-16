@@ -460,6 +460,7 @@
       <entry name="missile_s12_seeker_xii_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s12_seeker_xii_macro"/>
       <entry name="missile_s11_seeker_xi_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s11_seeker_xi_macro"/>
       <entry name="missile_s9_argos_ix_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s9_argos_ix_macro"/>
+      <entry name="missile_s10_typhoon_x_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s10_typhoon_x_macro"/>
       <entry name="missile_s8_scimitar_viii_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s8_scimitar_viii_macro"/>
       <entry name="missile_s2_ignite_ii_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s2_ignite_ii_macro"/>
       <entry name="missile_s2_tempest_ii_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s2_tempest_ii_macro"/>
@@ -539,5 +540,7 @@
       <entry name="f7c_t_macro" value="extensions\AEGS\assets\units\size_s\inner\macros\f7c_t_macro"/>
       <entry name="spirit_a1_inner_macro" value="extensions\AEGS\assets\units\size_m\inner\macros\spirit_a1_inner_macro"/>
       <entry name="spirit_c1_inner_macro" value="extensions\AEGS\assets\units\size_m\inner\macros\spirit_c1_inner_macro"/>
+      <entry name="storage_polaris_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_polaris_macro"/>
+      <entry name="shipstorage_polaris_macro" value="extensions\AEGS\assets\units\size_m\macros\shipstorage_polaris_macro"/>
 
 </index>

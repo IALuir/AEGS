@@ -263,6 +263,7 @@
 
 		<!-- 导弹 -->
 		<entry name="missile_s12_seeker_xii" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s12_seeker_xii"/>
+		<entry name="missile_s10_typhoon_x" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s10_typhoon_x"/>
 		<entry name="missile_s9_argos_ix" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s9_argos_ix"/>
 		<entry name="missile_s8_scimitar_viii" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s8_scimitar_viii"/>
 		<entry name="missile_s2_ignite_ii" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s2_ignite_ii"/>
