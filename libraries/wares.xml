@@ -453,7 +453,7 @@
 			</primary>
 			</production>
 			<component ref="mole_macro" />
-			<restriction licence="militaryship" />
+			<restriction licence="generaluseship" />
 			<owner faction="terran" />
 		</ware>
 		<ware id="polaris" name="{996666,73}" description="{996666,74}" transport="ship" volume="1" tags="ship">
@@ -467,6 +467,19 @@
 			</production>
 			<component ref="polaris_macro" />
 			<restriction licence="militaryship" />
+			<owner faction="terran" />
+		</ware>
+		<ware id="prospector" name="{996666,75}" description="{996666,76}" transport="ship" volume="1" tags="ship">
+			<price min="1080000" average="1080000" max="1080000" />
+			<production time="90" amount="1" method="default" name="{996666,75}">
+			<primary>
+				<ware ware="computronicsubstrate" amount="160" />
+				<ware ware="energycells" amount="500" />
+				<ware ware="metallicmicrolattice" amount="224" />
+			</primary>
+			</production>
+			<component ref="prospector_macro" />
+			<restriction licence="generaluseship" />
 			<owner faction="terran" />
 		</ware>
 		
@@ -859,6 +872,20 @@
 				</primary>
 			</production>
 			<component ref="polaris_engine_macro" amount="1" />
+			<restriction licence="generaluseequipment" />
+			<use threshold="0" />
+			<owner faction="terran" />
+		</ware>
+		<ware id="prospector_engine" name="{996670,1}" description="{996670,1}" group="engines" transport="equipment" volume="1" tags="equipment engine ">
+			<price min="1" average="1" max="1" />
+			<production time="10" amount="1" method="default" name="{996670,1}">
+			<primary>
+				<ware ware="computronicsubstrate" amount="1" />
+				<ware ware="energycells" amount="1" />
+				<ware ware="metallicmicrolattice" amount="1" />
+				</primary>
+			</production>
+			<component ref="prospector_engine_macro" amount="1" />
 			<restriction licence="generaluseequipment" />
 			<use threshold="0" />
 			<owner faction="terran" />
@@ -3137,6 +3164,22 @@
 			<restriction licence="militaryequipment" />
 			<use threshold="0" />
 			<owner faction="terran" />
+		</ware>
+
+		<ware id="prospector_weapon" name="{996671,29}" description="{996671,30}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+		  <price min="366208" average="366208" max="366208" />
+		  <production time="5" amount="1" method="default" name="{996671,29}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="1" />
+				<ware ware="energycells" amount="1" />
+				<ware ware="metallicmicrolattice" amount="1" />
+				<ware ware="siliconcarbide" amount="1" />
+      			</primary>
+		  </production>
+		  <component ref="prospector_weapon_macro" amount="1" />
+		  <restriction licence="generaluseequipment" />
+		  <use threshold="0"/>
+		  <owner faction="terran" />	  
 		</ware>
 
 		<ware id="retribution_maingun_macro" name="{996671,14}" description="{996671,15}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">

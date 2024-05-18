@@ -38,6 +38,7 @@
       <entry name="redeemer_macro" value="extensions\AEGS\assets\units\size_m\macros\redeemer_macro" />
       <entry name="mole_macro" value="extensions\AEGS\assets\units\size_m\macros\mole_macro" />
       <entry name="polaris_macro" value="extensions\AEGS\assets\units\size_m\macros\polaris_macro" />
+      <entry name="prospector_macro" value="extensions\AEGS\assets\units\size_s\macros\prospector_macro" />
 
       <!-- 引擎 -->
       <entry name="engine_aegs_m_javelin_macro" value="extensions\AEGS\assets\props\Engines\macros\engine_aegs_m_javelin_macro" />
@@ -70,6 +71,7 @@
       <entry name="redeemer_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\redeemer_engine_macro" />
       <entry name="mole_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\mole_engine_macro" />
       <entry name="polaris_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\polaris_engine_macro" />
+      <entry name="prospector_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\prospector_engine_macro" />
 
       <!-- 炮塔 -->
       <entry name="turret_javelin_s9_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\macros\turret_javelin_s9_mxa_macro"/>
@@ -212,6 +214,8 @@
       <entry name="weapon_p52_s3_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\p52\macros\weapon_p52_s3_macro"/>
 
       <entry name="spirit_a1_boom_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\spirit\macros\spirit_a1_boom_macro"/>
+
+      <entry name="prospector_weapon_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\prospector\macros\prospector_weapon_macro"/>
 
       <!-- 武器 -->
       <entry name="weapon_nnxa_s2_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_nnxa_s2_macro"/>
@@ -542,5 +546,6 @@
       <entry name="spirit_c1_inner_macro" value="extensions\AEGS\assets\units\size_m\inner\macros\spirit_c1_inner_macro"/>
       <entry name="storage_polaris_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_polaris_macro"/>
       <entry name="shipstorage_polaris_macro" value="extensions\AEGS\assets\units\size_m\macros\shipstorage_polaris_macro"/>
+      <entry name="storage_prospector_macro" value="extensions\AEGS\assets\units\size_s\macros\storage_prospector_macro"/>
 
 </index>

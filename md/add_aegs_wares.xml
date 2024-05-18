@@ -62,7 +62,8 @@
                 ware.spirit_a1_engine,
                 ware.redeemer_engine,
                 ware.mole_engine,
-                ware.polaris_engine
+                ware.polaris_engine,
+                ware.prospector_engine
                 ]" />
                 <!-- passing the list to add_blueprints -->
                 <add_blueprints wares="$aegswares" />

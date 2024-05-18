@@ -38,6 +38,7 @@
 		<entry name="redeemer" value="extensions\AEGS\assets\units\size_m\redeemer"/>
 		<entry name="mole" value="extensions\AEGS\assets\units\size_m\mole"/>
 		<entry name="polaris" value="extensions\AEGS\assets\units\size_m\polaris"/>
+		<entry name="prospector" value="extensions\AEGS\assets\units\size_s\prospector"/>
 
 		<!-- 引擎 -->
 		<entry name="engine_aegs_m_javelin" value="extensions\AEGS\assets\props\Engines\engine_aegs_m_javelin" />
@@ -70,6 +71,7 @@
 		<entry name="redeemer_engine" value="extensions\AEGS\assets\props\Engines\redeemer_engine" />
 		<entry name="mole_engine" value="extensions\AEGS\assets\props\Engines\mole_engine" />
 		<entry name="polaris_engine" value="extensions\AEGS\assets\props\Engines\polaris_engine" />
+		<entry name="prospector_engine" value="extensions\AEGS\assets\props\Engines\prospector_engine" />
 
 		<!-- 炮塔 -->
 		<entry name="turret_aegs_l" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\turret_aegs_l"/>
@@ -177,6 +179,7 @@
 		<entry name="weapon_vanguard_s2" value="extensions\AEGS\assets\props\weaponsystems\capital\vanguard\weapon_vanguard_s2"/>
 		<entry name="weapon_p52_s3" value="extensions\AEGS\assets\props\weaponsystems\capital\p52\weapon_p52_s3"/>
 		<entry name="spirit_a1_boom" value="extensions\AEGS\assets\props\weaponsystems\capital\spirit\spirit_a1_boom"/>
+		<entry name="prospector_weapon" value="extensions\AEGS\assets\props\weaponsystems\capital\prospector\prospector_weapon"/>
 
 		<!-- 实体导弹 -->
 		<entry name="missile_s2" value="extensions\AEGS\assets\props\weaponsystems\generic\missile_s2"/>
@@ -351,6 +354,7 @@
 		<entry name="redeemer_seat" value="extensions\AEGS\assets\interiors\xref_parts\redeemer_seat"/>
 		<entry name="mole_seat" value="extensions\AEGS\assets\interiors\xref_parts\mole_seat"/>
 		<entry name="polaris_seat" value="extensions\AEGS\assets\interiors\xref_parts\polaris_seat"/>
+		<entry name="prospector_seat" value="extensions\AEGS\assets\interiors\xref_parts\prospector_seat"/>
 
 	</add>
 </diff>
