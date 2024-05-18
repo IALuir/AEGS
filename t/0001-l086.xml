@@ -112,6 +112,9 @@
 
 			<t id="73">AEGS 北极星</t>
 			<t id="74">AEGS 北极星</t>
+
+			<t id="75">AEGS 勘探者</t>
+			<t id="76">AEGS 勘探者</t>
 		</page>
 
 		<page id="996669" title="missile" descr="missile" voice="no">
@@ -173,8 +176,8 @@
 		</page>
 
 		<page id="996671" title="S" descr="S" voice="no">
-			<t id="1">AEGS S12 轨道炮</t>
-			<t id="2">AEGS S12 轨道炮</t>
+			<t id="1">AEGS S12 “舰船终结者” 磁轨炮</t>
+			<t id="2">AEGS S12 “舰船终结者” 磁轨炮</t>
 
 			<t id="3">AEGS 鱼雷舱</t>
 			<t id="4">AEGS 鱼雷舱</t>
@@ -196,8 +199,8 @@
 			<t id="14">AEGS 光束发生器</t>
 			<t id="15">AEGS 光束发生器</t>
 
-			<t id="16">AEGS SX 轨道炮</t>
-			<t id="17">AEGS SX 轨道炮</t>.
+			<t id="16">AEGS S12 “舰船终结者” 磁轨炮 Mk.II</t>
+			<t id="17">AEGS S12 “舰船终结者” 磁轨炮 Mk.II</t>.
 
 			<t id="18">AEGS S11 GVSR 激光加农炮</t>
 			<t id="19">AEGS S11 GVSR 激光加农炮</t>
@@ -215,6 +218,9 @@
 			<t id="27">AEGS S10 GVSR 加农炮</t>
 
 			<t id="28">停机坪</t>
+
+			<t id="29">AEGS S2 采矿激光</t>
+			<t id="30">AEGS S2 采矿激光</t>
 		</page>
 
 		<page id="996668" title="missile_weapon" descr="missile_weapon" voice="no">
