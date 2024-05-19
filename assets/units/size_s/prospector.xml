@@ -1020,6 +1020,96 @@
           </part>
         </parts>
       </connection>
+      <connection name="ConnectionForengine_animal" tags="animation detail_l fx nocollision part speedscale_forward textureanimation useobjectrotation " parent="prospectorthrustermainleft">
+        <offset>
+          <position x="-2.9036" y="-0.007583268" z="-3.845265" />
+        </offset>
+        <animations>
+          <animation name="loop" start="1" end="120" />
+        </animations>
+        <parts>
+          <part name="engine_animal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5220471" y="0.5220465" z="3.261037" />
+              <center x="-0.0112251" y="-1.811981e-05" z="-6.592255" />
+            </size>
+            <uv_animations>
+              <uv_animation rotaroundcenter="1" mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="8" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="0" />
+                </uv_property>
+              </uv_animation>
+              <uv_animation rotaroundcenter="1" mapchannel="2">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="2" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="-16" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForengine_animal001" tags="animation detail_l fx nocollision part speedscale_forward textureanimation useobjectrotation " parent="prospectorthrustermainright">
+        <offset>
+          <position x="2.90311" y="-0.007583268" z="-3.845265" />
+        </offset>
+        <animations>
+          <animation name="loop" start="1" end="120" />
+        </animations>
+        <parts>
+          <part name="engine_animal001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5220471" y="0.5220465" z="3.261037" />
+              <center x="-0.0112251" y="-1.811981e-05" z="-6.592255" />
+            </size>
+            <uv_animations>
+              <uv_animation rotaroundcenter="1" mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="8" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="0" />
+                </uv_property>
+              </uv_animation>
+              <uv_animation rotaroundcenter="1" mapchannel="2">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="2" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="-16" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
 
       <connection name="Connectiontrustthruster" tags="part animation  ">
         <offset>
