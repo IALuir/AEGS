@@ -3080,6 +3080,191 @@
           </part>
         </parts>
       </connection>
+      <connection name="ConnectionForen_door001" group="door_right" tags="part animation require_docked trigger_interact ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-3.536954" y="-10.63643" z="38.49464" />
+        </offset>
+        <parts>
+          <part name="en_door001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Matte_Dark" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Metal_Grey" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.750829" y="0.6998949" z="2.114452" />
+              <center x="1.02715" y="0.2097645" z="0.3716164" />
+            </size>
+            <size_raw>
+              <max x="1.381759" y="0.6998949" z="2.114452" />
+              <center x="-0.3070344" y="0.2097645" z="0.3716158" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForen_door002" group="door_left" tags="part animation require_docked trigger_interact ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="3.53722" y="-10.63643" z="38.49464" />
+        </offset>
+        <parts>
+          <part name="en_door002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Matte_Dark" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Metal_Grey" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.740439" y="0.6998949" z="2.114452" />
+              <center x="-1.017025" y="0.2097645" z="0.3716164" />
+            </size>
+            <size_raw>
+              <max x="1.381759" y="0.6998949" z="2.114452" />
+              <center x="0.3070326" y="0.2097645" z="0.3716161" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForplatform1" group="door_left" tags="part animation require_docked trigger_interact ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="3.89764" y="-6.098381" z="38.92167" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="platform1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_darks_grey_highgloss" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_panels_metal" />
+                  <material id="4" ref="generic.aegs_hammerhead_int_mtl_cable_pipe_trims" />
+                  <material id="5" ref="generic.aegs_hammerhead_int_mtl_accents_orange" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.311107" y="6.96472" z="2.015118" />
+              <center x="-0.002815962" y="-6.152745" z="-0.005756378" />
+            </size>
+            <size_raw>
+              <max x="1.311107" y="0.8022705" z="2.015118" />
+              <center x="-0.002816081" y="-0.0004524887" z="-0.00575614" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForplatform2" group="door_right" tags="part animation require_docked trigger_interact ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-3.89764" y="-6.098381" z="38.92167" />
+        </offset>
+        <parts>
+          <part name="platform2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_darks_grey_highgloss" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_panels_metal" />
+                  <material id="4" ref="generic.aegs_hammerhead_int_mtl_cable_pipe_trims" />
+                  <material id="5" ref="generic.aegs_hammerhead_int_mtl_accents_orange" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.311107" y="6.96472" z="2.015118" />
+              <center x="-0.0028162" y="-6.152745" z="-0.005756378" />
+            </size>
+            <size_raw>
+              <max x="1.311107" y="0.8022705" z="2.015118" />
+              <center x="-0.002816081" y="-0.0004524887" z="-0.00575614" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortext" group="door_left" tags="part animation require_docked trigger_interact ui detail_s">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0" y="-18.1515" z="38.96109" />
+        </offset>
+        <parts>
+          <part name="text">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.021172" y="4.803129" z="0.02499962" />
+              <center x="0" y="4.533144" z="-0.02499771" />
+            </size>
+            <size_raw>
+              <max x="1.021172" y="0.2625" z="0.0250001" />
+              <center x="8.940697e-08" y="0" z="-0.02500001" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordock_room" tags="part ">
+        <offset>
+          <position x="0" y="8.123393" z="-32.3406" />
+        </offset>
+        <parts>
+          <part name="dock_room">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.407465" y="4.448623" z="2.218803" />
+              <center x="0" y="-14.54311" z="71.27534" />
+            </size>
+          </part>
+        </parts>
+      </connection>
 
       <connection name="Connectiontrustthruster001" tags="part animation ">
         <offset>
@@ -3578,6 +3763,95 @@
 				<offset>
           <position x="0" y="-0.82023" z="63.0648" />
         </offset>
+			</connection>
+
+      <connection name="Connection101" group="transporter_02 " tags=" part">
+				<offset>
+          <position x="0" y="-5.5043" z="42.5318" />
+          <quaternion qx="0" qy="-1" qz="0" qw="0" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.part_main" name="part_main1"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection102" tags="part iklink  " parent="part_main1">
+				<offset>
+					<position x="0" y="5.153775E-02" z="3.353691E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals" name="detail_m_decals1"/>
+				</parts>
+			</connection>
+			<connection name="Connection103" group="transporter_02 " tags="part animation  " parent="part_main1">
+				<offset>
+					<position x="0.54566" y="0.007" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_left" name="anim_door_left1"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection104" tags="part iklink  " parent="anim_door_left1">
+				<offset>
+					<position x="-0.4329364" y="3.16143E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_left" name="detail_m_decals_left1"/>
+				</parts>
+			</connection>
+			<connection name="Connection105" tags="part nocollision iklink  " parent="anim_door_left1">
+				<offset>
+					<position x="6.043839E-02" y="9.536743E-07" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_left" name="detail_m_light_left1"/>
+				</parts>
+			</connection>
+			<connection name="Connection106" group="transporter_02 " tags="part animation  " parent="part_main1">
+				<offset>
+					<position x="-0.54566" y="0.008" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_right" name="anim_door_right1"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection107" tags="part iklink  " parent="anim_door_right1">
+				<offset>
+					<position x="0.4321223" y="3.553271E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_right" name="detail_m_decals_right1"/>
+				</parts>
+			</connection>
+			<connection name="Connection108" tags="part nocollision iklink  " parent="anim_door_right1">
+				<offset>
+					<position x="-6.110048E-02" y="3.925562E-04" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_right" name="detail_m_light_right1"/>
+				</parts>
+			</connection>
+			<connection name="Connection109" group="transporter_02 " tags="part detail_l  " parent="part_main1">
+				<offset>
+					<position x="1.205526" y="0.04" z="-0.1"/>
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_l_button" name="detail_l_button1"/>
+				</parts>
+			</connection>
+			<connection name="Connection110" group="transporter_02 " tags="part  " parent="part_main1">
+				<offset>
+					<position x="0" y="1.14" z="0.9"/>
+					<quaternion qx="0.7071066" qy="-0" qz="-0" qw="-0.7071069"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.dummy_sound_animation" name="dummy_sound_animation1"/>
+				</parts>
 			</connection>
 
       <connection name="Connectionchiar01" group="pilotcontrol" tags="part ui">
