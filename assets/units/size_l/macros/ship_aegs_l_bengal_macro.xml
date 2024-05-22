@@ -19,7 +19,7 @@
       <hull max="137000" />
       <secrecy level="2" />
       <purpose primary="fight" />
-      <people capacity="145" />
+      <people capacity="476" />
       <physics mass="341.545">
         <inertia pitch="118.961" yaw="95.169" roll="118.961" />
         <drag forward="218.9" reverse="540.317" horizontal="84.116" vertical="84.116" pitch="112.976" yaw="112.976" roll="112.976" />

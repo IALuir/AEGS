@@ -6,7 +6,7 @@
     <properties>
       <ammunition value="1" reload="12"/>
       <bullet speed="1800" lifetime="6.5" amount="1" barrelamount="4" icon="weapon_cannon_mk1" timediff="0.007" angle="0.35" maxhits="1" ricochet="0" scale="0" attach="0" selfdestruct="1"  />
-      <reload rate="0.2" />
+      <reload rate="1" />
       <areadamage value="1050" range="128" time="1" lifetime="1" />
       <damage value="15500" hull="4400" repair="0" />
       <effects>
