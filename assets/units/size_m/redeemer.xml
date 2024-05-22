@@ -1268,26 +1268,6 @@
           <position x="0" y="2.20005" z="-3.96057" />
         </offset>
 			</connection>
-      <connection name="con_shield_04" tags="medium shield unhittable  standard hidden">
-        <offset>
-          <position x="0" y="2.20005" z="-3.96057" />
-        </offset>
-			</connection>
-      <connection name="con_shield_05" tags="medium shield unhittable  standard hidden">
-        <offset>
-          <position x="0" y="2.20005" z="-3.96057" />
-        </offset>
-			</connection>
-      <connection name="con_shield_06" tags="medium shield unhittable  standard hidden">
-        <offset>
-          <position x="0" y="2.20005" z="-3.96057" />
-        </offset>
-			</connection>
-      <connection name="con_shield_07" tags="medium shield unhittable  standard hidden">
-        <offset>
-          <position x="0" y="2.20005" z="-3.96057" />
-        </offset>
-			</connection>
 
     </connections>
   </component>

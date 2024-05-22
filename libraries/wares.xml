@@ -431,12 +431,12 @@
 			<owner faction="terran" />
 		</ware>
 		<ware id="redeemer" name="{996666,69}" description="{996666,70}" transport="ship" volume="1" tags="ship">
-			<price min="5800000" average="5800000" max="5800000" />
+			<price min="6712987" average="6712987" max="6712987" />
 			<production time="90" amount="1" method="default" name="{996666,69}">
 			<primary>
-				<ware ware="computronicsubstrate" amount="160" />
-				<ware ware="energycells" amount="500" />
-				<ware ware="metallicmicrolattice" amount="224" />
+				<ware ware="computronicsubstrate" amount="162" />
+				<ware ware="energycells" amount="495" />
+				<ware ware="metallicmicrolattice" amount="226" />
 			</primary>
 			</production>
 			<component ref="redeemer_macro" />

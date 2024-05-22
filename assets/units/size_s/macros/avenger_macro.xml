@@ -28,7 +28,7 @@
       </physics>
       <thruster tags="small" />
       <enginearticulation y="1" z="1" />
-      <ship type="scout" />
+      <ship type="courier" />
       <sound_occlusion inside="0.5" />
     </properties>
     <connections>

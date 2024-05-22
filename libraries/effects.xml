@@ -764,7 +764,7 @@
       </element>
       <!-- Area DMG -->
       <element id="3" ref="effect_dummy_macro" forkeffect="none" duration="4.0" forklod="none">
-        <areadamage range="30" falloff="1.0" duration="1.0"/>
+        <areadamage range="275" falloff="1.0" duration="1.0"/>
       </element>
     </elements>
   </effect>

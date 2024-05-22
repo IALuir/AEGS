@@ -5,7 +5,7 @@
     <component ref="generic_storage" />
     <properties>
       <identification makerrace="terran" />
-      <cargo max="10800" tags="container" />
+      <cargo max="25200" tags="container" />
       <hull integrated="1" />
     </properties>
   </macro>

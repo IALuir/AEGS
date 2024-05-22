@@ -415,108 +415,72 @@
             <lods>
               <lod index="0">
                 <materials>
-                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
-                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
-                  <material id="3" ref="p1.cockpit_glass_outside_01" />
-                  <material id="4" ref="generic.idris_hangar_mtl_floor_alphas" />
-                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Light_Panel" />
-                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Mid_Panel" />
-                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_Dark_Panel" />
-                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
-                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_Mid_Flat" />
-                  <material id="10" ref="generic.idris_frigate_exterior_wip_mtl_brown_flat" />
-                  <material id="11" ref="generic.idris_frigate_exterior_wip_mtl_dark_no_panel" />
-                  <material id="12" ref="generic.idris_frigate_exterior_wip_mtl_black_no_panel" />
-                  <material id="13" ref="p1effects.p1_gradient_colour" />
-                  <material id="14" ref="generic.idris_frigate_exterior_wip_mtl_brown_flat" />
-                  <material id="15" ref="generic.idris_frigate_exterior_wip_mtl_Internal_framework_b" />
-                  <material id="16" ref="generic.idris_frigate_exterior_wip_mtl_Green_Flat" />
-                  <material id="17" ref="generic.idris_frigate_exterior_wip_mtl_Dark_Flat" />
-                  <material id="18" ref="generic.idris_frigate_exterior_wip_mtl_Pipes_Girders" />
-                  <material id="19" ref="generic.idris_frigate_exterior_wip_mtl_light_no_panel" />
-                  <material id="20" ref="generic.idris_frigate_exterior_wip_mtl_atlas_mat" />
-                  <material id="21" ref="generic.idris_frigate_exterior_wip_mtl_internal_framework_a" />
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_brown_flat" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Internal_framework_b" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Flat" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Dark_Flat" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Pipes_Girders" />
+                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_light_no_panel" />
+                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_atlas_mat" />
+                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_internal_framework_a" />
+                  <material id="10" ref="generic.idris_frigate_exterior_wip_mtl_grey_int" />
+                  <material id="11" ref="generic.aegs_idris_mtl_decals_pom" />
+                  <material id="12" ref="generic.idris_frigate_exterior_wip_mtl_orange_int" />
                 </materials>
               </lod>
               <lod index="1">
                 <materials>
-                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
-                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
-                  <material id="3" ref="p1.cockpit_glass_outside_01" />
-                  <material id="4" ref="generic.idris_hangar_mtl_floor_alphas" />
-                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Light_Panel" />
-                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Mid_Panel" />
-                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_Dark_Panel" />
-                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
-                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_Mid_Flat" />
-                  <material id="10" ref="generic.idris_frigate_exterior_wip_mtl_brown_flat" />
-                  <material id="11" ref="generic.idris_frigate_exterior_wip_mtl_dark_no_panel" />
-                  <material id="12" ref="generic.idris_frigate_exterior_wip_mtl_black_no_panel" />
-                  <material id="13" ref="p1effects.p1_gradient_colour" />
-                  <material id="14" ref="generic.idris_frigate_exterior_wip_mtl_brown_flat" />
-                  <material id="15" ref="generic.idris_frigate_exterior_wip_mtl_Internal_framework_b" />
-                  <material id="16" ref="generic.idris_frigate_exterior_wip_mtl_Green_Flat" />
-                  <material id="17" ref="generic.idris_frigate_exterior_wip_mtl_Dark_Flat" />
-                  <material id="18" ref="generic.idris_frigate_exterior_wip_mtl_Pipes_Girders" />
-                  <material id="19" ref="generic.idris_frigate_exterior_wip_mtl_light_no_panel" />
-                  <material id="20" ref="generic.idris_frigate_exterior_wip_mtl_atlas_mat" />
-                  <material id="21" ref="generic.idris_frigate_exterior_wip_mtl_internal_framework_a" />
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_brown_flat" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Internal_framework_b" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Flat" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Dark_Flat" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Pipes_Girders" />
+                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_light_no_panel" />
+                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_atlas_mat" />
+                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_internal_framework_a" />
+                  <material id="10" ref="generic.idris_frigate_exterior_wip_mtl_grey_int" />
+                  <material id="11" ref="generic.aegs_idris_mtl_decals_pom" />
+                  <material id="12" ref="generic.idris_frigate_exterior_wip_mtl_orange_int" />
                 </materials>
               </lod>
               <lod index="2">
                 <materials>
-                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
-                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
-                  <material id="3" ref="p1.cockpit_glass_outside_01" />
-                  <material id="4" ref="generic.idris_hangar_mtl_floor_alphas" />
-                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Light_Panel" />
-                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Mid_Panel" />
-                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_Dark_Panel" />
-                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
-                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_Mid_Flat" />
-                  <material id="10" ref="generic.idris_frigate_exterior_wip_mtl_brown_flat" />
-                  <material id="11" ref="generic.idris_frigate_exterior_wip_mtl_dark_no_panel" />
-                  <material id="12" ref="generic.idris_frigate_exterior_wip_mtl_black_no_panel" />
-                  <material id="13" ref="p1effects.p1_gradient_colour" />
-                  <material id="14" ref="generic.idris_frigate_exterior_wip_mtl_brown_flat" />
-                  <material id="15" ref="generic.idris_frigate_exterior_wip_mtl_Internal_framework_b" />
-                  <material id="16" ref="generic.idris_frigate_exterior_wip_mtl_Green_Flat" />
-                  <material id="17" ref="generic.idris_frigate_exterior_wip_mtl_Dark_Flat" />
-                  <material id="18" ref="generic.idris_frigate_exterior_wip_mtl_Pipes_Girders" />
-                  <material id="19" ref="generic.idris_frigate_exterior_wip_mtl_light_no_panel" />
-                  <material id="20" ref="generic.idris_frigate_exterior_wip_mtl_atlas_mat" />
-                  <material id="21" ref="generic.idris_frigate_exterior_wip_mtl_internal_framework_a" />
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_brown_flat" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Internal_framework_b" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Flat" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Dark_Flat" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Pipes_Girders" />
+                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_light_no_panel" />
+                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_atlas_mat" />
+                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_internal_framework_a" />
+                  <material id="10" ref="generic.idris_frigate_exterior_wip_mtl_grey_int" />
+                  <material id="11" ref="generic.aegs_idris_mtl_decals_pom" />
+                  <material id="12" ref="generic.idris_frigate_exterior_wip_mtl_orange_int" />
                 </materials>
               </lod>
               <lod index="3">
                 <materials>
-                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
-                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
-                  <material id="3" ref="p1.cockpit_glass_outside_01" />
-                  <material id="4" ref="generic.idris_hangar_mtl_floor_alphas" />
-                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Light_Panel" />
-                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Mid_Panel" />
-                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_Dark_Panel" />
-                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
-                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_Mid_Flat" />
-                  <material id="10" ref="generic.idris_frigate_exterior_wip_mtl_brown_flat" />
-                  <material id="11" ref="generic.idris_frigate_exterior_wip_mtl_dark_no_panel" />
-                  <material id="12" ref="generic.idris_frigate_exterior_wip_mtl_black_no_panel" />
-                  <material id="13" ref="p1effects.p1_gradient_colour" />
-                  <material id="14" ref="generic.idris_frigate_exterior_wip_mtl_brown_flat" />
-                  <material id="15" ref="generic.idris_frigate_exterior_wip_mtl_Internal_framework_b" />
-                  <material id="16" ref="generic.idris_frigate_exterior_wip_mtl_Green_Flat" />
-                  <material id="17" ref="generic.idris_frigate_exterior_wip_mtl_Dark_Flat" />
-                  <material id="18" ref="generic.idris_frigate_exterior_wip_mtl_Pipes_Girders" />
-                  <material id="19" ref="generic.idris_frigate_exterior_wip_mtl_light_no_panel" />
-                  <material id="20" ref="generic.idris_frigate_exterior_wip_mtl_atlas_mat" />
-                  <material id="21" ref="generic.idris_frigate_exterior_wip_mtl_internal_framework_a" />
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_brown_flat" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Internal_framework_b" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Flat" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Dark_Flat" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Pipes_Girders" />
+                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_light_no_panel" />
+                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_atlas_mat" />
+                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_internal_framework_a" />
+                  <material id="10" ref="generic.idris_frigate_exterior_wip_mtl_grey_int" />
+                  <material id="11" ref="generic.aegs_idris_mtl_decals_pom" />
+                  <material id="12" ref="generic.idris_frigate_exterior_wip_mtl_orange_int" />
                 </materials>
               </lod>
             </lods>
             <size>
-              <max x="52.12278" y="25.76686" z="119.3395" />
-              <center x="0.000125885" y="5.33948" z="8.551483" />
+              <max x="52.12278" y="23.54447" z="113.6295" />
+              <center x="0.000125885" y="3.142778" z="8.815754" />
             </size>
           </part>
         </parts>
@@ -608,6 +572,85 @@
             <size>
               <max x="39.57827" y="9.410994" z="69.8432" />
               <center x="9.764122" y="17.32579" z="-27.23878" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody003" tags="part ">
+        <offset>
+          <position x="0" y="-1.953999" z="5.316001" />
+        </offset>
+        <parts>
+          <part name="body003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.idris_hangar_mtl_floor_alphas" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Light_Panel" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Mid_Panel" />
+                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_Dark_Panel" />
+                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_Mid_Flat" />
+                  <material id="10" ref="generic.idris_frigate_exterior_wip_mtl_brown_flat" />
+                  <material id="11" ref="generic.idris_frigate_exterior_wip_mtl_dark_no_panel" />
+                  <material id="12" ref="generic.idris_frigate_exterior_wip_mtl_black_no_panel" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.idris_hangar_mtl_floor_alphas" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Light_Panel" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Mid_Panel" />
+                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_Dark_Panel" />
+                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_Mid_Flat" />
+                  <material id="10" ref="generic.idris_frigate_exterior_wip_mtl_brown_flat" />
+                  <material id="11" ref="generic.idris_frigate_exterior_wip_mtl_dark_no_panel" />
+                  <material id="12" ref="generic.idris_frigate_exterior_wip_mtl_black_no_panel" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.idris_hangar_mtl_floor_alphas" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Light_Panel" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Mid_Panel" />
+                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_Dark_Panel" />
+                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_Mid_Flat" />
+                  <material id="10" ref="generic.idris_frigate_exterior_wip_mtl_brown_flat" />
+                  <material id="11" ref="generic.idris_frigate_exterior_wip_mtl_dark_no_panel" />
+                  <material id="12" ref="generic.idris_frigate_exterior_wip_mtl_black_no_panel" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.idris_hangar_mtl_floor_alphas" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Light_Panel" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Mid_Panel" />
+                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_Dark_Panel" />
+                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_Mid_Flat" />
+                  <material id="10" ref="generic.idris_frigate_exterior_wip_mtl_brown_flat" />
+                  <material id="11" ref="generic.idris_frigate_exterior_wip_mtl_dark_no_panel" />
+                  <material id="12" ref="generic.idris_frigate_exterior_wip_mtl_black_no_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="51.66298" y="25.76686" z="119.3395" />
+              <center x="0.0001173019" y="5.33948" z="8.551483" />
             </size>
           </part>
         </parts>

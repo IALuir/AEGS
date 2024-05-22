@@ -16,20 +16,20 @@
         <software ware="software_trademk1" compatible="1" />
       </software>
       <explosiondamage value="800" shield="3000" />
-      <storage missile="0" unit="2" countermeasure="40" deployable="20"/>
-      <hull max="60000" />
+      <storage missile="28" unit="2" countermeasure="40" deployable="20"/>
+      <hull max="52500" />
       <secrecy level="2" />
       <purpose primary="fight" />
       <people capacity="12" />
       <sounds>
         <shipdetail ref="shipdetail_ship_m_03" />
       </sounds>
-      <physics mass="34.134">
+      <physics mass="61.5">
         <inertia pitch="7.361" yaw="5.889" roll="7.361" />
-        <drag forward="10.46" reverse="44.22" horizontal="11.877" vertical="11.877" pitch="28.15" yaw="14.76" roll="10.94" />
+        <drag forward="13.46" reverse="44.22" horizontal="11.877" vertical="11.877" pitch="37.5" yaw="21" roll="21.5" />
       </physics>
       <thruster tags="medium" />
-      <ship type="gunboat" />
+      <ship type="frigate" />
       <sound_occlusion inside="0.4" />
     </properties>
     <connections>

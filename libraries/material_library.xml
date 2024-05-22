@@ -7510,8 +7510,8 @@
     <material name="idris_frigate_exterior_wip_mtl_decal_text" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
         <properties>
           <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\idris\aegs_exterior_text_decal_diff_pu_noname" />
-          <property type="Float" name="Smoothness" value="1.0" />
-          <property type="Float" name="Metallness" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.8" />
+          <property type="Float" name="Metallness" value="0.8" />
         </properties>
       </material>
     <material name="idris_hangar_mtl_gauze_glow" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
@@ -8992,8 +8992,8 @@
           <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\idris\aegs_exterior_pom_decal_diff" />
           <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\idris\aegs_exterior_pom_decal_ddna" />
           <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\idris\aegs_exterior_pom_decal_spec" />
-          <property type="Float" name="Smoothness" value="1.0" />
-          <property type="Float" name="Metallness" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.8" />
+          <property type="Float" name="Metallness" value="0.8" />
         </properties>
       </material>
       <material name="idris_frigate_exterior_wip_mtl_POM_specblending" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
@@ -9010,13 +9010,6 @@
           <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\idris\aegs_exterior_pom_decal_diff" />
           <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\idris\aegs_exterior_pom_decal_ddna" />
           <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\idris\aegs_exterior_pom_decal_spec" />
-          <property type="Float" name="Smoothness" value="1.0" />
-          <property type="Float" name="Metallness" value="1.0" />
-        </properties>
-      </material>
-    <material name="idris_frigate_exterior_wip_mtl_decal_text" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
-        <properties>
-          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\idris\aegs_exterior_text_decal_diff_pu_noname" />
           <property type="Float" name="Smoothness" value="1.0" />
           <property type="Float" name="Metallness" value="1.0" />
         </properties>

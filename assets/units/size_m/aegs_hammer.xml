@@ -2258,7 +2258,7 @@
 			</connection>
       <connection name="con_shield_06" tags="medium shield unhittable  standard hidden">
 			</connection>
-      <connection name="con_shield_07" tags="small shield unhittable  standard hidden">
+      <connection name="con_shield_07" tags="medium shield unhittable  standard hidden">
 			</connection>
       <connection name="con_shield_08" tags="small shield unhittable  standard hidden">
 			</connection>
