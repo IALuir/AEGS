@@ -400,7 +400,7 @@
           </part>
         </parts>
       </connection>
-      <!-- <connection name="ConnectionFormerlin_landing_gear_front_skin" tags="part animation">
+      <connection name="ConnectionFormerlin_landing_gear_front_skin" tags="part animation">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -523,7 +523,7 @@
             </size_raw>
           </part>
         </parts>
-      </connection> -->
+      </connection>
       <connection name="ConnectionForrail_01" group="ladder" tags="part animation trigger_interact require_docked">
         <animations>
 					<animation name="deactivated" start="1" end="1" />
@@ -701,7 +701,7 @@
 			</connection>
       <connection name="con_dockpos" tags="dockpos ">
 				<offset>
-					<position x="0" y="0.6965" z="-1.361"/>
+					<position x="0" y="-1.47918" z="20"/>
 				</offset>
 			</connection>
       <connection name="con_dock_xs" tags="dock_xs ">

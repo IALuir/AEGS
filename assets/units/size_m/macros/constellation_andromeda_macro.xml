@@ -26,7 +26,7 @@
       </sounds>
       <physics mass="45.5">
         <inertia pitch="4.412" yaw="3.529" roll="4.412" />
-        <drag forward="29.5" reverse="134" horizontal="13.48" vertical="13.48" pitch="22.52" yaw="10.63" roll="10.1" />
+        <drag forward="29.5" reverse="134" horizontal="10.65" vertical="10.65" pitch="22.52" yaw="10.63" roll="10.1" />
       </physics>
       <thruster tags="medium" />
       <ship type="corvette" />

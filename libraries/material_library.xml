@@ -1,6 +1,782 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <diff>
 <add sel="/materiallibrary/collection[@name='generic']">
+    <material name="anvl_terrapin_interior_mtl_Blacks" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\arrow\dust_blend_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\arrow\hull_grey_matte_ddna" />
+          <property type="BitMap" name="diffuse2_map" value="extensions\aegs\assets\textures\arrow\hull_grey_matte_diff" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_valkyrie_interior_mtl_Seat_Stitching" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\generic\leather_stitch_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\generic\leather_stitch_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\generic\leather_stitch_spec" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\reclaimer\leather_stitch_displ" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_valkyrie_interior_mtl_Leather_Atlas" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\generic\leather_atlas_a_diff" />
+          <property type="BitMap" name="diffuse2_map" value="extensions\aegs\assets\textures\generic\interior_blnd_d_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\generic\leather_base_tilable_ddna" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_valkyrie_interior_mtl_decals_pom" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\generic\avnl_line_decals_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\generic\avnl_line_decals_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\generic\avnl_line_decals_spec" />
+          <property type="Float" name="Smoothness" value="1.0" />
+          <property type="Float" name="Metallness" value="1.0" />
+        </properties>
+      </material>
+    <material name="anvl_valkyrie_interior_mtl_Atlas" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\arrow\painted_metals_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\arrow\painted_metals_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\arrow\painted_metals_spec" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_valkyrie_interior_mtl_Blacks" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <!-- <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\argo_metal_blackblend_diff" />
+          <property type="BitMap" name="diffuse2_map" value="extensions\aegs\assets\textures\carrack\argo_metal_black_diff" />
+          <property type="BitMap" name="diffuse3_map" value="extensions\aegs\assets\textures\carrack\dust_blend_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\argo_metal_blend_ddna" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\carrack\argo_metal_blend_ddna" /> -->
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="diffuse3_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\spirit\vhcl_lf_panels_painted_fine_a_ls_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_interior_mtl_gubbins" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\generic\anvl_damage_internals_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\generic\anvl_damage_internals_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\generic\damage_internals_spec" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\carrack\Damage_Internals_disp" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_interior_mtl_cargo_netting" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\prospector\cargo_net_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\prospector\cargo_net_ddna" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_interior_mtl_decal_diffuse" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\anvl_valkyrie_text_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\anvl_gladiator_text_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\carrack\anvl_gladiator_text_spec" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.8" />
+          <property type="Float" name="Metallness" value="0.8" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_interior_mtl_buttons" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\anvl_switches_buttons_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\anvl_switches_buttons_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\scorpius\anvl_switches_buttons_spec" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_interior_mtl_panel_dark" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_interior_mtl_panel_light" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_ext_mtl_Glow_Thrusters" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\c8\pisces_thruster_glows_lse" />
+          <property type="BitMap" name="color_glow_map" value="extensions\aegs\assets\textures\c8\pisces_thruster_glows_lse" />
+          <property type="Float" name="color_glowStr" value="0.5" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_terrapin_interior_mtl_Grey_Plastic" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\f7\avnl_gladiator_landinggear_panels_weathered_diff" />
+          <property type="BitMap" name="diffuse2_map" value="extensions\aegs\assets\textures\f7\avnl_gladiator_landinggear_panels_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\f7\avnl_gladiator_landinggear_panels_yellow_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\f7\avnl_gladiator_landinggear_panels_yellow_spec" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_ddna" />
+          <property type="BitMap" name="diffuse2_map" value="extensions\aegs\assets\textures\scorpius\paint_largescale_diff" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\starlifter\paint_largescale_ddn" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_ext_mtl_MD_Decal_Diffuse" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\arrow\anvl_gladiator_text_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\arrow\anvl_gladiator_text_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\arrow\anvl_gladiator_text_spec" />
+          <property type="Float" name="Smoothness" value="0.8" />
+          <property type="Float" name="Metallness" value="0.8" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_ext_mtl_Damage_Internal_Tile" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\eclipse\razor_damage_internals_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\eclipse\razor_damage_internals_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\eclipse\razor_damage_internals_spec" />
+          <property type="Float" name="Smoothness" value="1.0" />
+          <property type="Float" name="Metallness" value="1.0" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_ext_mtl_Damage_Internal_Structure" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\generic\anvl_int_structure_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\generic\anvl_int_structure_a_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\generic\anvl_int_structure_a_spec" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Secondary_b" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_ddna" />
+          <property type="BitMap" name="diffuse2_map" value="extensions\aegs\assets\textures\scorpius\paint_largescale_diff" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\starlifter\paint_largescale_ddn" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_ext_mtl_HS_Panel_LG_Accent" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_ddna" />
+          <property type="BitMap" name="diffuse2_map" value="extensions\aegs\assets\textures\scorpius\paint_largescale_diff" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\starlifter\paint_largescale_ddn" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark_B" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_ddna" />
+          <property type="BitMap" name="diffuse2_map" value="extensions\aegs\assets\textures\scorpius\paint_largescale_diff" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\starlifter\paint_largescale_ddn" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_ext_mtl_HS_Metal_Bare" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\c8\ship_mf_rawmetal_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\c8\ship_mf_rawmetal_a_ddna" />
+          <property type="BitMap" name="diffuse2_map" value="extensions\aegs\assets\textures\c8\ship_mf_rawmetal_a_spec" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_ext_mtl_HS_Metal_Dark_Accents" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_ddna" />
+          <property type="BitMap" name="diffuse2_map" value="extensions\aegs\assets\textures\scorpius\paint_largescale_diff" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\starlifter\paint_largescale_ddn" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_ext_mtl_HS_Panel_LF_Paint_Primary_b" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_ddna" />
+          <property type="BitMap" name="diffuse2_map" value="extensions\aegs\assets\textures\scorpius\paint_largescale_diff" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\starlifter\paint_largescale_ddn" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_ext_mtl_HS_Panel_LF_Paint_Tertiary" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_ddna" />
+          <property type="BitMap" name="diffuse2_map" value="extensions\aegs\assets\textures\scorpius\paint_largescale_diff" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\starlifter\paint_largescale_ddn" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_ext_mtl_HS_Panel_LF_Paint_Secondary" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_ddna" />
+          <property type="BitMap" name="diffuse2_map" value="extensions\aegs\assets\textures\scorpius\paint_largescale_diff" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\starlifter\paint_largescale_ddn" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_ext_mtl_HS_Panel_LF_Paint_Primary" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\mole\shp_paint_b_panel_a_ddna" />
+          <property type="BitMap" name="diffuse2_map" value="extensions\aegs\assets\textures\scorpius\paint_largescale_diff" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\starlifter\paint_largescale_ddn" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_ext_mtl_HS_Trims_A" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\anvl_trims_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\anvl_trims_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\carrack\anvl_trims_spec" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\carrack\anvl_trims_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_pisces_ext_mtl_MD_Decal_POM" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\anvl_pom_diff_ao" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\anvl_pom2_ddn" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\carrack\anvl_pom_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.8" />
+          <property type="Float" name="Metallness" value="0.8" />
+        </properties>
+      </material>
+    <material name="blockout_egineering_mtl_vents" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\prospector\floor_grate_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\prospector\floor_grate_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\prospector\floor_grate_disp" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="modular_sofa_set_1_mtl_bare_metal" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\retaliator\grunge_heavy_02_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\retaliator\grunge_heavy_01_ddna" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="modular_sofa_set_1_mtl_black_paint" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\retaliator\painted_surface_02_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\retaliator\grunge_medium_01_ddna" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="modular_sofa_set_1_mtl_pom" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\lowtech_storage_pom_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\lowtech_storage_pom_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\carrack\lowtech_storage_pom_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="carrack_interior_mtl_Panels_paint_white" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="carrack_interior_mtl_Panels_paint_light_grey" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_EXT_paint_tileable_primary_chevron" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="diffuse3_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\spirit\vhcl_lf_panels_painted_fine_a_ls_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_TintPalette_Decal" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\eclipse\ship_mf_genericgrime_a" />
+          <property type="Float" name="Smoothness" value="0.8" />
+          <property type="Float" name="Metallness" value="0.8" />
+        </properties>
+      </material>
+    <material name="carrack_interior_mtl_Grate" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\starlifter\ship_lf_panel_rubber_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\starlifter\ship_lf_panel_rubber_a_base_ddna" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_grate" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\starlifter\anvl_grate_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\starlifter\anvl_grate_ddna" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_internal_pom" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\eclipse\razor_damage_internals_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\eclipse\razor_damage_internals_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\eclipse\razor_damage_internals_spec" />
+          <property type="Float" name="Smoothness" value="1.0" />
+          <property type="Float" name="Metallness" value="1.0" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_EXT_paint_lf_secondary_chevron" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="diffuse3_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\spirit\vhcl_lf_panels_painted_fine_a_ls_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_EXT_paint_lf_dark_B" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="diffuse3_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\spirit\vhcl_lf_panels_painted_fine_a_ls_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_EXT_paint_tileable_tertiary_A" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="diffuse3_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\spirit\vhcl_lf_panels_painted_fine_a_ls_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_metal_corrigate" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\metal_corrugated_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\metal_corrugated_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\carrack\metal_corrugated_spec" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\carrack\metal_corrugated_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_EXT_paint_lf_dark_chevron" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="diffuse3_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\spirit\vhcl_lf_panels_painted_fine_a_ls_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_EXT_paint_tileable_dark_A" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="diffuse3_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\spirit\vhcl_lf_panels_painted_fine_a_ls_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="carrack_interior_mtl_Atlas_Leather" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\leather_atlas_e_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\leather_atlas_a_ddna" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="carrack_interior_mtl_Atlas_Leather_dark" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\leather_atlas_e_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\leather_atlas_a_ddna" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="carrack_interior_mtl_Panels_paint_accent" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="carrack_interior_mtl_Panels_metal_2" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="carrack_interior_mtl_Netting" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\prospector\cargo_net_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\prospector\cargo_net_ddna" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="carrack_interior_mtl_Gubbins" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\generic\anvl_damage_internals_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\generic\anvl_damage_internals_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\generic\damage_internals_spec" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\carrack\Damage_Internals_disp" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="carrack_interior_mtl_Panels_rubber_1" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\starlifter\ship_lf_panel_rubber_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\starlifter\ship_lf_panel_rubber_a_base_ddna" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="carrack_interior_mtl_Panels_metal_1" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="carrack_interior_mtl_Buttons" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\anvl_switches_buttons_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\anvl_switches_buttons_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\scorpius\anvl_switches_buttons_spec" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="carrack_interior_mtl_Panels_paint_black" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="carrack_interior_mtl_Panels_paint_grey" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_EXT_paint_tileable_primary_A" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="diffuse3_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\spirit\vhcl_lf_panels_painted_fine_a_ls_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_internal_structure" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\idris\aegs_internal_girder_b_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\idris\aegs_internal_girder_b_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\idris\aegs_internal_girder_b_spec" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_EXT_paint_lf_dark_A" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="diffuse3_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\spirit\vhcl_lf_panels_painted_fine_a_ls_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_decal_pom_blended" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\anvl_pom_diff_ao" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\anvl_pom2_ddn" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\carrack\anvl_pom_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.8" />
+          <property type="Float" name="Metallness" value="0.8" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_decal_vin" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\arrow\avnl_vinplates_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\arrow\avnl_vinplates_ddna" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="carrack_interior_mtl_Trims_cables_pipes" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\hammer\rust_coarse_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\hammer\rust_coarse_ddna" />
+          <property type="BitMap" name="diffuse2_map" value="extensions\aegs\assets\textures\hammer\aegs_int_atlas_pipes_trim_2_diff" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\hammer\aegs_int_atlas_pipes_trim_2_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\hammer\aegs_int_atlas_pipes_trim_2_spec" />
+          <property type="Float" name="diffuseStr" value="1.0" />
+          <property type="Float" name="diffuse_detail_tiling" value="3.0" />
+          <property type="Float" name="diffuse_detail_tiling_v" value="3.0" />
+          <property type="Float" name="diffuse_detailStr" value="1.0" />
+          <property type="Float" name="diffuse_paintStr" value="1.0" />
+          <property type="Float" name="normalStr" value="1.0" />
+          <property type="Float" name="normal_detail_tiling" value="20.0" />
+          <property type="Float" name="normal_detail_tiling_v" value="20.0" />
+          <property type="Float" name="normal_detailStr" value="0.3" />
+          <property type="Float" name="color_glowStr" value="0.0" />
+          <property type="Float" name="color_dirt_tiling" value="5.0" />
+          <property type="Float" name="color_dirt_tiling_v" value="5.0" />
+          <property type="Float" name="color_dirtStr" value="1.0" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="1.0" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_trim_pipes_hoses" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\hammer\rust_coarse_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\hammer\rust_coarse_ddna" />
+          <property type="BitMap" name="diffuse2_map" value="extensions\aegs\assets\textures\hammer\aegs_int_atlas_pipes_trim_2_diff" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\hammer\aegs_int_atlas_pipes_trim_2_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\hammer\aegs_int_atlas_pipes_trim_2_spec" />
+          <property type="Float" name="diffuseStr" value="1.0" />
+          <property type="Float" name="diffuse_detail_tiling" value="3.0" />
+          <property type="Float" name="diffuse_detail_tiling_v" value="3.0" />
+          <property type="Float" name="diffuse_detailStr" value="1.0" />
+          <property type="Float" name="diffuse_paintStr" value="1.0" />
+          <property type="Float" name="normalStr" value="1.0" />
+          <property type="Float" name="normal_detail_tiling" value="20.0" />
+          <property type="Float" name="normal_detail_tiling_v" value="20.0" />
+          <property type="Float" name="normal_detailStr" value="0.3" />
+          <property type="Float" name="color_glowStr" value="0.0" />
+          <property type="Float" name="color_dirt_tiling" value="5.0" />
+          <property type="Float" name="color_dirt_tiling_v" value="5.0" />
+          <property type="Float" name="color_dirtStr" value="1.0" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="1.0" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_EXT_paint_tileable_secondary_A" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="diffuse3_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\spirit\vhcl_lf_panels_painted_fine_a_ls_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_decal_diff" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\arrow\anvl_gladiator_text_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\arrow\anvl_gladiator_text_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\arrow\anvl_gladiator_text_spec" />
+          <property type="Float" name="Smoothness" value="0.8" />
+          <property type="Float" name="Metallness" value="0.8" />
+        </properties>
+      </material>
+    <material name="carrack_interior_mtl_Decals_Opaque" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\anvl_pom_diff_opaque" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\anvl_pom_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\carrack\anvl_pom_spec" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\carrack\anvl_pom_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.8" />
+          <property type="Float" name="Metallness" value="0.8" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_decal_pom_opaque" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\anvl_pom_diff_opaque" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\anvl_pom_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\carrack\anvl_pom_spec" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\carrack\anvl_pom_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.8" />
+          <property type="Float" name="Metallness" value="0.8" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_EXT_paint_tileable_primary_B" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="diffuse3_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\spirit\vhcl_lf_panels_painted_fine_a_ls_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_metals" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <!-- <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\argo_metal_blackblend_diff" />
+          <property type="BitMap" name="diffuse2_map" value="extensions\aegs\assets\textures\carrack\argo_metal_black_diff" />
+          <property type="BitMap" name="diffuse3_map" value="extensions\aegs\assets\textures\carrack\dust_blend_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\argo_metal_blend_ddna" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\carrack\argo_metal_blend_ddna" /> -->
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="diffuse3_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\spirit\vhcl_lf_panels_painted_fine_a_ls_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_EXT_paint_lf_primary_A" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="diffuse3_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\spirit\vhcl_lf_panels_painted_fine_a_ls_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_EXT_paint_lf_secondary_A" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="diffuse3_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\spirit\vhcl_lf_panels_painted_fine_a_ls_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_EXT_paint_lf_primary_B" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_diff" />
+          <property type="BitMap" name="diffuse3_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\scorpius\ship_lf_panel_a_base_ddna" />
+          <property type="BitMap" name="normal2_map" value="extensions\aegs\assets\textures\scorpius\vhcl_lf_panels_painted_fine_a_base_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\spirit\vhcl_lf_panels_painted_fine_a_ls_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
     <material name="carrack_interior_mtl_Plastic_curtains" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
         <properties>
           <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\f7\avnl_gladiator_landinggear_panels_weathered_diff" />
@@ -11,7 +787,29 @@
           <property type="Float" name="Metallness" value="0.6" />
         </properties>
       </material>
-    <material name="carrack_interior_mtl_Trims_no_alpha" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+    <material name="anvl_carrack_ext_mtl_trim_anvl_no_alpha" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\anvl_trims_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\anvl_trims_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\carrack\anvl_trims_spec" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\carrack\anvl_trims_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_trim_anvl_alpha" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\anvl_trims_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\anvl_trims_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\carrack\anvl_trims_spec" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\carrack\anvl_trims_displ" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="carrack_interior_mtl_Trims_no_alpha" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
         <properties>
           <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\anvl_trims_diff" />
           <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\anvl_trims_ddna" />
@@ -24,9 +822,8 @@
       </material>
     <material name="carrack_interior_mtl_Rubber_grip" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
         <properties>
-          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\ship_ptrn_rubber_a_circular_diff" />
-          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\ship_ptrn_rubber_a_circular_ddna" />
-          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\carrack\ship_ptrn_rubber_a_circular_displ" />
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\starlifter\ship_lf_panel_rubber_a_base_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\starlifter\ship_lf_panel_rubber_a_base_ddna" />
           <property type="Float" name="environmentStr" value="1.0" />
           <property type="Float" name="Smoothness" value="0.6" />
           <property type="Float" name="Metallness" value="0.6" />
@@ -49,11 +846,11 @@
           <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\anvl_pom2_ddn" />
           <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\carrack\anvl_pom_displ" />
           <property type="Float" name="environmentStr" value="1.0" />
-          <property type="Float" name="Smoothness" value="0.6" />
-          <property type="Float" name="Metallness" value="0.6" />
+          <property type="Float" name="Smoothness" value="0.8" />
+          <property type="Float" name="Metallness" value="0.8" />
         </properties>
       </material>
-    <material name="carrack_interior_mtl_Decals_large" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+    <material name="carrack_interior_mtl_Decals_large" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
         <properties>
           <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\ship_mf_paint_a_diff" />
           <property type="Float" name="environmentStr" value="1.0" />
@@ -109,8 +906,8 @@
         <properties>
           <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\carrack\anvl_interior_livery_diff" />
           <property type="Float" name="environmentStr" value="1.0" />
-          <property type="Float" name="Smoothness" value="0.6" />
-          <property type="Float" name="Metallness" value="0.6" />
+          <property type="Float" name="Smoothness" value="0.8" />
+          <property type="Float" name="Metallness" value="0.8" />
         </properties>
       </material>
     <material name="carrack_interior_mtl_Decals_diffuse" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
@@ -119,8 +916,8 @@
           <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\carrack\anvl_gladiator_text_ddna" />
           <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\carrack\anvl_gladiator_text_spec" />
           <property type="Float" name="environmentStr" value="1.0" />
-          <property type="Float" name="Smoothness" value="0.6" />
-          <property type="Float" name="Metallness" value="0.6" />
+          <property type="Float" name="Smoothness" value="0.8" />
+          <property type="Float" name="Metallness" value="0.8" />
         </properties>
       </material>
     <material name="rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
@@ -5300,6 +6097,17 @@
           <property type="Float" name="Metallness" value="1.0" />
         </properties>
       </material>
+    <material name="anvl_carrack_ext_mtl_engine_glow" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\arrow\anvl_engine__glow_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\arrow\anvl_engine_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\arrow\anvl_engine_spec" />
+          <property type="BitMap" name="color_glow_map" value="extensions\aegs\assets\textures\arrow\anvl_engine__glow_diff" />
+          <property type="Float" name="color_glowStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
     <material name="anvl_hornet_mtl_engine_glow" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
         <properties>
           <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\arrow\anvl_engine__glow_diff" />
@@ -5618,6 +6426,15 @@
     <material name="anvl_hornet_f7a_thruster_main_mtl_engine_glow" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
         <properties>
           <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\f7\hornet_thruster_glow_02" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="anvl_carrack_ext_mtl_trim_engine" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\arrow\anvl_engine_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\arrow\anvl_engine_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\arrow\anvl_engine_spec" />
           <property type="Float" name="Smoothness" value="0.6" />
           <property type="Float" name="Metallness" value="0.6" />
         </properties>

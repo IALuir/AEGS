@@ -17,7 +17,7 @@
       </software>
       <explosiondamage value="800" shield="3000" />
       <storage missile="28" unit="2" countermeasure="40" deployable="20"/>
-      <hull max="52500" />
+      <hull max="56500" />
       <secrecy level="2" />
       <purpose primary="fight" />
       <people capacity="12" />

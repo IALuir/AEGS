@@ -115,6 +115,9 @@
 
 			<t id="75">AEGS 勘探者</t>
 			<t id="76">AEGS 勘探者</t>
+
+			<t id="77">AEGS C8X 双鱼座</t>
+			<t id="78">AEGS C8X 双鱼座</t>
 		</page>
 
 		<page id="996669" title="missile" descr="missile" voice="no">
@@ -221,6 +224,12 @@
 
 			<t id="29">AEGS S2 采矿激光</t>
 			<t id="30">AEGS S2 采矿激光</t>
+
+			<t id="31">AEGS 隐身系统</t>
+			<t id="32">AEGS 隐身系统</t>
+
+			<t id="33">AEGS 远程探测系统</t>
+			<t id="34">AEGS 远程探测系统</t>
 		</page>
 
 		<page id="996668" title="missile_weapon" descr="missile_weapon" voice="no">

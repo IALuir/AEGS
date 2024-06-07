@@ -39,6 +39,8 @@
       <entry name="mole_macro" value="extensions\AEGS\assets\units\size_m\macros\mole_macro" />
       <entry name="polaris_macro" value="extensions\AEGS\assets\units\size_m\macros\polaris_macro" />
       <entry name="prospector_macro" value="extensions\AEGS\assets\units\size_s\macros\prospector_macro" />
+      <entry name="carrack_macro" value="extensions\AEGS\assets\units\size_m\macros\carrack_macro" />
+      <entry name="c8x_macro" value="extensions\AEGS\assets\units\size_s\macros\c8x_macro" />
 
       <!-- 引擎 -->
       <entry name="engine_aegs_m_javelin_macro" value="extensions\AEGS\assets\props\Engines\macros\engine_aegs_m_javelin_macro" />
@@ -72,6 +74,8 @@
       <entry name="mole_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\mole_engine_macro" />
       <entry name="polaris_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\polaris_engine_macro" />
       <entry name="prospector_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\prospector_engine_macro" />
+      <entry name="carrack_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\carrack_engine_macro" />
+      <entry name="c8x_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\c8x_engine_macro" />
 
       <!-- 炮塔 -->
       <entry name="turret_javelin_s9_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\macros\turret_javelin_s9_mxa_macro"/>
@@ -185,6 +189,20 @@
       <entry name="polaris_turret2_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret2_gtx_macro"/>
       <entry name="polaris_turret2_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret2_sp_macro"/>
       <entry name="polaris_turret2_missile_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret2_missile_macro"/>
+
+      <entry name="carrack_turret_1_ad_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_1_ad_macro"/>
+      <entry name="carrack_turret_1_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_1_cf_macro"/>
+      <entry name="carrack_turret_1_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_1_mxa_macro"/>
+      <entry name="carrack_turret_1_db_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_1_db_macro"/>
+      <entry name="carrack_turret_2_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_2_gtx_macro"/>
+      <entry name="carrack_turret_2_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_2_cf_macro"/>
+      <entry name="carrack_turret_2_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_2_mxa_macro"/>
+      <entry name="carrack_turret_2_db_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_2_db_macro"/>
+      <entry name="carrack_turret_2_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_2_sp_macro"/>
+      <entry name="carrack_turret_3_ad_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_3_ad_macro"/>
+      <entry name="carrack_turret_3_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_3_cf_macro"/>
+      <entry name="carrack_turret_3_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_3_mxa_macro"/>
+      <entry name="carrack_turret_3_db_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_3_db_macro"/>
 
       
 
@@ -498,6 +516,8 @@
       <entry name="dockingbay_aegs_empty_s_macro" value="extensions\AEGS\assets\structures\dock\macros\dockingbay_aegs_empty_s_macro"/>
       <entry name="polaris_dockingbay_macro" value="extensions\AEGS\assets\structures\dock\macros\polaris_dockingbay_macro"/>
       <entry name="dockarea_polaris_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_polaris_macro"/>
+      <entry name="carrack_dockarea_macro" value="extensions\AEGS\assets\structures\dock\macros\carrack_dockarea_macro"/>
+      <entry name="carrack_dockingbay_macro" value="extensions\AEGS\assets\structures\dock\macros\carrack_dockingbay_macro"/>
       
       <!-- 引擎特效 -->
       <entry name="aegs_javelin_boost_fx_macro" value="extensions\AEGS\assets\fx\boostfx\macros\aegs_javelin_boost_fx_macro"/>
@@ -547,5 +567,7 @@
       <entry name="storage_polaris_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_polaris_macro"/>
       <entry name="shipstorage_polaris_macro" value="extensions\AEGS\assets\units\size_m\macros\shipstorage_polaris_macro"/>
       <entry name="storage_prospector_macro" value="extensions\AEGS\assets\units\size_s\macros\storage_prospector_macro"/>
+      <entry name="storage_carrack_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_carrack_macro"/>
+      <entry name="storage_mole_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_mole_macro"/>
 
 </index>

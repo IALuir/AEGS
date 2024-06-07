@@ -39,6 +39,8 @@
 		<entry name="mole" value="extensions\AEGS\assets\units\size_m\mole"/>
 		<entry name="polaris" value="extensions\AEGS\assets\units\size_m\polaris"/>
 		<entry name="prospector" value="extensions\AEGS\assets\units\size_s\prospector"/>
+		<entry name="carrack" value="extensions\AEGS\assets\units\size_m\carrack"/>
+		<entry name="c8x" value="extensions\AEGS\assets\units\size_s\c8x"/>
 
 		<!-- 引擎 -->
 		<entry name="engine_aegs_m_javelin" value="extensions\AEGS\assets\props\Engines\engine_aegs_m_javelin" />
@@ -72,6 +74,8 @@
 		<entry name="mole_engine" value="extensions\AEGS\assets\props\Engines\mole_engine" />
 		<entry name="polaris_engine" value="extensions\AEGS\assets\props\Engines\polaris_engine" />
 		<entry name="prospector_engine" value="extensions\AEGS\assets\props\Engines\prospector_engine" />
+		<entry name="carrack_engine" value="extensions\AEGS\assets\props\Engines\carrack_engine" />
+		<entry name="c8x_engine" value="extensions\AEGS\assets\props\Engines\c8x_engine" />
 
 		<!-- 炮塔 -->
 		<entry name="turret_aegs_l" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\turret_aegs_l"/>
@@ -165,6 +169,19 @@
 		<entry name="polaris_turret2_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret2_mxa"/>
 		<entry name="polaris_turret2_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret2_sp"/>
 		<entry name="polaris_turret2_missile" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret2_missile"/>
+		<entry name="carrack_turret_1_ad" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_1_ad"/>
+		<entry name="carrack_turret_1_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_1_cf"/>
+		<entry name="carrack_turret_1_db" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_1_db"/>
+		<entry name="carrack_turret_1_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_1_mxa"/>
+		<entry name="carrack_turret_2_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_2_gtx"/>
+		<entry name="carrack_turret_2_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_2_cf"/>
+		<entry name="carrack_turret_2_db" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_2_db"/>
+		<entry name="carrack_turret_2_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_2_mxa"/>
+		<entry name="carrack_turret_2_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_2_sp"/>
+		<entry name="carrack_turret_3_ad" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_3_ad"/>
+		<entry name="carrack_turret_3_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_3_cf"/>
+		<entry name="carrack_turret_3_db" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_3_db"/>
+		<entry name="carrack_turret_3_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_3_mxa"/>
 
 		<!-- 特殊武器 -->
 		<entry name="wepon_f8c_missile" value="extensions\AEGS\assets\props\weaponsystems\capital\f8\wepon_f8c_missile"/>
@@ -301,6 +318,8 @@
 		<entry name="dockingbay_aegs_empty_s" value="extensions\AEGS\assets\structures\dock\dockingbay_aegs_empty_s"/>
 		<entry name="polaris_dockingbay" value="extensions\AEGS\assets\structures\dock\polaris_dockingbay"/>
 		<entry name="dockarea_polaris" value="extensions\AEGS\assets\structures\dock\dockarea_polaris"/>
+		<entry name="carrack_dockarea" value="extensions\AEGS\assets\structures\dock\carrack_dockarea"/>
+		<entry name="carrack_dockingbay" value="extensions\AEGS\assets\structures\dock\carrack_dockingbay"/>
 
 		<!-- 引擎特效 -->
 		<entry name="aegs_javelin_boost_fx" value="extensions\AEGS\assets\fx\BoostFx\aegs_javelin_boost_fx"/>
@@ -355,6 +374,8 @@
 		<entry name="mole_seat" value="extensions\AEGS\assets\interiors\xref_parts\mole_seat"/>
 		<entry name="polaris_seat" value="extensions\AEGS\assets\interiors\xref_parts\polaris_seat"/>
 		<entry name="prospector_seat" value="extensions\AEGS\assets\interiors\xref_parts\prospector_seat"/>
-
+		<entry name="carrack_seat" value="extensions\AEGS\assets\interiors\xref_parts\carrack_seat"/>
+		<entry name="carrack_seat2" value="extensions\AEGS\assets\interiors\xref_parts\carrack_seat2"/>
+		<entry name="c8x_seat" value="extensions\AEGS\assets\interiors\xref_parts\c8x_seat"/>
 	</add>
 </diff>

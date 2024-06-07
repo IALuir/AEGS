@@ -24,9 +24,9 @@
       <sounds>
         <shipdetail ref="shipdetail_ship_m_03" />
       </sounds>
-      <physics mass="22.5">
+      <physics mass="18.5">
         <inertia pitch="7.65" yaw="6.1" roll="7.65" />
-        <drag forward="8.32" reverse="36.411" horizontal="11.22" vertical="11.22" pitch="13.09" yaw="6.17" roll="5.42" />
+        <drag forward="8" reverse="36.411" horizontal="7.05" vertical="7.05" pitch="13.09" yaw="6.17" roll="5.42" />
       </physics>
       <thruster tags="medium" />
       <enginearticulation y="1" z="1" />

@@ -29,7 +29,7 @@
         <drag forward="9.34" reverse="36.411" horizontal="11.877" vertical="11.877" pitch="23.45" yaw="9.48" roll="8.2" />
       </physics>
       <thruster tags="medium" />
-      <ship type="personnelcarrier" />
+      <ship type="courier" />
       <sound_occlusion inside="0.4" />
     </properties>
     <connections>
