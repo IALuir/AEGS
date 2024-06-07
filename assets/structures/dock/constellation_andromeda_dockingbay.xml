@@ -427,23 +427,23 @@
 
       <connection name="con_dockpos" tags="dockpos ">
         <offset>
-          <position x="0" y="1.8" z="-26" />
+          <position x="0" y="-0.376414" z="-4.62795" />
         </offset>
       </connection>
       <connection name="con_dockpos_pivot" tags="dockpos_pivot ">
         <offset>
-          <position x="0" y="1.8" z="-26" />
+          <position x="0" y="-0.376414" z="-4.62795" />
         </offset>
       </connection>
 
       <connection name="launchpos" tags="launchpos ">
         <offset>
-          <position x="0" y="-3" z="-26" />
+          <position x="0" y="-3.376414" z="-4.62795" />
         </offset>
       </connection>
       <connection name="todockpos" tags="todock ">
         <offset>
-          <position x="0" y="-3" z="-26" />
+          <position x="0" y="-3.376414" z="-4.62795" />
         </offset>
       </connection>
     </connections>

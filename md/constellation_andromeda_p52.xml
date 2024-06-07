@@ -20,5 +20,46 @@
                     </create_ship>
                </actions>
           </cue>
+
+          <cue name="constellation_andromeda_p52_dock" instantiate="true">
+			<conditions>
+                    <check_any>
+					<event_game_started />
+					<event_game_loaded />
+				</check_any>
+               </conditions>
+			<actions>
+				<create_group groupname="$Object_constellation_andromeda_sub"/>
+			</actions>
+			<cues>
+				<cue name="constellation_andromeda_p52_dock_00" instantiate="true" checkinterval="3s">
+                         <actions>
+                              <find_ship name="$Object" class="class.ship_s" multiple="true" />
+                              <do_for_each name="$ship" in="$Object">
+                                   <add_to_group groupname="$Object_constellation_andromeda_sub" object="$ship"/>
+                              </do_for_each>
+                         </actions>
+                    </cue>
+				<cue name="constellation_andromeda_p52_dock_01" instantiate="true">
+                         <conditions>
+                              <event_object_dock_assigned group="$Object_constellation_andromeda_sub"/>
+                              <check_value value="event.object.assigneddock.macro.ismacro.{macro.constellation_andromeda_dockingbay_macro}"/>
+                         </conditions>
+                         <actions>
+                              <do_if value="event.object.macro.ismacro.{macro.p52_merlin_macro}">
+
+                              </do_if>
+                              <do_else>
+                                   <remove_docking_request ship="event.object" container="event.object.assigneddock" immediate="true"/>
+                                   <do_for_each name="$order" in="event.object.orders">
+                                        <do_if value="$order.id == 'DockAt'">
+                                             <cancel_order order="$order" />
+                                        </do_if>
+                                   </do_for_each>
+                              </do_else>
+                         </actions>
+                    </cue>
+			</cues>
+		</cue>
 	</cues>
 </mdscript>

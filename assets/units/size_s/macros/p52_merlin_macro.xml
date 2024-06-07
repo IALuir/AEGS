@@ -30,7 +30,7 @@
       <enginearticulation y="1" z="1" />
       <ship type="fighter" />
       <sound_occlusion inside="0.5" />
-      <docksize tag="dock_aegs_p52" />
+      <docksize tag="dock_s" />
       <loadouts>
         <loadout id="default">
           <macros>

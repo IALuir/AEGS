@@ -22,7 +22,7 @@
       <people capacity="345" />
       <physics mass="498.2">
         <inertia pitch="425.6" yaw="380.5" roll="479.3" />
-        <drag forward="133.1" reverse="532.4" horizontal="259.2" vertical="259.2" pitch="289.96" yaw="705.5" roll="615.5" />
+        <drag forward="133.1" reverse="532.4" horizontal="152.5" vertical="152.5" pitch="289.96" yaw="705.5" roll="615.5" />
       </physics>
       <thruster tags="extralarge" />
       <ship type="battleship" />

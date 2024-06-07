@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="carrack_turret_3_mxa_macro" class="turret">
+    <component ref="carrack_turret_3_mxa" />
+    <properties>
+      <identification name="{996667,27}" basename="{996667,27}" shortname="{996667,27}" makerrace="terran" description="{996667,28}" mk="1" />
+      <bullet class="S4_mxa_2x_macro" />
+      <rotationspeed max="85" />
+      <rotationacceleration max="200" />
+      <reload rate="1" time="1" />
+      <hull hull="6000" threshold="0.2" integrated="1" />
+    </properties>
+  </macro>
+</macros>

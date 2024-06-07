@@ -23,7 +23,7 @@
       <people capacity="10" />
       <physics mass="128.456">
         <inertia pitch="107.528" yaw="86.022" roll="107.528" />
-        <drag forward="32.87" reverse="133.2" horizontal="1" vertical="23.482" pitch="84.6" yaw="84.6" roll="84.6" />
+        <drag forward="32.87" reverse="133.2" horizontal="23.1" vertical="23.1" pitch="84.6" yaw="84.6" roll="84.6" />
       </physics>
       <sounds>
         <shipdetail ref="shipdetail_ship_l_01" />
