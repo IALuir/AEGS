@@ -543,6 +543,7 @@
       <entry name="storage_aegs_vanguard_macro" value="extensions\AEGS\assets\units\size_s\macros\storage_aegs_vanguard_macro"/>
       <entry name="storage_aegs_gladius_macro" value="extensions\AEGS\assets\units\size_s\macros\storage_aegs_gladius_macro"/>
       <entry name="storage_aegs_arrow_macro" value="extensions\AEGS\assets\units\size_s\macros\storage_aegs_arrow_macro"/>
+      <entry name="storage_aegs_c8_macro" value="extensions\AEGS\assets\units\size_s\macros\storage_aegs_c8_macro"/>
       <entry name="storage_aegs_hammer_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_aegs_hammer_macro"/>
       <entry name="storage_aegs_retaliator_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_aegs_retaliator_macro"/>
       <entry name="storage_constellation_andromeda_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_constellation_andromeda_macro"/>
