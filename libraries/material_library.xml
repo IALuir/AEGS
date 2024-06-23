@@ -1,6 +1,401 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <diff>
 <add sel="/materiallibrary/collection[@name='generic']">
+    <material name="drk_engine_trim" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="assets\textures\generic\generic_engine_trim_diff" />
+        <property type="BitMap" name="normal_map" value="assets\textures\generic\generic_engine_trim_normal" />
+        <property type="Float" name="mat_smoothness" value="1.0" />
+        <property type="Float" name="mat_metallness" value="1.0" />
+        <property type="Float" name="diffuseStr" value="1.0" />
+        <property type="Float" name="diffuse_detail_tiling" value="3.0" />
+        <property type="Float" name="diffuse_detail_tiling_v" value="3.0" />
+        <property type="Float" name="diffuse_detailStr" value="1.0" />
+        <property type="Float" name="diffuse_paintStr" value="1.0" />
+        <property type="Float" name="normalStr" value="1.0" />
+        <property type="Float" name="normal_detail_tiling" value="6.0" />
+        <property type="Float" name="normal_detail_tiling_v" value="6.0" />
+        <property type="Float" name="normal_detailStr" value="1.0" />
+        <property type="BitMap" name="color_glow_map" value="extensions\aegs\assets\textures\generic\drk_engine_trim_glow" />
+        <property type="Float" name="color_glowStr" value="0.8" />
+        <property type="Float" name="AnisoX" value="0.5" />
+        <property type="Float" name="AnisoY" value="0.5" />
+        <property type="Float" name="Smoothness" value="1.20" />
+        <property type="BitMap" name="smooth_map" value="assets\textures\generic\generic_engine_trim_smooth" />
+        <property type="Float" name="Metallness" value="1.20" />
+        <property type="BitMap" name="metal_map" value="assets\textures\generic\generic_engine_trim_metal" />
+        <property type="Float" name="color_dirt_tiling" value="1.0" />
+        <property type="Float" name="color_dirt_tiling_v" value="1.0" />
+        <property type="Float" name="color_dirtStr" value="1.0" />
+      </properties>
+    </material>
+    <material name="drak_caterpillar_interior_mtl_stich" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\generic\leather_stitch_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\generic\leather_stitch_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\generic\leather_stitch_spec" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\reclaimer\leather_stitch_displ" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_disp" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_cargo_doors_mtl_int_primary_grey_metal" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_disp" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_cargo_doors_mtl_int_trelace_grate" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\cutlass\trelace_grate_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\cutlass\trelace_grate_ddna" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\cutlass\ceiling_tile_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\cutlass\ceiling_tile_a_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\cutlass\ceiling_tile_a_spec" />
+          <property type="Float" name="Smoothness" value="1.0" />
+          <property type="Float" name="Metallness" value="1.0" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_cargo_doors_mtl_int_secondary_olive_dr" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_disp" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_cargo_doors_mtl_int_secondary_dark_gre" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_disp" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_interior_mtl_pipes" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\cutlass\pipeducting_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\cutlass\pipeducting_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\cutlass\pipeducting_spec" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="1.0" />
+          <property type="Float" name="Metallness" value="1.0" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_interior_mtl_secondary_olive_drab_pain" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_disp" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_interior_mtl_secondary_bare_metal" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_clean_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_bare_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_bare_spec" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_interior_mtl_buttons" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\cutlass\drake_buttons_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\cutlass\drake_buttons_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\cutlass\drake_buttons_spec" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_interior_mtl_atlas" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\arrow\drake_interior_atlas_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\arrow\drake_interior_atlas_a_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\arrow\drake_interior_atlas_a_spec" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_interior_mtl_decals_diffuse" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\cutlass\drake_text_decals_diff" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="1.0" />
+          <property type="Float" name="Metallness" value="1.0" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_interior_mtl_decals_pom" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\cutlass\drake_line_decals_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\cutlass\drake_line_decals_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\cutlass\drake_line_decals_spec" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="1.0" />
+          <property type="Float" name="Metallness" value="1.0" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_exterior_mtl_grate" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\talon\horizontal_trim_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\talon\horizontal_trim_a_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\talon\horizontal_trim_a_spec" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_interior_mtl_trim" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\talon\horizontal_trim_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\talon\horizontal_trim_a_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\talon\horizontal_trim_a_spec" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_interior_mtl_tertiary_red_paint" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_disp" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_interior_mtl_tertiary_construction_yel" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_disp" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_interior_mtl_secondary_dark_grey_metal" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_disp" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_interior_mtl_primary_grey_metal" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_disp" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_cargo_doors_mtl_int_machine_stamped_me" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\ship_ptrn_paint_machine_stamp_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\machine_stamped_metal_ddna" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_cargo_doors_mtl_pom_decal" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\kraken\drake_ext_poms_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\kraken\drake_ext_poms_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\kraken\drake_ext_poms_spec" />
+          <property type="Float" name="Smoothness" value="1.0" />
+          <property type="Float" name="Metallness" value="1.0" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_cargo_doors_mtl_int_insulation" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\cutlass\drake_cloth_atlas_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\cutlass\drake_cloth_atlas_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\cutlass\drake_cloth_atlas_spec" />
+          <property type="Float" name="Smoothness" value="1.0" />
+          <property type="Float" name="Metallness" value="1.0" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_cargo_doors_mtl_int_secondary_bare_met" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_disp" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_cargo_doors_mtl_int_decals_diffuse" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\cutlass\drake_text_decals_diff" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="1.0" />
+          <property type="Float" name="Metallness" value="1.0" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_cargo_doors_mtl_int_trim" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\talon\horizontal_trim_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\talon\horizontal_trim_a_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\talon\horizontal_trim_a_spec" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_cargo_doors_mtl_int_decals_pom" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\cutlass\drake_line_decals_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\cutlass\drake_line_decals_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\cutlass\drake_line_decals_spec" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="1.0" />
+          <property type="Float" name="Metallness" value="1.0" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_cargo_doors_mtl_int_altlas" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\arrow\drake_interior_atlas_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\arrow\drake_interior_atlas_a_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\arrow\drake_interior_atlas_a_spec" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_exterior_mtl_SubMtl27" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_disp" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_exterior_mtl_SubMtl25" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_ddna" />
+          <property type="BitMap" name="height_map" value="extensions\aegs\assets\textures\caterpillar\metal_panels_c_disp" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_exterior_mtl_pipes" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\kraken\pipeducting_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\kraken\pipeducting_a_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\kraken\pipeducting_a_spec" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_exterior_mtl_dif_decal" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\cutlass\drake_text_decals_diff" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="1.0" />
+          <property type="Float" name="Metallness" value="1.0" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_exterior_mtl_pom_decal" shader="P1_complex_projection.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\kraken\drake_ext_poms_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\kraken\drake_ext_poms_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\kraken\drake_ext_poms_spec" />
+          <property type="Float" name="Smoothness" value="1.0" />
+          <property type="Float" name="Metallness" value="1.0" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_exterior_mtl_raw_metal_b" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\ship_mf_paint_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\ship_mf_paint_a_ddna" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_exterior_mtl_raw_metal_a" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\ship_mf_paint_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\ship_mf_paint_a_ddna" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_exterior_mtl_atlas" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\arrow\drake_interior_atlas_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\arrow\drake_interior_atlas_a_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\arrow\drake_interior_atlas_a_spec" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_exterior_mtl_trim" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\talon\horizontal_trim_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\talon\horizontal_trim_a_ddna" />
+          <property type="BitMap" name="specular_map" value="extensions\aegs\assets\textures\talon\horizontal_trim_a_spec" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_exterior_mtl_painted_metal_d" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\ship_mf_paint_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\ship_mf_paint_a_ddna" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_exterior_mtl_painted_metal_c" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\ship_mf_paint_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\ship_mf_paint_a_ddna" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_exterior_mtl_painted_metal_b" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\ship_mf_paint_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\ship_mf_paint_a_ddna" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_exterior_mtl_painted_metal_a" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\caterpillar\ship_mf_paint_a_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\caterpillar\ship_mf_paint_a_ddna" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
     <material name="anvl_terrapin_interior_mtl_Blacks" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
         <properties>
           <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\arrow\dust_blend_diff" />
@@ -3179,6 +3574,15 @@
         <properties>
           <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\cutlass\metal_panels_diff" />
           <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\cutlass\metal_panels_ddna" />
+          <property type="Float" name="environmentStr" value="1.0" />
+          <property type="Float" name="Smoothness" value="0.6" />
+          <property type="Float" name="Metallness" value="0.6" />
+        </properties>
+      </material>
+    <material name="drak_caterpillar_interior_mtl_cloth_atlas" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aegs\assets\textures\cutlass\drake_cloth_atlas_b_diff" />
+          <property type="BitMap" name="normal_map" value="extensions\aegs\assets\textures\cutlass\drake_cloth_atlas_b_ddna" />
           <property type="Float" name="environmentStr" value="1.0" />
           <property type="Float" name="Smoothness" value="0.6" />
           <property type="Float" name="Metallness" value="0.6" />

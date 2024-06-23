@@ -41,6 +41,7 @@
       <entry name="prospector_macro" value="extensions\AEGS\assets\units\size_s\macros\prospector_macro" />
       <entry name="carrack_macro" value="extensions\AEGS\assets\units\size_m\macros\carrack_macro" />
       <entry name="c8x_macro" value="extensions\AEGS\assets\units\size_s\macros\c8x_macro" />
+      <entry name="caterpillar_macro" value="extensions\AEGS\assets\units\size_m\macros\caterpillar_macro" />
 
       <!-- 引擎 -->
       <entry name="engine_aegs_m_javelin_macro" value="extensions\AEGS\assets\props\Engines\macros\engine_aegs_m_javelin_macro" />
@@ -76,6 +77,7 @@
       <entry name="prospector_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\prospector_engine_macro" />
       <entry name="carrack_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\carrack_engine_macro" />
       <entry name="c8x_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\c8x_engine_macro" />
+      <entry name="caterpillar_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\caterpillar_engine_macro" />
 
       <!-- 炮塔 -->
       <entry name="turret_javelin_s9_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\macros\turret_javelin_s9_mxa_macro"/>
@@ -497,7 +499,6 @@
       <!-- 停机坪 -->
       <entry name="dockingbay_aegs_s_macro" value="extensions\AEGS\assets\structures\dock\macros\dockingbay_aegs_s_macro"/>
       <entry name="dockarea_aegs_s_javelin_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_aegs_s_javelin_macro"/>
-      <entry name="dockingbay_aegs_bengal_m_macro" value="extensions\AEGS\assets\structures\dock\macros\dockingbay_aegs_bengal_m_macro"/>
       <entry name="kraken_airport_macro" value="extensions\AEGS\assets\structures\dock\macros\kraken_airport_macro"/>
       <entry name="dockarea_kraken_airport_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_kraken_airport_macro"/>
       <entry name="kraken_airportb_macro" value="extensions\AEGS\assets\structures\dock\macros\kraken_airportb_macro"/>
@@ -518,6 +519,8 @@
       <entry name="dockarea_polaris_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_polaris_macro"/>
       <entry name="carrack_dockarea_macro" value="extensions\AEGS\assets\structures\dock\macros\carrack_dockarea_macro"/>
       <entry name="carrack_dockingbay_macro" value="extensions\AEGS\assets\structures\dock\macros\carrack_dockingbay_macro"/>
+      <entry name="dockarea_aegs_bengal_m_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_aegs_bengal_m_macro"/>
+      <entry name="dockingbay_aegs_bengal_m_macro" value="extensions\AEGS\assets\structures\dock\macros\dockingbay_aegs_bengal_m_macro"/>
       
       <!-- 引擎特效 -->
       <entry name="aegs_javelin_boost_fx_macro" value="extensions\AEGS\assets\fx\boostfx\macros\aegs_javelin_boost_fx_macro"/>
@@ -570,5 +573,6 @@
       <entry name="storage_prospector_macro" value="extensions\AEGS\assets\units\size_s\macros\storage_prospector_macro"/>
       <entry name="storage_carrack_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_carrack_macro"/>
       <entry name="storage_mole_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_mole_macro"/>
+      <entry name="shipstorage_aegs_bengal_m_macro" value="extensions\AEGS\assets\units\size_l\macros\shipstorage_aegs_bengal_m_macro"/>
 
 </index>

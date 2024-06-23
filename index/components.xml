@@ -41,6 +41,7 @@
 		<entry name="prospector" value="extensions\AEGS\assets\units\size_s\prospector"/>
 		<entry name="carrack" value="extensions\AEGS\assets\units\size_m\carrack"/>
 		<entry name="c8x" value="extensions\AEGS\assets\units\size_s\c8x"/>
+		<entry name="caterpillar" value="extensions\AEGS\assets\units\size_m\caterpillar"/>
 
 		<!-- 引擎 -->
 		<entry name="engine_aegs_m_javelin" value="extensions\AEGS\assets\props\Engines\engine_aegs_m_javelin" />
@@ -76,6 +77,7 @@
 		<entry name="prospector_engine" value="extensions\AEGS\assets\props\Engines\prospector_engine" />
 		<entry name="carrack_engine" value="extensions\AEGS\assets\props\Engines\carrack_engine" />
 		<entry name="c8x_engine" value="extensions\AEGS\assets\props\Engines\c8x_engine" />
+		<entry name="caterpillar_engine" value="extensions\AEGS\assets\props\Engines\caterpillar_engine" />
 
 		<!-- 炮塔 -->
 		<entry name="turret_aegs_l" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\turret_aegs_l"/>
@@ -299,7 +301,6 @@
 		<!-- 停机坪 -->
 		<entry name="dockingbay_aegs_s" value="extensions\AEGS\assets\structures\dock\dockingbay_aegs_s"/>
 		<entry name="dockarea_aegs_s_javelin" value="extensions\AEGS\assets\structures\dock\dockarea_aegs_s_javelin"/>
-		<entry name="dockingbay_aegs_bengal_m" value="extensions\AEGS\assets\structures\dock\dockingbay_aegs_bengal_m"/>
 		<entry name="kraken_airport" value="extensions\AEGS\assets\structures\dock\kraken_airport"/>
 		<entry name="dockarea_kraken_airport" value="extensions\AEGS\assets\structures\dock\dockarea_kraken_airport"/>
 		<entry name="kraken_airporta" value="extensions\AEGS\assets\structures\dock\kraken_airporta"/>
@@ -320,6 +321,8 @@
 		<entry name="dockarea_polaris" value="extensions\AEGS\assets\structures\dock\dockarea_polaris"/>
 		<entry name="carrack_dockarea" value="extensions\AEGS\assets\structures\dock\carrack_dockarea"/>
 		<entry name="carrack_dockingbay" value="extensions\AEGS\assets\structures\dock\carrack_dockingbay"/>
+		<entry name="dockarea_aegs_bengal_m" value="extensions\AEGS\assets\structures\dock\dockarea_aegs_bengal_m"/>
+		<entry name="dockingbay_aegs_bengal_m" value="extensions\AEGS\assets\structures\dock\dockingbay_aegs_bengal_m"/>
 
 		<!-- 引擎特效 -->
 		<entry name="aegs_javelin_boost_fx" value="extensions\AEGS\assets\fx\BoostFx\aegs_javelin_boost_fx"/>
@@ -377,5 +380,6 @@
 		<entry name="carrack_seat" value="extensions\AEGS\assets\interiors\xref_parts\carrack_seat"/>
 		<entry name="carrack_seat2" value="extensions\AEGS\assets\interiors\xref_parts\carrack_seat2"/>
 		<entry name="c8x_seat" value="extensions\AEGS\assets\interiors\xref_parts\c8x_seat"/>
+		<entry name="caterpillar_seat" value="extensions\AEGS\assets\interiors\xref_parts\caterpillar_seat"/>
 	</add>
 </diff>

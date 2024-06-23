@@ -65,7 +65,8 @@
                 ware.polaris_engine,
                 ware.prospector_engine,
                 ware.carrack_engine,
-                ware.c8x_engine
+                ware.c8x_engine,
+                ware.caterpillar_engine
                 ]" />
                 <!-- passing the list to add_blueprints -->
                 <add_blueprints wares="$aegswares" />
@@ -84,7 +85,9 @@
                 ware.cutlass_turret_s2_cf,
                 ware.turret_f7cm_s2_cf,
                 ware.cutlass_turret_s2_cf,
-                constellation_andromeda_turret_cf]" />
+                ware.constellation_andromeda_turret_cf,
+                ware.spirit_a1_turret_cf_macro,
+                ware.weapon_vanguard_s2_macro]" />
                 <add_blueprints wares="$updateaegswarescf2" />
                 <remove_value name="$updateaegswarescf2" />
             </actions>
@@ -100,7 +103,8 @@
                 ware.cutlass_turret_s2_mxa,
                 ware.turret_f7cm_s2_mxa,
                 ware.cutlass_turret_s2_mxa,
-                constellation_andromeda_turret_mxa]" />
+                ware.constellation_andromeda_turret_mxa,
+                ware.spirit_a1_turret_mxa_macro]" />
                 <add_blueprints wares="$updateaegswaresmxa2" />
                 <remove_value name="$updateaegswaresmxa2" />
             </actions>
@@ -116,7 +120,8 @@
                 ware.cutlass_turret_s2_gtx,
                 ware.turret_f7cm_s2_gtx,
                 ware.cutlass_turret_s2_gtx,
-                constellation_andromeda_turret_gtx]" />
+                ware.constellation_andromeda_turret_gtx,
+                ware.spirit_a1_turret_gtx_macro]" />
                 <add_blueprints wares="$updateaegswaresgtx2" />
                 <remove_value name="$updateaegswaresgtx2" />
             </actions>
@@ -132,7 +137,8 @@
                 ware.cutlass_turret_s2_sp,
                 ware.turret_f7cm_s2_sp,
                 ware.cutlass_turret_s2_sp,
-                constellation_andromeda_turret_sp]" />
+                ware.constellation_andromeda_turret_sp,
+                ware.spirit_a1_turret_sp_macro]" />
                 <add_blueprints wares="$updateaegswaressp2" />
                 <remove_value name="$updateaegswaressp2" />
             </actions>
@@ -148,7 +154,11 @@
                 ware.turret_retaliator_s3_cf,
                 ware.turret_scorpius_s3_cf,
                 ware.turret_f7a_s3_cf,
-                ware.reclaimer_turret_cf]" />
+                ware.reclaimer_turret_cf,
+                ware.redeemer_turret_b_cf_macro,
+                ware.polaris_turret2_cf_macro,
+                ware.carrack_turret_2_cf_macro,
+                ware.reclaimer_turret_cf_macro]" />
                 <add_blueprints wares="$updateaegswarescf3" />
                 <remove_value name="$updateaegswarescf3" />
             </actions>
@@ -164,7 +174,11 @@
                 ware.turret_retaliator_s3_mxa,
                 ware.turret_scorpius_s3_mxa,
                 ware.turret_f7a_s3_mxa,
-                ware.reclaimer_turret_mxa]" />
+                ware.reclaimer_turret_mxa,
+                ware.redeemer_turret_b_mxa_macro,
+                ware.polaris_turret2_mxa_macro,
+                ware.carrack_turret_2_mxa_macro
+                ware.reclaimer_turret_mxa_macro]" />
                 <add_blueprints wares="$updateaegswaresmxa3" />
                 <remove_value name="$updateaegswaresmxa3" />
             </actions>
@@ -180,7 +194,12 @@
                 ware.turret_retaliator_s3_gtx,
                 ware.turret_scorpius_s3_gtx,
                 ware.turret_f7a_s3_gtx,
-                ware.reclaimer_turret_gtx]" />
+                ware.reclaimer_turret_gtx,
+                ware.redeemer_turret_b_gtx_macro,
+                ware.polaris_turret2_gtx_macro,
+                ware.carrack_turret_2_gtx_macro
+                ware.reclaimer_turret_gtx_macro,
+                ware.weapon_p52_s3_macro]" />
                 <add_blueprints wares="$updateaegswaresgtx3" />
                 <remove_value name="$updateaegswaresgtx3" />
             </actions>
@@ -196,9 +215,84 @@
                 ware.turret_retaliator_s3_sp,
                 ware.turret_scorpius_s3_sp,
                 ware.turret_f7a_s3_sp,
-                ware.reclaimer_turret_sp]" />
+                ware.reclaimer_turret_sp,
+                ware.redeemer_turret_b_sp_macro,
+                ware.polaris_turret2_sp_macro,
+                ware.carrack_turret_2_sp_macro
+                ware.reclaimer_turret_sp_macro]" />
                 <add_blueprints wares="$updateaegswaressp3" />
                 <remove_value name="$updateaegswaressp3" />
+            </actions>
+        </cue>
+
+        <cue name="update_aegs_db_s3_wares" instantiate="true" checkinterval="5s">
+            <conditions>
+                <check_value value="player.blueprints.{ware.weapon_db_s3}.any.exists"/>
+            </conditions>
+            <actions>
+                <set_value name="$updateaegswaresdb3" exact="[
+                ware.carrack_turret_2_db_macro]" />
+                <add_blueprints wares="$updateaegswaresdb3" />
+                <remove_value name="$updateaegswaresdb3" />
+            </actions>
+        </cue>
+
+        <cue name="update_aegs_cf_s4_wares" instantiate="true" checkinterval="5s">
+            <conditions>
+                <check_value value="player.blueprints.{ware.weapon_cf_s4}.any.exists"/>
+            </conditions>
+            <actions>
+                <set_value name="$updateaegswarescf4" exact="[
+                ware.turret_hammerhead_s4_cf_macro,
+                ware.turret_hammerhead_s4_2_cf_macro,
+                ware.turret_starlifter_s4_cf_macro,
+                ware.carrack_turret_1_cf_macro
+                ware.carrack_turret_3_cf_macro]" />
+                <add_blueprints wares="$updateaegswarescf4" />
+                <remove_value name="$updateaegswarescf4" />
+            </actions>
+        </cue>
+
+        <cue name="update_aegs_mxa_s4_wares" instantiate="true" checkinterval="5s">
+            <conditions>
+                <check_value value="player.blueprints.{ware.weapon_mxa_s4}.any.exists"/>
+            </conditions>
+            <actions>
+                <set_value name="$updateaegswaresmxa4" exact="[
+                ware.turret_starlifter_s4_mxa_macro,
+                ware.carrack_turret_1_mxa_macro,
+                ware.carrack_turret_3_mxa_macro]" />
+                <add_blueprints wares="$updateaegswaresmxa4" />
+                <remove_value name="$updateaegswaresmxa4" />
+            </actions>
+        </cue>
+
+        <cue name="update_aegs_ad_s4_wares" instantiate="true" checkinterval="5s">
+            <conditions>
+                <check_value value="player.blueprints.{ware.weapon_ad_s4}.any.exists"/>
+            </conditions>
+            <actions>
+                <set_value name="$updateaegswaresad4" exact="[
+                ware.turret_hammerhead_s4_ad_macro,
+                ware.turret_hammerhead_s4_2_ad_macro,
+                ware.turret_starlifter_s4_gtx_macro,
+                ware.carrack_turret_1_ad_macro,
+                ware.carrack_turret_3_ad_macro]" />
+                <add_blueprints wares="$updateaegswaresad4" />
+                <remove_value name="$updateaegswaresad4" />
+            </actions>
+        </cue>
+
+        <cue name="update_aegs_db_s4_wares" instantiate="true" checkinterval="5s">
+            <conditions>
+                <check_value value="player.blueprints.{ware.weapon_db_s4}.any.exists"/>
+            </conditions>
+            <actions>
+                <set_value name="$updateaegswaresdb4" exact="[
+                ware.carrack_turret_1_db_macro,
+                ware.carrack_turret_3_db_macro]" />
+                <add_blueprints wares="$updateaegswaresdb4" />
+                <remove_value name="$updateaegswaresdb4" />
             </actions>
         </cue>
     </cues>

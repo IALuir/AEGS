@@ -18,7 +18,7 @@
       <explosiondamage value="700" shield="3800" />
       <storage missile="100" unit="25" />
       <hull max="60000" />
-      <secrecy level="2" />
+      <secrecy level="1" />
       <purpose primary="fight" />
       <people capacity="28" />
       <physics mass="124.088">

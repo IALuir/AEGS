@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<components>
+  <component name="shield_aegs_virtual_10000" class="shieldgenerator">
+    <connections>
+      <connection name="ParentConnection" tags="component shield medium aegs_10000" />
+    </connections>
+    <properties>
+      <recharge />
+    </properties>
+  </component>
+</components>

@@ -3,7 +3,7 @@
 	<add sel="/wares">
 		<ware id="retribution" name="{996666,11}" description="{996666,12}" group="ships_terran" transport="ship" volume="1" tags="ship blueprintsaleonly ">
 			<price min="60319580" average="60319580" max="60319580" />
-			<production time="8661" amount="1" method="default" name="{996666,11}">
+			<production time="2166" amount="1" method="default" name="{996666,11}">
 				<primary>
 					<ware ware="computronicsubstrate" amount="1246" />
 					<ware ware="energycells" amount="4586" />
@@ -16,7 +16,7 @@
 		</ware>
 		<ware id="ship_aegs_l_bengal" name="{996666,7}" description="{996666,8}" group="ships_terran" transport="ship" volume="1" tags="ship blueprintsaleonly ">
 			<price min="39778192" average="39778192" max="39778192" />
-			<production time="5332" amount="1" method="default" name="{996666,7}">
+			<production time="1333" amount="1" method="default" name="{996666,7}">
 				<primary>
 					<ware ware="computronicsubstrate" amount="822" />
 					<ware ware="energycells" amount="3025" />
@@ -29,7 +29,7 @@
 		</ware>
 		<ware id="ship_aegs_l_javelin" name="{996666,1}" description="{996666,2}" group="ships_terran" transport="ship" volume="1" tags="ship ">
 			<price min="29647960" average="29647960" max="29647960" />
-			<production time="3974" amount="1" method="default" name="{996666,1}">
+			<production time="994" amount="1" method="default" name="{996666,1}">
 				<primary>
 					<ware ware="computronicsubstrate" amount="613" />
 					<ware ware="energycells" amount="2254" />
@@ -42,7 +42,7 @@
 		</ware>
 		<ware id="f8c_lightning" name="{996666,3}" description="{996666,4}" transport="ship" volume="1" tags="ship">
 			<price min="857900" average="857900" max="857900" />
-			<production time="280" amount="1" method="default" name="{996666,3}">
+			<production time="70" amount="1" method="default" name="{996666,3}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="20" />
 				<ware ware="energycells" amount="155" />
@@ -55,7 +55,7 @@
 		</ware>
 		<ware id="f8c_lightning_a" name="{996666,5}" description="{996666,6}" transport="ship" volume="1" tags="ship ">
 			<price min="943690" average="943690" max="943690" />
-			<production time="308" amount="1" method="default" name="{996666,5}">
+			<production time="77" amount="1" method="default" name="{996666,5}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="22" />
 				<ware ware="energycells" amount="170" />
@@ -68,7 +68,7 @@
 		</ware>
 		<ware id="aegs_hammer" name="{996666,9}" description="{996666,10}" transport="ship" volume="1" tags="ship">
 			<price min="7456729" average="7456729" max="7456729" />
-			<production time="1312" amount="1" method="default" name="{996666,9}">
+			<production time="328" amount="1" method="default" name="{996666,9}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="178" />
 				<ware ware="energycells" amount="549" />
@@ -81,7 +81,7 @@
 		</ware>
 		<ware id="retaliator" name="{996666,13}" description="{996666,14}" transport="ship" volume="1" tags="ship">
 			<price min="6696987" average="6696987" max="6696987" />
-			<production time="1179" amount="1" method="default" name="{996666,13}">
+			<production time="295" amount="1" method="default" name="{996666,13}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="160" />
 				<ware ware="energycells" amount="493" />
@@ -94,7 +94,7 @@
 		</ware>
 		<ware id="scorpius" name="{996666,15}" description="{996666,16}" transport="ship" volume="1" tags="ship">
 			<price min="831306" average="831306" max="831306" />
-			<production time="265" amount="1" method="default" name="{996666,15}">
+			<production time="67" amount="1" method="default" name="{996666,15}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="20" />
 				<ware ware="energycells" amount="151" />
@@ -107,7 +107,7 @@
 		</ware>
 		<ware id="scorpius_antares" name="{996666,21}" description="{996666,22}" transport="ship" volume="1" tags="ship">
 			<price min="918811" average="918811" max="918811" />
-			<production time="280" amount="1" method="default" name="{996666,21}">
+			<production time="70" amount="1" method="default" name="{996666,21}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="22" />
 				<ware ware="energycells" amount="167" />
@@ -120,7 +120,7 @@
 		</ware>
 		<ware id="ship_drak_kraken" name="{996666,17}" description="{996666,18}" group="ships_terran" transport="ship" volume="1" tags="ship">
 			<price min="16306378" average="16306378" max="16306378" />
-			<production time="2295" amount="1" method="default" name="{996666,17}">
+			<production time="574" amount="1" method="default" name="{996666,17}">
 				<primary>
 					<ware ware="computronicsubstrate" amount="337" />
 					<ware ware="energycells" amount="1240" />
@@ -132,7 +132,7 @@
 			<owner faction="terran" />
 		</ware>
 		<ware id="ship_aegs_idris" name="{996666,19}" description="{996666,20}" group="ships_terran" transport="ship" volume="1" tags="ship">
-			<price min="18529975" average="18529975" max="18529975" />
+			<price min="621" average="18529975" max="18529975" />
 			<production time="2484" amount="1" method="default" name="{996666,19}">
 				<primary>
 					<ware ware="computronicsubstrate" amount="383" />
@@ -146,7 +146,7 @@
 		</ware>
 		<ware id="ship_aegs_idris_p" name="{996666,23}" description="{996666,24}" group="ships_terran" transport="ship" volume="1" tags="ship">
 			<price min="18381736" average="18381736" max="18381736" />
-			<production time="2464" amount="1" method="default" name="{996666,23}">
+			<production time="616" amount="1" method="default" name="{996666,23}">
 				<primary>
 					<ware ware="computronicsubstrate" amount="380" />
 					<ware ware="energycells" amount="1398" />
@@ -159,7 +159,7 @@
 		</ware>
 		<ware id="arrow" name="{996666,25}" description="{996666,26}" transport="ship" volume="1" tags="ship">
 			<price min="428950" average="428950" max="428950" />
-			<production time="140" amount="1" method="default" name="{996666,25}">
+			<production time="35" amount="1" method="default" name="{996666,25}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="10" />
 				<ware ware="energycells" amount="78" />
@@ -172,7 +172,7 @@
 		</ware>
 		<ware id="eclipse" name="{996666,27}" description="{996666,28}" transport="ship" volume="1" tags="ship">
 			<price min="782405" average="782405" max="782405" />
-			<production time="256" amount="1" method="default" name="{996666,27}">
+			<production time="64" amount="1" method="default" name="{996666,27}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="19" />
 				<ware ware="energycells" amount="142" />
@@ -185,7 +185,7 @@
 		</ware>
 		<ware id="starlifter_c2" name="{996666,29}" description="{996666,30}" transport="ship" volume="1" tags="ship">
 			<price min="5205641" average="5205641" max="5205641" />
-			<production time="916" amount="1" method="default" name="{996666,29}">
+			<production time="229" amount="1" method="default" name="{996666,29}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="124" />
 				<ware ware="energycells" amount="383" />
@@ -198,7 +198,7 @@
 		</ware>
 		<ware id="starlifter_a2" name="{996666,31}" description="{996666,32}" transport="ship" volume="1" tags="ship">
 			<price min="5768413" average="5768413" max="5768413" />
-			<production time="1015" amount="1" method="default" name="{996666,31}">
+			<production time="254" amount="1" method="default" name="{996666,31}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="138" />
 				<ware ware="energycells" amount="425" />
@@ -211,7 +211,7 @@
 		</ware>
 		<ware id="starlifter_m2" name="{996666,33}" description="{996666,34}" transport="ship" volume="1" tags="ship">
 			<price min="5487027" average="13681349" max="13681349" />
-			<production time="966" amount="1" method="default" name="{996666,33}">
+			<production time="242" amount="1" method="default" name="{996666,33}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="131" />
 				<ware ware="energycells" amount="404" />
@@ -224,7 +224,7 @@
 		</ware>
 		<ware id="f7a" name="{996666,35}" description="{996666,36}" transport="ship" volume="1" tags="ship">
 			<price min="849321" average="849321" max="849321" />
-			<production time="278" amount="1" method="default" name="{996666,35}">
+			<production time="70" amount="1" method="default" name="{996666,35}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="19" />
 				<ware ware="energycells" amount="154" />
@@ -237,7 +237,7 @@
 		</ware>
 		<ware id="f7c" name="{996666,37}" description="{996666,38}" transport="ship" volume="1" tags="ship">
 			<price min="772110" average="772110" max="772110" />
-			<production time="252" amount="1" method="default" name="{996666,35}">
+			<production time="63" amount="1" method="default" name="{996666,35}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="18" />
 				<ware ware="energycells" amount="140" />
@@ -250,7 +250,7 @@
 		</ware>
 		<ware id="f7cr" name="{996666,39}" description="{996666,40}" transport="ship" volume="1" tags="ship">
 			<price min="762389" average="762389" max="762389" />
-			<production time="249" amount="1" method="default" name="{996666,35}">
+			<production time="63" amount="1" method="default" name="{996666,35}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="18" />
 				<ware ware="energycells" amount="139" />
@@ -263,7 +263,7 @@
 		</ware>
 		<ware id="f7cm" name="{996666,41}" description="{996666,42}" transport="ship" volume="1" tags="ship">
 			<price min="804591" average="804591" max="804591" />
-			<production time="263" amount="1" method="default" name="{996666,35}">
+			<production time="66" amount="1" method="default" name="{996666,35}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="18" />
 				<ware ware="energycells" amount="139" />
@@ -276,7 +276,7 @@
 		</ware>
 		<ware id="starfighter" name="{996666,43}" description="{996666,44}" transport="ship" volume="1" tags="ship">
 			<price min="1443846" average="1443846" max="1443846" />
-			<production time="472" amount="1" method="default" name="{996666,35}">
+			<production time="118" amount="1" method="default" name="{996666,35}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="34" />
 				<ware ware="energycells" amount="261" />
@@ -289,7 +289,7 @@
 		</ware>
 		<ware id="talon" name="{996666,47}" description="{996666,48}" transport="ship" volume="1" tags="ship">
 			<price min="493293" average="1008000" max="1008000" />
-			<production time="162" amount="1" method="default" name="{996666,47}">
+			<production time="41" amount="1" method="default" name="{996666,47}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="12" />
 				<ware ware="energycells" amount="90" />
@@ -302,7 +302,7 @@
 		</ware>
 		<ware id="sabre" name="{996666,45}" description="{996666,46}" transport="ship" volume="1" tags="ship">
 			<price min="741226" average="741226" max="741226" />
-			<production time="242" amount="1" method="default" name="{996666,45}">
+			<production time="61" amount="1" method="default" name="{996666,45}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="18" />
 				<ware ware="energycells" amount="134" />
@@ -315,7 +315,7 @@
 		</ware>
 		<ware id="gladius" name="{996666,49}" description="{996666,50}" transport="ship" volume="1" tags="ship">
 			<price min="489263" average="489263" max="489263" />
-			<production time="160" amount="1" method="default" name="{996666,49}">
+			<production time="40" amount="1" method="default" name="{996666,49}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="12" />
 				<ware ware="energycells" amount="89" />
@@ -328,7 +328,7 @@
 		</ware>
 		<ware id="vanguard" name="{996666,51}" description="{996666,52}" transport="ship" volume="1" tags="ship">
 			<price min="872872" average="872872" max="872872" />
-			<production time="285" amount="1" method="default" name="{996666,51}">
+			<production time="72" amount="1" method="default" name="{996666,51}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="21" />
 				<ware ware="energycells" amount="159" />
@@ -341,7 +341,7 @@
 		</ware>
 		<ware id="cutlass" name="{996666,53}" description="{996666,54}" transport="ship" volume="1" tags="ship">
 			<price min="546634" average="546634" max="546634" />
-			<production time="179" amount="1" method="default" name="{996666,53}">
+			<production time="45" amount="1" method="default" name="{996666,53}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="13" />
 				<ware ware="energycells" amount="100" />
@@ -354,7 +354,7 @@
 		</ware>
 		<ware id="constellation_andromeda" name="{996666,55}" description="{996666,56}" transport="ship" volume="1" tags="ship">
 			<price min="6852439" average="6852439" max="6852439" />
-			<production time="1206" amount="1" method="default" name="{996666,55}">
+			<production time="302" amount="1" method="default" name="{996666,55}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="166" />
 				<ware ware="energycells" amount="512" />
@@ -380,7 +380,7 @@
 		</ware>
 		<ware id="reclaimer" name="{996666,59}" description="{996666,60}" transport="ship" volume="1" tags="ship">
 			<price min="7558942" average="7558942" max="7558942" />
-			<production time="1330" amount="1" method="default" name="{996666,59}">
+			<production time="333" amount="1" method="default" name="{996666,59}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="180" />
 				<ware ware="energycells" amount="559" />
@@ -393,7 +393,7 @@
 		</ware>
 		<ware id="avenger" name="{996666,61}" description="{996666,62}" transport="ship" volume="1" tags="ship">
 			<price min="320000" average="320000" max="320000" />
-			<production time="105" amount="1" method="default" name="{996666,61}">
+			<production time="27" amount="1" method="default" name="{996666,61}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="8" />
 				<ware ware="energycells" amount="120" />
@@ -406,7 +406,7 @@
 		</ware>
 		<ware id="spirit_a1" name="{996666,63}" description="{996666,64}" transport="ship" volume="1" tags="ship">
 			<price min="4818134" average="4818134" max="4818134" />
-			<production time="848" amount="1" method="default" name="{996666,63}">
+			<production time="212" amount="1" method="default" name="{996666,63}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="115" />
 				<ware ware="energycells" amount="355" />
@@ -419,7 +419,7 @@
 		</ware>
 		<ware id="spirit_c1" name="{996666,65}" description="{996666,66}" transport="ship" volume="1" tags="ship">
 			<price min="4205792" average="4205792" max="4205792" />
-			<production time="740" amount="1" method="default" name="{996666,65}">
+			<production time="185" amount="1" method="default" name="{996666,65}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="101" />
 				<ware ware="energycells" amount="310" />
@@ -432,7 +432,7 @@
 		</ware>
 		<ware id="redeemer" name="{996666,69}" description="{996666,70}" transport="ship" volume="1" tags="ship">
 			<price min="6712987" average="6712987" max="6712987" />
-			<production time="1181" amount="1" method="default" name="{996666,69}">
+			<production time="296" amount="1" method="default" name="{996666,69}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="162" />
 				<ware ware="energycells" amount="495" />
@@ -445,7 +445,7 @@
 		</ware>
 		<ware id="mole" name="{996666,71}" description="{996666,72}" transport="ship" volume="1" tags="ship">
 			<price min="3975166" average="3975166" max="3975166" />
-			<production time="1049" amount="1" method="default" name="{996666,71}">
+			<production time="263" amount="1" method="default" name="{996666,71}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="89" />
 				<ware ware="energycells" amount="311" />
@@ -458,7 +458,7 @@
 		</ware>
 		<ware id="polaris" name="{996666,73}" description="{996666,74}" transport="ship" volume="1" tags="ship">
 			<price min="14823980" average="14823980" max="14823980" />
-			<production time="2087" amount="1" method="default" name="{996666,73}">
+			<production time="522" amount="1" method="default" name="{996666,73}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="307" />
 				<ware ware="energycells" amount="1128" />
@@ -471,7 +471,7 @@
 		</ware>
 		<ware id="prospector" name="{996666,75}" description="{996666,76}" transport="ship" volume="1" tags="ship">
 			<price min="715275" average="715275" max="715275" />
-			<production time="234" amount="1" method="default" name="{996666,75}">
+			<production time="59" amount="1" method="default" name="{996666,75}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="18" />
 				<ware ware="energycells" amount="131" />
@@ -484,7 +484,7 @@
 		</ware>
 		<ware id="carrack" name="{996666,67}" description="{996666,68}" transport="ship" volume="1" tags="ship">
 			<price min="10376786" average="10376786" max="10376786" />
-			<production time="1826" amount="1" method="default" name="{996666,67}">
+			<production time="457" amount="1" method="default" name="{996666,67}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="215" />
 				<ware ware="energycells" amount="790" />
@@ -506,6 +506,19 @@
 			</production>
 			<component ref="c8x_macro" />
 			<restriction licence="generaluseship" />
+			<owner faction="terran" />
+		</ware>
+		<ware id="caterpillar" name="{996666,79}" description="{996666,80}" transport="ship" volume="1" tags="ship">
+			<price min="10376786" average="10376786" max="10376786" />
+			<production time="457" amount="1" method="default" name="{996666,79}">
+			<primary>
+				<ware ware="computronicsubstrate" amount="215" />
+				<ware ware="energycells" amount="790" />
+				<ware ware="metallicmicrolattice" amount="360" />
+			</primary>
+			</production>
+			<component ref="caterpillar_macro" />
+			<restriction licence="militaryship" />
 			<owner faction="terran" />
 		</ware>
 		
@@ -940,6 +953,20 @@
 				</primary>
 			</production>
 			<component ref="c8x_engine_macro" amount="1" />
+			<restriction licence="generaluseequipment" />
+			<use threshold="0" />
+			<owner faction="terran" />
+		</ware>
+		<ware id="caterpillar_engine" name="{996670,1}" description="{996670,1}" group="engines" transport="equipment" volume="1" tags="equipment engine ">
+			<price min="1" average="1" max="1" />
+			<production time="10" amount="1" method="default" name="{996670,1}">
+			<primary>
+				<ware ware="computronicsubstrate" amount="1" />
+				<ware ware="energycells" amount="1" />
+				<ware ware="metallicmicrolattice" amount="1" />
+				</primary>
+			</production>
+			<component ref="caterpillar_engine_macro" amount="1" />
 			<restriction licence="generaluseequipment" />
 			<use threshold="0" />
 			<owner faction="terran" />

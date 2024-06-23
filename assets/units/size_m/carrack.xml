@@ -5768,7 +5768,7 @@
       <connection name="con_countermeasures_01" tags="countermeasures ">
 				<offset>
           <position x="0" y="-5.73106" z="-62.391" />
-          <quaternion qx="0.6408564" qy="0.2988363" qz="0.6408564" qw="-0.2988362" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-4.371139e-08" />
         </offset>
 			</connection>
 
