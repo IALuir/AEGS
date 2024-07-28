@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-03 11:56:39 from Blender-->
+<components>
+  <component name="dockingbay_aegs_bengal_m" class="dockingbay">
+    <source geometry="extensions\aegs\assets\structures\dock\constellation_andromeda_dockingbay_data" />
+    <layers>
+      <layer>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="dockingbay">
+				<offset/>
+			</connection>
+      
+
+      <connection name="con_dockpos" tags="dockpos ">
+        <offset>
+          <position x="0" y="0" z="80" />
+        </offset>
+      </connection>
+      <connection name="con_dockpos_pivot" tags="dockpos_pivot ">
+        <offset>
+          <position x="0" y="0" z="80" />
+        </offset>
+      </connection>
+
+      <connection name="launchpos" tags="launchpos ">
+        <offset>
+          <position x="0" y="50" z="80" />
+        </offset>
+      </connection>
+      <connection name="todockpos" tags="todock ">
+        <offset>
+          <position x="0" y="50" z="80" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

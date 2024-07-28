@@ -9,8 +9,7 @@
 				</check_any>
             </conditions>
 			<actions>
-				<create_group groupname="$Object_temp_s"/>
-				<create_group groupname="$Object_bengal_sub"/>
+				
 			</actions>
 			<cues>
 				<cue name="bengal_animations_start_01" instantiate="true" checkinterval="3s">
@@ -18,20 +17,16 @@
 						<find_ship name="$Object" macro="macro.ship_aegs_l_bengal_macro"  multiple="true" />
 						<do_for_each name="$ship" in="$Object">
 							<set_value name="$hasdock" exact="0"/>
-							<find_dockingbay name="$dockingbays" object="$ship" multiple="true">
-								<match_dock size="tag.dock_s" walkable="true"/>
-							</find_dockingbay>
+							<find_dockingbay name="$dockingbays" object="$ship" multiple="true"/>
 							<do_all exact="$dockingbays.count" counter="$i">
-								<do_if value="$dockingbays.{$i}.assignedship">
+								<do_if value="$dockingbays.{$i}.assignedship and not $dockingbays.{$i}.assignedship.dock">
 									<set_value name="$hasdock" exact="1"/>
-									<add_to_group groupname="$Object_bengal_sub" object="$dockingbays.{$i}.assignedship"/>
 								</do_if>
 							</do_all>
 							<do_if value="$hasdock == 0">
 								<trigger_animation object="$ship" group="'front_door'" trigger="deactivate" />
 								<trigger_animation object="$ship" group="'back_door'" trigger="deactivate" />
 								<trigger_animation object="$ship" group="'top_door'" trigger="deactivate" />
-								<clear_group group="$Object_bengal_sub"/>
 							</do_if>
 							<do_else>
 								<trigger_animation object="$ship" group="'front_door'" trigger="activate" />
@@ -39,15 +34,6 @@
 								<trigger_animation object="$ship" group="'top_door'" trigger="activate" />
 							</do_else>
 						</do_for_each>
-					</actions>
-				</cue>
-				<cue name="bengal_animations_start_02" instantiate="true">
-					<conditions>
-						<event_object_docked group="$Object_bengal_sub" />
-					</conditions>
-					<actions>
-						<request_store_ship object="event.param" allowplayeronly="true" highpriority="false" ship="event.object" skiptimeout="false" />
-						<remove_from_group group="$Object_bengal_sub" object="event.object"/>
 					</actions>
 				</cue>
 			</cues>
@@ -61,7 +47,7 @@
 				</check_any>
             </conditions>
 			<actions>
-				<create_group groupname="$Object_polaris_sub"/>
+
 			</actions>
 			<cues>
 				<cue name="polaris_animations_start_01" instantiate="true" checkinterval="3s">
@@ -86,13 +72,10 @@
 								<trigger_animation object="$ship" group="'left_turret'" trigger="deactivate_turret_hatch" />
 								<trigger_animation object="$ship" group="'right_turret'" trigger="deactivate_turret_hatch" />
 							</do_else>
-							<find_dockingbay name="$dockingbays" object="$ship" multiple="true">
-								<match_dock size="tag.dock_s" walkable="true"/>
-							</find_dockingbay>
+							<find_dockingbay name="$dockingbays" object="$ship" multiple="true"/>
 							<do_all exact="$dockingbays.count" counter="$i">
-								<do_if value="$dockingbays.{$i}.assignedship">
+								<do_if value="$dockingbays.{$i}.assignedship and not $dockingbays.{$i}.assignedship.dock">
 									<set_value name="$hasdock" exact="1"/>
-									<add_to_group groupname="$Object_polaris_sub" object="$dockingbays.{$i}.assignedship"/>
 								</do_if>
 							</do_all>
 							<do_if value="$hasdock">
@@ -100,18 +83,8 @@
 							</do_if>
 							<do_else>
 								<trigger_animation object="$ship" group="'door'" trigger="deactivate" />
-								<clear_group group="$Object_polaris_sub"/>
 							</do_else>
 						</do_for_each>
-					</actions>
-				</cue>
-				<cue name="polaris_animations_start_02" instantiate="true">
-					<conditions>
-						<event_object_docked group="$Object_polaris_sub" />
-					</conditions>
-					<actions>
-						<request_store_ship object="event.param" allowplayeronly="true" highpriority="false" ship="event.object" skiptimeout="false" />
-						<remove_from_group group="$Object_polaris_sub" object="event.object"/>
 					</actions>
 				</cue>
 			</cues>
@@ -125,71 +98,32 @@
 				</check_any>
             </conditions>
 			<actions>
-				<create_group groupname="$Object_carrack_sub"/>
-				<create_group groupname="$Object_carrack_s"/>
+				
 			</actions>
 			<cues>
 				<cue name="carrack_animations_start_01" instantiate="true" checkinterval="3s">
 					<actions>
-						<clear_group group="$Object_carrack_s"/>
-						<find_ship name="$Object_s" class="class.ship_s"  multiple="true" />
-						<do_for_each name="$ship_s" in="$Object_s">
-                            <add_to_group groupname="$Object_carrack_s" object="$ship_s"/>
-                        </do_for_each>
-						
 						<find_ship name="$Object" macro="macro.carrack_macro"  multiple="true" />
 						<do_for_each name="$ship" in="$Object">
-							<add_to_group groupname="$Object_carrack" object="$ship"/>
-							<find_dockingbay name="$dockingbays" object="$ship" multiple="true">
-								<match_dock size="tag.dock_s" walkable="true"/>
-							</find_dockingbay>
+							<find_dockingbay name="$dockingbays" object="$ship" multiple="true"/>
 							<set_value name="$hasdock" exact="0"/>
+							<debug_text text="$ship"/>
 							<do_all exact="$dockingbays.count" counter="$i">
-								<do_if value="$dockingbays.{$i}.assignedship">
-									<do_if value="$dockingbays.{$i}.assignedship.macro.ismacro.{macro.c8x_macro} or $dockingbays.{$i}.assignedship.macro.ismacro.{macro.p52_merlin_macro}">
-										<set_value name="$hasdock" exact="1"/>
-										<add_to_group groupname="$Object_carrack_sub" object="$dockingbays.{$i}.assignedship"/>
-									</do_if>
+								<do_if value="$dockingbays.{$i}.assignedship and not $dockingbays.{$i}.assignedship.dock">
+									<set_value name="$hasdock" exact="1"/>
 								</do_if>
+								<debug_text text="$hasdock"/>
 							</do_all>
+							<debug_text text="'temp:' + $hasdock"/>
 							<do_if value="$hasdock">
 								<trigger_animation object="$ship" group="'top_door'" trigger="activate" />
 							</do_if>
 							<do_else>
 								<trigger_animation object="$ship" group="'top_door'" trigger="deactivate" />
-								<clear_group group="$Object_carrack_sub"/>
 							</do_else>
 						</do_for_each>
 					</actions>
 				</cue>
-				<cue name="carrack_animations_start_02" instantiate="true">
-					<conditions>
-						<event_object_docked group="$Object_carrack_sub" />
-					</conditions>
-					<actions>
-						<trigger_animation object="event.param" group="'top_door'" trigger="deactivate" />
-						<remove_from_group group="$Object_carrack_sub" object="event.object"/>
-					</actions>
-				</cue>
-				<cue name="carrack_animations_start_03" instantiate="true">
-                    <conditions>
-                        <event_object_dock_assigned group="$Object_carrack_s"/>
-                    	<check_value value="event.object.assigneddock.macro.ismacro.{macro.carrack_dockingbay_macro}"/>
-                    </conditions>
-                    <actions>
-                        <do_if value="event.object.macro.ismacro.{macro.c8x_macro} or event.object.macro.ismacro.{macro.p52_merlin_macro}">
-						
-                        </do_if>
-                        <do_else>
-                        	<remove_docking_request ship="event.object" container="event.object.assigneddock" immediate="true"/>
-                       		<do_for_each name="$order" in="event.object.orders">
-                                <do_if value="$order.id == 'DockAt'">
-                                	<cancel_order order="$order" />
-                            	</do_if>
-                        	</do_for_each>
-                      	</do_else>
-                    </actions>
-                </cue>
 			</cues>
 		</cue>
 		<cue name="carrack_animations_lift_01" instantiate="true">

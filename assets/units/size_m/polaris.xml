@@ -3245,7 +3245,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFordock_room" tags="part ">
+      <connection name="ConnectionFordock_room" tags="part">
         <offset>
           <position x="0" y="8.123393" z="-32.3406" />
         </offset>

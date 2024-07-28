@@ -15,6 +15,9 @@
       <connection ref="ConnectionFordockingbay_arg_s_02_macro#003">
         <macro ref="kraken_airporta_macro" connection="position" />
       </connection>
+      <connection ref="ConnectionFordockingbay_arg_m_01_macro">
+        <macro ref="dockingbay_aegs_bengal_m_macro" connection="position" />
+      </connection>
 
       
     </connections>

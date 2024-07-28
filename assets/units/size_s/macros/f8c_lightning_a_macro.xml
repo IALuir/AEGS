@@ -17,7 +17,7 @@
       </software>
       <storage missile="0" countermeasure="40" deployable="50"/>
       <hull max="9000" />
-      <secrecy level="2" />
+      <secrecy level="3" />
       <purpose primary="fight" />
       <people capacity="1" />
       <sounds>

@@ -813,12 +813,12 @@
 					<position x="0" y="0" z="-223.89"/>
 				</offset>
 			</connection>
-      <connection name="con_shieldgen_001" group="group_back_engine  " tags="large shield hittable  standard ">
+      <connection name="con_shieldgen_001" group="group_back_engine  " tags="large shield hittable  standard " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
 			</connection>
-      <connection name="con_shieldgen_002" group="group_back_engine  " tags="large shield hittable  standard ">
+      <connection name="con_shieldgen_002" group="group_back_engine  " tags="large shield hittable  standard " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -830,7 +830,7 @@
           <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
         </offset>
 			</connection>
-      <connection name="con_shieldgen_003" group="group_maingun  " tags="large shield hittable  standard ">
+      <connection name="con_shieldgen_003" group="group_maingun  " tags="large shield hittable  standard " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -860,7 +860,7 @@
           <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_004" group="mid_top_aa  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_004" group="mid_top_aa  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -878,7 +878,7 @@
           <quaternion qx="0" qy="0" qz="-1" qw="-7.54979e-08" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_005" group="mid_bot_aa  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_005" group="mid_bot_aa  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -931,12 +931,12 @@
           <quaternion qx="-0.7071069" qy="5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_007" group="mid_bot_aa  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_007" group="mid_bot_aa  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
 			</connection>
-      <connection name="con_shieldgen_008" group="mid_bot_aa  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_008" group="mid_bot_aa  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -966,7 +966,7 @@
           <quaternion qx="0" qy="-0.7071066" qz="0" qw="-0.7071069" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_009" group="mid_top_aa  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_009" group="mid_top_aa  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -982,6 +982,11 @@
           <position x="-4.854587" y="92.01521" z="158.7475" />
         </offset>
       </connection>
+      <connection name="con_shieldgen_109" group="mid_top_aa_2  " tags="medium shield hittable  standard invisible " hidden="true">
+        <offset>
+          <position x="0" y="-40" z="0" />
+        </offset>
+			</connection>
 
       <connection name="hardpoint_AA_turret_21" group="  mid_bot_aa " tags="turret medium component combat aegs_bengal_aa">
         <offset>
@@ -1014,7 +1019,7 @@
           <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_012" group="back_top_aa  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_012" group="back_top_aa  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -1045,7 +1050,7 @@
           <quaternion qx="-1" qy="0" qz="0" qw="-7.54979e-08" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_014" group="mid_bot_aa  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_014" group="mid_bot_aa  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -1088,7 +1093,7 @@
           <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_016" group="back_top_ai  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_016" group="back_top_ai  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -1104,7 +1109,7 @@
           <position x="0.130879" y="23.65879" z="434.2078" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_017" group="front_top_ai  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_017" group="front_top_ai  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -1144,7 +1149,7 @@
           <quaternion qx="0" qy="0" qz="-1" qw="-7.54979e-08" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_018" group="back_bot_ai  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_018" group="back_bot_ai  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -1162,7 +1167,7 @@
           <quaternion qx="0.00419218" qy="-0.9994206" qz="0.03100022" qw="-0.01341572" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_019" group="back_top_ai  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_019" group="back_top_ai  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -1180,7 +1185,7 @@
           <quaternion qx="0.7071069" qy="-5.338507e-08" qz="-0.7071066" qw="-5.338508e-08" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_020" group="back_bot_ai  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_020" group="back_bot_ai  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -1249,7 +1254,7 @@
           <quaternion qx="0.9990482" qy="0" qz="0" qw="-0.04361942" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_024" group="back_bot_ai  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_024" group="back_bot_ai  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -1265,7 +1270,7 @@
           <position x="-46.5634" y="31.55707" z="209.4835" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_025" group="front_top_gun  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_025" group="front_top_gun  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -1281,7 +1286,7 @@
           <position x="-37.65672" y="23.21107" z="419.2662" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_026" group="front_top_gun  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_026" group="front_top_gun  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -1299,7 +1304,7 @@
           <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_027" group="back_top_gun  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_027" group="back_top_gun  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -1317,7 +1322,7 @@
           <quaternion qx="-0.7986357" qy="-4.543575e-08" qz="0.6018148" qw="-6.029531e-08" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_028" group="back_bot_gat  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_028" group="back_bot_gat  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -1333,7 +1338,7 @@
           <position x="22.38514" y="72.3145" z="166.5111" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_029" group="back_top_gat  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_029" group="back_top_gat  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -1351,7 +1356,7 @@
           <quaternion qx="0.03343957" qy="-0.7155221" qz="0.0343763" qw="-0.6969421" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_030" group="back_top_gat  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_030" group="back_top_gat  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -1367,7 +1372,7 @@
           <position x="73.99754" y="-43.9963" z="37.21249" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_031" group="back_bot_gat  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_031" group="back_bot_gat  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
@@ -1422,23 +1427,23 @@
           <quaternion qx="0" qy="-0.3987492" qz="0" qw="-0.91706" />
         </offset>
       </connection>
-      <connection name="con_shieldgen_034" group="front_top_gat  " tags="medium shield hittable  standard invisible ">
+      <connection name="con_shieldgen_034" group="front_top_gat  " tags="medium shield hittable  standard invisible " hidden="true">
         <offset>
           <position x="0" y="-40" z="0" />
         </offset>
 			</connection>
 
-      <connection name="con_shieldgenerator_l_001" tags="large shield  standard ">
+      <connection name="con_shieldgenerator_l_001" tags="large shield  standard " hidden="true">
         <offset>
           <position x="0" y="25" z="-80" />
         </offset>
 			</connection>
-      <connection name="shield_xl" tags="extralarge shield standard ">
+      <connection name="shield_xl" tags="extralarge shield standard " hidden="true">
         <offset>
           <position x="0" y="25" z="-80" />
         </offset>
       </connection>
-      <connection name="shield_xl001" tags="extralarge shield standard ">
+      <connection name="shield_xl001" tags="extralarge shield standard " hidden="true">
         <offset>
           <position x="0" y="25" z="-80" />
         </offset>
@@ -1468,6 +1473,11 @@
       <connection name="con_dockarea_bengal2" tags="dockarea ">
         <offset>
           <position x="0" y="0" z="0" />
+        </offset>
+			</connection>
+      <connection name="con_dockarea_bengal3" tags="dockarea ">
+        <offset>
+          <position x="0" y="24.6514" z="300" />
         </offset>
 			</connection>
 

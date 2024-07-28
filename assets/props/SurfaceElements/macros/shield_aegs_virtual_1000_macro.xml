@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.67) on 2023-06-23 16:48:52-->
+<macros>
+  <macro name="shield_aegs_virtual_1000_macro" class="shieldgenerator">
+    <component ref="shield_aegs_virtual_1000" />
+    <properties>
+      <identification name="{20106,1224}" basename="{20106,1221}" shortname="{20106,1225}" makerrace="terran" description="{20106,1222}" mk="1" />
+      <recharge max="869" rate="91" delay="11.5" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

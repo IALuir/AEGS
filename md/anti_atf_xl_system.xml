@@ -23,7 +23,6 @@
                               <do_for_each name="$ship" in="$Object_Ship">
                                    <add_to_group groupname="$Object_ShipGroup" object="$ship"/>
                               </do_for_each>
-                              <debug_text text="$Object_ShipGroup"/>
                          </actions>
                     </cue>
                     <cue name="anti_atf_xl_system_03" instantiate="true">
@@ -74,7 +73,14 @@
                                         </do_if>
                                    </do_if>
                               </do_else>
-                              <debug_text text="@event.param3"/>
+                         </actions>
+                    </cue>
+                    <cue name="InterestingObject_Destroyed" instantiate="true">
+                         <conditions>
+                              <event_object_destroyed group="$Object_ShipGroup"/>
+                         </conditions>
+                         <actions>
+                              <remove_from_group group="$Object_ShipGroup" object="event.object"/>
                          </actions>
                     </cue>
                </cues>

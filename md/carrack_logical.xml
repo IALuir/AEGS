@@ -3,9 +3,9 @@
 	<cues>
 		<cue name="carrack_logical_start" instantiate="true">
 			<conditions>
-                <event_player_changed_activity/>
-				<check_value value="player.ship.macro == macro.carrack_macro"/>
-            </conditions>
+                    <event_player_changed_activity/>
+			     <check_value value="player.ship.macro == macro.carrack_macro"/>
+               </conditions>
 			<actions>
 				<do_if value="event.param == activity.scan_longrange">
 					<trigger_animation object="player.ship" group="'scan'" trigger="activate" />
@@ -41,5 +41,48 @@
                     </create_ship>
                </actions>
           </cue>
+
+          <cue name="carrack_logical_dock_01" instantiate="true">
+			<conditions>
+                    <check_any>
+					<event_game_started />
+					<event_game_loaded />
+				</check_any>
+               </conditions>
+			<actions>
+				<create_group groupname="$Object_carrack"/>
+			</actions>
+               <cues>
+                    <cue name="carrack_logical_dock_02" instantiate="true" checkinterval="3s">
+                         <actions>
+                              <find_ship name="$Object" macro="macro.carrack_macro"  multiple="true" />
+                              <do_for_each name="$ship" in="$Object">
+                                   <add_to_group groupname="$Object_carrack" object="$ship"/>
+				          </do_for_each>
+                         </actions>
+                    </cue>
+
+                    <cue name="carrack_logical_dock_03" instantiate="true" checkinterval="5s">
+                         <actions>
+                              <clear_group group="$Object_carrack"/>
+                         </actions>
+                    </cue>
+
+                    <cue name="carrack_logical_dock_04" instantiate="true">
+                         <conditions>
+                              <event_object_dock_assigned_at group="$Object_carrack"/>
+                              <check_value value="not event.param2.macro.ismacro.[macro.c8x_macro]"/>
+                         </conditions>
+                         <actions>
+                              <remove_docking_request ship="event.param2" container="event.param" immediate="true"/>
+                              <do_for_each name="$order" in="event.param2.orders">
+                                   <do_if value="$order.id == 'DockAt'">
+                                        <cancel_order order="$order" />
+                                   </do_if>
+                        	     </do_for_each>
+                         </actions>
+                    </cue>
+               </cues>
+		</cue>
 	</cues>
 </mdscript>

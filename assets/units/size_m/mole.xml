@@ -2413,12 +2413,12 @@
         </parts>
       </connection>
 
-      <!-- <connection name="con_shield_01" tags="medium shield unhittable standard invisible">
+      <connection name="con_shield_01" tags="medium shield unhittable standard invisible" hidden="true">
 			</connection>
-      <connection name="con_shield_02" tags="medium shield unhittable standard invisible">
+      <connection name="con_shield_02" tags="medium shield unhittable standard invisible" hidden="true">
 			</connection>
-      <connection name="con_shield_03" tags="medium shield unhittable standard invisible">
-			</connection> -->
+      <connection name="con_shield_03" tags="medium shield unhittable standard invisible" hidden="true">
+			</connection>
 
     </connections>
   </component>

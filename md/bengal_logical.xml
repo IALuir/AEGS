@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="bengal_logical" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+          <cue name="bengal_logical_dock_01" instantiate="true">
+			<conditions>
+                    <check_any>
+					<event_game_started />
+					<event_game_loaded />
+				</check_any>
+               </conditions>
+			<actions>
+				<create_group groupname="$Object_bengal"/>
+			</actions>
+               <cues>
+                    <cue name="bengal_logical_dock_02" instantiate="true" checkinterval="3s">
+                         <actions>
+                              <find_ship name="$Object" macro="macro.ship_aegs_l_bengal_macro"  multiple="true" />
+                              <do_for_each name="$ship" in="$Object">
+                                   <add_to_group groupname="$Object_bengal" object="$ship"/>
+				          </do_for_each>
+                         </actions>
+                    </cue>
+
+                    <cue name="bengal_logical_dock_03" instantiate="true" checkinterval="5s">
+                         <actions>
+                              <clear_group group="$Object_bengal"/>
+                         </actions>
+                    </cue>
+
+                    <cue name="bengal_logical_dock_04" instantiate="true">
+                         <conditions>
+                              <check_all>
+                                   <event_object_dock_assigned_at group="$Object_bengal"/>
+                                   <check_value value="not event.param2.macro.ismacro.[macro.aegs_hammer_macro,macro.carrack_macro,macro.caterpillar_macro,
+                                                                                     macro.constellation_andromeda_macro,macro.mole_macro,macro.redeemer_macro,
+                                                                                     macro.retaliator_macro,macro.spirit_a1_macro,macro.spirit_c1_macro,
+                                                                                     macro.starlifter_a2_macro,macro.starlifter_c2_macro,macro.starlifter_m2_macro]"/>
+                                   <check_value value="event.param2.isclass.[class.ship_m]"/>
+                              </check_all>
+                         </conditions>
+                         <actions>
+                              <remove_docking_request ship="event.param2" container="event.param" immediate="true"/>
+                              <do_for_each name="$order" in="event.param2.orders">
+                                   <do_if value="$order.id == 'DockAt'">
+                                        <cancel_order order="$order" />
+                                   </do_if>
+                        	     </do_for_each>
+                         </actions>
+                    </cue>
+               </cues>
+		</cue>
+	</cues>
+</mdscript>
