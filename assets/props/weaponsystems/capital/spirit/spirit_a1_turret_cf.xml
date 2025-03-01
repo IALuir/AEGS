@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-27 18:54:51 from Blender-->
+<components>
+  <component name="spirit_a1_turret_cf" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\spirit\spirit_a1_turret_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForturret_part" tags="part ">
+        <restrictions>
+          <restriction type="rotation_y"/>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-10.0 "/>
+							<max value="40 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="turret_part">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.415956" y="0.4393217" z="0.89164" />
+              <center x="-0.0005870163" y="0.1205739" z="0.3758666" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcf_core" tags="part " parent="turret_part">
+        <offset>
+          <position x="-0.3781035" y="0" z="0" />
+        </offset>
+        <parts>
+          <part name="cf_core">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.klwe_las_rep_s1-3_mtl_pom_decals" />
+                  <material id="2" ref="generic.klwe_las_rep_s1-3_mtl_graphic_decals" />
+                  <material id="3" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="4" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="5" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="6" ref="generic.behr_marksman_s1_mtl_glows" />
+                  <material id="7" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="8" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_copper" />
+                  <material id="9" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.090168" y="0.1691835" z="1.411133" />
+              <center x="0.3781035" y="-4.470348e-08" z="0.9350513" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="cf_laser" tags="laser " parent="cf_core">
+        <offset>
+          <position x="-0.3339878" y="1.459907e-08" z="2.361034" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="cf_laser001" tags="laser " parent="cf_core">
+        <offset>
+          <position x="1.100782" y="1.459907e-08" z="2.361034" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_spirit">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

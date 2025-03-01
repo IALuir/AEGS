@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="constellation_andromeda_turret_gtx_macro" class="turret">
+    <component ref="constellation_andromeda_turret_gtx" />
+    <properties>
+      <identification name="{996667,30003}" basename="{996667,30003}" shortname="{996667,30003}" makerrace="terran" description="{996667,30004}" mk="1" />
+      <bullet class="S2_gtx_2x_macro" />
+      <rotationspeed max="90" />
+      <rotationacceleration max="200" />
+      <hull integrated="1" paint="1"/>
+    </properties>
+  </macro>
+</macros>

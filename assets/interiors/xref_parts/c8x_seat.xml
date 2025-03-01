@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-06-06 23:30:49 from Blender-->
+<components>
+  <component name="c8x_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\c8x_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForchair" tags="part ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation">
+        <parts>
+          <part name="chair">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="2" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="3" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="4" ref="generic.anvl_terrapin_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="7" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="9" ref="generic.vncl_scythe_mtl_decal_text" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="11" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.386688" y="0.7095685" z="0.625415" />
+              <center x="-0.011838" y="0.6867733" z="-0.1687429" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForchair_mesh" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer" parent="chair">
+        <parts>
+          <part name="chair_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="2" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="3" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="4" ref="generic.anvl_terrapin_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="7" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="9" ref="generic.vncl_scythe_mtl_decal_text" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="11" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.386688" y="0.7095685" z="0.625415" />
+              <center x="-0.011838" y="0.6867733" z="-0.1687429" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

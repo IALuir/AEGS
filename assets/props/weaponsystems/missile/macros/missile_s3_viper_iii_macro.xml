@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+    <macro name="missile_s3_viper_iii_macro" class="missile">
+    <component ref="missile_s3_viper_iii" />
+    <properties>
+      <identification name="{996669,31}" basename="{996669,31}" description="{996669,32}" />
+      <ammunition value="1" />
+      <missile amount="1" barrelamount="1" lifetime="10.2" range="14500" guided="1" icon="hud_ms_guided_light_mk1" retarget="0" tags="aegs_s3" />
+      <explosiondamage value="725" />
+      <reload time="3.25" />
+      <hull max="4" />
+      <lock time="1.5" range="14500" />
+      <effects>
+        <explosion ref="aegs_missile_explosion_viper_iii" />
+        <launch ref="missile_guided_muzzle" />
+      </effects>
+      <weapon system="missile_guided" />
+      <countermeasure resilience="0.65" />
+      <physics mass="0.182">
+        <inertia pitch="0.356" yaw="0.356" roll="0.356" />
+        <drag forward="0.026" reverse="0.68" horizontal="1" vertical="1" pitch="0.208" yaw="0.208" roll="0.208" />
+      </physics>
+    </properties>
+    <connections>
+      <connection ref="con_engine01">
+        <macro ref="engine_missile_guided_mk1_macro" connection="ship" />
+      </connection>
+    </connections>
+    </macro>
+</macros>

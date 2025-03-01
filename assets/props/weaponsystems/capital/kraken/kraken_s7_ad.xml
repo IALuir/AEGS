@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-06 20:27:49 from Blender-->
+<components>
+  <component name="kraken_s7_ad" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\kraken\kraken_s7_ad_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="turret" />
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForpart_main" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="part_main" wreck="part_main_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_glow" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_glow" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_glow" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.83141" y="2.824328" z="3.595924" />
+              <center x="0.0001353621" y="0.6274856" z="-0.03045654" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForad_part_main" tags="part " parent="part_main">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-60.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-2.605107" y="1.107727" z="-0.2467523" />
+        </offset>
+        <parts>
+          <part name="ad_part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.998743" y="0.682208" z="2.913491" />
+              <center x="2.605107" y="0.006753445" z="1.021277" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForad_bar" tags="part animation" parent="ad_part_main">
+        <animations>
+					<animation name="gun_firing" start="1" end="10"/>
+				</animations>
+        <offset>
+          <position x="-1.254596" y="0" z="3.749732" />
+        </offset>
+        <parts>
+          <part name="ad_bar">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.572027" y="0.5365176" z="3.548902" />
+              <center x="1.66893e-06" y="-0.07285452" z="2.021252" />
+            </size>
+            <size_raw>
+              <max x="0.5720271" y="0.5365176" z="3.548902" />
+              <center x="1.609325e-06" y="-0.07285458" z="2.021252" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="ad_bar">
+        <offset>
+          <position x="0" y="0.006980538" z="5.61388" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForad_bar001" tags="part animation" parent="ad_part_main">
+        <animations>
+					<animation name="gun_firing" start="1" end="10"/>
+				</animations>
+        <offset>
+          <position x="6.473953" y="0" z="3.749732" />
+        </offset>
+        <parts>
+          <part name="ad_bar001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5720367" y="0.5371819" z="3.548902" />
+              <center x="-0.0002501011" y="0.07306242" z="2.021252" />
+            </size>
+            <size_raw>
+              <max x="0.5720368" y="0.5371819" z="3.548902" />
+              <center x="-0.000249967" y="0.07306248" z="2.021252" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser001" tags="laser " parent="ad_bar001">
+        <offset>
+          <position x="0.006045341" y="0.00349021" z="5.61388" />
+          <quaternion qx="0" qy="0" qz="0.5" qw="-0.8660254" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_l" tags="turret medium component combat aegs_kraken_s7">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

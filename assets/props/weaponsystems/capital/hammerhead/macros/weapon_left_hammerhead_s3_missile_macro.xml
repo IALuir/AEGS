@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) at 25.11.2018_17-56-48-->
+<macros>
+  <macro name="weapon_left_hammerhead_s3_missile_macro" class="missilelauncher">
+    <component ref="hammerhead_weapon_left" />
+    <properties>
+      <identification name="{996668,3}" basename="{996668,3}" shortname="{996668,3}" makerrace="terran" description="{996668,4}" unique="0" mk="1" />
+      <ammunition tags="aegs_s3" />
+      <bullet class="missile_guided_light_mk1_macro" />
+      <reload />
+      <storage capacity="4" />
+      <hull hittable="0" integrated="1" />
+    </properties>
+  </macro>
+</macros>

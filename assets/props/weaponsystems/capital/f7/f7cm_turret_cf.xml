@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-01-16 13:09:05 from Blender-->
+<components>
+  <component name="f7cm_turret_cf" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\f7\f7cm_turret_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForballturret" tags="part nocollision">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="ballturret">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="4" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="5" ref="generic.bigbox_mtl_metal_c" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.693571" y="2.024771" z="1.807559" />
+              <center x="-2.473593e-06" y="0.7429941" z="0.1063495" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcf_core" tags="part nocollision" parent="ballturret">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-5.0 "/>
+							<max value="90"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-0.4321786" y="2.129787" z="0.6988201" />
+        </offset>
+        <parts>
+          <part name="core">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.klwe_las_rep_s1-3_mtl_pom_decals" />
+                  <material id="2" ref="generic.klwe_las_rep_s1-3_mtl_graphic_decals" />
+                  <material id="3" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="4" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="5" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="6" ref="generic.behr_marksman_s1_mtl_glows" />
+                  <material id="7" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="8" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_copper" />
+                  <material id="9" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.156679" y="0.1691835" z="1.411133" />
+              <center x="0.4446147" y="-5.215406e-08" z="0.9350513" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="cf_laser" tags="laser " parent="cf_core">
+        <offset>
+          <position x="-0.3339879" y="0" z="2.361034" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="cf_laser001" tags="laser " parent="cf_core">
+        <offset>
+          <position x="1.238805" y="0" z="2.361034" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_f7cm">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

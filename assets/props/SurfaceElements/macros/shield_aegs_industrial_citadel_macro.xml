@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="shield_aegs_industrial_citadel_macro" class="shieldgenerator">
+    <component ref="shield_aegs_industrial_citadel" />
+    <properties>
+      <identification name="{996678,45}" basename="{996678,45}" shortname="{996678,45}" makerrace="terran" description="{996678,46}" mk="1" />
+      <recharge max="25000" rate="165" delay="0.7" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

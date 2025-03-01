@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-01-15 23:54:02 from Blender-->
+<components>
+  <component name="f7cm" class="ship_s">
+    <source geometry="extensions\AEGS\assets\units\size_s\f7c_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_s ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="defencenpc" tags="defence" value="-1" />
+      <connection name="ConnectionForanvil_default_countermeasure_launcher" tags="part ">
+        <offset>
+          <position x="-2.63094" y="-1.255182" z="-0.94563" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="anvil_default_countermeasure_launcher">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.909336" y="0.232368" z="0.3304686" />
+              <center x="-2.628356" y="0.118327" z="0.1110864" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForanvil_flex_mk2_top_front_left_skin" tags="part ">
+        <offset>
+          <position x="-2.442" y="0.585884" z="2.089221" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="anvil_flex_mk2_top_front_left_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="3" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="6" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="7" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="8" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="11" ref="generic.anvl_hornet_mtl_engine_glow" />
+                  <material id="12" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="13" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="14" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="15" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="16" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="17" ref="p1.cockpit_glass_inside_01" />
+                  <material id="18" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="19" ref="generic.bigbox_mtl_decals" />
+                  <material id="20" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="21" ref="generic.anvl_hornet_mtl_internal_structure" />
+                  <material id="22" ref="generic.anvl_hornet_mtl_seat_stitch" />
+                  <material id="23" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="24" ref="generic.anvl_hornet_mtl_glass_int" />
+                  <material id="25" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.776928" y="1.397262" z="2.888567" />
+              <center x="-2.451325" y="-0.6018617" z="1.696995" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForanvil_hornet_front_landinggear" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="-0.604" z="2.777066" />
+          <quaternion qx="0.2756374" qy="0" qz="0" qw="-0.9612617" />
+        </offset>
+        <parts>
+          <part name="anvil_hornet_front_landinggear">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="4" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="5" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="7" ref="generic.bigbox_mtl_decals" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="11" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                  <material id="13" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="14" ref="generic.anvl_hornet_mtl_engine_glow" />
+                  <material id="15" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="16" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="17" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="18" ref="p1.cockpit_glass_inside_01" />
+                  <material id="19" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="20" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="21" ref="generic.anvl_hornet_mtl_internal_structure" />
+                  <material id="22" ref="generic.anvl_hornet_mtl_seat_stitch" />
+                  <material id="23" ref="generic.anvl_hornet_mtl_link_glows" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.329314" y="0.8630335" z="1.867176" />
+              <center x="0.000970006" y="-2.052203" z="3.234702" />
+            </size>
+            <size_raw>
+              <max x="0.329314" y="0.8630334" z="1.036232" />
+              <center x="0.000970006" y="-2.052203" z="2.403759" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody" tags="part ">
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="9" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="10" ref="generic.bigbox_mtl_decals" />
+                  <material id="11" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="12" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="13" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="14" ref="generic.anvl_hornet_mtl_internal_pom" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="9" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="10" ref="generic.bigbox_mtl_decals" />
+                  <material id="11" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="12" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="13" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="14" ref="generic.anvl_hornet_mtl_internal_pom" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="9" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="10" ref="generic.bigbox_mtl_decals" />
+                  <material id="11" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="12" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="13" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="14" ref="generic.anvl_hornet_mtl_internal_pom" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="9" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="10" ref="generic.bigbox_mtl_decals" />
+                  <material id="11" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="12" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="13" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="14" ref="generic.anvl_hornet_mtl_internal_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.696064" y="2.596308" z="9.441259" />
+              <center x="0" y="0.205992" z="-3.131156" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingleft" tags="part animation" parent="body">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-2.30558" y="-1.08387" z="1.096323" />
+          <quaternion qx="0" qy="0.001199501" qz="0" qw="-0.9999993" />
+        </offset>
+        <parts>
+          <part name="wingleft">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="6" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="6" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="6" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="6" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.408702" y="1.389889" z="2.530271" />
+              <center x="-4.100359" y="0.01642263" z="-0.6687911" />
+            </size>
+            <size_raw>
+              <max x="4.408702" y="1.389889" z="2.530271" />
+              <center x="-4.10036" y="0.01642251" z="-0.6687913" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForanvil_hornet_left_wing_landinggear" tags="part animation" parent="wingleft">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-2.861343" y="0.4461632" z="-1.178782" />
+          <quaternion qx="0.07765626" qy="0.03956785" qz="-0.887616" qw="-0.452263" />
+        </offset>
+        <parts>
+          <part name="anvil_hornet_left_wing_landinggear">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="5" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="6" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="7" ref="generic.bigbox_mtl_decals" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="11" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                  <material id="13" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="14" ref="generic.anvl_hornet_mtl_engine_glow" />
+                  <material id="15" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="16" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="17" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="18" ref="p1.cockpit_glass_inside_01" />
+                  <material id="19" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="20" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="21" ref="generic.anvl_hornet_mtl_internal_structure" />
+                  <material id="22" ref="generic.anvl_hornet_mtl_seat_stitch" />
+                  <material id="23" ref="generic.anvl_hornet_mtl_link_glows" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.144379" y="1.537632" z="1.99226" />
+              <center x="-0.05834007" y="-1.338452" z="-0.9601737" />
+            </size>
+            <size_raw>
+              <max x="0.7519485" y="1.491608" z="0.946983" />
+              <center x="-0.4507486" y="-1.292427" z="0.08510301" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlg_door_rear_l" tags="part animation" parent="wingleft">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-2.446321" y="0.264609" z="-1.273681" />
+          <quaternion qx="0.4955292" qy="0.5863296" qz="-0.4430614" qw="-0.4629957" />
+        </offset>
+        <parts>
+          <part name="lg_door_rear_l">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.9026344" y="0.6930447" z="2.293265" />
+              <center x="0.9015372" y="-0.5860156" z="-0.6541074" />
+            </size>
+            <size_raw>
+              <max x="0.145161" y="0.6930445" z="1.582929" />
+              <center x="0.144064" y="-0.5860155" z="0.056229" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingright" tags="part animation" parent="body">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="2.306177" y="-1.08387" z="1.096" />
+          <quaternion qx="0" qy="-0.001199501" qz="0" qw="-0.9999993" />
+        </offset>
+        <parts>
+          <part name="wingright">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="6" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="6" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="6" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="6" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.408681" y="1.390242" z="2.530265" />
+              <center x="4.099734" y="0.01677597" z="-0.6684718" />
+            </size>
+            <size_raw>
+              <max x="4.408681" y="1.390242" z="2.530265" />
+              <center x="4.099734" y="0.01677597" z="-0.6684721" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForanvil_hornet_right_wing_landinggear" tags="part animation" parent="wingright">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="2.872361" y="0.4768966" z="-1.177971" />
+          <quaternion qx="0.07585644" qy="-0.04291752" qz="0.8670437" qw="-0.4905498" />
+        </offset>
+        <parts>
+          <part name="anvil_hornet_right_wing_landinggear">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="5" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="6" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="7" ref="generic.bigbox_mtl_decals" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="11" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                  <material id="13" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="14" ref="generic.anvl_hornet_mtl_engine_glow" />
+                  <material id="15" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="16" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="17" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="18" ref="p1.cockpit_glass_inside_01" />
+                  <material id="19" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="20" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="21" ref="generic.anvl_hornet_mtl_internal_structure" />
+                  <material id="22" ref="generic.anvl_hornet_mtl_seat_stitch" />
+                  <material id="23" ref="generic.anvl_hornet_mtl_link_glows" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.149855" y="1.552999" z="1.992159" />
+              <center x="0.0633378" y="-1.353818" z="-0.9687285" />
+            </size>
+            <size_raw>
+              <max x="0.751949" y="1.491608" z="0.9469824" />
+              <center x="0.461244" y="-1.292427" z="0.07644847" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlg_door_rear_r" tags="part animation" parent="wingright">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="2.444297" y="0.306264" z="-1.253681" />
+          <quaternion qx="-0.003421062" qy="-0.08098637" qz="0.03246747" qw="-0.9961804" />
+        </offset>
+        <parts>
+          <part name="lg_door_rear_r">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.326727" y="0.1827146" z="1.41935" />
+              <center x="-0.6803012" y="0.04896653" z="-0.1325547" />
+            </size>
+            <size_raw>
+              <max x="1.573466" y="0.1827146" z="0.7044128" />
+              <center x="0.07295993" y="0.0489665" z="0.5823829" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_logo" tags="part ">
+        <parts>
+          <part name="fx_logo">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_logo" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.235556" y="0.3712135" z="0.3168155" />
+              <center x="-5.960464e-08" y="1.178341" z="-3.395803" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcm_extender" tags="part ">
+        <offset>
+          <position x="-4e-06" y="-1.891742" z="8.662" />
+        </offset>
+        <parts>
+          <part name="cm_extender">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2523375" y="0.592827" z="0.253076" />
+              <center x="-3.150105e-05" y="-0.278966" z="0.004279003" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcm_turret_body" tags="part " parent="cm_extender">
+        <offset>
+          <position x="4e-06" y="-0.824461" z="-0.04842186" />
+        </offset>
+        <parts>
+          <part name="cm_turret_body">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.250812" y="0.6648005" z="1.851845" />
+              <center x="0" y="0.1615705" z="-0.2217035" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcm_nose" tags="part ">
+        <parts>
+          <part name="cm_nose">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="8" ref="generic.bigbox_mtl_decals" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="11" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="12" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="13" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="14" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="8" ref="generic.bigbox_mtl_decals" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="11" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="12" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="13" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="14" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="8" ref="generic.bigbox_mtl_decals" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="11" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="12" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="13" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="14" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="8" ref="generic.bigbox_mtl_decals" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="11" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="12" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="13" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="14" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.905602" y="1.785346" z="4.726615" />
+              <center x="0.001681417" y="-0.4300585" z="7.165461" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcm_canopy" tags="part animation nocollision" parent="cm_nose">
+        <animations>
+					<animation name="cockpit_closed" start="0" end="0"/>
+					<animation name="cockpit_opening" start="0" end="80"/>
+					<animation name="cockpit_open" start="80" end="80"/>
+					<animation name="cockpit_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0.00612" y="0.424987" z="7.876012" />
+        </offset>
+        <parts>
+          <part name="cm_canopy">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="4" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="8" ref="generic.bigbox_mtl_decals" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="12" ref="p1.cockpit_glass_inside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.090557" y="0.9067161" z="2.721062" />
+              <center x="-0.006119523" y="0.02236375" z="0.9874086" />
+            </size>
+            <size_raw>
+              <max x="1.090557" y="0.674551" z="1.633843" />
+              <center x="-0.006119519" y="0.01659599" z="0.1757805" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcm_canopy_rear" tags="part animation nocollision" parent="cm_nose">
+        <animations>
+					<animation name="cockpit_closed" start="0" end="0"/>
+					<animation name="cockpit_opening" start="0" end="80"/>
+					<animation name="cockpit_open" start="80" end="80"/>
+					<animation name="cockpit_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.000136" y="0.540286" z="5.769516" />
+        </offset>
+        <parts>
+          <part name="cm_canopy_rear">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="6" ref="generic.bigbox_mtl_decals" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="9" ref="p1.cockpit_glass_inside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.000646" y="0.3757695" z="1.232671" />
+              <center x="-0.001640457" y="0.3827044" z="-0.5022697" />
+            </size>
+            <size_raw>
+              <max x="1.000646" y="0.316591" z="0.8450725" />
+              <center x="-0.001640446" y="0.323526" z="-0.1146715" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcm_interior_cockpit_f7" tags="part " parent="cm_nose">
+        <offset>
+          <position x="6.089935e-07" y="-0.012592" z="5.567514" />
+        </offset>
+        <parts>
+          <part name="cm_interior_cockpit_f7">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="3" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="6" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="7" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="8" ref="generic.bigbox_mtl_decals" />
+                  <material id="9" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="10" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="11" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="12" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="13" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="3" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="6" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="7" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="8" ref="generic.bigbox_mtl_decals" />
+                  <material id="9" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="10" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="11" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="12" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="13" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="3" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="6" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="7" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="8" ref="generic.bigbox_mtl_decals" />
+                  <material id="9" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="10" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="11" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="12" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="13" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="3" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="6" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="7" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="8" ref="generic.bigbox_mtl_decals" />
+                  <material id="9" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="10" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="11" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="12" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="13" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.048635" y="0.9200605" z="2.501084" />
+              <center x="0" y="0.1661415" z="1.752918" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcm_fdm_left" tags="part animation" parent="cm_interior_cockpit_f7">
+        <animations>
+					<animation name="cockpit_closed" start="0" end="0"/>
+					<animation name="cockpit_opening" start="0" end="80"/>
+					<animation name="cockpit_open" start="80" end="80"/>
+					<animation name="cockpit_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.4152736" y="-0.1314142" z="2.768452" />
+          <quaternion qx="0.8660254" qy="0" qz="0" qw="-0.5" />
+        </offset>
+        <parts>
+          <part name="cm_fdm_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="4" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.162125" y="0.127799" z="0.03081942" />
+              <center x="1.996756e-06" y="0.111496" z="-0.01943207" />
+            </size>
+            <size_raw>
+              <max x="0.162125" y="0.127799" z="0.0308195" />
+              <center x="2.007931e-06" y="0.111496" z="-0.0194315" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcm_screen_left_lower_rtt" tags="part " parent="cm_fdm_left">
+        <offset>
+          <position x="0" y="-0.0003638268" z="-0.0003266335" />
+          <quaternion qx="-1.490116e-08" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="cm_screen_left_lower_rtt">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1417015" y="0.1036637" z="0.001808167" />
+              <center x="-0.0003224909" y="0.1174743" z="-0.01671791" />
+            </size>
+            <size_raw>
+              <max x="0.1417015" y="0.1034695" z="0.0013535" />
+              <center x="-0.0003224984" y="0.1176685" z="-0.0162635" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcm_fdm_right" tags="part animation" parent="cm_interior_cockpit_f7">
+        <animations>
+					<animation name="cockpit_closed" start="0" end="0"/>
+					<animation name="cockpit_opening" start="0" end="80"/>
+					<animation name="cockpit_open" start="80" end="80"/>
+					<animation name="cockpit_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0.4152714" y="-0.1314117" z="2.768451" />
+          <quaternion qx="-0.5" qy="0" qz="0" qw="-0.8660254" />
+        </offset>
+        <parts>
+          <part name="cm_fdm_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="4" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1621245" y="0.127645" z="0.03094244" />
+              <center x="0.000118494" y="-0.105228" z="0.02031994" />
+            </size>
+            <size_raw>
+              <max x="0.1621245" y="0.127645" z="0.0309425" />
+              <center x="0.0001184978" y="-0.105228" z="0.0203205" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcm_screen_right_lower_rtt001" tags="part " parent="cm_fdm_right">
+        <offset>
+          <position x="0" y="0.006392956" z="0.001199245" />
+          <quaternion qx="-1.490116e-08" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="cm_screen_right_lower_rtt001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1417015" y="0.1078006" z="0.005031586" />
+              <center x="-0.0003224909" y="-0.1217896" z="0.01320839" />
+            </size>
+            <size_raw>
+              <max x="0.1417015" y="0.1034695" z="0.0001229998" />
+              <center x="-0.0003224984" y="-0.1174585" z="0.017749" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcm_ladder_mount_trusses" group="ladder" tags="part animation trigger_interact require_docked" parent="cm_nose">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-0.849223" y="-1.239053" z="6.823705" />
+        </offset>
+        <parts>
+          <part name="cm_ladder_mount_trusses">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.bigbox_mtl_metal_c" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4904248" y="0.2636597" z="0.2234256" />
+              <center x="-0.2129058" y="0.2061386" z="0.002177715" />
+            </size>
+            <size_raw>
+              <max x="0.2886625" y="0.039801" z="0.2234255" />
+              <center x="-0.01114351" y="-0.01772" z="0.002177499" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcm_ladder_platform" group="ladder" tags="part animation trigger_interact require_docked ui" parent="cm_ladder_mount_trusses">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-0.3214101" y="-0.01062202" z="0.001708031" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+        <parts>
+          <part name="cm_ladder_platform">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6376783" y="0.3723732" z="0.3799055" />
+              <center x="-0.6141663" y="0.1344111" z="-0.008445263" />
+            </size>
+            <size_raw>
+              <max x="0.435916" y="0.1485145" z="0.3799055" />
+              <center x="-0.4124039" y="-0.0894475" z="-0.008445501" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcm_ladder_top_rung" group="ladder" tags="part animation trigger_interact require_docked" parent="cm_ladder_platform">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="0.1599801" y="0.119398" z="-0.005075932" />
+          <quaternion qx="0" qy="0" qz="0.6775622" qw="-0.7354655" />
+        </offset>
+        <parts>
+          <part name="cm_ladder_top_rung">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.bigbox_mtl_metal_c" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7584546" y="0.9471267" z="0.3074398" />
+              <center x="-0.6725186" y="0.1108928" z="0.001955032" />
+            </size>
+            <size_raw>
+              <max x="0.08318447" y="0.4421294" z="0.30744" />
+              <center x="0.002751505" y="-0.3941045" z="0.001954988" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcm_ladder_bottom_rung" roup="ladder" tags="part animation trigger_interact require_docked" parent="cm_ladder_top_rung">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="0.0008511543" y="-0.08399229" z="0.003126144" />
+        </offset>
+        <parts>
+          <part name="cm_ladder_bottom_rung">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.bigbox_mtl_metal_c" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.386071" y="1.549031" z="0.2898619" />
+              <center x="-1.353914" y="-0.2580912" z="-0.0005383492" />
+            </size>
+            <size_raw>
+              <max x="0.03220349" y="0.4844208" z="0.289862" />
+              <center x="-4.649814e-05" y="-0.423945" z="-0.0005380064" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcm_ladder_bottom_rung001" group="ladder" tags="part animation trigger_interact require_docked" parent="cm_ladder_top_rung">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="0.0008511543" y="-0.08588322" z="0.003126144" />
+        </offset>
+        <parts>
+          <part name="cm_ladder_bottom_rung001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.bigbox_mtl_metal_c" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.030885" y="1.099917" z="0.30215" />
+              <center x="-0.99981" y="0.04430807" z="-0.0006327629" />
+            </size>
+            <size_raw>
+              <max x="0.03301849" y="0.4843903" z="0.30215" />
+              <center x="-0.001943499" y="-0.4226485" z="-0.0006330013" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcm_ladder_col2" group="ladder" tags="part animation trigger_interact require_docked walk_stairway" parent="cm_ladder_top_rung">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-0.04060197" y="-1.598309" z="0.01507902" />
+          <quaternion qx="0" qy="0" qz="-0.3007058" qw="-0.953717" />
+        </offset>
+        <parts>
+          <part name="cm_ladder_col2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.911287" y="2.518494" z="0.3200002" />
+              <center x="-1.827316" y="-1.052517" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.0009379832" y="0.001310928" z="0.00032" />
+              <center x="1.490116e-08" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+
+      <connection name="Connectiontrust001" tags="part animation  ">
+				<offset>
+          <position x="-3.384806" y="1.057335" z="-2.495663" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_01"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust002" tags="part animation  ">
+				<offset>
+          <position x="3.38481" y="1.057335" z="-2.495663" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_02"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust003" tags="part animation  ">
+				<offset>
+          <position x="2.478928" y="0.5777498" z="2.83644" />
+          <quaternion qx="-1" qy="0" qz="0" qw="-4.371139e-08" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_03"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust004" tags="part animation  ">
+				<offset>
+          <position x="-2.47893" y="0.5777498" z="2.83644" />
+          <quaternion qx="-1" qy="0" qz="0" qw="-4.371139e-08" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_04"/>
+				</parts>
+			</connection>
+
+
+      <connection name="Connectionchiar01" group="pilotcontrol" tags="part ui">
+				<offset>
+          <position x="0" y="-0.6669046" z="7.38851" />
+          <quaternion qx="0.04361939" qy="0" qz="0" qw="-0.9990482" />
+        </offset>
+				<parts>
+					<part ref="f7c_seat.anvl_hornet_seat_pilot_geo" name="anvl_hornet_seat_pilot_geo"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="anvl_hornet_seat_pilot_geo">
+				<offset>
+					<position x="0" y="-0" z="0.1"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar02" tags="part iklink ui " group="pilotcontrol" parent="anvl_hornet_seat_pilot_geo">
+				<parts>
+					<part ref="f7c_seat.anvl_hornet_seat_pilot_geo_mesh" name="anvl_hornet_seat_pilot_geo_mesh"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair ">
+				<offset>
+					<position x="0" y="0.434079" z="7.02493" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor " >
+				<offset>
+					<position x="0" y="0.434079" z="7.02493" />
+				</offset>
+			</connection>
+
+      <connection name="Connectionchiar03" group="gunnercontrol" tags="part ui">
+				<offset>
+          <position x="0" y="-0.543053" z="5.63752" />
+          <quaternion qx="0.04361939" qy="0" qz="0" qw="-0.9990482" />
+        </offset>
+				<parts>
+					<part ref="f7c_seat.anvl_hornet_seat_pilot_geo" name="anvl_hornet_seat_pilot_geo2"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control2" tags="npc service sit iklink" value="-1" group="gunnercontrol" parent="anvl_hornet_seat_pilot_geo2">
+				<offset>
+					<position x="0" y="-0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar04" tags="part iklink ui " group="gunnercontrol" parent="anvl_hornet_seat_pilot_geo2">
+				<parts>
+					<part ref="f7c_seat.anvl_hornet_seat_pilot_geo_mesh" name="anvl_hornet_seat_pilot_geo_mesh2"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair002" group="gunnercontrol" tags="tochair ">
+				<offset>
+					<position x="0" y="0.743053" z="5.23752" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor002" group="gunnercontrol" tags="uianchor " >
+				<offset>
+					<position x="0" y="0.743053" z="5.23752" />
+				</offset>
+			</connection>
+
+      <connection name="Connection_airlock" group="airock001" tags="part ui">
+				<parts>
+					<part ref="arrow_airlock.ejection_handle" name="ejection_handle"/>
+				</parts>
+        <offset>
+          <position x="0" y="-0.1" z="7.9" />
+        </offset>
+			</connection>
+      <connection name="Connection_airlockbox" group="airock001" tags="part ui" parent="ejection_handle">
+				<parts>
+					<part ref="arrow_airlock.box" name="box"/>
+				</parts>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="1.527332" y="0.6253593" z="-3.936131" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_02" tags="countermeasures ">
+				<offset>
+          <position x="-1.52733" y="0.6253593" z="-3.936131" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="0.434079" z="7.02493" />
+				</offset>
+			</connection>
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="0.434079" z="7.02493" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-3.5" z="20"/>
+				</offset>
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="1.171642" z="7.043456" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_npc_stand_01" tags="npc_waypoint stand npctransport ">
+				<offset>
+					<position x="0" y="0.434079" z="7.02493" />
+				</offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_f7c">
+        <offset>
+          <position x="0" y="0" z="-5.69448" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_left symmetry_1" parent="wingleft">
+				<offset>
+          <position x="-7.044123" y="-0.1386298" z="-1.892622" />
+          <quaternion qx="0" qy="-0.001199501" qz="0" qw="-0.9999993" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_right symmetry_1" parent="wingright">
+				<offset>
+          <position x="7.043529" y="-0.1386298" z="-1.8923" />
+          <quaternion qx="0" qy="0.001199501" qz="0" qw="-0.9999993" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_03" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_top symmetry_1" >
+				<offset>
+          <position x="-1.532306" y="-2.582299" z="8.800982" />
+          <quaternion qx="0" qy="0" qz="0.6087614" qw="-0.7933534" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_04" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_top symmetry_2" >
+				<offset>
+          <position x="1.53231" y="-2.582299" z="8.800982" />
+          <quaternion qx="0" qy="0" qz="-0.6087614" qw="-0.7933534" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_05" tags="component weapon small missile aegs_missile_s2 unfixed symmetry symmetry_1">
+				<offset>
+          <position x="3.226328" y="-1.644403" z="1.977826" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_06" tags="component weapon small missile aegs_missile_s2 unfixed symmetry symmetry_2">
+				<offset>
+          <position x="-3.22633" y="-1.644403" z="1.977826" />
+        </offset>
+			</connection>
+
+      <connection name="con_turret_s_001" tags="turret small component combat aegs_f7cm">
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield small aegs_s1 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield small aegs_s1 industrial">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_03" tags="component shield small aegs_s1 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_04" tags="component shield small aegs_s1 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      <connection name="con_storage01" tags="storage ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+    </connections>
+  </component>
+</components>

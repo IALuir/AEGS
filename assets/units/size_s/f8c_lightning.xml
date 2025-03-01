@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-10-17 21:18:30 from Blender-->
+<components>
+  <component name="f8c_lightning" class="ship_s">
+    <source geometry="extensions\AEGS\assets\units\size_s\f8c_lightning_data" />
+    <layers>
+			<layer>
+				<waypoints/>
+				
+        <trailemitters>
+          <emitter name="trail_ship_s_01" type="trail_ship_s_01">
+              <offset>
+                <position x="0" y="0" z="-4.210623" />
+              </offset>
+            </emitter>
+            <emitter name="trail_ship_s_01" type="trail_ship_s_01">
+              <offset>
+                <position x="0" y="0.945222" z="-4.210623" />
+              </offset>
+            </emitter>
+            <emitter name="trail_ship_s_01" type="trail_ship_s_01">
+              <offset>
+                <position x="4.491834" y="0.9148442" z="-5.056002" />
+                <quaternion qx="0" qy="0" qz="0.09584577" qw="-0.9953962" />
+              </offset>
+            </emitter>
+            <emitter name="trail_ship_s_01" type="trail_ship_s_01">
+              <offset>
+                <position x="4.287791" y="-0.1947105" z="-5.056002" />
+                <quaternion qx="0" qy="0" qz="0.09584577" qw="-0.9953962" />
+              </offset>
+            </emitter>
+            <emitter name="trail_ship_s_01" type="trail_ship_s_01">
+              <offset>
+                <position x="-4.28779" y="-0.1947105" z="-5.056002" />
+                <quaternion qx="0" qy="0" qz="-0.09584577" qw="-0.9953962" />
+              </offset>
+            </emitter>
+            <emitter name="trail_ship_s_01" type="trail_ship_s_01">
+              <offset>
+                  <position x="-4.49183" y="0.9148442" z="-5.056002" />
+                  <quaternion qx="0" qy="0" qz="-0.09584577" qw="-0.9953962" />
+              </offset>
+            </emitter>
+					<emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+						<offset>
+							<position x="-12.71851" y="-1.205426" z="-4.140428" />
+						</offset>
+					</emitter>
+					<emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+						<offset>
+							<position x="12.7185" y="-1.205426" z="-4.140428" />
+						</offset>
+					</emitter>
+				</trailemitters>
+			</layer>
+		</layers>
+    <connections>
+      <connection name="space" tags="ship_s ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="defencenpc" tags="defence" value="-1" />
+      <connection name="ConnectionForbody" tags="part ">
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                  <material id="12" ref="generic.behr_marksman_s1_mtl_pom_decal" />
+                  <material id="13" ref="generic.behr_marksman_s1_mtl_graphic_decals_a" />
+                  <material id="14" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="15" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="16" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="17" ref="generic.anvl_lightning_f8_mtl_internal_pom" />
+                  <material id="18" ref="generic.anvl_lightning_f8_mtl_glow_thruster" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                  <material id="12" ref="generic.behr_marksman_s1_mtl_pom_decal" />
+                  <material id="13" ref="generic.behr_marksman_s1_mtl_graphic_decals_a" />
+                  <material id="14" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="15" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="16" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="17" ref="generic.anvl_lightning_f8_mtl_internal_pom" />
+                  <material id="18" ref="generic.anvl_lightning_f8_mtl_glow_thruster" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                  <material id="12" ref="generic.behr_marksman_s1_mtl_pom_decal" />
+                  <material id="13" ref="generic.behr_marksman_s1_mtl_graphic_decals_a" />
+                  <material id="14" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="15" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="16" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="17" ref="generic.anvl_lightning_f8_mtl_internal_pom" />
+                  <material id="18" ref="generic.anvl_lightning_f8_mtl_glow_thruster" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                  <material id="12" ref="generic.behr_marksman_s1_mtl_pom_decal" />
+                  <material id="13" ref="generic.behr_marksman_s1_mtl_graphic_decals_a" />
+                  <material id="14" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="15" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="16" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="17" ref="generic.anvl_lightning_f8_mtl_internal_pom" />
+                  <material id="18" ref="generic.anvl_lightning_f8_mtl_glow_thruster" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.68751" y="2.522638" z="10.30253" />
+              <center x="-0.0002009869" y="-0.250608" z="0.4614878" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbuttons" tags="part ">
+        <parts>
+          <part name="buttons">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_lightning_f8_mtl_cockpit_buttons" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2999055" y="0.09602594" z="0.07355738" />
+              <center x="0.0004724786" y="-0.5021552" z="12.70186" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcanopy" tags="part animation nocollision forceoutline anim_cockpit  ">
+        <animations>
+					<animation name="cockpit_closed" start="0" end="0"/>
+					<animation name="cockpit_opening" start="0" end="80"/>
+					<animation name="cockpit_open" start="80" end="80"/>
+					<animation name="cockpit_closing" start="80" end="170" startsound="1"/>
+				</animations>
+        <offset>
+          <position x="-0.507579" y="-0.7367721" z="13.72331" />
+          <quaternion qx="-0.0004314842" qy="0" qz="0" qw="-0.9999999" />
+        </offset>
+        <parts>
+          <part name="canopy">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_pom_interior" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_interior_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7675405" y="0.7623886" z="1.353078" />
+              <center x="0.5075775" y="0.7424536" z="-1.265617" />
+            </size>
+            <size_raw>
+              <max x="0.7675405" y="0.7623886" z="1.353078" />
+              <center x="0.5075775" y="0.7424537" z="-1.265618" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForglass_interior" tags="part nocollision" parent="canopy">
+        <offset>
+          <position x="0.507579" y="0.7249292" z="-13.72394" />
+          <quaternion qx="0.0004314842" qy="0" qz="0" qw="-0.9999999" />
+        </offset>
+        <parts>
+          <part name="glass_interior">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.719718" y="6.421835" z="4.937829" />
+              <center x="-5.00083e-05" y="5.772785" z="16.24472" />
+            </size>
+            <size_raw>
+              <max x="0.719718" y="0.6604286" z="1.192941" />
+              <center x="-5.00232e-05" y="0.02322143" z="12.50046" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcockpit" tags="part ">
+        <parts>
+          <part name="cockpit">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="4" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_interior_atlas" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_cockpit_buttons" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_pom_interior" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="4" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_interior_atlas" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_cockpit_buttons" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_pom_interior" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="4" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_interior_atlas" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_cockpit_buttons" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_pom_interior" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="4" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_interior_atlas" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_cockpit_buttons" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_pom_interior" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.719382" y="1.13487" z="1.812488" />
+              <center x="-0.0002052635" y="-0.04998434" z="11.91501" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcontrol_joystick" tags="part ">
+        <parts>
+          <part name="control_joystick">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_lightning_f8_mtl_interior_atlas" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_pom" />
+                  <material id="4" ref="generic.anvl_lightning_f8_mtl_glows" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.04324462" y="0.142857" z="0.04996061" />
+              <center x="-0.001446958" y="-0.41886" z="12.35647" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcontrol_pedal_left" tags="part ">
+        <parts>
+          <part name="control_pedal_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_lightning_f8_mtl_interior_atlas" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_pom_interior" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3953145" y="0.124828" z="0.2457047" />
+              <center x="-2.048165e-05" y="-0.950663" z="12.78709" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcontrol_throttle" tags="part ">
+        <parts>
+          <part name="control_throttle">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_lightning_f8_mtl_interior_atlas" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_pom_interior" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.0807215" y="0.05557401" z="0.07181025" />
+              <center x="-0.3806215" y="-0.509524" z="12.41517" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcountermeasure_launcher" tags="part ">
+        <parts>
+          <part name="countermeasure_launcher">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.025263" y="0.2550853" z="0.4017453" />
+              <center x="3.695488e-06" y="-0.8967039" z="-2.491704" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordashboard" tags="part ">
+        <parts>
+          <part name="dashboard">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_lightning_f8_mtl_interior_atlas" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="4" ref="generic.anvl_lightning_f8_mtl_cockpit_buttons" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_pom_interior" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.67803" y="0.4783165" z="1.08143" />
+              <center x="-9.983778e-07" y="-0.6391045" z="12.70723" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForejection_handle" tags="part ">
+        <parts>
+          <part name="ejection_handle">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.042268" y="0.04590005" z="0.03649998" />
+              <center x="-0.0007839995" y="-0.8163951" z="12.30496" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfront_wing_left" tags="part animation platformcollision forceoutline anim_dockdoor ">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="160"/>
+				</animations>
+        <offset>
+          <position x="-0.001005" y="0.001119169" z="-0.000772641" />
+        </offset>
+        <parts>
+          <part name="front_wing_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_internal_pom" />
+                  <material id="12" ref="generic.anvl_lightning_f8_mtl_livery" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_internal_pom" />
+                  <material id="12" ref="generic.anvl_lightning_f8_mtl_livery" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_internal_pom" />
+                  <material id="12" ref="generic.anvl_lightning_f8_mtl_livery" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_internal_pom" />
+                  <material id="12" ref="generic.anvl_lightning_f8_mtl_livery" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.276083" y="1.217621" z="4.628927" />
+              <center x="-3.630263" y="-0.1670335" z="9.823059" />
+            </size>
+            <size_raw>
+              <max x="1.686083" y="1.031503" z="4.500453" />
+              <center x="-3.041268" y="-0.3231777" z="9.95076" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfront_wing_right" tags="part animation platformcollision forceoutline anim_dockdoor ">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="160"/>
+				</animations>
+        <offset>
+          <position x="0.001005" y="0.001119168" z="-0.0007726421" />
+        </offset>
+        <parts>
+          <part name="front_wing_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_internal_pom" />
+                  <material id="12" ref="generic.anvl_lightning_f8_mtl_livery" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_internal_pom" />
+                  <material id="12" ref="generic.anvl_lightning_f8_mtl_livery" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_internal_pom" />
+                  <material id="12" ref="generic.anvl_lightning_f8_mtl_livery" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_internal_pom" />
+                  <material id="12" ref="generic.anvl_lightning_f8_mtl_livery" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.276369" y="1.217629" z="4.628872" />
+              <center x="3.630976" y="-0.1720397" z="9.822994" />
+            </size>
+            <size_raw>
+              <max x="1.686369" y="1.031511" z="4.500399" />
+              <center x="3.041982" y="-0.3281836" z="9.950695" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_base" group="ladder" tags="part animation trigger_interact require_docked">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="-0.3257252" y="-1.539191" z="12.62074" />
+        </offset>
+        <parts>
+          <part name="ladder_base">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="4" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.00613" y="0.2127257" z="0.2859278" />
+              <center x="-0.2836584" y="-0.1536764" z="-0.005101204" />
+            </size>
+            <size_raw>
+              <max x="0.482467" y="0.06875849" z="0.2859278" />
+              <center x="0.2400043" y="-0.00970912" z="-0.005101204" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_col" group="ladder" tags="part animation trigger_interact require_docked ui">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="-0.03251341" y="-1.494" z="12.62576" />
+          <quaternion qx="0" qy="0" qz="0.5" qw="-0.8660254" />
+        </offset>
+        <parts>
+          <part name="ladder_col">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.147444" y="1.81372" z="0.3000002" />
+              <center x="-1.146646" y="-0.3446659" z="-9.536743e-07" />
+            </size>
+            <size_raw>
+              <max x="0.0007987447" y="0.001469054" z="0.0003000002" />
+              <center x="0" y="0" z="-9.536743e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_hatch" group="ladder" tags="part animation trigger_interact require_docked ui">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="0.01016512" z="0" />
+        </offset>
+        <parts>
+          <part name="ladder_hatch">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="4" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.02127099" y="0.3580391" z="0.3212686" />
+              <center x="-0.680978" y="-1.278184" z="12.60508" />
+            </size>
+            <size_raw>
+              <max x="0.02127099" y="0.176519" z="0.3212686" />
+              <center x="-0.680978" y="-1.449539" z="12.60508" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_rung_a" group="ladder" tags="part animation trigger_interact require_docked ui">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0.08559302" y="-1.484267" z="12.61614" />
+        </offset>
+        <parts>
+          <part name="ladder_rung_a">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="4" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.147954" y="0.2050121" z="0.2600789" />
+              <center x="-0.7327636" y="0.0756824" z="-0.0009479523" />
+            </size>
+            <size_raw>
+              <max x="0.43144" y="0.1006196" z="0.2600789" />
+              <center x="-0.01624904" y="-0.02871007" z="-0.0009484291" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_rung_b" group="ladder" tags="part animation trigger_interact require_docked ui">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0.09662282" y="-1.487249" z="12.68734" />
+        </offset>
+        <parts>
+          <part name="ladder_rung_b">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.089043" y="0.2526408" z="0.2958384" />
+              <center x="-0.7212274" y="-0.1761823" z="-0.07012177" />
+            </size>
+            <size_raw>
+              <max x="0.3476365" y="0.06338692" z="0.2934966" />
+              <center x="0.02017866" y="0.01307166" z="-0.07246351" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_rung_c" group="ladder" tags="part animation trigger_interact require_docked ui">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0.04069074" y="-1.39931" z="12.55833" />
+        </offset>
+        <parts>
+          <part name="ladder_rung_c">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.244772" y="0.468241" z="0.293191" />
+              <center x="-0.8002941" y="-0.4280177" z="0.05735302" />
+            </size>
+            <size_raw>
+              <max x="0.4444105" y="0.06170851" z="0.293191" />
+              <center x="6.771833e-05" y="-0.02148515" z="0.05735302" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlightning_f8_lg_skin1" tags="part animation platformcollision forceoutline detail_xl anim_dockdoor ">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="160"/>
+				</animations>
+        <offset>
+          <position x="0" y="-0.001648148" z="0" />
+          <quaternion qx="-0.001706544" qy="0" qz="0" qw="-0.9999986" />
+        </offset>
+        <parts>
+          <part name="lightning_f8_lg_skin1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_interior_atlas" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                  <material id="6" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_proxy" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_shield_proxy" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_internal_mesh" />
+                  <material id="12" ref="generic.anvl_lightning_f8_mtl_internal_pom" />
+                  <material id="13" ref="p1.cockpit_glass_inside_01" />
+                  <material id="14" ref="generic.anvl_lightning_f8_mtl_glass_int" />
+                  <material id="15" ref="generic.anvl_lightning_f8_mtl_glow_thruster" />
+                  <material id="16" ref="generic.anvl_lightning_f8_mtl_placeholder_livery_999th" />
+                  <material id="17" ref="generic.anvl_lightning_f8_mtl_UI_HUD" />
+                  <material id="18" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="19" ref="generic.anvl_lightning_f8_mtl_nocollision_faces" />
+                  <material id="20" ref="generic.anvl_lightning_f8_mtl_hull_metal_main.001" />
+                  <material id="21" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="22" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="23" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="24" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="25" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="26" ref="generic.anvl_lightning_f8_mtl_cockpit_seat" />
+                  <material id="27" ref="generic.anvl_lightning_f8_mtl_cockpit_buttons" />
+                  <material id="28" ref="generic.anvl_lightning_f8_mtl_pom_interior" />
+                  <material id="29" ref="generic.anvl_lightning_f8_mtl_seat_stitch" />
+                  <material id="30" ref="generic.anvl_lightning_f8_mtl_placeholder" />
+                  <material id="31" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="32" ref="generic.anvl_lightning_f8_mtl_livery" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.318999" y="2.197178" z="2.336616" />
+              <center x="-0.02787638" y="-1.020306" z="0.6055648" />
+            </size>
+            <size_raw>
+              <max x="4.318999" y="1.197178" z="1.836616" />
+              <center x="-0.02787638" y="-0.02195412" z="0.1055647" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlightning_f8_lg_skin2" tags="part animation platformcollision forceoutline detail_xl anim_dockdoor ">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="160"/>
+				</animations>
+        <offset>
+          <position x="0.02774327" y="-0.4042557" z="6.192567" />
+          <quaternion qx="0.4985214" qy="0" qz="0" qw="-0.8668774" />
+        </offset>
+        <parts>
+          <part name="lightning_f8_lg_skin2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_interior_atlas" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                  <material id="6" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_proxy" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_shield_proxy" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_internal_mesh" />
+                  <material id="12" ref="generic.anvl_lightning_f8_mtl_internal_pom" />
+                  <material id="13" ref="p1.cockpit_glass_inside_01" />
+                  <material id="14" ref="generic.anvl_lightning_f8_mtl_glass_int" />
+                  <material id="15" ref="generic.anvl_lightning_f8_mtl_glow_thruster" />
+                  <material id="16" ref="generic.anvl_lightning_f8_mtl_placeholder_livery_999th" />
+                  <material id="17" ref="generic.anvl_lightning_f8_mtl_UI_HUD" />
+                  <material id="18" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="19" ref="generic.anvl_lightning_f8_mtl_nocollision_faces" />
+                  <material id="20" ref="generic.anvl_lightning_f8_mtl_hull_metal_main.001" />
+                  <material id="21" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="22" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="23" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="24" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="25" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="26" ref="generic.anvl_lightning_f8_mtl_cockpit_seat" />
+                  <material id="27" ref="generic.anvl_lightning_f8_mtl_cockpit_buttons" />
+                  <material id="28" ref="generic.anvl_lightning_f8_mtl_pom_interior" />
+                  <material id="29" ref="generic.anvl_lightning_f8_mtl_seat_stitch" />
+                  <material id="30" ref="generic.anvl_lightning_f8_mtl_placeholder" />
+                  <material id="31" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="32" ref="generic.anvl_lightning_f8_mtl_livery" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.496769" y="2.502336" z="1.993007" />
+              <center x="-0.02785413" y="-0.5979874" z="0.1558948" />
+            </size>
+            <size_raw>
+              <max x="0.496769" y="1.395522" z="1.493007" />
+              <center x="-0.02785416" y="0.507351" z="-0.3441052" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormini_wing_left" tags="part animation platformcollision forceoutline detail_xl anim_dockdoor ">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="160"/>
+				</animations>
+        <offset>
+          <position x="-10.73094" y="-0.6684292" z="-2.241035" />
+          <quaternion qx="-0.0002612382" qy="0.001121401" qz="0.0001309044" qw="-0.9999993" />
+        </offset>
+        <parts>
+          <part name="mini_wing_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="4" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.130412" y="0.2986142" z="1.326666" />
+              <center x="-0.9552431" y="-0.3063405" z="-1.093664" />
+            </size>
+            <size_raw>
+              <max x="1.130412" y="0.2986142" z="1.326666" />
+              <center x="-0.9552431" y="-0.3063405" z="-1.093663" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormini_wing_right" tags="part animation platformcollision forceoutline detail_xl anim_dockdoor ">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="160"/>
+				</animations>
+        <offset>
+          <position x="10.77002" y="-0.6783257" z="-2.229398" />
+          <quaternion qx="-0.0002579449" qy="-0.001125594" qz="-5.706486e-05" qw="-0.9999993" />
+        </offset>
+        <parts>
+          <part name="mini_wing_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="4" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.12918" y="0.2986143" z="1.326667" />
+              <center x="0.9175043" y="-0.2964485" z="-1.1053" />
+            </size>
+            <size_raw>
+              <max x="1.12918" y="0.2986143" z="1.326666" />
+              <center x="0.9175044" y="-0.2964485" z="-1.1053" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFornose" tags="part ">
+        <parts>
+          <part name="nose">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                  <material id="12" ref="generic.anvl_lightning_f8_mtl_pom_interior" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                  <material id="12" ref="generic.anvl_lightning_f8_mtl_pom_interior" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                  <material id="12" ref="generic.anvl_lightning_f8_mtl_pom_interior" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                  <material id="2" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="9" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                  <material id="10" ref="generic.anvl_lightning_f8_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                  <material id="12" ref="generic.anvl_lightning_f8_mtl_pom_interior" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.5012" y="1.620543" z="2.777691" />
+              <center x="0.0001870692" y="-0.4421384" z="11.51789" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrear_wing_flap_left" tags="part ">
+        <offset>
+          <position x="-7.476189" y="-0.2418038" z="-3.341622" />
+        </offset>
+        <parts>
+          <part name="rear_wing_flap_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="4" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8171484" y="0.2693216" z="0.7009495" />
+              <center x="-0.03240085" y="-0.01685387" z="-0.5878545" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrear_wing_flap_right" tags="part ">
+        <offset>
+          <position x="7.501952" y="-0.2491545" z="-3.342511" />
+        </offset>
+        <parts>
+          <part name="rear_wing_flap_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_hull_metal_c" />
+                  <material id="4" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8171444" y="0.2693325" z="0.7009491" />
+              <center x="0.006564513" y="-0.009505391" z="-0.5869656" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForsceen" tags="part ">
+        <parts>
+          <part name="sceen">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2817186" y="0.1574992" z="0.08043671" />
+              <center x="-0.002132505" y="-0.3658398" z="12.77156" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForthruster_mav_joint" tags="part ">
+        <parts>
+          <part name="thruster_mav_joint">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_avenger_exterior_mtl_dark_insulation_tiles" />
+                  <material id="2" ref="generic.aegs_avenger_exterior_mtl_thruster" />
+                  <material id="3" ref="generic.aegs_avenger_exterior_mtl_Black_Panels" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.aegs_avenger_exterior_mtl_dark_insulation_tiles" />
+                  <material id="2" ref="generic.aegs_avenger_exterior_mtl_thruster" />
+                  <material id="3" ref="generic.aegs_avenger_exterior_mtl_Black_Panels" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.aegs_avenger_exterior_mtl_dark_insulation_tiles" />
+                  <material id="2" ref="generic.aegs_avenger_exterior_mtl_thruster" />
+                  <material id="3" ref="generic.aegs_avenger_exterior_mtl_Black_Panels" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.aegs_avenger_exterior_mtl_dark_insulation_tiles" />
+                  <material id="2" ref="generic.aegs_avenger_exterior_mtl_thruster" />
+                  <material id="3" ref="generic.aegs_avenger_exterior_mtl_Black_Panels" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.158696" y="1.270571" z="6.184611" />
+              <center x="9.679794e-05" y="0.1101204" z="1.588454" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      
+
+
+      <connection name="Connection39" tags="part animation  ">
+				<offset>
+          <position x="-2.875292" y="0.3301845" z="7.575298" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_00"/>
+				</parts>
+			</connection>
+      <connection name="Connection40" tags="part animation  ">
+				<offset>
+          <position x="2.87529" y="0.3301845" z="7.5753" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_01"/>
+				</parts>
+			</connection>
+      <connection name="Connection41" tags="part animation  ">
+				<offset>
+          <position x="6.957497" y="0.3301845" z="2.037468" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_02"/>
+				</parts>
+			</connection>
+      <connection name="Connection42" tags="part animation  ">
+				<offset>
+          <position x="-6.9575" y="0.3301845" z="2.037468" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_03"/>
+				</parts>
+			</connection>
+      <connection name="Connection43" tags="part animation  ">
+				<offset>
+          <position x="-2.036985" y="1.382326" z="-4.394567" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_04"/>
+				</parts>
+			</connection>
+      <connection name="Connection44" tags="part animation  ">
+				<offset>
+          <position x="2.03699" y="1.382326" z="-4.394567" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_05"/>
+				</parts>
+			</connection>
+      <connection name="Connection45" tags="part animation  ">
+				<offset>
+          <position x="3.165935" y="-1.163669" z="6.656617" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_06"/>
+				</parts>
+			</connection>
+      <connection name="Connection46" tags="part animation  ">
+				<offset>
+          <position x="-3.16593" y="-1.163669" z="6.656617" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_07"/>
+				</parts>
+			</connection>
+      <connection name="Connection47" tags="part animation  ">
+				<offset>
+          <position x="-5.917934" y="-0.6171278" z="2.03035" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_08"/>
+				</parts>
+			</connection>
+      <connection name="Connection48" tags="part animation  ">
+				<offset>
+          <position x="5.91793" y="-0.6171278" z="2.03035" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_09"/>
+				</parts>
+			</connection>
+      <connection name="Connection49" tags="part animation  ">
+				<offset>
+          <position x="2.212025" y="-0.6805798" z="-4.177577" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_10"/>
+				</parts>
+			</connection>
+      <connection name="Connection50" tags="part animation  ">
+				<offset>
+          <position x="-2.21202" y="-0.6805798" z="-4.177577" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_11"/>
+				</parts>
+			</connection>
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="0" z="12" />
+				</offset>
+			</connection>
+      <connection name="con_npc_ladder_bottom01" tags="npc_waypoint  ladder_bottom">
+				<offset>
+          <position x="-1.129362" y="-3.04439" z="12.6197" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+			<connection name="con_npc_ladder_top01" tags="npc_waypoint  ladder_top">
+				<offset>
+          <position x="-0.890999" y="-0.7348179" z="12.6197" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+
+
+
+      <connection name="Connection23" group="pilotcontrol" tags="part  ">
+				<offset>
+          <position x="0" y="-1.218134" z="12.35856" />
+        </offset>
+				<parts>
+					<part ref="f8c_lightning_seat.pilot_seat" name="part_chair_01"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="con_control01" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="part_chair_01">
+			</connection>
+			<connection name="Connection25" tags="part iklink  " group="pilotcontrol" parent="part_chair_01">
+				<parts>
+					<part ref="f8c_lightning_seat.pilot_03" name="part_chair_03"/>
+				</parts>
+			</connection>
+      <connection name="Connection_airlock" group="airock001" tags="part ui">
+				<parts>
+					<part ref="arrow_airlock.ejection_handle" name="ejection_handle2"/>
+				</parts>
+        <offset>
+          <position x="0" y="-0.75" z="12.3" />
+        </offset>
+			</connection>
+      <connection name="Connection_airlockbox" group="airock001" tags="part ui" parent="ejection_handle2">
+				<parts>
+					<part ref="arrow_airlock.box" name="box"/>
+				</parts>
+			</connection>
+			
+      
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="-1" z="12" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="-3.74106" y="-1.036514" z="-2.683731" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_02" tags="countermeasures ">
+				<offset>
+          <position x="3.74106" y="-1.036514" z="-2.683731" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_npc_teleport01" group="cabin_01" tags="npc_waypoint npctransport stand ">
+				<offset>
+          <position x="0" y="0" z="12" />
+        </offset>
+			</connection>
+			<connection name="con_tochair" group="pilotcontrol" tags="tochair ">
+				<offset>
+          <position x="0" y="0" z="12" />
+        </offset>
+			</connection>
+			<connection name="con_uianchor" group="pilotcontrol" tags="uianchor ">
+				<offset>
+          <position x="0" y="0" z="12" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-3.5" z="20"/>
+				</offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component f8c">
+				<offset>
+          <position x="0" y="0.476666" z="-4.604116" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield small aegs_s1 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield small aegs_s1 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_03" tags="component shield small aegs_s1 industrial">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_04" tags="component shield small aegs_s1 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_05" tags="component shield small aegs_s1 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_left symmetry_1">
+				<offset>
+          <position x="-7.922415" y="-0.6386734" z="0.2971238" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_left symmetry_2">
+				<offset>
+          <position x="-9.017145" y="-0.8647271" z="0.2971238" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_03" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_right symmetry_1">
+				<offset>
+          <position x="7.92241" y="-0.6386734" z="0.2971238" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_04" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_right symmetry_2">
+				<offset>
+          <position x="9.01715" y="-0.8647271" z="0.2971238" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_05" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_left symmetry_3">
+				<offset>
+          <position x="-2.353101" y="-1.611002" z="7.587769" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_06" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_right symmetry_3">
+				<offset>
+          <position x="2.3531" y="-1.611002" z="7.587769" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_07" tags="component weapon small missile aegs_f8_missile_s2 unfixed symmetry symmetry_1">
+				<offset>
+          <position x="-2.670619" y="1.540691" z="1.956344" />
+          <quaternion qx="0" qy="0" qz="-0.1305262" qw="-0.9914448" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_08" tags="component weapon small missile aegs_f8_missile_s2 unfixed symmetry symmetry_2">
+				<offset>
+          <position x="2.67062" y="1.540691" z="1.956344" />
+          <quaternion qx="0" qy="0" qz="0.1305262" qw="-0.9914449" />
+        </offset>
+			</connection>
+
+      <connection name="con_turret_s_001" tags="turret small component combat aegs_f8">
+				<offset>
+          <position x="0" y="2.17416" z="-0.3112446" />
+        </offset>
+			</connection>
+
+      <connection name="con_storage01" tags="storage ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="0.03006464" z="1.005534" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071067" />
+        </offset>
+			</connection>
+    </connections>
+  </component>
+</components>

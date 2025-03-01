@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) at 21.02.2019_11-07-24-->
+<macros>
+  <macro name="buildmodule_bengal_macro" class="buildmodule">
+    <component ref="buildmodule_bengal" />
+    <properties>
+      <identification name="{996671,37}" description="{996671,37}" />
+      <build />
+      <hull integrated="1" />
+      <secrecy level="3" />
+      <supply classes="ship_m ship_s" />
+      
+    </properties>
+    <connections>
+      <connection name="buildprocessorconnection_01" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+      <connection name="buildprocessorconnection_02" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+      <connection name="buildprocessorconnection_03" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+      <connection name="buildprocessorconnection_04" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+      <connection name="buildprocessorconnection_05" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+      <connection name="buildprocessorconnection_06" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+      <connection name="buildprocessorconnection_07" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+      <connection name="buildprocessorconnection_08" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+      <connection name="buildprocessorconnection_09" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+
+      <connection ref="ConnectionFor_dockingbay_arg_s_01_macro001">
+        <macro ref="dockingbay_arg_s_01_macro" connection="space" />
+      </connection>
+      <connection ref="ConnectionFor_dockingbay_arg_s_01_macro002">
+        <macro ref="dockingbay_arg_s_01_macro" connection="space" />
+      </connection>
+      <connection ref="ConnectionFor_dockingbay_arg_s_01_macro003">
+        <macro ref="dockingbay_arg_s_01_macro" connection="space" />
+      </connection>
+      <connection ref="ConnectionFor_dockingbay_arg_s_01_macro004">
+        <macro ref="dockingbay_arg_s_01_macro" connection="space" />
+      </connection>
+      <connection ref="ConnectionFor_dockingbay_arg_s_01_macro005">
+        <macro ref="dockingbay_arg_s_01_macro" connection="space" />
+      </connection>
+      <connection ref="ConnectionFor_dockingbay_arg_s_01_macro006">
+        <macro ref="dockingbay_arg_s_01_macro" connection="space" />
+      </connection>
+      <connection ref="ConnectionFor_dockingbay_arg_s_01_macro007">
+        <macro ref="dockingbay_arg_s_01_macro" connection="space" />
+      </connection>
+      <connection ref="ConnectionFor_dockingbay_arg_s_01_macro008">
+        <macro ref="dockingbay_arg_s_01_macro" connection="space" />
+      </connection>
+      <connection ref="ConnectionFor_dockingbay_arg_s_01_macro009">
+        <macro ref="dockingbay_arg_s_01_macro" connection="space" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

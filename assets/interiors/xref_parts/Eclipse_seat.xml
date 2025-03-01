@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-10 21:06:01 from Blender-->
+<components>
+  <component name="eclipse_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\eclipse_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForcockpit_seat" tags="part iklink detail_xl chair platformcollision forceoutline walk_exclude walk_excludeplayer ">
+        <parts>
+          <part name="cockpit_seat">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="4" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="5" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="6" ref="generic.aegs_eclipse_mtl_cockpit_decals" />
+                  <material id="7" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4104435" y="0.7530135" z="0.468047" />
+              <center x="4.991889e-07" y="0.7565815" z="0.018737" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcockpit_seat_mesh" tags="part animation ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation ">
+        <parts>
+          <part name="cockpit_seat_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="4" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="5" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="6" ref="generic.aegs_eclipse_mtl_cockpit_decals" />
+                  <material id="7" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4104435" y="0.7530135" z="0.468047" />
+              <center x="4.991889e-07" y="0.7565815" z="0.018737" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

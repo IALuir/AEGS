@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-26 22:16:57 from Blender-->
+<components>
+  <component name="ship_aegs_idris_p" class="ship_l">
+    <source geometry="extensions\AEGS\assets\units\size_l\ship_aegs_idris_data" />
+    <layers>
+      <layer>
+        <waypoints>
+				  <waypoint name="001" tags="sizeLevel1 typedock start dynamicmasstraffic " x="0" y="0" z="0" qx="0" qy="0" qz="-0.7071068" qw="-0.7071068">
+            <links>
+              <link ref="" />
+              <link ref="002" />
+            </links>
+          </waypoint>
+          <waypoint name="002" tags="closelink typenormal sizeLevel1 dynamicmasstraffic" x="0" y="0" z="151.6476" qx="0" qy="0" qz="0" qw="-1">
+            <links>
+              <link ref="" />
+            </links>
+          </waypoint>
+          <waypoint name="003" tags="typenormal sizeLevel1 dynamicmasstraffic closelink" x="0" y="0" z="151.6476" qx="0.7071068" qy="0.7071068" qz="0" qw="0">
+            <links>
+              <link ref="" />
+              <link ref="004" />
+            </links>
+          </waypoint>
+          <waypoint name="004" tags="sizeLevel1 typedock end dynamicmasstraffic" x="0" y="0" z="0" qx="0" qy="0" qz="0" qw="-1">
+            <links>
+              <link ref="" />
+            </links>
+          </waypoint>
+        </waypoints>
+			</layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_l ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForanimal_fx" tags="part detail_l nocollision animation textureanimation forceoutline  ">
+        <animations>
+					<animation name="loop" start="0" end="100"/>
+				</animations>
+        <offset>
+          <position x="-2e-06" y="19.98169" z="-30.208" />
+        </offset>
+        <parts>
+          <part name="animal_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="3" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="4" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="5" ref="p1effects.p1_gradient_colour" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_grey_int" />
+                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_mid_trim" />
+                  <material id="9" ref="generic.aegs_door_master_mtl_metal_base_trims" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="12" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="13.30652" y="3.200495" z="37.59112" />
+              <center x="5.722046e-06" y="1.551069" z="-17.7987" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="4" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="5" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="9" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="10" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="14" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="15" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="64" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="65" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="69" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="70" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="99" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="100" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+            <lights>
+              <omni name="Xulight" shadow="0" r="255" g="0" b="0" range="2" shadowrange="2" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="4" value="1"/>
+										<key frame="5" value="0"/>
+										<key frame="9" value="0"/>
+										<key frame="10" value="1"/>
+										<key frame="14" value="1"/>
+										<key frame="15" value="0"/>
+										<key frame="64" value="0"/>
+										<key frame="65" value="1"/>
+										<key frame="69" value="1"/>
+										<key frame="70" value="0"/>
+										<key frame="100" value="0"/>
+									</lightanimation>
+								</lightanimations>
+                <offset>
+                  <position x="0.8269305" y="4.571106" z="-55.23657" />
+                </offset>
+              </omni>
+              <omni name="Xulight001" shadow="0" r="255" g="0" b="0" range="2" shadowrange="2" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="4" value="1"/>
+										<key frame="5" value="0"/>
+										<key frame="9" value="0"/>
+										<key frame="10" value="1"/>
+										<key frame="14" value="1"/>
+										<key frame="15" value="0"/>
+										<key frame="64" value="0"/>
+										<key frame="65" value="1"/>
+										<key frame="69" value="1"/>
+										<key frame="70" value="0"/>
+										<key frame="100" value="0"/>
+									</lightanimation>
+								</lightanimations>
+                <offset>
+                  <position x="-0.826926" y="4.571106" z="-55.23657" />
+                </offset>
+              </omni>
+              <omni name="Xulight002" shadow="0" r="255" g="0" b="0" range="2" shadowrange="2" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="4" value="1"/>
+										<key frame="5" value="0"/>
+										<key frame="9" value="0"/>
+										<key frame="10" value="1"/>
+										<key frame="14" value="1"/>
+										<key frame="15" value="0"/>
+										<key frame="64" value="0"/>
+										<key frame="65" value="1"/>
+										<key frame="69" value="1"/>
+										<key frame="70" value="0"/>
+										<key frame="100" value="0"/>
+									</lightanimation>
+								</lightanimations>
+                <offset>
+                  <position x="-12.66352" y="-0.7859993" z="19.75429" />
+                </offset>
+              </omni>
+              <omni name="Xulight003" shadow="0" r="255" g="0" b="0" range="2" shadowrange="2" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="4" value="1"/>
+										<key frame="5" value="0"/>
+										<key frame="9" value="0"/>
+										<key frame="10" value="1"/>
+										<key frame="14" value="1"/>
+										<key frame="15" value="0"/>
+										<key frame="64" value="0"/>
+										<key frame="65" value="1"/>
+										<key frame="69" value="1"/>
+										<key frame="70" value="0"/>
+										<key frame="100" value="0"/>
+									</lightanimation>
+								</lightanimations>
+                <offset>
+                  <position x="-13.29167" y="-0.7859993" z="19.75429" />
+                </offset>
+              </omni>
+              <omni name="Xulight004" shadow="0" r="255" g="0" b="0" range="2" shadowrange="2" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="4" value="1"/>
+										<key frame="5" value="0"/>
+										<key frame="9" value="0"/>
+										<key frame="10" value="1"/>
+										<key frame="14" value="1"/>
+										<key frame="15" value="0"/>
+										<key frame="64" value="0"/>
+										<key frame="65" value="1"/>
+										<key frame="69" value="1"/>
+										<key frame="70" value="0"/>
+										<key frame="100" value="0"/>
+									</lightanimation>
+								</lightanimations>
+                <offset>
+                  <position x="-12.66352" y="-1.616863" z="17.1836" />
+                </offset>
+              </omni>
+              <omni name="Xulight005" shadow="0" r="255" g="0" b="0" range="2" shadowrange="2" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="4" value="1"/>
+										<key frame="5" value="0"/>
+										<key frame="9" value="0"/>
+										<key frame="10" value="1"/>
+										<key frame="14" value="1"/>
+										<key frame="15" value="0"/>
+										<key frame="64" value="0"/>
+										<key frame="65" value="1"/>
+										<key frame="69" value="1"/>
+										<key frame="70" value="0"/>
+										<key frame="100" value="0"/>
+									</lightanimation>
+								</lightanimations>
+                <offset>
+                  <position x="-13.29167" y="-1.616863" z="17.1836" />
+                </offset>
+              </omni>
+              <omni name="Xulight006" shadow="0" r="255" g="0" b="0" range="2" shadowrange="2" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="4" value="1"/>
+										<key frame="5" value="0"/>
+										<key frame="9" value="0"/>
+										<key frame="10" value="1"/>
+										<key frame="14" value="1"/>
+										<key frame="15" value="0"/>
+										<key frame="64" value="0"/>
+										<key frame="65" value="1"/>
+										<key frame="69" value="1"/>
+										<key frame="70" value="0"/>
+										<key frame="100" value="0"/>
+									</lightanimation>
+								</lightanimations>
+                <offset>
+                  <position x="13.28047" y="-1.616863" z="17.1836" />
+                </offset>
+              </omni>
+              <omni name="Xulight007" shadow="0" r="255" g="0" b="0" range="2" shadowrange="2" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="4" value="1"/>
+										<key frame="5" value="0"/>
+										<key frame="9" value="0"/>
+										<key frame="10" value="1"/>
+										<key frame="14" value="1"/>
+										<key frame="15" value="0"/>
+										<key frame="64" value="0"/>
+										<key frame="65" value="1"/>
+										<key frame="69" value="1"/>
+										<key frame="70" value="0"/>
+										<key frame="100" value="0"/>
+									</lightanimation>
+								</lightanimations>
+                <offset>
+                  <position x="12.65232" y="-1.616863" z="17.1836" />
+                </offset>
+              </omni>
+              <omni name="Xulight008" shadow="0" r="255" g="0" b="0" range="2" shadowrange="2" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="4" value="1"/>
+										<key frame="5" value="0"/>
+										<key frame="9" value="0"/>
+										<key frame="10" value="1"/>
+										<key frame="14" value="1"/>
+										<key frame="15" value="0"/>
+										<key frame="64" value="0"/>
+										<key frame="65" value="1"/>
+										<key frame="69" value="1"/>
+										<key frame="70" value="0"/>
+										<key frame="100" value="0"/>
+									</lightanimation>
+								</lightanimations>
+                <offset>
+                  <position x="13.29895" y="-0.7859993" z="19.75429" />
+                </offset>
+              </omni>
+              <omni name="Xulight009" shadow="0" r="255" g="0" b="0" range="2" shadowrange="2" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="4" value="1"/>
+										<key frame="5" value="0"/>
+										<key frame="9" value="0"/>
+										<key frame="10" value="1"/>
+										<key frame="14" value="1"/>
+										<key frame="15" value="0"/>
+										<key frame="64" value="0"/>
+										<key frame="65" value="1"/>
+										<key frame="69" value="1"/>
+										<key frame="70" value="0"/>
+										<key frame="100" value="0"/>
+									</lightanimation>
+								</lightanimations>
+                <offset>
+                  <position x="12.6708" y="-0.7859993" z="19.75429" />
+                </offset>
+              </omni>
+            </lights>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody" tags="part ">
+        <offset>
+          <position x="0" y="-1.953999" z="5.316001" />
+        </offset>
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_idris_turret_large_mtl_decals_ext" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_POM_specblending" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="7" ref="generic.idris_hangar_mtl_floor_alphas" />
+                  <material id="8" ref="generic.idris_hangar_mtl_metals_base_tile" />
+                  <material id="9" ref="generic.idris_hangar_mtl_floors_c" />
+                  <material id="10" ref="generic.idris_hangar_mtl_metals_base_tile" />
+                  <material id="11" ref="generic.idris_frigate_exterior_wip_mtl_engine_glow" />
+                  <material id="12" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="13" ref="generic.aegs_idris_mtl_base_grey_trims" />
+                  <material id="14" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="15" ref="generic.aegs_cor_pipes_steel_mtl_cable_pipe_trims" />
+                  <material id="16" ref="p1.cockpit_glass_outside_01" />
+                  <material id="17" ref="generic.aegs_hammerhead_int_mtl_technical" />
+                  <material id="18" ref="p1effects.p1_gradient_colour" />
+                  <material id="19" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.aegs_idris_turret_large_mtl_decals_ext" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_POM_specblending" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="7" ref="generic.idris_hangar_mtl_floor_alphas" />
+                  <material id="8" ref="generic.idris_hangar_mtl_metals_base_tile" />
+                  <material id="9" ref="generic.idris_hangar_mtl_floors_c" />
+                  <material id="10" ref="generic.idris_hangar_mtl_metals_base_tile" />
+                  <material id="11" ref="generic.idris_frigate_exterior_wip_mtl_engine_glow" />
+                  <material id="12" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="13" ref="generic.aegs_idris_mtl_base_grey_trims" />
+                  <material id="14" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="15" ref="generic.aegs_cor_pipes_steel_mtl_cable_pipe_trims" />
+                  <material id="16" ref="p1.cockpit_glass_outside_01" />
+                  <material id="17" ref="generic.aegs_hammerhead_int_mtl_technical" />
+                  <material id="18" ref="p1effects.p1_gradient_colour" />
+                  <material id="19" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.aegs_idris_turret_large_mtl_decals_ext" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_POM_specblending" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="7" ref="generic.idris_hangar_mtl_floor_alphas" />
+                  <material id="8" ref="generic.idris_hangar_mtl_metals_base_tile" />
+                  <material id="9" ref="generic.idris_hangar_mtl_floors_c" />
+                  <material id="10" ref="generic.idris_hangar_mtl_metals_base_tile" />
+                  <material id="11" ref="generic.idris_frigate_exterior_wip_mtl_engine_glow" />
+                  <material id="12" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="13" ref="generic.aegs_idris_mtl_base_grey_trims" />
+                  <material id="14" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="15" ref="generic.aegs_cor_pipes_steel_mtl_cable_pipe_trims" />
+                  <material id="16" ref="p1.cockpit_glass_outside_01" />
+                  <material id="17" ref="generic.aegs_hammerhead_int_mtl_technical" />
+                  <material id="18" ref="p1effects.p1_gradient_colour" />
+                  <material id="19" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.aegs_idris_turret_large_mtl_decals_ext" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_POM_specblending" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="7" ref="generic.idris_hangar_mtl_floor_alphas" />
+                  <material id="8" ref="generic.idris_hangar_mtl_metals_base_tile" />
+                  <material id="9" ref="generic.idris_hangar_mtl_floors_c" />
+                  <material id="10" ref="generic.idris_hangar_mtl_metals_base_tile" />
+                  <material id="11" ref="generic.idris_frigate_exterior_wip_mtl_engine_glow" />
+                  <material id="12" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="13" ref="generic.aegs_idris_mtl_base_grey_trims" />
+                  <material id="14" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="15" ref="generic.aegs_cor_pipes_steel_mtl_cable_pipe_trims" />
+                  <material id="16" ref="p1.cockpit_glass_outside_01" />
+                  <material id="17" ref="generic.aegs_hammerhead_int_mtl_technical" />
+                  <material id="18" ref="p1effects.p1_gradient_colour" />
+                  <material id="19" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="49.15281" y="25.85822" z="119.602" />
+              <center x="2.507077" y="5.253052" z="8.558678" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody001" tags="part ">
+        <offset>
+          <position x="0" y="-1.953999" z="5.316001" />
+        </offset>
+        <parts>
+          <part name="body001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Internal_framework_b" />
+                  <material id="4" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="5" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_internal_framework_a" />
+                  <material id="10" ref="generic.idris_frigate_exterior_wip_mtl_grey_int" />
+                  <material id="11" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="12" ref="generic.idris_hangar_mtl_accents" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Internal_framework_b" />
+                  <material id="4" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="5" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_internal_framework_a" />
+                  <material id="10" ref="generic.idris_frigate_exterior_wip_mtl_grey_int" />
+                  <material id="11" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="12" ref="generic.idris_hangar_mtl_accents" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Internal_framework_b" />
+                  <material id="4" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="5" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_internal_framework_a" />
+                  <material id="10" ref="generic.idris_frigate_exterior_wip_mtl_grey_int" />
+                  <material id="11" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="12" ref="generic.idris_hangar_mtl_accents" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Internal_framework_b" />
+                  <material id="4" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="5" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_internal_framework_a" />
+                  <material id="10" ref="generic.idris_frigate_exterior_wip_mtl_grey_int" />
+                  <material id="11" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="12" ref="generic.idris_hangar_mtl_accents" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="52.12278" y="23.54447" z="113.6295" />
+              <center x="0.000125885" y="3.142778" z="8.815754" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody002" tags="part ">
+        <offset>
+          <position x="0" y="-1.953999" z="5.316001" />
+        </offset>
+        <parts>
+          <part name="body002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_internal_framework_a" />
+                  <material id="2" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_grey_int" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_mid_trim" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_mid_trim" />
+                  <material id="6" ref="generic.aegs_door_master_mtl_metal_base_trims" />
+                  <material id="7" ref="generic.idris_hangar_mtl_accents" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_metals_atlas" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="12" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="13" ref="generic.aegs_idris_mtl_base_white_panels" />
+                  <material id="14" ref="generic.idris_hangar_mtl_tileable_decal" />
+                  <material id="15" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_internal_framework_a" />
+                  <material id="2" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_grey_int" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_mid_trim" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_mid_trim" />
+                  <material id="6" ref="generic.aegs_door_master_mtl_metal_base_trims" />
+                  <material id="7" ref="generic.idris_hangar_mtl_accents" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_metals_atlas" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="12" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="13" ref="generic.aegs_idris_mtl_base_white_panels" />
+                  <material id="14" ref="generic.idris_hangar_mtl_tileable_decal" />
+                  <material id="15" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_internal_framework_a" />
+                  <material id="2" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_grey_int" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_mid_trim" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_mid_trim" />
+                  <material id="6" ref="generic.aegs_door_master_mtl_metal_base_trims" />
+                  <material id="7" ref="generic.idris_hangar_mtl_accents" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_metals_atlas" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="12" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="13" ref="generic.aegs_idris_mtl_base_white_panels" />
+                  <material id="14" ref="generic.idris_hangar_mtl_tileable_decal" />
+                  <material id="15" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_internal_framework_a" />
+                  <material id="2" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_grey_int" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_mid_trim" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_mid_trim" />
+                  <material id="6" ref="generic.aegs_door_master_mtl_metal_base_trims" />
+                  <material id="7" ref="generic.idris_hangar_mtl_accents" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_metals_atlas" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="12" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="13" ref="generic.aegs_idris_mtl_base_white_panels" />
+                  <material id="14" ref="generic.idris_hangar_mtl_tileable_decal" />
+                  <material id="15" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="39.57827" y="9.410994" z="69.8432" />
+              <center x="9.764122" y="17.32579" z="-27.23878" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody003" tags="part ">
+        <offset>
+          <position x="0" y="-1.953999" z="5.316001" />
+        </offset>
+        <parts>
+          <part name="body003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.idris_hangar_mtl_floor_alphas" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="10" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="11" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="12" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.idris_hangar_mtl_floor_alphas" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="10" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="11" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="12" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.idris_hangar_mtl_floor_alphas" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="10" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="11" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="12" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.idris_hangar_mtl_floor_alphas" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="10" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="11" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="12" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="51.66298" y="25.76686" z="119.3395" />
+              <center x="0.0001173019" y="5.33948" z="8.551483" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_id" tags="part ">
+        <offset>
+          <position x="6.226742" y="11.1739" z="28.18225" />
+        </offset>
+        <parts>
+          <part name="fx_id">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_idcode" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7799999" y="0" z="4.68016" />
+              <center x="0" y="0" z="-0.0001373291" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_logo" tags="part ">
+        <offset>
+          <position x="-0.594421" y="11.5665" z="86.43071" />
+        </offset>
+        <parts>
+          <part name="fx_logo">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_logo" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.159579" y="0.2889938" z="34.2177" />
+              <center x="0.4234468" y="-0.09684181" z="-32.24678" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForidris_thruster_main_01_left" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-145 "/>
+							<max value="180 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-31.46668" y="-1.398135" z="53.39911" />
+        </offset>
+        <parts>
+          <part name="idris_thruster_main_01_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.914493" y="7.173127" z="19.90875" />
+              <center x="-5.891281" y="-0.7452235" z="-8.476032" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForidris_thruster_main_01_rearleft" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="0 "/>
+							<max value="145 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-24.64968" y="-0.2822851" z="-35.46167" />
+        </offset>
+        <parts>
+          <part name="idris_thruster_main_01_rearleft">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.643199" y="6.854276" z="19.90875" />
+              <center x="-6.16257" y="-1.064083" z="-8.476031" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForidris_thruster_main_01_rearright" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="0 "/>
+							<max value="145 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="24.65" y="-0.2822851" z="-35.46167" />
+        </offset>
+        <parts>
+          <part name="idris_thruster_main_01_rearright">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.643198" y="6.854176" z="19.90874" />
+              <center x="6.16258" y="-1.064197" z="-8.47603" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForidris_thruster_main_01_right" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-145 "/>
+							<max value="180 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="31.46668" y="-1.398113" z="53.45605" />
+        </offset>
+        <parts>
+          <part name="idris_thruster_main_01_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.916105" y="7.173126" z="19.90873" />
+              <center x="5.892887" y="-0.7452381" z="-8.475428" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForidris_thruster_main_02_left" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-145 "/>
+							<max value="180 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-51.3947" y="7.04836" z="-36.92022" />
+        </offset>
+        <parts>
+          <part name="idris_thruster_main_02_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.121696" y="13.89647" z="22.77522" />
+              <center x="-5.859138" y="0.04493904" z="-10.17687" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForidris_thruster_main_02_right" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-145 "/>
+							<max value="180 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="51.39501" y="7.048366" z="-36.92022" />
+        </offset>
+        <parts>
+          <part name="idris_thruster_main_02_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="9" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.121696" y="13.89647" z="22.77522" />
+              <center x="5.859138" y="0.04494286" z="-10.17687" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectionthruster01" tags="part animation  ">
+				<offset>
+          <position x="-20.46375" y="12.45848" z="13.24047" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_01"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster02" tags="part animation  ">
+				<offset>
+          <position x="-20.46375" y="12.45848" z="15.45261" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_02"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster03" tags="part animation  ">
+				<offset>
+          <position x="20.4637" y="12.45848" z="13.24047" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_03"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster04" tags="part animation  ">
+				<offset>
+          <position x="20.4637" y="12.45848" z="15.45261" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_04"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster05" tags="part animation  ">
+				<offset>
+          <position x="0" y="11.30472" z="98.23792" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_05"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster06" tags="part animation  ">
+				<offset>
+          <position x="0" y="11.30472" z="100.48" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_06"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster07" tags="part animation  ">
+				<offset>
+          <position x="30.49367" y="2.826629" z="74.49284" />
+          <quaternion qx="-0.5" qy="0.5" qz="0.5" qw="-0.5" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_07"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster08" tags="part animation  ">
+				<offset>
+          <position x="30.49367" y="2.826629" z="72.2689" />
+          <quaternion qx="-0.5" qy="0.5" qz="0.5" qw="-0.5" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_08"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster09" tags="part animation  ">
+				<offset>
+          <position x="34.84076" y="1.039434" z="2.981608" />
+          <quaternion qx="-0.5" qy="0.5" qz="0.5" qw="-0.5" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_09"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster10" tags="part animation  ">
+				<offset>
+          <position x="34.84076" y="1.039434" z="0.746568" />
+          <quaternion qx="-0.5" qy="0.5" qz="0.5" qw="-0.5" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_10"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster11" tags="part animation  ">
+				<offset>
+          <position x="-34.8408" y="1.039434" z="0.746568" />
+          <quaternion qx="-0.5" qy="-0.5" qz="-0.5" qw="-0.5" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_11"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster12" tags="part animation  ">
+				<offset>
+          <position x="-34.8408" y="1.039434" z="2.981608" />
+          <quaternion qx="-0.5" qy="-0.5" qz="-0.5" qw="-0.5" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_12"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster13" tags="part animation  ">
+				<offset>
+          <position x="-30.4937" y="2.826629" z="72.2689" />
+          <quaternion qx="-0.5" qy="-0.5" qz="-0.5" qw="-0.5" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_13"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster14" tags="part animation  ">
+				<offset>
+          <position x="-30.4937" y="2.826629" z="74.49284" />
+          <quaternion qx="-0.5" qy="-0.5" qz="-0.5" qw="-0.5" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_14"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster15" tags="part animation  ">
+				<offset>
+          <position x="-19.98939" y="-13.0504" z="-15.07469" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_15"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster16" tags="part animation  ">
+				<offset>
+          <position x="-19.98939" y="-13.0504" z="-17.30136" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_16"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster17" tags="part animation  ">
+				<offset>
+          <position x="19.9894" y="-13.0504" z="-17.30136" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_17"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster18" tags="part animation  ">
+				<offset>
+          <position x="19.9894" y="-13.0504" z="-15.07469" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_18"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster19" tags="part animation  ">
+				<offset>
+          <position x="20.13405" y="-13.0504" z="49.37052" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_19"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster20" tags="part animation  ">
+				<offset>
+          <position x="20.13405" y="-13.0504" z="51.58849" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_20"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster21" tags="part animation  ">
+				<offset>
+          <position x="-20.18473" y="-13.0504" z="51.58849" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_21"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster22" tags="part animation  ">
+				<offset>
+          <position x="-20.18473" y="-13.0504" z="49.36088" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_22"/>
+				</parts>
+			</connection>
+      
+      
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="17.914" z="-27.2292" />
+				</offset>
+			</connection>
+
+      <connection name="con_engine_01" group="back_engine" tags="engine medium component aegs_idris" parent="idris_thruster_main_02_left">
+        <offset>
+          <position x="-6.075603" y="-5.083821" z="-24.99078" />
+        </offset>
+      </connection>
+      <connection name="con_engine_02" group="back_engine" tags="engine medium component aegs_idris" parent="idris_thruster_main_02_left">
+        <offset>
+          <position x="-6.075603" y="5.010799" z="-25.00037" />
+        </offset>
+      </connection>
+      <connection name="con_engine_03" group="back_engine" tags="engine medium component aegs_idris" parent="idris_thruster_main_01_rearleft">
+        <offset>
+          <position x="-5.881416" y="1.089253" z="-22.72721" />
+        </offset>
+      </connection>
+      <connection name="con_engine_04" group="back_engine" tags="engine medium component aegs_idris" parent="idris_thruster_main_01_rearright">
+        <offset>
+          <position x="5.881102" y="1.089253" z="-22.72721" />
+        </offset>
+      </connection>
+      <connection name="con_engine_05" group="back_engine" tags="engine medium component aegs_idris" parent="idris_thruster_main_02_right">
+        <offset>
+          <position x="6.075287" y="-5.083827" z="-24.99078" />
+        </offset>
+      </connection>
+      <connection name="con_engine_06" group="back_engine" tags="engine medium component aegs_idris" parent="idris_thruster_main_02_right">
+        <offset>
+          <position x="6.075287" y="5.010794" z="-25.00037" />
+        </offset>
+      </connection>
+      <connection name="con_engine_07" group="back_engine" tags="engine medium component aegs_idris" parent="idris_thruster_main_01_right">
+        <offset>
+          <position x="5.906321" y="1.087777" z="-22.78115" />
+        </offset>
+      </connection>
+      <connection name="con_engine_08" group="back_engine" tags="engine medium component aegs_idris" parent="idris_thruster_main_01_left">
+        <offset>
+          <position x="-5.906326" y="1.087799" z="-22.72421" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_m_001" group="front" tags="turret medium component combat aegs_Idris">
+				<offset>
+          <position x="0" y="10.14682" z="117.4464" />
+        </offset>
+			</connection>
+
+      <connection name="con_turret_m_002" group="top" tags="turret medium component combat aegs_javelin_s5">
+				<offset>
+          <position x="39.75811" y="15.71698" z="-3.018198" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_003" group="top" tags="turret medium component combat aegs_javelin_s5">
+				<offset>
+          <position x="-39.7581" y="15.71698" z="-3.018198" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_004" group="top" tags="turret medium component combat aegs_javelin_s5">
+				<offset>
+          <position x="-39.7581" y="15.71698" z="-38.51615" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_005" group="top" tags="turret medium component combat aegs_javelin_s5">
+				<offset>
+          <position x="39.7581" y="15.71698" z="-38.51615" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_turret_m_006" group="bottom" tags="turret medium component combat aegs_javelin_s5">
+				<offset>
+          <position x="20.56545" y="-14.18849" z="8.236538" />
+          <quaternion qx="-1" qy="-4.371139e-08" qz="-4.371139e-08" qw="0" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_007" group="bottom" tags="turret medium component combat aegs_javelin_s5">
+				<offset>
+          <position x="-20.5655" y="-14.18849" z="8.236538" />
+          <quaternion qx="-1" qy="-4.371139e-08" qz="-4.371139e-08" qw="0" />
+        </offset>
+			</connection>
+
+      <connection name="con_turret_m_008" group="front_missile" tags="turret medium component combat aegs_missile_idris">
+				<offset>
+          <position x="0" y="6.49697" z="61.3137" />
+        </offset>
+			</connection>
+
+      <connection name="weapon_01" tags="component weapon large aegs_idris_p">
+				<offset>
+          <position x="0" y="-15.9332" z="124.078" />
+        </offset>
+			</connection>
+
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="18.3883" z="-45.95634" />
+          <quaternion qx="0" qy="1" qz="0" qw="-7.549791e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield large aegs_s3 industrial">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield large aegs_s3 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      <connection name="con_storage_01" tags="storage ">
+			</connection>
+
+      <connection name="con_dockarea" tags="dockarea ">
+			</connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-22 00:01:01 from Blender-->
+<components>
+  <component name="gladius" class="ship_s">
+    <source geometry="extensions\AEGS\assets\units\size_s\gladius_data" />
+    <layers>
+      <layer>
+        <trailemitters>
+          <emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+            <offset>
+              <position x="8.649542" y="0.7674704" z="-2.40865" />
+            </offset>
+          </emitter>
+          <emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+            <offset>
+              <position x="-8.64954" y="0.7674704" z="-2.40865" />
+            </offset>
+          </emitter>
+          <emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+            <offset>
+              <position x="8.649542" y="-2.131566" z="-2.40865" />
+            </offset>
+          </emitter>
+          <emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+            <offset>
+              <position x="-8.64954" y="-2.131566" z="-2.40865" />
+            </offset>
+          </emitter>
+          <emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+            <offset>
+              <position x="2.96192" y="2.88476" z="-4.713975" />
+            </offset>
+          </emitter>
+          <emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+            <offset>
+              <position x="-2.96192" y="2.88476" z="-4.713975" />
+            </offset>
+          </emitter>
+          <emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+            <offset>
+              <position x="-2.546765" y="-2.124774" z="-2.778156" />
+            </offset>
+          </emitter>
+          <emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+            <offset>
+              <position x="2.54677" y="-2.124774" z="-2.778156" />
+            </offset>
+          </emitter>
+          <emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+            <offset>
+              <position x="3.605518" y="-1.229392" z="7.91158" />
+            </offset>
+          </emitter>
+          <emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+            <offset>
+              <position x="-3.60552" y="-1.229392" z="7.91158" />
+            </offset>
+          </emitter>
+        </trailemitters>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_s ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForAEGS_Gladius_LandingGear_Back" tags="animation part ">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="-0.2185971" z="-0.2801583" />
+        </offset>
+        <parts>
+          <part name="AEGS_Gladius_LandingGear_Back">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.051702" y="1.357615" z="1.510063" />
+              <center x="0" y="-1.043958" z="-1.032882" />
+            </size>
+            <size_raw>
+              <max x="0.003051702" y="0.001357615" z="0.001510063" />
+              <center x="0" y="-0.001043958" z="-0.001032882" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForAEGS_Gladius_LandingGear_Front" tags="animation part ">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="-1.097278" z="4.614135" />
+        </offset>
+         <parts>
+          <part name="AEGS_Gladius_LandingGear_Front">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3409815" y="0.9844366" z="1.697847" />
+              <center x="0.0003165305" y="-0.5392616" z="0.0338273" />
+            </size>
+            <size_raw>
+              <max x="0.0003409815" y="0.0009844366" z="0.001697847" />
+              <center x="3.165114e-07" y="-0.0005392616" z="3.382703e-05" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody" tags="part ">
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_redeemer_mtl_vent_grating" />
+                  <material id="2" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="3" ref="generic.aegs_gladius_int_mtl_text_decals" />
+                  <material id="4" ref="generic.aegs_gladius_int_mtl_warningtape" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="6" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="7" ref="generic.aegs_gladius_mtl_emissives" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="12" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="13" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="14" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="15" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="16" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="17" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="18" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="19" ref="p1.cockpit_glass_outside_01" />
+                  <material id="20" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="21" ref="generic.aegs_gladius_mtl_RTT_Text_To_Decal" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.aegs_redeemer_mtl_vent_grating" />
+                  <material id="2" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="3" ref="generic.aegs_gladius_int_mtl_text_decals" />
+                  <material id="4" ref="generic.aegs_gladius_int_mtl_warningtape" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="6" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="7" ref="generic.aegs_gladius_mtl_emissives" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="12" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="13" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="14" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="15" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="16" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="17" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="18" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="19" ref="p1.cockpit_glass_outside_01" />
+                  <material id="20" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="21" ref="generic.aegs_gladius_mtl_RTT_Text_To_Decal" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.aegs_redeemer_mtl_vent_grating" />
+                  <material id="2" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="3" ref="generic.aegs_gladius_int_mtl_text_decals" />
+                  <material id="4" ref="generic.aegs_gladius_int_mtl_warningtape" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="6" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="7" ref="generic.aegs_gladius_mtl_emissives" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="12" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="13" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="14" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="15" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="16" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="17" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="18" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="19" ref="p1.cockpit_glass_outside_01" />
+                  <material id="20" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="21" ref="generic.aegs_gladius_mtl_RTT_Text_To_Decal" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.aegs_redeemer_mtl_vent_grating" />
+                  <material id="2" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="3" ref="generic.aegs_gladius_int_mtl_text_decals" />
+                  <material id="4" ref="generic.aegs_gladius_int_mtl_warningtape" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="6" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="7" ref="generic.aegs_gladius_mtl_emissives" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="12" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="13" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="14" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="15" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="16" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="17" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="18" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="19" ref="p1.cockpit_glass_outside_01" />
+                  <material id="20" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="21" ref="generic.aegs_gladius_mtl_RTT_Text_To_Decal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.679688" y="2.570399" z="9.86294" />
+              <center x="-0.007749557" y="0.3801849" z="1.421958" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfrontwing_left_flap" tags="part " parent="body">
+        <offset>
+          <position x="-3.020001" y="-1.122221" z="7.796726" />
+          <quaternion qx="-0.01349769" qy="-0.1254123" qz="-0.1061533" qw="-0.9863169" />
+        </offset>
+        <parts>
+          <part name="frontwing_left_flap">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6219541" y="0.06911302" z="0.4035739" />
+              <center x="0.02087849" y="-0.0142" z="-0.3910289" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfrontwing_right_flap" tags="part " parent="body">
+        <offset>
+          <position x="3.020001" y="-1.122221" z="7.796719" />
+          <quaternion qx="-0.01134998" qy="0.1224422" qz="0.09159719" qw="-0.9881746" />
+        </offset>
+        <parts>
+          <part name="frontwing_right_flap">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6203861" y="0.06031647" z="0.4042504" />
+              <center x="-0.01860702" y="-0.004609499" z="-0.3944045" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcanopy" group="door" tags="animation part trigger_interact nocollision">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0" y="0.9133438" z="7.066806" />
+        </offset>
+        <parts>
+          <part name="canopy">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.aegs_gladius_int_mtl_text_decals" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="4" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="5" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.675166" y="0.752922" z="1.713011" />
+              <center x="-1.013279e-06" y="-0.708602" z="1.578476" />
+            </size>
+            <size_raw>
+              <max x="0.675166" y="0.752922" z="1.713011" />
+              <center x="-1.02818e-06" y="-0.708602" z="1.578475" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcanopy_glass_lines_int" tags="part nocollision" parent="canopy">
+        <offset>
+          <position x="-1e-06" y="-2.980232e-06" z="1.907349e-06" />
+        </offset>
+        <parts>
+          <part name="canopy_glass_lines_int">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6604335" y="0.6494236" z="1.381375" />
+              <center x="-3.470348e-06" y="-0.6640064" z="1.741277" />
+            </size>
+            <size_raw>
+              <max x="0.6604335" y="0.649422" z="1.381375" />
+              <center x="-3.501773e-06" y="-0.664008" z="1.741277" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForglassheater" tags="part nocollision" parent="canopy">
+        <offset>
+          <position x="1e-06" y="1.072884e-06" z="-1.907349e-06" />
+        </offset>
+        <parts>
+          <part name="glassheater">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.296321" y="0.2053711" z="0.7642108" />
+              <center x="1.327896e-08" y="-0.2245401" z="1.162959" />
+            </size>
+            <size_raw>
+              <max x="0.296321" y="0.20537" z="0.7642105" />
+              <center x="7.450581e-09" y="-0.224539" z="1.162959" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcockpit_rendermesh" tags="part ">
+        <offset>
+          <position x="0.00190061" y="-0.1740943" z="8.4785" />
+        </offset>
+        <parts>
+          <part name="cockpit_rendermesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_redeemer_mtl_vent_grating" />
+                  <material id="2" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="3" ref="generic.aegs_gladius_int_mtl_text_decals" />
+                  <material id="4" ref="generic.aegs_gladius_int_mtl_warningtape" />
+                  <material id="5" ref="generic.aegs_idris_mtl_metal_scratch_decal" />
+                  <material id="6" ref="generic.aegs_gladius_int_mtl_Gladius_Emissive" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="8" ref="generic.aegs_gladius_int_mtl_Metal_Green_B" />
+                  <material id="9" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="10" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="11" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="12" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="13" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="14" ref="generic.aegs_gladius_int_mtl_Metal_Green_B" />
+                  <material id="15" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.aegs_redeemer_mtl_vent_grating" />
+                  <material id="2" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="3" ref="generic.aegs_gladius_int_mtl_text_decals" />
+                  <material id="4" ref="generic.aegs_gladius_int_mtl_warningtape" />
+                  <material id="5" ref="generic.aegs_idris_mtl_metal_scratch_decal" />
+                  <material id="6" ref="generic.aegs_gladius_int_mtl_Gladius_Emissive" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="8" ref="generic.aegs_gladius_int_mtl_Metal_Green_B" />
+                  <material id="9" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="10" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="11" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="12" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="13" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="14" ref="generic.aegs_gladius_int_mtl_Metal_Green_B" />
+                  <material id="15" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.aegs_redeemer_mtl_vent_grating" />
+                  <material id="2" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="3" ref="generic.aegs_gladius_int_mtl_text_decals" />
+                  <material id="4" ref="generic.aegs_gladius_int_mtl_warningtape" />
+                  <material id="5" ref="generic.aegs_idris_mtl_metal_scratch_decal" />
+                  <material id="6" ref="generic.aegs_gladius_int_mtl_Gladius_Emissive" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="8" ref="generic.aegs_gladius_int_mtl_Metal_Green_B" />
+                  <material id="9" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="10" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="11" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="12" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="13" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="14" ref="generic.aegs_gladius_int_mtl_Metal_Green_B" />
+                  <material id="15" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.aegs_redeemer_mtl_vent_grating" />
+                  <material id="2" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="3" ref="generic.aegs_gladius_int_mtl_text_decals" />
+                  <material id="4" ref="generic.aegs_gladius_int_mtl_warningtape" />
+                  <material id="5" ref="generic.aegs_idris_mtl_metal_scratch_decal" />
+                  <material id="6" ref="generic.aegs_gladius_int_mtl_Gladius_Emissive" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="8" ref="generic.aegs_gladius_int_mtl_Metal_Green_B" />
+                  <material id="9" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="10" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="11" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="12" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="13" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="14" ref="generic.aegs_gladius_int_mtl_Metal_Green_B" />
+                  <material id="15" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.693252" y="0.9313794" z="1.716206" />
+              <center x="1.490116e-08" y="0.07005749" z="0.118956" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_col" group="door" tags="part animation trigger_interact require_docked walk_stairway">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-1.52806" y="-1.29948" z="9.229194" />
+        </offset>
+        <parts>
+          <part name="ladder_col">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6692821" y="1.543299" z="0.3199997" />
+              <center x="0" y="0" z="-9.536743e-07" />
+            </size>
+            <size_raw>
+              <max x="0.0006692822" y="0.0015433" z="0.0003199997" />
+              <center x="0" y="0" z="-9.458745e-10" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor_a" group="door" tags="animation part trigger_interact ui require_docked">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-1.354703" y="-0.5447848" z="9.157877" />
+        </offset>
+        <parts>
+          <part name="door_a">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.aegs_gladius_int_mtl_text_decals" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6076357" y="0.4170859" z="0.5783958" />
+              <center x="0.05694973" y="-0.03644514" z="0.3089924" />
+            </size>
+            <size_raw>
+              <max x="0.5747725" y="0.3380595" z="0.300351" />
+              <center x="0.02408652" y="-0.0169415" z="0.030948" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor_b" group="door" tags="animation part trigger_interact ui require_docked">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-1.445355" y="-1.174069" z="9.15691" />
+        </offset>
+        <parts>
+          <part name="door_b">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.aegs_gladius_int_mtl_text_decals" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7105396" y="0.3128549" z="0.5868664" />
+              <center x="0.005989552" y="0.002490044" z="0.3054934" />
+            </size>
+            <size_raw>
+              <max x="0.5554565" y="0.293707" z="0.306656" />
+              <center x="-0.05036852" y="0.02163799" z="0.02528301" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor_c" group="door" tags="animation part trigger_interact ui require_docked">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-1.102267" y="-1.414686" z="9.160447" />
+        </offset>
+        <parts>
+          <part name="door_c">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3005355" y="0.1142452" z="0.5517321" />
+              <center x="0.03643858" y="-0.03963912" z="0.3452377" />
+            </size>
+            <size_raw>
+              <max x="0.3005355" y="0.08003201" z="0.2686085" />
+              <center x="0.0364385" y="-0.005426001" z="0.06211449" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForgladius_thruster_mav_joint" tags="part ">
+        <offset>
+          <position x="-1.431" y="0.134777" z="6.160748" />
+          <quaternion qx="1.013279e-06" qy="-4.999993e-07" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="gladius_thruster_mav_joint">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_Metal_Green_B" />
+                  <material id="2" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="3" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_b" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_Metal_Green_B" />
+                  <material id="2" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="3" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_b" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_Metal_Green_B" />
+                  <material id="2" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="3" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_b" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_Metal_Green_B" />
+                  <material id="2" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="3" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.977345" y="0.9844791" z="5.182684" />
+              <center x="1.431002" y="-0.4561287" z="-3.937609" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_interior" tags="part ">
+        <offset>
+          <position x="-1.458002" y="-0.9188439" z="8.906738" />
+        </offset>
+        <parts>
+          <part name="ladder_interior">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.aegs_gladius_int_mtl_text_decals" />
+                  <material id="3" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="4" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.650129" y="0.6132505" z="0.3670335" />
+              <center x="0.02317299" y="0.0653795" z="0.3122795" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_main" group="door" tags="animation part trigger_interact require_docked">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-1.210777" y="-1.140071" z="9.22289" />
+        </offset>
+        <parts>
+          <part name="ladder_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="2" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="3" ref="generic.aegs_gladius_mtl_emissives" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6309681" y="0.3897579" z="0.2295456" />
+              <center x="0.3004051" y="0.03542483" z="0.0005111694" />
+            </size>
+            <size_raw>
+              <max x="0.628599" y="0.3820435" z="0.229546" />
+              <center x="0.298036" y="0.0277105" z="0.0005111247" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_bottom" group="door" tags="animation part trigger_interact require_docked" parent="ladder_main">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.07203805" y="0.156315" z="-9.536743e-07" />
+        </offset>
+        <parts>
+          <part name="ladder_bottom">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="2" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="3" ref="generic.aegs_gladius_mtl_emissives" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6854668" y="0.408682" z="0.2352667" />
+              <center x="-0.2539427" y="-0.3590778" z="9.536743e-07" />
+            </size>
+            <size_raw>
+              <max x="0.430518" y="0.043707" z="0.235267" />
+              <center x="0.001006015" y="0.0009489637" z="9.536743e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrearwingleft_flap" tags="part ">
+        <offset>
+          <position x="-3.565298" y="-0.5740314" z="-7.059031" />
+          <quaternion qx="-0.0294529" qy="-0.3506537" qz="-0.0738527" qw="-0.9331239" />
+        </offset>
+        <parts>
+          <part name="rearwingleft_flap">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.aegs_gladius_int_mtl_text_decals" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.229579" y="0.06554552" z="0.2745755" />
+              <center x="0.234059" y="-0.0250835" z="-0.2729595" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrearwingright_flap" tags="part ">
+        <offset>
+          <position x="3.56526" y="-0.5740308" z="-7.0589" />
+          <quaternion qx="0.3511567" qy="0.02667897" qz="-0.9328983" qw="-0.07535177" />
+        </offset>
+        <parts>
+          <part name="rearwingright_flap">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.aegs_gladius_int_mtl_text_decals" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.229866" y="0.06413051" z="0.274468" />
+              <center x="0.2336135" y="0.0232515" z="-0.270788" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrudder_left_flap" tags="part ">
+        <offset>
+          <position x="-2.591999" y="1.778021" z="-5.093193" />
+          <quaternion qx="-0.2087196" qy="-0.0839449" qz="-0.1600548" qw="-0.9611305" />
+        </offset>
+        <parts>
+          <part name="rudder_left_flap">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.07304998" y="1.130879" z="0.4757167" />
+              <center x="0.023065" y="-0.2657025" z="-0.4472275" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrudder_right_flap" tags="part ">
+        <offset>
+          <position x="2.592016" y="1.778014" z="-5.093194" />
+          <quaternion qx="-0.2312176" qy="0.04248903" qz="0.1775927" qw="-0.9556118" />
+        </offset>
+        <parts>
+          <part name="rudder_right_flap">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.09087399" y="1.14357" z="0.4437433" />
+              <center x="0.011789" y="-0.2788955" z="-0.4377115" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingleft_mid_flap" tags="part ">
+        <offset>
+          <position x="-6.445968" y="-0.4977207" z="-2.795979" />
+          <quaternion qx="0.3512058" qy="-0.02752179" qz="0.9342269" qw="-0.05583053" />
+        </offset>
+        <parts>
+          <part name="wingleft_mid_flap">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.638502" y="0.1216171" z="0.3223575" />
+              <center x="-0.2761875" y="0.064939" z="-0.3198905" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingright_mid_flap" tags="part ">
+        <offset>
+          <position x="6.445971" y="-0.4983457" z="-2.796024" />
+          <quaternion qx="0.1033446" qy="0.3372793" qz="0.1084812" qw="-0.9294055" />
+        </offset>
+        <parts>
+          <part name="wingright_mid_flap">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.636406" y="0.05088897" z="0.3488864" />
+              <center x="-0.2740425" y="0.010614" z="-0.3295895" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectiontrustthruster" tags="part animation ">
+        <offset>
+          <position x="-1.433588" y="0.3459049" z="6.162149" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_01"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster001" tags="part animation ">
+        <offset>
+          <position x="1.43359" y="0.3459049" z="6.162149" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_02"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster002" tags="part animation ">
+        <offset>
+          <position x="3.777544" y="0.6807858" z="-2.452505" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_03"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster003" tags="part animation ">
+        <offset>
+          <position x="-3.77754" y="0.6807858" z="-2.45251" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_04"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster004" tags="part animation ">
+        <offset>
+          <position x="-3.77754" y="-0.680786" z="-2.45251" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_05"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster005" tags="part animation ">
+        <offset>
+          <position x="3.77754" y="-0.680786" z="-2.45251" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_06"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster006" tags="part animation ">
+        <offset>
+          <position x="1.858091" y="-1.33806" z="7.156467" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_07"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster007" tags="part animation ">
+        <offset>
+          <position x="-1.85809" y="-1.33806" z="7.156467" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_08"/>
+				</parts>
+      </connection>
+
+      <connection name="Connectionchiar01" group="pilotcontrol" tags="part">
+				<offset>
+          <position x="0" y="-0.992375" z="8.35472" />
+        </offset>
+				<parts>
+					<part ref="gladius_seat.seat" name="seat"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="seat_mesh">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar02" tags="part iklink  " group="pilotcontrol" parent="seat">
+				<parts>
+					<part ref="gladius_seat.seat_mesh" name="seat_mesh"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair ">
+				<offset>
+          <position x="0" y="0.299263" z="8.19563" />
+        </offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor ">
+				<offset>
+          <position x="0" y="0.299263" z="8.19563" />
+        </offset>
+			</connection>
+
+      <connection name="Connection_airlock" group="airock001" tags="part ui">
+				<parts>
+					<part ref="arrow_airlock.ejection_handle" name="ejection_handle2"/>
+				</parts>
+        <offset>
+          <position x="0" y="-0.4" z="8.75" />
+        </offset>
+			</connection>
+      <connection name="Connection_airlockbox" group="airock001" tags="part ui" parent="ejection_handle2">
+				<parts>
+					<part ref="arrow_airlock.box" name="box"/>
+				</parts>
+			</connection>
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="0.299263" z="8.19563" />
+				</offset>
+			</connection>
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="0.299263" z="8.19563" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-2.6" z="20"/>
+				</offset>
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="0.521181" z="8.66964" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_npc_stand_01" tags="npc_waypoint stand npctransport ">
+				<offset>
+          <position x="0" y="0.299263" z="8.19563" />
+        </offset>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="0" y="-1.36782" z="-3.46219" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_gladius">
+        <offset>
+          <position x="-1.54808" y="0.1645999" z="-6.834886" />
+          <quaternion qx="0.01952676" qy="-0.0268893" qz="-0.1523245" qw="-0.9877717" />
+        </offset>
+			</connection>
+      <connection name="con_engine_02" tags="engine small component aegs_gladius">
+        <offset>
+          <position x="1.547921" y="0.1787739" z="-6.834874" />
+          <quaternion qx="0.01952704" qy="0.0268893" qz="0.1523245" qw="-0.9877717" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="weapon small platformcollision aegs_weapon_s3 symmetry symmetry_right symmetry_1">
+				<offset>
+          <position x="4.6833" y="-0.23957" z="-1.67662" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="weapon small platformcollision aegs_weapon_s3 symmetry symmetry_left symmetry_1">
+				<offset>
+          <position x="-4.6833" y="-0.23957" z="-1.67662" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_03" tags="weapon small platformcollision aegs_weapon_s3 symmetry symmetry_1">
+				<offset>
+          <position x="0" y="-1.22123" z="10.8115" />
+        </offset>
+			</connection>
+
+      
+      <connection name="con_shield_03" tags="component shield small aegs_s1 industrial">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_04" tags="component shield small aegs_s1 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      <connection name="con_storage01" tags="storage ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+    </connections>
+  </component>
+</components>

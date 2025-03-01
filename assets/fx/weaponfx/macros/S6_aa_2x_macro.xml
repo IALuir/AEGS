@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Alexei (192.168.3.58) at 08.11.2019_12-35-16-->
+<macros>
+  <macro name="S6_aa_2x_macro" class="bullet">
+    <component ref="bullet_blue_s" />
+    <properties>
+      <ammunition value="2" reload="6" />
+      <bullet speed="2100" lifetime="2" amount="1" barrelamount="2" icon="weapon_cannon_mk2" timediff="0.007" angle="0.04" maxhits="1" ricochet="1" scale="0" attach="0" selfdestruct="1"/>
+      <reload rate="1" />
+      <areadamage value="100" range="128" time="1" lifetime="1" />
+      <damage value="575" hull="20" repair="0" />
+      <effects>
+        <impact ref="explosion_aegs_aa_small" />
+        <launch ref="launch_aegs_railgun_small" />
+      </effects>
+      <weapon system="weapon_standard" />
+    </properties>
+  </macro>
+</macros>

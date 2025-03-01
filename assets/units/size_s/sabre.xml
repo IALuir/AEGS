@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-10 16:53:37 from Blender-->
+<components>
+  <component name="sabre" class="ship_s">
+    <source geometry="extensions\AEGS\assets\units\size_s\sabre_data" />
+    <layers>
+      <layer>
+        <trailemitters>
+          <emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+            <offset>
+              <position x="-12.2471" y="-1.44326" z="-6.21383" />
+            </offset>
+          </emitter>
+          <emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+            <offset>
+              <position x="12.2471" y="-1.44326" z="-6.21383" />
+            </offset>
+          </emitter>
+        </trailemitters>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_s ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForwing_left_light" tags="part animation textureanimation" parent="wing_left">
+        <animations>
+					<animation name="loop" start="0" end="100"/>
+				</animations>
+        <offset>
+          <position x="1.907349e-06" y="2.793968e-09" z="2.384186e-07" />
+          <quaternion qx="0" qy="5.060884e-09" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="wing_left_light">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.04992914" y="0.1486554" z="0.09268045" />
+              <center x="-7.094254" y="-1.863199" z="-6.403284" />
+            </size>
+            <size_raw>
+              <max x="0.04992781" y="0.06491918" z="0.09267984" />
+              <center x="-7.107282" y="-2.007658" z="-6.4226" />
+            </size_raw>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="4" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="5" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="9" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="10" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="14" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="15" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="64" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="65" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="69" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="70" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="99" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="100" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_right_light" tags="part animation textureanimation" parent="wing_right">
+        <animations>
+					<animation name="loop" start="0" end="100"/>
+				</animations>
+        <offset>
+          <position x="9.536743e-07" y="1.117587e-08" z="-1.192093e-07" />
+          <quaternion qx="4.656613e-10" qy="7.458539e-09" qz="1.455192e-10" qw="-1" />
+        </offset>
+        <parts>
+          <part name="wing_right_light">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.05141592" y="0.1694273" z="0.1014595" />
+              <center x="6.868906" y="-2.037621" z="-6.06033" />
+            </size>
+            <size_raw>
+              <max x="0.05002003" y="0.07324452" z="0.09295935" />
+              <center x="6.867507" y="-1.941438" z="-6.051834" />
+            </size_raw>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="4" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="5" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="9" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="10" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="14" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="15" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="64" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="65" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="69" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="70" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="99" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="100" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForaegs_sabre_landinggear" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="5.340001" y="0.755259" z="0.5695111" />
+          <quaternion qx="-0.3987491" qy="0" qz="0" qw="-0.91706" />
+        </offset>
+        <parts>
+          <part name="aegs_sabre_landinggear">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="4" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="5" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="6" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="8" ref="p1.cockpit_glass_inside_01" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="12" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="13" ref="generic.sabre_mtl_stencils" />
+                  <material id="14" ref="generic.aegs_idris_mtl_metal_scratch_decal" />
+                  <material id="15" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="16" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="17" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="18" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="19" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="20" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="21" ref="generic.sabre_mtl_internal_trim" />
+                  <material id="22" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="23" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="24" ref="generic.sabre_mtl_engines_glow" />
+                  <material id="25" ref="generic.sabre_mtl_emissives_unlinked" />
+                  <material id="26" ref="p1effects.p1_gradient_colour" />
+                  <material id="27" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="28" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="29" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="30" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="31" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="32" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="33" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.70001" y="1.567738" z="1.368384" />
+              <center x="-5.340001" y="-1.490414" z="0.3032154" />
+            </size>
+            <size_raw>
+              <max x="5.70001" y="0.9444495" z="0.974731" />
+              <center x="-5.340002" y="-0.8671255" z="0.696868" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForaegs_sabre_landinggear003" tags="part animation" parent="aegs_sabre_landinggear">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="-0.5712759" z="-1.182438" />
+          <quaternion qx="0.3987491" qy="0" qz="0" qw="-0.91706" />
+        </offset>
+        <parts>
+          <part name="aegs_sabre_landinggear003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="4" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="5" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="6" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="8" ref="p1.cockpit_glass_inside_01" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="12" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="13" ref="generic.sabre_mtl_stencils" />
+                  <material id="14" ref="generic.aegs_idris_mtl_metal_scratch_decal" />
+                  <material id="15" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="16" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="17" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="18" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="19" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="20" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="21" ref="generic.sabre_mtl_internal_trim" />
+                  <material id="22" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="23" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="24" ref="generic.sabre_mtl_engines_glow" />
+                  <material id="25" ref="generic.sabre_mtl_emissives_unlinked" />
+                  <material id="26" ref="p1effects.p1_gradient_colour" />
+                  <material id="27" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="28" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="29" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="30" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="31" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="32" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="33" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.879484" y="1.067413" z="1.062822" />
+              <center x="-5.340001" y="-2.552804" z="0.1586116" />
+            </size>
+            <size_raw>
+              <max x="5.879484" y="0.206539" z="0.8443615" />
+              <center x="-5.340002" y="-1.69193" z="-0.05984849" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForaegs_sabre_landinggear004" tags="part animation" parent="aegs_sabre_landinggear">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="-0.01578939" z="0.6871278" />
+          <quaternion qx="-0.3826834" qy="0" qz="0" qw="-0.9238796" />
+        </offset>
+        <parts>
+          <part name="aegs_sabre_landinggear004">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="4" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="5" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="6" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="8" ref="p1.cockpit_glass_inside_01" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="12" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="13" ref="generic.sabre_mtl_stencils" />
+                  <material id="14" ref="generic.aegs_idris_mtl_metal_scratch_decal" />
+                  <material id="15" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="16" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="17" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="18" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="19" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="20" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="21" ref="generic.sabre_mtl_internal_trim" />
+                  <material id="22" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="23" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="24" ref="generic.sabre_mtl_engines_glow" />
+                  <material id="25" ref="generic.sabre_mtl_emissives_unlinked" />
+                  <material id="26" ref="p1effects.p1_gradient_colour" />
+                  <material id="27" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="28" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="29" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="30" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="31" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="32" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="33" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.481165" y="1.097684" z="0.7633362" />
+              <center x="-5.340001" y="-0.690099" z="-0.2668604" />
+            </size>
+            <size_raw>
+              <max x="5.481165" y="0.7310466" z="0.1411475" />
+              <center x="-5.340002" y="-0.3234615" z="0.3553285" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForaegs_sabre_landinggear001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-3e-06" y="0.770986" z="8.289012" />
+          <quaternion qx="-0.3826834" qy="0" qz="0" qw="-0.9238796" />
+        </offset>
+        <parts>
+          <part name="aegs_sabre_landinggear001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="4" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="5" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="6" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="8" ref="p1.cockpit_glass_inside_01" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="12" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="13" ref="generic.sabre_mtl_stencils" />
+                  <material id="14" ref="generic.aegs_idris_mtl_metal_scratch_decal" />
+                  <material id="15" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="16" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="17" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="18" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="19" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="20" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="21" ref="generic.sabre_mtl_internal_trim" />
+                  <material id="22" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="23" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="24" ref="generic.sabre_mtl_engines_glow" />
+                  <material id="25" ref="generic.sabre_mtl_emissives_unlinked" />
+                  <material id="26" ref="p1effects.p1_gradient_colour" />
+                  <material id="27" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="28" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="29" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="30" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="31" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="32" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="33" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.360009" y="1.575504" z="0.974731" />
+              <center x="-1.003446e-08" y="-1.49818" z="0.6968689" />
+            </size>
+            <size_raw>
+              <max x="0.360009" y="0.9444494" z="0.974731" />
+              <center x="-7.450581e-09" y="-0.8671255" z="0.696868" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForaegs_sabre_landinggear002" tags="part animation" parent="aegs_sabre_landinggear001">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="-0.5319977" z="-1.151133" />
+          <quaternion qx="0.3826835" qy="0" qz="0" qw="-0.9238796" />
+        </offset>
+        <parts>
+          <part name="aegs_sabre_landinggear002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="4" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="5" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="6" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="8" ref="p1.cockpit_glass_inside_01" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="12" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="13" ref="generic.sabre_mtl_stencils" />
+                  <material id="14" ref="generic.aegs_idris_mtl_metal_scratch_decal" />
+                  <material id="15" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="16" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="17" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="18" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="19" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="20" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="21" ref="generic.sabre_mtl_internal_trim" />
+                  <material id="22" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="23" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="24" ref="generic.sabre_mtl_engines_glow" />
+                  <material id="25" ref="generic.sabre_mtl_emissives_unlinked" />
+                  <material id="26" ref="p1effects.p1_gradient_colour" />
+                  <material id="27" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="28" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="29" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="30" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="31" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="32" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="33" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.539483" y="1.05649" z="1.439438" />
+              <center x="1.976809e-08" y="-2.541881" z="0.5352283" />
+            </size>
+            <size_raw>
+              <max x="0.539483" y="0.206539" z="0.8443615" />
+              <center x="1.490116e-08" y="-1.69193" z="-0.05984849" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForaegs_sabre_landinggear005" tags="part animation" parent="aegs_sabre_landinggear001">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="-0.02980995" z="0.7131524" />
+          <quaternion qx="-0.3826834" qy="0" qz="0" qw="-0.9238796" />
+        </offset>
+        <parts>
+          <part name="aegs_sabre_landinggear005">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="4" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="5" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="6" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="8" ref="p1.cockpit_glass_inside_01" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="12" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="13" ref="generic.sabre_mtl_stencils" />
+                  <material id="14" ref="generic.aegs_idris_mtl_metal_scratch_decal" />
+                  <material id="15" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="16" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="17" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="18" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="19" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="20" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="21" ref="generic.sabre_mtl_internal_trim" />
+                  <material id="22" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="23" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="24" ref="generic.sabre_mtl_engines_glow" />
+                  <material id="25" ref="generic.sabre_mtl_emissives_unlinked" />
+                  <material id="26" ref="p1effects.p1_gradient_colour" />
+                  <material id="27" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="28" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="29" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="30" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="31" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="32" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="33" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1411635" y="1.099424" z="0.3827453" />
+              <center x="4.966053e-07" y="-0.691839" z="0.1137314" />
+            </size>
+            <size_raw>
+              <max x="0.1411635" y="0.7310465" z="0.1411475" />
+              <center x="4.991889e-07" y="-0.3234615" z="0.3553285" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody" tags="part ">
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="4" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="5" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="7" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="8" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="11" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="12" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="13" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_engine_glow" />
+                  <material id="14" ref="p1effects.p1_gradient_colour" />
+                  <material id="15" ref="generic.avenger_default_cml_mtl_metal_b" />
+                  <material id="16" ref="generic.avenger_default_cml_mtl_metal_a" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="4" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="5" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="7" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="8" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="11" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="12" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="13" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_engine_glow" />
+                  <material id="14" ref="p1effects.p1_gradient_colour" />
+                  <material id="15" ref="generic.avenger_default_cml_mtl_metal_b" />
+                  <material id="16" ref="generic.avenger_default_cml_mtl_metal_a" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="4" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="5" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="7" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="8" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="11" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="12" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="13" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_engine_glow" />
+                  <material id="14" ref="p1effects.p1_gradient_colour" />
+                  <material id="15" ref="generic.avenger_default_cml_mtl_metal_b" />
+                  <material id="16" ref="generic.avenger_default_cml_mtl_metal_a" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="4" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="5" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="7" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="8" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="11" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="12" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="13" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_engine_glow" />
+                  <material id="14" ref="p1effects.p1_gradient_colour" />
+                  <material id="15" ref="generic.avenger_default_cml_mtl_metal_b" />
+                  <material id="16" ref="generic.avenger_default_cml_mtl_metal_a" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.114477" y="2.017187" z="11.74251" />
+              <center x="9.965897e-05" y="0.5647346" z="1.596061" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordashboard" tags="part animation nocollision">
+        <animations>
+					<animation name="cockpit_closed" start="1" end="1"/>
+					<animation name="cockpit_opening" start="1" end="140"/>
+					<animation name="cockpit_open" start="140" end="140"/>
+					<animation name="cockpit_closing" start="140" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.0002027354" y="-0.08439506" z="11.9414" />
+        </offset>
+        <parts>
+          <part name="dashboard">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="7" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="8" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="9" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="10" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="11" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="12" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="7" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="8" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="9" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="10" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="11" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="12" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="7" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="8" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="9" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="10" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="11" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="12" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="7" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="8" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="9" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="10" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="11" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="12" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.493423" y="0.3408" z="0.4753256" />
+              <center x="0.0001947484" y="0.03649408" z="0.01888371" />
+            </size>
+            <size_raw>
+              <max x="0.493423" y="0.3408" z="0.4753256" />
+              <center x="0.0001947731" y="0.03649408" z="0.01888371" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForscreen" tags="part " parent="dashboard">
+        <offset>
+          <position x="-0.2997643" y="0.0241285" z="-0.2031898" />
+          <quaternion qx="0.4684967" qy="0.07080016" qz="0.0834327" qw="-0.8766625" />
+        </offset>
+        <parts>
+          <part name="screen">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4444347" y="0.1488807" z="0.1942062" />
+              <center x="0.2814268" y="0.1480877" z="0.08622074" />
+            </size>
+            <size_raw>
+              <max x="0.4444347" y="0.1314225" z="0.1905686" />
+              <center x="0.2814265" y="0.1306294" z="0.08258329" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlanding_gear_front_door_left" tags="part ">
+        <offset>
+          <position x="0.491579" y="-0.8477071" z="7.99419" />
+          <quaternion qx="0.7055979" qy="-0.7055983" qz="-0.0461655" qw="-0.04616813" />
+        </offset>
+        <parts>
+          <part name="landing_gear_front_door_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="4" ref="generic.sabre_mtl_landinggear_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.107593" y="0.2585375" z="1.642105" />
+              <center x="-0.08385605" y="0.2330565" z="-0.1554766" />
+            </size>
+            <size_raw>
+              <max x="0.107593" y="0.2585375" z="1.642105" />
+              <center x="-0.08385599" y="0.2330565" z="-0.1554762" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlanding_gear_front_door_right" tags="part ">
+        <offset>
+          <position x="-0.491576" y="-0.8477091" z="7.994191" />
+          <quaternion qx="0.7055983" qy="-0.7055979" qz="-0.0461673" qw="-0.04616497" />
+        </offset>
+        <parts>
+          <part name="landing_gear_front_door_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="4" ref="generic.sabre_mtl_landinggear_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.107593" y="0.258522" z="1.642104" />
+              <center x="-0.083857" y="-0.233068" z="-0.155475" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggear_door_left" tags="part ">
+        <offset>
+          <position x="-4.80165" y="-0.7025501" z="-0.03171992" />
+          <quaternion qx="-7.549788e-08" qy="-5.523351e-07" qz="4.371143e-08" qw="-1" />
+        </offset>
+        <parts>
+          <part name="landinggear_door_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="4" ref="generic.sabre_mtl_landinggear_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.587573" y="0.098163" z="1.720323" />
+              <center x="-0.5442929" y="-0.024832" z="3.993511e-06" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggear_door_right" tags="part ">
+        <offset>
+          <position x="4.801849" y="-0.702073" z="-0.03151703" />
+          <quaternion qx="0" qy="0" qz="-5e-07" qw="-1" />
+        </offset>
+        <parts>
+          <part name="landinggear_door_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="4" ref="generic.sabre_mtl_landinggear_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.587573" y="0.09814748" z="1.720321" />
+              <center x="0.544293" y="-0.02482848" z="3.993511e-06" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFornose" tags="part ">
+        <parts>
+          <part name="nose">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="5" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="7" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="8" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="9" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="10" ref="generic.sabre_mtl_emissives_unlinked" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="12" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="5" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="7" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="8" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="9" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="10" ref="generic.sabre_mtl_emissives_unlinked" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="12" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="5" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="7" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="8" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="9" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="10" ref="generic.sabre_mtl_emissives_unlinked" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="12" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="5" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="7" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="8" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="9" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="10" ref="generic.sabre_mtl_emissives_unlinked" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="12" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.199448" y="1.538292" z="2.487583" />
+              <center x="-2.503395e-06" y="0.03388447" z="11.27775" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcanopy001" group="door" tags="part animation nocollision" parent="nose">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0" y="1.136059" z="10.31805" />
+        </offset>
+        <parts>
+          <part name="canopy001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="p1.cockpit_glass_inside_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="p1.cockpit_glass_inside_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="p1.cockpit_glass_inside_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="p1.cockpit_glass_inside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.802698" y="0.7924447" z="1.452211" />
+              <center x="0" y="-0.7400787" z="1.251797" />
+            </size>
+            <size_raw>
+              <max x="0.802698" y="0.7924448" z="1.452211" />
+              <center x="1.490116e-08" y="-0.7400781" z="1.251796" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_a" group="door" tags="part animation" parent="nose">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.138239" y="-0.902883" z="11.69435" />
+        </offset>
+        <parts>
+          <part name="ladder_a">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7290493" y="0.1299475" z="0.3722949" />
+              <center x="0.01228479" y="-0.05204451" z="-0.0007457733" />
+            </size>
+            <size_raw>
+              <max x="0.3145545" y="0.1299475" z="0.372295" />
+              <center x="0.4267795" y="-0.0520445" z="-0.0007459968" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_b" group="door" tags="part animation" parent="ladder_a">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.34111" y="-0.05225098" z="0.3303766" />
+        </offset>
+        <parts>
+          <part name="ladder_b">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.sabre_mtl_metal_bare" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.913214" y="0.07599097" z="0.350688" />
+              <center x="-0.642362" y="0" z="-0.3298569" />
+            </size>
+            <size_raw>
+              <max x="0.270852" y="0.075991" z="0.350688" />
+              <center x="-7.450581e-09" y="0" z="-0.329857" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_c" tags="part " parent="ladder_b">
+        <offset>
+          <position x="0.010968" y="0.05225098" z="-0.3303757" />
+        </offset>
+        <parts>
+          <part name="ladder_c">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="4" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="5" ref="generic.sabre_mtl_metal_bare" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.001595" y="0.126743" z="0.3482461" />
+              <center x="-0.7456755" y="-0.05235404" z="-9.536743e-07" />
+            </size>
+            <size_raw>
+              <max x="0.3592335" y="0.126743" z="0.3482465" />
+              <center x="-0.1033135" y="-0.05235399" z="-4.917383e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_d" group="door" tags="part animation" parent="ladder_c">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.173782" y="-0.08840901" z="0" />
+          <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+        </offset>
+        <parts>
+          <part name="ladder_d">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="4" ref="generic.sabre_mtl_metal_bare" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.052914" y="0.7516923" z="0.3265476" />
+              <center x="-0.9646658" y="0.1817367" z="9.536743e-07" />
+            </size>
+            <size_raw>
+              <max x="0.1504255" y="0.513718" z="0.326548" />
+              <center x="-0.06217749" y="0.419711" z="9.983778e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_e" group="door" tags="part animation" parent="ladder_d">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.192291" y="-0.056142" z="0" />
+        </offset>
+        <parts>
+          <part name="ladder_e">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="generic.sabre_mtl_metal_bare" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.067294" y="1.08124" z="0.2703938" />
+              <center x="-1.032695" y="-0.1826847" z="0.0004053116" />
+            </size>
+            <size_raw>
+              <max x="0.0405895" y="0.465682" z="0.270394" />
+              <center x="-0.005990501" y="0.432873" z="0.0004049987" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_door" group="door" tags="part animation ui require_docked trigger_interact" parent="nose">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.395113" y="-1.250864" z="11.6943" />
+        </offset>
+        <parts>
+          <part name="ladder_door">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2231205" y="0.2787255" z="0.3760796" />
+              <center x="-0.1814235" y="0.2760295" z="-0.00122261" />
+            </size>
+            <size_raw>
+              <max x="0.2231205" y="0.2787255" z="0.3760795" />
+              <center x="-0.1814235" y="0.2760295" z="-0.001222491" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFornose_coverplate" group="door" tags="part animation" parent="nose">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="4e-06" y="-0.408569" z="13.27833" />
+        </offset>
+        <parts>
+          <part name="nose_coverplate">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.562334" y="0.3501722" z="0.4165626" />
+              <center x="-6.48879e-09" y="-0.03173018" z="0.0544529" />
+            </size>
+            <size_raw>
+              <max x="0.562334" y="0.3184455" z="0.362102" />
+              <center x="1.490116e-08" y="-3.501773e-06" z="-7.003546e-06" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForsabre_cockpit_tub" tags="part ">
+        <offset>
+          <position x="0" y="0" z="12" />
+        </offset>
+        <parts>
+          <part name="sabre_cockpit_tub">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="6" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="8" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="9" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="10" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="11" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="12" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="13" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="6" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="8" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="9" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="10" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="11" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="12" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="13" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="6" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="8" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="9" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="10" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="11" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="12" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="13" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="6" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="8" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="9" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="10" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="11" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="12" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="13" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.753624" y="1.019696" z="2.051914" />
+              <center x="-1.490116e-08" y="0.1900425" z="-1.055848" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForsabre_thruster_mav_joint_01" tags="part ">
+        <offset>
+          <position x="-1.760001" y="-0.300191" z="6.374773" />
+          <quaternion qx="-0.7071058" qy="-5.675827e-07" qz="0.7071077" qw="-2.360223e-06" />
+        </offset>
+        <parts>
+          <part name="sabre_thruster_mav_joint_01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="3" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="4" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_engine_glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.633542" y="1.478849" z="3.430899" />
+              <center x="5.425662" y="-0.2644126" z="-1.76001" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_left" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-4.746796" y="0.442331" z="-0.2692001" />
+          <quaternion qx="0.008964488" qy="-0.03233211" qz="1.044397e-07" qw="-0.999437" />
+        </offset>
+        <parts>
+          <part name="wing_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="4" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="5" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="6" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="7" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="4" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="5" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="6" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="7" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="4" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="5" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="6" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="7" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="4" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="5" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="6" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="7" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.899363" y="1.11812" z="4.564907" />
+              <center x="-3.211054" y="-0.8894185" z="-2.928363" />
+            </size>
+            <size_raw>
+              <max x="3.899363" y="1.034384" z="4.564908" />
+              <center x="-3.21695" y="-0.9090019" z="-2.937196" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_right" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="5.004001" y="0.3718082" z="-0.630998" />
+          <quaternion qx="0.009119579" qy="0.03289097" qz="-5.291394e-07" qw="-0.9994174" />
+        </offset>
+        <parts>
+          <part name="wing_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="4" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="5" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="6" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="7" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="4" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="5" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="6" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="7" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="4" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="5" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="6" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="7" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="3" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="4" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="5" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="6" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="7" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.903413" y="1.214674" z="4.582276" />
+              <center x="2.980214" y="-0.8918401" z="-2.561911" />
+            </size>
+            <size_raw>
+              <max x="3.903414" y="1.166199" z="4.582276" />
+              <center x="2.980212" y="-0.8433654" z="-2.561913" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_col" group="door" tags="part animation trigger_interact require_docked walk_stairway" parent="ladder_e">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.256903" y="0.9924887" z="0.0003185272" />
+        </offset>
+        <parts>
+          <part name="ladder_col">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.036864" y="1.231897" z="0.3199997" />
+              <center x="-1.036195" y="0.1709431" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.0006692821" y="0.00107923" z="0.00032" />
+              <center x="-1.490116e-08" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectiontrustthruster" tags="part animation ">
+        <offset>
+          <position x="-1.253453" y="1.45884" z="7.333668" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_01"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster001" tags="part animation ">
+        <offset>
+          <position x="1.25345" y="1.45884" z="7.333668" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_02"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster002" tags="part animation ">
+        <offset>
+          <position x="-2.82225" y="1.336766" z="-5.18268" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_03"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster003" tags="part animation ">
+        <offset>
+          <position x="2.82225" y="1.336766" z="-5.18268" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_04"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster004" tags="part animation ">
+        <offset>
+          <position x="-1.761005" y="-0.457568" z="6.370473" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_05"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster005" tags="part animation ">
+        <offset>
+          <position x="1.761" y="-0.457568" z="6.370473" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_06"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster006" tags="part animation ">
+        <offset>
+          <position x="3.257889" y="-1.522696" z="0.5920331" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_07"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster007" tags="part animation ">
+        <offset>
+          <position x="-3.25789" y="-1.522696" z="0.5920331" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_08"/>
+				</parts>
+      </connection>
+
+      <connection name="Connectionchiar01" group="pilotcontrol" tags="part">
+				<offset>
+          <position x="0.001263" y="-0.833737" z="11.1655" />
+        </offset>
+				<parts>
+					<part ref="sabre_seat.seat" name="seat"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="seat_mesh">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar02" tags="part iklink  " group="pilotcontrol" parent="seat">
+				<parts>
+					<part ref="sabre_seat.seat_mesh" name="seat_mesh"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair ">
+				<offset>
+          <position x="0.001263" y="0.444247" z="11.0131" />
+        </offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor ">
+				<offset>
+          <position x="0.001263" y="0.444247" z="11.0131" />
+        </offset>
+			</connection>
+
+      <connection name="Connection_airlock" group="airock001" tags="part ui">
+				<parts>
+					<part ref="arrow_airlock.ejection_handle" name="ejection_handle2"/>
+				</parts>
+        <offset>
+          <position x="0" y="-0.2" z="11.5" />
+        </offset>
+			</connection>
+      <connection name="Connection_airlockbox" group="airock001" tags="part ui" parent="ejection_handle2">
+				<parts>
+					<part ref="arrow_airlock.box" name="box"/>
+				</parts>
+			</connection>
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="1.069" z="8.86727" />
+				</offset>
+			</connection>
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="1.069" z="8.86727" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-2.45" z="20"/>
+				</offset>
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="1.069" z="8.86727" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_npc_stand_01" tags="npc_waypoint stand npctransport " parent="seat_rail02">
+				<offset>
+          <position x="0" y="1.069" z="8.86727" />
+        </offset>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="-3.27641" y="-1.09631" z="-1.70427" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_02" tags="countermeasures ">
+				<offset>
+          <position x="3.27641" y="-1.09631" z="-1.70427" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_sabre">
+        <offset>
+          <position x="0" y="0" z="-7.18914" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_right symmetry_1">
+				<offset>
+          <position x="-4.821489" y="0" z="4.594951" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_left symmetry_1">
+				<offset>
+          <position x="4.82149" y="0" z="4.594951" />
+          <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_03" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_left symmetry_2">
+				<offset>
+          <position x="1.188497" y="-0.1589029" z="8.90522" />
+          <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_04" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_right symmetry_2">
+				<offset>
+          <position x="-1.1885" y="-0.1589029" z="8.90522" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield small aegs_s1 industrial">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield small aegs_s1 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_03" tags="component shield small aegs_s1 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      <connection name="con_storage01" tags="storage ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+    </connections>
+  </component>
+</components>

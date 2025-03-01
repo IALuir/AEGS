@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="retribution_l2x_macro" class="turret">
+    <component ref="retribution_l2x" />
+    <properties>
+      <identification name="{996671,18}" basename="{996671,18}" shortname="{996671,18}" makerrace="terran" description="{996671,19}" mk="1" />
+      <bullet class="S11_gvsr_2x_macro" />
+      <rotationspeed max="15" />
+      <rotationacceleration max="40" />
+      <reload rate="1" time="1" />
+      <hull max="40000" threshold="0.2" integrated="0" />
+    </properties>
+  </macro>
+</macros>

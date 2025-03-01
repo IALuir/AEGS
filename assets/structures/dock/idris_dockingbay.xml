@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-13 12:23:15 from Blender-->
+<components>
+  <component name="idris_dockingbay" class="dockingbay">
+    <source geometry="extensions\aegs\assets\structures\dock\idris_dockingbay_data" />
+    <layers>
+      <layer>
+        <lights>
+          <arealight name="ego_area" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="8.565838" y="-2.919021" z="-16.52779" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="8.565838" y="-2.919021" z="8.204302" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area002" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="8.565838" y="-2.919021" z="31.63461" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area003" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="8.565838" y="-2.919021" z="59.96914" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area004" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="15.37478" y="-2.919021" z="-16.52779" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area005" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="15.37478" y="-2.919021" z="8.204302" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area006" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="15.37478" y="-2.919021" z="31.63461" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area007" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="15.37478" y="-2.919021" z="59.96914" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area008" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0.1586628" y="-2.919021" z="-16.52779" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area009" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0.1586628" y="-2.919021" z="8.204302" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area010" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0.1586628" y="-2.919021" z="31.63461" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area011" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0.1586628" y="-2.919021" z="59.96914" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area012" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-7.954607" y="-2.919021" z="-16.52779" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area013" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-7.954607" y="-2.919021" z="8.204302" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area014" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-7.954607" y="-2.919021" z="31.63461" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area015" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-7.954607" y="-2.919021" z="59.96914" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area016" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-16.17491" y="-2.919021" z="-16.52779" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area017" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-16.17491" y="-2.919021" z="8.204302" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area018" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-16.17491" y="-2.919021" z="31.63461" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area019" areax="0.9398872" areay="2.487501" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="1" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-16.17491" y="-2.919021" z="59.96914" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="dockingbay">
+				<offset/>
+			</connection>
+			<connection name="ConnectionFormain_door" tags="part animation nocollision">
+        <animations>
+					<animation name="dockingbay_closed" start="0" end="0"/>
+					<animation name="dockingbay_opening" start="0" end="300"/>
+					<animation name="dockingbay_open" start="300" end="300"/>
+					<animation name="dockingbay_closing" start="300" end="600"/>
+          <animation name="dockingbay_idle" start="0" end="0"/>
+				</animations>
+        <offset>
+          <position x="0" y="-8.198244" z="-39.98736" />
+          <quaternion qx="-0.2164394" qy="0" qz="0" qw="-0.9762961" />
+        </offset>
+        <parts>
+          <part name="main_door">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_engine_glow" />
+                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="15.13245" y="2.213528" z="12.62665" />
+              <center x="0" y="-1.139137" z="-11.50497" />
+            </size>
+            <size_raw>
+              <max x="15.13245" y="2.213527" z="12.62665" />
+              <center x="0" y="-1.139137" z="-11.50496" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFornose_frontdoor_frame" tags="nocollision part ">
+        <offset>
+          <position x="-0.089727" y="-3.074878" z="99.42336" />
+        </offset>
+        <parts>
+          <part name="nose_frontdoor_frame">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="2" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_hangar_decal" />
+                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="10" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="11" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="12" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="19.90641" y="8.459194" z="24.63111" />
+              <center x="4.768372e-07" y="-0.0001039505" z="-0.001131058" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfront_door_left" tags="nocollision part animation" parent="nose_frontdoor_frame">
+        <animations>
+					<animation name="dockingbay_closed" start="0" end="0"/>
+					<animation name="dockingbay_opening" start="0" end="300"/>
+					<animation name="dockingbay_open" start="300" end="300"/>
+					<animation name="dockingbay_closing" start="300" end="600"/>
+          <animation name="dockingbay_idle" start="0" end="0"/>
+				</animations>
+        <offset>
+          <position x="-16.67864" y="-7.191" z="-5.69133" />
+        </offset>
+        <parts>
+          <part name="front_door_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="3" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="4" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_large_decals" />
+                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_green_trim" />
+                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="10" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="11" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="12" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                  <material id="14" ref="generic.idris_frigate_exterior_wip_mtl_grey_int" />
+                  <material id="15" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="10.43425" y="8.569796" z="17.65716" />
+              <center x="7.591593" y="6.844908" z="15.43221" />
+            </size>
+            <size_raw>
+              <max x="10.43425" y="8.569796" z="17.65716" />
+              <center x="7.591593" y="6.844908" z="15.43221" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfront_door_right" tags="nocollision part animation" parent="nose_frontdoor_frame">
+        <animations>
+					<animation name="dockingbay_closed" start="0" end="0"/>
+					<animation name="dockingbay_opening" start="0" end="300"/>
+					<animation name="dockingbay_open" start="300" end="300"/>
+					<animation name="dockingbay_closing" start="300" end="600"/>
+          <animation name="dockingbay_idle" start="0" end="0"/>
+				</animations>
+        <offset>
+          <position x="16.85813" y="-7.191" z="-5.69133" />
+        </offset>
+        <parts>
+          <part name="front_door_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="3" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="4" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_large_decals" />
+                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_green_trim" />
+                  <material id="9" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="10" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="11" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="12" ref="generic.aegs_gladius_mtl_DisplayScreen" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                  <material id="14" ref="generic.idris_frigate_exterior_wip_mtl_grey_int" />
+                  <material id="15" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="10.4985" y="8.569662" z="17.65721" />
+              <center x="-7.691208" y="6.844558" z="15.43227" />
+            </size>
+            <size_raw>
+              <max x="10.4985" y="8.569661" z="17.65721" />
+              <center x="-7.691209" y="6.844557" z="15.43226" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <offset>
+          <position x="20" y="-7.999999" z="-18.9996" />
+        </offset>
+        <parts>
+          <part name="part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="5" ref="generic.idris_frigate_exterior_wip_mtl_engine_glow" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_hangar_decal" />
+                  <material id="7" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="8" ref="generic.idris_frigate_exterior_wip_mtl_Internal_framework_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="18.80467" y="6.510283" z="16.68574" />
+              <center x="-20" y="4.974737" z="-26.5121" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main001" tags="part ">
+        <offset>
+          <position x="20" y="-7.999999" z="-18.9996" />
+        </offset>
+        <parts>
+          <part name="part_main001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_hangar_mtl_base_tile_metal" />
+                  <material id="2" ref="generic.idris_hangar_mtl_base_trim" />
+                  <material id="3" ref="generic.idris_hangar_mtl_accents" />
+                  <material id="4" ref="generic.idris_hangar_mtl_alphas" />
+                  <material id="5" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="6" ref="generic.idris_hangar_mtl_metals_base_tile" />
+                  <material id="7" ref="generic.idris_hangar_mtl_floor_alphas" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="11" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="12" ref="p1effects.p1_gradient_colour" />
+                  <material id="13" ref="generic.idris_hangar_mtl_floors_c" />
+                  <material id="14" ref="generic.idris_hangar_mtl_base_tile_metal" />
+                  <material id="15" ref="generic.idris_hangar_mtl_decals" />
+                  <material id="16" ref="generic.aegs_door_master_mtl_metal_base_trims" />
+                  <material id="17" ref="generic.idris_hangar_mtl_floors_a" />
+                  <material id="18" ref="generic.aegs_idris_mtl_vents" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="21.54678" y="9.537591" z="52.5326" />
+              <center x="-20" y="8.143662" z="42.51839" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main002" tags="part ">
+        <offset>
+          <position x="20" y="-7.999999" z="-18.9996" />
+        </offset>
+        <parts>
+          <part name="part_main002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_metals_atlas" />
+                  <material id="3" ref="generic.idris_hangar_mtl_tileable_decal" />
+                  <material id="4" ref="generic.idris_hangar_mtl_floors_b" />
+                  <material id="5" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="6" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="7" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="8" ref="generic.aegs_idris_mtl_accents_yellow" />
+                  <material id="9" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="10" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="11" ref="generic.aegs_idris_mtl_panels_metal" />
+                  <material id="12" ref="generic.idris_hangar_mtl_tileable_decal" />
+                  <material id="13" ref="generic.idris_hangar_mtl_gauze_glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="20.70292" y="9.319997" z="48.73834" />
+              <center x="-20.54648" y="8.300505" z="41.99998" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connection27" group="transporter_01 " tags="part  ">
+				<offset>
+          <position x="18.0924" y="-7.40539" z="-15.9918" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.part_main" name="part_main01"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection28" tags="part iklink  " parent="part_main01">
+				<offset>
+					<position x="1.907349E-06" y="5.153775E-02" z="3.353691E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals" name="detail_m_decals"/>
+				</parts>
+			</connection>
+			<connection name="Connection35" group="transporter_01 " tags="part detail_l  " parent="part_main01">
+				<offset>
+					<position x="1.42" y="0.03" z="0"/>
+					<quaternion qx="0" qy="0.8660254" qz="0" qw="-0.5" />
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_l_button" name="detail_l_button"/>
+				</parts>
+			</connection>
+
+      <connection name="con_dockpos" tags="dockpos">
+				<offset>
+					<position x="0" y="-8" z="25"/>
+				</offset>
+			</connection>
+			<connection name="con_dockpos_pivot" tags="dockpos_pivot">
+				<offset>
+					<position x="0" y="-3" z="25"/>
+				</offset>
+			</connection>
+      <connection name="launchpos" tags="launchpos">
+        <offset>
+          <position x="0" y="-3" z="25"/>
+        </offset>
+      </connection>
+      <connection name="todockpos" tags="todock">
+        <offset>
+          <position x="0" y="-3" z="25"/>
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+    <macro name="missile_spirit_a1_fski_macro" class="missile">
+    <component ref="missile_spirit_a1_fski" />
+    <properties>
+      <identification name="{996669,25}" basename="{996669,25}" description="{996669,26}" />
+      <ammunition value="1" />
+      <missile amount="1" barrelamount="1" lifetime="32" range="30000" guided="1" icon="hud_ms_dumbfire_heavy_mk2" retarget="0" tags="aegs_s5_unguide" />
+      <explosiondamage value="10880" />
+      <reload time="3" />
+      <hull max="64" />
+      <effects>
+        <explosion ref="aegs_missile_spirit_a1_fski" />
+        <launch ref="missile_dumbfire_muzzle" />
+      </effects>
+      <weapon system="missile_dumbfire" />
+      <countermeasure resilience="1" />
+      <physics mass="1.382">
+        <inertia pitch="1.106" yaw="1" roll="1" />
+        <drag forward="0.0798" reverse="1.08" horizontal="1.504" vertical="1.504" pitch="0.608" yaw="0.608" roll="0.608" />
+      </physics>
+    </properties>
+    <connections>
+      <connection ref="con_engine01">
+        <macro ref="engine_missile_guided_mk1_macro" connection="ship" />
+      </connection>
+    </connections>
+    </macro>
+</macros>

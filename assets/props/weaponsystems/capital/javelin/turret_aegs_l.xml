@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-10-03 16:15:59 from Blender-->
+<components>
+  <component name="turret_aegs_l" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\javelin\turret_aegs_l_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForsocket" tags="part animation">
+        <animations>
+					<animation name="turret_inactive" start="0" end="0"/>
+					<animation name="turret_activating" start="0" end="60"/>
+					<animation name="turret_active" start="60" end="60"/>
+					<animation name="turret_deactivating" start="70" end="130"/>
+					<animation name="gun_firing" start="60" end="70"/>
+				</animations>
+        <offset>
+          <position x="0" y="0" z="-69.94231" />
+        </offset>
+        <parts>
+          <part name="socket">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.267872" y="1.839283" z="42.47543" />
+              <center x="1.430511e-06" y="-1.006253" z="34.89824" />
+            </size>
+            <size_raw>
+              <max x="7.267872" y="1.839283" z="7.504274" />
+              <center x="1.430511e-06" y="-1.006253" z="-0.07292062" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_y" tags="part " parent="socket">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="part_y">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="7" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="8" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="9" ref="generic.javelin_exterior_mtl_Exhaust" />
+                  <material id="10" ref="generic.javelin_exterior_mtl_glass" />
+                  <material id="11" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="12" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                  <material id="13" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="14" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.61292" y="5.252874" z="52.27833" />
+              <center x="-0.09840298" y="5.435807" z="36.39702" />
+            </size>
+            <size_raw>
+              <max x="9.61292" y="5.252874" z="17.30717" />
+              <center x="-0.09840298" y="5.435808" z="1.425866" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_x" tags="part " parent="part_y">
+        <restrictions>
+					<restriction type="rotation_x"/>
+				</restrictions>
+        <offset>
+          <position x="6.689893" y="5.789024" z="6.363232" />
+        </offset>
+        <parts>
+          <part name="part_x">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_mtl_Exhaust" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="10.972" y="4.693858" z="39.28899" />
+              <center x="-6.845089" y="0.03174734" z="35.04358" />
+            </size>
+            <size_raw>
+              <max x="10.972" y="4.693858" z="4.317828" />
+              <center x="-6.845089" y="0.03174758" z="0.07242608" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormxa_core" tags="part " parent="part_x">
+        <offset>
+          <position x="-17.4025" y="3.510976" z="2.636768" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+        <parts>
+          <part name="mxa_core">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="6" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.03366" y="16.37611" z="46.80885" />
+              <center x="3.499997" y="10.7126" z="34.42868" />
+            </size>
+            <size_raw>
+              <max x="6.03366" y="16.37611" z="11.8377" />
+              <center x="3.499997" y="10.7126" z="-0.5424762" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbarrel" tags="part animation" parent="mxa_core">
+        <animations>
+					<animation name="turret_inactive" start="0" end="0"/>
+					<animation name="turret_activating" start="0" end="60"/>
+					<animation name="turret_active" start="60" end="60"/>
+					<animation name="turret_deactivating" start="70" end="130"/>
+					<animation name="gun_firing" start="60" end="70"/>
+				</animations>
+        <offset>
+          <position x="4.682627e-07" y="0" z="0" />
+          <quaternion qx="0" qy="0" qz="-5.960464e-08" qw="-1" />
+        </offset>
+        <parts>
+          <part name="barrel">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                  <material id="6" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.502707" y="16.08552" z="46.4705" />
+              <center x="3.477509" y="10.7126" z="46.36817" />
+            </size>
+            <size_raw>
+              <max x="4.502707" y="16.08552" z="11.49935" />
+              <center x="3.477509" y="10.7126" z="11.39701" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="barrel">
+        <offset>
+          <position x="7" y="25.63401" z="17" />
+          <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="barrel">
+        <offset>
+          <position x="7.000001" y="-4.208798" z="17" />
+          <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="laser002" tags="laser " parent="barrel">
+        <offset>
+          <position x="-7.808137e-07" y="25.63401" z="22" />
+          <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="laser003" tags="laser " parent="barrel">
+        <offset>
+          <position x="7.808143e-07" y="-4.208797" z="22" />
+          <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="con_turret_laser_l" tags="turret large component combat aegs_javelin">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-27 18:22:15 from Blender-->
+<components>
+  <component name="spirit_c1_inner" class="storage">
+    <source geometry="extensions\AEGS\assets\units\size_m\inner\spirit_c1_inner_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="storage">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForinner_c1" tags="part ">
+        <parts>
+          <part name="inner_c1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="2" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="3" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="4" ref="generic.crus_spirit_int_mtl_HS_Tiled_Plastic_Dark_A" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="6" ref="generic.rsi_bengal_int_mtl_rubber_floor" />
+                  <material id="7" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="8" ref="generic.crus_spirit_int_mtl_Trim_Fabric_B" />
+                  <material id="9" ref="p1effects.p1_gradient_colour" />
+                  <material id="10" ref="generic.crus_spirit_ext_mtl_Alpha_Trim_Grips" />
+                  <material id="11" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="13" ref="p1.cockpit_glass_outside_01" />
+                  <material id="14" ref="generic.crus_spirit_int_mtl_HS_Tiled_Gravplates_Dark" />
+                  <material id="15" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="16" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.099403" y="2.318673" z="6.710105" />
+              <center x="1.192093e-07" y="1.449337" z="-1.520261" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_c12" tags="part ">
+        <parts>
+          <part name="inner_c12">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="4" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="5" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="6" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="8" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="9" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="10" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="11" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="13" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="14" ref="generic.starlifter_int_mtl_Fabric_Bespoke" />
+                  <material id="15" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="16" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="17" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="18" ref="generic.crus_spirit_int_mtl_HS_Tiled_Plastic_Dark_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.106998" y="2.492822" z="6.756537" />
+              <center x="-3.576279e-07" y="1.308519" z="-1.550734" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

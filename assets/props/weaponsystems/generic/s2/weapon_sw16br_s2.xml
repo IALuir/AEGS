@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-02 15:12:10 from Blender-->
+<components>
+  <component name="weapon_sw16br_s2" class="weapon">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\generic\S2\weapon_sw16br_s2_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionFormain" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-8"/>
+							<max value="8"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.005000002" y="0.005000002" z="0.005000002" />
+              <center x="1.164153e-10" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbas_body" tags="part " parent="main">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-8"/>
+							<max value="8"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="bas_body">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_bal_rep_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_decals" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="9" ref="generic.kron_mastermaterial_mtl_H_rubber_01_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_bal_rep_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_decals" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="9" ref="generic.kron_mastermaterial_mtl_H_rubber_01_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_bal_rep_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_decals" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="9" ref="generic.kron_mastermaterial_mtl_H_rubber_01_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_bal_rep_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_decals" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="9" ref="generic.kron_mastermaterial_mtl_H_rubber_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.196635" y="0.294076" z="1.089831" />
+              <center x="-4.470348e-08" y="-0.2869605" z="0.4009899" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbarrel_01" tags="part animation" parent="bas_body">
+        <animations>
+					<animation name="weapon_firing" start="0" end="10"/>
+				</animations>
+        <offset>
+          <position x="1.34784e-08" y="-0.2513593" z="1.192588" />
+        </offset>
+        <parts>
+          <part name="barrel_01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_bal_rep_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_bal_rep_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_bal_rep_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_bal_rep_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.06326852" y="0.1296375" z="0.6833709" />
+              <center x="-5.201179e-07" y="-0.06670651" z="0.3183082" />
+            </size>
+            <size_raw>
+              <max x="0.06326852" y="0.1296375" z="0.639056" />
+              <center x="-5.19678e-07" y="-0.06670649" z="0.362623" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="barrel_01">
+        <offset>
+          <position x="-1.34784e-08" y="0.001238704" z="0.9797963" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="barrel_01">
+        <offset>
+          <position x="-1.34784e-08" y="-0.1335246" z="0.9797963" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="weapon small platformcollision aegs_weapon_s2">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

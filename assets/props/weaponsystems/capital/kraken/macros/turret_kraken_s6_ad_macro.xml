@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="turret_kraken_s6_ad_macro" class="turret">
+    <component ref="kraken_s6_ad" />
+    <properties>
+      <identification name="{996667,30011}" basename="{996667,30011}" shortname="{996667,30011}" makerrace="terran" description="{996667,30012}" mk="1" />
+      <bullet class="S6_ad_2x_macro" />
+      <rotationspeed max="70" />
+      <rotationacceleration max="200" />
+      <reload rate="1" time="1" />
+      <hull max="6000" threshold="0.2" integrated="0" paint="1"/>
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Markus (192.168.3.72) at 26.01.2022_13-52-25-->
+<macros>
+  <macro name="weapon_idris_s10_cannon_macro" class="weapon">
+    <component ref="idris_s10" />
+    <properties>
+      <identification name="{996673,1}" basename="{996673,1}" makerrace="terran" description="{996673,2}" mk="1" />
+      <bullet class="S10_rail_macro" />
+      <heat overheat="30000" cooldelay="7" coolrate="800" reenable="0" />
+      <rotationspeed max="0" />
+      <rotationacceleration max="0" />
+      <reload />
+      <effects>
+        <firing start="charge_aegs_railgun_s10" stop="stop_aegs_railgun_s10" />
+      </effects>
+      <sounds>
+        <firing ref="charge_aegs_railgun_s10" />
+      </sounds>
+      <hull max="10000" integrated="1"/>
+    </properties>
+  </macro>
+</macros>

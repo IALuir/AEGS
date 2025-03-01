@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-15 12:41:57 from Blender-->
+<components>
+  <component name="polaris_turret_ad" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\polaris\polaris_turret_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForsocket" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="socket">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="10" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.559266" y="1.28598" z="2.586286" />
+              <center x="4.962087e-05" y="1.25317" z="0.6587884" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForad_rota" tags="part " parent="socket">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-70.0 "/>
+							<max value="70 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="9.536743e-07" y="1.450557" z="0.4990196" />
+        </offset>
+        <parts>
+          <part name="ad_rota">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="5" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="11" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.061379" y="0.4417769" z="3.343036" />
+              <center x="-8.940697e-07" y="0.09507392" z="2.350353" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ad_laser" tags="laser " parent="ad_rota">
+        <offset>
+          <position x="-2.377977" y="0.1260048" z="5.719464" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="ad_laser001" tags="laser " parent="ad_rota">
+        <offset>
+          <position x="2.40291" y="0.1260054" z="5.719464" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      
+
+      <connection name="con_turret_laser_m" tags="turret medium component combat aegs_polaris_s4">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

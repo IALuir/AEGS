@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="engine_aegs_xl_bengal_macro" class="engine">
+    <component ref="engine_aegs_xl_bengal" />
+    <properties>
+      <identification name="{996670,5}" basename="{996670,5}" shortname="{996670,5}" makerrace="terran" description="{996670,6}" mk="1" />
+      <boost duration="34" thrust="2" attack="14" release="0.04" />
+      <travel charge="0" thrust="33" attack="15" release="1.25" />
+      <thrust forward="21028" reverse="18928" />
+      <angular />
+      <hull max="42000" threshold="0.3" integrated="1"/>
+      <effects>
+        <boosting ref="aegs_bengal_boost_fx" />
+      </effects>
+      <sounds>
+        <enginedetail ref="enginedetail_ship_xl_01" />
+      </sounds>
+    </properties>
+  </macro>
+</macros>

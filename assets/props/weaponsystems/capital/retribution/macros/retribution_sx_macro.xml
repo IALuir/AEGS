@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="retribution_sx_macro" class="turret">
+    <component ref="retribution_sx" />
+    <properties>
+      <identification name="{996671,16}" basename="{996671,16}" shortname="{996671,16}" makerrace="terran" description="{996671,17}" mk="1" />
+      <bullet class="SX_rail_macro" />
+      <rotationspeed max="1" />
+      <rotationacceleration max="3" />
+      <reload rate="1" time="1" />
+      <hull max="60000" threshold="0.2" integrated="0" />
+    </properties>
+  </macro>
+</macros>

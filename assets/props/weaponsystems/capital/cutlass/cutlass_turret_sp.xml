@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-30 21:43:58 from Blender-->
+<components>
+  <component name="cutlass_turret_sp" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\cutlass\cutlass_turret_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForpart_main" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.376011" y="1.065751" z="2.142604" />
+              <center x="-2.980232e-08" y="1.065747" z="-0.14572" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbase" tags="part " parent="part_main">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-90.0 "/>
+							<max value="5 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-1.361696" y="1.223219" z="-1.03722" />
+        </offset>
+        <parts>
+          <part name="base">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour.001" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01.001" />
+                  <material id="5" ref="generic.jokr_dis_can_I_bas_mat_mtl_L_pipe_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour.001" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01.001" />
+                  <material id="5" ref="generic.jokr_dis_can_I_bas_mat_mtl_L_pipe_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour.001" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01.001" />
+                  <material id="5" ref="generic.jokr_dis_can_I_bas_mat_mtl_L_pipe_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour.001" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01.001" />
+                  <material id="5" ref="generic.jokr_dis_can_I_bas_mat_mtl_L_pipe_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.989475" y="0.276636" z="1.428967" />
+              <center x="1.361696" y="-0.028923" z="0.7784815" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser" parent="base">
+        <offset>
+          <position x="-0.2991681" y="0" z="2.243044" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser" parent="base">
+        <offset>
+          <position x="3.011001" y="0" z="2.243044" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_cutlass">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

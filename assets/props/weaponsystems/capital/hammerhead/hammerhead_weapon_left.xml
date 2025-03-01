@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-11 14:36:19 from Blender-->
+<components>
+  <component name="hammerhead_weapon_left" class="missilelauncher">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\hammerhead\hammerhead_weapon_left_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionFormissile_bay_interiors" tags="part nocollision">
+        <parts>
+          <part name="missile_bay_interiors">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_exterior_mtl_Dark_panel_new" />
+                  <material id="2" ref="generic.aegs_hammerhead_exterior_mtl_Orange_panel_new" />
+                  <material id="3" ref="generic.aegs_hammerhead_exterior_mtl_Light_panel" />
+                  <material id="4" ref="generic.aegs_hammerhead_exterior_mtl_metal_atlas_new" />
+                  <material id="5" ref="generic.aegs_hammerhead_exterior_mtl_decal_pom" />
+                  <material id="6" ref="generic.aegs_hammerhead_exterior_mtl_decal_text" />
+                  <material id="7" ref="generic.aegs_hammerhead_exterior_mtl_Pipe_trims" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.365675" y="0.7640967" z="4.378541" />
+              <center x="-0.1525197" y="0.2761483" z="-0.1789813" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormissile_doora_left" tags="part iklink animation nocollision" parent="missile_bay_interiors">
+        <animations>
+					<animation name="gun_firing" start="0" end="60"/>
+				</animations>
+        <offset>
+          <position x="0.9468546" y="1.05926" z="-0.1939611" />
+        </offset>
+        <parts>
+          <part name="missile_doora_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_exterior_mtl_Dark_panel_new" />
+                  <material id="2" ref="generic.aegs_hammerhead_exterior_mtl_Light_panel" />
+                  <material id="3" ref="generic.aegs_hammerhead_exterior_mtl_Metal_Flat_Light" />
+                  <material id="4" ref="generic.aegs_hammerhead_exterior_mtl_Mid_Panel_2" />
+                  <material id="5" ref="generic.aegs_hammerhead_exterior_mtl_Glows" />
+                  <material id="6" ref="generic.aegs_hammerhead_exterior_mtl_internal_pom_new" />
+                  <material id="7" ref="generic.aegs_hammerhead_exterior_mtl_pipes_girders" />
+                  <material id="8" ref="generic.aegs_hammerhead_exterior_mtl_decal_pom" />
+                  <material id="9" ref="generic.aegs_hammerhead_exterior_mtl_decal_text" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.195836" y="0.4034815" z="4.185932" />
+              <center x="-0.9919989" y="-0.1840935" z="0.0002069473" />
+            </size>
+            <size_raw>
+              <max x="1.195836" y="0.4034815" z="4.185932" />
+              <center x="-0.9919989" y="-0.1840935" z="0.0002069473" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormissile_launcher_left_4xs03_mesh" tags="part nocollision" parent="missile_doora_left">
+        <offset>
+          <position x="-0.9289436" y="-0.734726" z="2.427794" />
+          <quaternion qx="0" qy="0" qz="-0.1045285" qw="-0.9945219" />
+        </offset>
+        <parts>
+          <part name="missile_launcher_left_4xs03_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_atlas" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_primary_panel_a" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.173745" y="1.363753" z="2.352667" />
+              <center x="0.2594987" y="0.953285" z="-1.997247" />
+            </size>
+            <size_raw>
+              <max x="0.6676611" y="0.4104641" z="2.352667" />
+              <center x="0.008457989" y="-4.008412e-06" z="-1.997247" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormissile" tags="part nocollision" parent="missile_launcher_left_4xs03_mesh">
+        <offset>
+          <position x="-0.1657811" y="0.1807181" z="-2.392844" />
+          <quaternion qx="0" qy="0" qz="-0.1218692" qw="-0.9925462" />
+        </offset>
+        <parts>
+          <part name="missile">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.fski_arrester_s3_mtl_painted_metal_01" />
+                  <material id="2" ref="generic.fski_arrester_s3_mtl_dull_metal_01" />
+                  <material id="3" ref="generic.fski_arrester_s3_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.fski_arrester_s3_mtl_pom_decals_01" />
+                  <material id="5" ref="generic.fski_arrester_s3_mtl_graphics_decals_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.9421724" y="1.212677" z="1.505959" />
+              <center x="0.5170038" y="0.9334567" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.2792202" y="0.2792202" z="1.505959" />
+              <center x="0" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser001" tags="rocket " parent="missile">
+        <offset>
+          <position x="0.2472779" y="-0.442935" z="1.601473" />
+          <quaternion qx="0" qy="0" qz="0.224951" qw="-0.9743701" />
+        </offset>
+      </connection>
+      <connection name="ConnectionFormissile001" tags="part nocollision" parent="missile_launcher_left_4xs03_mesh">
+        <offset>
+          <position x="0.3286498" y="0.194819" z="-1.81833" />
+          <quaternion qx="0" qy="0" qz="-0.1218692" qw="-0.9925462" />
+        </offset>
+        <parts>
+          <part name="missile001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.fski_arrester_s3_mtl_painted_metal_01" />
+                  <material id="2" ref="generic.fski_arrester_s3_mtl_dull_metal_01" />
+                  <material id="3" ref="generic.fski_arrester_s3_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.fski_arrester_s3_mtl_pom_decals_01" />
+                  <material id="5" ref="generic.fski_arrester_s3_mtl_graphics_decals_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6371162" y="0.91668" z="1.505959" />
+              <center x="0.2019894" y="0.6374598" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.2792202" y="0.2792202" z="1.505959" />
+              <center x="0" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser002" tags="rocket " parent="missile001">
+        <offset>
+          <position x="0.004345208" y="-0.00322403" z="1.484146" />
+          <quaternion qx="0" qy="0" qz="0.224951" qw="-0.9743701" />
+        </offset>
+      </connection>
+      <connection name="ConnectionFormissile002" tags="part nocollision" parent="missile_launcher_left_4xs03_mesh">
+        <offset>
+          <position x="0.1819367" y="-0.1926203" z="-2.261201" />
+          <quaternion qx="0" qy="0" qz="-0.1218692" qw="-0.9925462" />
+        </offset>
+        <parts>
+          <part name="missile002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.fski_arrester_s3_mtl_painted_metal_01" />
+                  <material id="2" ref="generic.fski_arrester_s3_mtl_dull_metal_01" />
+                  <material id="3" ref="generic.fski_arrester_s3_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.fski_arrester_s3_mtl_pom_decals_01" />
+                  <material id="5" ref="generic.fski_arrester_s3_mtl_graphics_decals_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.641314" y="1.251047" z="1.505959" />
+              <center x="-0.06239522" y="0.9718264" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.2792202" y="0.2792202" z="1.505959" />
+              <center x="0" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser003" tags="rocket " parent="missile002">
+        <offset>
+          <position x="-0.2459382" y="0.4438221" z="1.336523" />
+          <quaternion qx="0" qy="0" qz="0.224951" qw="-0.9743701" />
+        </offset>
+      </connection>
+      <connection name="ConnectionFormissile003" tags="part nocollision" parent="missile_launcher_left_4xs03_mesh">
+        <offset>
+          <position x="-0.3252064" y="-0.1869811" z="-2.837365" />
+          <quaternion qx="0" qy="0" qz="-0.1218692" qw="-0.9925462" />
+        </offset>
+        <parts>
+          <part name="missile003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.fski_arrester_s3_mtl_painted_metal_01" />
+                  <material id="2" ref="generic.fski_arrester_s3_mtl_dull_metal_01" />
+                  <material id="3" ref="generic.fski_arrester_s3_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.fski_arrester_s3_mtl_pom_decals_01" />
+                  <material id="5" ref="generic.fski_arrester_s3_mtl_graphics_decals_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.9334766" y="1.541299" z="1.505959" />
+              <center x="0.3047568" y="1.262079" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.2792202" y="0.2792202" z="1.505959" />
+              <center x="0" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="rocket " parent="missile003">
+        <offset>
+          <position x="0.0006541908" y="-0.005067229" z="1.487687" />
+          <quaternion qx="0" qy="0" qz="0.224951" qw="-0.9743701" />
+        </offset>
+      </connection>
+
+      <connection name="WeaponCon_01" tags="component weapon small missile aegs_hammerhead_left">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

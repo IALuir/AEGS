@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-10-28 14:31:02 from Blender-->
+<components>
+  <component name="roomarea_javelin_room1" class="dockarea">
+    <source geometry="extensions\aegs\assets\structures\dock\dockarea_aegs_benga_dockbaya_data" />
+    <layers>
+      <layer>
+        <waypoints>
+          
+        </waypoints>
+      </layer>
+    </layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="dockarea">
+				<offset/>
+			</connection>
+      <connection name="Connection01" hidden="true" tags="part nocollision  ">
+				<offset/>
+				<parts>
+					<part name="part_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hullpattern"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.8157368" y="0.6352959" z="0.9177036"/>
+							<center x="0" y="-0.6352959" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+
+
+      <connection name="room">
+        <offset>
+          <position x="0" y="0" z="-0.05" />
+        </offset>
+      </connection>
+
+
+      
+	</connections>
+
+  </component>
+</components>

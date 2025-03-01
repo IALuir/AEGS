@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <replace sel="//macros/macro/properties/docksize/@tags">dock_s dock_m dock_aegs_p52 dock_aegs_c8 dock_aegs_big_S dock_aegs_small_M</replace>
+</diff>

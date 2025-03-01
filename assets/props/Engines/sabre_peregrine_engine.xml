@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-08-30 23:05:59 from Blender-->
+<components>
+  <component name="sabre_peregrine_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\sabre_peregrine_engine_data" />
+    <layers>
+      <layer>
+        <trailemitters>
+          <emitter name="trail_aegs_s_01" type="trail_aegs_s_01">
+            <offset>
+              <position x="0" y="0" z="-4.994337" />
+            </offset>
+          </emitter>
+        </trailemitters>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForengine" tags="part ">
+        <parts>
+          <part name="engine">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Decal_Diffuse_B" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Glow_Thrusters" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                  <material id="5" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Decal_Diffuse_A" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="8" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="9" ref="generic.sabre_raven_mtl_Panel_Tile_Paint_Tertiary_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.059064" y="0.316191" z="1.303756" />
+              <center x="4.947186e-06" y="-0.005152002" z="-0.3460755" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_animal" tags="animation detail_l fx nocollision part speedscale_forward textureanimation useobjectrotation ">
+        <animations>
+					<animation name="loop" start="1" end="120"/>
+			  </animations>
+        <parts>
+          <part name="fx_animal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2fx.fx_p2_thruster_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.571602" y="0.1407735" z="3.153165" />
+              <center x="0.008817226" y="0.001348197" z="-3.728282" />
+            </size>
+            <uv_animations>
+              <uv_animation rotaroundcenter="1" mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="8" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="0" />
+                </uv_property>
+              </uv_animation>
+              <uv_animation rotaroundcenter="1" mapchannel="2">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="2" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="-16" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_sabre_peregrine">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

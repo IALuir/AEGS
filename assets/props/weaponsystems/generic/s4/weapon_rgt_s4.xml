@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-01-06 12:37:09 from Blender-->
+<components>
+  <component name="weapon_rgt_s4" class="weapon">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\generic\S4\weapon_rgt_s4_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionFormain" tags="part platformcollision forceoutline">
+        <restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-10"/>
+							<max value="10"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.01125" y="0.01125" z="0.01125" />
+              <center x="0" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbase" tags="part platformcollision forceoutline " parent="main">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-10"/>
+							<max value="10"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="base">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="2" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="3" ref="generic.apar_ballisticgatling_s4_material_mtl_POM" />
+                  <material id="4" ref="generic.apar_ballisticgatling_s4_material_mtl_Decals" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Copper_01_A" />
+                  <material id="9" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6429048" y="0.8341619" z="2.423127" />
+              <center x="-1.490116e-08" y="-0.8185233" z="0.7948666" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbarrel" tags="part animation" parent="base">
+        <animations>
+					<animation name="weapon_firing" start="0" end="10"/>
+				</animations>
+        <offset>
+          <position x="0" y="-0.8298213" z="2.859761" />
+        </offset>
+        <parts>
+          <part name="barrel">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="2" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="3" ref="generic.apar_ballisticgatling_s4_material_mtl_POM" />
+                  <material id="4" ref="generic.apar_ballisticgatling_s4_material_mtl_Decals" />
+                  <material id="5" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.225822" y="0.2532885" z="1.696678" />
+              <center x="0" y="0" z="-2.384186e-07" />
+            </size>
+            <size_raw>
+              <max x="0.225822" y="0.2532885" z="1.696679" />
+              <center x="-3.72529e-09" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="barrel">
+        <offset>
+          <position x="0" y="-0.008195639" z="1.775719" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="weapon small platformcollision aegs_weapon_s4">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

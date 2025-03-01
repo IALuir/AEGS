@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-09 13:11:52 from Blender-->
+<components>
+  <component name="hammerhead_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\hammerhead_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForhorizontal_rotation_pivot" tags="part animation ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation">
+        <animations>
+					<animation name="chair_default_inactive" start="1" end="1"/>
+					<animation name="chair_default_activating" start="1" end="40"/>
+					<animation name="chair_default_active" start="40" end="40"/>
+					<animation name="chair_default_deactivating" start="40" end="90"/>
+					<animation name="chair_paranid_inactive" start="1" end="1"/>
+					<animation name="chair_paranid_activating" start="1" end="40"/>
+					<animation name="chair_paranid_active" start="40" end="40"/>
+					<animation name="chair_paranid_deactivating" start="40" end="90"/>
+					<animation name="chair_default_to_paranid" start="1" end="1"/>
+					<animation name="chair_paranid_to_default" start="1" end="1"/>
+				</animations>
+        <parts>
+          <part name="horizontal_rotation_pivot">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_door_master_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_base_white_panels_highgloss" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_javelin_mtl_decals_diff" />
+                  <material id="5" ref="generic.aegs_door_master_mtl_decals_diff_b" />
+                  <material id="6" ref="generic.aegs_javelin_gauntlet_mtl_base_white_panels" />
+                  <material id="7" ref="generic.aegs_hammerhead_int_mtl_rubber_grip" />
+                  <material id="8" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="9" ref="generic.aegs_hammerhead_int_mtl_buttons" />
+                  <material id="10" ref="generic.aegs_hammerhead_int_mtl_linked_glow" />
+                  <material id="11" ref="generic.aegs_hammerhead_int_mtl_leather" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8760222" y="1.441006" z="1.118212" />
+              <center x="-0.1576759" y="1.263958" z="0.1484447" />
+            </size>
+            <size_raw>
+              <max x="0.7167142" y="1.441006" z="0.8324746" />
+              <center x="0.001632154" y="1.263958" z="-0.1372929" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhorizontal_rotation_pivot_mesh" tags="part animation ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation" parent="horizontal_rotation_pivot">
+        <parts>
+          <part name="horizontal_rotation_pivot_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_door_master_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_base_white_panels_highgloss" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_javelin_mtl_decals_diff" />
+                  <material id="5" ref="generic.aegs_door_master_mtl_decals_diff_b" />
+                  <material id="6" ref="generic.aegs_javelin_gauntlet_mtl_base_white_panels" />
+                  <material id="7" ref="generic.aegs_hammerhead_int_mtl_rubber_grip" />
+                  <material id="8" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="9" ref="generic.aegs_hammerhead_int_mtl_buttons" />
+                  <material id="10" ref="generic.aegs_hammerhead_int_mtl_linked_glow" />
+                  <material id="11" ref="generic.aegs_hammerhead_int_mtl_leather" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8760222" y="1.441006" z="1.118212" />
+              <center x="-0.1576759" y="1.263958" z="0.1484447" />
+            </size>
+            <size_raw>
+              <max x="0.7167142" y="1.441006" z="0.8324746" />
+              <center x="0.001632154" y="1.263958" z="-0.1372929" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      
+    </connections>
+  </component>
+</components>

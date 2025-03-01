@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-06 19:13:35 from Blender-->
+<components>
+  <component name="f7cm_turret_gtx" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\f7\f7cm_turret_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="turret" />
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForballturret" tags="part nocollision">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="ballturret">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="4" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="5" ref="generic.bigbox_mtl_metal_c" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.693571" y="2.024771" z="1.807559" />
+              <center x="-2.473593e-06" y="0.7429941" z="0.1063495" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForgtx_core" tags="part nocollision" parent="ballturret">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-5.0 "/>
+							<max value="90"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="0.4634866" y="2.131276" z="0.7196092" />
+        </offset>
+        <parts>
+          <part name="gtx_core">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.GATS_MasterMaterial_bal_gat_mtl_I_decal" />
+                  <material id="2" ref="generic.GATS_MasterMaterial_bal_gat_mtl_I_decal" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="11" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="12" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="13" ref="generic.GATS_MasterMaterial_bal_gat_mtl_L_cotton_01_checkered_A" />
+                  <material id="14" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="15" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="16" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="17" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="18" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="19" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.111795" y="0.293799" z="0.613909" />
+              <center x="-0.4634867" y="0.007534236" z="-0.001401007" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForgtx_barrel" tags="part nocollision" parent="gtx_core">
+        <offset>
+          <position x="0.338528" y="2.384186e-07" z="0.479309" />
+          <quaternion qx="0" qy="0" qz="-0.7071066" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="gtx_barrel">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.GATS_MasterMaterial_bal_gat_mtl_I_decal" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1411175" y="0.9317799" z="0.5609016" />
+              <center x="0.01025569" y="0.8020146" z="0.6178886" />
+            </size>
+            <size_raw>
+              <max x="0.1411175" y="0.9317799" z="0.5609015" />
+              <center x="0.01025568" y="0.8020146" z="0.6178886" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="gtx_laser" tags="laser " parent="gtx_core">
+        <offset>
+          <position x="0.3379439" y="0.00153327" z="1.695398" />
+          <quaternion qx="0" qy="0" qz="-0.7071066" qw="-0.7071069" />
+        </offset>
+      </connection>
+      <connection name="gtx_laser001" tags="laser " parent="gtx_core">
+        <offset>
+          <position x="-1.267221" y="0.00153327" z="1.695398" />
+          <quaternion qx="0" qy="0" qz="-0.7071066" qw="-0.7071069" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_f7cm">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

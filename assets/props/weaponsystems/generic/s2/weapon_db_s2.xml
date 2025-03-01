@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-02 18:06:48 from Blender-->
+<components>
+  <component name="weapon_db_s2" class="weapon">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\generic\S2\weapon_db_s2_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionFormain" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-8"/>
+							<max value="8"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.01" y="0.01" z="0.01" />
+              <center x="2.328306e-10" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordb_bas" tags="part " parent="main">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-8"/>
+							<max value="8"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="db_bas">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.ESPR_mastermaterial_mtl_pom" />
+                  <material id="2" ref="generic.ESPR_mastermaterial_mtl_decals" />
+                  <material id="3" ref="generic.ESPR_mastermaterial_mtl_I_trim" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.ESPR_mastermaterial_mtl_pom" />
+                  <material id="2" ref="generic.ESPR_mastermaterial_mtl_decals" />
+                  <material id="3" ref="generic.ESPR_mastermaterial_mtl_I_trim" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.ESPR_mastermaterial_mtl_pom" />
+                  <material id="2" ref="generic.ESPR_mastermaterial_mtl_decals" />
+                  <material id="3" ref="generic.ESPR_mastermaterial_mtl_I_trim" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.ESPR_mastermaterial_mtl_pom" />
+                  <material id="2" ref="generic.ESPR_mastermaterial_mtl_decals" />
+                  <material id="3" ref="generic.ESPR_mastermaterial_mtl_I_trim" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.190206" y="0.3370721" z="1.091885" />
+              <center x="-3.72529e-09" y="-0.3191819" z="0.2639605" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordb_bar" tags="part " parent="db_bas">
+        <offset>
+          <position x="0" y="-0.292487" z="0.3793374" />
+        </offset>
+        <parts>
+          <part name="db_bar">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.ESPR_mastermaterial_mtl_pom" />
+                  <material id="2" ref="generic.ESPR_mastermaterial_mtl_decals" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.050566" y="0.090613" z="0.622908" />
+              <center x="9.313226e-10" y="0.014321" z="1.062254" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="db_bar">
+        <offset>
+          <position x="0" y="0.01566789" z="1.699513" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="weapon small platformcollision aegs_weapon_s2">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

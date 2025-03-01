@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Lino (192.168.3.56) at 08.04.2020_09-52-07-->
+<macros>
+  <macro name="S11_rail_macro" class="bullet">
+    <component ref="S12_bullet" />
+    <properties>
+      <ammunition value="5" reload="12"/>
+      <bullet speed="2350" lifetime="4" amount="1" barrelamount="4" icon="weapon_cannon_mk1" timediff="0.007" angle="0.03" maxhits="1" ricochet="0" scale="0" attach="0" selfdestruct="1"  />
+      <reload rate="0.2" />
+      <areadamage value="225" range="32" time="1" lifetime="1" />
+      <damage value="6880" hull="500" repair="0" />
+      <effects>
+        <impact ref="impact_aegs_xl_railgun_s11" />
+        <launch ref="muzzle_aegs_xl_railgun_s12" />
+      </effects>
+      <weapon system="turret_longrange" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,2058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-07-28 13:45:46 from Blender-->
+<components>
+  <component name="defender" class="ship_s">
+    <source geometry="extensions\AEGS\assets\units\size_s\defender_data" />
+    <layers>
+      <layer>
+        <lights>
+          <arealight name="ego_area" areax="0.25" areay="0.02825451" radius="0" spotattenuation="0" shadow="1" r="199" g="248" b="255" intensity="0.5286856" specularintensity="1" range="3" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-0.6909643" y="1.576484" z="-4.530724" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="0.25" areay="0.02825451" radius="0" spotattenuation="0" shadow="1" r="199" g="248" b="255" intensity="0.5286856" specularintensity="1" range="3" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0.690964" y="1.576484" z="-4.530724" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area002" areax="0.25" areay="0.02825451" radius="0" spotattenuation="0" shadow="1" r="199" g="248" b="255" intensity="0.5286856" specularintensity="1" range="3" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-0.839046" y="1.563573" z="-8.525268" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area003" areax="0.25" areay="0.02825451" radius="0" spotattenuation="0" shadow="1" r="199" g="248" b="255" intensity="0.5286856" specularintensity="1" range="3" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0.8390458" y="1.563573" z="-8.525268" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area004" areax="0.01281548" areay="0.03478432" radius="0" spotattenuation="0" shadow="1" r="199" g="248" b="255" intensity="0.5286856" specularintensity="1" range="3" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="3.46493" y="-0.2271025" z="-9.228718" />
+              <quaternion qx="0.7077328" qy="0.2459842" qz="0.2931525" qw="-0.5938584" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area005" areax="0.01281548" areay="0.03478432" radius="0" spotattenuation="0" shadow="1" r="199" g="248" b="255" intensity="0.5286856" specularintensity="1" range="3" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-3.46493" y="-0.2271025" z="-9.228718" />
+              <quaternion qx="0.7077328" qy="-0.2459842" qz="-0.2931525" qw="-0.5938584" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area006" areax="0.25" areay="0.02825451" radius="0" spotattenuation="0" shadow="1" r="199" g="248" b="255" intensity="0.5286856" specularintensity="1" range="3" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="1.457254" z="-10.44905" />
+              <quaternion qx="0.1305262" qy="0" qz="0" qw="-0.9914449" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area007" areax="0.00749731" areay="0.00799799" radius="0" spotattenuation="0" shadow="1" r="199" g="248" b="255" intensity="0.5286856" specularintensity="1" range="3" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-2.683909" y="1.776072" z="-4.479726" />
+              <quaternion qx="0.258819" qy="0" qz="0" qw="-0.9659258" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area008" areax="0.00749731" areay="0.00799799" radius="0" spotattenuation="0" shadow="1" r="199" g="248" b="255" intensity="0.5286856" specularintensity="1" range="3" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="2.68391" y="1.776072" z="-4.479726" />
+              <quaternion qx="0.258819" qy="0" qz="0" qw="-0.9659258" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_s ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="defencenpc" tags="defence" value="-1" />
+      <connection name="ConnectionForairlock" tags="part part ui transporter trigger_interact detail_xl location_cockpit platformcollision forceoutline">
+        <offset>
+          <position x="0.1177275" y="-0.6819282" z="-10.80849" />
+        </offset>
+        <parts>
+          <part name="airlock">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Banu_Metal_Blue" />
+                  <material id="3" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_Defender_Bone_LSAO" />
+                  <material id="7" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Internal_Pom_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="13" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="14" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="15" ref="generic.banu_defender_mtl_Glows_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.31086" y="0.9075789" z="0.2721765" />
+              <center x="-0.117728" y="0.125651" z="0.2577373" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody" tags="part ">
+        <offset>
+          <position x="0" y="-0.06567" z="-7.237913" />
+        </offset>
+        <parts>
+          <part name="body">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="4" ref="p1.cockpit_glass_inside_01" />
+                  <material id="5" ref="generic.defender_glss" />
+                  <material id="6" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                  <material id="8" ref="generic.banu_defender_mtl_Banu_Metal_Blue" />
+                  <material id="9" ref="p1effects.p1_gradient_colour" />
+                  <material id="10" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="13" ref="generic.defender_glss" />
+                  <material id="14" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="15" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.154771" y="2.939867" z="8.429859" />
+              <center x="-8.940697e-06" y="0.1186309" z="-2.027933" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody001" tags="part ">
+        <offset>
+          <position x="0" y="-0.06567" z="-7.237913" />
+        </offset>
+        <parts>
+          <part name="body001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Internal_Pom_Int" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="4" ref="generic.defender_glss" />
+                  <material id="5" ref="generic.banu_defender_mtl_Internal_Structure_Alpha" />
+                  <material id="6" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="9" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="13" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="14" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="15" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                  <material id="16" ref="generic.banu_defender_mtl_Pipe_Glows" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.06448" y="2.938345" z="8.420636" />
+              <center x="0" y="0.1111465" z="-1.996281" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordefender_lg_body_left_skin" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="7.629395e-06" y="-2.560914" z="-10.89472" />
+        </offset>
+        <parts>
+          <part name="defender_lg_body_left_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="11" ref="generic.banu_defender_mtl_Pipe_Glows" />
+                  <material id="12" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="13" ref="generic.banu_defender_mtl_Banu_Metal_Blue" />
+                  <material id="14" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="15" ref="generic.defender_glss" />
+                  <material id="16" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="17" ref="generic.defender_glss" />
+                  <material id="18" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                  <material id="19" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.428763" y="2.45963" z="2.054061" />
+              <center x="-8.106232e-06" y="0.7069676" z="-0.1740732" />
+            </size>
+            <size_raw>
+              <max x="0.06953242" y="0.02660295" z="0.02221638" />
+              <center x="-7.82311e-08" y="0.007069673" z="-0.001740736" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorcockpitleft01" group="door1" tags="part animation trigger_interact ui">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="-2.5629" y="-1.194385" z="-6.258889" />
+        </offset>
+        <parts>
+          <part name="doorcockpitleft01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.290379" y="1.131669" z="0.3240345" />
+              <center x="-0.5028" y="1.077401" z="-0.1897445" />
+            </size>
+            <size_raw>
+              <max x="0.5835075" y="1.131669" z="0.26238" />
+              <center x="0.2040715" y="1.077401" z="-0.249541" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorcockpitleft02" group="door1" tags="part animation trigger_interact ui">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="-2.5629" y="-1.194385" z="-6.25724" />
+        </offset>
+        <parts>
+          <part name="doorcockpitleft02">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Glows_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.294449" y="1.098638" z="0.3013315" />
+              <center x="-0.300534" y="1.025637" z="-0.1547832" />
+            </size>
+            <size_raw>
+              <max x="0.583415" y="1.098637" z="0.2387115" />
+              <center x="0.4105" y="1.025637" z="-0.2138965" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorcockpitleft03" group="door1" tags="part animation trigger_interact ui">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="-2.5629" y="-1.194385" z="-6.255772" />
+        </offset>
+        <parts>
+          <part name="doorcockpitleft03">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Glows_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.223425" y="0.854792" z="0.2323542" />
+              <center x="-0.233216" y="0.77606" z="-0.02405977" />
+            </size>
+            <size_raw>
+              <max x="0.521838" y="0.854792" z="0.143516" />
+              <center x="0.468371" y="0.7760599" z="-0.107923" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorcockpitleft04" group="door1" tags="part animation trigger_interact ui">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="-2.5629" y="-1.194385" z="-6.254355" />
+        </offset>
+        <parts>
+          <part name="doorcockpitleft04">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Glows_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.112293" y="0.501384" z="0.1823614" />
+              <center x="-0.1380801" y="0.428408" z="0.1026063" />
+            </size>
+            <size_raw>
+              <max x="0.4176305" y="0.501384" z="0.068221" />
+              <center x="0.5565825" y="0.428408" z="-0.005142" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorcockpitleft05" group="door1" tags="part animation trigger_interact ui">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="-2.5629" y="-1.194385" z="-6.252849" />
+        </offset>
+        <parts>
+          <part name="doorcockpitleft05">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Glows_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.043405" y="0.2700235" z="0.1941588" />
+              <center x="-0.09029007" y="0.2188945" z="0.1749554" />
+            </size>
+            <size_raw>
+              <max x="0.3517165" y="0.2700235" z="0.0531185" />
+              <center x="0.6013985" y="0.2188945" z="0.0418135" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorcockpitright01" group="door2" tags="part animation trigger_interact ui">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="2.562899" y="-1.194085" z="-6.259005" />
+        </offset>
+        <parts>
+          <part name="doorcockpitright01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.316137" y="1.131669" z="0.2934942" />
+              <center x="0.5285575" y="1.0774" z="-0.2201691" />
+            </size>
+            <size_raw>
+              <max x="0.5835075" y="1.131669" z="0.26238" />
+              <center x="-0.2040715" y="1.0774" z="-0.249541" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorcockpitright02" group="door2" tags="part animation trigger_interact ui">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="2.562899" y="-1.194085" z="-6.257328" />
+        </offset>
+        <parts>
+          <part name="doorcockpitright02">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Glows_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.309642" y="1.098638" z="0.299772" />
+              <center x="0.3157272" y="1.025636" z="-0.1562552" />
+            </size>
+            <size_raw>
+              <max x="0.583415" y="1.098638" z="0.238712" />
+              <center x="-0.4105" y="1.025636" z="-0.213896" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorcockpitright03" group="door2" tags="part animation trigger_interact ui">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="2.562899" y="-1.194085" z="-6.255689" />
+        </offset>
+        <parts>
+          <part name="doorcockpitright03">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Glows_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.238781" y="0.854792" z="0.2338362" />
+              <center x="0.2485719" y="0.776059" z="-0.02265978" />
+            </size>
+            <size_raw>
+              <max x="0.521838" y="0.854792" z="0.143516" />
+              <center x="-0.468371" y="0.776059" z="-0.107922" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorcockpitright04" group="door2" tags="part animation trigger_interact ui">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="2.562899" y="-1.194085" z="-6.254139" />
+        </offset>
+        <parts>
+          <part name="doorcockpitright04">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Glows_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.128534" y="0.501384" z="0.1862245" />
+              <center x="0.1543207" y="0.428407" z="0.1062546" />
+            </size>
+            <size_raw>
+              <max x="0.4176305" y="0.501384" z="0.068221" />
+              <center x="-0.5565824" y="0.428407" z="-0.005141001" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorcockpitright05" group="door2" tags="part animation trigger_interact ui">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="2.562899" y="-1.194085" z="-6.25262" />
+        </offset>
+        <parts>
+          <part name="doorcockpitright05">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Glows_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.063498" y="0.2700235" z="0.1982424" />
+              <center x="0.1103826" y="0.2188935" z="0.1788101" />
+            </size>
+            <size_raw>
+              <max x="0.3517165" y="0.2700235" z="0.053119" />
+              <center x="-0.6013985" y="0.2188935" z="0.041814" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorexteriorhull" group="door3" tags="part animation trigger_interact require_docked ui">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="-1.719136" z="-6.377258" />
+          <quaternion qx="0.3667521" qy="0" qz="0" qw="-0.9303187" />
+        </offset>
+        <parts>
+          <part name="doorexteriorhull">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.defender_glss" />
+                  <material id="3" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.423149" y="1.275128" z="2.382486" />
+              <center x="0" y="-1.206003" z="2.336792" />
+            </size>
+            <size_raw>
+              <max x="1.423149" y="1.275128" z="2.382486" />
+              <center x="2.980232e-08" y="-1.206003" z="2.336792" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorinthull" group="door3" tags="part animation trigger_interact require_docked ui" parent="doorexteriorhull">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="0" z="9.536743e-07" />
+          <quaternion qx="-0.2424839" qy="0" qz="0" qw="-0.9701554" />
+        </offset>
+        <parts>
+          <part name="doorinthull">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Banu_Metal_Blue" />
+                  <material id="5" ref="generic.banu_defender_mtl_Internal_Pom_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_Glows_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="13" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.421639" y="0.2412038" z="2.633706" />
+              <center x="0" y="0.2202584" z="2.657232" />
+            </size>
+            <size_raw>
+              <max x="1.421639" y="0.2412029" z="2.633704" />
+              <center x="0" y="0.220259" z="2.657232" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorextpistonaleft" group="door3" tags="part animation" parent="doorinthull">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="-1.183978" y="0.2515171" z="1.601249" />
+          <quaternion qx="-0.5272419" qy="0.06071021" qz="0.02929998" qw="-0.8470371" />
+        </offset>
+        <parts>
+          <part name="doorextpistonaleft">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="6" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.261731" y="1.636624" z="0.4622607" />
+              <center x="1.167372" y="0.3023756" z="-0.1360011" />
+            </size>
+            <size_raw>
+              <max x="1.261731" y="1.042215" z="0.3926209" />
+              <center x="1.167372" y="0.8958678" z="-0.205233" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorextpistonbleft" group="door3" tags="part animation" parent="doorextpistonaleft">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="-0.06244516" y="1.004694" z="-0.001296997" />
+          <quaternion qx="-0.1467077" qy="0.00662289" qz="-0.01332593" qw="-0.989068" />
+        </offset>
+        <parts>
+          <part name="doorextpistonbleft">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Glows_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="10" ref="generic.defender_glss" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.312162" y="1.657888" z="0.6076312" />
+              <center x="1.21934" y="0.1176928" z="-0.1115704" />
+            </size>
+            <size_raw>
+              <max x="1.290155" y="1.384473" z="0.505231" />
+              <center x="1.197432" y="0.390409" z="-0.2137491" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForstep000" group="door3" tags="part animation" parent="doorinthull">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="0.1047122" z="4.812193" />
+          <quaternion qx="0.000215739" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="step000">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="13" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.73416" y="1.858703" z="0.4874934" />
+              <center x="0" y="-1.818927" z="0.1005982" />
+            </size>
+            <size_raw>
+              <max x="0.73416" y="0.09953246" z="0.2286079" />
+              <center x="-1.490116e-08" y="-0.06261849" z="0.168104" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForstep001" group="door3" tags="part animation" parent="doorinthull">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="0.121218" z="4.340783" />
+          <quaternion qx="0.000215739" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="step001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="13" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7341595" y="1.687489" z="0.4561009" />
+              <center x="-5.364418e-07" y="-1.649334" z="0.1212535" />
+            </size>
+            <size_raw>
+              <max x="0.7341595" y="0.09953246" z="0.2285924" />
+              <center x="-5.066395e-07" y="-0.0639545" z="0.1686595" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForstep002" group="door3" tags="part animation" parent="doorinthull">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="0.137724" z="3.869372" />
+          <quaternion qx="0.000215739" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="step002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="13" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.775744" y="1.538175" z="0.4249176" />
+              <center x="0" y="-1.497285" z="0.1403468" />
+            </size>
+            <size_raw>
+              <max x="0.775744" y="0.1214319" z="0.2285924" />
+              <center x="-1.490116e-08" y="-0.082835" z="0.1674595" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForstep003" group="door3" tags="part animation" parent="doorinthull">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="0.15423" z="3.397961" />
+          <quaternion qx="0.000215739" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="step003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="13" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7952145" y="1.362656" z="0.3938226" />
+              <center x="-4.768372e-07" y="-1.324221" z="0.1614089" />
+            </size>
+            <size_raw>
+              <max x="0.7952145" y="0.117126" z="0.2285924" />
+              <center x="-5.215406e-07" y="-0.0807" z="0.1681385" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForstep004" group="door3" tags="part animation" parent="doorinthull">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="0.1707379" z="2.926553" />
+          <quaternion qx="0.000215739" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="step004">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="13" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.818221" y="1.193273" z="0.3629923" />
+              <center x="0" y="-1.154584" z="0.1826642" />
+            </size>
+            <size_raw>
+              <max x="0.818221" y="0.1189559" z="0.2285929" />
+              <center x="1.490116e-08" y="-0.08199099" z="0.168747" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForstep005" group="door3" tags="part animation" parent="doorinthull">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="0.1872428" z="2.455142" />
+          <quaternion qx="0.000215739" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="step005">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="13" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8360915" y="1.022044" z="0.3324677" />
+              <center x="-4.768372e-07" y="-0.9835673" z="0.2036633" />
+            </size>
+            <size_raw>
+              <max x="0.8360915" y="0.1189409" z="0.2285924" />
+              <center x="-4.917383e-07" y="-0.081903" z="0.1687935" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForstep006" group="door3" tags="part animation" parent="doorinthull">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="0.2037499" z="1.983729" />
+          <quaternion qx="0.000215739" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="step006">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="13" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8591905" y="0.8508448" z="0.3024942" />
+              <center x="-5.364418e-07" y="-0.8134978" z="0.2245464" />
+            </size>
+            <size_raw>
+              <max x="0.8591905" y="0.1189559" z="0.2285924" />
+              <center x="-5.066395e-07" y="-0.08276299" z="0.1681725" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForstep007" group="door3" tags="part animation" parent="doorinthull">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="0.2202551" z="1.51232" />
+          <quaternion qx="0.000215739" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="step007">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="13" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.430127" y="0.7279979" z="0.3293908" />
+              <center x="0" y="-0.5938675" z="0.1911697" />
+            </size>
+            <size_raw>
+              <max x="1.430127" y="0.1673224" z="0.2671624" />
+              <center x="2.980232e-08" y="-0.0340615" z="0.1293165" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForstep008" group="door3" tags="part animation" parent="doorinthull">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="0.2367641" z="1.040912" />
+          <quaternion qx="0.000215739" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="step008">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="13" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.906404" y="0.5084035" z="0.2902603" />
+              <center x="0" y="-0.4710971" z="0.2290368" />
+            </size>
+            <size_raw>
+              <max x="0.906404" y="0.1189404" z="0.2285924" />
+              <center x="0" y="-0.0822185" z="0.1676785" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForstep009" group="door3" tags="part animation" parent="doorinthull">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="0.2532699" z="0.5695014" />
+          <quaternion qx="0.000215739" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="step009">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="13" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.9268885" y="0.3371905" z="0.2979579" />
+              <center x="4.768372e-07" y="-0.3005716" z="0.2371736" />
+            </size>
+            <size_raw>
+              <max x="0.9268885" y="0.1189409" z="0.2285929" />
+              <center x="4.917383e-07" y="-0.082622" z="0.168053" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForstep010" group="door3" tags="part animation" parent="doorinthull">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="0.2697761" z="0.0980916" />
+          <quaternion qx="0.000215739" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="step010">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="13" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.939161" y="0.1659763" z="0.3228722" />
+              <center x="0" y="-0.1288912" z="0.2635059" />
+            </size>
+            <size_raw>
+              <max x="0.939161" y="0.1189404" z="0.2285924" />
+              <center x="1.490116e-08" y="-0.0818705" z="0.1694035" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner" tags="part ">
+        <offset>
+          <position x="0.1177275" y="-0.6819282" z="-10.80849" />
+        </offset>
+        <parts>
+          <part name="inner">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="3" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="7" ref="generic.defender_glss" />
+                  <material id="8" ref="generic.banu_defender_mtl_Banu_Cloth" />
+                  <material id="9" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="10" ref="generic.defender_glss" />
+                  <material id="11" ref="generic.banu_defender_mtl_Defender_Bone_LSAO" />
+                  <material id="12" ref="generic.banu_defender_mtl_Holo_Console" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.701369" y="1.513723" z="4.540282" />
+              <center x="-0.1177811" y="0.7014899" z="4.410254" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner001" tags="part ">
+        <offset>
+          <position x="0.1177275" y="-0.6819282" z="-10.80849" />
+        </offset>
+        <parts>
+          <part name="inner001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Banu_Metal_Blue" />
+                  <material id="3" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_Defender_Bone_LSAO" />
+                  <material id="7" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Internal_Pom_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="13" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="14" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="15" ref="generic.banu_defender_mtl_Glows_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.946751" y="2.089104" z="5.290631" />
+              <center x="-0.1177281" y="0.5653185" z="4.144065" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrttscreenright" tags="part ">
+        <offset>
+          <position x="2.929" y="1.072476" z="-2.117689" />
+        </offset>
+        <parts>
+          <part name="rttscreenright">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.016793" y="0.1293247" z="0.07593405" />
+              <center x="-2.92944" y="0.02845198" z="0.0326664" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      
+      <connection name="ConnectionForwingleftarm" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-4.645939" y="0.2079138" z="-4.879261" />
+          <quaternion qx="0.001660339" qy="-0.3823607" qz="0.001110556" qw="-0.924011" />
+        </offset>
+        <parts>
+          <part name="wingleftarm">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="5" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_POM_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.028476" y="0.673659" z="1.044858" />
+              <center x="-1.400681" y="-0.311733" z="1.063632" />
+            </size>
+            <size_raw>
+              <max x="1.028476" y="0.673659" z="1.044858" />
+              <center x="-1.400681" y="-0.311733" z="1.063632" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingleftrotator" tags="part animation" parent="wingleftarm">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-3.381997" y="-0.2419528" z="2.258569" />
+          <quaternion qx="0.112506" qy="0.4671798" qz="0.06198199" qw="-0.8747821" />
+        </offset>
+        <parts>
+          <part name="wingleftrotator">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_POM_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.981405" y="0.817329" z="1.800191" />
+              <center x="-1.559367" y="-0.01154999" z="-0.8976543" />
+            </size>
+            <size_raw>
+              <max x="0.6175873" y="0.8173289" z="0.8229451" />
+              <center x="-0.1983455" y="-0.01155001" z="0.07903397" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwinghullleft1" tags="part animation" parent="wingleftrotator">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="2.823871" y="-2.293336" z="7.633063" />
+          <quaternion qx="-0.001054811" qy="-0.03244942" qz="-0.001696149" qw="-0.9994714" />
+        </offset>
+        <parts>
+          <part name="winghullleft1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Internal_Pom_Int" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="4" ref="generic.defender_glss" />
+                  <material id="5" ref="generic.banu_defender_mtl_Internal_Structure_Alpha" />
+                  <material id="6" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="9" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.542614" y="4.771837" z="17.17714" />
+              <center x="-1.656696" y="0.3412422" z="-5.722078" />
+            </size>
+            <size_raw>
+              <max x="3.882981" y="4.202283" z="11.36239" />
+              <center x="0.0007230639" y="0.01056004" z="0.08393669" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwinghullleft" tags="part animation" parent="wingleftrotator">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="2.823871" y="-2.293336" z="7.633063" />
+          <quaternion qx="-0.001054811" qy="-0.03244942" qz="-0.001696149" qw="-0.9994714" />
+        </offset>
+        <parts>
+          <part name="winghullleft">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Pipe_Glows" />
+                  <material id="4" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="6" ref="generic.defender_glss" />
+                  <material id="7" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="11" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.542614" y="4.771837" z="17.17767" />
+              <center x="-1.656696" y="0.3412422" z="-5.722603" />
+            </size>
+            <size_raw>
+              <max x="3.882981" y="4.202283" z="11.36291" />
+              <center x="0.0007230639" y="0.01056004" z="0.08341265" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordefender_lg_left_wing_skin" tags="part animation" parent="winghullleft">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="2.373863" y="-2.42321" z="7.485242" />
+          <quaternion qx="0.1906537" qy="8.064158e-09" qz="2.371812e-10" qw="-0.9816574" />
+        </offset>
+        <parts>
+          <part name="defender_lg_left_wing_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="11" ref="generic.defender_glss" />
+                  <material id="12" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="13" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.920431" y="1.947643" z="7.134098" />
+              <center x="-0.9993804" y="-1.531323" z="-5.413283" />
+            </size>
+            <size_raw>
+              <max x="0.688159" y="1.234132" z="0.988109" />
+              <center x="0.231393" y="-0.8209079" z="0.723718" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordefender_lg_left_wing_skin1" tags="part animation" parent="defender_lg_left_wing_skin">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-0.09264892" y="-1.898618" z="1.537595" />
+          <quaternion qx="-0.3087707" qy="-7.496756e-09" qz="-4.406256e-09" qw="-0.9511365" />
+        </offset>
+        <parts>
+          <part name="defender_lg_left_wing_skin1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="10" ref="generic.defender_glss" />
+                  <material id="11" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="12" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.471097" y="1.667649" z="9.106623" />
+              <center x="-0.8370843" y="-1.314629" z="-8.271172" />
+            </size>
+            <size_raw>
+              <max x="1.40078" y="0.371719" z="2.562278" />
+              <center x="0.2320245" y="-0.02305114" z="-1.736081" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingleftpiston" tags="part animation" parent="wingleftrotator">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="0.2137403" y="-0.001545832" z="-0.06169535" />
+          <quaternion qx="-0.2108644" qy="-0.5756027" qz="0.2553282" qw="-0.74768" />
+        </offset>
+        <parts>
+          <part name="wingleftpiston">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_POM_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.391053" y="0.3967218" z="1.971406" />
+              <center x="-0.7454162" y="0.05790357" z="-1.503815" />
+            </size>
+            <size_raw>
+              <max x="1.064197" y="0.376307" z="0.9066802" />
+              <center x="0.578722" y="0.03749" z="-0.4397845" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingrightarm" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="4.64594" y="0.2079139" z="-4.879262" />
+          <quaternion qx="-0.924011" qy="-0.001110716" qz="-0.3823607" qw="-0.001658998" />
+        </offset>
+        <parts>
+          <part name="wingrightarm">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="5" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_POM_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.028476" y="0.6736591" z="1.044858" />
+              <center x="1.40068" y="0.311733" z="-1.063634" />
+            </size>
+            <size_raw>
+              <max x="1.028476" y="0.673659" z="1.044858" />
+              <center x="1.400681" y="0.311733" z="-1.063633" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingrightrotator" tags="part animation" parent="wingrightarm">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="3.381991" y="0.2419499" z="-2.258574" />
+          <quaternion qx="0.1125064" qy="0.4671794" qz="0.06198188" qw="-0.8747822" />
+        </offset>
+        <parts>
+          <part name="wingrightrotator">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_POM_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.981406" y="0.8173317" z="1.800177" />
+              <center x="1.559302" y="0.01130656" z="-1.055728" />
+            </size>
+            <size_raw>
+              <max x="0.6175869" y="0.8173292" z="0.8229293" />
+              <center x="0.198279" y="0.01130402" z="-0.07903899" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwinghullright1" tags="part animation" parent="wingrightrotator">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-2.823881" y="2.293334" z="-7.633055" />
+          <quaternion qx="0.9994714" qy="0.001695778" qz="-0.03244948" qw="-0.001054949" />
+        </offset>
+        <parts>
+          <part name="winghullright1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Internal_Pom_Int" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="4" ref="generic.defender_glss" />
+                  <material id="5" ref="generic.banu_defender_mtl_Internal_Structure_Alpha" />
+                  <material id="6" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="9" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.535304" y="4.771871" z="17.17716" />
+              <center x="1.64939" y="0.3412297" z="-5.722052" />
+            </size>
+            <size_raw>
+              <max x="3.882982" y="4.202284" z="11.36238" />
+              <center x="-0.0007305741" y="0.01056051" z="0.08398628" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwinghullright" tags="part animation" parent="wingrightrotator">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-2.823881" y="2.293334" z="-7.633055" />
+          <quaternion qx="0.9994714" qy="0.001695778" qz="-0.03244948" qw="-0.001054949" />
+        </offset>
+        <parts>
+          <part name="winghullright">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Pipe_Glows" />
+                  <material id="4" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="6" ref="generic.defender_glss" />
+                  <material id="7" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="11" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.535304" y="4.771871" z="17.17769" />
+              <center x="1.64939" y="0.3412297" z="-5.722574" />
+            </size>
+            <size_raw>
+              <max x="3.882982" y="4.202284" z="11.36291" />
+              <center x="-0.0007305741" y="0.01056051" z="0.08346176" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordefender_lg_right_wing_skin" tags="part animation" parent="winghullright">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-2.359231" y="-2.423205" z="7.485292" />
+          <quaternion qx="0.1906537" qy="1.541678e-09" qz="9.487247e-10" qw="-0.9816574" />
+        </offset>
+        <parts>
+          <part name="defender_lg_right_wing_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="11" ref="generic.defender_glss" />
+                  <material id="12" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="13" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.912884" y="1.947743" z="7.133198" />
+              <center x="0.9919045" y="-1.531427" z="-5.412381" />
+            </size>
+            <size_raw>
+              <max x="0.6881315" y="1.234133" z="0.988108" />
+              <center x="-0.2313605" y="-0.8209131" z="0.7237215" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordefender_lg_right_wing_skin1" tags="part animation" parent="defender_lg_right_wing_skin">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-10.87957" y="-1.89254" z="1.532371" />
+          <quaternion qx="-0.3087708" qy="-4.023769e-09" qz="-3.182296e-09" qw="-0.9511365" />
+        </offset>
+        <parts>
+          <part name="defender_lg_right_wing_skin1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="10" ref="generic.defender_glss" />
+                  <material id="11" ref="generic.banu_defender_mtl_Hull_Paint_Secondary" />
+                  <material id="12" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.414597" y="1.578156" z="9.833446" />
+              <center x="11.75307" y="-1.231381" z="-8.991557" />
+            </size>
+            <size_raw>
+              <max x="1.400687" y="0.371703" z="2.562305" />
+              <center x="10.74019" y="-0.02912676" z="-1.730886" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingrightpiston" tags="part animation" parent="wingrightrotator">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="0.0906558" y="-0.4750942" z="1.526627" />
+          <quaternion qx="-0.1129745" qy="-0.495359" qz="0.06516092" qw="-0.8588424" />
+        </offset>
+        <parts>
+          <part name="wingrightpiston">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_POM_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.777706" y="0.4075418" z="1.604215" />
+              <center x="1.300436" y="0.09481558" z="-1.162205" />
+            </size>
+            <size_raw>
+              <max x="1.064197" y="0.3763076" z="0.9066805" />
+              <center x="0.5887265" y="0.0637265" z="-0.4657745" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectiontrustthruster" tags="part animation  ">
+        <offset>
+          <position x="-4.873467" y="1.301703" z="-7.681903" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_01"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster001" tags="part animation  ">
+        <offset>
+          <position x="4.87347" y="1.301703" z="-7.681903" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_02"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster002" tags="part animation  ">
+        <offset>
+          <position x="4.87347" y="-0.9311119" z="-7.681903" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_03"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster003" tags="part animation  ">
+        <offset>
+          <position x="-4.87347" y="-0.9311119" z="-7.6819" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_04"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster004" tags="part animation  ">
+        <offset>
+          <position x="-5.913237" y="0.1836141" z="-7.6819" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_05"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster005" tags="part animation  ">
+        <offset>
+          <position x="5.91324" y="0.1836141" z="-7.6819" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_06"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster007" tags="part animation  " parent="winghullleft">
+        <offset>
+          <position x="0.4807105" y="-1.042186" z="5.414164" />
+          <quaternion qx="-0.7903882" qy="-0.05787497" qz="0.03398408" qw="-0.6089188" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_07"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster008" tags="part animation  " parent="winghullleft">
+        <offset>
+          <position x="0.3328295" y="-2.685668" z="5.025695" />
+          <quaternion qx="0.6089188" qy="-0.03398407" qz="-0.05787497" qw="-0.7903882" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_08"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster011" tags="part animation  " parent="winghullleft">
+        <offset>
+          <position x="-0.9796107" y="-1.851231" z="5.482691" />
+          <quaternion qx="-0.0787893" qy="-0.745583" qz="-0.1026802" qw="-0.653724" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_09"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster006" tags="part animation  " parent="winghullright">
+        <offset>
+          <position x="-0.4806936" y="-1.04216" z="5.414176" />
+          <quaternion qx="-0.7903877" qy="0.05787527" qz="-0.03398316" qw="-0.6089194" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_10"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster009" tags="part animation  " parent="winghullright">
+        <offset>
+          <position x="-0.3328185" y="-2.685643" z="5.025709" />
+          <quaternion qx="0.6089194" qy="0.03398316" qz="0.05787527" qw="-0.7903877" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_11"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster010" tags="part animation  " parent="winghullright">
+        <offset>
+          <position x="0.9796264" y="-1.851207" z="5.482701" />
+          <quaternion qx="-0.07878809" qy="0.7455828" qz="0.1026802" qw="-0.6537244" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_12"/>
+				</parts>
+      </connection>
+
+      <connection name="Connectionchiar01" group="pilotcontrol" tags="part ui">
+				<offset>
+          <position x="-2.59475" y="0.147776" z="-2.91623" />
+        </offset>
+				<parts>
+					<part ref="defender_seat.seat" name="seat"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="seat_mesh">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar02" tags="part iklink ui" group="pilotcontrol" parent="seat">
+				<parts>
+					<part ref="defender_seat.seat_mesh" name="seat_mesh"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair ">
+				<offset>
+					<position x="-2.59475" y="-0.427659" z="-4.32914" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor " >
+				<offset>
+					<position x="-2.59475" y="1.30539" z="-2.97873" />
+				</offset>
+			</connection>
+
+      <connection name="Connectionchiar03" tags="part">
+				<offset>
+          <position x="2.59475" y="0.147776" z="-2.91623" />
+        </offset>
+				<parts>
+					<part ref="defender_seat.seat" name="seat2"/>
+				</parts>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_defender">
+        <offset>
+          <position x="0" y="0" z="-12.2434" />
+        </offset>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="-3.79606" y="0.123316" z="-16.4776" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_02" tags="countermeasures ">
+				<offset>
+          <position x="3.79606" y="0.123316" z="-16.4776" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="-2.59542" y="1.34318" z="-2.87164" />
+				</offset>
+			</connection>
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="-2.59542" y="1.34318" z="-2.87164" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-4.30565" z="10"/>
+				</offset>
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="1" z="-1.5" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_storage01" tags="storage ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      <connection name="con_npc_stand_01" tags="npc_waypoint stand npctransport ">
+        <offset>
+          <position x="0" y="-1.43759" z="-9.6428" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="weapon small platformcollision aegs_weapon_s3 unfixed symmetry symmetry_1" parent="winghullright">
+				<offset>
+          <position x="-3.605495" y="-2.463265" z="8.848623" />
+          <quaternion qx="-0.1283175" qy="0.06495371" qz="0.01689427" qw="-0.9894596" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="weapon small platformcollision aegs_weapon_s3 unfixed symmetry symmetry_2" parent="winghullleft">
+				<offset>
+          <position x="3.605511" y="-2.463304" z="8.84861" />
+          <quaternion qx="-0.1283183" qy="-0.06495415" qz="-0.01689342" qw="-0.9894595" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield small aegs_s1 civilian" hidden="true">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield small aegs_s1 industrial" hidden="true">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_03" tags="component shield small aegs_s1 millitary" hidden="true">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+    </connections>
+  </component>
+</components>

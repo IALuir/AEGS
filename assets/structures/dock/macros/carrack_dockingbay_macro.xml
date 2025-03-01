@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Matthias (192.168.3.69) at 19.06.2020_13-29-37-->
+<macros>
+  <macro name="carrack_dockingbay_macro" class="dockingbay">
+    <component ref="carrack_dockingbay" />
+    <properties>
+      <identification name="{20104, 70001}" description="{20104, 70002}" />
+      <translationspeed max="5" />
+      <translationacceleration max="2" />
+      <dock capacity="1" external="1"/>
+      <docksize tags="dock_aegs_p52 dock_aegs_c8" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="caterpillar_engine_macro" class="engine">
+    <component ref="caterpillar_engine" />
+    <properties>
+      <identification name="{996670,1}" basename="{996670,1}" shortname="{996670,1}" makerrace="terran" description="{996670,2}" mk="1" />
+      <boost duration="19" thrust="10.5" attack="0.13" release="0" />
+      <travel charge="0" thrust="35" attack="29" release="1" />
+      <thrust forward="2414" reverse="3688" />
+      <angular />
+      <hull integrated="1" />
+      <effects>
+        <boosting ref="aegs_m_boost_fx_macro" />
+      </effects>
+      <sounds>
+        <enginedetail ref="enginedetail_ship_terran_s_01" />
+      </sounds>
+    </properties>
+  </macro>
+</macros>

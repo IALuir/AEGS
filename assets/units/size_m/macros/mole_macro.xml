@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.120) at 27.11.2018_14-39-59-->
+<macros>
+  <macro name="mole_macro" class="ship_m">
+    <component ref="mole" />
+    <properties>
+      <identification name="{996666,71}" basename="{996666,71}" description="{996666,72}" makerrace="terran" icon="ship_m_mine_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <explosiondamage value="800" shield="3000" />
+      <storage missile="32" unit="0" countermeasure="16" deployable="20"/>
+      <hull max="31500" />
+      <secrecy level="1" />
+      <purpose primary="mine" />
+      <people capacity="2" />
+      <gatherrate gas="12" />
+      <docksize tag="dock_aegs_big_s" />
+      <sounds>
+        <shipdetail ref="shipdetail_ship_m_03" />
+      </sounds>
+      <physics mass="25.57">
+        <inertia pitch="7.65" yaw="6.1" roll="7.65" />
+        <drag forward="8.65" reverse="36.411" horizontal="11.22" vertical="11.22" pitch="18.16" yaw="3.8" roll="21.17" />
+      </physics>
+      <thruster tags="medium" />
+      <enginearticulation y="1" z="1" />
+      <ship type="miner" />
+      <sound_occlusion inside="0.5" />
+    </properties>
+    <connections>
+      <connection ref="con_cockpit">
+        <macro ref="cockpit_gen_virtual_01_macro" connection="ship" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="dock_aegs_xs_macro" connection="Connection_component" />
+      </connection>
+      <connection ref="storage">
+        <macro ref="storage_mole_macro" connection="ShipConnection" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

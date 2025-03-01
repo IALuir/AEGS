@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+    <macro name="missile_s11_seeker_xi_macro" class="missile">
+    <component ref="missile_s12_seeker_xii" />
+    <properties>
+      <identification name="{996669,15}" basename="{996669,15}" description="{996669,16}" />
+      <ammunition value="1" />
+      <missile amount="1" barrelamount="1" lifetime="26" range="16000" guided="1" icon="hud_ms_dumbfire_heavy_mk2" retarget="0" tags="aegs_s11" />
+      <explosiondamage value="69800" />
+      <reload time="20" />
+      <hull max="1024" />
+      <lock time="7" range="16000" angle="60" />
+      <effects>
+        <explosion ref="aegs_missile_explosion_seeker_xi" />
+        <launch ref="missile_torpedo_muzzle" />
+      </effects>
+      <weapon system="torpedo" />
+      <countermeasure resilience="1" />
+      <physics mass="0.682">
+        <inertia pitch="0.906" yaw="0.906" roll="0.906" />
+        <drag forward="0.075" reverse="1.03" horizontal="1.504" vertical="1.504" pitch="0.528" yaw="0.528" roll="0.528" />
+      </physics>
+    </properties>
+    <connections>
+      <connection ref="con_engine01">
+        <macro ref="engine_missile_guided_mk1_macro" connection="ship" />
+      </connection>
+    </connections>
+    </macro>
+</macros>

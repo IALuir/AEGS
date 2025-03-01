@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+    <macro name="missile_s3_arrester_iii_firebrid_macro" class="missile">
+    <component ref="missile_s3_arrester_iii" />
+    <properties>
+      <identification name="{996669,35}" basename="{996669,35}" description="{996669,36}" />
+      <ammunition value="6" reload="12"/>
+      <missile amount="1" barrelamount="1" lifetime="7.2" range="10000" guided="1" icon="hud_ms_smart_heavy_mk1" retarget="0" tags="aegs_s3_firebrid" />
+      <explosiondamage value="753" />
+      <reload rate="6" />
+      <hull max="4" />
+      <lock time="0.1" range="10000" angle="60" />
+      <effects>
+        <explosion ref="aegs_missile_explosion_arrester_iii" />
+        <launch ref="missile_guided_muzzle" />
+      </effects>
+      <weapon system="missile_guided" />
+      <countermeasure resilience="0.99" />
+      <physics mass="0.182">
+        <inertia pitch="0.356" yaw="0.356" roll="0.356" />
+        <drag forward="0.029" reverse="0.68" horizontal="1" vertical="1" pitch="0.208" yaw="0.208" roll="0.208" />
+      </physics>
+    </properties>
+    <connections>
+      <connection ref="con_engine01">
+        <macro ref="engine_missile_guided_mk1_macro" connection="ship" />
+      </connection>
+    </connections>
+    </macro>
+</macros>

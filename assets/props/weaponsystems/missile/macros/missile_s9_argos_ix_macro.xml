@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+    <macro name="missile_s9_argos_ix_macro" class="missile">
+    <component ref="missile_s9_argos_ix" />
+    <properties>
+      <identification name="{996669,5}" basename="{996669,5}" description="{996669,6}" />
+      <ammunition value="1" />
+      <missile amount="1" barrelamount="1" lifetime="21.6" range="16000" guided="1" icon="hud_ms_dumbfire_heavy_mk2" retarget="0" tags="aegs_s9" />
+      <explosiondamage value="16345" />
+      <reload time="9" />
+      <hull max="256" />
+      <lock time="5" range="16000" angle="60" />
+      <effects>
+        <explosion ref="aegs_missile_explosion_argos_ix" />
+        <launch ref="missile_torpedo_muzzle" />
+      </effects>
+      <weapon system="torpedo" />
+      <countermeasure resilience="1" />
+      <physics mass="0.482">
+        <inertia pitch="0.706" yaw="0.706" roll="0.706" />
+        <drag forward="0.064" reverse="0.93" horizontal="1" vertical="1" pitch="0.448" yaw="0.448" roll="0.448" />
+      </physics>
+    </properties>
+    <connections>
+      <connection ref="con_engine01">
+        <macro ref="engine_missile_guided_mk1_macro" connection="ship" />
+      </connection>
+    </connections>
+    </macro>
+</macros>

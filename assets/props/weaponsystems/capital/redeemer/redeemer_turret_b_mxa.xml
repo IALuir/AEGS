@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-01 17:25:46 from Blender-->
+<components>
+  <component name="redeemer_turret_b_mxa" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\redeemer\redeemer_turret_b_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForturret_body" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="turret_body">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="9" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="10" ref="generic.aegs_redeemer_mtl_decals_pom_blended" />
+                  <material id="11" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6433625" y="0.8385675" z="1.31705" />
+              <center x="0.006603464" y="0.8376105" z="0.1065066" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      
+      <connection name="ConnectionFormxa_core" tags="part " parent="turret_body">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-5.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-0.499685" y="1.039547" z="0" />
+        </offset>
+        <parts>
+          <part name="mxa_core">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01.001" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.106313" y="0.1624245" z="1.505669" />
+              <center x="0.4996849" y="-0.01212601" z="0.8377719" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="mxa_laser" tags="laser" parent="mxa_core">
+        <offset>
+          <position x="-0.4056663" y="0" z="2.376265" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="mxa_laser001" tags="laser" parent="mxa_core">
+        <offset>
+          <position x="1.404945" y="0" z="2.376265" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      
+
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_redeemer_b">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

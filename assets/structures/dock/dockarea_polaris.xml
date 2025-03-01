@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<components>
+	<component name="dockarea_polaris" class="dockarea">
+		<source geometry="extensions\aegs\assets\structures\dock\dockarea_aegs_s_javelin_data"/>
+		<layers>
+      <layer>
+        <waypoints>
+          <waypoint name="XU_Waypoint01" tags="dockpath start" x="0" y="20" z="-60">
+            <links>
+              <link ref="XU_Waypoint02" />
+            </links>
+          </waypoint>
+          <waypoint name="XU_Waypoint02" tags="dockpath end" x="0" y="20" z="-26">
+          </waypoint>
+        </waypoints>
+      </layer>
+    </layers>
+		<connections>
+			<connection name="position" tags="position" value="1" />
+      		<connection name="con_dockarea_01" tags="component dockarea " />
+
+			<connection name="con_launchpos_01" group="group_01" tags="launchpos ">
+				<offset>
+					<position x="0" y="20" z="-26" />
+				</offset>
+			</connection>
+			<connection name="con_todock_01" group="group_01" tags="todock ">
+				<offset>
+					<position x="0" y="20" z="-26" />
+				</offset>
+			</connection>
+
+      		<connection name="con_entrypos" tags="entrypos  ">
+				<offset>
+					<position x="0" y="20" z="-100"/>
+				</offset>
+			</connection>
+
+			<connection name="01_macro" tags="dockingbay" group="dockingbay_04">
+				<offset/>
+			</connection>
+		</connections>
+	</component>
+</components>

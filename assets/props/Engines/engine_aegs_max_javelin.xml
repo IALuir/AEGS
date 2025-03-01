@@ -1,0 +1,590 @@
+<?xml version="1.0"?>
+<components>
+	<component name="engine_aegs_max_javelin" class="engine">
+		<source geometry="extensions\AEGS\assets\props\Engines\engine_aegs_max_javelin_data" />
+		<connections>
+      
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      
+      <connection name="ConnectionForpart_animal_fx" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+       <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.647171" y="2.469672" z="12.9526" />
+              <center x="-96.70328" y="7.856507" z="-6.619806" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx001" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+       <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal_fx001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.647171" y="2.469672" z="12.9526" />
+              <center x="96.31974" y="7.856507" z="-6.619806" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx002" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+       <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal_fx002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.647171" y="2.469672" z="12.95261" />
+              <center x="70.5814" y="7.856509" z="-20.86313" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx003" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+       <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal_fx003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.647171" y="2.469672" z="12.95261" />
+              <center x="70.5814" y="-9.343303" z="-20.86313" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx004" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+       <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal_fx004">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.647171" y="2.469672" z="12.9526" />
+              <center x="96.31974" y="-9.353831" z="-6.619806" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx005" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+       <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal_fx005">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.647171" y="2.469672" z="12.9526" />
+              <center x="-96.70328" y="-9.34122" z="-6.619806" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx006" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+       <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal_fx006">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.647171" y="2.469672" z="12.95261" />
+              <center x="-71.01838" y="-9.34122" z="-20.86958" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx007" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+       <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal_fx007">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.647171" y="2.469672" z="12.95261" />
+              <center x="-71.01838" y="7.80766" z="-20.86958" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx008" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+       <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal_fx008">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.56499" y="7.528992" z="15.54313" />
+              <center x="-35.92132" y="21.43225" z="-78.00622" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx009" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+       <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal_fx009">fx
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.56499" y="7.528991" z="15.54313" />
+              <center x="35.95001" y="21.40901" z="-78.00622" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx010" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+       <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal_fx010">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.56499" y="7.528991" z="15.54313" />
+              <center x="35.92134" y="-21.43228" z="-78.00625" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx011" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+       <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal_fx011">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.56499" y="7.528991" z="15.54313" />
+              <center x="-35.95006" y="-21.40901" z="-78.00625" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx" tags="part ">
+        <parts>
+          <part name="part_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.616081" y="1.361263" z="0.8804626" />
+              <center x="-71.04637" y="7.866984" z="-13.24072" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx001" tags="part ">
+        <parts>
+          <part name="part_fx001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.616081" y="1.361263" z="0.8804626" />
+              <center x="-96.74815" y="7.866984" z="1.012665" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx002" tags="part ">
+        <parts>
+          <part name="part_fx002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.616081" y="1.361263" z="0.8804626" />
+              <center x="70.53767" y="7.866984" z="-13.24072" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx003" tags="part ">
+        <parts>
+          <part name="part_fx003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.616081" y="1.361263" z="0.8804626" />
+              <center x="96.23946" y="7.866984" z="1.012421" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx004" tags="part ">
+        <parts>
+          <part name="part_fx004">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.616081" y="1.361262" z="0.8804626" />
+              <center x="-71.04637" y="-9.300311" z="-13.24072" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx005" tags="part ">
+        <parts>
+          <part name="part_fx005">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.616081" y="1.361262" z="0.8804626" />
+              <center x="-96.74815" y="-9.300311" z="1.012665" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx006" tags="part ">
+        <parts>
+          <part name="part_fx006">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.616081" y="1.361262" z="0.8804626" />
+              <center x="96.23946" y="-9.300311" z="1.012421" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx007" tags="part ">
+        <parts>
+          <part name="part_fx007">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.616081" y="1.361262" z="0.8804626" />
+              <center x="70.53767" y="-9.300311" z="-13.24072" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx008" tags="part ">
+        <parts>
+          <part name="part_fx008">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.616081" y="1.361262" z="0.8804626" />
+              <center x="-71.9976" y="-0.0230903" z="229.987" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx009" tags="part ">
+        <parts>
+          <part name="part_fx009">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.616081" y="1.361262" z="0.8804626" />
+              <center x="71.49897" y="-0.0230903" z="229.9869" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      
+      <connection name="ConnectionForrear_engine_fx" tags="part ">
+        <parts>
+          <part name="rear_engine_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.56311" y="7.72736" z="0.9160233" />
+              <center x="35.85864" y="21.40061" z="-67.41868" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrear_engine_fx001" tags="part ">
+        <parts>
+          <part name="rear_engine_fx001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.56311" y="7.727357" z="0.9160233" />
+              <center x="-35.80916" y="21.42918" z="-67.41868" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrear_engine_fx002" tags="part ">
+        <parts>
+          <part name="rear_engine_fx002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.56311" y="7.72736" z="0.9160233" />
+              <center x="-35.85865" y="-21.40059" z="-67.41872" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrear_engine_fx003" tags="part ">
+        <parts>
+          <part name="rear_engine_fx003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.56311" y="7.727356" z="0.9160233" />
+              <center x="35.80921" y="-21.42914" z="-67.41872" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="EngineConnection01" tags="engine large component javelin">
+				  <offset/>
+			</connection>
+    </connections>
+	</component>
+</components>

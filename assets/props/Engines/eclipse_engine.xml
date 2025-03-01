@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-10 21:36:08 from Blender-->
+<components>
+  <component name="eclipse_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\eclipse_engine_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForfx" tags="part ">
+        <parts>
+          <part name="fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.474196" y="0.04" z="0" />
+              <center x="0" y="0.007337987" z="-0.0647887" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.516611" y="0.03560814" z="4.458619" />
+              <center x="0" y="0.005569691" z="-4.565283" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForthruster_main_left" tags="part ">
+        <parts>
+          <part name="thruster_main_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.710532" y="0.06430259" z="0.06845374" />
+              <center x="-0.9682649" y="0.004034137" z="-0.09368207" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForthruster_main_right" tags="part ">
+        <parts>
+          <part name="thruster_main_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7105319" y="0.06430259" z="0.06845375" />
+              <center x="0.968261" y="0.004033135" z="-0.09368297" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_eclipse">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

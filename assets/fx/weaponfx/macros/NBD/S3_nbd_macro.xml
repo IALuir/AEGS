@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Alexei (192.168.3.58) at 08.11.2019_12-35-16-->
+<macros>
+  <macro name="S3_nbd_macro" class="bullet">
+    <component ref="bullet_blue_s" />
+    <properties>
+      <ammunition value="20" reload="0.25" />
+      <bullet speed="2100" lifetime="1.4" amount="1" barrelamount="1" icon="weapon_ion_mk2" timediff="0.008" angle="0.02" maxhits="1" ricochet="0" scale="0" attach="0" />
+      <heat value="285" />
+      <reload rate="5.2" />
+      <damage value="51.5" shield="5.15" repair="0" />
+      <effects>
+        <impact ref="impact_arg_m_ion_01_mk1" inside="impact_arg_m_ion_01_mk1_inside" />
+        <bigobjectimpact ref="impact_arg_m_ion_01_mk1_bigobject" inside="impact_arg_m_ion_01_mk1_bigobject_inside" />
+        <launch ref="launch_aegs_nnxa_small" />
+      </effects>
+      <weapon system="weapon_standard" />
+    </properties>
+  </macro>
+</macros>

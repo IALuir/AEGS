@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-01-06 10:55:30 from Blender-->
+<components>
+  <component name="f7a_turret_mxa" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\f7\f7a_turret_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForanvl_hornet_ball_turret" tags="part nocollision">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="anvl_hornet_ball_turret">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="2" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.bigbox_mtl_decals" />
+                  <material id="5" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.873542" y="0.7211825" z="1.872801" />
+              <center x="-0.002441019" y="0.7214007" z="-0.01069099" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForgunmount" tags="part nocollision" parent="anvl_hornet_ball_turret">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-5.0 "/>
+							<max value="90"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-0.42825" y="1.106926" z="-0.112067" />
+        </offset>
+        <parts>
+          <part name="gunmount">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.032553" y="0.307016" z="0.2857755" />
+              <center x="0.4282505" y="-0.114347" z="0.0313005" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormxa" tags="part nocollision" parent="gunmount">
+        <offset>
+          <position x="-0.3033988" y="-0.3508891" z="0.01497013" />
+        </offset>
+        <parts>
+          <part name="mxa">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.9061993" y="0.3045491" z="1.505669" />
+              <center x="0.7316488" y="0.3020786" z="0.8377719" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="mxa">
+        <offset>
+          <position x="5.960464e-08" y="0.4056664" z="2.376265" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-7.549791e-08" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="mxa">
+        <offset>
+          <position x="1.475492" y="0.4056664" z="2.376265" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-7.549791e-08" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_f7a">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

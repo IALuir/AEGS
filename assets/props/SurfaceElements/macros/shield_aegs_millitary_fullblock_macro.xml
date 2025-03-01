@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="shield_aegs_millitary_fullblock_macro" class="shieldgenerator">
+    <component ref="shield_aegs_millitary_fullblock" />
+    <properties>
+      <identification name="{996678,21}" basename="{996678,21}" shortname="{996678,21}" makerrace="terran" description="{996678,22}" mk="1" />
+      <recharge max="101500" rate="385" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

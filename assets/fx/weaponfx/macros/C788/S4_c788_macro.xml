@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Alexei (192.168.3.58) at 08.11.2019_12-35-16-->
+<macros>
+  <macro name="S4_c788_macro" class="bullet">
+    <component ref="bullet_gen_s_cannon_01_mk2" />
+    <properties>
+      <ammunition value="8" reload="4" />
+      <bullet speed="1050" lifetime="3" amount="1" barrelamount="1" icon="weapon_cannon_mk2" timediff="0.007" angle="0.04" maxhits="1" ricochet="1" restitution="1" scale="0" attach="0" />
+      <reload rate="0.87" />
+      <heat value="250" />
+      <areadamage value="320" range="50" falloff="1" lifetime="1" />
+      <damage value="320" hull="80" repair="0" />
+      <effects>
+        <impact ref="explosion_flak" />
+        <launch ref="launch_aegs_xsgc_small" />
+      </effects>
+      <weapon system="weapon_standard" />
+    </properties>
+  </macro>
+</macros>

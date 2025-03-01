@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-16 14:14:53 from Blender-->
+<components>
+  <component name="retaliator_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\retaliator_engine_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForpart_animal_fx" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.77648" y="2.041077" z="3.811862" />
+              <center x="-3.755093e-06" y="0.1000553" z="-3.976208" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForthruster_fx" tags="part ">
+        <parts>
+          <part name="thruster_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.481526" y="1.967818" z="0.01174363" />
+              <center x="5.960464e-08" y="0.04335451" z="0.1222789" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForthruster_main_left" tags="part ">
+        <parts>
+          <part name="thruster_main_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.sabre_mtl_emissives_linked" />
+                  <material id="3" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="4" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="6" ref="generic.retaliator_mtl_metals_temp" />
+                  <material id="7" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.125416" y="3.129097" z="4.875723" />
+              <center x="-3.225304" y="-0.003316402" z="0.01884937" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForthruster_main_right" tags="part ">
+        <parts>
+          <part name="thruster_main_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.sabre_mtl_emissives_linked" />
+                  <material id="3" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="4" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="6" ref="generic.retaliator_mtl_metals_temp" />
+                  <material id="7" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.125417" y="3.129097" z="4.875696" />
+              <center x="3.225303" y="-0.003316402" z="0.01882458" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="con_engine_01" tags="engine small component aegs_retaliator">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

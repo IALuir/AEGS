@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-10 18:51:16 from Blender-->
+<components>
+  <component name="sabre_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\sabre_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="positional" />
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForseat" tags="part ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation ">
+        <parts>
+          <part name="seat">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="5" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="7" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.327952" y="0.74279" z="0.5635545" />
+              <center x="9.909272e-07" y="0.8376796" z="-0.1909766" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseat_mesh" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="seat">
+        <parts>
+          <part name="seat_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="5" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="7" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.327952" y="0.74279" z="0.5635545" />
+              <center x="9.909272e-07" y="0.8376796" z="-0.1909766" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

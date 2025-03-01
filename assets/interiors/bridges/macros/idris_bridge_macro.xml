@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Volodymyr (192.168.3.68) on 2023-03-14 19:18:33-->
+<macros>
+  <macro name="idris_bridge_macro" class="cockpit">
+    <component ref="idris_bridge" />
+    <properties>
+      <identification name="{20109,5501}" />
+      <sound_occlusion inside="0.2" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-06-07 23:26:52 from Blender-->
+<components>
+  <component name="carrack_seat2" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\carrack_seat2_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForseat" tags="part ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation ">
+        <parts>
+          <part name="seat">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="2" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="3" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Atlas_leather" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="6" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Decals_Opaque" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3736159" y="0.7700845" z="0.4314714" />
+              <center x="-1.005828e-06" y="0.6261916" z="-0.0428155" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseat_mesh" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="seat">
+        <parts>
+          <part name="seat_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="2" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="3" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Atlas_leather" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="6" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Decals_Opaque" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3736159" y="0.7700845" z="0.4314714" />
+              <center x="-1.005828e-06" y="0.6261916" z="-0.0428155" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

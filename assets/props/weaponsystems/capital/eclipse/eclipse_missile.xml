@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-10 23:11:22 from Blender-->
+<components>
+  <component name="eclipse_missile" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\eclipse\eclipse_missile_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForbay_door_left_03" tags="part animation nocollision">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="80" end="240"/>
+					<animation name="gun_firing" start="80" end="80"/>
+				</animations>
+        <offset>
+          <position x="-1.604356" y="-1.464094" z="-2.476149" />
+          <quaternion qx="0.681075" qy="0.1885666" qz="-0.1879037" qw="-0.6821083" />
+        </offset>
+        <parts>
+          <part name="bay_door_left_03">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.0736112" y="4.04682" z="0.0530411" />
+              <center x="-0.001646042" y="0.0751071" z="-0.01127219" />
+            </size>
+            <size_raw>
+              <max x="0.07361118" y="4.04682" z="0.05304113" />
+              <center x="-0.001645999" y="0.07510695" z="-0.011272" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbay_door_left_02" tags="part nocollision" parent="bay_door_left_03">
+        <offset>
+          <position x="1.192093e-07" y="0" z="-1.192093e-07" />
+          <quaternion qx="8.834474e-07" qy="-0.0006443795" qz="-0.0006468105" qw="-0.9999996" />
+        </offset>
+        <parts>
+          <part name="bay_door_left_02">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3920715" y="4.571356" z="0.0763135" />
+              <center x="0.3388768" y="0.2463859" z="0.009942055" />
+            </size>
+            <size_raw>
+              <max x="0.3920711" y="4.571356" z="0.07631306" />
+              <center x="0.338877" y="0.2463861" z="0.009942118" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbay_door_left_01" tags="part animation nocollision" parent="bay_door_left_02">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="80" end="240"/>
+					<animation name="gun_firing" start="80" end="80"/>
+				</animations>
+        <offset>
+          <position x="0.6832797" y="-0.0008847713" z="0.03951809" />
+          <quaternion qx="0.316315" qy="0.6324119" qz="0.63282" qw="-0.315497" />
+        </offset>
+        <parts>
+          <part name="bay_door_left_01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.233997" y="0.7131922" z="4.767611" />
+              <center x="-1.068492" y="-0.665377" z="0.1406505" />
+            </size>
+            <size_raw>
+              <max x="0.6424776" y="0.1791298" z="4.766719" />
+              <center x="-0.5947304" y="-0.1313146" z="0.1413639" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbay_door_right_03" tags="part animation nocollision">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="80" end="240"/>
+					<animation name="gun_firing" start="80" end="80"/>
+				</animations>
+        <offset>
+          <position x="1.604359" y="-1.464093" z="-2.476148" />
+          <quaternion qx="0.6810747" qy="-0.188566" qz="0.1879043" qw="-0.6821086" />
+        </offset>
+        <parts>
+          <part name="bay_door_right_03">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.07361048" y="4.046815" z="0.0530411" />
+              <center x="0.001646399" y="0.07510674" z="-0.01127195" />
+            </size>
+            <size_raw>
+              <max x="0.07361049" y="4.046815" z="0.05304107" />
+              <center x="0.0016465" y="0.07510695" z="-0.011272" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbay_door_right_02" tags="part nocollision" parent="bay_door_right_03">
+        <offset>
+          <position x="-4.768372e-07" y="-1.430511e-06" z="-8.34465e-07" />
+          <quaternion qx="5.752362e-07" qy="-1.341101e-07" qz="-3.640301e-07" qw="-1" />
+        </offset>
+        <parts>
+          <part name="bay_door_right_02">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3920732" y="4.57136" z="0.0780735" />
+              <center x="-0.3388766" y="0.2463866" z="0.008183241" />
+            </size>
+            <size_raw>
+              <max x="0.3920719" y="4.571359" z="0.07807302" />
+              <center x="-0.338877" y="0.2463865" z="0.008183271" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbay_door_right_01" tags="part animation nocollision" parent="bay_door_right_02">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="80" end="240"/>
+					<animation name="gun_firing" start="80" end="80"/>
+				</animations>
+        <offset>
+          <position x="-0.6833307" y="-7.152557e-07" z="0.03863686" />
+          <quaternion qx="0.3163141" qy="-0.6324127" qz="-0.6324114" qw="-0.3163146" />
+        </offset>
+        <parts>
+          <part name="bay_door_right_01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.233999" y="0.7158225" z="4.767614" />
+              <center x="1.068496" y="-0.6680073" z="0.1406524" />
+            </size>
+            <size_raw>
+              <max x="0.6424782" y="0.1817593" z="4.766724" />
+              <center x="0.5947315" y="-0.1339435" z="0.1413651" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortorpedo_bay_housing" tags="part nocollision">
+        <offset>
+          <position x="2.883697e-06" y="0.756158" z="-3.129075" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-1.506009e-06" />
+        </offset>
+        <parts>
+          <part name="torpedo_bay_housing">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="5" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.784174" y="1.348786" z="5.016351" />
+              <center x="-1.490116e-06" y="-1.094529" z="-0.466887" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortorpedo_bay_32" tags="part animation nocollision" parent="torpedo_bay_housing">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="80" end="240"/>
+					<animation name="gun_firing" start="80" end="80"/>
+				</animations>
+        <offset>
+          <position x="0.002842456" y="-0.313186" z="-0.2536521" />
+          <quaternion qx="0.4940522" qy="0.4940492" qz="0.5058793" qw="-0.5058792" />
+        </offset>
+        <parts>
+          <part name="torpedo_bay_32">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6338391" y="0.4539935" z="0.235023" />
+              <center x="0.5083461" y="5.066395e-07" z="-0.02293396" />
+            </size>
+            <size_raw>
+              <max x="0.6338391" y="0.4539935" z="0.235023" />
+              <center x="0.508346" y="5.066395e-07" z="-0.022934" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortorpedo_bay_33" tags="part animation nocollision" parent="torpedo_bay_32">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="80" end="240"/>
+					<animation name="gun_firing" start="80" end="80"/>
+				</animations>
+        <offset>
+          <position x="0.9936292" y="-0.3094984" z="-0.1092649" />
+          <quaternion qx="0.9997202" qy="4.105755e-07" qz="0.02365293" qw="-2.224617e-07" />
+        </offset>
+        <parts>
+          <part name="torpedo_bay_33">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6338392" y="0.7775562" z="0.4177357" />
+              <center x="-0.4852762" y="-0.6330632" z="0.2688899" />
+            </size>
+            <size_raw>
+              <max x="0.6338391" y="0.4539935" z="0.235023" />
+              <center x="-0.485276" y="-0.3095005" z="0.08617759" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortorpedo_bay_44" tags="part animation nocollision" parent="torpedo_bay_33">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="80" end="240"/>
+					<animation name="gun_firing" start="80" end="80"/>
+				</animations>
+        <offset>
+          <position x="-1.754599" y="-0.3095015" z="0.09110472" />
+          <quaternion qx="-0.5058795" qy="0.505878" qz="0.4940523" qw="-0.4940503" />
+        </offset>
+        <parts>
+          <part name="torpedo_bay_44">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3849921" y="0.9943109" z="1.148002" />
+              <center x="-1.082662e-06" y="-0.4476109" z="-0.03241992" />
+            </size>
+            <size_raw>
+              <max x="0.384991" y="0.3294779" z="1.115584" />
+              <center x="-7.450581e-09" y="0.217222" z="-2.503395e-06" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForasim20_clearsky_base" tags="part nocollision" parent="torpedo_bay_44">
+        <offset>
+          <position x="-0.002842324" y="0.9178212" z="-0.06881142" />
+          <quaternion qx="-4.591062e-07" qy="4.439541e-07" qz="0.8870105" qw="-0.4617493" />
+        </offset>
+        <parts>
+          <part name="asim20_clearsky_base">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.taln_retaliator_s9_mtl_metal_painted" />
+                  <material id="2" ref="generic.taln_retaliator_s9_mtl_decals_pom" />
+                  <material id="3" ref="generic.taln_retaliator_s9_mtl_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4558706" y="1.118002" z="4.45319" />
+              <center x="-0.001297764" y="-0.6648321" z="-0.5018764" />
+            </size>
+            <size_raw>
+              <max x="0.4558697" y="0.4531693" z="4.420768" />
+              <center x="-0.00129699" y="5.066395e-07" z="-0.4694569" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortorpedo_bay_37" tags="part animation nocollision" parent="torpedo_bay_housing">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="80" end="240"/>
+					<animation name="gun_firing" start="80" end="80"/>
+				</animations>
+        <offset>
+          <position x="0.002836826" y="-0.313186" z="-1.77603" />
+          <quaternion qx="0.5056488" qy="-0.5056485" qz="-0.4942884" qw="-0.4942853" />
+        </offset>
+        <parts>
+          <part name="torpedo_bay_37">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.633839" y="0.453993" z="0.235023" />
+              <center x="0.508347" y="1.013279e-06" z="-0.02293503" />
+            </size>
+            <size_raw>
+              <max x="0.6338391" y="0.453993" z="0.235023" />
+              <center x="0.508347" y="9.983778e-07" z="-0.022935" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortorpedo_bay_38" tags="part animation nocollision" parent="torpedo_bay_housing">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="80" end="240"/>
+					<animation name="gun_firing" start="80" end="80"/>
+				</animations>
+        <offset>
+          <position x="0.002837148" y="-0.5785053" z="-1.776272" />
+          <quaternion qx="-0.5061057" qy="-0.5061094" qz="0.4938172" qw="-0.4938166" />
+        </offset>
+        <parts>
+          <part name="torpedo_bay_38">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6338392" y="1.107787" z="0.2439945" />
+              <center x="0.5083472" y="-0.6537944" z="-0.03118849" />
+            </size>
+            <size_raw>
+              <max x="0.6338392" y="0.4539935" z="0.2353896" />
+              <center x="0.508347" y="-5.066395e-07" z="-0.0225835" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_turret_miss_m" tags="turret medium component combat aegs_eclipse">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-07-28 17:18:26 from Blender-->
+<components>
+  <component name="defender_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\defender_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForseat" tags="part ui iklink detail_xl chair platformcollision chairreservation">
+        <parts>
+          <part name="seat">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Banu_Cloth" />
+                  <material id="4" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.401329" y="0.6024849" z="0.4573695" />
+              <center x="7.450581e-09" y="0.7242334" z="-0.0157645" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseat_mesh" tags="part ui detail_xl chair chairreservation " parent="seat">
+        <parts>
+          <part name="seat_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Banu_Cloth" />
+                  <material id="4" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_Metal_Banu_Clean_Int" />
+                  <material id="7" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Poly_Matte_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.401329" y="0.6024849" z="0.4573695" />
+              <center x="7.450581e-09" y="0.7242334" z="-0.0157645" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

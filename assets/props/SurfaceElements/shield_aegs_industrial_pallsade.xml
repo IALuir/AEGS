@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<components>
+  <component name="shield_aegs_industrial_pallsade" class="shieldgenerator">
+    <connections>
+      <connection name="ParentConnection" tags="component shield small aegs_s1 industrial" />
+    </connections>
+    <properties>
+      <recharge />
+    </properties>
+  </component>
+</components>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-01-26 01:17:13 from Blender-->
+<components>
+  <component name="weapon_sf7e_s7" class="weapon">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\generic\S7\weapon_sf7e_s7_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionFormain" tags="part forceoutline">
+        <restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-2"/>
+							<max value="2"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.01687501" y="0.01687501" z="0.01687501" />
+              <center x="0" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbase_mesh" tags="part forceoutline" parent="main">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-3"/>
+							<max value="3"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <quaternion qx="1.862645e-09" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="base_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_shipweapon_las_can_iii_mtl_pom_mat" />
+                  <material id="2" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="3" ref="generic.behr_shipweapon_las_can_iii_mtl_glow_mat" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Copper_01_A" />
+                  <material id="11" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_shipweapon_las_can_iii_mtl_pom_mat" />
+                  <material id="2" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="3" ref="generic.behr_shipweapon_las_can_iii_mtl_glow_mat" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Copper_01_A" />
+                  <material id="11" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_shipweapon_las_can_iii_mtl_pom_mat" />
+                  <material id="2" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="3" ref="generic.behr_shipweapon_las_can_iii_mtl_glow_mat" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Copper_01_A" />
+                  <material id="11" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_shipweapon_las_can_iii_mtl_pom_mat" />
+                  <material id="2" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="3" ref="generic.behr_shipweapon_las_can_iii_mtl_glow_mat" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Copper_01_A" />
+                  <material id="11" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8531533" y="1.516976" z="7.528757" />
+              <center x="-1.490116e-08" y="-1.506887" z="4.657154" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhindge_bottom_mesh" tags="part animation" parent="base_mesh">
+        <animations>
+					<animation name="weapon_firing" start="0" end="40"/>
+				</animations>
+        <offset>
+          <position x="-1e-06" y="-2.456254" z="2.968911" />
+        </offset>
+        <parts>
+          <part name="hindge_bottom_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_shipweapon_las_can_iii_mtl_pom_mat" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.164155" y="0.104515" z="0.270331" />
+              <center x="1.622197e-09" y="2.861023e-06" z="0.2353089" />
+            </size>
+            <size_raw>
+              <max x="0.164155" y="0.104515" z="0.270331" />
+              <center x="0" y="2.998859e-06" z="0.235309" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlid_bottom_mesh" tags="part animation" parent="hindge_bottom_mesh">
+        <animations>
+					<animation name="weapon_firing" start="0" end="40"/>
+				</animations>
+        <offset>
+          <position x="0" y="2.597507e-05" z="0.4000671" />
+        </offset>
+        <parts>
+          <part name="lid_bottom_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_shipweapon_las_can_iii_mtl_pom_mat" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="3" ref="generic.behr_shipweapon_las_can_iii_mtl_glow_mat" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4656745" y="0.391053" z="4.330345" />
+              <center x="-4.901161e-07" y="-0.216033" z="3.367364" />
+            </size>
+            <size_raw>
+              <max x="0.4656745" y="0.1910065" z="4.130324" />
+              <center x="-4.842877e-07" y="-0.01598652" z="3.567384" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhindge_top_mesh" tags="part animation" parent="base_mesh">
+        <animations>
+					<animation name="weapon_firing" start="0" end="40"/>
+				</animations>
+        <offset>
+          <position x="0" y="-1.141358" z="2.968911" />
+        </offset>
+        <parts>
+          <part name="hindge_top_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_shipweapon_las_can_iii_mtl_pom_mat" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.164155" y="0.104515" z="0.270331" />
+              <center x="0" y="2.980232e-06" z="0.2353089" />
+            </size>
+            <size_raw>
+              <max x="0.164155" y="0.104515" z="0.270331" />
+              <center x="0" y="2.998859e-06" z="0.235309" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlid_top_mesh" tags="part animation" parent="hindge_top_mesh">
+        <animations>
+					<animation name="weapon_firing" start="0" end="40"/>
+				</animations>
+        <offset>
+          <position x="0" y="9.411239e-07" z="0.4000821" />
+        </offset>
+        <parts>
+          <part name="lid_top_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_shipweapon_las_can_iii_mtl_pom_mat" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="3" ref="generic.behr_shipweapon_las_can_iii_mtl_glow_mat" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4656745" y="0.3910472" z="4.330365" />
+              <center x="5.066395e-07" y="0.2160272" z="3.367342" />
+            </size>
+            <size_raw>
+              <max x="0.4656745" y="0.1910065" z="4.130324" />
+              <center x="4.917383e-07" y="0.01598649" z="3.567384" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="base_mesh">
+        <offset>
+          <position x="0" y="-1.809681" z="12.0476" />
+          <quaternion qx="-1.862645e-09" qy="0" qz="0" qw="-1" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="weapon small platformcollision aegs_weapon_s7">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

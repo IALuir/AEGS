@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-27 12:48:21 from Blender-->
+<components>
+  <component name="weapon_vanguard_s2" class="weapon">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\vanguard\weapon_vanguard_s2_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForbehr_las_can_s2" tags="part nocollision">
+        <parts>
+          <part name="behr_las_can_s2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.modular_sofa_set_1_mtl_black_paint" />
+                  <material id="3" ref="generic.powr_aegs_s02_pl01_mtl_gunmetal" />
+                  <material id="4" ref="generic.qdrv_wetk_s02_pl02_mtl_plastic_smooth_grey" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.404744" y="0.264717" z="0.3659725" />
+              <center x="0.0005819947" y="0.001958564" z="0.05937505" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="behr_las_can_s2">
+        <offset>
+          <position x="0.306033" y="0.1630687" z="0.449564" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="behr_las_can_s2">
+        <offset>
+          <position x="-0.306033" y="0.1630687" z="0.449564" />
+        </offset>
+      </connection>
+      <connection name="laser002" tags="laser " parent="behr_las_can_s2">
+        <offset>
+          <position x="0.306033" y="-0.1675363" z="0.449564" />
+        </offset>
+      </connection>
+      <connection name="laser003" tags="laser " parent="behr_las_can_s2">
+        <offset>
+          <position x="-0.306033" y="-0.1675363" z="0.449564" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="weapon small platformcollision aegs_weapon_vanguard">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

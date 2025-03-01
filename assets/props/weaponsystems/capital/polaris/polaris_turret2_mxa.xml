@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-16 00:12:34 from Blender-->
+<components>
+  <component name="polaris_turret2_mxa" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\polaris\polaris_turret2_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForsocket" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="socket">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.091895" y="0.8194975" z="2.24947" />
+              <center x="2.980232e-08" y="0.6433904" z="0.6843075" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      
+      <connection name="ConnectionFormxa_core" tags="part " parent="socket">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-15.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="0" y="0.1457838" z="-0.194393" />
+        </offset>
+        <parts>
+          <part name="mxa_core">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="11" ref="p1.cockpit_glass_outside_01" />
+                  <material id="12" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="13" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="14" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="15" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.096576" y="0.8029696" z="1.924588" />
+              <center x="5.960464e-08" y="0.3280762" z="0.9974483" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="mxa_laser" tags="laser " parent="mxa_core">
+        <offset>
+          <position x="-1.895615" y="-0.03447773" z="2.954861" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="mxa_laser001" tags="laser " parent="mxa_core">
+        <offset>
+          <position x="1.895016" y="-0.03447773" z="2.954861" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="mxa_laser002" tags="laser " parent="mxa_core">
+        <offset>
+          <position x="-1.860068" y="0.8810738" z="2.100147" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="mxa_laser003" tags="laser " parent="mxa_core">
+        <offset>
+          <position x="1.859468" y="0.8810738" z="2.100147" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      
+
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_polaris_s3">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.59) at 13.10.2021_12-11-29-->
+<macros>
+  <macro name="constellation_andromeda_macro" class="ship_m">
+    <component ref="constellation_andromeda" />
+    <properties>
+      <identification name="{996666,55}" basename="{996666,55}" description="{996666,56}" makerrace="terran" icon="ship_m_corvette_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <explosiondamage value="800" shield="3000" />
+      <storage missile="192" unit="0" countermeasure="40" deployable="50"/>
+      <hull max="33000" />
+      <secrecy level="2" />
+      <purpose primary="fight" />
+      <people capacity="4" />
+      <docksize tag="dock_aegs_big_s" />
+      <sounds>
+        <shipdetail ref="shipdetail_ship_m_03" />
+      </sounds>
+      <physics mass="45.5">
+        <inertia pitch="4.412" yaw="3.529" roll="4.412" />
+        <drag forward="29.5" reverse="134" horizontal="10.65" vertical="10.65" pitch="22.52" yaw="10.63" roll="10.1" />
+      </physics>
+      <thruster tags="medium" />
+      <ship type="corvette" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="con_cockpit">
+        <macro ref="cockpit_gen_virtual_01_macro" connection="ship" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="dock_aegs_xs_macro" connection="Connection_component" />
+      </connection>
+
+      <connection ref="con_dockarea_001">
+        <macro ref="constellation_andromeda_dockarea_macro" connection="con_dockarea_01" />
+      </connection>
+
+      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="storage_constellation_andromeda_macro" connection="ShipConnection" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="shield_aegs_civilian_nargun_macro" class="shieldgenerator">
+    <component ref="shield_aegs_civilian_nargun" />
+    <properties>
+      <identification name="{996678,5}" basename="{996678,5}" shortname="{996678,5}" makerrace="terran" description="{996678,6}" mk="1" />
+      <recharge max="60000" rate="365" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

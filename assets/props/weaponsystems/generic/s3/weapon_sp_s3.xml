@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-02 16:02:03 from Blender-->
+<components>
+  <component name="weapon_sp_s3" class="weapon">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\generic\S3\weapon_sp_s3_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionFormain" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-10"/>
+							<max value="10"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.01125" y="0.01125" z="0.01125" />
+              <center x="0" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbase" tags="part " parent="main">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-10"/>
+							<max value="10"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="base">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.jokr_dis_can_I_bas_mat_mtl_L_pipe_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.jokr_dis_can_I_bas_mat_mtl_L_pipe_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.jokr_dis_can_I_bas_mat_mtl_L_pipe_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.jokr_dis_can_I_bas_mat_mtl_L_pipe_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.414954" y="0.481291" z="2.143451" />
+              <center x="0.04338449" y="-0.460376" z="1.167722" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="base">
+        <offset>
+          <position x="0" y="-0.2991682" z="2.243044" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="weapon small platformcollision aegs_weapon_s3">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

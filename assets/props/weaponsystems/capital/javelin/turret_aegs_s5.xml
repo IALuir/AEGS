@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-10-03 16:15:59 from Blender-->
+<components>
+  <component name="turret_aegs_s5" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\javelin\turret_aegs_s5_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForpart_socket" tags="iklink part">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="part_socket" wreck="part_socket_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="2" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="3" ref="generic.aegs_javelin_manned_turret_mtl_ext_dark_flat" />
+                  <material id="4" ref="generic.aegs_idris_turret_large_mtl_decals_pom_a" />
+                  <material id="5" ref="generic.aegs_javelin_manned_turret_mtl_decals_ext" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.aegs_javelin_manned_turret_mtl_glows" />
+                  <material id="8" ref="generic.aegs_javelin_gauntlet_mtl_metals_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.352969" y="2.01215" z="5.116707" />
+              <center x="5.960464e-08" y="-0.5654043" z="-1.598303" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForgun" tags="forceoutline iklink  part" parent="part_socket">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-30.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-2.327922" y="0" z="-0.5732473" />
+        </offset>
+        <parts>
+          <part name="gun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4331321" y="3.945596" z="4.015117" />
+              <center x="0.0323359" y="2.327922" z="2.234059" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="gun">
+        <offset>
+          <position x="-1.081777" y="4.728597e-08" z="6.336706" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="gun">
+        <offset>
+          <position x="5.733353" y="4.728597e-08" z="6.336706" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="con_turret_laser_m" tags="turret medium component combat aegs_javelin_s5">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-01-14 19:22:17 from Blender-->
+<components>
+  <component name="f7c_t" class="storage">
+    <source geometry="extensions\AEGS\assets\units\size_s\inner\f7c_t_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="storage">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForrotodome_bottom" tags="part ">
+        <offset>
+          <position x="0.0001348349" y="-0.4733266" z="-0.9764394" />
+        </offset>
+        <parts>
+          <part name="rotodome_bottom">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="5" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="6" ref="generic.anvl_hornet_f7c_r_mtl_glow" />
+                  <material id="7" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="5" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="6" ref="generic.anvl_hornet_f7c_r_mtl_glow" />
+                  <material id="7" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="5" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="6" ref="generic.anvl_hornet_f7c_r_mtl_glow" />
+                  <material id="7" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="5" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="6" ref="generic.anvl_hornet_f7c_r_mtl_glow" />
+                  <material id="7" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.699895" y="2.287814" z="3.586228" />
+              <center x="-0.0001543164" y="-0.3721095" z="0.1460805" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrotodome_top" tags="part animation" parent="rotodome_bottom">
+        <animations>
+					<animation name="loop" start="0" end="120"/>
+				</animations>
+        <offset>
+          <position x="0.0001703177" y="1.884664" z="1.060796" />
+        </offset>
+        <parts>
+          <part name="rotodome_top">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="2" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="3" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                  <material id="4" ref="generic.banu_defender_mtl_Paint_Dark_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.473638" y="0.7269473" z="2.466835" />
+              <center x="-3.192489e-05" y="0.02224207" z="-0.003775276" />
+            </size>
+            <size_raw>
+              <max x="2.473638" y="0.7269472" z="2.466835" />
+              <center x="-3.21269e-05" y="0.02224207" z="-0.003775358" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

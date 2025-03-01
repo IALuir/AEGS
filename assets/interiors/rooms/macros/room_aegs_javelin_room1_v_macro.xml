@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Volodymyr (192.168.3.68) on 2023-03-14 15:59:28-->
+<macros>
+  <macro name="room_aegs_javelin_room1_v_macro" class="dockarea">
+    <component ref="roomarea_javelin_room1" />
+    <properties>
+      <identification name="{996671,11}" description="{996671,11}" />
+      <hull integrated="1" />
+      <sound_occlusion inside="0.2" outside="0.5" />
+    </properties>
+    <connections>
+      <connection ref="room">
+        <macro ref="room_aegs_javelin_room1_macro" connection="position" />
+      </connection>
+
+      
+    </connections>
+  </macro>
+</macros>

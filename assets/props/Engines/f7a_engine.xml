@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-01-05 21:13:23 from Blender-->
+<components>
+  <component name="f7a_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\f7a_engine_data" />
+    <layers>
+      <layer>
+        <trailemitters>
+          <emitter name="trail_aegs_s_01" type="trail_aegs_s_01">
+            <offset>
+              <position x="0" y="0" z="-5" />
+            </offset>
+          </emitter>
+        </trailemitters>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForpart_animal" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.044094" y="1.044093" z="6.522075" />
+              <center x="-0.0112251" y="-1.811981e-05" z="-6.592255" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx" tags="part ">
+        <offset>
+					<position x="0" y="0" z="-0.1" />
+				</offset>
+        <parts>
+          <part name="part_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.044991" y="1.029113" z="0.1081425" />
+              <center x="0.002552509" y="-1.996756e-05" z="-0.2058326" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="2" ref="generic.anvl_carrack_ext_mtl_trim_engine" />
+                  <material id="3" ref="generic.anvl_hornet_f7a_thruster_main_mtl_engine_glow" />
+                  <material id="4" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.262316" y="1.262885" z="0.5099945" />
+              <center x="0.002552509" y="2.002716e-05" z="-0.5014196" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_f7a">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

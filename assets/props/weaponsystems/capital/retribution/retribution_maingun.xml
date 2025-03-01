@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-31 16:38:41 from Blender-->
+<components>
+  <component name="Retribution_maingun" class="weapon">
+    <source geometry="extensions\AEGS\assets\props\weaponsystems\capital\retribution\retribution_maingun_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="weapon" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionFordetail" tags="animation part ">
+        <parts>
+          <part name="detail">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hullpattern_01" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="50.59245" y="52.442" z="147.5683" />
+              <center x="0" y="-38.6916" z="207.3256" />
+            </size>
+            <size_raw>
+              <max x="50.59245" y="52.442" z="147.5683" />
+              <center x="0" y="-38.6916" z="207.3256" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormaingun" tags="part ">
+        <parts>
+          <part name="maingun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="2" ref="generic.generic_p1_hullpattern" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="generic.generic_p1_hulltexture" />
+                  <material id="5" ref="p2generic.gen_p2_hullpattern_01" />
+                  <material id="6" ref="p2boron.bor_p2_hulltexture_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="36.05171" y="36.05171" z="55.31017" />
+              <center x="-0.01054001" y="0.01135635" z="-4.131813" />
+            </size>
+            <size_raw>
+              <max x="36.05171" y="36.05171" z="55.31017" />
+              <center x="-0.01054096" y="0.01135635" z="-4.13181" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="maingun" />
+
+      <connection name="con_weapon_01" tags="weapon extralarge aegs_retribution">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

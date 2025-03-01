@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-15 23:59:40 from Blender-->
+<components>
+  <component name="bullet_railgun_s" class="bullet">
+    <source geometry="extensions\AEGS\assets\fx\weaponfx\bullet_railgun_s_data" />
+    <layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="0" g="128" b="102" range="10" shadowrange="10" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+						<lightanimations/>
+						<offset/>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+    <connections>
+      <connection name="space" tags="bullet" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForlight" tags="part ">
+        <parts>
+          <part name="light">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2577276" y="0.2577276" z="0.2577276" />
+              <center x="7.450581e-09" y="1.162291e-06" z="31.81441" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_box" tags="part ">
+        <parts>
+          <part name="part_box">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="21" y="21" z="21" />
+              <center x="0" y="2.861023e-06" z="30.89166" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_bullet" tags="part ">
+        <parts>
+          <part name="part_bullet">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="effects.bullets_fx_master" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.587756" y="1.587756" z="31.84754" />
+              <center x="0.0006390214" y="-0.0003687143" z="2.958607" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

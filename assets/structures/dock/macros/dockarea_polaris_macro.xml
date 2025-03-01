@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Volodymyr (192.168.3.68) on 2023-03-14 15:59:28-->
+<macros>
+  <macro name="dockarea_polaris_macro" class="dockarea">
+    <component ref="dockarea_polaris" />
+    <properties>
+      <identification name="{996671, 28}" description="{996671, 28}" />
+      <hull integrated="1" />
+      <sound_occlusion inside="0.2" outside="0.5" />
+    </properties>
+    <connections>
+      <connection ref="01_macro">
+        <macro ref="polaris_dockingbay_macro" connection="position" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

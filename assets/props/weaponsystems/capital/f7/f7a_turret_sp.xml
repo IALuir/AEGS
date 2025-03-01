@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-09 12:06:53 from Blender-->
+<components>
+  <component name="f7a_turret_sp" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\f7\f7a_turret_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="turret" />
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForanvl_hornet_ball_turret" tags="part nocollision">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="anvl_hornet_ball_turret">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="2" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.bigbox_mtl_decals" />
+                  <material id="5" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.873542" y="0.7211825" z="1.872801" />
+              <center x="-0.002441019" y="0.7214007" z="-0.01069099" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForgunmount" tags="part nocollision" parent="anvl_hornet_ball_turret">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-5.0 "/>
+							<max value="90"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-0.42825" y="1.106926" z="-0.112067" />
+        </offset>
+        <parts>
+          <part name="gunmount">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.032553" y="0.307016" z="0.2857755" />
+              <center x="0.4282505" y="-0.114347" z="0.0313005" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForsp_base" tags="part nocollision" parent="gunmount">
+        <offset>
+          <position x="-0.3592683" y="-0.3310599" z="-0.0379521" />
+        </offset>
+        <parts>
+          <part name="sp_base">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.jokr_dis_can_I_bas_mat_mtl_L_pipe_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.jokr_dis_can_I_bas_mat_mtl_L_pipe_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.jokr_dis_can_I_bas_mat_mtl_L_pipe_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.jokr_dis_can_I_bas_mat_mtl_L_pipe_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.245857" y="0.481291" z="2.143451" />
+              <center x="0.7875183" y="0.460376" z="1.167722" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="sp_base">
+        <offset>
+          <position x="5.960464e-08" y="0.4487523" z="3.364565" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="sp_base">
+        <offset>
+          <position x="1.572469" y="0.4487523" z="3.364565" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_f7a">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

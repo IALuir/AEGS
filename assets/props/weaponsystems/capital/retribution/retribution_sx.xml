@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-20 15:12:13 from Blender-->
+<components>
+  <component name="retribution_sx" class="turret">
+    <source geometry="extensions\AEGS\assets\props\weaponsystems\capital\retribution\retribution_sx_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForsocket" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y">
+            <limits>
+							<min value="-60.0 "/>
+							<max value="60"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="socket" wreck="socket_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.retribution_sx" />
+                  <material id="2" ref="p2generic.gen_p2_hulltexture_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="54.01826" y="56.00339" z="54.56391" />
+              <center x="0.0002088547" y="-49.57169" z="1.907349e-06" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormain" tags="part " parent="socket">
+        <offset>
+          <position x="-1.907349e-06" y="-2.962317" z="19.6915" />
+        </offset>
+        <parts>
+          <part name="main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.retribution_sx" />
+                  <material id="2" ref="generic.generic_p1_hullpattern" />
+                  <material id="3" ref="p1terran.ter_p1_hullpattern_01_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="125.9185" y="41.15031" z="161.0366" />
+              <center x="5.722046e-06" y="49.56112" z="-47.82962" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_x" tags="part " parent="main">
+        <offset>
+          <position x="-37.33141" y="43.71727" z="15.59007" />
+        </offset>
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-2.0 "/>
+							<max value="40 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="part_x">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_dark_grey_blue_spec_nodetail" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="67.85773" y="22.68208" z="204.0784" />
+              <center x="37.33141" y="0.8955021" z="182.519" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser000" tags="laser " parent="part_x">
+        <offset>
+          <position x="74.88612" y="0.4815979" z="386.8961" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="part_x">
+        <offset>
+          <position x="-0.2232857" y="0.4815979" z="386.8961" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_xl" tags="turret extralarge component combat aegs_retribution_sx">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

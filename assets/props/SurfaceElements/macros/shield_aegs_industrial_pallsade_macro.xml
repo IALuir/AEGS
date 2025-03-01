@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="shield_aegs_industrial_pallsade_macro" class="shieldgenerator">
+    <component ref="shield_aegs_industrial_pallsade" />
+    <properties>
+      <identification name="{996678,53}" basename="{996678,53}" shortname="{996678,53}" makerrace="terran" description="{996678,54}" mk="1" />
+      <recharge max="3000" rate="300" delay="16" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-24 21:35:52 from Blender-->
+<components>
+  <component name="starlifter_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\starlifter_engine_data" />
+    <layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+				<effectemitters>
+					<emitter name="trail_aegs_m_01" type="trail_aegs_m_01">
+            <offset>
+              <position x="-10.82415" y="-3.202014" z="-40.35205" />
+            </offset>
+          </emitter>
+          <emitter name="trail_aegs_m_02" type="trail_aegs_m_01">
+            <offset>
+              <position x="10.8242" y="-3.202014" z="-40.35205" />
+            </offset>
+          </emitter>
+				</effectemitters>
+			</layer>
+		</layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForpart_animal" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="12.95838" y="5.124466" z="9.593654" />
+              <center x="-0.008430958" y="-0.02203059" z="-9.738683" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx" tags="nocollision part ">
+        <offset>
+					<position x="0" y="0" z="-0.2"/>
+				</offset>
+        <parts>
+          <part name="part_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="12.64908" y="4.872968" z="3.96545" />
+              <center x="2.384186e-06" y="0.0452795" z="-3.821649" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="nocollision part ">
+        <parts>
+          <part name="part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.misc_freelancer_mis_ext_mtl_decals_graphic_ext" />
+                  <material id="2" ref="generic.misc_prospector_mtl_metal_painted_color" />
+                  <material id="3" ref="generic.misc_prospector_mtl_metal_painted_color" />
+                  <material id="4" ref="generic.misc_prospector_mtl_metal_painted_color" />
+                  <material id="5" ref="generic.misc_prospector_mtl_decal_pom" />
+                  <material id="6" ref="generic.argo_mole_exterior_mtl_engine_glows" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="13.67293" y="5.741848" z="5.634132" />
+              <center x="1.66893e-06" y="-0.1087377" z="-3.149069" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_starlifter">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

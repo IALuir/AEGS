@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="bengal_turret_aa_macro" class="turret">
+    <component ref="bengal_turret_aa" />
+    <properties>
+      <identification name="{996671,24}" basename="{996671,24}" shortname="{996671,24}" makerrace="terran" description="{996671,25}" mk="1" />
+      <bullet class="S6_aa_2x_macro" />
+      <rotationspeed max="35" />
+      <rotationacceleration max="200" />
+      <reload rate="1" time="1" />
+      <hull max="6000" threshold="0.2" integrated="0" />
+    </properties>
+  </macro>
+</macros>

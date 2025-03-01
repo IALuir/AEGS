@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-27 20:22:43 from Blender-->
+<components>
+  <component name="weapon_mxa_s5" class="weapon">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\generic\S5\weapon_mxa_s5_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionFormain" tags="part platformcollision forceoutline">
+        <restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-8"/>
+							<max value="8"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.01687501" y="0.01687501" z="0.01687501" />
+              <center x="0" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForgun" tags="part platformcollision forceoutline " parent="main">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-8"/>
+							<max value="8"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="gun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3654551" y="0.6852356" z="3.387754" />
+              <center x="0.02728348" y="-0.6796769" z="1.884987" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="gun">
+        <offset>
+          <position x="0" y="-0.9127493" z="5.346595" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="weapon small platformcollision aegs_weapon_s5">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

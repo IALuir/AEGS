@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) at 25.11.2018_17-56-48-->
+<macros>
+  <macro name="wepon_missile_blade_missile_macro" class="missilelauncher">
+    <component ref="wepon_missile_blade_missile" />
+    <properties>
+      <identification name="{996671,42}" basename="{996671,42}" shortname="{996671,42}" makerrace="xenon" description="{996671,43}" unique="0" mk="1" />
+      <ammunition tags="aegs_s3_firebrid" />
+      <bullet class="missile_s3_arrester_iii_firebrid_macro" />
+      <reload />
+      <storage capacity="48" />
+      <hull hittable="0" integrated="1" />
+    </properties>
+  </macro>
+</macros>

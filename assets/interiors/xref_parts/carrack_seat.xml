@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-06-01 16:35:36 from Blender-->
+<components>
+  <component name="carrack_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\carrack_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForpilotseatmeshr" tags="part ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation ">
+        <parts>
+          <part name="pilotseatmeshr">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="2" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Atlas_leather" />
+                  <material id="7" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Decals_Opaque" />
+                  <material id="10" ref="generic.anvl_hornet_f7c_r_mtl_glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4372383" y="0.787537" z="0.628814" />
+              <center x="0.009223841" y="0.6441468" z="-0.1921109" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpilotseatmeshr_mesh" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="pilotseatmeshr">
+        <parts>
+          <part name="pilotseatmeshr_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="2" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Atlas_leather" />
+                  <material id="7" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Decals_Opaque" />
+                  <material id="10" ref="generic.anvl_hornet_f7c_r_mtl_glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4372383" y="0.787537" z="0.628814" />
+              <center x="0.009223841" y="0.6441468" z="-0.1921109" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

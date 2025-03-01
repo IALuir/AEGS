@@ -1,0 +1,1694 @@
+<?xml version="1.0"?>
+<components>
+	<component name="ship_aegs_l_javelin" class="ship_l">
+		<source geometry="extensions\AEGS\assets\units\size_l\ship_aegs_l_javelin_data" />
+    <layers>
+			<layer>
+        <waypoints>
+				  <waypoint name="001" tags="sizeLevel1 typedock start dynamicmasstraffic " x="0" y="0" z="0" qx="0" qy="0" qz="-0.7071068" qw="-0.7071068">
+            <links>
+              <link ref="" />
+              <link ref="002" />
+            </links>
+          </waypoint>
+          <waypoint name="002" tags="closelink typenormal sizeLevel1 dynamicmasstraffic" x="0" y="0" z="211.6476" qx="0" qy="0" qz="0" qw="-1">
+            <links>
+              <link ref="" />
+            </links>
+          </waypoint>
+          <waypoint name="003" tags="typenormal sizeLevel1 dynamicmasstraffic closelink" x="0" y="0" z="211.6476" qx="0.7071068" qy="0.7071068" qz="0" qw="0">
+            <links>
+              <link ref="" />
+              <link ref="004" />
+            </links>
+          </waypoint>
+          <waypoint name="004" tags="sizeLevel1 typedock end dynamicmasstraffic" x="0" y="0" z="0" qx="0" qy="0" qz="0" qw="-1">
+            <links>
+              <link ref="" />
+            </links>
+          </waypoint>
+        </waypoints>
+			</layer>
+		</layers>
+		<connections>
+      <connection name="space" tags="ship_l ship" />
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForbridge" tags="part ">
+        <parts>
+          <part name="bridge">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="4" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="6" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="8" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="9" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="10" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="11" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="4" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="6" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="8" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="9" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="10" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="11" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="4" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="6" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="8" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="9" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="10" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="11" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="4" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="6" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="8" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="9" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="10" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="11" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="16.70804" y="13.58315" z="28.43505" />
+              <center x="29.25" y="23.61747" z="-56.96822" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcargo_hatch" tags="part ">
+        <parts>
+          <part name="cargo_hatch">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="4" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="7" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                  <material id="8" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="4" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="7" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                  <material id="8" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="4" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="7" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                  <material id="8" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="4" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="7" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                  <material id="8" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="48.77475" y="29.4432" z="55.21814" />
+              <center x="-0.1829872" y="7.089916" z="-20.97053" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_door_left" group="door" tags="part animation">
+        <animations>
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-9.359092" y="19.87357" z="-83.97926" />
+          <quaternion qx="0" qy="0" qz="-0.1044427" qw="-0.9945309" />
+        </offset>
+        <parts>
+          <part name="hg_door_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="2" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="3" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="4" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="6" ref="generic.idris_frigate_exterior_wip_mtl_mid_trim" />
+                  <material id="7" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="18.9446" y="1.518595" z="29.42604" />
+              <center x="-0.2800026" y="-0.3762321" z="1.032295" />
+            </size>
+            <size_raw>
+              <max x="9.677999" y="1.140623" z="29.42604" />
+              <center x="-9.531328" y="0.001117229" z="1.032295" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhg_door_right" group="door" tags="part animation" parent="hg_door_left">
+        <animations>
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-10.5947" y="0.6700964" z="0" />
+          <quaternion qx="0" qy="0" qz="2.235174e-08" qw="-1" />
+        </offset>
+        <parts>
+          <part name="hg_door_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="2" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="3" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="4" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="7" ref="generic.idris_frigate_exterior_wip_mtl_mid_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="29.98366" y="1.043305" z="29.37361" />
+              <center x="6.26606" y="0.3267632" z="0.9107132" />
+            </size>
+            <size_raw>
+              <max x="12.71872" y="0.5093619" z="29.37362" />
+              <center x="-10.97072" y="-0.2040743" z="0.9107141" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_id" tags="part ">
+        <offset>
+          <position x="30.83066" y="6.125139" z="141.4372" />
+          <quaternion qx="-0.06760439" qy="-0.2692982" qz="0.1374438" qw="-0.9507983" />
+        </offset>
+        <parts>
+          <part name="fx_id">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_idcode" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.9999999" y="0" z="6.000206" />
+              <center x="0" y="0" z="-0.0001373291" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_logo" tags="part ">
+        <offset>
+          <position x="0.4069247" y="19.30337" z="83.56769" />
+        </offset>
+        <parts>
+          <part name="fx_logo">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_logo" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.760001" y="0.3817373" z="5.747335" />
+              <center x="-1.192093e-07" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormain_engine" tags="part ">
+        <parts>
+          <part name="main_engine">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_blackedout_mtl_decal_pom" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_decal_text" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="7" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_engine_glow" />
+                  <material id="9" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                  <material id="10" ref="generic.javelin_exterior_blackedout_mtl_Emissive_Alpha" />
+                  <material id="11" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="12" ref="generic.aegs_javelin_manned_turret_mtl_ext_light_flat" />
+                  <material id="13" ref="generic.javelin_exterior_blackedout_mtl_tech_trims" />
+                  <material id="14" ref="generic.javelin_exterior_blackedout_mtl_mid_trim" />
+                  <material id="15" ref="generic.javelin_exterior_blackedout_mtl_tech_trims_nopom" />
+                  <material id="16" ref="generic.javelin_exterior_blackedout_mtl_Light_Panel" />
+                  <material id="17" ref="generic.javelin_exterior_blackedout_mtl_internal_damage" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_blackedout_mtl_decal_pom" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_decal_text" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="7" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_engine_glow" />
+                  <material id="9" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                  <material id="10" ref="generic.javelin_exterior_blackedout_mtl_Emissive_Alpha" />
+                  <material id="11" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="12" ref="generic.aegs_javelin_manned_turret_mtl_ext_light_flat" />
+                  <material id="13" ref="generic.javelin_exterior_blackedout_mtl_tech_trims" />
+                  <material id="14" ref="generic.javelin_exterior_blackedout_mtl_mid_trim" />
+                  <material id="15" ref="generic.javelin_exterior_blackedout_mtl_tech_trims_nopom" />
+                  <material id="16" ref="generic.javelin_exterior_blackedout_mtl_Light_Panel" />
+                  <material id="17" ref="generic.javelin_exterior_blackedout_mtl_internal_damage" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_blackedout_mtl_decal_pom" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_decal_text" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="7" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_engine_glow" />
+                  <material id="9" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                  <material id="10" ref="generic.javelin_exterior_blackedout_mtl_Emissive_Alpha" />
+                  <material id="11" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="12" ref="generic.aegs_javelin_manned_turret_mtl_ext_light_flat" />
+                  <material id="13" ref="generic.javelin_exterior_blackedout_mtl_tech_trims" />
+                  <material id="14" ref="generic.javelin_exterior_blackedout_mtl_mid_trim" />
+                  <material id="15" ref="generic.javelin_exterior_blackedout_mtl_tech_trims_nopom" />
+                  <material id="16" ref="generic.javelin_exterior_blackedout_mtl_Light_Panel" />
+                  <material id="17" ref="generic.javelin_exterior_blackedout_mtl_internal_damage" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_blackedout_mtl_decal_pom" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_decal_text" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="7" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_engine_glow" />
+                  <material id="9" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                  <material id="10" ref="generic.javelin_exterior_blackedout_mtl_Emissive_Alpha" />
+                  <material id="11" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="12" ref="generic.aegs_javelin_manned_turret_mtl_ext_light_flat" />
+                  <material id="13" ref="generic.javelin_exterior_blackedout_mtl_tech_trims" />
+                  <material id="14" ref="generic.javelin_exterior_blackedout_mtl_mid_trim" />
+                  <material id="15" ref="generic.javelin_exterior_blackedout_mtl_tech_trims_nopom" />
+                  <material id="16" ref="generic.javelin_exterior_blackedout_mtl_Light_Panel" />
+                  <material id="17" ref="generic.javelin_exterior_blackedout_mtl_internal_damage" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="108.5757" y="40.31323" z="178.8085" />
+              <center x="0.009080887" y="-1.907349e-06" z="-59.44787" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForneck" tags="part ">
+        <parts>
+          <part name="neck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="5" ref="generic.javelin_exterior_mtl_trims" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="7" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="8" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="9" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="10" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="11" ref="generic.javelin_exterior_mtl_proxy" />
+                  <material id="12" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="13" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="14" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="15" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="16" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="17" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                  <material id="18" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="5" ref="generic.javelin_exterior_mtl_trims" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="7" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="8" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="9" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="10" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="11" ref="generic.javelin_exterior_mtl_proxy" />
+                  <material id="12" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="13" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="14" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="15" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="16" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="17" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                  <material id="18" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="5" ref="generic.javelin_exterior_mtl_trims" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="7" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="8" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="9" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="10" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="11" ref="generic.javelin_exterior_mtl_proxy" />
+                  <material id="12" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="13" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="14" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="15" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="16" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="17" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                  <material id="18" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="5" ref="generic.javelin_exterior_mtl_trims" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="7" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="8" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="9" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="10" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="11" ref="generic.javelin_exterior_mtl_proxy" />
+                  <material id="12" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="13" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="14" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="15" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="16" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="17" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                  <material id="18" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="60.92424" y="23.34389" z="104.9103" />
+              <center x="-2.196157" y="-0.4318676" z="43.3558" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFornose" tags="part ">
+        <parts>
+          <part name="nose">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="9" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="10" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="11" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="12" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="13" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="14" ref="p1.cockpit_glass_outside_01" />
+                  <material id="15" ref="generic.javelin_exterior_mtl_Dirt_Mark" />
+                  <material id="16" ref="generic.javelin_exterior_mtl_engine_glow" />
+                  <material id="17" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="18" ref="generic.javelin_exterior_mtl_trims" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="9" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="10" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="11" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="12" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="13" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="14" ref="p1.cockpit_glass_outside_01" />
+                  <material id="15" ref="generic.javelin_exterior_mtl_Dirt_Mark" />
+                  <material id="16" ref="generic.javelin_exterior_mtl_engine_glow" />
+                  <material id="17" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="18" ref="generic.javelin_exterior_mtl_trims" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="9" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="10" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="11" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="12" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="13" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="14" ref="p1.cockpit_glass_outside_01" />
+                  <material id="15" ref="generic.javelin_exterior_mtl_Dirt_Mark" />
+                  <material id="16" ref="generic.javelin_exterior_mtl_engine_glow" />
+                  <material id="17" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="18" ref="generic.javelin_exterior_mtl_trims" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="9" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="10" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="11" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="12" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="13" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="14" ref="p1.cockpit_glass_outside_01" />
+                  <material id="15" ref="generic.javelin_exterior_mtl_Dirt_Mark" />
+                  <material id="16" ref="generic.javelin_exterior_mtl_engine_glow" />
+                  <material id="17" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="18" ref="generic.javelin_exterior_mtl_trims" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="61.50921" y="15.41536" z="76.87082" />
+              <center x="0.007172585" y="0.02416372" z="156.7065" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main" wreck="part_main_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="6" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_trims" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="9" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="10" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="11" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="12" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="13" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="14" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="15" ref="generic.javelin_exterior_mtl_proxy" />
+                  <material id="16" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="17" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="18" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="6" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_trims" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="9" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="10" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="11" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="12" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="13" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="14" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="15" ref="generic.javelin_exterior_mtl_proxy" />
+                  <material id="16" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="17" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="18" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="6" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_trims" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="9" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="10" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="11" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="12" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="13" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="14" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="15" ref="generic.javelin_exterior_mtl_proxy" />
+                  <material id="16" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="17" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="18" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="6" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_trims" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="9" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="10" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="11" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="12" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="13" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="14" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="15" ref="generic.javelin_exterior_mtl_proxy" />
+                  <material id="16" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="17" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="18" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="67.47878" y="24.47693" z="65.99773" />
+              <center x="0" y="1.224455" z="-86.45246" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortail" tags="part ">
+        <parts>
+          <part name="tail">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="9" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="10" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="11" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="12" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="13" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="14" ref="generic.javelin_exterior_mtl_proxy" />
+                  <material id="15" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="9" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="10" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="11" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="12" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="13" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="14" ref="generic.javelin_exterior_mtl_proxy" />
+                  <material id="15" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="9" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="10" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="11" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="12" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="13" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="14" ref="generic.javelin_exterior_mtl_proxy" />
+                  <material id="15" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Mid_Panel" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="7" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="9" ref="generic.javelin_exterior_mtl_Greeble" />
+                  <material id="10" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="11" ref="generic.javelin_exterior_mtl_metal_trims" />
+                  <material id="12" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="13" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="14" ref="generic.javelin_exterior_mtl_proxy" />
+                  <material id="15" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="108.6341" y="34.60847" z="45.45309" />
+              <center x="0.5145817" y="0.2226505" z="-152.6419" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortrust" tags="part ">
+        <offset>
+          <position x="-34.06499" y="9.147283" z="3.918957" />
+          <quaternion qx="0.1830127" qy="0.6830127" qz="0.1830127" qw="-0.6830127" />
+        </offset>
+        <parts>
+          <part name="trust">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_blackedout_mtl_decal_pom" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="4" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Emissive_Alpha" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_blackedout_mtl_decal_pom" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="4" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Emissive_Alpha" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_blackedout_mtl_decal_pom" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="4" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Emissive_Alpha" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_blackedout_mtl_decal_pom" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="4" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Emissive_Alpha" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="32.0308" y="27.7067" z="36.35947" />
+              <center x="28.22819" y="9.110794" z="-34.07479" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_front_left_bottom" tags="part ">
+        <parts>
+          <part name="wing_front_left_bottom">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="5" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="6" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="7" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="5" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="6" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="7" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="5" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="6" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="7" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_mtl_Mid_Panel" />
+                  <material id="2" ref="generic.javelin_exterior_mtl_Emissive_Alpha" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Green_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_mtl_decal_text" />
+                  <material id="5" ref="generic.javelin_exterior_mtl_decal_pom" />
+                  <material id="6" ref="generic.javelin_exterior_mtl_Light_Panel" />
+                  <material id="7" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="8" ref="generic.javelin_exterior_blackedout_mtl_Dark_No_Panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="85.91649" y="16.19664" z="125.7592" />
+              <center x="-9.536743e-06" y="-1.288341" z="21.8023" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectionthruster00" tags="part animation">
+        <offset>
+          <position x="32.68931" y="6.482727" z="119.1453" />
+          <quaternion qx="-0.7038514" qy="0.06777319" qz="-0.0677732" qw="-0.7038514" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster1_01"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster01" tags="part animation">
+        <offset>
+          <position x="33.07513" y="6.482727" z="117.1487" />
+          <quaternion qx="-0.7038514" qy="0.06777319" qz="-0.0677732" qw="-0.7038514" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster1_02"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster02" tags="part animation">
+        <offset>
+          <position x="33.65236" y="6.482727" z="114.411" />
+          <quaternion qx="-0.7038514" qy="0.06777319" qz="-0.0677732" qw="-0.7038514" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster1_03"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster03" tags="part animation">
+        <offset>
+          <position x="34.03818" y="6.482727" z="112.438" />
+          <quaternion qx="-0.7038514" qy="0.06777319" qz="-0.0677732" qw="-0.7038514" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster1_04"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster04" tags="part animation">
+        <offset>
+          <position x="-33.6524" y="6.482727" z="114.411" />
+          <quaternion qx="-0.7038514" qy="-0.06777319" qz="0.0677732" qw="-0.7038514" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster1_05"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster05" tags="part animation">
+        <offset>
+          <position x="-34.0382" y="6.482727" z="112.438" />
+          <quaternion qx="-0.7038514" qy="-0.06777319" qz="0.0677732" qw="-0.7038514" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster1_06"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster06" tags="part animation">
+        <offset>
+          <position x="-33.6524" y="6.482727" z="114.411" />
+          <quaternion qx="-0.7038514" qy="-0.06777319" qz="0.0677732" qw="-0.7038514" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster1_07"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster07" tags="part animation">
+        <offset>
+          <position x="-32.6893" y="6.482727" z="119.1453" />
+          <quaternion qx="-0.7038514" qy="-0.06777319" qz="0.0677732" qw="-0.7038514" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster1_08"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster08" tags="part animation">
+        <offset>
+          <position x="-33.0751" y="6.482727" z="117.1487" />
+          <quaternion qx="-0.7038514" qy="-0.06777319" qz="0.0677732" qw="-0.7038514" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster1_09"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster09" tags="part animation">
+        <offset>
+          <position x="-32.69056" y="-6.332846" z="119.1453" />
+          <quaternion qx="0.06777325" qy="0.7038514" qz="0.7038514" qw="-0.06777315" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster1_10"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster10" tags="part animation">
+        <offset>
+          <position x="-33.07638" y="-6.332846" z="117.1487" />
+          <quaternion qx="0.06777325" qy="0.7038514" qz="0.7038514" qw="-0.06777315" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster1_11"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster11" tags="part animation">
+        <offset>
+          <position x="-33.65362" y="-6.332846" z="114.411" />
+          <quaternion qx="0.06777325" qy="0.7038514" qz="0.7038514" qw="-0.06777315" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster1_12"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster12" tags="part animation">
+        <offset>
+          <position x="-34.03944" y="-6.332846" z="112.438" />
+          <quaternion qx="0.06777325" qy="0.7038514" qz="0.7038514" qw="-0.06777315" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster1_13"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster13" tags="part animation">
+        <offset>
+          <position x="33.65115" y="-6.332856" z="114.411" />
+          <quaternion qx="0.06777315" qy="-0.7038514" qz="-0.7038514" qw="-0.06777325" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster1_14"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster14" tags="part animation">
+        <offset>
+          <position x="34.03695" y="-6.332856" z="112.438" />
+          <quaternion qx="0.06777315" qy="-0.7038514" qz="-0.7038514" qw="-0.06777325" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster1_15"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster15" tags="part animation">
+        <offset>
+          <position x="33.65115" y="-6.332856" z="114.411" />
+          <quaternion qx="0.06777315" qy="-0.7038514" qz="-0.7038514" qw="-0.06777325" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster1_16"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster" tags="part animation">
+        <offset>
+          <position x="-35.03721" y="10.54727" z="2.114519" />
+          <quaternion qx="-0.1830127" qy="-0.6830127" qz="0.1830127" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_01"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster001" tags="part animation">
+        <offset>
+          <position x="-35.05632" y="10.54727" z="5.73523" />
+          <quaternion qx="-0.1830127" qy="-0.6830127" qz="0.1830127" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_02"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster002" tags="part animation">
+        <offset>
+          <position x="-35.89427" y="9.281684" z="5.73523" />
+          <quaternion qx="-0.1830127" qy="-0.6830127" qz="0.1830127" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_03"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster003" tags="part animation">
+        <offset>
+          <position x="-35.89427" y="9.281684" z="2.118812" />
+          <quaternion qx="-0.1830127" qy="-0.6830127" qz="0.1830127" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_04"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster004" tags="part animation">
+        <offset>
+          <position x="-35.03721" y="10.54727" z="30.37361" />
+          <quaternion qx="-0.1830127" qy="-0.6830127" qz="0.1830127" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_05"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster005" tags="part animation">
+        <offset>
+          <position x="-35.05632" y="10.54727" z="33.99432" />
+          <quaternion qx="-0.1830127" qy="-0.6830127" qz="0.1830127" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_06"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster006" tags="part animation">
+        <offset>
+          <position x="-35.89427" y="9.281684" z="33.99432" />
+          <quaternion qx="-0.1830127" qy="-0.6830127" qz="0.1830127" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_07"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster007" tags="part animation">
+        <offset>
+          <position x="-35.89427" y="9.281684" z="30.3779" />
+          <quaternion qx="-0.1830127" qy="-0.6830127" qz="0.1830127" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_08"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster008" tags="part animation">
+        <offset>
+          <position x="-35.03721" y="10.54727" z="58.57282" />
+          <quaternion qx="-0.1830127" qy="-0.6830127" qz="0.1830127" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_09"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster009" tags="part animation">
+        <offset>
+          <position x="-35.05632" y="10.54727" z="62.19353" />
+          <quaternion qx="-0.1830127" qy="-0.6830127" qz="0.1830127" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_10"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster010" tags="part animation">
+        <offset>
+          <position x="-35.89427" y="9.281684" z="62.19353" />
+          <quaternion qx="-0.1830127" qy="-0.6830127" qz="0.1830127" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_11"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster011" tags="part animation">
+        <offset>
+          <position x="-35.89427" y="9.281684" z="58.57711" />
+          <quaternion qx="-0.1830127" qy="-0.6830127" qz="0.1830127" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_12"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster012" tags="part animation">
+        <offset>
+          <position x="35.83802" y="9.281194" z="2.114521" />
+          <quaternion qx="-0.6830127" qy="-0.1830127" qz="0.6830127" qw="-0.1830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_13"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster013" tags="part animation">
+        <offset>
+          <position x="35.84758" y="9.297745" z="5.735231" />
+          <quaternion qx="-0.6830127" qy="-0.1830127" qz="0.6830127" qw="-0.1830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_14"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster014" tags="part animation">
+        <offset>
+          <position x="35.17052" y="10.65622" z="5.735231" />
+          <quaternion qx="-0.6830127" qy="-0.1830127" qz="0.6830127" qw="-0.1830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_15"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster015" tags="part animation">
+        <offset>
+          <position x="35.17052" y="10.65622" z="2.118814" />
+          <quaternion qx="-0.6830127" qy="-0.1830127" qz="0.6830127" qw="-0.1830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_16"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster016" tags="part animation">
+        <offset>
+          <position x="35.83802" y="9.281194" z="30.37361" />
+          <quaternion qx="-0.6830127" qy="-0.1830127" qz="0.6830127" qw="-0.1830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_17"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster017" tags="part animation">
+        <offset>
+          <position x="35.84758" y="9.297745" z="33.99432" />
+          <quaternion qx="-0.6830127" qy="-0.1830127" qz="0.6830127" qw="-0.1830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_18"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster018" tags="part animation">
+        <offset>
+          <position x="35.17052" y="10.65622" z="33.99432" />
+          <quaternion qx="-0.6830127" qy="-0.1830127" qz="0.6830127" qw="-0.1830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_19"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster019" tags="part animation">
+        <offset>
+          <position x="35.17052" y="10.65622" z="30.3779" />
+          <quaternion qx="-0.6830127" qy="-0.1830127" qz="0.6830127" qw="-0.1830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_20"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster020" tags="part animation">
+        <offset>
+          <position x="35.83802" y="9.281194" z="58.57281" />
+          <quaternion qx="-0.6830127" qy="-0.1830127" qz="0.6830127" qw="-0.1830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_21"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster021" tags="part animation">
+        <offset>
+          <position x="35.84758" y="9.297745" z="62.19353" />
+          <quaternion qx="-0.6830127" qy="-0.1830127" qz="0.6830127" qw="-0.1830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_22"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster022" tags="part animation">
+        <offset>
+          <position x="35.17052" y="10.65622" z="62.19353" />
+          <quaternion qx="-0.6830127" qy="-0.1830127" qz="0.6830127" qw="-0.1830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_23"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster023" tags="part animation">
+        <offset>
+          <position x="35.17052" y="10.65622" z="58.57711" />
+          <quaternion qx="-0.6830127" qy="-0.1830127" qz="0.6830127" qw="-0.1830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_24"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster024" tags="part animation">
+        <offset>
+          <position x="35.07335" y="-10.72223" z="2.114521" />
+          <quaternion qx="0.6830127" qy="-0.1830128" qz="-0.6830127" qw="-0.1830128" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_25"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster025" tags="part animation">
+        <offset>
+          <position x="35.09246" y="-10.72223" z="5.735231" />
+          <quaternion qx="0.6830127" qy="-0.1830128" qz="-0.6830127" qw="-0.1830128" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_26"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster026" tags="part animation">
+        <offset>
+          <position x="35.93041" y="-9.456644" z="5.735231" />
+          <quaternion qx="0.6830127" qy="-0.1830128" qz="-0.6830127" qw="-0.1830128" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_27"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster027" tags="part animation">
+        <offset>
+          <position x="35.93041" y="-9.456644" z="2.118814" />
+          <quaternion qx="0.6830127" qy="-0.1830128" qz="-0.6830127" qw="-0.1830128" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_28"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster028" tags="part animation">
+        <offset>
+          <position x="35.07335" y="-10.72223" z="30.37361" />
+          <quaternion qx="0.6830127" qy="-0.1830128" qz="-0.6830127" qw="-0.1830128" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_29"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster029" tags="part animation">
+        <offset>
+          <position x="35.09246" y="-10.72223" z="33.99432" />
+          <quaternion qx="0.6830127" qy="-0.1830128" qz="-0.6830127" qw="-0.1830128" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_30"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster030" tags="part animation">
+        <offset>
+          <position x="35.93041" y="-9.456644" z="33.99432" />
+          <quaternion qx="0.6830127" qy="-0.1830128" qz="-0.6830127" qw="-0.1830128" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_31"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster031" tags="part animation">
+        <offset>
+          <position x="35.93041" y="-9.456644" z="30.3779" />
+          <quaternion qx="0.6830127" qy="-0.1830128" qz="-0.6830127" qw="-0.1830128" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_32"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster032" tags="part animation">
+        <offset>
+          <position x="35.07335" y="-10.72223" z="58.57281" />
+          <quaternion qx="0.6830127" qy="-0.1830128" qz="-0.6830127" qw="-0.1830128" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_33"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster033" tags="part animation">
+        <offset>
+          <position x="35.09246" y="-10.72223" z="62.19353" />
+          <quaternion qx="0.6830127" qy="-0.1830128" qz="-0.6830127" qw="-0.1830128" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_34"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster034" tags="part animation">
+        <offset>
+          <position x="35.93041" y="-9.456644" z="62.19353" />
+          <quaternion qx="0.6830127" qy="-0.1830128" qz="-0.6830127" qw="-0.1830128" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_35"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster035" tags="part animation">
+        <offset>
+          <position x="35.93041" y="-9.456644" z="58.57711" />
+          <quaternion qx="0.6830127" qy="-0.1830128" qz="-0.6830127" qw="-0.1830128" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_36"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster036" tags="part animation">
+        <offset>
+          <position x="-35.89176" y="-9.368539" z="2.114523" />
+          <quaternion qx="0.1830126" qy="-0.6830127" qz="-0.1830126" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_37"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster037" tags="part animation">
+        <offset>
+          <position x="-35.90132" y="-9.38509" z="5.735233" />
+          <quaternion qx="0.1830126" qy="-0.6830127" qz="-0.1830126" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_38"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster038" tags="part animation">
+        <offset>
+          <position x="-35.22427" y="-10.74356" z="5.735233" />
+          <quaternion qx="0.1830126" qy="-0.6830127" qz="-0.1830126" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_39"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster039" tags="part animation">
+        <offset>
+          <position x="-35.22427" y="-10.74356" z="2.118816" />
+          <quaternion qx="0.1830126" qy="-0.6830127" qz="-0.1830126" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_40"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster040" tags="part animation">
+        <offset>
+          <position x="-35.89176" y="-9.368539" z="30.37361" />
+          <quaternion qx="0.1830126" qy="-0.6830127" qz="-0.1830126" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_41"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster041" tags="part animation">
+        <offset>
+          <position x="-35.90132" y="-9.38509" z="33.99432" />
+          <quaternion qx="0.1830126" qy="-0.6830127" qz="-0.1830126" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_42"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster042" tags="part animation">
+        <offset>
+          <position x="-35.22427" y="-10.74356" z="33.99432" />
+          <quaternion qx="0.1830126" qy="-0.6830127" qz="-0.1830126" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_43"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster043" tags="part animation">
+        <offset>
+          <position x="-35.22427" y="-10.74356" z="30.3779" />
+          <quaternion qx="0.1830126" qy="-0.6830127" qz="-0.1830126" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_44"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster044" tags="part animation">
+        <offset>
+          <position x="-35.89176" y="-9.368539" z="58.57281" />
+          <quaternion qx="0.1830126" qy="-0.6830127" qz="-0.1830126" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_45"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster045" tags="part animation">
+        <offset>
+          <position x="-35.90132" y="-9.38509" z="62.19353" />
+          <quaternion qx="0.1830126" qy="-0.6830127" qz="-0.1830126" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_46"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster046" tags="part animation">
+        <offset>
+          <position x="-35.22427" y="-10.74356" z="62.19353" />
+          <quaternion qx="0.1830126" qy="-0.6830127" qz="-0.1830126" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_47"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster047" tags="part animation">
+        <offset>
+          <position x="-35.22427" y="-10.74356" z="58.57711" />
+          <quaternion qx="0.1830126" qy="-0.6830127" qz="-0.1830126" qw="-0.6830127" />
+        </offset>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_48"/>
+				</parts>
+      </connection>
+      
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="29.18163" y="38.90519" z="-51.42935" />
+        </offset>
+			</connection>
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="29.25869" y="40.65715" z="-33.63501" />
+				</offset>
+			</connection>
+      <connection name="con_storage_01" tags="storage ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_engine_01" group="group_back_up_mid " tags="engine large component javelin">
+				<offset>
+					<position x="0" y="0" z="-160"/>
+				</offset>
+			</connection>
+      <connection name="con_shieldgen_014" group="group_back_up_mid  " tags="component shield medium aegs_s2 millitary">
+			</connection>
+      <connection name="con_shieldgen_015" group="group_back_up_mid  " tags="component shield medium aegs_s2 millitary">
+			</connection>
+
+      <connection name="con_turret_l_001" group="group_rear_l_top " tags="turret large component combat aegs_javelin">
+				<offset>
+          <position x="0.15" y="34.5" z="-120" />
+        </offset>
+			</connection>
+      <connection name="con_turret_l_002" group="group_rear_l_top " tags="turret large component combat aegs_javelin">
+				<offset>
+          <position x="0.15" y="-34.5" z="-120" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+      <connection name="con_shieldgen_001" group="group_rear_l_top  " tags="component shield medium aegs_s2 millitary">
+			</connection>
+      <connection name="con_shieldgen_002" group="group_rear_l_top  " tags="component shield medium aegs_s2 millitary">
+			</connection>
+
+      <connection name="con_turret_m_001" group="group_mid_m_top " tags="turret medium component combat aegs_javelin_s7">
+				<offset>
+          <position x="-42.16285" y="4.917609" z="-9.85" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_002" group="group_mid_m_top " tags="turret medium component combat aegs_javelin_s7">
+				<offset>
+          <position x="-42.16285" y="4.917609" z="18.15246" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_003" group="group_mid_m_top " tags="turret medium component combat aegs_javelin_s7">
+				<offset>
+          <position x="-42.16285" y="4.917609" z="46.18946" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_004" group="group_mid_m_top_2 " tags="turret medium component combat aegs_javelin_s7">
+				<offset>
+          <position x="42.1628" y="4.917609" z="46.18946" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_005" group="group_mid_m_top_2 " tags="turret medium component combat aegs_javelin_s7">
+				<offset>
+          <position x="42.1628" y="4.917609" z="18.1525" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_006" group="group_mid_m_top_2 " tags="turret medium component combat aegs_javelin_s7">
+				<offset>
+          <position x="42.1628" y="4.917609" z="-9.85" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_shieldgen_003" group="group_mid_m_top  " tags="component shield medium aegs_s2 millitary">
+			</connection>
+      <connection name="con_shieldgen_004" group="group_mid_m_top_2  " tags="component shield medium aegs_s2 millitary">
+			</connection>
+
+      <connection name="con_turret_m_007" group="group_mid_m_bot " tags="turret medium component combat aegs_javelin_s7">
+				<offset>
+          <position x="-37.5554" y="-6.06322" z="-9.85" />
+          <quaternion qx="0.7071067" qy="3.090862e-08" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_008" group="group_mid_m_bot " tags="turret medium component combat aegs_javelin_s7">
+				<offset>
+          <position x="-37.5554" y="-6.06322" z="46.18946" />
+          <quaternion qx="0.7071067" qy="3.090862e-08" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_009" group="group_mid_m_bot_2 " tags="turret medium component combat aegs_javelin_s7">
+				<offset>
+          <position x="37.5554" y="-6.06322" z="46.18946" />
+          <quaternion qx="-0.7071068" qy="-3.090862e-08" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_010" group="group_mid_m_bot_2 " tags="turret medium component combat aegs_javelin_s7">
+				<offset>
+          <position x="37.5554" y="-6.06322" z="18.1525" />
+          <quaternion qx="-0.7071068" qy="-3.090862e-08" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_011" group="group_mid_m_bot_2 " tags="turret medium component combat aegs_javelin_s7">
+				<offset>
+          <position x="37.5554" y="-6.06322" z="-9.85" />
+          <quaternion qx="-0.7071068" qy="-3.090862e-08" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+			</connection>
+      <connection name="con_shieldgen_005" group="group_mid_m_bot  " tags="component shield medium aegs_s2 millitary">
+			</connection>
+      <connection name="con_shieldgen_006" group="group_mid_m_bot_2  " tags="component shield medium aegs_s2 millitary">
+			</connection>
+
+      <connection name="con_turret_m_012" group="group_mid_m2_top " tags="turret medium component combat aegs_javelin_s5">
+				<offset>
+          <position x="0" y="23.10677" z="64.84399" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_013" group="group_mid_m2_top " tags="turret medium component combat aegs_javelin_s5">
+				<offset>
+          <position x="31.51063" y="14.77523" z="92.11317" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_014" group="group_mid_m2_top " tags="turret medium component combat aegs_javelin_s5">
+				<offset>
+          <position x="-31.5106" y="14.77523" z="92.11317" />
+        </offset>
+			</connection>
+      <connection name="con_shieldgen_007" group="group_mid_m2_top  " tags="component shield medium aegs_s2 millitary">
+			</connection>
+      
+      <connection name="con_turret_m_015" group="group_mid_m2_bot " tags="turret medium component combat aegs_javelin_s5">
+				<offset>
+          <position x="-31.5106" y="-14.7752" z="92.11317" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_016" group="group_mid_m2_bot " tags="turret medium component combat aegs_javelin_s5">
+				<offset>
+          <position x="31.5106" y="-14.7752" z="92.11317" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_017" group="group_mid_m2_bot " tags="turret medium component combat aegs_javelin_s5">
+				<offset>
+          <position x="0" y="-24.81" z="10.90716" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_018" group="group_mid_m2_bot " tags="turret medium component combat aegs_javelin_s5">
+				<offset>
+          <position x="0" y="-24.81" z="-15.35286" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_019" group="group_mid_m2_bot " tags="turret medium component combat aegs_javelin_s5">
+				<offset>
+          <position x="0" y="-24.81" z="-41.60498" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+      <connection name="con_shieldgen_008" group="group_mid_m2_bot  " tags="component shield medium aegs_s2 millitary">
+			</connection>
+
+
+      <connection name="con_shield_01" tags="component shield large aegs_s3 industrial">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield large aegs_s3 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_03" tags="component shield large aegs_s3 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      <connection name="con_dockarea_arg_s_ship_03" tags="dockarea ">
+			</connection>
+      <connection name="room1" tags="dockarea ">
+				<offset>
+          <position x="0" y="5.04455" z="-24.0398" />
+        </offset>
+			</connection>
+      <connection name="con_shipstorage_s_01" tags="dockingbay ">
+				<offset>
+          <position x="0" y="0" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="room_01" tags=" defencemodule">
+      </connection>
+      
+      <connection name="con_weapon_1" tags="component weapon large missile aegs_missile_s12">
+        <offset>
+          <position x="13.25461" y="0.6979784" z="144.8119" />
+        </offset>
+      </connection>
+      <connection name="con_weapon_2" tags="component weapon large missile aegs_missile_s12">
+        <offset>
+          <position x="-13.2546" y="0.6979784" z="144.8119" />
+        </offset>
+      </connection>
+
+
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="29.10825" y="33.17396" z="-73.78974" />
+          <quaternion qx="3.19068e-08" qy="-0.9063079" qz="-0.4226184" qw="-6.842434e-08" />
+        </offset>
+			</connection>
+      <connection name="con_shipstorage_xs_01" tags="dockingbay ">
+        <offset>
+          <position x="-25.52239" y="0" z="-83.61783" />
+        </offset>
+			</connection>
+
+      <connection name="con_room_01" tags="dynamicroom window " value="-1">
+        <offset>
+          <position x="0" y="-50" z="0" />
+        </offset>
+      </connection>
+      
+    </connections>
+	</component>
+</components>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="turret_idris_s7_mxa_macro" class="turret">
+    <component ref="turret_aegs_s7" />
+    <properties>
+      <identification name="{996667,33}" basename="{996667,33}" shortname="{996667,33}" makerrace="terran" description="{996667,34}" mk="1" />
+      <bullet class="S7_mxa_2x_macro" />
+      <rotationspeed max="100" />
+      <rotationacceleration max="200" />
+      <reload rate="1" time="1" />
+      <hull max="7000" threshold="0.2" integrated="0" />
+    </properties>
+  </macro>
+</macros>

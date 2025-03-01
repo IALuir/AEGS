@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-13 00:13:28 from Blender-->
+<components>
+  <component name="reclaimer_turret_mxa" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\reclaimer\reclaimer_turret_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForturret_main" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="turret_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="8" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="9" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="10" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="11" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="8" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="9" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="10" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="11" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="8" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="9" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="10" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="11" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="8" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="9" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="10" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="11" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.35789" y="1.785398" z="2.419786" />
+              <center x="5.453825e-06" y="0.2981815" z="-0.5304279" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormxa_gun" tags="part " parent="turret_main">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-5.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-1.305446" y="1.012517" z="-0.8724554" />
+        </offset>
+        <parts>
+          <part name="mxa_gun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01.001" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01.001" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01.001" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01.001" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.518702" y="0.324849" z="3.011337" />
+              <center x="1.305446" y="-0.024252" z="1.675544" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="mxa_gun">
+        <offset>
+          <position x="-0.4056664" y="0" z="2.376265" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="mxa_gun">
+        <offset>
+          <position x="3.014731" y="0" z="2.376265" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_reclaimer">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

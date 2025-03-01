@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<components>
+  <component name="shield_aegs_industrial_parapet" class="shieldgenerator">
+    <connections>
+      <connection name="ParentConnection" tags="component shield large aegs_s3 industrial" />
+    </connections>
+    <properties>
+      <recharge />
+    </properties>
+  </component>
+</components>

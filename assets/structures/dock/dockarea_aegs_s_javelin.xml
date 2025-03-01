@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<components>
+	<component name="dockarea_aegs_s_javelin" class="dockarea">
+		<source geometry="extensions\aegs\assets\structures\dock\dockarea_aegs_s_javelin_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="dockarea">
+				<offset/>
+			</connection>
+			<connection name="Connection01" hidden="true" tags="part nocollision  ">
+				<offset/>
+				<parts>
+					<part name="part_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hullpattern"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.8157368" y="0.6352959" z="0.9177036"/>
+							<center x="0" y="-0.6352959" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+
+			<connection name="con_launchpos_04" group="  dockingbay_04 " tags="launchpos ">
+				<offset>
+				<position x="-100" y="20" z="0" />
+				</offset>
+			</connection>
+
+			<connection name="con_todock_04" group="  dockingbay_04 " tags="todock ">
+				<offset>
+				<position x="-100" y="20" z="0" />
+				</offset>
+			</connection>
+
+			<connection name="01_macro" tags="dockingbay" group="  dockingbay_04 ">
+				<offset/>
+			</connection>
+		</connections>
+	</component>
+</components>

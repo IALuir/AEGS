@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Alexei (192.168.3.58) at 08.11.2019_12-35-16-->
+<macros>
+  <macro name="S3_cf_2x_macro" class="bullet">
+    <component ref="bullet_xen_s_laser_01_mk1" />
+    <properties>
+      <ammunition value="30" reload="1.5" />
+      <bullet speed="2100" lifetime="1.39" amount="1" barrelamount="2" icon="weapon_laser_mk1" timediff="0.12" angle="0.01" maxhits="1" ricochet="0" scale="0" attach="0" />
+      <reload rate="8.3" />
+      <damage value="16.42" shield="1.642" repair="0" />
+      <effects>
+        <impact ref="impact_xen_s_laser_01_mk1" inside="impact_xen_s_laser_01_mk1_inside" />
+        <bigobjectimpact ref="impact_xen_s_laser_01_mk1_bigobject" inside="impact_xen_s_laser_01_mk1_bigobject_inside" />
+        <launch ref="launch_aegs_cf_small" />
+      </effects>
+      <weapon system="weapon_standard" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-06-20 12:16:30 from Blender-->
+<components>
+  <component name="caterpillar_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\caterpillar_engine_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionFormain_engine" tags="part speedscale_forward textureanimation">
+        <parts>
+          <part name="main_engine">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="2" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="3" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="5" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="6" ref="generic.drk_engine_trim" />
+                  <material id="7" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="8" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="14.42054" y="3.131006" z="6.931887" />
+              <center x="3.886223e-05" y="1.541457" z="-4.69965" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine medium component aegs_caterpillar">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

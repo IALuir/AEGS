@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-27 21:33:17 from Blender-->
+<components>
+  <component name="turret_aegs_s7" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\idris\turret_aegs_s7_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForturret_base" tags="part iklink">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="turret_base" wreck="turret_base_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="2" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="3" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="4" ref="generic.aegs_idris_turret_large_mtl_decals_pom_a" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_decals_ext" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.657265" y="1.997797" z="7.544398" />
+              <center x="4.172325e-07" y="1.323028" z="-4.006539" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForgun" tags="forceoutline iklink part " parent="turret_base">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-15.0 "/>
+							<max value="90"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-2.325679" y="1.925865" z="-0.9741948" />
+        </offset>
+        <parts>
+          <part name="gun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.347772" y="0.541415" z="5.018896" />
+              <center x="2.325679" y="-0.04041997" z="2.792573" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="gun">
+        <offset>
+          <position x="-1.352221" y="0" z="7.920882" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="gun">
+        <offset>
+          <position x="6.013908" y="1.192093e-07" z="7.920882" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_m" tags="turret medium component combat aegs_idris">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

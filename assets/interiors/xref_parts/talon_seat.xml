@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-08 12:47:25 from Blender-->
+<components>
+  <component name="talon_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\talon_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionFortalon_seat" tags="part ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation ">
+        <parts>
+          <part name="talon_seat">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="2" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="3" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="4" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="5" ref="generic.espr_talon_interior_mtl_seat_pads" />
+                  <material id="6" ref="generic.espr_talon_interior_mtl_decal_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.31413" y="0.6411166" z="0.4372843" />
+              <center x="1.788139e-07" y="0.6506455" z="-0.07847315" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortalon_seat_mesh" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="talon_seat">
+        <parts>
+          <part name="talon_seat_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="2" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="3" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="4" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="5" ref="generic.espr_talon_interior_mtl_seat_pads" />
+                  <material id="6" ref="generic.espr_talon_interior_mtl_decal_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3146791" y="0.6446606" z="0.4380299" />
+              <center x="2.160668e-07" y="0.6469175" z="-0.07921949" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

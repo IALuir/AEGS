@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Markus (192.168.3.127) at 09.08.2019_14-01-40-->
+<macros>
+  <macro name="S12_launch_macro" class="effectobject">
+    <component ref="S12_launch" />
+  </macro>
+</macros>

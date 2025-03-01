@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<components>
+	<component name="wepon_missile_sabre_firebrid_missile" class="missilelauncher">
+		<source geometry="extensions\aegs\assets\props\weaponsystems\capital\missile\wepon_missile_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="Connection01" tags="part platformcollision forceoutline">
+				<parts>
+				</parts>
+			</connection>
+		<connection name="con_rocket" tags="rocket ">
+        <offset>
+          <position x="0.2351399" y="-1.263548" z="0.05218442" />
+          <quaternion qx="-0.1736482" qy="0" qz="0" qw="-0.9848078" />
+        </offset>
+      </connection>
+      <connection name="con_rocket001" tags="rocket ">
+        <offset>
+          <position x="0.7018068" y="-1.263548" z="0.05218442" />
+          <quaternion qx="-0.1736482" qy="0" qz="0" qw="-0.9848078" />
+        </offset>
+      </connection>
+      <connection name="con_rocket002" tags="rocket ">
+        <offset>
+          <position x="1.166462" y="-1.263548" z="0.05218442" />
+          <quaternion qx="-0.1736482" qy="0" qz="0" qw="-0.9848078" />
+        </offset>
+      </connection>
+      <connection name="con_rocket003" tags="rocket ">
+        <offset>
+          <position x="-1.229229" y="-1.263548" z="0.05218442" />
+          <quaternion qx="-0.1736482" qy="0" qz="0" qw="-0.9848078" />
+        </offset>
+      </connection>
+      <connection name="con_rocket004" tags="rocket ">
+        <offset>
+          <position x="-0.7625617" y="-1.263548" z="0.05218442" />
+          <quaternion qx="-0.1736482" qy="0" qz="0" qw="-0.9848078" />
+        </offset>
+      </connection>
+      <connection name="con_rocket005" tags="rocket ">
+        <offset>
+          <position x="-0.2979064" y="-1.263548" z="0.05218442" />
+          <quaternion qx="-0.1736482" qy="0" qz="0" qw="-0.9848078" />
+        </offset>
+      </connection>
+      <connection name="con_rocket006" tags="rocket ">
+        <offset>
+          <position x="0.2351399" y="-1.263548" z="-1.24523" />
+          <quaternion qx="-0.1736482" qy="0" qz="0" qw="-0.9848078" />
+        </offset>
+      </connection>
+      <connection name="con_rocket007" tags="rocket ">
+        <offset>
+          <position x="0.7018068" y="-1.263548" z="-1.24523" />
+          <quaternion qx="-0.1736482" qy="0" qz="0" qw="-0.9848078" />
+        </offset>
+      </connection>
+      <connection name="con_rocket008" tags="rocket ">
+        <offset>
+          <position x="1.166462" y="-1.263548" z="-1.24523" />
+          <quaternion qx="-0.1736482" qy="0" qz="0" qw="-0.9848078" />
+        </offset>
+      </connection>
+      <connection name="con_rocket009" tags="rocket ">
+        <offset>
+          <position x="-1.229229" y="-1.263548" z="-1.24523" />
+          <quaternion qx="-0.1736482" qy="0" qz="0" qw="-0.9848078" />
+        </offset>
+      </connection>
+      <connection name="con_rocket010" tags="rocket ">
+        <offset>
+          <position x="-0.7625617" y="-1.263548" z="-1.24523" />
+          <quaternion qx="-0.1736482" qy="0" qz="0" qw="-0.9848078" />
+        </offset>
+      </connection>
+      <connection name="con_rocket011" tags="rocket ">
+        <offset>
+          <position x="-0.2979064" y="-1.263548" z="-1.24523" />
+          <quaternion qx="-0.1736482" qy="0" qz="0" qw="-0.9848078" />
+        </offset>
+      </connection>
+	  
+		<connection name="WeaponCon_01" tags="component weapon small missile aegs_sabre_firebrid_missile">
+			<offset/>
+		</connection>
+		</connections>
+	</component>
+</components>

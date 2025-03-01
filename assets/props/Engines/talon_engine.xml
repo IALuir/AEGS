@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-08 16:38:14 from Blender-->
+<components>
+  <component name="talon_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\talon_engine_data" />
+    <layers>
+      <layer>
+        <trailemitters>
+          <emitter name="trail_aegs_s_01" type="trail_aegs_s_01">
+            <offset>
+              <position x="0" y="0" z="-4.994337" />
+            </offset>
+          </emitter>
+        </trailemitters>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForpart_fx" tags="part ">
+        <parts>
+          <part name="part_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.771334" y="0.7178789" z="3.408602" />
+              <center x="1.448393e-05" y="0.948728" z="-0.01942098" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_talon">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

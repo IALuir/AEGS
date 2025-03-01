@@ -1,0 +1,4091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-13 20:19:01 from Blender-->
+<components>
+  <component name="polaris" class="ship_m">
+    <source geometry="extensions\AEGS\assets\units\size_m\polaris_data" />
+    <layers>
+      <layer>
+        <lights>
+          <omni name="ego_area001" shadow="1" r="209" g="248" b="255" intensity="0.8" specularintensity="1" range="20" shadowrange="5" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="2.930963" y="0.5103644" z="68.87155" />
+            </offset>
+          </omni>
+          <omni name="ego_area002" shadow="1" r="209" g="248" b="255" intensity="0.8" specularintensity="1" range="20" shadowrange="5" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-2.93096" y="0.5103644" z="68.87155" />
+            </offset>
+          </omni>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_m ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForbody" tags="part ">
+        <offset>
+          <position x="0" y="8.123393" z="-32.3406" />
+        </offset>
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="2" ref="p1.cockpit_glass_outside_01" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="10" ref="generic.rsi_polaris_ext_mtl_Glow_Thrusters" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="12" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="2" ref="p1.cockpit_glass_outside_01" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="5" ref="p1effects.p1_gradient_colour" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="p1effects.p1_gradient_colour" />
+                  <material id="10" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="11" ref="generic.rsi_polaris_ext_mtl_Glow_Thrusters" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="13" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="2" ref="p1.cockpit_glass_outside_01" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="5" ref="p1effects.p1_gradient_colour" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="p1effects.p1_gradient_colour" />
+                  <material id="10" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="11" ref="generic.rsi_polaris_ext_mtl_Glow_Thrusters" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="13" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="2" ref="p1.cockpit_glass_outside_01" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="5" ref="p1effects.p1_gradient_colour" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="p1effects.p1_gradient_colour" />
+                  <material id="10" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="11" ref="generic.rsi_polaris_ext_mtl_Glow_Thrusters" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="13" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="40.62109" y="11.28154" z="77.5657" />
+              <center x="-0.002017975" y="-9.18071" z="36.56578" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody001" tags="part ">
+        <offset>
+          <position x="0" y="8.123393" z="-32.3406" />
+        </offset>
+        <parts>
+          <part name="body001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="40.62929" y="17.4273" z="79.44254" />
+              <center x="-0.002012253" y="-8.399693" z="27.77061" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody002" tags="part ">
+        <offset>
+          <position x="0" y="8.123393" z="-32.3406" />
+        </offset>
+        <parts>
+          <part name="body002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Panel_Tile_Greeble" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="10" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Panel_Tile_Greeble" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="10" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Panel_Tile_Greeble" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="10" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Panel_Tile_Greeble" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="10" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="39.66947" y="11.71309" z="82.92934" />
+              <center x="-0.002016068" y="-9.549977" z="31.25741" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody003" tags="part ">
+        <offset>
+          <position x="0" y="8.123393" z="-32.3406" />
+        </offset>
+        <parts>
+          <part name="body003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="10" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="11" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="10" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="11" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="10" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="11" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="10" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="11" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="40.53348" y="18.26392" z="82.47641" />
+              <center x="-0.002025604" y="-8.399692" z="31.52631" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbodylgfronthatchrearlleft001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-12.88319" y="-11.73961" z="-30.61152" />
+          <quaternion qx="0.0001497229" qy="-0.04085386" qz="0.003406281" qw="-0.9991593" />
+        </offset>
+        <parts>
+          <part name="bodylgfronthatchrearlleft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.457103" y="1.252042" z="7.557568" />
+              <center x="0.892684" y="-1.317448" z="-5.893982" />
+            </size>
+            <size_raw>
+              <max x="2.922258" y="0.5175323" z="7.557568" />
+              <center x="1.424042" y="-0.587726" z="-5.89398" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbodylgfronthatchrearlright001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="6.37999" y="-11.73943" z="-30.57736" />
+          <quaternion qx="0.0001497229" qy="-0.04085386" qz="0.003406281" qw="-0.9991593" />
+        </offset>
+        <parts>
+          <part name="bodylgfronthatchrearlright001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.485582" y="1.224128" z="7.557568" />
+              <center x="0.8643904" y="-1.289717" z="-5.893982" />
+            </size>
+            <size_raw>
+              <max x="2.922258" y="0.5175323" z="7.557568" />
+              <center x="1.424042" y="-0.587726" z="-5.89398" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbodylgfronthatchrearrleft001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-6.3937" y="-11.74614" z="-30.61189" />
+          <quaternion qx="-0.0001313122" qy="0.04076603" qz="-0.006129919" qw="-0.9991499" />
+        </offset>
+        <parts>
+          <part name="bodylgfronthatchrearrleft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.465705" y="1.254288" z="7.556421" />
+              <center x="-0.8740296" y="-1.311456" z="-5.895226" />
+            </size>
+            <size_raw>
+              <max x="2.920293" y="0.5197781" z="7.556421" />
+              <center x="-1.415885" y="-0.5817335" z="-5.895219" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbodylgfronthatchrearrright001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="12.86967" y="-11.74596" z="-30.57774" />
+          <quaternion qx="-0.0001313122" qy="0.04076603" qz="-0.006129919" qw="-0.9991499" />
+        </offset>
+        <parts>
+          <part name="bodylgfronthatchrearrright001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.466516" y="1.226374" z="7.556422" />
+              <center x="-0.8732233" y="-1.283725" z="-5.895224" />
+            </size>
+            <size_raw>
+              <max x="2.920293" y="0.5197781" z="7.556421" />
+              <center x="-1.415885" y="-0.5817335" z="-5.895219" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbridge" tags="part ">
+        <parts>
+          <part name="bridge">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="2" ref="p1.cockpit_glass_inside_01" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="10" ref="generic.rsi_polaris_ext_mtl_Glow_Thrusters" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="12" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="13" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="14" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="15" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="16" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="17" ref="generic.rsi_polaris_ext_mtl_Panel_Tile_Greeble" />
+                  <material id="18" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="19" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="20" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="21" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="22" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="23" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="24" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="25" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="26" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="27" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="28" ref="generic.carrack_interior_mtl_Rubber_grip" />
+                  <material id="29" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="30" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="31" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="2" ref="p1.cockpit_glass_inside_01" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="10" ref="generic.rsi_polaris_ext_mtl_Glow_Thrusters" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="12" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="13" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="14" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="15" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="16" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="17" ref="generic.rsi_polaris_ext_mtl_Panel_Tile_Greeble" />
+                  <material id="18" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="19" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="20" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="21" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="22" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="23" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="24" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="25" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="26" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="27" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="28" ref="generic.carrack_interior_mtl_Rubber_grip" />
+                  <material id="29" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="30" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="31" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="2" ref="p1.cockpit_glass_inside_01" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="10" ref="generic.rsi_polaris_ext_mtl_Glow_Thrusters" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="12" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="13" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="14" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="15" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="16" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="17" ref="generic.rsi_polaris_ext_mtl_Panel_Tile_Greeble" />
+                  <material id="18" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="19" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="20" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="21" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="22" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="23" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="24" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="25" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="26" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="27" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="28" ref="generic.carrack_interior_mtl_Rubber_grip" />
+                  <material id="29" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="30" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="31" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="2" ref="p1.cockpit_glass_inside_01" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="10" ref="generic.rsi_polaris_ext_mtl_Glow_Thrusters" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="12" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="13" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="14" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="15" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="16" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="17" ref="generic.rsi_polaris_ext_mtl_Panel_Tile_Greeble" />
+                  <material id="18" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="19" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="20" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="21" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="22" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="23" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="24" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="25" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="26" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="27" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="28" ref="generic.carrack_interior_mtl_Rubber_grip" />
+                  <material id="29" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="30" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="31" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.435344" y="2.585848" z="8.65757" />
+              <center x="-0.0005140305" y="-0.7848847" z="73.08594" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForglowrearmeshenginesmiddleshroudbottom001" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-30 "/>
+							<max value="0 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="29.74596" y="0.628952" z="-77.14729" />
+          <quaternion qx="7.811198e-07" qy="0.7071068" qz="0.7071068" qw="0" />
+        </offset>
+        <parts>
+          <part name="glowrearmeshenginesmiddleshroudbottom001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Glow_Thrusters" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.002834" y="2.606" z="0.9244275" />
+              <center x="-3.576279e-07" y="-0.194814" z="0.8672425" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForglowrearmeshenginesmiddleshroudbottom002" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="0 "/>
+							<max value="30 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-29.74597" y="-1.222936" z="-77.14729" />
+          <quaternion qx="-0.7071064" qy="-7.071068e-07" qz="7.071066e-07" qw="-0.7071072" />
+        </offset>
+        <parts>
+          <part name="glowrearmeshenginesmiddleshroudbottom002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Glow_Thrusters" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.002834" y="2.606" z="0.9244275" />
+              <center x="-3.576279e-07" y="-0.194814" z="0.8672425" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForglowrearmeshenginesmiddleshroudtop001" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="0 "/>
+							<max value="30 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="29.74595" y="-1.198039" z="-77.19918" />
+          <quaternion qx="-0.7071071" qy="-3.989914e-07" qz="1.180112e-06" qw="-0.7071064" />
+        </offset>
+        <parts>
+          <part name="glowrearmeshenginesmiddleshroudtop001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Glow_Thrusters" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.002834" y="2.606" z="0.9244275" />
+              <center x="-3.576279e-07" y="-0.194814" z="0.8672425" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForglowrearmeshenginesmiddleshroudtop002" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-30 "/>
+							<max value="0 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-29.74597" y="0.6040555" z="-77.19918" />
+          <quaternion qx="3.905593e-07" qy="0.7071075" qz="0.707106" qw="-3.905605e-07" />
+        </offset>
+        <parts>
+          <part name="glowrearmeshenginesmiddleshroudtop002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Glow_Thrusters" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.002834" y="2.606" z="0.9244275" />
+              <center x="-3.576279e-07" y="-0.194814" z="0.8672425" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForleft001" group="left_turret" tags="part animation">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-27.38251" y="1.99924" z="-9.493031" />
+          <quaternion qx="0.1516977" qy="-0.009262481" qz="0.9879058" qw="-0.03072736" />
+        </offset>
+        <parts>
+          <part name="left001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.073169" y="0.3556529" z="2.026707" />
+              <center x="0.7119179" y="0.01354909" z="3.814697e-06" />
+            </size>
+            <size_raw>
+              <max x="1.073169" y="0.3556528" z="2.026708" />
+              <center x="0.7119195" y="0.013549" z="3.457069e-06" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForleft001001" group="left_turret" tags="part animation" parent="left001">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="1.469675" y="0.01399148" z="-0.0001068115" />
+          <quaternion qx="-1.701594e-06" qy="3.556706e-06" qz="-0.4334699" qw="-0.901168" />
+        </offset>
+        <parts>
+          <part name="left001001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.207219" y="1.7308" z="5.034936" />
+              <center x="1.326195" y="0.7515079" z="-0.1120377" />
+            </size>
+            <size_raw>
+              <max x="2.808469" y="1.013385" z="4.909645" />
+              <center x="0.9311804" y="0.03554028" z="0.01207829" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForleft002" group="left_turret" tags="part animation">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-27.38251" y="-4.808597" z="-9.493032" />
+          <quaternion qx="0.009257252" qy="-0.1516975" qz="0.0306928" qw="-0.987907" />
+        </offset>
+        <parts>
+          <part name="left002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.073169" y="0.3556535" z="2.026709" />
+              <center x="-0.7119179" y="0.01355648" z="1.430511e-05" />
+            </size>
+            <size_raw>
+              <max x="1.073169" y="0.3556535" z="2.026709" />
+              <center x="-0.7119191" y="0.01355651" z="1.40667e-05" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForleft002001" group="left_turret" tags="part animation" parent="left002">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-1.469681" y="0.01399136" z="-0.0001049042" />
+          <quaternion qx="-1.841757e-06" qy="-3.288151e-06" qz="0.433469" qw="-0.9011685" />
+        </offset>
+        <parts>
+          <part name="left002001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.263502" y="1.7559" z="5.052638" />
+              <center x="-0.4779396" y="-0.7024875" z="-0.1385517" />
+            </size>
+            <size_raw>
+              <max x="2.808468" y="1.013383" z="4.909662" />
+              <center x="-0.9292413" y="0.03847539" z="0.003254652" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshairbrakebotleft001" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-30"/>
+							<max value="-2.5 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-20.06327" y="-7.624535" z="-32.17193" />
+          <quaternion qx="-0.009868749" qy="-0.01945478" qz="-0.891608" qw="-0.4522823" />
+        </offset>
+        <parts>
+          <part name="meshairbrakebotleft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.698339" y="1.111313" z="6.180002" />
+              <center x="-3.808737e-05" y="-0.7156216" z="-5.682394" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshairbrakebotright001" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-30 "/>
+							<max value="-2.5 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="20.06327" y="-7.624537" z="-32.17178" />
+          <quaternion qx="-0.009868749" qy="0.01945478" qz="0.891608" qw="-0.4522823" />
+        </offset>
+        <parts>
+          <part name="meshairbrakebotright001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.698339" y="1.111313" z="6.18" />
+              <center x="-4.10676e-05" y="-0.7156216" z="-5.682395" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshairbraketopleft001" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-30 "/>
+							<max value="-2.5 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-24.47603" y="6.35812" z="-32.77478" />
+          <quaternion qx="-0.02129759" qy="-0.00472156" qz="-0.216388" qw="-0.9760637" />
+        </offset>
+        <parts>
+          <part name="meshairbraketopleft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.698339" y="1.111313" z="6.180002" />
+              <center x="-3.916025e-05" y="-0.7156205" z="-5.682394" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshairbraketopright001" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-30 "/>
+							<max value="-2.5 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="24.47604" y="6.358114" z="-32.77477" />
+          <quaternion qx="-0.0212976" qy="0.004721572" qz="0.2163884" qw="-0.9760636" />
+        </offset>
+        <parts>
+          <part name="meshairbraketopright001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.698339" y="1.111313" z="6.180001" />
+              <center x="-3.904104e-05" y="-0.715621" z="-5.682394" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshhangardoorinnerfrontleft001" group="door" tags="part animation">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0" y="7.958173" z="-14.75664" />
+        </offset>
+        <parts>
+          <part name="meshhangardoorinnerfrontleft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.428719" y="2.624861" z="27.23829" />
+              <center x="0" y="-1.310192" z="12.67857" />
+            </size>
+            <size_raw>
+              <max x="6.428719" y="1.517076" z="13.88134" />
+              <center x="-1.192093e-07" y="-0.204233" z="-0.6563611" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshhangardoorouterfrontleft001" group="door" tags="part animation" parent="meshhangardoorinnerfrontleft001">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.002225" y="0.1889997" z="0" />
+        </offset>
+        <parts>
+          <part name="meshhangardoorouterfrontleft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.305878" y="2.764656" z="26.82903" />
+              <center x="-9.056481" y="-1.244513" z="12.23888" />
+            </size>
+            <size_raw>
+              <max x="6.955878" y="1.656871" z="13.47209" />
+              <center x="-10.40426" y="-0.138553" z="-1.096047" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshhangardoorouterfrontright001" group="door" tags="part animation" parent="meshhangardoorinnerfrontleft001">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.002225" y="0.1889997" z="0" />
+        </offset>
+        <parts>
+          <part name="meshhangardoorouterfrontright001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.305878" y="2.764656" z="26.82903" />
+              <center x="9.05648" y="-1.244513" z="12.23888" />
+            </size>
+            <size_raw>
+              <max x="6.955878" y="1.656871" z="13.47209" />
+              <center x="10.40426" y="-0.138553" z="-1.096047" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshhangardoorouterrear001" group="door" tags="part animation">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0" y="7.362447" z="-48.55016" />
+        </offset>
+        <parts>
+          <part name="meshhangardoorouterrear001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.391616" y="1.988075" z="8.295401" />
+              <center x="0" y="-1.069491" z="-4.547989" />
+            </size>
+            <size_raw>
+              <max x="6.391616" y="0.9576105" z="4.112031" />
+              <center x="1.192093e-07" y="-0.04072549" z="-0.3715136" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbottomhalf001" group="door" tags="part animation" parent="meshhangardoorouterrear001">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.003476488" y="0.9366193" z="2.888718" />
+        </offset>
+        <parts>
+          <part name="bottomhalf001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.341039" y="2.241825" z="8.247917" />
+              <center x="-7.970221" y="-1.865854" z="-7.199921" />
+            </size>
+            <size_raw>
+              <max x="5.231709" y="1.21136" z="4.064548" />
+              <center x="-10.07608" y="-0.8370879" z="-3.023447" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshhangardoorinnerrearright001" group="door" tags="part animation" parent="meshhangardoorouterrear001">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.003476493" y="0.9366183" z="2.888718" />
+        </offset>
+        <parts>
+          <part name="meshhangardoorinnerrearright001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.341041" y="2.241402" z="8.250435" />
+              <center x="7.970219" y="-1.866277" z="-7.202438" />
+            </size>
+            <size_raw>
+              <max x="5.231709" y="1.210937" z="4.067066" />
+              <center x="10.07608" y="-0.8375111" z="-3.025965" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshhangardoormidrear001" group="door" tags="part animation" parent="meshhangardoorouterrear001">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0" y="1.212652" z="7.032497" />
+        </offset>
+        <parts>
+          <part name="meshhangardoormidrear001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.768875" y="2.478238" z="12.51371" />
+              <center x="6.198883e-06" y="-1.657002" z="-6.899052" />
+            </size>
+            <size_raw>
+              <max x="6.768875" y="0.833354" z="4.888062" />
+              <center x="6.079674e-06" y="-0.01482999" z="0.7140253" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshhangardoormidrearright001" group="door" tags="part animation" parent="meshhangardoormidrear001">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-11.345" y="0.3098869" z="0.1772499" />
+          <quaternion qx="0" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="meshhangardoormidrearright001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.730529" y="2.63373" z="14.55317" />
+              <center x="21.97905" y="-1.823735" z="-6.777" />
+            </size>
+            <size_raw>
+              <max x="6.136936" y="0.9888468" z="6.927519" />
+              <center x="22.57166" y="-0.1815633" z="0.8360779" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshhangardooroutermidrearleft001" group="door" tags="part animation" parent="meshhangardoormidrear001">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-11.42582" y="0.07631588" z="-1.085922" />
+        </offset>
+        <parts>
+          <part name="meshhangardooroutermidrearleft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.723818" y="2.608411" z="14.55273" />
+              <center x="0.7868023" y="-1.615485" z="-5.514294" />
+            </size>
+            <size_raw>
+              <max x="6.136446" y="0.9635274" z="6.927085" />
+              <center x="0.2003989" y="0.02668643" z="2.098783" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshhangardoorrotatorfrontmid001" group="door" tags="part animation">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-2.783781e-08" y="9.062526" z="-29.8291" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-5.523351e-07" />
+        </offset>
+        <parts>
+          <part name="meshhangardoorrotatorfrontmid001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.424818" y="1.640593" z="21.93947" />
+              <center x="2.783781e-08" y="-1.430544" z="19.74958" />
+            </size>
+            <size_raw>
+              <max x="6.424818" y="0.136073" z="4.705275" />
+              <center x="0" y="0.07149601" z="2.543785" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshhangardoorrotatorfrontleft001" group="door" tags="part animation" parent="meshhangardoorrotatorfrontmid001">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.001761495" y="0.2679062" z="-3.489252" />
+        </offset>
+        <parts>
+          <part name="meshhangardoorrotatorfrontleft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.676385" y="1.706076" z="20.86415" />
+              <center x="12.28917" y="-1.370659" z="23.17184" />
+            </size>
+            <size_raw>
+              <max x="6.874017" y="0.2015565" z="3.629948" />
+              <center x="10.48978" y="0.1313805" z="5.966045" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshhangardoorrotatorfrontright001" group="door" tags="part animation" parent="meshhangardoorrotatorfrontmid001">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.007693877" y="0.2761078" z="-3.488295" />
+        </offset>
+        <parts>
+          <part name="meshhangardoorrotatorfrontright001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.67165" y="1.706076" z="20.86415" />
+              <center x="-12.28444" y="-1.370659" z="23.17184" />
+            </size>
+            <size_raw>
+              <max x="6.874018" y="0.2015565" z="3.629948" />
+              <center x="-10.48977" y="0.1313805" z="5.966045" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshtopstaticfront001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="-7.29335" z="28.0639" />
+        </offset>
+        <parts>
+          <part name="meshtopstaticfront001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.478532" y="2.726375" z="5.502524" />
+              <center x="-0.006086707" y="-1.349074" z="2.224349" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshmainstructurefront001" tags="part animation" parent="meshtopstaticfront001">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="-1.528513" z="-1.90176" />
+          <quaternion qx="0.0436195" qy="0" qz="0" qw="-0.9990482" />
+        </offset>
+        <parts>
+          <part name="meshmainstructurefront001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.170777" y="4.850099" z="2.909942" />
+              <center x="0" y="-1.864637" z="0.3877525" />
+            </size>
+            <size_raw>
+              <max x="1.170777" y="2.888308" z="2.909941" />
+              <center x="-2.980232e-08" y="0.09391904" z="0.387751" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshplatingrotatorfront001" tags="part animation" parent="meshmainstructurefront001">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-1.355333" y="0.05453396" z="0.7683926" />
+          <quaternion qx="1.490117e-08" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="meshplatingrotatorfront001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.735167" y="6.125957" z="3.551488" />
+              <center x="1.355332" y="-3.244884" z="0.38694" />
+            </size>
+            <size_raw>
+              <max x="2.735167" y="2.875587" z="3.163738" />
+              <center x="1.355332" y="0.0001275539" z="-0.0001709461" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshfrontstructurefront001" tags="part animation" parent="meshplatingrotatorfront001">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="1.355333" y="2.156348" z="2.105423" />
+          <quaternion qx="-3.725289e-09" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="meshfrontstructurefront001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.648694" y="4.680083" z="3.667869" />
+              <center x="2.026558e-06" y="-3.399983" z="1.724598" />
+            </size>
+            <size_raw>
+              <max x="1.648694" y="2.014614" z="3.62756" />
+              <center x="1.996756e-06" y="-0.7389065" z="1.76484" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshfrontpistonfront001" tags="part animation" parent="meshfrontstructurefront001">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-2.384186e-07" y="-1.323787" z="1.517141" />
+          <quaternion qx="-0.04361951" qy="0" qz="0" qw="-0.9990482" />
+        </offset>
+        <parts>
+          <part name="meshfrontpistonfront001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.640994" y="3.164148" z="0.6593094" />
+              <center x="0" y="-1.552948" z="0.01828766" />
+            </size>
+            <size_raw>
+              <max x="0.640994" y="1.620932" z="0.640994" />
+              <center x="1.490116e-08" y="-0.01227552" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshmidhingefront001" tags="part animation" parent="meshfrontstructurefront001">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="-0.04380465" z="-0.8040371" />
+          <quaternion qx="0.0001797862" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="meshmidhingefront001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.870826" y="4.667346" z="2.427356" />
+              <center x="4.053116e-06" y="-2.905859" z="-0.06878471" />
+            </size>
+            <size_raw>
+              <max x="1.870826" y="1.773114" z="2.182476" />
+              <center x="4.023314e-06" y="-0.01639652" z="-0.313264" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshmainfootfront001" tags="part animation" parent="meshplatingrotatorfront001">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.6584749" y="-2.996888" z="5.284447" />
+          <quaternion qx="-0.03585884" qy="0" qz="0" qw="-0.9993569" />
+        </offset>
+        <parts>
+          <part name="meshmainfootfront001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="10" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="11" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.844322" y="6.659301" z="6.076044" />
+              <center x="2.013808" y="-1.329891" z="-4.579405" />
+            </size>
+            <size_raw>
+              <max x="3.844322" y="2.783511" z="5.688292" />
+              <center x="2.013808" y="2.539512" z="-4.966516" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshlglplatefront001" tags="part animation" parent="meshmainfootfront001">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.4852433" y="0.7541748" z="-5.067209" />
+          <quaternion qx="-0.008500496" qy="-0.008050489" qz="0.642299" qw="-0.7663648" />
+        </offset>
+        <parts>
+          <part name="meshlglplatefront001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.128485" y="4.443335" z="4.476352" />
+              <center x="-0.8912053" y="-4.213274" z="1.572273" />
+            </size>
+            <size_raw>
+              <max x="1.128485" y="0.567544" z="4.0886" />
+              <center x="-0.8912046" y="-0.34387" z="1.185161" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshlgrplatefront001" tags="part animation" parent="meshmainfootfront001">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="4.52919" y="0.745558" z="-5.067503" />
+          <quaternion qx="-0.000562968" qy="0.009506251" qz="-0.6422766" qw="-0.7664137" />
+        </offset>
+        <parts>
+          <part name="meshlgrplatefront001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.128355" y="4.443918" z="4.476352" />
+              <center x="0.89029" y="-4.213856" z="1.572271" />
+            </size>
+            <size_raw>
+              <max x="1.128355" y="0.5681283" z="4.088599" />
+              <center x="0.8902905" y="-0.3444535" z="1.185161" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshtoepistonfront001" tags="part animation" parent="meshmainfootfront001">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="2.013805" y="1.326972" z="0.418129" />
+          <quaternion qx="-0.007766737" qy="0" qz="0" qw="-0.9999698" />
+        </offset>
+        <parts>
+          <part name="meshtoepistonfront001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.203821" y="4.706099" z="2.367981" />
+              <center x="-1.001167e-07" y="-3.723948" z="-0.6632843" />
+            </size>
+            <size_raw>
+              <max x="2.203821" y="0.7649155" z="1.735003" />
+              <center x="5.960464e-08" y="0.21074" z="-1.295216" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshtoerotatorfront001" tags="part animation" parent="meshmainfootfront001">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="2.013808" y="-0.01254994" z="0.4514236" />
+          <quaternion qx="0.1313066" qy="0" qz="0" qw="-0.9913418" />
+        </offset>
+        <parts>
+          <part name="meshtoerotatorfront001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.365791" y="4.57061" z="1.825981" />
+              <center x="5.149795e-05" y="-3.408126" z="1.523575" />
+            </size>
+            <size_raw>
+              <max x="3.365791" y="0.6948203" z="1.438229" />
+              <center x="5.143881e-05" y="0.4612765" z="1.136464" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshtopstaticfront002" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-9.622896" y="-7.29335" z="-36.61902" />
+        </offset>
+        <parts>
+          <part name="meshtopstaticfront002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="14.10752" y="2.726375" z="5.502524" />
+              <center x="9.622896" y="-1.349074" z="2.224349" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshmainstructurefront002" tags="part animation" parent="meshtopstaticfront002">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="-1.528513" z="-1.90176" />
+          <quaternion qx="0.0436195" qy="0" qz="0" qw="-0.9990482" />
+        </offset>
+        <parts>
+          <part name="meshmainstructurefront002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="10.79367" y="4.850099" z="2.909941" />
+              <center x="9.622895" y="-1.864637" z="0.3877487" />
+            </size>
+            <size_raw>
+              <max x="10.79367" y="2.888308" z="2.909941" />
+              <center x="9.622896" y="0.09391904" z="0.3877509" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshplatingrotatorfront002" tags="part animation" parent="meshmainstructurefront002">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-1.355333" y="0.0545342" z="0.7683945" />
+          <quaternion qx="1.490117e-08" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="meshplatingrotatorfront002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="12.35806" y="6.125957" z="3.551487" />
+              <center x="10.97823" y="-3.244884" z="0.38694" />
+            </size>
+            <size_raw>
+              <max x="12.35806" y="2.875588" z="3.163738" />
+              <center x="10.97823" y="0.0001277924" z="-0.0001709461" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshfrontstructurefront002" tags="part animation" parent="meshplatingrotatorfront002">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="1.355332" y="2.156348" z="2.105423" />
+          <quaternion qx="-3.725289e-09" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="meshfrontstructurefront002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.27159" y="4.680084" z="3.66787" />
+              <center x="9.622895" y="-3.399983" z="1.724602" />
+            </size>
+            <size_raw>
+              <max x="11.27159" y="2.014614" z="3.62756" />
+              <center x="9.622896" y="-0.7389061" z="1.76484" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshfrontpistonfront002" tags="part animation" parent="meshfrontstructurefront002">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-9.536743e-07" y="-1.323788" z="1.517155" />
+          <quaternion qx="-0.04361951" qy="0" qz="0" qw="-0.9990482" />
+        </offset>
+        <parts>
+          <part name="meshfrontpistonfront002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="10.26389" y="3.164147" z="0.6593056" />
+              <center x="9.622895" y="-1.552947" z="0.01829147" />
+            </size>
+            <size_raw>
+              <max x="10.26389" y="1.620933" z="0.640994" />
+              <center x="9.622896" y="-0.01227576" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshmidhingefront002" tags="part animation" parent="meshfrontstructurefront002">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-9.536743e-07" y="-0.04380608" z="-0.8040276" />
+          <quaternion qx="0.0001797862" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="meshmidhingefront002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.49372" y="4.667347" z="2.427355" />
+              <center x="9.622897" y="-2.905859" z="-0.06877899" />
+            </size>
+            <size_raw>
+              <max x="11.49372" y="1.773114" z="2.182476" />
+              <center x="9.622896" y="-0.01639628" z="-0.3132644" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshmainfootfront002" tags="part animation" parent="meshplatingrotatorfront002">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.6584759" y="-2.996889" z="5.284447" />
+          <quaternion qx="-0.03585884" qy="0" qz="0" qw="-0.9993569" />
+        </offset>
+        <parts>
+          <part name="meshmainfootfront002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="10" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="11" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="13.46722" y="6.659301" z="6.076037" />
+              <center x="11.6367" y="-1.32989" z="-4.579403" />
+            </size>
+            <size_raw>
+              <max x="13.46722" y="2.783512" z="5.688292" />
+              <center x="11.63671" y="2.539511" z="-4.966516" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshlglplatefront002" tags="part animation" parent="meshmainfootfront002">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.4852428" y="0.754175" z="-5.067207" />
+          <quaternion qx="-0.008500496" qy="-0.008050489" qz="0.642299" qw="-0.7663648" />
+        </offset>
+        <parts>
+          <part name="meshlglplatefront002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.128485" y="4.443335" z="4.476349" />
+              <center x="-0.8912048" y="-4.213273" z="1.572269" />
+            </size>
+            <size_raw>
+              <max x="1.128485" y="0.567544" z="4.0886" />
+              <center x="-0.8912046" y="-0.34387" z="1.185161" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshlglplatefront003" tags="part animation" parent="meshmainfootfront002">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="18.74811" y="0.754175" z="-5.067207" />
+          <quaternion qx="-0.008500496" qy="-0.008050489" qz="0.642299" qw="-0.7663648" />
+        </offset>
+        <parts>
+          <part name="meshlglplatefront003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.128485" y="4.443335" z="4.476349" />
+              <center x="-0.8912048" y="-4.213273" z="1.572269" />
+            </size>
+            <size_raw>
+              <max x="1.128485" y="0.567544" z="4.0886" />
+              <center x="-0.8912046" y="-0.34387" z="1.185161" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshlgrplatefront002" tags="part animation" parent="meshmainfootfront002">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="4.52919" y="0.7455582" z="-5.067501" />
+          <quaternion qx="-0.000562968" qy="0.009506251" qz="-0.6422766" qw="-0.7664137" />
+        </offset>
+        <parts>
+          <part name="meshlgrplatefront002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.128355" y="4.443918" z="4.476348" />
+              <center x="0.8902903" y="-4.213855" z="1.572277" />
+            </size>
+            <size_raw>
+              <max x="1.128355" y="0.5681283" z="4.088599" />
+              <center x="0.8902905" y="-0.3444535" z="1.185161" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshlgrplatefront003" tags="part animation" parent="meshmainfootfront002">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="23.76254" y="0.7455582" z="-5.067501" />
+          <quaternion qx="-0.000562968" qy="0.009506251" qz="-0.6422766" qw="-0.7664137" />
+        </offset>
+        <parts>
+          <part name="meshlgrplatefront003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.128355" y="4.443919" z="4.476348" />
+              <center x="0.8902903" y="-4.213857" z="1.572277" />
+            </size>
+            <size_raw>
+              <max x="1.128355" y="0.5681283" z="4.088599" />
+              <center x="0.8902905" y="-0.3444535" z="1.185161" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshtoepistonfront002" tags="part animation" parent="meshmainfootfront002">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="2.013805" y="1.326973" z="0.4181328" />
+          <quaternion qx="-0.007766737" qy="0" qz="0" qw="-0.9999698" />
+        </offset>
+        <parts>
+          <part name="meshtoepistonfront002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.82672" y="4.706099" z="2.367978" />
+              <center x="9.622899" y="-3.723948" z="-0.6632805" />
+            </size>
+            <size_raw>
+              <max x="11.82672" y="0.7649155" z="1.735003" />
+              <center x="9.622899" y="0.21074" z="-1.295216" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshtoerotatorfront002" tags="part animation" parent="meshmainfootfront002">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="2.013808" y="-0.0125497" z="0.4514275" />
+          <quaternion qx="0.1313066" qy="0" qz="0" qw="-0.9913418" />
+        </offset>
+        <parts>
+          <part name="meshtoerotatorfront002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.36579" y="4.57061" z="1.825978" />
+              <center x="5.149841e-05" y="-3.408125" z="1.523571" />
+            </size>
+            <size_raw>
+              <max x="3.365791" y="0.6948203" z="1.438229" />
+              <center x="5.143881e-05" y="0.4612765" z="1.136464" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshtoerotatorfront003" tags="part animation" parent="meshmainfootfront002">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="21.24716" y="-0.0125497" z="0.4514275" />
+          <quaternion qx="0.1313066" qy="0" qz="0" qw="-0.9913418" />
+        </offset>
+        <parts>
+          <part name="meshtoerotatorfront003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.36579" y="4.57061" z="1.825978" />
+              <center x="5.149841e-05" y="-3.408125" z="1.523571" />
+            </size>
+            <size_raw>
+              <max x="3.365791" y="0.6948203" z="1.438229" />
+              <center x="5.143881e-05" y="0.4612765" z="1.136464" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshturrethatchslidebottomleft001" group="left_turret" tags="part animation">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-30.61873" y="-3.989655" z="-12.96792" />
+          <quaternion qx="0" qy="1" qz="0" qw="-5.523351e-07" />
+        </offset>
+        <parts>
+          <part name="meshturrethatchslidebottomleft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.530725" y="1.40676" z="3.21562" />
+              <center x="0.6739502" y="-1.342406" z="0.551178" />
+            </size>
+            <size_raw>
+              <max x="1.303585" y="1.38039" z="2.453002" />
+              <center x="0.8883706" y="-1.367299" z="1.271089" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshturrethatchslidebottomright001" group="right_turret" tags="part animation">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="30.59212" y="-3.920112" z="-12.96719" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-5.523351e-07" />
+        </offset>
+        <parts>
+          <part name="meshturrethatchslidebottomright001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.561254" y="1.42836" z="3.202561" />
+              <center x="-0.645134" y="-1.412577" z="0.5635061" />
+            </size>
+            <size_raw>
+              <max x="1.303585" y="1.38039" z="2.453003" />
+              <center x="-0.888373" y="-1.367293" z="1.271088" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshturrethatchslidetopleft001" group="left_turret" tags="part animation">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-30.60224" y="1.057851" z="-12.97566" />
+        </offset>
+        <parts>
+          <part name="meshturrethatchslidetopleft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.622156" y="1.412552" z="3.353943" />
+              <center x="-1.189106" y="1.397659" z="-2.121578" />
+            </size>
+            <size_raw>
+              <max x="1.303585" y="1.38039" z="2.453001" />
+              <center x="-0.8883739" y="1.367298" z="-1.271089" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshturrethatchslidetopright001" group="right_turret" tags="part animation">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="30.59885" y="1.058062" z="-12.96736" />
+        </offset>
+        <parts>
+          <part name="meshturrethatchslidetopright001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.561552" y="1.416325" z="3.205586" />
+              <center x="1.131895" y="1.401225" z="-1.981531" />
+            </size>
+            <size_raw>
+              <max x="1.303584" y="1.380391" z="2.453002" />
+              <center x="0.8883735" y="1.367303" z="-1.271091" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormeshturretstructuresecright001" group="left_turret" tags="part animation">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-19.03923" y="-1.647767" z="-8.999991" />
+          <quaternion qx="0" qy="2.384186e-07" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="meshturretstructuresecright001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.94219" y="1.266005" z="2.997972" />
+              <center x="-3.335556" y="-0.109571" z="-0.05845451" />
+            </size>
+            <size_raw>
+              <max x="2.757724" y="1.266005" z="2.997972" />
+              <center x="0.8420155" y="-0.109571" z="-0.05845487" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForobject011001" group="left_turret" tags="part animation" parent="meshturretstructuresecright001">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-5.585892" y="-1.646203" z="-0.004103661" />
+          <quaternion qx="0" qy="0.7071071" qz="0" qw="-0.7071064" />
+        </offset>
+        <parts>
+          <part name="object011001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.674045" y="0.167169" z="4.510461" />
+              <center x="-5.406416" y="0.1260281" z="-4.644477" />
+            </size>
+            <size_raw>
+              <max x="1.258698" y="0.167169" z="4.510458" />
+              <center x="5.483627e-06" y="0.126028" z="-4.644476" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      
+      <connection name="ConnectionFormeshturretstructuresecright002" group="right_turret" tags="part animation">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="19.03938" y="-1.647767" z="-8.934951" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-6.715444e-07" />
+        </offset>
+        <parts>
+          <part name="meshturretstructuresecright002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.034869" y="1.266005" z="2.997972" />
+              <center x="5.112114" y="-0.109571" z="-0.05845451" />
+            </size>
+            <size_raw>
+              <max x="2.757724" y="1.266005" z="2.997972" />
+              <center x="0.8420155" y="-0.109571" z="-0.05845487" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForobject011002" group="right_turret" tags="part animation" parent="meshturretstructuresecright002">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-5.585785" y="-1.646203" z="-0.004103661" />
+          <quaternion qx="0" qy="0.7071071" qz="0" qw="-0.7071064" />
+        </offset>
+        <parts>
+          <part name="object011002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.702057" y="0.167169" z="4.51046" />
+              <center x="5.434393" y="0.1260281" z="-4.644477" />
+            </size>
+            <size_raw>
+              <max x="1.258698" y="0.167169" z="4.510458" />
+              <center x="5.483627e-06" y="0.126028" z="-4.644476" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortemp1" group="left_turret" tags="part animation" parent="turret_box001">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="1.907349e-06" y="0" z="9.536743e-07" />
+        </offset>
+        <parts>
+          <part name="temp1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.515347" y="0.0999999" z="0.1000004" />
+              <center x="-5.406422" y="0" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.1" y="0.1" z="0.1" />
+              <center x="0" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortemp2" group="right_turret" tags="part animation" parent="turret_box002">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-1.907349e-06" y="0" z="-9.536743e-07" />
+        </offset>
+        <parts>
+          <part name="temp2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.543358" y="0.0999999" z="0.1000004" />
+              <center x="5.434387" y="0" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.1" y="0.1" z="0.1" />
+              <center x="0" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      
+      <connection name="ConnectionForneckfrontaileronleft001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-15.2193" y="-1.405507" z="41.67159" />
+          <quaternion qx="0" qy="0.0001582109" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="neckfrontaileronleft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.583875" y="0.7515994" z="5.358473" />
+              <center x="-2.908987" y="0.0005065203" z="-3.67223" />
+            </size>
+            <size_raw>
+              <max x="4.583875" y="0.7515995" z="5.358473" />
+              <center x="-2.908987" y="0.0005065203" z="-3.672232" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForneckfrontaileronright001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="15.2193" y="-1.405507" z="41.67159" />
+          <quaternion qx="0" qy="-0.0001582109" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="neckfrontaileronright001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.583875" y="0.7515996" z="5.358473" />
+              <center x="2.908987" y="0.0004885197" z="-3.67223" />
+            </size>
+            <size_raw>
+              <max x="4.583875" y="0.7515995" z="5.358473" />
+              <center x="2.908987" y="0.0004885197" z="-3.672232" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFornecklgfronthatchfrontleft001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-3.241638" y="-10.94564" z="34.1925" />
+          <quaternion qx="0.0001497229" qy="-0.04085386" qz="0.003406281" qw="-0.9991593" />
+        </offset>
+        <parts>
+          <part name="necklgfronthatchfrontleft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.475843" y="1.260182" z="7.557568" />
+              <center x="0.8740661" y="-1.325535" z="-5.893982" />
+            </size>
+            <size_raw>
+              <max x="2.922258" y="0.5175323" z="7.557568" />
+              <center x="1.424042" y="-0.587726" z="-5.89398" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFornecklgfronthatchfrontright001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="3.241637" y="-10.94567" z="34.19251" />
+          <quaternion qx="-0.0002431783" qy="0.04074869" qz="-0.003422892" qw="-0.9991636" />
+        </offset>
+        <parts>
+          <part name="necklgfronthatchfrontright001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.473884" y="1.262419" z="7.556422" />
+              <center x="-0.8659101" y="-1.319534" z="-5.895226" />
+            </size>
+            <size_raw>
+              <max x="2.920297" y="0.5197776" z="7.556422" />
+              <center x="-1.415885" y="-0.5817335" z="-5.895219" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrearmeshthrusterfinbotleft001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-30.74224" y="-16.01059" z="-64.04408" />
+          <quaternion qx="0.4617084" qy="-0.5355695" qz="-0.7051358" qw="-0.05267004" />
+        </offset>
+        <parts>
+          <part name="rearmeshthrusterfinbotleft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.135324" y="2.263251" z="0.8956985" />
+              <center x="7.454885" y="-0.5103779" z="0" />
+            </size>
+            <size_raw>
+              <max x="9.135324" y="2.263252" z="0.8956995" />
+              <center x="7.454885" y="-0.5103791" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrearmeshthrusterfinbotright001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="30.74224" y="-16.01058" z="-64.04407" />
+          <quaternion qx="-0.7051356" qy="-0.05267029" qz="0.4617091" qw="-0.5355691" />
+        </offset>
+        <parts>
+          <part name="rearmeshthrusterfinbotright001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.135326" y="2.263252" z="0.8956985" />
+              <center x="7.454885" y="-0.5103798" z="0" />
+            </size>
+            <size_raw>
+              <max x="9.135326" y="2.263252" z="0.8956997" />
+              <center x="7.454885" y="-0.5103792" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrearmeshthrusterfintopleft001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-30.83632" y="15.45798" z="-64.04408" />
+          <quaternion qx="0.05266983" qy="-0.7051363" qz="-0.535569" qw="-0.4617083" />
+        </offset>
+        <parts>
+          <part name="rearmeshthrusterfintopleft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.135327" y="2.263257" z="0.8956985" />
+              <center x="7.454887" y="-0.5103827" z="0" />
+            </size>
+            <size_raw>
+              <max x="9.135328" y="2.263257" z="0.8957002" />
+              <center x="7.454885" y="-0.510383" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrearmeshthrusterfintopright001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="30.83632" y="15.45798" z="-64.04409" />
+          <quaternion qx="-0.535569" qy="-0.4617083" qz="0.05266983" qw="-0.7051364" />
+        </offset>
+        <parts>
+          <part name="rearmeshthrusterfintopright001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.135328" y="2.263252" z="0.8956985" />
+              <center x="7.454889" y="-0.5103798" z="0" />
+            </size>
+            <size_raw>
+              <max x="9.135328" y="2.263253" z="0.8957001" />
+              <center x="7.454885" y="-0.5103793" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForright001" group="right_turret" tags="part animation">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="27.38252" y="1.999243" z="-9.493032" />
+          <quaternion qx="0.1516982" qy="0.009259911" qz="-0.9879065" qw="-0.03070376" />
+        </offset>
+        <parts>
+          <part name="right001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.073172" y="0.3556532" z="2.026707" />
+              <center x="-0.7119236" y="0.01354992" z="6.67572e-06" />
+            </size>
+            <size_raw>
+              <max x="1.073171" y="0.3556533" z="2.026707" />
+              <center x="-0.711923" y="0.01355" z="6.556511e-06" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForright001002" group="right_turret" tags="part animation" parent="right001">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-1.469673" y="0.01398981" z="-0.0001068115" />
+          <quaternion qx="-2.532479e-06" qy="-3.803579e-06" qz="0.4334564" qw="-0.9011745" />
+        </offset>
+        <parts>
+          <part name="right001002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.244129" y="1.747922" z="5.04654" />
+              <center x="-1.35989" y="0.7728152" z="-0.09557533" />
+            </size>
+            <size_raw>
+              <max x="2.808447" y="1.013359" z="4.909644" />
+              <center x="-0.9279417" y="0.03976792" z="0.04014945" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForright002" group="right_turret" tags="part animation">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="27.38251" y="-4.808596" z="-9.493035" />
+          <quaternion qx="0.009259165" qy="0.1516975" qz="-0.03071169" qw="-0.9879063" />
+        </offset>
+        <parts>
+          <part name="right002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.073172" y="0.3556533" z="2.026711" />
+              <center x="0.711916" y="0.013556" z="1.239777e-05" />
+            </size>
+            <size_raw>
+              <max x="1.073171" y="0.3556532" z="2.026711" />
+              <center x="0.711916" y="0.013556" z="1.251698e-05" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForright002001" group="right_turret" tags="part animation" parent="right002">
+        <animations>
+					<animation name="turrethatch_inactive" start="0" end="0"/>
+					<animation name="turrethatch_activating" start="0" end="80"/>
+					<animation name="turrethatch_active" start="80" end="80"/>
+					<animation name="turrethatch_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="1.469677" y="0.01398432" z="-0.0001049042" />
+          <quaternion qx="-8.701737e-07" qy="3.573063e-06" qz="-0.4334684" qw="-0.9011688" />
+        </offset>
+        <parts>
+          <part name="right002001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.232878" y="1.742985" z="5.043015" />
+              <center x="0.5072498" y="-0.6883216" z="-0.09203911" />
+            </size>
+            <size_raw>
+              <max x="2.808475" y="1.013378" z="4.909662" />
+              <center x="0.9279174" y="0.03978916" z="0.04014063" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForen_door001" group="door_right" tags="part animation require_docked trigger_interact ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-3.536954" y="-10.63643" z="38.49464" />
+        </offset>
+        <parts>
+          <part name="en_door001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Matte_Dark" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Metal_Grey" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.750829" y="0.6998949" z="2.114452" />
+              <center x="1.02715" y="0.2097645" z="0.3716164" />
+            </size>
+            <size_raw>
+              <max x="1.381759" y="0.6998949" z="2.114452" />
+              <center x="-0.3070344" y="0.2097645" z="0.3716158" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForen_door002" group="door_left" tags="part animation require_docked trigger_interact ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="3.53722" y="-10.63643" z="38.49464" />
+        </offset>
+        <parts>
+          <part name="en_door002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Matte_Dark" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Metal_Grey" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.740439" y="0.6998949" z="2.114452" />
+              <center x="-1.017025" y="0.2097645" z="0.3716164" />
+            </size>
+            <size_raw>
+              <max x="1.381759" y="0.6998949" z="2.114452" />
+              <center x="0.3070326" y="0.2097645" z="0.3716161" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForplatform1" group="door_left" tags="part animation require_docked trigger_interact ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="3.89764" y="-6.098381" z="38.92167" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="platform1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_base_white_panels_highgloss" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_panels_metal" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="5" ref="generic.aegs_hammerhead_int_mtl_accents_orange" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.311107" y="6.96472" z="2.015118" />
+              <center x="-0.002815962" y="-6.152745" z="-0.005756378" />
+            </size>
+            <size_raw>
+              <max x="1.311107" y="0.8022705" z="2.015118" />
+              <center x="-0.002816081" y="-0.0004524887" z="-0.00575614" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForplatform2" group="door_right" tags="part animation require_docked trigger_interact ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-3.89764" y="-6.098381" z="38.92167" />
+        </offset>
+        <parts>
+          <part name="platform2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_int_mtl_base_white_panels_highgloss" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_panels_metal" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="5" ref="generic.aegs_hammerhead_int_mtl_accents_orange" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.311107" y="6.96472" z="2.015118" />
+              <center x="-0.0028162" y="-6.152745" z="-0.005756378" />
+            </size>
+            <size_raw>
+              <max x="1.311107" y="0.8022705" z="2.015118" />
+              <center x="-0.002816081" y="-0.0004524887" z="-0.00575614" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortext" group="door_left" tags="part animation require_docked trigger_interact ui detail_s">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0" y="-18.1515" z="38.96109" />
+        </offset>
+        <parts>
+          <part name="text">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.021172" y="4.803129" z="0.02499962" />
+              <center x="0" y="4.533144" z="-0.02499771" />
+            </size>
+            <size_raw>
+              <max x="1.021172" y="0.2625" z="0.0250001" />
+              <center x="8.940697e-08" y="0" z="-0.02500001" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordock_room" tags="part">
+        <offset>
+          <position x="0" y="8.123393" z="-32.3406" />
+        </offset>
+        <parts>
+          <part name="dock_room">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.407465" y="4.448623" z="2.218803" />
+              <center x="0" y="-14.54311" z="71.27534" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectiontrustthruster001" tags="part animation ">
+        <offset>
+          <position x="-13.63464" y="1.249273" z="51.29418" />
+          <quaternion qx="-0.7038514" qy="-0.06777319" qz="0.0677732" qw="-0.7038514" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_02"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster002" tags="part animation ">
+        <offset>
+          <position x="-14.1009" y="1.249273" z="49.12058" />
+          <quaternion qx="-0.7038514" qy="-0.06777319" qz="0.0677732" qw="-0.7038514" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_03"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster003" tags="part animation ">
+        <offset>
+          <position x="13.6346" y="1.249273" z="51.29418" />
+          <quaternion qx="-0.7038514" qy="0.06777319" qz="-0.0677732" qw="-0.7038514" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_04"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster004" tags="part animation ">
+        <offset>
+          <position x="14.1009" y="1.249273" z="49.1206" />
+          <quaternion qx="-0.7038514" qy="0.06777319" qz="-0.0677732" qw="-0.7038514" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_05"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster005" tags="part animation ">
+        <offset>
+          <position x="29.54923" y="4.06058" z="-20.93508" />
+          <quaternion qx="-0.7010574" qy="0.09229597" qz="-0.09229597" qw="-0.7010574" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_06"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster006" tags="part animation ">
+        <offset>
+          <position x="30.15376" y="4.06058" z="-23.07203" />
+          <quaternion qx="-0.7010574" qy="0.09229597" qz="-0.09229597" qw="-0.7010574" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_07"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster007" tags="part animation ">
+        <offset>
+          <position x="-30.1538" y="4.06058" z="-23.07203" />
+          <quaternion qx="-0.7010574" qy="-0.09229597" qz="0.09229597" qw="-0.7010574" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_08"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster008" tags="part animation ">
+        <offset>
+          <position x="-29.5492" y="4.06058" z="-20.93508" />
+          <quaternion qx="-0.7010574" qy="-0.09229597" qz="0.09229597" qw="-0.7010574" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_09"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster009" tags="part animation ">
+        <offset>
+          <position x="-16.69199" y="-1.393698" z="51.94466" />
+          <quaternion qx="0" qy="-0.7826082" qz="0" qw="-0.6225146" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_10"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster010" tags="part animation ">
+        <offset>
+          <position x="-17.18147" y="-1.393698" z="49.77556" />
+          <quaternion qx="0" qy="-0.7826082" qz="0" qw="-0.6225146" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_11"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster011" tags="part animation ">
+        <offset>
+          <position x="17.1815" y="-1.393698" z="49.77556" />
+          <quaternion qx="0" qy="0.7826082" qz="0" qw="-0.6225146" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_12"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster012" tags="part animation ">
+        <offset>
+          <position x="16.692" y="-1.393698" z="51.94466" />
+          <quaternion qx="0" qy="0.7826082" qz="0" qw="-0.6225146" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_13"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster013" tags="part animation ">
+        <offset>
+          <position x="33.44592" y="-1.426047" z="-19.94217" />
+          <quaternion qx="0" qy="0.8191521" qz="0" qw="-0.5735765" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_14"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster014" tags="part animation ">
+        <offset>
+          <position x="34.16034" y="-1.426047" z="-22.03998" />
+          <quaternion qx="0" qy="0.8191521" qz="0" qw="-0.5735765" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_15"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster015" tags="part animation ">
+        <offset>
+          <position x="-34.1603" y="-1.426047" z="-22.03998" />
+          <quaternion qx="0" qy="-0.8191521" qz="0" qw="-0.5735765" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_16"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster016" tags="part animation ">
+        <offset>
+          <position x="-33.4459" y="-1.426047" z="-19.94217" />
+          <quaternion qx="0" qy="-0.8191521" qz="0" qw="-0.5735765" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_17"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster017" tags="part animation ">
+        <offset>
+          <position x="-30.1538" y="-6.950561" z="-23.07203" />
+          <quaternion qx="0.7010574" qy="-0.09229597" qz="-0.09229597" qw="-0.7010574" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_18"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster018" tags="part animation ">
+        <offset>
+          <position x="-29.5492" y="-6.837386" z="-20.93508" />
+          <quaternion qx="0.7010574" qy="-0.09229597" qz="-0.09229597" qw="-0.7010574" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_19"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster019" tags="part animation ">
+        <offset>
+          <position x="29.54923" y="-6.849082" z="-20.93508" />
+          <quaternion qx="0.7010574" qy="0.09229597" qz="0.09229597" qw="-0.7010574" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_20"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster020" tags="part animation ">
+        <offset>
+          <position x="30.15376" y="-6.922691" z="-23.07203" />
+          <quaternion qx="0.7010574" qy="0.09229597" qz="0.09229597" qw="-0.7010574" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_21"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster021" tags="part animation ">
+        <offset>
+          <position x="-14.1009" y="-4.055564" z="49.12058" />
+          <quaternion qx="0.7038514" qy="-0.06777319" qz="-0.0677732" qw="-0.7038514" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_22"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster022" tags="part animation ">
+        <offset>
+          <position x="-13.63464" y="-4.055487" z="51.29418" />
+          <quaternion qx="0.7038514" qy="-0.06777319" qz="-0.0677732" qw="-0.7038514" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_23"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster023" tags="part animation ">
+        <offset>
+          <position x="13.6346" y="-4.160463" z="51.29418" />
+          <quaternion qx="0.7038514" qy="0.06777319" qz="0.0677732" qw="-0.7038514" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_24"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster024" tags="part animation ">
+        <offset>
+          <position x="14.1009" y="-4.154475" z="49.1206" />
+          <quaternion qx="0.7038514" qy="0.06777319" qz="0.0677732" qw="-0.7038514" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_25"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster025" tags="part animation ">
+        <offset>
+          <position x="35.69633" y="3.58787" z="-70.25506" />
+          <quaternion qx="-0.664463" qy="0.2418448" qz="0.2418448" qw="-0.6644631" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_26"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster026" tags="part animation ">
+        <offset>
+          <position x="35.69633" y="3.58787" z="-72.23505" />
+          <quaternion qx="-0.664463" qy="0.2418448" qz="0.2418448" qw="-0.6644631" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_27"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster027" tags="part animation ">
+        <offset>
+          <position x="-35.6963" y="3.58787" z="-72.23505" />
+          <quaternion qx="-0.664463" qy="-0.2418448" qz="-0.2418448" qw="-0.6644631" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_28"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster028" tags="part animation ">
+        <offset>
+          <position x="-35.6963" y="3.58787" z="-70.25506" />
+          <quaternion qx="-0.664463" qy="-0.2418448" qz="-0.2418448" qw="-0.6644631" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_29"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster029" tags="part animation ">
+        <offset>
+          <position x="-37.87187" y="-0.2969427" z="-70.32514" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_30"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster030" tags="part animation ">
+        <offset>
+          <position x="-37.87187" y="-0.2969427" z="-72.3802" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_31"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster031" tags="part animation ">
+        <offset>
+          <position x="37.87965" y="-0.2969427" z="-72.3802" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_32"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster032" tags="part animation ">
+        <offset>
+          <position x="37.87965" y="-0.2969427" z="-70.32514" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_33"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster033" tags="part animation ">
+        <offset>
+          <position x="35.72657" y="-4.176466" z="-70.46846" />
+          <quaternion qx="-0.2126312" qy="0.6743798" qz="0.6743796" qw="-0.2126311" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_34"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster034" tags="part animation ">
+        <offset>
+          <position x="35.72657" y="-4.176466" z="-72.44846" />
+          <quaternion qx="-0.2126312" qy="0.6743798" qz="0.6743796" qw="-0.2126311" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_35"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster035" tags="part animation ">
+        <offset>
+          <position x="-35.7266" y="-4.176466" z="-70.46846" />
+          <quaternion qx="-0.2126312" qy="-0.6743798" qz="-0.6743796" qw="-0.2126311" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_36"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster036" tags="part animation ">
+        <offset>
+          <position x="-35.7266" y="-4.176466" z="-72.4485" />
+          <quaternion qx="-0.2126312" qy="-0.6743798" qz="-0.6743796" qw="-0.2126311" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_37"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster037" tags="part animation ">
+        <offset>
+          <position x="7.313218" y="-11.50237" z="-24.43539" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_38"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster038" tags="part animation ">
+        <offset>
+          <position x="7.313218" y="-11.50237" z="-21.75937" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_39"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster039" tags="part animation ">
+        <offset>
+          <position x="7.313218" y="-11.50237" z="-19.02549" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_40"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster040" tags="part animation ">
+        <offset>
+          <position x="-7.317356" y="-11.50237" z="-24.43539" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_41"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster041" tags="part animation ">
+        <offset>
+          <position x="-7.317356" y="-11.50237" z="-21.75937" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_42"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster042" tags="part animation ">
+        <offset>
+          <position x="-7.317356" y="-11.50237" z="-19.02549" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_43"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster043" tags="part animation ">
+        <offset>
+          <position x="0" y="-10.97451" z="5.053845" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_44"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster044" tags="part animation ">
+        <offset>
+          <position x="0" y="-10.97451" z="7.729867" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_45"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster045" tags="part animation ">
+        <offset>
+          <position x="0" y="-10.97451" z="10.46375" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_46"/>
+				</parts>
+      </connection>
+
+      <connection name="Connection01" group="transporter_01 " tags="location_cockpit ">
+				<offset>
+          <position x="0" y="-0.82023" z="63.0148" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.part_main" name="part_main"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part iklink  " parent="part_main">
+				<offset>
+					<position x="0" y="5.153775E-02" z="3.353691E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals" name="detail_m_decals"/>
+				</parts>
+			</connection>
+			<connection name="Connection03" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="0.54566" y="0.007" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_left" name="anim_door_left"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection04" tags="part iklink  " parent="anim_door_left">
+				<offset>
+					<position x="-0.4329364" y="3.16143E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_left" name="detail_m_decals_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part nocollision iklink  " parent="anim_door_left">
+				<offset>
+					<position x="6.043839E-02" y="9.536743E-07" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_left" name="detail_m_light_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection06" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="-0.54566" y="0.008" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_right" name="anim_door_right"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection07" tags="part iklink  " parent="anim_door_right">
+				<offset>
+					<position x="0.4321223" y="3.553271E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_right" name="detail_m_decals_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part nocollision iklink  " parent="anim_door_right">
+				<offset>
+					<position x="-6.110048E-02" y="3.925562E-04" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_right" name="detail_m_light_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection09" group="transporter_01 " tags="part detail_l  " parent="part_main">
+				<offset>
+					<position x="1.205526" y="0.04" z="-0.1"/>
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_l_button" name="detail_l_button"/>
+				</parts>
+			</connection>
+			<connection name="Connection10" group="transporter_01 " tags="part  " parent="part_main">
+				<offset>
+					<position x="0" y="1.14" z="0.9"/>
+					<quaternion qx="0.7071066" qy="-0" qz="-0" qw="-0.7071069"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.dummy_sound_animation" name="dummy_sound_animation"/>
+				</parts>
+			</connection>
+      <connection name="con_npc_stand_001" group="transporter_01" tags="npc_waypoint stand npctransport ">
+				<offset>
+          <position x="0" y="-0.82023" z="63.0648" />
+        </offset>
+			</connection>
+
+      <connection name="Connection101" group="transporter_02 " tags=" part">
+				<offset>
+          <position x="0" y="-5.5043" z="42.5318" />
+          <quaternion qx="0" qy="-1" qz="0" qw="0" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.part_main" name="part_main1"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection102" tags="part iklink  " parent="part_main1">
+				<offset>
+					<position x="0" y="5.153775E-02" z="3.353691E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals" name="detail_m_decals1"/>
+				</parts>
+			</connection>
+			<connection name="Connection103" group="transporter_02 " tags="part animation  " parent="part_main1">
+				<offset>
+					<position x="0.54566" y="0.007" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_left" name="anim_door_left1"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection104" tags="part iklink  " parent="anim_door_left1">
+				<offset>
+					<position x="-0.4329364" y="3.16143E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_left" name="detail_m_decals_left1"/>
+				</parts>
+			</connection>
+			<connection name="Connection105" tags="part nocollision iklink  " parent="anim_door_left1">
+				<offset>
+					<position x="6.043839E-02" y="9.536743E-07" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_left" name="detail_m_light_left1"/>
+				</parts>
+			</connection>
+			<connection name="Connection106" group="transporter_02 " tags="part animation  " parent="part_main1">
+				<offset>
+					<position x="-0.54566" y="0.008" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_right" name="anim_door_right1"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection107" tags="part iklink  " parent="anim_door_right1">
+				<offset>
+					<position x="0.4321223" y="3.553271E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_right" name="detail_m_decals_right1"/>
+				</parts>
+			</connection>
+			<connection name="Connection108" tags="part nocollision iklink  " parent="anim_door_right1">
+				<offset>
+					<position x="-6.110048E-02" y="3.925562E-04" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_right" name="detail_m_light_right1"/>
+				</parts>
+			</connection>
+			<connection name="Connection109" group="transporter_02 " tags="part detail_l  " parent="part_main1">
+				<offset>
+					<position x="1.205526" y="0.04" z="-0.1"/>
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_l_button" name="detail_l_button1"/>
+				</parts>
+			</connection>
+			<connection name="Connection110" group="transporter_02 " tags="part  " parent="part_main1">
+				<offset>
+					<position x="0" y="1.14" z="0.9"/>
+					<quaternion qx="0.7071066" qy="-0" qz="-0" qw="-0.7071069"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.dummy_sound_animation" name="dummy_sound_animation1"/>
+				</parts>
+			</connection>
+
+      <connection name="Connectionchiar01" group="pilotcontrol" tags="part ui">
+				<offset>
+          <position x="0" y="-2.25125" z="76.5448" />
+        </offset>
+				<parts>
+					<part ref="polaris_seat.chiar" name="seat"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="seat_mesh">
+				<offset>
+					<position x="0" y="0" z="0.2"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar02" tags="part iklink ui" group="pilotcontrol" parent="seat">
+				<parts>
+					<part ref="polaris_seat.chiar_mesh" name="seat_mesh"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair ">
+				<offset>
+          <position x="0" y="-1.936238" z="74.314" />
+        </offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor ">
+				<offset>
+          <position x="0" y="-0.936238" z="76.314" />
+        </offset>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="-7.774597" y="2.808476" z="-70.09248" />
+          <quaternion qx="0" qy="-0.9238796" qz="0.3826835" qw="0" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_02" tags="countermeasures ">
+				<offset>
+          <position x="7.7746" y="2.808476" z="-70.09248" />
+          <quaternion qx="0" qy="-0.9238796" qz="0.3826835" qw="0" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_03" tags="countermeasures ">
+				<offset>
+          <position x="-6.749747" y="-10.00911" z="-54.68402" />
+          <quaternion qx="0" qy="-0.9238796" qz="-0.3826835" qw="0" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_04" tags="countermeasures ">
+				<offset>
+          <position x="6.749751" y="-10.00911" z="-54.68402" />
+          <quaternion qx="0" qy="-0.9238796" qz="-0.3826835" qw="0" />
+        </offset>
+			</connection>
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="-0.8" z="76" />
+				</offset>
+			</connection>
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="-0.8" z="76" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-19.2" z="80"/>
+				</offset>
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="4.6" z="56" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_player_01" tags="player ">
+        <offset>
+          <position x="0" y="-0.8" z="76" />
+        </offset>
+      </connection>
+      <connection name="con_dockarea_arg_s_ship_03" tags="dockarea">
+			</connection>
+      <connection name="con_storage01" tags="storage ">
+			</connection>
+      <connection name="con_shipstorage01" tags="dockingbay ">
+			</connection>
+
+      <connection name="con_engine_01" tags="engine medium component aegs_polaris" >
+        <offset>
+          <position x="0" y="0" z="-74.4332" />
+        </offset>
+			</connection>
+
+      <connection name="con_turret_s4_001" tags="turret medium component combat aegs_polaris_s4 unhittable mandatory" parent="object011001">
+        <offset>
+          <position x="0.007153511" y="0.21712964" z="-1.416193" />
+        </offset>
+        <parts>
+          <part name="turret_box001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.515347" y="0.1000001" z="0.1000004" />
+              <center x="-5.406424" y="0" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.1" y="0.1" z="0.1" />
+              <center x="0" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="con_turret_s4_002" tags="turret medium component combat aegs_polaris_s4 unhittable mandatory" parent="object011002">
+        <offset>
+          <position x="0.06609726" y="0.21712964" z="-1.416193" />
+        </offset>
+        <parts>
+          <part name="turret_box002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.543359" y="0.1000001" z="0.1000004" />
+              <center x="5.434389" y="0" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.1" y="0.1" z="0.1" />
+              <center x="0" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_turret_s4_003" tags="turret medium component combat aegs_polaris_s4 mandatory" >
+        <offset>
+          <position x="-8.55984" y="5.72653" z="25.9282" />
+        </offset>
+			</connection>
+      <connection name="con_turret_s4_004" tags="turret medium component combat aegs_polaris_s4 mandatory" >
+        <offset>
+          <position x="8.55984" y="5.72653" z="25.9282" />
+        </offset>
+			</connection>
+      <connection name="con_turret_s4_005" tags="turret medium component combat aegs_polaris_s4 mandatory" >
+        <offset>
+          <position x="0" y="-5.55509" z="63.965" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_turret_s3_001" tags="turret small component combat aegs_polaris_s3" >
+        <offset>
+          <position x="0" y="6.795217" z="-69.35022" />
+          <quaternion qx="0" qy="-1" qz="0" qw="0" />
+        </offset>
+			</connection>
+      <connection name="con_turret_s3_002" tags="turret small component combat aegs_polaris_s3" >
+        <offset>
+          <position x="0" y="-10.5096" z="-59.5007" />
+          <quaternion qx="-1" qy="0" qz="0" qw="0" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="component weapon small missile aegs_missile_s3 mandatory">
+				<offset>
+          <position x="6.06104" y="0.544317" z="68.9953" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="component weapon small missile aegs_missile_s3 mandatory">
+				<offset>
+          <position x="-6.06104" y="0.544317" z="68.9953" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_03" tags="component weapon large missile aegs_missile_s10 mandatory">
+				<offset>
+          <position x="6.72092" y="-2.42515" z="69.1022" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_04" tags="component weapon large missile aegs_missile_s10 mandatory">
+				<offset>
+          <position x="-6.72092" y="-2.42515" z="69.1022" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield medium aegs_s2 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield medium aegs_s2 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_03" tags="component shield medium aegs_s2 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_04" tags="component shield medium aegs_s2 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_05" tags="component shield medium aegs_s2 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_06" tags="component shield medium aegs_s2 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+    </connections>
+  </component>
+</components>

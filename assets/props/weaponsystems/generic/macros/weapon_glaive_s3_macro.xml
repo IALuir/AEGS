@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) at 25.11.2018_17-56-48-->
+<macros>
+  <macro name="weapon_glaive_s3_macro" class="weapon">
+    <component ref="weapon_glaive_s3" />
+    <properties>
+      <identification name="{996671,44}" basename="{996671,44}" shortname="{996671,44}" description="{996671,45}" mk="1" />
+      <bullet class="S3_glaive_macro" />
+      <heat overheat="23500" cooldelay="1.75" coolrate="2750" reenable="0" />
+      <rotationspeed max="47.4" />
+      <rotationacceleration max="94.8" />
+      <reload />
+      <hull max="500" hittable="1" />
+    </properties>
+  </macro>
+</macros>

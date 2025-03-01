@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-10-03 16:15:59 from Blender-->
+<components>
+  <component name="turret_aegs_m" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\javelin\turret_aegs_m_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForpart_socket" tags="iklink part">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="part_socket" wreck="part_socket_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="2" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="3" ref="generic.aegs_javelin_manned_turret_mtl_ext_dark_flat" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_decals_ext" />
+                  <material id="5" ref="generic.aegs_javelin_manned_turret_mtl_corridor_trims" />
+                  <material id="6" ref="generic.aegs_javelin_manned_turret_mtl_internal_dmg" />
+                  <material id="7" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="8" ref="generic.aegs_javelin_manned_turret_mtl_ext_pom_a" />
+                  <material id="9" ref="generic.aegs_javelin_manned_turret_mtl_ext_light_flat" />
+                  <material id="10" ref="generic.aegs_javelin_manned_turret_mtl_ext_light_flat" />
+                  <material id="11" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="12" ref="generic.aegs_javelin_manned_turret_mtl_ext_tech_trims" />
+                  <material id="13" ref="generic.aegs_javelin_manned_turret_mtl_metals_atlas_ext" />
+                  <material id="14" ref="generic.aegs_javelin_manned_turret_mtl_pipe_trims" />
+                  <material id="15" ref="p1.cockpit_glass_outside_01" />
+                  <material id="16" ref="generic.aegs_javelin_manned_turret_mtl_Vents" />
+                  <material id="17" ref="generic.aegs_javelin_manned_turret_mtl_glows" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="2" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="3" ref="generic.aegs_javelin_manned_turret_mtl_ext_dark_flat" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_decals_ext" />
+                  <material id="5" ref="generic.aegs_javelin_manned_turret_mtl_corridor_trims" />
+                  <material id="6" ref="generic.aegs_javelin_manned_turret_mtl_internal_dmg" />
+                  <material id="7" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="8" ref="generic.aegs_javelin_manned_turret_mtl_ext_pom_a" />
+                  <material id="9" ref="generic.aegs_javelin_manned_turret_mtl_ext_light_flat" />
+                  <material id="10" ref="generic.aegs_javelin_manned_turret_mtl_ext_light_flat" />
+                  <material id="11" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="12" ref="generic.aegs_javelin_manned_turret_mtl_ext_tech_trims" />
+                  <material id="13" ref="generic.aegs_javelin_manned_turret_mtl_metals_atlas_ext" />
+                  <material id="14" ref="generic.aegs_javelin_manned_turret_mtl_pipe_trims" />
+                  <material id="15" ref="p1.cockpit_glass_outside_01" />
+                  <material id="16" ref="generic.aegs_javelin_manned_turret_mtl_Vents" />
+                  <material id="17" ref="generic.aegs_javelin_manned_turret_mtl_glows" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="2" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="3" ref="generic.aegs_javelin_manned_turret_mtl_ext_dark_flat" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_decals_ext" />
+                  <material id="5" ref="generic.aegs_javelin_manned_turret_mtl_corridor_trims" />
+                  <material id="6" ref="generic.aegs_javelin_manned_turret_mtl_internal_dmg" />
+                  <material id="7" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="8" ref="generic.aegs_javelin_manned_turret_mtl_ext_pom_a" />
+                  <material id="9" ref="generic.aegs_javelin_manned_turret_mtl_ext_light_flat" />
+                  <material id="10" ref="generic.aegs_javelin_manned_turret_mtl_ext_light_flat" />
+                  <material id="11" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="12" ref="generic.aegs_javelin_manned_turret_mtl_ext_tech_trims" />
+                  <material id="13" ref="generic.aegs_javelin_manned_turret_mtl_metals_atlas_ext" />
+                  <material id="14" ref="generic.aegs_javelin_manned_turret_mtl_pipe_trims" />
+                  <material id="15" ref="p1.cockpit_glass_outside_01" />
+                  <material id="16" ref="generic.aegs_javelin_manned_turret_mtl_Vents" />
+                  <material id="17" ref="generic.aegs_javelin_manned_turret_mtl_glows" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="2" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="3" ref="generic.aegs_javelin_manned_turret_mtl_ext_dark_flat" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_decals_ext" />
+                  <material id="5" ref="generic.aegs_javelin_manned_turret_mtl_corridor_trims" />
+                  <material id="6" ref="generic.aegs_javelin_manned_turret_mtl_internal_dmg" />
+                  <material id="7" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="8" ref="generic.aegs_javelin_manned_turret_mtl_ext_pom_a" />
+                  <material id="9" ref="generic.aegs_javelin_manned_turret_mtl_ext_light_flat" />
+                  <material id="10" ref="generic.aegs_javelin_manned_turret_mtl_ext_light_flat" />
+                  <material id="11" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="12" ref="generic.aegs_javelin_manned_turret_mtl_ext_tech_trims" />
+                  <material id="13" ref="generic.aegs_javelin_manned_turret_mtl_metals_atlas_ext" />
+                  <material id="14" ref="generic.aegs_javelin_manned_turret_mtl_pipe_trims" />
+                  <material id="15" ref="p1.cockpit_glass_outside_01" />
+                  <material id="16" ref="generic.aegs_javelin_manned_turret_mtl_Vents" />
+                  <material id="17" ref="generic.aegs_javelin_manned_turret_mtl_glows" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.293382" y="2.565474" z="5.492842" />
+              <center x="1.192093e-07" y="2.593793" z="-1.030659" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_gun" tags="forceoutline iklink nocollision part" parent="part_socket">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-30.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="0" y="1.344087" z="3.616195" />
+        </offset>
+        <parts>
+          <part name="part_gun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="2" ref="generic.aegs_javelin_manned_turret_mtl_ext_dark_flat" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_tech_trims" />
+                  <material id="5" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="6" ref="generic.aegs_javelin_manned_turret_mtl_decals_ext" />
+                  <material id="7" ref="generic.aegs_javelin_manned_turret_mtl_corridor_trims" />
+                  <material id="8" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="9" ref="generic.aegs_javelin_manned_turret_mtl_ext_pom_a" />
+                  <material id="10" ref="generic.aegs_javelin_manned_turret_mtl_ext_light_flat" />
+                  <material id="11" ref="generic.aegs_javelin_manned_turret_mtl_metals_atlas_ext" />
+                  <material id="12" ref="generic.aegs_javelin_manned_turret_mtl_pipe_trims" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="2" ref="generic.aegs_javelin_manned_turret_mtl_ext_dark_flat" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_tech_trims" />
+                  <material id="5" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="6" ref="generic.aegs_javelin_manned_turret_mtl_decals_ext" />
+                  <material id="7" ref="generic.aegs_javelin_manned_turret_mtl_corridor_trims" />
+                  <material id="8" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="9" ref="generic.aegs_javelin_manned_turret_mtl_ext_pom_a" />
+                  <material id="10" ref="generic.aegs_javelin_manned_turret_mtl_ext_light_flat" />
+                  <material id="11" ref="generic.aegs_javelin_manned_turret_mtl_metals_atlas_ext" />
+                  <material id="12" ref="generic.aegs_javelin_manned_turret_mtl_pipe_trims" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="2" ref="generic.aegs_javelin_manned_turret_mtl_ext_dark_flat" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_tech_trims" />
+                  <material id="5" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="6" ref="generic.aegs_javelin_manned_turret_mtl_decals_ext" />
+                  <material id="7" ref="generic.aegs_javelin_manned_turret_mtl_corridor_trims" />
+                  <material id="8" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="9" ref="generic.aegs_javelin_manned_turret_mtl_ext_pom_a" />
+                  <material id="10" ref="generic.aegs_javelin_manned_turret_mtl_ext_light_flat" />
+                  <material id="11" ref="generic.aegs_javelin_manned_turret_mtl_metals_atlas_ext" />
+                  <material id="12" ref="generic.aegs_javelin_manned_turret_mtl_pipe_trims" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="2" ref="generic.aegs_javelin_manned_turret_mtl_ext_dark_flat" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="generic.aegs_javelin_manned_turret_mtl_ext_tech_trims" />
+                  <material id="5" ref="generic.aegs_javelin_manned_turret_mtl_ext_mid_panel" />
+                  <material id="6" ref="generic.aegs_javelin_manned_turret_mtl_decals_ext" />
+                  <material id="7" ref="generic.aegs_javelin_manned_turret_mtl_corridor_trims" />
+                  <material id="8" ref="generic.aegs_javelin_manned_turret_mtl_ext_black_panel" />
+                  <material id="9" ref="generic.aegs_javelin_manned_turret_mtl_ext_pom_a" />
+                  <material id="10" ref="generic.aegs_javelin_manned_turret_mtl_ext_light_flat" />
+                  <material id="11" ref="generic.aegs_javelin_manned_turret_mtl_metals_atlas_ext" />
+                  <material id="12" ref="generic.aegs_javelin_manned_turret_mtl_pipe_trims" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.983994" y="1.146349" z="6.079274" />
+              <center x="6.29425e-05" y="-3.218651e-06" z="4.941801" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="part_gun">
+        <offset>
+          <position x="-2.472657" y="0.02799594" z="11.04937" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="part_gun">
+        <offset>
+          <position x="2.47266" y="0.02799594" z="11.04937" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_m" tags="turret medium component combat aegs_javelin_s7">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

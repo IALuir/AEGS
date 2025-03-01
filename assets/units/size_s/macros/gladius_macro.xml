@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="gladius_macro" class="ship_s">
+    <component ref="gladius" />
+    <properties>
+      <identification name="{996666,49}" basename="{996666,49}" description="{996666,50}" makerrace="terran" icon="ship_s_fight_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <storage missile="0" countermeasure="40" deployable="50"/>
+      <hull max="4865" />
+      <secrecy level="1" />
+      <purpose primary="fight" />
+      <people capacity="1" />
+      <sounds>
+        <shipdetail ref="shipdetail_ship_01" />
+      </sounds>
+      <physics mass="7.89">
+        <inertia pitch="1.555" yaw="1.7" roll="1.555" />
+        <drag forward="3.15" reverse="12.71" horizontal="3.12" vertical="3.12" pitch="5.89" yaw="2.78" roll="1.89" />
+      </physics>
+      <thruster tags="small" />
+      <enginearticulation y="1" z="1" />
+      <ship type="interceptor" />
+      <sound_occlusion inside="0.5" />
+    </properties>
+    <connections>
+      <connection ref="con_cockpit">
+        <macro ref="cockpit_gen_virtual_01_macro" connection="ship" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="dock_aegs_xs_macro" connection="Connection_component" />
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="storage_aegs_gladius_macro" connection="ShipConnection" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

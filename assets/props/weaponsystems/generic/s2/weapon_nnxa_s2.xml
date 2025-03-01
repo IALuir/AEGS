@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-22 12:00:14 from Blender-->
+<components>
+  <component name="weapon_nnxa_s2" class="weapon">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\generic\S2\weapon_nnxa_s2_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionFormain" tags="part platformcollision forceoutline">
+        <restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-8"/>
+							<max value="8"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.005000002" y="0.005000002" z="0.005000002" />
+              <center x="1.164153e-10" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForgun" tags="part platformcollision forceoutline " parent="main">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-8"/>
+							<max value="8"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="gun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.max_ox_nn13_neutron_mtl_Max_Ox_NN13_Neutron" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.max_ox_nn13_neutron_mtl_Max_Ox_NN13_Neutron" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.max_ox_nn13_neutron_mtl_Max_Ox_NN13_Neutron" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.max_ox_nn13_neutron_mtl_Max_Ox_NN13_Neutron" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1143832" y="0.1777395" z="0.9824025" />
+              <center x="-0.0001058523" y="-0.1750355" z="0.7698874" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="gun">
+        <offset>
+          <position x="0" y="-0.1866244" z="1.777232" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="weapon small platformcollision aegs_weapon_s2">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

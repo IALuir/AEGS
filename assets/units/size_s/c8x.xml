@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-06-06 13:16:07 from Blender-->
+<components>
+  <component name="c8x" class="ship_s">
+    <source geometry="extensions\AEGS\assets\units\size_s\c8x_data" />
+    <layers>
+      <layer>
+        <lights>
+          <arealight name="ego_area" areax="0.08419085" areay="1.173615" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-0.6144027" y="1.256966" z="-2.934861" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="0.08419085" areay="1.173615" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0.614403" y="1.256966" z="-2.934861" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area002" areax="0.08419085" areay="0.6923921" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-0.6038935" y="1.384413" z="-1.605684" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area003" areax="0.08419085" areay="0.6923921" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0.603894" y="1.384413" z="-1.605684" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area004" areax="0.08419085" areay="0.6923921" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0.603894" y="1.384413" z="0.2112082" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area005" areax="0.08419085" areay="0.6923921" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-0.603894" y="1.384413" z="0.2112082" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area006" areax="0.08419085" areay="0.6352825" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-0.6148305" y="1.384413" z="1.244191" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area007" areax="0.08419085" areay="0.6352825" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0.5961336" y="1.384413" z="1.244191" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area008" areax="0.08419085" areay="0.5277696" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0.3349292" y="1.343735" z="2.235623" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area009" areax="0.08419085" areay="0.5277696" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-0.334929" y="1.343735" z="2.235623" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_s ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForbody" tags="part ">
+        <offset>
+          <position x="0" y="0.346905" z="5.267367" />
+        </offset>
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Structure" />
+                  <material id="4" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.vncl_scythe_mtl_decal_text" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="9" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.anvl_pisces_ext_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Structure" />
+                  <material id="4" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.vncl_scythe_mtl_decal_text" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="9" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.anvl_pisces_ext_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Structure" />
+                  <material id="4" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.vncl_scythe_mtl_decal_text" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="9" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.anvl_pisces_ext_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Structure" />
+                  <material id="4" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.vncl_scythe_mtl_decal_text" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="9" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.anvl_pisces_ext_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.265511" y="1.54686" z="6.122011" />
+              <center x="2.276897e-05" y="0.09937249" z="-5.420407" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody1" tags="part ">
+        <offset>
+          <position x="0" y="0.346905" z="5.267367" />
+        </offset>
+        <parts>
+          <part name="body1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="4" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="6" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="7" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="4" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="6" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="7" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="4" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="6" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="7" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="4" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="6" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="7" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.263754" y="1.51312" z="6.051251" />
+              <center x="-4.196167e-05" y="0.08609349" z="-5.379253" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingleft" tags="part animation" parent="body">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-4.254848" y="0.133119" z="-9.030682" />
+          <quaternion qx="0.1199082" qy="0.08874348" qz="-0.84804" qw="-0.5085024" />
+        </offset>
+        <parts>
+          <part name="wingleft">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="4" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="6" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="7" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="9" ref="generic.vncl_scythe_mtl_decal_text" />
+                  <material id="10" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="11" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4417468" y="0.7223907" z="1.170616" />
+              <center x="0.1411142" y="0.4090111" z="-0.004142284" />
+            </size>
+            <size_raw>
+              <max x="0.325652" y="0.5970017" z="1.128608" />
+              <center x="0.05485427" y="0.2839506" z="-0.04608071" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingright" tags="part animation" parent="body">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="4.254848" y="0.1329969" z="-9.030678" />
+          <quaternion qx="0.1199082" qy="-0.08874347" qz="0.84804" qw="-0.5085025" />
+        </offset>
+        <parts>
+          <part name="wingright">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="4" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="6" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="7" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="9" ref="generic.vncl_scythe_mtl_decal_text" />
+                  <material id="10" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="11" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4412967" y="0.7225695" z="1.170425" />
+              <center x="-0.1415811" y="0.4089574" z="-0.003972054" />
+            </size>
+            <size_raw>
+              <max x="0.3256564" y="0.597001" z="1.128589" />
+              <center x="-0.05577266" y="0.2835957" z="-0.045739" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcockpitconsole" tags="part ">
+        <offset>
+          <position x="0" y="0.428298" z="4.339893" />
+        </offset>
+        <parts>
+          <part name="cockpitconsole">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="2" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="5" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="6" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.9618295" y="0.2224105" z="0.962414" />
+              <center x="0.0001145154" y="0.0324595" z="0.113002" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcylinder278" group="door" tags="part animation">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-1.34706" y="-0.5701233" z="-3.977093" />
+          <quaternion qx="-0.449509" qy="-0.001373924" qz="0.004285392" qw="-0.8932645" />
+        </offset>
+        <parts>
+          <part name="cylinder278">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.441915" y="0.176687" z="0.306911" />
+              <center x="1.347181" y="-0.09863299" z="-0.2540691" />
+            </size>
+            <size_raw>
+              <max x="1.441914" y="0.176687" z="0.306911" />
+              <center x="1.347181" y="-0.09863298" z="-0.2540689" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbotleftml002" group="door" tags="part animation" parent="cylinder278">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="0.0009299517" y="-0.1971128" z="-0.4450462" />
+          <quaternion qx="0.0002148207" qy="0.00111923" qz="0.007066751" qw="-0.9999744" />
+        </offset>
+        <parts>
+          <part name="botleftml002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.392285" y="0.4214337" z="0.3574479" />
+              <center x="1.342147" y="-0.2394799" z="-0.1301599" />
+            </size>
+            <size_raw>
+              <max x="1.386215" y="0.155166" z="0.2408166" />
+              <center x="1.348207" y="0.02647396" z="-0.01392555" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcylinder279" group="door" tags="part animation">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-1.347287" y="-0.3889409" z="-4.005459" />
+          <quaternion qx="-0.5125256" qy="-0.001239169" qz="0.003220766" qw="-0.858665" />
+        </offset>
+        <parts>
+          <part name="cylinder279">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_decal_text" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.44222" y="0.244189" z="0.4267752" />
+              <center x="1.347516" y="-0.1797721" z="-0.3582301" />
+            </size>
+            <size_raw>
+              <max x="1.44222" y="0.244189" z="0.4267752" />
+              <center x="1.347516" y="-0.1797722" z="-0.3582299" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbotleftml003" group="door" tags="part animation" parent="cylinder279">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="0.004101157" y="-0.2477193" z="-0.4914503" />
+          <quaternion qx="0.000104511" qy="0.0009710523" qz="0.00559157" qw="-0.9999839" />
+        </offset>
+        <parts>
+          <part name="botleftml003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.396269" y="0.673503" z="0.7266326" />
+              <center x="1.346186" y="-0.3781824" z="-0.2463889" />
+            </size>
+            <size_raw>
+              <max x="1.390135" y="0.2779691" z="0.4822234" />
+              <center x="1.352311" y="0.01711638" z="-0.00264959" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorbot" group="door" tags="part animation trigger_interact require_docked ui">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-1.192093e-07" y="-0.8447717" z="-3.927526" />
+          <quaternion qx="-0.4221173" qy="0" qz="0" qw="-0.9065412" />
+        </offset>
+        <parts>
+          <part name="doorbot">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_decal_text" />
+                  <material id="4" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="6" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.462338" y="0.1999564" z="0.5361717" />
+              <center x="-2.098083e-05" y="-0.1412253" z="-0.4975281" />
+            </size>
+            <size_raw>
+              <max x="1.462338" y="0.1999564" z="0.5361716" />
+              <center x="-2.095103e-05" y="-0.1412253" z="-0.4975282" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoortop" group="door" tags="part animation trigger_interact require_docked ui" parent="doorbot">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-2.980232e-07" y="-0.2646124" z="-1.038601" />
+          <quaternion qx="0.4226059" qy="0" qz="0" qw="-0.9063135" />
+        </offset>
+        <parts>
+          <part name="doortop">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_decal_text" />
+                  <material id="4" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="6" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.468132" y="1.158336" z="0.5029516" />
+              <center x="0.0003455281" y="0.1714644" z="-0.4302483" />
+            </size>
+            <size_raw>
+              <max x="1.468132" y="0.7000657" z="0.4028961" />
+              <center x="0.0003454983" y="0.629089" z="-0.3306544" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_room" tags="part ">
+        <offset>
+          <position x="0" y="-0.75" z="-3.325" />
+        </offset>
+        <parts>
+          <part name="inner_room">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="4" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="9" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="4" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="9" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="4" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="9" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="4" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="9" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.603205" y="0.6842755" z="0.4821501" />
+              <center x="-0.01604199" y="0.8467275" z="4.543682" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_room1" tags="part ">
+        <offset>
+          <position x="0" y="-0.75" z="-3.325" />
+        </offset>
+        <parts>
+          <part name="inner_room1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="3" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="6" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="7" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="9" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="10" ref="generic.aegs_javelin_mtl_cargo_net" />
+                  <material id="11" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="12" ref="generic.anvl_pisces_interior_mtl_gubbins" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="3" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="6" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="7" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="9" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="10" ref="generic.aegs_javelin_mtl_cargo_net" />
+                  <material id="11" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="12" ref="generic.anvl_pisces_interior_mtl_gubbins" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="3" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="6" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="7" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="9" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="10" ref="generic.aegs_javelin_mtl_cargo_net" />
+                  <material id="11" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="12" ref="generic.anvl_pisces_interior_mtl_gubbins" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="3" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="6" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="7" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="9" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="10" ref="generic.aegs_javelin_mtl_cargo_net" />
+                  <material id="11" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="12" ref="generic.anvl_pisces_interior_mtl_gubbins" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.08194" y="1.177858" z="5.572201" />
+              <center x="-5.960464e-08" y="1.05768" z="3.417078" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForLGBL_Strut_Upper" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.001867652" y="-0.7876908" z="-3.330467" />
+        </offset>
+        <parts>
+          <part name="LGBL_Strut_Upper">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                  <material id="4" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.554818" y="1.251967" z="1.249805" />
+              <center x="0.001866936" y="0.06233925" z="-0.1432688" />
+            </size>
+            <size_raw>
+              <max x="0.129741" y="0.05187062" z="0.06346869" />
+              <center x="0.1133181" y="-0.04013229" z="0.03987648" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForLGFL_Strut_Top" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.002045198" y="-0.9339511" z="0.9420717" />
+        </offset>
+        <parts>
+          <part name="LGFL_Strut_Top">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                  <material id="4" ref="generic.anvl_pisces_ext_mtl_HS_Metal_Bare" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.961052" y="1.309328" z="0.9967033" />
+              <center x="0.002043529" y="-0.002173245" z="0.09684992" />
+            </size>
+            <size_raw>
+              <max x="0.1503707" y="0.04798167" z="0.05061545" />
+              <center x="0.1240905" y="-0.03850503" z="0.004842492" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectiontrust" tags="part animation ">
+        <offset>
+          <position x="1.527544" y="0.9730477" z="3.599855" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_01"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust001" tags="part animation ">
+        <offset>
+          <position x="-1.52754" y="0.9730477" z="3.59985" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_02"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust002" tags="part animation ">
+        <offset>
+          <position x="-1.646905" y="1.183154" z="-3.700503" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_03"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust003" tags="part animation ">
+        <offset>
+          <position x="1.64691" y="1.183154" z="-3.700503" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_04"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust004" tags="part animation ">
+        <offset>
+          <position x="1.318915" y="-0.9265393" z="-2.766339" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_05"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust005" tags="part animation ">
+        <offset>
+          <position x="-1.31891" y="-0.9265393" z="-2.766339" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_06"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust006" tags="part animation ">
+        <offset>
+          <position x="1.318915" y="-0.9265393" z="1.698803" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_07"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust007" tags="part animation ">
+        <offset>
+          <position x="-1.31891" y="-0.9265393" z="1.698803" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_08"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust008" tags="part animation ">
+        <offset>
+          <position x="-2.302277" y="-0.07637566" z="3.384781" />
+          <quaternion qx="0" qy="-0.8191521" qz="0" qw="-0.5735765" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_09"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust009" tags="part animation ">
+        <offset>
+          <position x="2.30228" y="-0.07637566" z="3.384781" />
+          <quaternion qx="0" qy="0.8191521" qz="0" qw="-0.5735765" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_10"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust010" tags="part animation ">
+        <offset>
+          <position x="2.672419" y="0.09473847" z="-1.720896" />
+          <quaternion qx="-0.03057324" qy="0.7002422" qz="0.03111155" qw="-0.7125716" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_11"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust011" tags="part animation ">
+        <offset>
+          <position x="-2.67242" y="0.09473847" z="-1.720896" />
+          <quaternion qx="-0.03057324" qy="-0.7002422" qz="-0.03111155" qw="-0.7125716" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_12"/>
+				</parts>
+      </connection>
+
+      <connection name="Connectionchiar01" group="pilotcontrol" tags="part">
+				<offset>
+          <position x="0" y="-0.664783" z="3.92363" />
+        </offset>
+				<parts>
+					<part ref="c8x_seat.chair" name="chair"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="chair">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar02" tags="part iklink  " group="pilotcontrol" parent="chair">
+				<parts>
+					<part ref="c8x_seat.chair_mesh" name="chair_mesh"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair ">
+				<offset>
+					<position x="0" y="0.2" z="3" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor " >
+				<offset>
+					<position x="0" y="0.8" z="4" />
+				</offset>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="0" y="1.33749" z="-5.75511" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+      <connection name="con_npc_stand_001" tags="npc_waypoint stand npctransport ">
+				<offset>
+          <position x="0" y="0.2" z="3" />
+        </offset>
+			</connection>
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="0.688626" z="3.8029" />
+				</offset>
+			</connection>
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="0.688626" z="3.8029" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-1.51606" z="18"/>
+				</offset>
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="0.8" z="4" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_storage01" tags="storage ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_c8x">
+        <offset>
+          <position x="0" y="0.944059" z="-5.32904" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_left">
+				<offset>
+          <position x="3.29174" y="-0.114139" z="-2.70189" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_right">
+				<offset>
+          <position x="-3.29174" y="-0.114139" z="-2.70189" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_03" tags="component weapon small missile aegs_missile_s2 unfixed symmetry symmetry_1">
+				<offset>
+          <position x="3.05476" y="0.303914" z="-2.82078" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_04" tags="component weapon small missile aegs_missile_s2 unfixed symmetry symmetry_2">
+				<offset>
+          <position x="-3.05476" y="0.303914" z="-2.82078" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_02" tags="component shield small aegs_s1 industrial">
+				<offset>
+          <position x="1.6895" y="0.1871736" z="-0.6967765" />
+          <quaternion qx="0.5" qy="0.5" qz="-0.5" qw="-0.5000001" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield small aegs_s1 civilian">
+			</connection>
+    </connections>
+  </component>
+</components>

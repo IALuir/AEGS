@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-06 22:46:42 from Blender-->
+<components>
+  <component name="starlifter_turret_gtx" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\starlifter\starlifter_turret_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="turret" />
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForstand" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="stand">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5037995" y="0.4233834" z="0.5146649" />
+              <center x="4.61936e-07" y="0.4090841" z="-0.09698787" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForturret_body" tags="part " parent="stand">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-5.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="0.001108" y="1.108266" z="-0.2297668" />
+        </offset>
+        <parts>
+          <part name="turret_body">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="7" ref="generic.starlifter_exterior_mtl_Raw_Metal" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="7" ref="generic.starlifter_exterior_mtl_Raw_Metal" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="7" ref="generic.starlifter_exterior_mtl_Raw_Metal" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="7" ref="generic.starlifter_exterior_mtl_Raw_Metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.280166" y="0.492172" z="1.123101" />
+              <center x="-0.0005229712" y="-0.090873" z="0.169501" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcore" tags="part " parent="turret_body">
+        <offset>
+          <position x="-0.7505627" y="-0.2512159" z="0.2297668" />
+        </offset>
+        <parts>
+          <part name="core">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.GATS_MasterMaterial_bal_gat_mtl_I_decal" />
+                  <material id="2" ref="generic.GATS_MasterMaterial_bal_gat_mtl_I_decal" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="11" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="12" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="13" ref="generic.GATS_MasterMaterial_bal_gat_mtl_L_cotton_01_checkered_A" />
+                  <material id="14" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="15" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="16" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="17" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="18" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="19" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.GATS_MasterMaterial_bal_gat_mtl_I_decal" />
+                  <material id="2" ref="generic.GATS_MasterMaterial_bal_gat_mtl_I_decal" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="11" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="12" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="13" ref="generic.GATS_MasterMaterial_bal_gat_mtl_L_cotton_01_checkered_A" />
+                  <material id="14" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="15" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="16" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="17" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="18" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="19" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.GATS_MasterMaterial_bal_gat_mtl_I_decal" />
+                  <material id="2" ref="generic.GATS_MasterMaterial_bal_gat_mtl_I_decal" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="11" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="12" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="13" ref="generic.GATS_MasterMaterial_bal_gat_mtl_L_cotton_01_checkered_A" />
+                  <material id="14" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="15" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="16" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="17" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="18" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="19" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.GATS_MasterMaterial_bal_gat_mtl_I_decal" />
+                  <material id="2" ref="generic.GATS_MasterMaterial_bal_gat_mtl_I_decal" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="11" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="12" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="13" ref="generic.GATS_MasterMaterial_bal_gat_mtl_L_cotton_01_checkered_A" />
+                  <material id="14" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="15" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="16" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="17" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="18" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="19" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.723025" y="0.4406985" z="1.705057" />
+              <center x="0.7505628" y="-0.011301" z="0.7820917" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="core">
+        <offset>
+          <position x="-0.5069158" y="-0.002299607" z="2.543097" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="core">
+        <offset>
+          <position x="2.009471" y="-0.002299547" z="2.543097" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_m" tags="turret small component combat aegs_starlifter">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

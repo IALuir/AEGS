@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-03 11:56:39 from Blender-->
+<components>
+  <component name="constellation_andromeda_dockarea" class="dockarea">
+    <source geometry="extensions\aegs\assets\structures\dock\dockarea_aegs_benga_dockbaya_data" />
+    <layers>
+      <layer>
+        <waypoints>
+          <waypoint name="XU_Waypoint01" tags="dockpath start" x="0" y="-7.47" z="-20">
+            <links>
+              <link ref="XU_Waypoint02" />
+            </links>
+          </waypoint>
+          <waypoint name="XU_Waypoint02" tags="dockpath end" x="0" y="-7.47" z="-6">
+          </waypoint>
+        </waypoints>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="position" tags="position" value="1" />
+      <connection name="con_dockarea_01" tags="component dockarea " />
+
+      <connection name="con_launchpos_01" group="group_01" tags="launchpos ">
+        <offset>
+          <position x="0" y="-7.47" z="-6" />
+        </offset>
+      </connection>
+      <connection name="con_todock_01" group="group_01" tags="todock ">
+        <offset>
+          <position x="0" y="-7.47" z="-6" />
+        </offset>
+      </connection>
+
+      <connection name="con_entrypos" tags="entrypos  ">
+				<offset>
+					<position x="0" y="-7.47" z="-40"/>
+				</offset>
+			</connection>
+
+      <connection name="ConnectionFor_dockingbay_arg_s_01_macro" group="group_01" tags="dockingbay">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+    </connections>
+  </component>
+</components>

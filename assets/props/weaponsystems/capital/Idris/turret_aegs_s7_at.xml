@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-01 20:11:20 from Blender-->
+<components>
+  <component name="turret_aegs_s7_at" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\idris\turret_aegs_s7_at_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForturret_base" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="turret_base" wreck="turret_base_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="2" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="3" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                  <material id="4" ref="generic.aegs_idris_turret_large_mtl_decals_pom_a" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_idris_turret_large_mtl_decals_ext" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.657265" y="1.997797" z="7.544398" />
+              <center x="4.172325e-07" y="1.323028" z="-4.006539" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForat_core_body" tags="part " parent="turret_base">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-15.0 "/>
+							<max value="90"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-2.318867" y="1.95377" z="-0.5087943" />
+        </offset>
+        <parts>
+          <part name="at_core_body">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.hrst_mastermaterial_II_mtl_pom" />
+                  <material id="2" ref="generic.hrst_mastermaterial_II_mtl_decals" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="11" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="12" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="13" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="14" ref="generic.behr_turret_1_mtl_H_paint_02_A" />
+                  <material id="15" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="16" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="17" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="18" ref="generic.kron_mastermaterial_mtl_H_rubber_01_A" />
+                  <material id="19" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.982697" y="0.4421296" z="3.583768" />
+              <center x="2.318867" y="7.450581e-08" z="1.614083" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbarrel" tags="part animation" parent="at_core_body">
+        <animations>
+					<animation name="gun_firing" start="1" end="20"/>
+				</animations>
+        <offset>
+          <position x="-0.6579754" y="0" z="3.576058" />
+        </offset>
+        <parts>
+          <part name="barrel">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.hrst_mastermaterial_II_mtl_pom" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.behr_turret_1_mtl_H_paint_02_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.956723" y="0.1540054" z="2.401188" />
+              <center x="2.976842" y="3.576279e-07" z="0.8727627" />
+            </size>
+            <size_raw>
+              <max x="3.956723" y="0.1540054" z="2.304112" />
+              <center x="2.976842" y="4.097819e-07" z="0.9698391" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="barrel">
+        <offset>
+          <position x="0.1768141" y="0" z="2.714561" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="barrel">
+        <offset>
+          <position x="-0.7713192" y="1.192093e-07" z="3.30078" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="laser002" tags="laser " parent="barrel">
+        <offset>
+          <position x="6.725638" y="1.192093e-07" z="3.30078" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="laser003" tags="laser " parent="barrel">
+        <offset>
+          <position x="5.780747" y="0" z="2.714561" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForbarrel_damper" tags="part animation" parent="at_core_body">
+        <animations>
+					<animation name="gun_firing" start="1" end="20"/>
+				</animations>
+        <offset>
+          <position x="-0.6579754" y="0" z="3.75099" />
+        </offset>
+        <parts>
+          <part name="barrel_damper">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.hrst_mastermaterial_II_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.978754" y="0.1832103" z="2.160269" />
+              <center x="2.976842" y="2.384186e-07" z="1.134449" />
+            </size>
+            <size_raw>
+              <max x="3.978754" y="0.1832104" z="2.079818" />
+              <center x="2.976842" y="3.278255e-07" z="1.2149" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_turret_laser_m" tags="turret medium component combat aegs_idris">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

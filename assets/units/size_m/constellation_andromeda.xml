@@ -1,0 +1,1537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-01 22:59:27 from Blender-->
+<components>
+  <component name="constellation_andromeda" class="ship_m">
+    <source geometry="extensions\AEGS\assets\units\size_m\constellation_andromeda_data" />
+    <layers>
+      <layer>
+        <lights>
+          <arealight name="ego_area" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="0.8" specularintensity="1" range="20" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="5.130322" z="11.63" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="0.8" specularintensity="1" range="20" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="4.154156" z="21.64686" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="0.8" specularintensity="1" range="20" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="4.154156" z="16.64686" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="ship ship_m">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForbody" tags="part ">
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="4" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="7" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="10" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="11" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="12" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="13" ref="generic.idris_hangar_mtl_floors_b" />
+                  <material id="14" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="15" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                  <material id="16" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="17" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="18" ref="generic.rsi_constellation_ext_mtl_thruster_glow" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="4" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="7" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="10" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="11" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="12" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="13" ref="generic.idris_hangar_mtl_floors_b" />
+                  <material id="14" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="15" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                  <material id="16" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="17" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="18" ref="generic.rsi_constellation_ext_mtl_thruster_glow" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="4" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="7" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="10" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="11" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="12" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="13" ref="generic.idris_hangar_mtl_floors_b" />
+                  <material id="14" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="15" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                  <material id="16" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="17" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="18" ref="generic.rsi_constellation_ext_mtl_thruster_glow" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="4" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="7" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="10" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="11" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="12" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="13" ref="generic.idris_hangar_mtl_floors_b" />
+                  <material id="14" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="15" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                  <material id="16" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="17" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="18" ref="generic.rsi_constellation_ext_mtl_thruster_glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="13.28429" y="6.887613" z="30.8725" />
+              <center x="0.0003392696" y="2.646112" z="-1.852558" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody_pom" tags="part ">
+        <parts>
+          <part name="body_pom">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="13.29788" y="6.780751" z="30.79271" />
+              <center x="7.152557e-07" y="2.536258" z="-1.903259" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForentrance_door_l" group="door " tags="part animation require_docked trigger_interact door ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.004" y="1.698628" z="11.66735" />
+        </offset>
+        <parts>
+          <part name="entrance_door_l">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_accent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.338336" y="0.1108586" z="1.49181" />
+              <center x="-0.9539652" y="-0.03104651" z="0.0003356934" />
+            </size>
+            <size_raw>
+              <max x="0.680395" y="0.0762945" z="1.491811" />
+              <center x="-0.296024" y="0.003517497" z="0.0003355145" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForentrance_door_r" group="door " tags="part animation require_docked trigger_interact door ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.00253" y="1.698628" z="11.66735" />
+        </offset>
+        <parts>
+          <part name="entrance_door_r">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_accent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.385785" y="0.08854401" z="1.491611" />
+              <center x="0.98498" y="-0.01098406" z="0.0003128052" />
+            </size>
+            <size_raw>
+              <max x="0.6886225" y="0.05398" z="1.491611" />
+              <center x="0.2878175" y="0.02358" z="0.0003130436" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForLG_Rear1" tags="animation iklink part anim_dockdoor">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-8.572913" y="-1.099798" z="-4.203455" />
+          <quaternion qx="0.199368" qy="0" qz="0" qw="-0.9799247" />
+        </offset>
+        <parts>
+          <part name="LG_Rear1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.367499" y="2.213165" z="3.308738" />
+              <center x="8.572913" y="-2.377913" z="2.61836" />
+            </size>
+            <size_raw>
+              <max x="9.367499" y="1.669822" z="2.512935" />
+              <center x="8.572913" y="-1.83457" z="1.822557" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForLG_Rear2" tags="animation iklink part anim_dockdoor">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-8.572913" y="-2.368254" z="-6.514631" />
+        </offset>
+        <parts>
+          <part name="LG_Rear2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.294664" y="1.75866" z="4.507894" />
+              <center x="8.572913" y="-1.563931" z="0.2744203" />
+            </size>
+            <size_raw>
+              <max x="9.294663" y="0.87933" z="4.356936" />
+              <center x="8.572912" y="-0.8728505" z="0.1234627" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForLG_Rear3" tags="animation iklink part anim_dockdoor">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-8.572913" y="-1.060653" z="-8.916979" />
+          <quaternion qx="-0.1218693" qy="0" qz="0" qw="-0.9925461" />
+        </offset>
+        <parts>
+          <part name="LG_Rear3">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.356695" y="2.15609" z="2.100455" />
+              <center x="8.572913" y="-2.474132" z="-1.779552" />
+            </size>
+            <size_raw>
+              <max x="9.356695" y="1.593175" z="1.825765" />
+              <center x="8.572912" y="-1.911217" z="-1.504862" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForLG_Rear4" tags="animation iklink part anim_dockdoor">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-8.572913" y="-1.89678" z="-12.23904" />
+        </offset>
+        <parts>
+          <part name="LG_Rear4">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.294663" y="1.971221" z="3.691138" />
+              <center x="8.572913" y="-1.822867" z="-2.4782" />
+            </size>
+            <size_raw>
+              <max x="9.294663" y="0.9502735" z="3.614375" />
+              <center x="8.572913" y="-0.801919" z="-2.554963" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormisslerack_arm_body_left_arm" tags="part animation">
+        <animations>
+					<animation name="battlestate_green" start="0" end="0"/>
+					<animation name="battlestate_green_to_red" start="0" end="80"/>
+					<animation name="battlestate_red" start="80" end="80"/>
+					<animation name="battlestate_red_to_green" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="-6.190166" y="2.391078" z="-11.81644" />
+          <quaternion qx="0" qy="-0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="misslerack_arm_body_left_arm">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="7" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="7" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="7" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="7" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.63057" y="0.368172" z="1.277128" />
+              <center x="-2.759656" y="0" z="-0.5183761" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormisslerack_arm_body_right_arm" tags="part animation">
+        <animations>
+					<animation name="battlestate_green" start="0" end="0"/>
+					<animation name="battlestate_green_to_red" start="0" end="80"/>
+					<animation name="battlestate_red" start="80" end="80"/>
+					<animation name="battlestate_red_to_green" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="6.190165" y="2.391078" z="-11.81643" />
+          <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="misslerack_arm_body_right_arm">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="7" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="7" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="7" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="7" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.630571" y="0.3681715" z="1.277128" />
+              <center x="2.759658" y="-4.917383e-07" z="-0.5183766" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormisslerack_arm_tail_left_arm" tags="part animation">
+        <animations>
+					<animation name="battlestate_green" start="0" end="0"/>
+					<animation name="battlestate_green_to_red" start="0" end="80"/>
+					<animation name="battlestate_red" start="80" end="80"/>
+					<animation name="battlestate_red_to_green" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="-4.888347" y="3.538366" z="-22.30459" />
+          <quaternion qx="0" qy="-0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="misslerack_arm_tail_left_arm">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="7" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="9" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="7" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="9" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="7" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="9" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="7" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="9" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.825227" y="0.368172" z="1.265106" />
+              <center x="-4.937231" y="0" z="-0.5303029" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormisslerack_arm_tail_right_arm" tags="part animation">
+        <animations>
+					<animation name="battlestate_green" start="0" end="0"/>
+					<animation name="battlestate_green_to_red" start="0" end="80"/>
+					<animation name="battlestate_red" start="80" end="80"/>
+					<animation name="battlestate_red_to_green" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="4.871633" y="3.541999" z="-22.311" />
+          <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="misslerack_arm_tail_right_arm">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="7" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="9" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="7" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="9" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="7" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="9" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="7" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="9" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.825226" y="0.368172" z="1.265106" />
+              <center x="4.937233" y="0" z="-0.5303029" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForneck_mesh" tags="part ">
+        <offset>
+          <position x="0" y="3" z="9.6" />
+        </offset>
+        <parts>
+          <part name="neck_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="3" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                  <material id="6" ref="p1.cockpit_glass_inside_01" />
+                  <material id="7" ref="generic.rsi_constellation_interior_mtl_int_metal_a" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="10" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="11" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="12" ref="generic.rsi_scorpius_mtl_Grate_Metal_Alpha_Tile" />
+                  <material id="13" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="14" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="15" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="16" ref="p1effects.p1_gradient_colour" />
+                  <material id="17" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="18" ref="generic.rsi_constellation_interior_mtl_dash_decals" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="3" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                  <material id="6" ref="p1.cockpit_glass_inside_01" />
+                  <material id="7" ref="generic.rsi_constellation_interior_mtl_int_metal_a" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="10" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="11" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="12" ref="generic.rsi_scorpius_mtl_Grate_Metal_Alpha_Tile" />
+                  <material id="13" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="14" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="15" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="16" ref="p1effects.p1_gradient_colour" />
+                  <material id="17" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="18" ref="generic.rsi_constellation_interior_mtl_dash_decals" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="3" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                  <material id="6" ref="p1.cockpit_glass_inside_01" />
+                  <material id="7" ref="generic.rsi_constellation_interior_mtl_int_metal_a" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="10" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="11" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="12" ref="generic.rsi_scorpius_mtl_Grate_Metal_Alpha_Tile" />
+                  <material id="13" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="14" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="15" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="16" ref="p1effects.p1_gradient_colour" />
+                  <material id="17" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="18" ref="generic.rsi_constellation_interior_mtl_dash_decals" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="3" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                  <material id="6" ref="p1.cockpit_glass_inside_01" />
+                  <material id="7" ref="generic.rsi_constellation_interior_mtl_int_metal_a" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="10" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="11" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="12" ref="generic.rsi_scorpius_mtl_Grate_Metal_Alpha_Tile" />
+                  <material id="13" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="14" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="15" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="16" ref="p1effects.p1_gradient_colour" />
+                  <material id="17" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="18" ref="generic.rsi_constellation_interior_mtl_dash_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.736555" y="2.073416" z="12.49261" />
+              <center x="-0.00108242" y="0.1718516" z="6.566683" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrsi_constellation_elevator_base" tags="part ">
+        <offset>
+          <position x="0" y="0.5286281" z="11.66735" />
+        </offset>
+        <parts>
+          <part name="rsi_constellation_elevator_base">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="p1.cockpit_glass_outside_01" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.376297" y="0.6591415" z="1.782547" />
+              <center x="0.007539481" y="0.5022755" z="0.008708" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForshocks_bot" group="elevator_01 " tags="part animation require_docked trigger_interact ui" parent="rsi_constellation_elevator_base">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.252723" y="-0.221403" z="-1.030642" />
+        </offset>
+        <parts>
+          <part name="shocks_bot">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.085784" y="3.469663" z="1.440247" />
+              <center x="-0.2574561" y="-2.273749" z="1.021314" />
+            </size>
+            <size_raw>
+              <max x="1.085784" y="0.727538" z="1.440246" />
+              <center x="-0.2574559" y="0.468376" z="1.021314" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForext_cover" group="elevator_01 " tags="part animation require_docked trigger_interact ui" parent="shocks_bot">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0" y="0.052719" z="0" />
+        </offset>
+        <parts>
+          <part name="ext_cover">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="5" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="6" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.10904" y="3.095794" z="1.727022" />
+              <center x="-0.2541066" y="-2.958137" z="1.029091" />
+            </size>
+            <size_raw>
+              <max x="1.10904" y="0.214567" z="1.727021" />
+              <center x="-0.2541066" y="-0.07690901" z="1.029092" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForplatform" group="elevator_01 " tags="part animation require_docked trigger_interact" parent="shocks_bot">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.252723" y="1.253627" z="1.030646" />
+        </offset>
+        <parts>
+          <part name="platform">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="3" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.948561" y="3.573413" z="1.478697" />
+              <center x="0.001064003" y="-3.536087" z="-0.02466869" />
+            </size>
+            <size_raw>
+              <max x="0.948561" y="0.112451" z="1.478697" />
+              <center x="0.001064003" y="-0.07512499" z="-0.02466899" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForshocks_mid" group="elevator_01 " tags="part animation require_docked trigger_interact" parent="rsi_constellation_elevator_base">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.0035" y="0.351309" z="0.0011549" />
+        </offset>
+        <parts>
+          <part name="shocks_mid">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="2" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.096613" y="2.136359" z="1.412385" />
+              <center x="-0.00116156" y="-1.537242" z="0.006145477" />
+            </size>
+            <size_raw>
+              <max x="1.096613" y="0.645254" z="1.412385" />
+              <center x="-0.001161546" y="-0.04613701" z="0.006145" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForshocks_mid_b" group="elevator_01 " tags="part animation require_docked trigger_interact" parent="rsi_constellation_elevator_base">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.0035" y="0.351309" z="0.0011549" />
+        </offset>
+        <parts>
+          <part name="shocks_mid_b">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="2" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.090258" y="2.756801" z="1.406544" />
+              <center x="-0.00084649" y="-2.157685" z="0.006150246" />
+            </size>
+            <size_raw>
+              <max x="1.090258" y="0.645254" z="1.406543" />
+              <center x="-0.0008465052" y="-0.04613701" z="0.006150484" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForshocks_top" group="elevator_01 " tags="part animation require_docked trigger_interact" parent="rsi_constellation_elevator_base">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.0035" y="-0.519531" z="0.0011549" />
+        </offset>
+        <parts>
+          <part name="shocks_top">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="2" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.166925" y="1.05412" z="1.479314" />
+              <center x="-0.002586588" y="0.6386864" z="0.005913734" />
+            </size>
+            <size_raw>
+              <max x="1.166925" y="0.415262" z="1.479314" />
+              <center x="-0.002586514" y="1.277544" z="0.005913973" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForshocks_top_b" group="elevator_01 " tags="part animation require_docked trigger_interact" parent="rsi_constellation_elevator_base">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.0035" y="-0.267084" z="0.0011549" />
+        </offset>
+        <parts>
+          <part name="shocks_top_b">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="2" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.135529" y="1.640316" z="1.448995" />
+              <center x="-0.002563938" y="-0.1832669" z="0.006180763" />
+            </size>
+            <size_raw>
+              <max x="1.135529" y="0.6029465" z="1.448995" />
+              <center x="-0.002563983" y="0.8541025" z="0.006180048" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForscreen_pilot_front_mid" tags="part ">
+        <offset>
+          <position x="9.999997e-07" y="2.999642" z="19.74208" />
+        </offset>
+        <parts>
+          <part name="screen_pilot_front_mid">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.349242" y="0.213183" z="0.09799433" />
+              <center x="-0.0016945" y="0.93185" z="6.223393" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectionthruster" tags="part animation  ">
+        <offset>
+          <position x="5.119952" y="4.634698" z="19.67401" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_01"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster001" tags="part animation  ">
+        <offset>
+          <position x="5.119952" y="4.634698" z="18.2855" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_02"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster002" tags="part animation  ">
+        <offset>
+          <position x="-5.11995" y="4.634698" z="18.2855" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_03"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster003" tags="part animation  ">
+        <offset>
+          <position x="-5.11995" y="4.634698" z="19.67401" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_04"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster004" tags="part animation  ">
+        <offset>
+          <position x="7.522571" y="8.333172" z="-25.7989" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_05"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster005" tags="part animation  ">
+        <offset>
+          <position x="7.522571" y="8.333172" z="-24.41599" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_06"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster006" tags="part animation  ">
+        <offset>
+          <position x="-7.52257" y="8.333172" z="-24.41599" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_07"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster007" tags="part animation  ">
+        <offset>
+          <position x="-7.52257" y="8.333172" z="-25.7989" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_08"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster008" tags="part animation  ">
+        <offset>
+          <position x="-3.348604" y="3.446986" z="-26.01504" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_09"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster009" tags="part animation  ">
+        <offset>
+          <position x="-3.348604" y="3.446986" z="-27.40633" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_10"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster010" tags="part animation  ">
+        <offset>
+          <position x="3.3486" y="3.446986" z="-27.40633" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_11"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster011" tags="part animation  ">
+        <offset>
+          <position x="3.3486" y="3.446986" z="-26.01504" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_12"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster012" tags="part animation  ">
+        <offset>
+          <position x="10.40109" y="-2.649461" z="-17.0791" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_13"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster013" tags="part animation  ">
+        <offset>
+          <position x="10.40109" y="-2.649461" z="-15.69549" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_14"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster014" tags="part animation  ">
+        <offset>
+          <position x="-10.4011" y="-2.649461" z="-15.69549" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_15"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster015" tags="part animation  ">
+        <offset>
+          <position x="-10.4011" y="-2.649461" z="-17.0791" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_16"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster016" tags="part animation  ">
+        <offset>
+          <position x="9.87026" y="3.701566" z="15.41318" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_17"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster017" tags="part animation  ">
+        <offset>
+          <position x="9.87026" y="3.701566" z="16.8009" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_18"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster018" tags="part animation  ">
+        <offset>
+          <position x="-9.87026" y="3.701566" z="16.8009" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_19"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster019" tags="part animation  ">
+        <offset>
+          <position x="-9.87026" y="3.701566" z="15.41318" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_20"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster020" tags="part animation  ">
+        <offset>
+          <position x="5.038717" y="1.178722" z="17.79272" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_21"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster021" tags="part animation  ">
+        <offset>
+          <position x="5.038717" y="1.178722" z="19.17553" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_22"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster022" tags="part animation  ">
+        <offset>
+          <position x="-5.03872" y="1.178722" z="19.17553" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_23"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster023" tags="part animation  ">
+        <offset>
+          <position x="-5.03872" y="1.178722" z="17.79272" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_24"/>
+				</parts>
+      </connection>
+
+      <connection name="Connection01" group="transporter_01 " tags="location_cockpit ">
+				<offset>
+          <position x="0" y="2.97512" z="3.01271" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.part_main" name="part_main"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part iklink  " parent="part_main">
+				<offset>
+					<position x="0" y="5.153775E-02" z="3.353691E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals" name="detail_m_decals"/>
+				</parts>
+			</connection>
+			<connection name="Connection03" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="0.54566" y="0.007" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_left" name="anim_door_left"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection04" tags="part iklink  " parent="anim_door_left">
+				<offset>
+					<position x="-0.4329364" y="3.16143E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_left" name="detail_m_decals_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part nocollision iklink  " parent="anim_door_left">
+				<offset>
+					<position x="6.043839E-02" y="9.536743E-07" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_left" name="detail_m_light_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection06" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="-0.54566" y="0.008" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_right" name="anim_door_right"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection07" tags="part iklink  " parent="anim_door_right">
+				<offset>
+					<position x="0.4321223" y="3.553271E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_right" name="detail_m_decals_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part nocollision iklink  " parent="anim_door_right">
+				<offset>
+					<position x="-6.110048E-02" y="3.925562E-04" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_right" name="detail_m_light_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection09" group="transporter_01 " tags="part detail_l  " parent="part_main">
+				<offset>
+					<position x="1.205526" y="0.04" z="-0.1"/>
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_l_button" name="detail_l_button"/>
+				</parts>
+			</connection>
+			<connection name="Connection10" group="transporter_01 " tags="part  " parent="part_main">
+				<offset>
+					<position x="0" y="1.14" z="0.9"/>
+					<quaternion qx="0.7071066" qy="-0" qz="-0" qw="-0.7071069"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.dummy_sound_animation" name="dummy_sound_animation"/>
+				</parts>
+			</connection>
+      <connection name="con_npc_stand_001" group="transporter_01" tags="npc_waypoint stand npctransport ">
+				<offset>
+          <position x="0" y="1.97512" z="3.01271" />
+        </offset>
+			</connection>
+
+      <connection name="Connection36" group="pilotcontrol" tags="part ui">
+				<offset>
+          <position x="0" y="1.88102" z="22.9536" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+				<parts>
+					<part ref="constellation_andromeda_seat1.constellation_base_captainseat" name="constellation_base_captainseat"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="constellation_base_captainseat">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair " >
+				<offset>
+					<position x="0" y="3.13814" z="22.1936" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor " >
+				<offset>
+					<position x="0" y="3.13814" z="23.1936" />
+				</offset>
+			</connection>
+
+      <connection name="Connection38" group="gunnercontrol" tags="part ui">
+				<offset>
+          <position x="1.94577" y="1.97698" z="23.4396" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+				<parts>
+					<part ref="constellation_andromeda_seat2.copilot_base_r" name="copilot_base_r"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_control02" tags="npc service sit iklink" value="-1" group="gunnercontrol" parent="copilot_base_r">
+				<offset>
+					<position x="0" y="-0.2" z="0.2"/>
+				</offset>
+			</connection>
+      <connection name="Connection39" tags="part iklink  " group="gunnercontrol" parent="copilot_base_r">
+				<parts>
+					<part ref="constellation_andromeda_seat2.copilot_base_r_mesh" name="copilot_base_r_mesh"/>
+				</parts>
+			</connection>
+      <connection name="con_tochair002" group="gunnercontrol" tags="tochair " >
+				<offset>
+					<position x="1.95756" y="3.11007" z="21.1936" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor002" group="gunnercontrol" tags="uianchor " >
+				<offset>
+					<position x="1.95756" y="3.11007" z="23.3671" />
+				</offset>
+			</connection>
+
+      <connection name="Connection40" group="navigationcontrol" tags="part ui">
+				<offset>
+          <position x="-1.94577" y="1.97698" z="23.4396" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+				<parts>
+					<part ref="constellation_andromeda_seat2.copilot_base_r" name="copilot_base_r2"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_control03" tags="npc service sit iklink" value="-1" group="navigationcontrol" parent="copilot_base_r2">
+				<offset>
+					<position x="0" y="-0.2" z="0.2"/>
+				</offset>
+			</connection>
+      <connection name="Connection41" tags="part iklink  " group="navigationcontrol" parent="copilot_base_r2">
+				<parts>
+					<part ref="constellation_andromeda_seat2.copilot_base_r_mesh" name="copilot_base_r_mesh2"/>
+				</parts>
+			</connection>
+      <connection name="con_tochair003" group="navigationcontrol" tags="tochair " >
+				<offset>
+					<position x="-1.95756" y="3.11007" z="21.1936" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor003" group="navigationcontrol" tags="uianchor " >
+				<offset>
+					<position x="-1.95756" y="3.11007" z="23.3671" />
+				</offset>
+			</connection>
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+        <offset>
+					<position x="0" y="4.22053" z="23.1166" />
+				</offset>
+			</connection>
+      <connection name="con_storage01" tags="storage ">
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+					<position x="0" y="5.56612" z="11.6273"/>
+				</offset>
+			</connection>
+			<connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-5.66" z="80"/>
+				</offset>
+			</connection>
+      <connection name="con_dockarea_001" tags="dockarea ">
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="10.0303" y="7.157954" z="-22.59031" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_02" tags="countermeasures ">
+				<offset>
+          <position x="-10.0303" y="7.157954" z="-22.59031" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine medium component aegs_constellation">
+				<offset>
+          <position x="-5.824893" y="6.686905" z="-29.13175" />
+        </offset>
+			</connection>
+      <connection name="con_engine_02" tags="engine medium component aegs_constellation">
+				<offset>
+          <position x="5.82489" y="6.686905" z="-29.13175" />
+        </offset>
+			</connection>
+      <connection name="con_engine_03" tags="engine medium component aegs_constellation">
+				<offset>
+          <position x="8.660361" y="-1.835432" z="-20.18788" />
+          <quaternion qx="0" qy="0" qz="-0.3826834" qw="-0.9238796" />
+        </offset>
+			</connection>
+      <connection name="con_engine_04" tags="engine medium component aegs_constellation">
+				<offset>
+          <position x="-8.66036" y="-1.835432" z="-20.18788" />
+          <quaternion qx="0" qy="0" qz="-0.9762961" qw="-0.2164395" />
+        </offset>
+			</connection>
+
+      <connection name="con_turret_s_001" tags="turret small component combat aegs_constellation">
+				<offset>
+          <position x="0" y="4.79217" z="19.6443" />
+        </offset>
+			</connection>
+      <connection name="con_turret_s_002" tags="turret small component combat aegs_constellation">
+				<offset>
+          <position x="0" y="1.36958" z="19.6443" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="weapon small platformcollision aegs_weapon_s4">
+				<offset>
+          <position x="-6.192411" y="8.236893" z="-13.10893" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="weapon small platformcollision aegs_weapon_s4">
+				<offset>
+          <position x="6.19241" y="8.236893" z="-13.10893" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_03" tags="weapon small platformcollision aegs_weapon_s4">
+				<offset>
+          <position x="10.70365" y="-3.438344" z="-6.418468" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_04" tags="weapon small platformcollision aegs_weapon_s4">
+				<offset>
+          <position x="-10.7036" y="-3.438344" z="-6.418468" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_05" tags="component weapon small missile aegs_missile_s2 unfixed">
+        <offset>
+          <position x="-9.924318" y="2.390767" z="-11.67011" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_06" tags="component weapon small missile aegs_missile_s2 unfixed">
+        <offset>
+          <position x="10.4431" y="3.546557" z="-22.19782" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_07" tags="component weapon small missile aegs_missile_s2 unfixed">
+        <offset>
+          <position x="-10.44307" y="3.546557" z="-22.19782"/>
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_08" tags="component weapon small missile aegs_missile_s2 unfixed">
+        <offset>
+          <position x="9.92432" y="2.390767" z="-11.67011" />
+        </offset>
+			</connection>
+
+      
+      <connection name="con_shield_03" tags="component shield medium aegs_s2 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_04" tags="component shield medium aegs_s2 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-16 22:03:00 from Blender-->
+<components>
+  <component name="turret_aegs_s3" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\retaliator\turret_aegs_s3_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForturret_body" tags="part iklink nocollision">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="turret_body">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.sabre_mtl_emissives_linked" />
+                  <material id="5" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="9" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="10" ref="generic.retaliator_mtl_buttons_switches" />
+                  <material id="11" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="12" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.sabre_mtl_emissives_linked" />
+                  <material id="5" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="9" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="10" ref="generic.retaliator_mtl_buttons_switches" />
+                  <material id="11" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="12" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.sabre_mtl_emissives_linked" />
+                  <material id="5" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="9" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="10" ref="generic.retaliator_mtl_buttons_switches" />
+                  <material id="11" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="12" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.sabre_mtl_emissives_linked" />
+                  <material id="5" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="9" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="10" ref="generic.retaliator_mtl_buttons_switches" />
+                  <material id="11" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="12" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.144345" y="0.8645676" z="1.248586" />
+              <center x="-0.001314431" y="0.6829842" z="0.01621801" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcore" tags="forceoutline iklink part nocollision" parent="turret_body">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-90.0 "/>
+							<max value="15 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="0.7323567" y="1.146298" z="-0.5599426" />
+        </offset>
+        <parts>
+          <part name="core">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.klwe_las_rep_s1-3_mtl_pom_decals" />
+                  <material id="2" ref="generic.klwe_las_rep_s1-3_mtl_graphic_decals" />
+                  <material id="3" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="4" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="5" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="6" ref="generic.behr_marksman_s1_mtl_glows" />
+                  <material id="7" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="8" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_copper" />
+                  <material id="9" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.007138" y="0.350486" z="1.136704" />
+              <center x="-0.7208726" y="0.297822" z="0.5213945" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="core">
+        <offset>
+          <position x="0" y="-0.3339878" z="2.361034" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="core">
+        <offset>
+          <position x="1.456349" y="-0.3339877" z="2.361034" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_retaliator">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-10 19:43:19 from Blender-->
+<components>
+  <component name="hammerhead_turret_s4" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\hammerhead\hammerhead_turret_s4_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      
+      <connection name="ConnectionForextendingarms" tags="part animation nocollision">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="90" end="180"/>
+					<animation name="gun_firing" start="80" end="90"/>
+				</animations>
+        <parts>
+          <part name="extendingarms" wreck="extendingarms_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_decal_pom" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_decal_text" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_tech_greeble" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="6" ref="generic.aegs_cor_pipes_steel_mtl_cable_pipe_trims" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.032964" y="2.627998" z="3.772158" />
+              <center x="9.548664e-05" y="0.002860069" z="-1.889151" />
+            </size>
+            <size_raw>
+              <max x="1.032964" y="2.627998" z="2.022158" />
+              <center x="9.551644e-05" y="0.002860069" z="-3.639151" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForextendingarms001" tags="part animation nocollision">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="90" end="180"/>
+					<animation name="gun_firing" start="80" end="90"/>
+				</animations>
+        <parts>
+          <part name="extendingarms001" wreck="extendingarms001_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_tech_greeble" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.83443" y="2.56273" z="3.693217" />
+              <center x="8.302927e-05" y="0.002860069" z="-1.980951" />
+            </size>
+            <size_raw>
+              <max x="0.83443" y="2.56273" z="1.943217" />
+              <center x="8.301437e-05" y="0.002860069" z="-3.730951" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForturret_rail" tags="part animation iklink nocollision">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="90" end="180"/>
+					<animation name="gun_firing" start="80" end="90"/>
+				</animations>
+        <restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-120.0 "/>
+							<max value="120 "/>
+						</limits>
+          </restriction>
+				</restrictions>
+        <parts>
+          <part name="turret_rail" wreck="turret_rail_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_decal_pom" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_decal_text" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_tech_greeble" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.430773" y="2.541939" z="4.555981" />
+              <center x="-0.0008900166" y="-0.0212214" z="2.415033" />
+            </size>
+            <size_raw>
+              <max x="2.430773" y="2.541939" z="2.80598" />
+              <center x="-0.0008900166" y="-0.0212214" z="0.6650331" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForturret_body" tags="forceoutline iklink part nocollision" parent="turret_rail">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-120.0 "/>
+							<max value="120 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="0" y="0" z="2.682538" />
+        </offset>
+        <parts>
+          <part name="turret_body" wreck="turret_body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_decal_pom" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_decal_text" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_cor_pipes_steel_mtl_cable_pipe_trims" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="8" ref="generic.aegs_hammerhead_turrets_mtl_painted_metal_dark_2" />
+                  <material id="9" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="11" ref="generic.aegs_idris_mtl_corridor_trims" />
+                  <material id="12" ref="generic.aegs_hammerhead_turrets_mtl_proxy" />
+                  <material id="13" ref="p1.cockpit_glass_inside_01" />
+                  <material id="14" ref="generic.aegs_hammerhead_turrets_mtl_decals_pom" />
+                  <material id="15" ref="generic.aegs_hammerhead_turrets_mtl_decals_diff" />
+                  <material id="16" ref="generic.aegs_hammerhead_turrets_mtl_red_panels" />
+                  <material id="17" ref="generic.aegs_hammerhead_turrets_mtl_metals_atlas" />
+                  <material id="18" ref="generic.retaliator_interior_mtl_buttons_switches" />
+                  <material id="19" ref="generic.aegs_hammerhead_turrets_mtl_metal_atlas_ext" />
+                  <material id="20" ref="generic.aegs_hammerhead_turrets_mtl_screens" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.352086" y="2.392511" z="5.640675" />
+              <center x="-0.01140547" y="-0.03985047" z="1.406721" />
+            </size>
+            <size_raw>
+              <max x="3.352086" y="2.392511" z="3.890674" />
+              <center x="-0.01140541" y="-0.03985059" z="-0.3432794" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcore" tags="part nocollision" parent="turret_body">
+        <offset>
+          <position x="-2.927871" y="1.052392" z="-0.426692" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+        <parts>
+          <part name="core">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.klwe_las_rep_s1-3_mtl_pom_decals" />
+                  <material id="2" ref="generic.klwe_las_rep_s1-3_mtl_graphic_decals" />
+                  <material id="3" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="4" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="5" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="6" ref="generic.behr_marksman_s1_mtl_glows" />
+                  <material id="7" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="8" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_copper" />
+                  <material id="9" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5075507" y="5.064064" z="5.9834" />
+              <center x="0" y="2.927871" z="4.555154" />
+            </size>
+            <size_raw>
+              <max x="0.5075507" y="5.064064" z="4.233399" />
+              <center x="1.490116e-08" y="2.927871" z="2.805154" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="core">
+        <offset>
+          <position x="5.256922e-08" y="-1.001963" z="7.083102" />
+        </offset>
+      </connection>
+      <connection name="laser003" tags="laser " parent="core">
+        <offset>
+          <position x="-2.931382e-07" y="6.906899" z="7.083102" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForcore001" tags="part nocollision" parent="turret_body">
+        <offset>
+          <position x="-2.927871" y="-1.203453" z="-0.426692" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+        <parts>
+          <part name="core001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.klwe_las_rep_s1-3_mtl_pom_decals" />
+                  <material id="2" ref="generic.klwe_las_rep_s1-3_mtl_graphic_decals" />
+                  <material id="3" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="4" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="5" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="6" ref="generic.behr_marksman_s1_mtl_glows" />
+                  <material id="7" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="8" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_copper" />
+                  <material id="9" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5075507" y="5.064064" z="5.9834" />
+              <center x="0" y="2.927871" z="4.555154" />
+            </size>
+            <size_raw>
+              <max x="0.5075507" y="5.064064" z="4.233399" />
+              <center x="1.490116e-08" y="2.927871" z="2.805154" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser001" tags="laser " parent="core001">
+        <offset>
+          <position x="5.256922e-08" y="-1.001963" z="7.083102" />
+        </offset>
+      </connection>
+      <connection name="laser002" tags="laser " parent="core001">
+        <offset>
+          <position x="-2.925797e-07" y="6.894125" z="7.083102" />
+        </offset>
+      </connection>
+
+      
+      <connection name="con_turret_laser_m" tags="turret medium component combat aegs_hammerhead">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

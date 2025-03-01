@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-02 12:57:42 from Blender-->
+<components>
+  <component name="constellation_andromeda_seat2" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\constellation_andromeda_seat2_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForcopilot_base_r" tags="part animation iklink detail_xl chair platformcollision forceoutline walk_exclude walk_excludeplayer ">
+        <animations>
+					<animation name="chair_default_inactive" start="1" end="1"/>
+					<animation name="chair_default_activating" start="1" end="80"/>
+					<animation name="chair_default_active" start="80" end="80"/>
+					<animation name="chair_default_deactivating" start="80" end="240"/>
+					<animation name="chair_paranid_inactive" start="1" end="1"/>
+					<animation name="chair_paranid_activating" start="1" end="80"/>
+					<animation name="chair_paranid_active" start="8" end="80"/>
+					<animation name="chair_paranid_deactivating" start="80" end="240"/>
+					<animation name="chair_default_to_paranid" start="1" end="1"/>
+					<animation name="chair_paranid_to_default" start="1" end="1"/>
+				</animations>
+        <offset>
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="copilot_base_r">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_int_metal_a" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="9" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.611559" y="0.6799645" z="0.787017" />
+              <center x="-0.004902959" y="0.6477885" z="-0.07520598" />
+            </size>
+            <size_raw>
+              <max x="0.611559" y="0.6799645" z="0.787017" />
+              <center x="-0.004902974" y="0.6477885" z="-0.07520599" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcopilot_base_r" tags="part animation ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation ">
+        <offset>
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="copilot_base_r_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_int_metal_a" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="9" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.611559" y="0.6799645" z="0.787017" />
+              <center x="-0.004902959" y="0.6477885" z="-0.07520598" />
+            </size>
+            <size_raw>
+              <max x="0.611559" y="0.6799645" z="0.787017" />
+              <center x="-0.004902974" y="0.6477885" z="-0.07520599" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

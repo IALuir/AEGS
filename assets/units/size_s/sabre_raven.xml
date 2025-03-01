@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-08-28 20:50:51 from Blender-->
+<components>
+  <component name="sabre_raven" class="ship_s">
+    <source geometry="extensions\AEGS\assets\units\size_s\sabre_raven_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_s ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForbody" tags="part ">
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Panel_Tile_Paint_Tertiary_A" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="8" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                  <material id="9" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="11" ref="generic.sabre_raven_mtl_Decal_Diffuse_B" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Panel_Tile_Paint_Tertiary_A" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="8" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                  <material id="9" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="11" ref="generic.sabre_raven_mtl_Decal_Diffuse_B" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Panel_Tile_Paint_Tertiary_A" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="8" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                  <material id="9" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="11" ref="generic.sabre_raven_mtl_Decal_Diffuse_B" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Panel_Tile_Paint_Tertiary_A" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="8" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                  <material id="9" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="11" ref="generic.sabre_raven_mtl_Decal_Diffuse_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.880556" y="1.344658" z="10.12829" />
+              <center x="-2.932549e-05" y="0.09777497" z="-2.166924" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody001" tags="part ">
+        <parts>
+          <part name="body001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                  <material id="5" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Decal_Diffuse_A" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Decal_Diffuse_Raven" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.sabre_raven_mtl_Glow_Thrusters" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Dark_A" />
+                  <material id="11" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                  <material id="5" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Decal_Diffuse_A" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Decal_Diffuse_Raven" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.sabre_raven_mtl_Glow_Thrusters" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Dark_A" />
+                  <material id="11" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                  <material id="5" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Decal_Diffuse_A" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Decal_Diffuse_Raven" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.sabre_raven_mtl_Glow_Thrusters" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Dark_A" />
+                  <material id="11" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                  <material id="5" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Decal_Diffuse_A" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Decal_Diffuse_Raven" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.sabre_raven_mtl_Glow_Thrusters" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Dark_A" />
+                  <material id="11" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.880867" y="1.487723" z="10.3419" />
+              <center x="-3.194809e-05" y="0.06027198" z="-1.879149" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordashboard" tags="part part ui transporter trigger_interact detail_xl location_cockpit platformcollision forceoutline animation ">
+        <offset>
+          <position x="0.002082" y="-0.3956033" z="10.18153" />
+          <quaternion qx="-4.986925e-07" qy="-7.152555e-07" qz="-4.986931e-07" qw="-1" />
+        </offset>
+        <parts>
+          <part name="dashboard">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="7" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="8" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="9" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="10" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="11" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="12" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="13" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4972935" y="0.343473" z="0.4905348" />
+              <center x="-2.510846e-06" y="0.155197" z="-0.3856009" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor1" tags="part ">
+        <offset>
+          <position x="-1.519222" y="-0.78116" z="0.577724" />
+        </offset>
+        <parts>
+          <part name="door1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Decal_Diffuse_Raven" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="5" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.795682" y="0.3325845" z="2.339471" />
+              <center x="0.7289741" y="-0.1655525" z="-1.76355" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor2" tags="part ">
+        <offset>
+          <position x="1.524628" y="-0.780614" z="0.504567" />
+        </offset>
+        <parts>
+          <part name="door2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Decal_Diffuse_Raven" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="5" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.796154" y="0.3324005" z="2.33947" />
+              <center x="-0.7299451" y="-0.1664795" z="-1.690393" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggear" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-4e-06" y="-0.5599999" z="6.191864" />
+        </offset>
+        <parts>
+          <part name="landinggear">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="4" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="5" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="6" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.539483" y="1.153027" z="1.287905" />
+              <center x="6.489245e-09" y="-0.7454419" z="0.3836942" />
+            </size>
+            <size_raw>
+              <max x="0.005834958" y="0.01247095" z="0.01392976" />
+              <center x="-1.164153e-10" y="-0.00745442" z="0.003836946" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggear001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-5.811269" y="-0.5599999" z="-2.085483" />
+        </offset>
+        <parts>
+          <part name="landinggear001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="4" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="5" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="6" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5394831" y="1.153027" z="1.287905" />
+              <center x="0" y="-0.7454419" z="0.3836946" />
+            </size>
+            <size_raw>
+              <max x="0.005834958" y="0.01247095" z="0.01392976" />
+              <center x="-1.164153e-10" y="-0.00745442" z="0.003836946" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggear002" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="5.811262" y="-0.5599999" z="-2.085483" />
+        </offset>
+        <parts>
+          <part name="landinggear002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="3" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="4" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="5" ref="generic.sabre_mtl_tint_primary" />
+                  <material id="6" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5394831" y="1.153027" z="1.287905" />
+              <center x="0" y="-0.7454419" z="0.3836946" />
+            </size>
+            <size_raw>
+              <max x="0.005834958" y="0.01247095" z="0.01392976" />
+              <center x="-1.164153e-10" y="-0.00745442" z="0.003836946" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFornose" tags="part ">
+        <offset>
+          <position x="0.003521" y="-0.1622095" z="9.126417" />
+        </offset>
+        <parts>
+          <part name="nose">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Trim_Fabric" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.sabre_raven_mtl_Panel_Tile_Paint_Tertiary_A" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="8" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="9" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="10" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="11" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="12" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Trim_Fabric" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.sabre_raven_mtl_Panel_Tile_Paint_Tertiary_A" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="8" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="9" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="10" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="11" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="12" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Trim_Fabric" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.sabre_raven_mtl_Panel_Tile_Paint_Tertiary_A" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="8" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="9" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="10" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="11" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="12" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Trim_Fabric" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.sabre_raven_mtl_Panel_Tile_Paint_Tertiary_A" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="8" ref="generic.aegs_gladius_int_mtl_detail_decals_pom" />
+                  <material id="9" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="10" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="11" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="12" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6686455" y="1.045135" z="1.825205" />
+              <center x="-0.003521487" y="-0.08443564" z="0.2300241" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcanopy" tags="part animation nocollision" parent="nose">
+        <animations>
+					<animation name="cockpit_closed" start="0" end="0"/>
+					<animation name="cockpit_opening" start="0" end="60"/>
+					<animation name="cockpit_open" start="60" end="60"/>
+					<animation name="cockpit_closing" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-0.004553" y="-0.489932" z="1.936545" />
+          <quaternion qx="0.3417502" qy="0" qz="0" qw="-0.9397908" />
+        </offset>
+        <parts>
+          <part name="canopy">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Decal_Diffuse_A" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Decal_Diffuse_Raven" />
+                  <material id="5" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                  <material id="8" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="p1.cockpit_glass_inside_01" />
+                  <material id="11" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7882935" y="1.508055" z="0.755444" />
+              <center x="-0.001753504" y="1.679733" z="-0.6902704" />
+            </size>
+            <size_raw>
+              <max x="0.7882935" y="1.508055" z="0.7554439" />
+              <center x="-0.001753494" y="1.679733" z="-0.690271" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladdera" group="ladder" tags="part animation" parent="nose">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="-0.1505213" y="-0.8969479" z="0.5334787" />
+        </offset>
+        <parts>
+          <part name="laddera">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Decal_Diffuse_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6921484" y="0.1311663" z="0.3752151" />
+              <center x="0.0522709" y="-0.05184484" z="-0.000746727" />
+            </size>
+            <size_raw>
+              <max x="0.3170215" y="0.1311662" z="0.375215" />
+              <center x="0.4267795" y="-0.05184475" z="-0.0007459968" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladderb" group="ladder" tags="part animation" parent="laddera">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0.34111" y="-0.05225098" z="0.3303766" />
+        </offset>
+        <parts>
+          <part name="ladderb">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6481029" y="0.07658696" z="0.3534393" />
+              <center x="-0.3745087" y="0" z="-0.3298569" />
+            </size>
+            <size_raw>
+              <max x="0.272976" y="0.076587" z="0.353439" />
+              <center x="7.450581e-09" y="0" z="-0.329857" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladderc" group="ladder" tags="part animation" parent="ladderb">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0.01057824" y="0.05225098" z="-0.3303747" />
+        </offset>
+        <parts>
+          <part name="ladderc">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="5" ref="generic.sabre_raven_mtl_Decal_Diffuse_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.9736606" y="0.1277421" z="0.3522081" />
+              <center x="-0.7139145" y="-0.05234993" z="-2.384186e-05" />
+            </size>
+            <size_raw>
+              <max x="0.362051" y="0.1277421" z="0.3522084" />
+              <center x="-0.103313" y="-0.05234993" z="-2.385676e-05" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladderd" group="ladder" tags="part animation" parent="ladderc">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0.173782" y="-0.08841002" z="-9.536743e-07" />
+          <quaternion qx="0" qy="0" qz="-0.7071064" qw="-0.7071071" />
+        </offset>
+        <parts>
+          <part name="ladderd">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Decal_Diffuse_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.031782" y="0.6342334" z="0.3291092" />
+              <center x="-0.941346" y="0.3032246" z="9.536743e-07" />
+            </size>
+            <size_raw>
+              <max x="0.1516055" y="0.5177475" z="0.329109" />
+              <center x="-0.06217749" y="0.4197105" z="9.983778e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladdere" group="ladder" tags="part animation" parent="ladderd">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="-0.1922897" y="-0.05614194" z="9.536743e-07" />
+        </offset>
+        <parts>
+          <part name="laddere">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.0453" y="0.890838" z="0.2731652" />
+              <center x="-1.009375" y="0.01136899" z="0.0004014969" />
+            </size>
+            <size_raw>
+              <max x="0.0409075" y="0.4693345" z="0.2731653" />
+              <center x="-0.005990501" y="0.4328725" z="0.0004011393" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladderdoor" group="ladder" tags="part animation trigger_interact require_docked ui" parent="nose">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="-0.339343" y="-1.200681" z="0.5312891" />
+          <quaternion qx="0" qy="0" qz="-0.005694107" qw="-0.9999838" />
+        </offset>
+        <parts>
+          <part name="ladderdoor">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Decal_Diffuse_Raven" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="5" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.305795" y="0.3150835" z="0.3810592" />
+              <center x="-0.185157" y="0.2085325" z="-9.536743e-07" />
+            </size>
+            <size_raw>
+              <max x="0.305795" y="0.3150835" z="0.3810595" />
+              <center x="-0.185157" y="0.2085325" z="-5.066395e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFornose001" tags="part ">
+        <offset>
+          <position x="0.003521" y="-0.1622095" z="9.126417" />
+        </offset>
+        <parts>
+          <part name="nose001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Decal_Diffuse_Raven" />
+                  <material id="5" ref="p1effects.p1_gradient_colour" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="8" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="9" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Decal_Diffuse_B" />
+                  <material id="11" ref="generic.sabre_raven_mtl_Decal_Diffuse_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Decal_Diffuse_Raven" />
+                  <material id="5" ref="p1effects.p1_gradient_colour" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="8" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="9" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Decal_Diffuse_B" />
+                  <material id="11" ref="generic.sabre_raven_mtl_Decal_Diffuse_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Decal_Diffuse_Raven" />
+                  <material id="5" ref="p1effects.p1_gradient_colour" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="8" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="9" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Decal_Diffuse_B" />
+                  <material id="11" ref="generic.sabre_raven_mtl_Decal_Diffuse_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                  <material id="3" ref="generic.sabre_raven_mtl_Decal_POM_B" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Decal_Diffuse_Raven" />
+                  <material id="5" ref="p1effects.p1_gradient_colour" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="8" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_B" />
+                  <material id="9" ref="generic.sabre_raven_mtl_Panel_Tile_Metal_A" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Decal_Diffuse_B" />
+                  <material id="11" ref="generic.sabre_raven_mtl_Decal_Diffuse_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.217999" y="1.330968" z="2.271514" />
+              <center x="0" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectiontrust" tags="part animation  ">
+        <offset>
+          <position x="-1.113395" y="1.298674" z="3.285348" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_01"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust001" tags="part animation  ">
+        <offset>
+          <position x="1.11339" y="1.298674" z="3.285348" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_02"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust002" tags="part animation  ">
+        <offset>
+          <position x="1.794894" y="0.9136845" z="-6.82277" />
+          <quaternion qx="-0.6793289" qy="0.09582949" qz="0.1487109" qw="-0.7121897" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_03"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust003" tags="part animation  ">
+        <offset>
+          <position x="-1.79489" y="0.9136845" z="-6.82277" />
+          <quaternion qx="-0.6793289" qy="-0.09582946" qz="-0.1487109" qw="-0.7121897" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_04"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust004" tags="part animation  ">
+        <offset>
+          <position x="-0.9536011" y="-0.7225986" z="-6.82277" />
+          <quaternion qx="0.6385874" qy="-0.09925061" qz="0.1663931" qw="-0.744761" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_05"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust005" tags="part animation  ">
+        <offset>
+          <position x="0.953601" y="-0.7225986" z="-6.82277" />
+          <quaternion qx="0.6385874" qy="0.09925064" qz="-0.1663931" qw="-0.7447609" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_06"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust006" tags="part animation  ">
+        <offset>
+          <position x="2.213022" y="-0.981636" z="2.67589" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_07"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust007" tags="part animation  ">
+        <offset>
+          <position x="-2.21302" y="-0.981636" z="2.67589" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_08"/>
+				</parts>
+      </connection>
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="0.271409" z="8.99202" />
+				</offset>
+			</connection>
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="0.271409" z="8.99202" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-2.45524" z="20"/>
+				</offset>
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="0.271409" z="8.99202" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_npc_stand_01" tags="npc_waypoint stand npctransport ">
+				<offset>
+          <position x="0" y="0.271409" z="8.99202" />
+        </offset>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="5.259347" y="-1.042966" z="-4.362116" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_02" tags="countermeasures ">
+				<offset>
+          <position x="-5.25935" y="-1.042966" z="-4.362116" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+
+      <connection name="Connectionchiar01" group="pilotcontrol" tags="part ui">
+				<offset>
+          <position x="0" y="-0.920339" z="8.99803" />
+        </offset>
+				<parts>
+					<part ref="sabre_firebrid_seat.seat" name="seat"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="seat">
+				<offset>
+					<position x="0" y="-0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar02" tags="part iklink ui " group="pilotcontrol" parent="seat">
+				<parts>
+					<part ref="sabre_firebrid_seat.seat_mesh" name="seat_mesh"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair ">
+				<offset>
+					<position x="0" y="0.271409" z="8.99202" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor " >
+				<offset>
+					<position x="0" y="0.271409" z="8.99202" />
+				</offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_sabre_raven">
+        <offset>
+          <position x="-0.001529" y="0.409932" z="-7.53015" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="weapon small platformcollision aegs_weapon_s3 symmetry_1">
+				<offset>
+          <position x="-4.131475" y="-0.2989622" z="0.7496777" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="weapon small platformcollision aegs_weapon_s3 symmetry_1">
+				<offset>
+          <position x="4.13148" y="-0.2989622" z="0.7496777" />
+          <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_03" tags="weapon small platformcollision aegs_weapon_s2 symmetry_2">
+				<offset>
+          <position x="-1.217051" y="-0.2993484" z="6.657666" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_04" tags="weapon small platformcollision aegs_weapon_s2 symmetry_2">
+				<offset>
+          <position x="1.21705" y="-0.2993484" z="6.657666" />
+          <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield small aegs_s1 industrial">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield small aegs_s1 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_03" tags="component shield small aegs_s1 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+    </connections>
+  </component>
+</components>

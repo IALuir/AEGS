@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-24 11:12:19 from Blender-->
+<components>
+  <component name="missile_spirit_a1_fski" class="missile">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\missile\missile_spirit_a1_fski_data" />
+    <layers>
+			<layer>
+				<waypoints/>
+				<trailemitters>
+					<emitter name="trail_red_small_01" type="trail_red_small_01">
+						<offset>
+							<position x="0" y="0" z="-2.5"/>
+						</offset>
+					</emitter>
+				</trailemitters>
+			</layer>
+		</layers>
+    <connections>
+      <connection name="space" tags="missile" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForboom_main" tags="detail_xl part ">
+        <parts>
+          <part name="boom_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.powr_aegs_s02_pl01_mtl_decal_pom" />
+                  <material id="2" ref="generic.fski_bomb_s5_mtl_decal_mat" />
+                  <material id="3" ref="generic.powr_aegs_s02_pl01_mtl_cap_painted_metal_black" />
+                  <material id="4" ref="generic.modular_sofa_set_1_mtl_black_paint" />
+                  <material id="5" ref="generic.fski_bomb_s5_mtl_trim_mat" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.powr_aegs_s02_pl01_mtl_cap_painted_metal_black" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5020611" y="0.5022023" z="1.742717" />
+              <center x="-0.001151174" y="-0.0001472831" z="-0.6053441" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.812295" y="1.812295" z="5.436885" />
+              <center x="-2.980232e-08" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine01" tags="engine standard ">
+        <offset>
+              <position x="0" y="0" z="-2.518216" />
+        </offset>
+	    </connection>
+    </connections>
+  </component>
+</components>

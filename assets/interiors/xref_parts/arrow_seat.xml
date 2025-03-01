@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-08 12:39:36 from Blender-->
+<components>
+  <component name="arrow_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\arrow_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForpilot_seat" tags="part iklink detail_xl chair platformcollision forceoutline walk_exclude walk_excludeplayer ">
+        <parts>
+          <part name="pilot_seat">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_int_mtl_seat" />
+                  <material id="2" ref="generic.anvl_terrapin_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_arrow_int_mtl_atlas" />
+                  <material id="4" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="5" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="6" ref="generic.bigbox_mtl_decals" />
+                  <material id="7" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="9" ref="generic.anvl_hornet_f7a_thruster_mav_joint_mtl_metals_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3448285" y="0.7208015" z="0.522126" />
+              <center x="-0.001416169" y="0.8360397" z="-0.3066964" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpilot_seat_mesh" tags="part animation ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation ">
+        <parts>
+          <part name="pilot_seat_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_int_mtl_seat" />
+                  <material id="2" ref="generic.anvl_terrapin_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_arrow_int_mtl_atlas" />
+                  <material id="4" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="5" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="6" ref="generic.bigbox_mtl_decals" />
+                  <material id="7" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="9" ref="generic.anvl_hornet_f7a_thruster_mav_joint_mtl_metals_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3448285" y="0.7208015" z="0.522126" />
+              <center x="-0.001416169" y="0.8360397" z="-0.3066964" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

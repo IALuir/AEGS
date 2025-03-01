@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-06 13:01:44 from Blender-->
+<components>
+  <component name="weapon_fl_s3" class="weapon">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\generic\S3\weapon_fl_s3_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionFormain" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-8"/>
+							<max value="8"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.03037501" y="0.03037501" z="0.03037501" />
+              <center x="4.656613e-10" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbas" tags="part " parent="main">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-8"/>
+							<max value="8"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-0.0019215" y="0" z="0" />
+        </offset>
+        <parts>
+          <part name="bas">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.kron_mastermaterial_mtl_pom" />
+                  <material id="2" ref="generic.kron_mastermaterial_mtl_decals" />
+                  <material id="3" ref="generic.kron_mastermaterial_mtl_I_trim" />
+                  <material id="4" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="5" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.kron_mastermaterial_mtl_H_rubber_01_A" />
+                  <material id="10" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="11" ref="generic.kron_mastermaterial_mtl_H_plastic_01_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.kron_mastermaterial_mtl_pom" />
+                  <material id="2" ref="generic.kron_mastermaterial_mtl_decals" />
+                  <material id="3" ref="generic.kron_mastermaterial_mtl_I_trim" />
+                  <material id="4" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="5" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.kron_mastermaterial_mtl_H_rubber_01_A" />
+                  <material id="10" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="11" ref="generic.kron_mastermaterial_mtl_H_plastic_01_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.kron_mastermaterial_mtl_pom" />
+                  <material id="2" ref="generic.kron_mastermaterial_mtl_decals" />
+                  <material id="3" ref="generic.kron_mastermaterial_mtl_I_trim" />
+                  <material id="4" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="5" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.kron_mastermaterial_mtl_H_rubber_01_A" />
+                  <material id="10" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="11" ref="generic.kron_mastermaterial_mtl_H_plastic_01_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.kron_mastermaterial_mtl_pom" />
+                  <material id="2" ref="generic.kron_mastermaterial_mtl_decals" />
+                  <material id="3" ref="generic.kron_mastermaterial_mtl_I_trim" />
+                  <material id="4" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="5" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.kron_mastermaterial_mtl_H_rubber_01_A" />
+                  <material id="10" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="11" ref="generic.kron_mastermaterial_mtl_H_plastic_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2087468" y="0.4929538" z="1.268555" />
+              <center x="0.001924157" y="-0.4899374" z="0.4000317" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbar_main_lvl1" tags="part animation" parent="bas">
+        <animations>
+					<animation name="weapon_firing" start="0" end="20"/>
+				</animations>
+        <offset>
+          <position x="0.0019215" y="-0.4835781" z="0.5895097" />
+        </offset>
+        <parts>
+          <part name="bar_main_lvl1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.kron_mastermaterial_mtl_I_trim" />
+                  <material id="2" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="3" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="4" ref="generic.kron_mastermaterial_mtl_pom" />
+                  <material id="5" ref="generic.kron_mastermaterial_mtl_decals" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                  <material id="8" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1358272" y="0.2322085" z="1.227021" />
+              <center x="-7.599592e-07" y="0" z="1.206442" />
+            </size>
+            <size_raw>
+              <max x="0.1358272" y="0.2322085" z="1.115281" />
+              <center x="-7.525086e-07" y="0" z="1.318182" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="bar_main_lvl1">
+        <offset>
+          <position x="0" y="-0.00278908" z="2.430388" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="weapon small platformcollision aegs_weapon_s3">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

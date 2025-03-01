@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components>
+  <component name="production_kraken" class="production">
+    <source geometry="extensions\aegs\assets\structures\dock\dockarea_aegs_benga_dockbaya_data" />
+   
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="production">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

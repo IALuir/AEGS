@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="engine_aegs_l_javelin_macro" class="engine">
+    <component ref="engine_aegs_l_javelin" />
+    <properties>
+      <identification name="{996670,5}" basename="{996670,5}" shortname="{996670,5}" makerrace="terran" description="{996670,6}" mk="1" />
+      <boost duration="26" thrust="2" attack="10" release="0" />
+      <travel charge="20" thrust="35" attack="17" release="2.5" />
+      <thrust forward="3405" reverse="5210" />
+      <angular />
+      <hull max="6000" threshold="0.3" integrated="0"/>
+      <effects>
+        <boosting ref="arg_boost_fx_l" />
+      </effects>
+      <sounds>
+        <enginedetail ref="enginedetail_ship_terran_l_xl_02" />
+      </sounds>
+    </properties>
+  </macro>
+</macros>

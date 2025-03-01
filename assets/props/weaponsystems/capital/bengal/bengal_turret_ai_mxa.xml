@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-05 23:57:54 from Blender-->
+<components>
+  <component name="bengal_turret_ai_mxa" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\bengal\bengal_turret_ai_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForturret" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="turret" wreck="turret_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_flat" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_mid_grey_flat" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_decal_diff" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_lights" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_vent" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_flat" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_mid_grey_flat" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_decal_diff" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_lights" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_vent" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_flat" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_mid_grey_flat" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_decal_diff" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_lights" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_vent" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_flat" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_mid_grey_flat" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_decal_diff" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_lights" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_vent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.593672" y="3.784903" z="7.298618" />
+              <center x="-0.0003420115" y="3.769341" z="-0.8189778" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      
+      <connection name="ConnectionFormxa_core" tags="part " parent="turret">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-5.0 "/>
+							<max value="70 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-4.456741" y="4.653126" z="-2.610726" />
+        </offset>
+        <parts>
+          <part name="mxa_core">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.50411" y="0.5481827" z="5.081632" />
+              <center x="4.456741" y="-0.04092523" z="2.82748" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="mxa_laser" tags="laser " parent="mxa_core">
+        <offset>
+          <position x="-1.487146" y="0" z="8.237072" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="mxa_laser001" tags="laser " parent="mxa_core">
+        <offset>
+          <position x="10.16051" y="0" z="8.237072" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser" tags="turret medium component combat aegs_bengal_ai">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

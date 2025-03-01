@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) at 25.11.2018_17-56-48-->
+<macros>
+  <macro name="weapon_sp_s2_macro" class="weapon">
+    <component ref="weapon_sp_s2" />
+    <properties>
+      <identification name="{996667,30035}" basename="{996667,30035}" shortname="{996667,30035}" description="{996667,30036}" mk="1" />
+      <bullet class="S2_sp_macro" />
+      <heat overheat="12000" cooldelay="1" coolrate="3000" reenable="0" />
+      <rotationspeed max="47.4" />
+      <rotationacceleration max="94.8" />
+      <reload />
+      <hull max="500" hittable="1" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) at 25.11.2018_17-56-48-->
+<macros>
+  <macro name="wepon_missile_s4_macro" class="missilelauncher">
+    <component ref="wepon_missile_s4_fixed" />
+    <properties>
+      <identification name="{996668,75}" basename="{996668,5}" shortname="{996668,7}" makerrace="terran" description="{996668,8}" unique="0" mk="1" />
+      <ammunition tags="aegs_s4" />
+      <bullet class="missile_guided_light_mk1_macro" />
+      <reload />
+      <storage capacity="12" />
+      <hull hittable="0" integrated="1" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-01-25 16:19:11 from Blender-->
+<components>
+  <component name="starfighter_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\starfighter_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForseat" tags="part iklink detail_xl chair platformcollision forceoutline walk_exclude walk_excludeplayer ">
+        <parts>
+          <part name="seat">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_trim_leather" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.334086" y="0.6860768" z="0.5727723" />
+              <center x="-7.450581e-09" y="0.7622898" z="-0.1892042" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseat_mesh" tags="part animation ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation ">
+        <parts>
+          <part name="seat_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_trim_leather" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.334086" y="0.6860768" z="0.5727723" />
+              <center x="-7.450581e-09" y="0.7622898" z="-0.1892042" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-03 22:38:48 from Blender-->
+<components>
+  <component name="turret_missile_s10" class="missileturret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\missile\wepon_missile_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="missileturret" />
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="base" tags="nocollision ">
+        <restrictions>
+					<restriction type="rotation_x">
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="turret_base_temp">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1" y="1" z="1" />
+              <center x="0" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="rocket " parent="turret_base_temp">
+        <restrictions>
+					<restriction type="rotation_y">
+					</restriction>
+				</restrictions>
+      </connection>
+
+      <connection name="con_turret_laser" tags="turret medium component combat aegs_missile_s10">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

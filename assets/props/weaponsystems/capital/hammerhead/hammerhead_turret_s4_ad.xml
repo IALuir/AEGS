@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-01 21:26:21 from Blender-->
+<components>
+  <component name="hammerhead_turret_s4_ad" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\hammerhead\hammerhead_turret_s4_ad_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForextendingarms" tags="part animation nocollision">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="90" end="180"/>
+					<animation name="gun_firing" start="80" end="90"/>
+				</animations>
+        <parts>
+          <part name="extendingarms" wreck="extendingarms_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_decal_pom" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_decal_text" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_tech_greeble" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="6" ref="generic.aegs_cor_pipes_steel_mtl_cable_pipe_trims" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.032964" y="2.627998" z="3.772158" />
+              <center x="9.548664e-05" y="0.002860069" z="-1.889151" />
+            </size>
+            <size_raw>
+              <max x="1.032964" y="2.627998" z="2.022158" />
+              <center x="9.551644e-05" y="0.002860069" z="-3.639151" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForextendingarms001" tags="part animation nocollision">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="90" end="180"/>
+					<animation name="gun_firing" start="80" end="90"/>
+				</animations>
+        <parts>
+          <part name="extendingarms001" wreck="extendingarms001_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_tech_greeble" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.83443" y="2.56273" z="3.693217" />
+              <center x="8.302927e-05" y="0.002860069" z="-1.980951" />
+            </size>
+            <size_raw>
+              <max x="0.83443" y="2.56273" z="1.943217" />
+              <center x="8.301437e-05" y="0.002860069" z="-3.730951" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForturret_rail" tags="part animation iklink nocollision">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="90" end="180"/>
+					<animation name="gun_firing" start="80" end="90"/>
+				</animations>
+        <restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-120.0 "/>
+							<max value="120 "/>
+						</limits>
+          </restriction>
+				</restrictions>
+        <parts>
+          <part name="turret_rail" wreck="turret_rail_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_decal_pom" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_decal_text" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_tech_greeble" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.430773" y="2.541939" z="4.555981" />
+              <center x="-0.0008900166" y="-0.0212214" z="2.415033" />
+            </size>
+            <size_raw>
+              <max x="2.430773" y="2.541939" z="2.80598" />
+              <center x="-0.0008900166" y="-0.0212214" z="0.6650331" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForturret_body" tags="part nocollision" parent="turret_rail">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-120.0 "/>
+							<max value="120 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="0" y="0" z="2.682538" />
+        </offset>
+        <parts>
+          <part name="turret_body" wreck="turret_body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_decal_pom" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_decal_text" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_cor_pipes_steel_mtl_cable_pipe_trims" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="8" ref="generic.aegs_hammerhead_turrets_mtl_painted_metal_dark_2" />
+                  <material id="9" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="11" ref="generic.aegs_idris_mtl_corridor_trims" />
+                  <material id="12" ref="generic.aegs_hammerhead_turrets_mtl_proxy" />
+                  <material id="13" ref="p1.cockpit_glass_inside_01" />
+                  <material id="14" ref="generic.aegs_hammerhead_turrets_mtl_decals_pom" />
+                  <material id="15" ref="generic.aegs_hammerhead_turrets_mtl_decals_diff" />
+                  <material id="16" ref="generic.aegs_hammerhead_turrets_mtl_red_panels" />
+                  <material id="17" ref="generic.aegs_hammerhead_turrets_mtl_metals_atlas" />
+                  <material id="18" ref="generic.retaliator_interior_mtl_buttons_switches" />
+                  <material id="19" ref="generic.aegs_hammerhead_turrets_mtl_metal_atlas_ext" />
+                  <material id="20" ref="generic.aegs_hammerhead_turrets_mtl_screens" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.352086" y="2.392511" z="5.640675" />
+              <center x="-0.01140547" y="-0.03985047" z="1.406721" />
+            </size>
+            <size_raw>
+              <max x="3.352086" y="2.392511" z="3.890674" />
+              <center x="-0.01140541" y="-0.03985059" z="-0.3432794" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForad_part_main" tags="part nocollision" parent="turret_body">
+        <offset>
+          <position x="-2.880049" y="1.045419" z="-0.3542702" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+        <parts>
+          <part name="ad_part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4068187" y="0.7164823" z="3.487391" />
+              <center x="-0.004027367" y="-0.7109064" z="2.359014" />
+            </size>
+            <size_raw>
+              <max x="0.4068187" y="0.7164823" z="1.737391" />
+              <center x="-0.004027218" y="-0.7109063" z="0.6090147" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForad_bar" tags="part animation nocollision" parent="ad_part_main">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="90" end="180"/>
+					<animation name="gun_firing" start="80" end="90"/>
+				</animations>
+        <offset>
+          <position x="3.938426e-08" y="-0.7481484" z="2.236065" />
+          <quaternion qx="0" qy="0" qz="-5.960464e-08" qw="-1" />
+        </offset>
+        <parts>
+          <part name="ad_bar">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.341115" y="0.3199396" z="3.866304" />
+              <center x="9.536743e-07" y="-0.04344511" z="2.955326" />
+            </size>
+            <size_raw>
+              <max x="0.3411149" y="0.3199396" z="2.116304" />
+              <center x="9.611249e-07" y="-0.04344513" z="1.205326" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="ad_bar">
+        <offset>
+          <position x="-3.518846e-08" y="0.00416255" z="3.347705" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForad_part_main001" tags="part nocollision" parent="turret_body">
+        <offset>
+          <position x="-2.880049" y="-1.214467" z="-0.3542702" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+        <parts>
+          <part name="ad_part_main001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4068187" y="0.7164822" z="3.487391" />
+              <center x="-0.004027367" y="-0.7109064" z="2.359014" />
+            </size>
+            <size_raw>
+              <max x="0.4068187" y="0.7164823" z="1.737391" />
+              <center x="-0.004027218" y="-0.7109063" z="0.6090147" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForad_bar001" tags="part aniamtion nocollision" parent="ad_part_main001">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="90" end="180"/>
+					<animation name="gun_firing" start="80" end="90"/>
+				</animations>
+        <offset>
+          <position x="3.938426e-08" y="-0.7481484" z="2.236065" />
+          <quaternion qx="0" qy="0" qz="-5.960464e-08" qw="-1" />
+        </offset>
+        <parts>
+          <part name="ad_bar001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.341115" y="0.3199396" z="3.866304" />
+              <center x="9.536743e-07" y="-0.04344511" z="2.955326" />
+            </size>
+            <size_raw>
+              <max x="0.3411149" y="0.3199396" z="2.116304" />
+              <center x="9.611249e-07" y="-0.04344513" z="1.205326" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser001" tags="laser " parent="ad_bar001">
+        <offset>
+          <position x="-3.518846e-08" y="0.00416255" z="3.347705" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForad_part_main002" tags="part nocollision" parent="turret_body">
+        <offset>
+          <position x="2.88005" y="1.045419" z="-0.3542702" />
+          <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+        </offset>
+        <parts>
+          <part name="ad_part_main002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4068187" y="0.7164823" z="3.487391" />
+              <center x="-0.004027128" y="-0.7109064" z="2.359014" />
+            </size>
+            <size_raw>
+              <max x="0.4068187" y="0.7164823" z="1.737391" />
+              <center x="-0.004027218" y="-0.7109063" z="0.6090147" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForad_bar002" tags="part animation nocollision" parent="ad_part_main002">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="90" end="180"/>
+					<animation name="gun_firing" start="80" end="90"/>
+				</animations>
+        <offset>
+          <position x="-3.93843e-08" y="-0.7481484" z="2.236065" />
+          <quaternion qx="0" qy="0" qz="5.960464e-08" qw="-1" />
+        </offset>
+        <parts>
+          <part name="ad_bar002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.341115" y="0.3199396" z="3.866304" />
+              <center x="9.536743e-07" y="-0.04344511" z="2.955326" />
+            </size>
+            <size_raw>
+              <max x="0.3411149" y="0.3199396" z="2.116304" />
+              <center x="9.611249e-07" y="-0.04344513" z="1.205326" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser002" tags="laser " parent="ad_bar002">
+        <offset>
+          <position x="3.518852e-08" y="0.00416255" z="3.347705" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForad_part_main003" tags="part nocollision" parent="turret_body">
+        <offset>
+          <position x="2.88005" y="-1.214467" z="-0.3542702" />
+          <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+        </offset>
+        <parts>
+          <part name="ad_part_main003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4068187" y="0.7164822" z="3.487391" />
+              <center x="-0.004027128" y="-0.7109064" z="2.359014" />
+            </size>
+            <size_raw>
+              <max x="0.4068187" y="0.7164823" z="1.737391" />
+              <center x="-0.004027218" y="-0.7109063" z="0.6090147" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForad_bar003" tags="part animation nocollision" parent="ad_part_main003">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="90" end="180"/>
+					<animation name="gun_firing" start="80" end="90"/>
+				</animations>
+        <offset>
+          <position x="-3.93843e-08" y="-0.7481484" z="2.236065" />
+          <quaternion qx="0" qy="0" qz="5.960464e-08" qw="-1" />
+        </offset>
+        <parts>
+          <part name="ad_bar003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.341115" y="0.3199396" z="3.866304" />
+              <center x="9.536743e-07" y="-0.04344511" z="2.955326" />
+            </size>
+            <size_raw>
+              <max x="0.3411149" y="0.3199396" z="2.116304" />
+              <center x="9.611249e-07" y="-0.04344513" z="1.205326" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser003" tags="laser " parent="ad_bar003">
+        <offset>
+          <position x="3.518852e-08" y="0.00416255" z="3.347705" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_m" tags="turret medium component combat aegs_hammerhead">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

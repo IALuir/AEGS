@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-04 15:06:54 from Blender-->
+<components>
+  <component name="mole_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\mole_engine_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForargomolemainmesh" tags="part ">
+        <parts>
+          <part name="argomolemainmesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.argo_mole_exterior_mtl_pom_decals_opaque" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="4" ref="generic.argo_mole_exterior_mtl_engine_glows_1" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.889566" y="0.3676192" z="1.293847" />
+              <center x="-3.8445e-06" y="0.0006134063" z="0.5253149" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_mole">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

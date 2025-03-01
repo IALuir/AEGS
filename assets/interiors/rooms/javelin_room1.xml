@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-31 12:58:27 from Blender-->
+<components>
+  <component name="javelin_room1" class="dockingbay">
+    <source geometry="extensions\aegs\assets\interiors\rooms\javelin_room1_data" />
+    <layers>
+      <layer>
+        <lights>
+          <arealight name="ego_area" areax="0.05783844" areay="0.9575195" radius="0" spotattenuation="0" shadow="1" r="171" g="213" b="255" intensity="0.3343702" specularintensity="0.5" range="20" shadowrange="20" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-34.79173" y="-8.635206" z="37.69357" />
+              <quaternion qx="0" qy="0" qz="0.2164396" qw="-0.9762961" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="0.05783844" areay="0.9575195" radius="0" spotattenuation="0" shadow="1" r="171" g="213" b="255" intensity="0.3343702" specularintensity="0.5" range="20" shadowrange="20" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-34.79173" y="-8.635206" z="35.58752" />
+              <quaternion qx="0" qy="0" qz="0.2164396" qw="-0.9762961" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area002" areax="0.05783844" areay="0.9575195" radius="0" spotattenuation="0" shadow="1" r="171" g="213" b="255" intensity="0.3343702" specularintensity="0.5" range="20" shadowrange="20" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-34.79173" y="-8.635206" z="46.84942" />
+              <quaternion qx="0" qy="0" qz="0.2164396" qw="-0.9762961" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area003" areax="0.05783844" areay="0.9575195" radius="0" spotattenuation="0" shadow="1" r="171" g="213" b="255" intensity="0.3343702" specularintensity="0.5" range="20" shadowrange="20" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-34.79173" y="-8.635206" z="48.9468" />
+              <quaternion qx="0" qy="0" qz="0.2164396" qw="-0.9762961" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area004" areax="0.7537308" areay="0.07164574" radius="0" spotattenuation="0" shadow="1" r="171" g="213" b="255" intensity="0.3343702" specularintensity="0.5" range="20" shadowrange="20" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-30.972" y="-8.265479" z="49.9845" />
+              <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area005" areax="0.7537308" areay="0.07164574" radius="0" spotattenuation="0" shadow="1" r="171" g="213" b="255" intensity="0.3343702" specularintensity="0.5" range="20" shadowrange="20" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-30.03321" y="-8.265479" z="49.9845" />
+              <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="dockingbay">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForadd_light_a001" tags="part ">
+        <offset>
+          <position x="-34.77318" y="-8.584054" z="35.57786" />
+          <quaternion qx="-0.1227881" qy="-0.6963642" qz="0.122788" qw="-0.6963642" />
+        </offset>
+        <parts>
+          <part name="add_light_a001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_gauntlet_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_javelin_mtl_glows_physics" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.304967" y="1.211675" z="2.971867" />
+              <center x="-6.675078" y="1.094627" z="2.89805" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForadd_machinery_e001" tags="part ">
+        <offset>
+          <position x="-32.875" y="-10.05" z="48.12499" />
+          <quaternion qx="0" qy="0.707107" qz="0" qw="-0.7071065" />
+        </offset>
+        <parts>
+          <part name="add_machinery_e001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_gauntlet_mtl_base_grey_panels" />
+                  <material id="2" ref="generic.aegs_javelin_gauntlet_mtl_metals_atlas" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="4" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_idris_mtl_corridor_trims" />
+                  <material id="7" ref="generic.aegs_javelin_mtl_cable_pipe_trims" />
+                  <material id="8" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_glows_physics" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7473862" y="0.7563369" z="0.4287031" />
+              <center x="0" y="0.7495645" z="-0.425353" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor_b_l002" tags="part ">
+        <offset>
+          <position x="-30.49999" y="-10.47" z="50.24999" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071067" />
+        </offset>
+        <parts>
+          <part name="door_b_l002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="2" ref="generic.sabre_mtl_emissives_linked" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="5" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.aegs_javelin_mtl_accents_yellow" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="9" ref="generic.aegs_door_master_mtl_decals_diff_b" />
+                  <material id="10" ref="generic.aegs_door_master_mtl_metal_base_trims" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3459339" y="1.206899" z="1.381123" />
+              <center x="9.983778e-07" y="1.197497" z="-0.0004850626" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormachinery_e_glow01001" tags="part ">
+        <offset>
+          <position x="-32.875" y="-10.05" z="48.12499" />
+          <quaternion qx="0" qy="0.707107" qz="0" qw="-0.7071065" />
+        </offset>
+        <parts>
+          <part name="machinery_e_glow01001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_mtl_glows_physics" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.206613" y="0.03106551" z="0" />
+              <center x="-0.252681" y="0.7495245" z="-0.727669" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpipe_b_1m001" tags="part ">
+        <offset>
+          <position x="-34.25001" y="-11.625" z="46.625" />
+          <quaternion qx="-0.707107" qy="0" qz="0" qw="-0.7071065" />
+        </offset>
+        <parts>
+          <part name="pipe_b_1m001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_mtl_accents_yellow" />
+                  <material id="2" ref="generic.aegs_javelin_gauntlet_mtl_metals_atlas" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_javelin_gauntlet_mtl_base_grey_panels" />
+                  <material id="5" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="6" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="7" ref="generic.aegs_javelin_mtl_internal_framework" />
+                  <material id="8" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="10" ref="generic.aegs_javelin_gauntlet_mtl_metal_grill" />
+                  <material id="11" ref="generic.aegs_javelin_mtl_cable_pipe_trims" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3422834" y="7.477119" z="0.5880137" />
+              <center x="0.2189123" y="-4.625263" z="-0.1842805" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForvc_bench001" tags="part ">
+        <offset>
+          <position x="-35" y="-10.6057" z="47.875" />
+        </offset>
+        <parts>
+          <part name="vc_bench001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_gauntlet_mtl_base_grey_panels" />
+                  <material id="2" ref="generic.aegs_javelin_gauntlet_mtl_metals_atlas" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="4" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_javelin_gauntlet_mtl_leather_a" />
+                  <material id="7" ref="generic.aegs_javelin_gauntlet_mtl_decals_diff_b" />
+                  <material id="8" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="10" ref="generic.aegs_javelin_gauntlet_mtl_internal_mechanical" />
+                  <material id="11" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                  <material id="13" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="14" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.632931" y="1.324284" z="8.018607" />
+              <center x="-1.624545" y="1.294758" z="-5.625014" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForvc_bulkhead_1m001" tags="part ">
+        <offset>
+          <position x="-30.5" y="-10.75" z="38.375" />
+        </offset>
+        <parts>
+          <part name="vc_bulkhead_1m001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_gauntlet_mtl_base_grey_panels" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="5" ref="generic.aegs_idris_mtl_corridor_trims" />
+                  <material id="6" ref="generic.aegs_javelin_gauntlet_mtl_leather_a" />
+                  <material id="7" ref="generic.aegs_door_master_mtl_metal_base_trims" />
+                  <material id="8" ref="generic.aegs_javelin_gauntlet_mtl_decals_diff_b" />
+                  <material id="9" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="10" ref="generic.aegs_javelin_gauntlet_mtl_vents" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_leather_b" />
+                  <material id="12" ref="generic.aegs_javelin_gauntlet_mtl_internal_mechanical" />
+                  <material id="13" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="14" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="15" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.45095" y="1.637405" z="8.002465" />
+              <center x="-0.9313247" y="1.375331" z="3.875" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForvc_ceiling_a001" tags="part ">
+        <offset>
+          <position x="-38" y="-8.125" z="42.25" />
+        </offset>
+        <parts>
+          <part name="vc_ceiling_a001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_gauntlet_mtl_base_grey_panels" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="7" ref="generic.aegs_idris_mtl_corridor_trims" />
+                  <material id="8" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="10" ref="generic.aegs_javelin_mtl_accents_yellow" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_vents" />
+                  <material id="12" ref="generic.aegs_javelin_gauntlet_mtl_decals_diff_b" />
+                  <material id="13" ref="generic.aegs_javelin_mtl_internal_framework" />
+                  <material id="14" ref="p1.cockpit_glass_inside_01" />
+                  <material id="15" ref="generic.aegs_javelin_gauntlet_mtl_metals_atlas" />
+                  <material id="16" ref="generic.aegs_javelin_mtl_cable_pipe_trims" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.508361" y="1.229892" z="8.432143" />
+              <center x="-0.4053648" y="0.02499801" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForvc_floor_a001" tags="part ">
+        <offset>
+          <position x="-30.5" y="-10.625" z="46.5" />
+          <quaternion qx="0" qy="1" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="vc_floor_a001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_gauntlet_mtl_base_grey_panels" />
+                  <material id="2" ref="generic.aegs_javelin_gauntlet_mtl_metals_atlas" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="4" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_idris_mtl_corridor_trims" />
+                  <material id="7" ref="generic.aegs_javelin_gauntlet_mtl_vents" />
+                  <material id="8" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="10" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_tileable_decal_01" />
+                  <material id="12" ref="generic.aegs_javelin_mtl_accents_yellow" />
+                  <material id="13" ref="generic.aegs_javelin_gauntlet_mtl_decals_diff_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.316509" y="0.08014131" z="8.314708" />
+              <center x="3.463771" y="-0.07046469" z="4.25" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForvc_railing001" tags="part ">
+        <offset>
+          <position x="-34.25" y="-10.625" z="42.25" />
+        </offset>
+        <parts>
+          <part name="vc_railing001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_gauntlet_mtl_base_grey_panels" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="5" ref="generic.aegs_javelin_gauntlet_mtl_leather_a" />
+                  <material id="6" ref="generic.aegs_javelin_mtl_glows_physics" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.450433" y="1.337713" z="8.314707" />
+              <center x="-2.4808" y="1.327303" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForvc_wall_a001" tags="part ">
+        <offset>
+          <position x="-31.25" y="-10.75" z="44.125" />
+        </offset>
+        <parts>
+          <part name="vc_wall_a001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_gauntlet_mtl_base_grey_panels" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="5" ref="generic.aegs_idris_mtl_corridor_trims" />
+                  <material id="6" ref="generic.aegs_javelin_mtl_internal_framework" />
+                  <material id="7" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="8" ref="generic.aegs_javelin_gauntlet_mtl_internal_mechanical" />
+                  <material id="9" ref="generic.aegs_javelin_gauntlet_mtl_Panels_metal" />
+                  <material id="10" ref="generic.aegs_javelin_gauntlet_mtl_leather_b" />
+                  <material id="11" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="12" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="13" ref="p1.cockpit_glass_inside_01" />
+                  <material id="14" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="15" ref="generic.aegs_javelin_gauntlet_mtl_metals_atlas" />
+                  <material id="16" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="17" ref="generic.aegs_javelin_mtl_accents_yellow" />
+                  <material id="18" ref="generic.aegs_javelin_gauntlet_mtl_vents" />
+                  <material id="19" ref="generic.aegs_javelin_gauntlet_mtl_decals_diff_b" />
+                  <material id="20" ref="generic.aegs_javelin_mtl_cable_pipe_trims" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.418699" y="1.621212" z="6.881858" />
+              <center x="0.7500001" y="1.37712" z="-1.875" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForvc_windows001" tags="part ">
+        <offset>
+          <position x="-34.875" y="-10.75" z="42.25" />
+        </offset>
+        <parts>
+          <part name="vc_windows001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_gauntlet_mtl_base_grey_panels" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="5" ref="generic.aegs_idris_mtl_corridor_trims" />
+                  <material id="6" ref="generic.aegs_javelin_gauntlet_mtl_vents" />
+                  <material id="7" ref="generic.aegs_javelin_gauntlet_mtl_decals_diff_b" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_internal_framework" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_cable_pipe_trims" />
+                  <material id="10" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="11" ref="p1.cockpit_glass_inside_01" />
+                  <material id="12" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="13" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="14" ref="generic.aegs_door_master_mtl_metal_base_trims" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.244063" y="3.296474" z="8.944613" />
+              <center x="-5.937312" y="1.890974" z="-4.768372e-07" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connection01" group="transporter_01 " tags="part">
+				<offset>
+          <position x="-30.46692" y="-9.309813" z="33.34059" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.part_main" name="part_main"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part iklink  " parent="part_main">
+				<offset>
+					<position x="0" y="5.153775E-02" z="3.353691E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals" name="detail_m_decals"/>
+				</parts>
+			</connection>
+			<connection name="Connection03" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="0.54566" y="0.007" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_left" name="anim_door_left"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection04" tags="part iklink  " parent="anim_door_left">
+				<offset>
+					<position x="-0.4329364" y="3.16143E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_left" name="detail_m_decals_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part nocollision iklink  " parent="anim_door_left">
+				<offset>
+					<position x="6.043839E-02" y="9.536743E-07" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_left" name="detail_m_light_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection06" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="-0.54566" y="0.008" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_right" name="anim_door_right"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection07" tags="part iklink  " parent="anim_door_right">
+				<offset>
+					<position x="0.4321223" y="3.553271E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_right" name="detail_m_decals_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part nocollision iklink  " parent="anim_door_right">
+				<offset>
+					<position x="-6.110048E-02" y="3.925562E-04" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_right" name="detail_m_light_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection09" group="transporter_01 " tags="part detail_l  " parent="part_main">
+				<offset>
+					<position x="1.205526" y="0.04" z="-0.1"/>
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_l_button" name="detail_l_button"/>
+				</parts>
+			</connection>
+			<connection name="Connection10" group="transporter_01 " tags="part  " parent="part_main">
+				<offset>
+					<position x="0" y="1.14" z="0.9"/>
+					<quaternion qx="0.7071066" qy="-0" qz="-0" qw="-0.7071069"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.dummy_sound_animation" name="dummy_sound_animation"/>
+				</parts>
+			</connection>
+
+      
+    </connections>
+  </component>
+</components>

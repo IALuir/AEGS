@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Lino (192.168.3.56) at 08.04.2020_09-52-07-->
+<macros>
+  <macro name="S7_ad_2x_macro" class="bullet">
+    <component ref="bullet_gen_m_gatling_01_mk2" />
+    <properties>
+      <ammunition value="214" reload="2.6" />
+      <bullet speed="2100" lifetime="2" amount="1" barrelamount="2" icon="weapon_gatling_mk2" timediff="0.03125" angle="0.03" maxhits="2" ricochet="0.01" restitution="0.3" scale="0" attach="0" />
+      <reload rate="10" />
+      <damage value="62" hull="6.2" repair="0" />
+      <effects>
+        <impact ref="impact_gen_s_gatling_01_mk1" inside="impact_gen_s_gatling_01_mk1_inside" />
+        <bigobjectimpact ref="impact_gen_s_gatling_01_mk1_bigobject" inside="impact_gen_s_gatling_01_mk1_bigobject_inside" />
+        <launch ref="muzzle_par_m_railgun_01_mk1" />
+      </effects>
+      <weapon system="weapon_standard" />
+    </properties>
+  </macro>
+</macros>

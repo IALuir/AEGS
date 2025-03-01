@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-09 17:47:32 from Blender-->
+<components>
+  <component name="idris_bridge" class="cockpit">
+    <source geometry="extensions\aegs\assets\interiors\bridges\idris_bridge_data" />
+    <layers>
+      <layer>
+        <lights>
+          <arealight name="ego_area" areax="0.1224041" areay="0.5301018" radius="0" spotattenuation="0.5555556" shadow="1" r="198" g="232" b="255" intensity="1" specularintensity="1" range="40" shadowrange="4" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="1.226669" y="4.840327" z="12.23774" />
+              <quaternion qx="0.6830127" qy="-0.1830127" qz="-0.1830127" qw="-0.6830127" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="0.1224041" areay="0.5301018" radius="0" spotattenuation="0.5555556" shadow="1" r="198" g="232" b="255" intensity="1" specularintensity="1" range="40" shadowrange="4" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-1.22667" y="4.840327" z="12.23774" />
+              <quaternion qx="0.6830127" qy="0.1830127" qz="0.1830127" qw="-0.6830127" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area002" areax="0.5981478" areay="0.1676369" radius="0" spotattenuation="0.5555556" shadow="1" r="198" g="232" b="255" intensity="1" specularintensity="1" range="40" shadowrange="4" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="4.938199" z="6.511461" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area003" areax="0.5981478" areay="0.1676369" radius="0" spotattenuation="0.5555556" shadow="1" r="198" g="232" b="255" intensity="1" specularintensity="1" range="40" shadowrange="4" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="4.186401" z="0.511474" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area004" areax="0.5981478" areay="0.1676369" radius="0" spotattenuation="0.5555556" shadow="1" r="198" g="232" b="255" intensity="1" specularintensity="1" range="40" shadowrange="4" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="4.186401" z="-3.489509" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area005" areax="0.5981478" areay="0.1676369" radius="0" spotattenuation="0.5555556" shadow="1" r="198" g="232" b="255" intensity="1" specularintensity="1" range="40" shadowrange="4" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="4.186401" z="-7.491951" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area006" areax="1.310615" areay="0.1518254" radius="0" spotattenuation="0.5555556" shadow="1" r="198" g="232" b="255" intensity="1" specularintensity="1" range="40" shadowrange="4" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="3.051187" z="-11.23791" />
+              <quaternion qx="0.5735765" qy="0" qz="0" qw="-0.819152" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area007" areax="1.172122" areay="0.1204624" radius="0" spotattenuation="0.5555556" shadow="1" r="198" g="232" b="255" intensity="1" specularintensity="1" range="40" shadowrange="4" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="5.008766" y="2.838123" z="-1.688381" />
+              <quaternion qx="0.4055798" qy="0.579228" qz="0.4055798" qw="-0.5792279" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area008" areax="1.172122" areay="0.1204624" radius="0" spotattenuation="0.5555556" shadow="1" r="198" g="232" b="255" intensity="1" specularintensity="1" range="40" shadowrange="4" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-5.00877" y="2.838123" z="-1.688381" />
+              <quaternion qx="0.4055798" qy="-0.579228" qz="-0.4055798" qw="-0.5792279" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area009" areax="0.1406641" areay="2.261796" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="1" specularintensity="1" range="40" shadowrange="4" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="2.560328" y="5.032682" z="7.215238" />
+              <quaternion qx="0" qy="0" qz="-0.5735765" qw="-0.819152" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area010" areax="0.1406641" areay="2.261796" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="1" specularintensity="1" range="40" shadowrange="4" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-2.56033" y="5.032682" z="7.305066" />
+              <quaternion qx="0" qy="0" qz="0.5735765" qw="-0.819152" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area011" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-2.206841" y="4.950953" z="8.049059" />
+              <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area012" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-2.206841" y="4.950953" z="9.772734" />
+              <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area013" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-2.206841" y="4.950953" z="5.781821" />
+              <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area014" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-2.206841" y="4.950953" z="4.057324" />
+              <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area015" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-2.206841" y="4.194516" z="-0.2135609" />
+              <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area016" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-2.206841" y="4.194516" z="-1.938116" />
+              <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area017" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-2.206841" y="4.194516" z="-4.213688" />
+              <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area018" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-2.206841" y="4.194516" z="-5.937582" />
+              <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area019" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-2.206841" y="4.194516" z="-8.21352" />
+              <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area020" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="2.20684" y="4.194516" z="-8.21352" />
+              <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area021" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="2.20684" y="4.194516" z="-5.93995" />
+              <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area022" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="2.20684" y="4.194516" z="-4.21697" />
+              <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area023" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="2.20684" y="4.194516" z="-1.9394" />
+              <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area024" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="2.20684" y="4.194516" z="-0.2127929" />
+              <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area025" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="2.20684" y="4.94492" z="4.062398" />
+              <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area026" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="2.20684" y="4.94492" z="5.787947" />
+              <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area027" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="2.20684" y="4.94492" z="8.054132" />
+              <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area028" areax="0.0488348" areay="0.3317699" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="2.20684" y="4.94492" z="9.779195" />
+              <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area029" areax="0.03569508" areay="0.2841015" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="2.027311" y="4.94492" z="10.87343" />
+              <quaternion qx="-0.1349223" qy="0.1349223" qz="0.6941152" qw="-0.6941153" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area030" areax="0.03569508" areay="0.2841015" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-1.918509" y="4.94492" z="11.09804" />
+              <quaternion qx="-0.1710646" qy="-0.1710646" qz="-0.6861027" qw="-0.6861027" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area031" areax="0.03569508" areay="0.2841015" radius="0" spotattenuation="0" shadow="1" r="198" g="232" b="255" intensity="0.6" specularintensity="1" range="1" shadowrange="0" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-0.8465284" y="4.94492" z="12.06489" />
+              <quaternion qx="-0.3954091" qy="-0.3954091" qz="-0.5862181" qw="-0.5862181" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      
+			<connection name="position" tags="position" value="1"/>
+      <connection name="con_cockpit_01" tags="cockpit component " />
+      <connection name="ConnectionForbody" tags="part envmap_cockpit">
+        <offset>
+          <position x="0" y="1.80215" z="12.27966" />
+        </offset>
+        <parts>
+          <part name="body">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="comp_behr_s02_pl01_mtl_decal_glow" />
+                  <material id="2" ref="generic.aegs_door_master_mtl_metals_atlas" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="5" ref="generic.aegs_javelin_manned_turret_mtl_buttons" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_mid_grey_panels" />
+                  <material id="7" ref="generic.retaliator_interior_mtl_buttons_switches" />
+                  <material id="8" ref="generic.aegs_javelin_manned_turret_mtl_int_grey_panel" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="generic.aegs_idris_mtl_base_grey_trims" />
+                  <material id="11" ref="generic.aegs_hammerhead_int_mtl_leather" />
+                  <material id="12" ref="generic.aegs_eclipse_mtl_cockpit_scratch_decal" />
+                  <material id="13" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="14" ref="p1.cockpit_glass_inside_01" />
+                  <material id="15" ref="generic.aegs_idris_mtl_internal_framework" />
+                  <material id="16" ref="generic.aegs_idris_mtl_base_white_panels" />
+                  <material id="17" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="18" ref="generic.aegs_hammerhead_int_mtl_buttons" />
+                  <material id="19" ref="generic.idris_hangar_mtl_accents" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.755795" y="3.068303" z="16.82641" />
+              <center x="0" y="0.937883" z="-7.304045" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody001" tags="part envmap_cockpit">
+        <offset>
+          <position x="0" y="1.80215" z="12.27966" />
+        </offset>
+        <parts>
+          <part name="body001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="2" ref="generic.aegs_idris_turret_large_mtl_decals_pom_a" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_dark_grey_panels" />
+                  <material id="4" ref="generic.aegs_javelin_mtl_panels_floor_a" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_door_master_mtl_decals_diff_b" />
+                  <material id="7" ref="generic.idris_hangar_mtl_tileable_decal" />
+                  <material id="8" ref="generic.aegs_javelin_manned_turret_mtl_Vents" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="10" ref="generic.aegs_hammerhead_int_mtl_glow_signs" />
+                  <material id="11" ref="generic.aegs_hammerhead_int_mtl_linked_glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.871945" y="3.086587" z="16.8186" />
+              <center x="-2.384186e-07" y="0.9597692" z="-7.141022" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_col" tags="part walk_stairway">
+        <offset>
+          <position x="0" y="0.874192" z="2.997474" />
+        </offset>
+        <parts>
+          <part name="ladder_col">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.2" y="0.9258969" z="1.274614" />
+              <center x="0" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged001" tags="part envmap_cockpit">
+        <offset>
+          <position x="-3.875" y="1.80215" z="14.65466" />
+        </offset>
+        <parts>
+          <part name="merged001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_door_master_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_linked_glow" />
+                  <material id="4" ref="generic.aegs_idris_turret_large_mtl_decals_pom_a" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="8" ref="generic.aegs_javelin_manned_turret_mtl_buttons" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="10" ref="generic.aegs_hammerhead_turrets_mtl_dark_grey_panels" />
+                  <material id="11" ref="generic.aegs_hammerhead_turrets_mtl_mid_grey_panels" />
+                  <material id="12" ref="generic.retaliator_interior_mtl_buttons_switches" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.218575" y="0.535802" z="1.434795" />
+              <center x="1.165909" y="0.449949" z="1.423604" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged002" tags="part envmap_cockpit">
+        <offset>
+          <position x="-5.375" y="1.80215" z="10.65466" />
+        </offset>
+        <parts>
+          <part name="merged002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_door_master_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_linked_glow" />
+                  <material id="4" ref="generic.aegs_idris_turret_large_mtl_decals_pom_a" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="8" ref="generic.aegs_javelin_manned_turret_mtl_buttons" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="10" ref="generic.aegs_hammerhead_turrets_mtl_dark_grey_panels" />
+                  <material id="11" ref="generic.aegs_hammerhead_turrets_mtl_mid_grey_panels" />
+                  <material id="12" ref="generic.retaliator_interior_mtl_buttons_switches" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.218575" y="0.535802" z="1.434795" />
+              <center x="1.165909" y="0.449949" z="1.423604" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged003" tags="part envmap_cockpit">
+        <offset>
+          <position x="-5.625" y="1.80215" z="6.65466" />
+        </offset>
+        <parts>
+          <part name="merged003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_door_master_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_linked_glow" />
+                  <material id="4" ref="generic.aegs_idris_turret_large_mtl_decals_pom_a" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="8" ref="generic.aegs_javelin_manned_turret_mtl_buttons" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="10" ref="generic.aegs_hammerhead_turrets_mtl_dark_grey_panels" />
+                  <material id="11" ref="generic.aegs_hammerhead_turrets_mtl_mid_grey_panels" />
+                  <material id="12" ref="generic.retaliator_interior_mtl_buttons_switches" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.218575" y="0.535802" z="1.434795" />
+              <center x="1.165909" y="0.449949" z="1.423604" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged004" tags="part envmap_cockpit">
+        <offset>
+          <position x="3.380463" y="2.560391" z="8.748487" />
+          <quaternion qx="0.4848102" qy="0" qz="0" qw="-0.8746194" />
+        </offset>
+        <parts>
+          <part name="merged004">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_door_master_mtl_decals_diff_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.453407" y="3.392196" z="2.139327" />
+              <center x="-3.381156" y="-3.392195" z="2.119673" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged005" tags="part envmap_cockpit">
+        <offset>
+          <position x="-4.25" y="1.80215" z="8.02966" />
+        </offset>
+        <parts>
+          <part name="merged005">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_manned_turret_mtl_int_grey_panel" />
+                  <material id="2" ref="generic.aegs_hammerhead_int_mtl_linked_glow" />
+                  <material id="3" ref="generic.aegs_idris_turret_large_mtl_decals_pom_a" />
+                  <material id="4" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="5" ref="generic.aegs_idris_mtl_corridor_trims" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="7" ref="generic.aegs_javelin_manned_turret_mtl_buttons" />
+                  <material id="8" ref="generic.aegs_door_master_mtl_metal_base_trims" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.825757" y="0.2238405" z="2.321158" />
+              <center x="4.217806" y="1.01739" z="3.120545" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged006" tags="part envmap_cockpit">
+        <offset>
+          <position x="5.625" y="1.80215" z="6.65466" />
+        </offset>
+        <parts>
+          <part name="merged006">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_door_master_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_linked_glow" />
+                  <material id="4" ref="generic.aegs_idris_turret_large_mtl_decals_pom_a" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="8" ref="generic.aegs_javelin_manned_turret_mtl_buttons" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="10" ref="generic.aegs_hammerhead_turrets_mtl_dark_grey_panels" />
+                  <material id="11" ref="generic.aegs_hammerhead_turrets_mtl_mid_grey_panels" />
+                  <material id="12" ref="generic.retaliator_interior_mtl_buttons_switches" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.218575" y="0.535802" z="1.434795" />
+              <center x="-1.165909" y="0.449949" z="1.423604" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged007" tags="part envmap_cockpit">
+        <offset>
+          <position x="3.875" y="1.80215" z="14.65466" />
+        </offset>
+        <parts>
+          <part name="merged007">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_door_master_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_linked_glow" />
+                  <material id="4" ref="generic.aegs_idris_turret_large_mtl_decals_pom_a" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="8" ref="generic.aegs_javelin_manned_turret_mtl_buttons" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="10" ref="generic.aegs_hammerhead_turrets_mtl_dark_grey_panels" />
+                  <material id="11" ref="generic.aegs_hammerhead_turrets_mtl_mid_grey_panels" />
+                  <material id="12" ref="generic.retaliator_interior_mtl_buttons_switches" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.218575" y="0.535802" z="1.434795" />
+              <center x="-1.165909" y="0.449949" z="1.423604" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged008" tags="part envmap_cockpit">
+        <offset>
+          <position x="5.375" y="1.80215" z="10.65466" />
+        </offset>
+        <parts>
+          <part name="merged008">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_door_master_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="3" ref="generic.aegs_hammerhead_int_mtl_linked_glow" />
+                  <material id="4" ref="generic.aegs_idris_turret_large_mtl_decals_pom_a" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="8" ref="generic.aegs_javelin_manned_turret_mtl_buttons" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="10" ref="generic.aegs_hammerhead_turrets_mtl_dark_grey_panels" />
+                  <material id="11" ref="generic.aegs_hammerhead_turrets_mtl_mid_grey_panels" />
+                  <material id="12" ref="generic.retaliator_interior_mtl_buttons_switches" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.218575" y="0.535802" z="1.434795" />
+              <center x="-1.165909" y="0.449949" z="1.423604" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForscreen_4x3_a" tags="part ">
+        <offset>
+          <position x="-5.496197" y="2.286979" z="-5.682005" />
+          <quaternion qx="-0.276289" qy="-0.6508951" qz="0.276289" qw="-0.650895" />
+        </offset>
+        <parts>
+          <part name="screen_4x3_a">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="14.44567" y="6.026388" z="5.910205" />
+              <center x="-8.821941" y="5.07517" z="2.714121" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForside_glow" tags="part ">
+        <offset>
+          <position x="0" y="4.158391" z="10.40762" />
+        </offset>
+        <parts>
+          <part name="side_glow">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_mtl_glows_physics" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.755795" y="0" z="7.85232" />
+              <center x="0" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForterminal" tags="part ">
+        <offset>
+          <position x="0" y="3.518805" z="10.03426" />
+        </offset>
+        <parts>
+          <part name="terminal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.9999994" y="1" z="0.9999995" />
+              <center x="3.576279e-07" y="0" z="9.536743e-07" />
+            </size>
+            <size_raw>
+              <max x="0.9999994" y="1" z="0.9999996" />
+              <center x="3.427267e-07" y="0" z="3.278255e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connection01" group="transporter_01 " tags="location_cockpit  ">
+				<offset>
+					<position x="-1.614596E-03" y="1.198191" z="-12.94748"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.part_main" name="part_main"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part iklink  " parent="part_main">
+				<offset>
+					<position x="0" y="5.153775E-02" z="3.353691E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals" name="detail_m_decals"/>
+				</parts>
+			</connection>
+			<connection name="Connection03" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="0.54566" y="0.007" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_left" name="anim_door_left"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection04" tags="part iklink  " parent="anim_door_left">
+				<offset>
+					<position x="-0.4329364" y="3.16143E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_left" name="detail_m_decals_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part nocollision iklink  " parent="anim_door_left">
+				<offset>
+					<position x="6.043839E-02" y="9.536743E-07" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_left" name="detail_m_light_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection06" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="-0.54566" y="0.008" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_right" name="anim_door_right"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection07" tags="part iklink  " parent="anim_door_right">
+				<offset>
+					<position x="0.4321223" y="3.553271E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_right" name="detail_m_decals_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part nocollision iklink  " parent="anim_door_right">
+				<offset>
+					<position x="-6.110048E-02" y="3.925562E-04" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_right" name="detail_m_light_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection09" group="transporter_01 " tags="part detail_l  " parent="part_main">
+				<offset>
+					<position x="1.205526" y="0.04" z="-0.1"/>
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_l_button" name="detail_l_button"/>
+				</parts>
+			</connection>
+			<connection name="Connection10" group="transporter_01 " tags="part  " parent="part_main">
+				<offset>
+					<position x="0" y="1.14" z="0.9"/>
+					<quaternion qx="0.7071066" qy="-0" qz="-0" qw="-0.7071069"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.dummy_sound_animation" name="dummy_sound_animation"/>
+				</parts>
+			</connection>
+
+      <connection name="Connectionchiar01" tags="part ui" group="pilotcontrol" >
+        <offset>
+          <position x="0" y="1.68252" z="14.7559"/>
+        </offset>
+				<parts>
+					<part ref="avenger_seat.chair" name="chair"/>
+				</parts>
+			</connection>
+
+      <connection name="con_cockpit" tags="cockpit component ">
+			</connection>
+			<connection name="con_player01" value="-1" tags="player">
+			</connection>
+
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="chair_mesh">
+				<offset>
+					<position x="0" y="1.68252" z="14.7759"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar02" tags="part iklink  " group="pilotcontrol" parent="chair">
+				<parts>
+					<part ref="avenger_seat.chair_mesh" name="chair_mesh"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="con_unchair001" group="pilotcontrol" tags="uianchor ">
+				<offset>
+					<position x="0" y="3.3" z="15.0853 "/>
+				</offset>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair " >
+				<offset>
+					<position x="0" y="3.3" z="15.0853 "/>
+				</offset>
+			</connection>
+
+      <connection name="con_commander001" value="-1" group="gunnercontrol" tags="npc service stand_terminal_forward">
+				<offset>
+          <position x="-4.261168" y="1.8" z="8.350382" />
+        </offset>
+			</connection>
+      <connection name="con_commander002" value="-1" group="flightcontrol" tags="npc service stand_terminal_forward">
+				<offset>
+          <position x="-3.996927" y="1.8" z="12.40168" />
+        </offset>
+			</connection>
+      <connection name="con_commander003" value="-1" group="engineeringcontrol" tags="npc service stand_terminal_forward">
+				<offset>
+          <position x="3.99693" y="1.8" z="12.40168" />
+        </offset>
+			</connection>
+      <connection name="con_commander004" value="-1" group="navigationcontrol" tags="npc service stand_terminal_forward">
+				<offset>
+          <position x="-2.50181" y="1.8" z="16.34497" />
+        </offset>
+			</connection>
+
+      <connection name="con_UI001" group="gunnercontrol" tags="uianchor ">
+				<offset>
+          <position x="-4.261168" y="3.3" z="8.350382" />
+        </offset>
+			</connection>
+      <connection name="con_UI002" group="flightcontrol" tags="uianchor ">
+				<offset>
+          <position x="-3.996927" y="3.3" z="12.40168" />
+        </offset>
+			</connection>
+      <connection name="con_UI003" group="engineeringcontrol" tags="uianchor ">
+				<offset>
+          <position x="3.99693" y="3.3" z="12.40168" />
+        </offset>
+			</connection>
+      <connection name="con_UI004" group="navigationcontrol" tags="uianchor ">
+				<offset>
+          <position x="-2.50181" y="3.3" z="16.34497" />
+        </offset>
+			</connection>
+
+      <connection name="con_npc_stand_01" group="transporter_01 " tags="npc_waypoint stand npctransport ">
+				<offset>
+					<position x="-1.614596E-03" y="1.198191" z="-12.94748"/>
+				</offset>
+			</connection>
+      <connection name="con_npc_stand_02" value="-1" tags="npc stand marine">
+				<offset>
+					<position x="-3.7" y="0.058693" z="-1.5"/>
+					<quaternion qx="-0" qy="-0.7071065" qz="-0" qw="-0.707107"/>
+				</offset>
+			</connection>
+      <connection name="con_npc_stand_03" value="-1" tags="npc stand marine">
+				<offset>
+					<position x="3.7" y="0.058693" z="-1.5"/>
+					<quaternion qx="-0" qy="0.7071069" qz="-0" qw="-0.7071066"/>
+				</offset>
+			</connection>
+
+
+    </connections>
+  </component>
+</components>

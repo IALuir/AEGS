@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-08 15:44:37 from Blender-->
+<components>
+  <component name="weapon_glaive_s2" class="missilelauncher">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\generic\missile_s2_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+
+      <connection name="laser" tags="laser " />
+
+      <connection name="WeaponCon_01" tags="weapon small platformcollision aegs_weapon_glaive_s2">
+			<offset/>
+		</connection>
+    </connections>
+  </component>
+</components>

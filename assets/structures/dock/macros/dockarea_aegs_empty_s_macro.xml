@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="dockarea_aegs_empty_s_macro" class="dockarea">
+    <component ref="dockarea_aegs_empty_s" />
+    <properties>
+      <identification name="{20104, 70001}" description="{20104, 70002}" />
+      <hull integrated="1" />
+      <sound_occlusion inside="0.2" outside="0.5" />
+    </properties>
+    <connections>
+      <connection ref="ConnectionFordockingbay_arg_s_01_macro#003">
+        <macro ref="dockingbay_aegs_empty_s_macro" connection="position" />
+      </connection>
+
+      
+    </connections>
+  </macro>
+</macros>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-06-01 19:09:00 from Blender-->
+<components>
+  <component name="carrack_turret_3_db" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\carrack\carrack_turret_3_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForslideframe" tags="part animation">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="80" end="240"/>
+					<animation name="gun_firing" start="80" end="80"/>
+				</animations>
+        <offset>
+          <position x="0" y="0" z="0.003296297" />
+        </offset>
+        <parts>
+          <part name="slideframe">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Decals_Opaque" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_decal_text" />
+                  <material id="4" ref="generic.anvl_carrack_ext_mtl_EXT_paint_tileable_secondary_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.063427" y="2.891173" z="4.923903" />
+              <center x="3.576279e-06" y="0" z="2.004112" />
+            </size>
+            <size_raw>
+              <max x="1.063427" y="2.891173" z="2.923903" />
+              <center x="3.546476e-06" y="0" z="0.0074085" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrotatorsection" tags="part " parent="slideframe">
+        <restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-90.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="0" y="-1.907349e-06" z="4.26796" />
+          <quaternion qx="0" qy="0" qz="1" qw="-7.549791e-08" />
+        </offset>
+        <parts>
+          <part name="rotatorsection">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_decal_text" />
+                  <material id="3" ref="generic.anvl_carrack_ext_mtl_EXT_paint_tileable_secondary_A" />
+                  <material id="4" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.34767" y="1.799289" z="3.322601" />
+              <center x="1.144409e-05" y="0" z="1.543746" />
+            </size>
+            <size_raw>
+              <max x="2.347669" y="1.799289" z="1.322601" />
+              <center x="1.144409e-05" y="0" z="-0.452958" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForturretpodexterior" tags="part " parent="rotatorsection">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-90.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="1.716614e-05" y="2.145765e-06" z="-9.536743e-07" />
+          <quaternion qx="-2.563e-06" qy="0" qz="-1" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="turretpodexterior">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Decals_Opaque" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_decal_text" />
+                  <material id="5" ref="generic.anvl_carrack_ext_mtl_EXT_paint_tileable_secondary_A" />
+                  <material id="6" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="p1effects.p1_gradient_colour" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                  <material id="13" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="14" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="15" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.611738" y="2.004848" z="3.947199" />
+              <center x="-8.559227e-05" y="0" z="1.903488" />
+            </size>
+            <size_raw>
+              <max x="2.611738" y="2.004848" z="1.947199" />
+              <center x="-8.541346e-05" y="0" z="-0.09321558" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      
+      <connection name="ConnectionFordb_bas" tags="part " parent="turretpodexterior">
+        <offset>
+          <position x="-2.574502" y="4.053116e-06" z="-0.007203102" />
+          <quaternion qx="0" qy="-2.563e-06" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="db_bas">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.ESPR_mastermaterial_mtl_pom" />
+                  <material id="2" ref="generic.ESPR_mastermaterial_mtl_decals" />
+                  <material id="3" ref="generic.ESPR_mastermaterial_mtl_I_trim" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.051071" y="0.4279635" z="5.253994" />
+              <center x="2.5745" y="2.98032e-08" z="3.387868" />
+            </size>
+            <size_raw>
+              <max x="4.05107" y="0.4279635" z="3.253993" />
+              <center x="2.574499" y="2.980232e-08" z="1.391163" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="db_laser" tags="laser " parent="db_bas">
+        <offset>
+          <position x="-0.6228428" y="2.722534e-08" z="4.677413" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="db_laser001" tags="laser " parent="db_bas">
+        <offset>
+          <position x="5.781951" y="2.722533e-08" z="4.677413" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      
+
+      <connection name="con_turret_laser_m" tags="turret medium component combat aegs_carrack_s4_2">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

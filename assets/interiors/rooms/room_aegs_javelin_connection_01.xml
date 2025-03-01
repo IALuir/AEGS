@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-07-23 23:01:53 from Blender-->
+<components>
+  <component name="room_aegs_javelin_connection_01" class="destructible">
+    <source geometry="extensions\aegs\assets\interiors\rooms\room_aegs_javelin_connection_01_data" />
+    <layers>
+      <layer>
+        <lights>
+          <arealight name="ego_area" areax="1.539963" areay="0.6241074" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-16.35546" y="1.497901" z="-37.62474" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="1.493992" areay="0.6241074" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-18.3791" y="1.497901" z="-37.62474" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area002" areax="1.183994" areay="0.09567261" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-19.49782" y="0.9692976" z="-34.59145" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area003" areax="1.183994" areay="0.09567261" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-24.50258" y="0.9692976" z="-34.59145" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area004" areax="1.161011" areay="0.1039429" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-32.06088" y="0.9692976" z="-31.22337" />
+              <quaternion qx="0" qy="-0.3826835" qz="0" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area005" areax="1.161011" areay="0.1039429" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-34.88767" y="0.9692976" z="-28.41092" />
+              <quaternion qx="0" qy="-0.3826835" qz="0" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area006" areax="1.161011" areay="0.1039429" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-37.51767" y="0.9692976" z="-24.2784" />
+              <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area007" areax="1.161011" areay="0.1039429" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-37.51767" y="0.9692976" z="-21.01391" />
+              <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area008" areax="0.2673378" areay="0.2621231" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-36.33803" y="1.237356" z="-11.5885" />
+              <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area009" areax="0.2673378" areay="0.2621231" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-36.33803" y="1.237356" z="-9.915434" />
+              <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area010" areax="1.183994" areay="0.09567261" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-15.49211" y="0.9692976" z="-34.59145" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area011" areax="1.183994" areay="0.09567261" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-10.88404" y="0.9692976" z="-34.59145" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area012" areax="1.183994" areay="0.09567261" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-6.877636" y="0.9692976" z="-34.59145" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area013" areax="1.183994" areay="0.09567261" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-2.877575" y="0.9692976" z="-34.59145" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area014" areax="1.183994" areay="0.09567261" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0.1279682" y="0.9692976" z="-34.59145" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area015" areax="1.183994" areay="0.09567261" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="3.62604" y="0.9692976" z="-34.59145" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area016" areax="1.183994" areay="0.09567261" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="8.496152" y="0.9692976" z="-34.59145" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area017" areax="1.183994" areay="0.09567261" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="6.421273" y="1.070335" z="-33.61944" />
+              <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area018" areax="1.183994" areay="0.09567261" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="5.587296" y="1.070335" z="-33.61944" />
+              <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area019" areax="1.183994" areay="0.09567261" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="12.9981" y="0.9692976" z="-34.59145" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area020" areax="1.183994" areay="0.09567261" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="17.00006" y="0.9692976" z="-34.59145" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area021" areax="1.183994" areay="0.09567261" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="20.99386" y="0.9692976" z="-34.59145" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area022" areax="1.183994" areay="0.09567261" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="25.0011" y="0.9692976" z="-34.59145" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area023" areax="1.183994" areay="0.09567261" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="32.0081" y="0.9692976" z="-31.08551" />
+              <quaternion qx="0" qy="0.3826835" qz="0" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area024" areax="1.183994" areay="0.08837891" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="34.8341" y="0.9692976" z="-28.2607" />
+              <quaternion qx="0" qy="0.3826835" qz="0" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area025" areax="1.183994" areay="0.08837891" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="37.33778" y="0.9692976" z="-24.1221" />
+              <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area026" areax="1.183994" areay="0.08837891" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="37.33778" y="0.9692976" z="-20.99604" />
+              <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area027" areax="1.183994" areay="0.08837891" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="37.21562" y="0.9692976" z="0.1205314" />
+              <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area028" areax="1.183994" areay="0.08837891" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="37.21562" y="0.9692976" z="4.131517" />
+              <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area029" areax="1.183994" areay="0.08837891" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="37.21562" y="0.9692976" z="8.122042" />
+              <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area030" areax="0.2673378" areay="0.2621231" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="36.33686" y="1.237356" z="-11.5885" />
+              <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area031" areax="0.2673378" areay="0.2621231" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="36.33686" y="1.237356" z="-9.915434" />
+              <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area032" areax="0.4774599" areay="0.1253281" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-7.673341" y="-0.950478" z="-42.1694" />
+              <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area033" areax="0.4774599" areay="0.1253281" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-7.673341" y="-5.26303" z="-42.1694" />
+              <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area034" areax="0.4774599" areay="0.1253281" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-7.673341" y="-8.443909" z="-42.1694" />
+              <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area035" areax="0.4774599" areay="0.1253281" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-7.673341" y="2.24835" z="-42.1694" />
+              <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area036" areax="0.4774599" areay="0.1253281" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-7.673341" y="6.552215" z="-42.1694" />
+              <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area037" areax="0.4774599" areay="0.1253281" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-14.06602" y="-0.950478" z="-42.1694" />
+              <quaternion qx="-0.7071068" qy="0.7071068" qz="5.338508e-08" qw="-5.338508e-08" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area038" areax="0.4774599" areay="0.1253281" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-14.06602" y="-5.26303" z="-42.1694" />
+              <quaternion qx="-0.7071068" qy="0.7071068" qz="5.338508e-08" qw="-5.338508e-08" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area039" areax="0.4774599" areay="0.1253281" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-14.06602" y="2.24835" z="-42.1694" />
+              <quaternion qx="-0.7071068" qy="0.7071068" qz="5.338508e-08" qw="-5.338508e-08" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area040" areax="0.4774599" areay="0.1253281" radius="0" spotattenuation="0" shadow="1" r="208" g="255" b="245" intensity="0.5286856" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-14.06602" y="6.552215" z="-42.1694" />
+              <quaternion qx="-0.7071068" qy="0.7071068" qz="5.338508e-08" qw="-5.338508e-08" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="defencemodule" />
+      <connection name="position" tags="position" value="1" />
+      
+      <connection name="ConnectionForbody000" tags="part ">
+        <offset>
+          <position x="-10.87473" y="-9.125074" z="-42.87515" />
+          <quaternion qx="-5.008999e-06" qy="-1" qz="5.115637e-06" qw="-8.658541e-06" />
+        </offset>
+        <parts>
+          <part name="body000">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_base_grey_trims" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_technical" />
+                  <material id="5" ref="generic.aegs_idris_mtl_metals_base_trim" />
+                  <material id="6" ref="generic.aegs_javelin_gauntlet_mtl_panels_backplate_a" />
+                  <material id="7" ref="generic.aegs_idris_mtl_hex_plate_white" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_accents_yellow" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="41.76254" y="1.89768" z="25.77369" />
+              <center x="-11.24138" y="8.882145" z="-28.72609" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody001" tags="part ">
+        <offset>
+          <position x="-10.87473" y="-9.125074" z="-42.87515" />
+          <quaternion qx="-5.008999e-06" qy="-1" qz="5.115637e-06" qw="-8.658541e-06" />
+        </offset>
+        <parts>
+          <part name="body001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_gauntlet_mtl_base_white_panels" />
+                  <material id="2" ref="generic.aegs_door_master_mtl_orange" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_cor_pipes_steel_mtl_decals_diff" />
+                  <material id="5" ref="generic.aegs_door_master_mtl_decals_diff_b" />
+                  <material id="6" ref="generic.aegs_javelin_mtl_accents_yellow" />
+                  <material id="7" ref="generic.aegs_javelin_gauntlet_mtl_decals_diff_b" />
+                  <material id="8" ref="generic.aegs_javelin_gauntlet_mtl_base_white_panels" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="10" ref="generic.aegs_door_master_mtl_metal_base_trims" />
+                  <material id="11" ref="generic.aegs_javelin_mtl_panels_floor_a" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="43.48615" y="1.865211" z="26.31237" />
+              <center x="-10.87632" y="8.745482" z="-28.3256" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody002" tags="part ">
+        <offset>
+          <position x="-10.87473" y="-9.125074" z="-42.87515" />
+          <quaternion qx="-5.008999e-06" qy="-1" qz="5.115637e-06" qw="-8.658541e-06" />
+        </offset>
+        <parts>
+          <part name="body002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="3" ref="generic.aegs_door_master_mtl_metal_base_trims" />
+                  <material id="4" ref="generic.aegs_javelin_mtl_accents_yellow" />
+                  <material id="5" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="6" ref="generic.aegs_cor_pipes_steel_mtl_cable_pipe_trims" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                  <material id="8" ref="generic.aegs_idris_mtl_panels_metal" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="40.89973" y="2.019239" z="25.62208" />
+              <center x="-11.24435" y="8.899408" z="-28.99561" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody003" tags="part ">
+        <offset>
+          <position x="-10.87473" y="-9.125074" z="-42.87515" />
+          <quaternion qx="-5.008999e-06" qy="-1" qz="5.115637e-06" qw="-8.658541e-06" />
+        </offset>
+        <parts>
+          <part name="body003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_idris_mtl_base_white_panels" />
+                  <material id="2" ref="generic.aegs_idris_mtl_base_white_panels" />
+                  <material id="3" ref="generic.aegs_idris_mtl_base_white_panels" />
+                  <material id="4" ref="generic.aegs_idris_mtl_base_white_panels" />
+                  <material id="5" ref="generic.aegs_idris_mtl_base_white_panels" />
+                  <material id="6" ref="generic.aegs_javelin_gauntlet_mtl_base_grey_panels" />
+                  <material id="7" ref="generic.aegs_javelin_gauntlet_mtl_metals_atlas" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="9" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_vents" />
+                  <material id="12" ref="generic.aegs_javelin_mtl_internal_framework" />
+                  <material id="13" ref="generic.aegs_javelin_mtl_cable_pipe_trims" />
+                  <material id="14" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="15" ref="p1effects.p1_gradient_colour" />
+                  <material id="16" ref="generic.aegs_javelin_gauntlet_mtl_Panels_metal" />
+                  <material id="17" ref="generic.aegs_hammerhead_turrets_mtl_technical" />
+                  <material id="18" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="43.63166" y="9.43996" z="28.63372" />
+              <center x="-10.875" y="8.812499" z="-25.99838" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody004" tags="part ">
+        <offset>
+          <position x="-10.87473" y="-9.125074" z="-42.87515" />
+          <quaternion qx="-5.008999e-06" qy="-1" qz="5.115637e-06" qw="-8.658541e-06" />
+        </offset>
+        <parts>
+          <part name="body004">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_gauntlet_mtl_base_white_panels" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_cor_pipes_steel_mtl_decals_diff" />
+                  <material id="4" ref="generic.aegs_idris_mtl_corridor_trims" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="25.83976" y="2.044591" z="16.69074" />
+              <center x="5.059346" y="8.874057" z="-20.06427" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody005" tags="part ">
+        <offset>
+          <position x="-10.87473" y="-9.125074" z="-42.87515" />
+          <quaternion qx="-5.008999e-06" qy="-1" qz="5.115637e-06" qw="-8.658541e-06" />
+        </offset>
+        <parts>
+          <part name="body005">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_gauntlet_mtl_base_white_panels" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_cor_pipes_steel_mtl_decals_diff" />
+                  <material id="4" ref="generic.aegs_idris_mtl_corridor_trims" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="16.00528" y="2.044591" z="25.0239" />
+              <center x="-36.74707" y="8.874056" z="-29.85455" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody006" tags="part ">
+        <offset>
+          <position x="-10.87473" y="-9.125074" z="-42.87515" />
+          <quaternion qx="-5.008999e-06" qy="-1" qz="5.115637e-06" qw="-8.658541e-06" />
+        </offset>
+        <parts>
+          <part name="body006">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_cable_pipe_trims" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="generic.aegs_idris_mtl_panels_floor_a" />
+                  <material id="5" ref="generic.aegs_cor_pipes_steel_mtl_cable_pipe_trims" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="generic.aegs_javelin_mtl_metals_atlas" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="9" ref="generic.aegs_idris_mtl_vents" />
+                  <material id="10" ref="generic.aegs_idris_mtl_internal_framework" />
+                  <material id="11" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="41.39596" y="9.389709" z="28.54865" />
+              <center x="-10.87499" y="8.750001" z="-26.32979" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody007" tags="part ">
+        <offset>
+          <position x="-10.87473" y="-9.125074" z="-42.87515" />
+          <quaternion qx="-5.008999e-06" qy="-1" qz="5.115637e-06" qw="-8.658541e-06" />
+        </offset>
+        <parts>
+          <part name="body007">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="2" ref="generic.aegs_idris_mtl_vents" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_decals_diff_b" />
+                  <material id="4" ref="generic.aegs_idris_mtl_leather_b" />
+                  <material id="5" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="6" ref="generic.aegs_idris_mtl_accents_yellow" />
+                  <material id="7" ref="generic.aegs_idris_mtl_metal_scratch_decal" />
+                  <material id="8" ref="generic.aegs_idris_mtl_corridor_trims" />
+                  <material id="9" ref="generic.aegs_javelin_gauntlet_mtl_internal_mechanical" />
+                  <material id="10" ref="generic.aegs_javelin_gauntlet_mtl_tileable_decal_01" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="12" ref="generic.aegs_javelin_gauntlet_mtl_leather_a" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="42.55957" y="1.666317" z="25.29591" />
+              <center x="-10.87632" y="8.853988" z="-29.33598" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor1" tags="part ">
+        <offset>
+          <position x="6.000147" y="-1.500125" z="-31.35993" />
+          <quaternion qx="7.540778e-08" qy="-0.7071002" qz="7.159194e-06" qw="-0.7071134" />
+        </offset>
+        <parts>
+          <part name="door1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_door_master_mtl_metals_atlas" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="4" ref="generic.aegs_door_master_mtl_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.226655" y="1.108637" z="0.6450235" />
+              <center x="0" y="1.261989" z="-5.066395e-07" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor2" tags="part ">
+        <offset>
+          <position x="41.79954" y="-0.750122" z="4.000667" />
+          <quaternion qx="7.540556e-08" qy="-0.7071004" qz="7.159198e-06" qw="-0.7071131" />
+        </offset>
+        <parts>
+          <part name="door2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="4" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="5" ref="generic.aegs_door_master_mtl_corridor_trims" />
+                  <material id="6" ref="generic.aegs_door_master_mtl_metal_base_trims" />
+                  <material id="7" ref="generic.aegs_door_master_mtl_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6928675" y="1.310003" z="0.1660775" />
+              <center x="-0.5464624" y="0.000173986" z="0.0364395" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor3" tags="part ">
+        <offset>
+          <position x="41.79954" y="-0.750122" z="4.000667" />
+          <quaternion qx="7.540556e-08" qy="-0.7071004" qz="7.159198e-06" qw="-0.7071131" />
+        </offset>
+        <parts>
+          <part name="door3">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="4" ref="generic.aegs_javelin_mtl_darks_grey_highgloss" />
+                  <material id="5" ref="generic.aegs_door_master_mtl_decals_diff_b" />
+                  <material id="6" ref="generic.aegs_door_master_mtl_corridor_trims" />
+                  <material id="7" ref="generic.aegs_door_master_mtl_metal_base_trims" />
+                  <material id="8" ref="generic.aegs_door_master_mtl_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6873459" y="1.309966" z="0.1714135" />
+              <center x="0.551952" y="0" z="0.0311295" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

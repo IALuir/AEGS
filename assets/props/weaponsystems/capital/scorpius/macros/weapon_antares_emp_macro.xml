@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Markus (192.168.3.72) at 26.01.2022_13-52-25-->
+<macros>
+  <macro name="weapon_antares_emp_macro" class="weapon">
+    <component ref="scorpius_antares_emp" />
+    <properties>
+      <identification name="{996671,5}" basename="{996671,5}" makerrace="terran" description="{996671,6}" mk="1" />
+      <bullet class="antares_emp_macro" />
+      <heat overheat="12000" cooldelay="20" coolrate="100" reenable="2000" />
+      <rotationspeed max="0" />
+      <rotationacceleration max="0" />
+      <reload />
+      <hull max="8000" integrated="1"/>
+    </properties>
+  </macro>
+</macros>

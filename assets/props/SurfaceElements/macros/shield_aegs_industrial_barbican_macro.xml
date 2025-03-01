@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="shield_aegs_industrial_barbican_macro" class="shieldgenerator">
+    <component ref="shield_aegs_industrial_barbican" />
+    <properties>
+      <identification name="{996678,39}" basename="{996678,39}" shortname="{996678,39}" makerrace="terran" description="{996678,40}" mk="1" />
+      <recharge max="126500" rate="365" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

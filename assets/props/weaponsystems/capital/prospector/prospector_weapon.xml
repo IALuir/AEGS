@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-18 15:48:23 from Blender-->
+<components>
+  <component name="prospector_weapon" class="weapon">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\prospector\prospector_weapon_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForrota" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y">
+            <limits>
+							<min value="-60.0 "/>
+							<max value="60 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="rota">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.misc_prospector_mtl_metal_painted_color" />
+                  <material id="2" ref="generic.misc_prospector_mtl_metal_painted_color" />
+                  <material id="3" ref="generic.misc_prospector_mtl_metal_painted_color" />
+                  <material id="4" ref="generic.misc_prospector_mtl_Interior_POM" />
+                  <material id="5" ref="generic.misc_prospector_interior_mtl_Interior_Decals" />
+                  <material id="6" ref="generic.misc_prospector_interior_mtl_decal_pom" />
+                  <material id="7" ref="generic.misc_prospector_mtl_decal_diff" />
+                  <material id="8" ref="generic.misc_prospector_mtl_metal_painted_color" />
+                  <material id="9" ref="generic.misc_prospector_mtl_TilingHoses" />
+                  <material id="10" ref="generic.misc_prospector_mtl_metal_painted_light" />
+                  <material id="11" ref="generic.misc_prospector_mtl_buttons" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.762814" y="1.014491" z="3.170123" />
+              <center x="-0.03861602" y="0.4442729" z="2.442196" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlaser_turret" tags="part " parent="rota">
+        <restrictions>
+					<restriction type="rotation_x">
+            
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="0.2518301" y="0.2979053" z="5.234627" />
+        </offset>
+        <parts>
+          <part name="laser_turret">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.powr_aegs_s02_pl01_mtl_decal_pom" />
+                  <material id="2" ref="generic.thcn_min_hed_s1_1_mtl_bare_metal_02" />
+                  <material id="3" ref="generic.modular_sofa_set_1_mtl_black_paint" />
+                  <material id="4" ref="generic.thcn_min_hed_s1_1_mtl_black_painted_metal_matte" />
+                  <material id="5" ref="generic.powr_aegs_s02_pl01_mtl_cap_painted_metal_black" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="generic.grin_salvage_head_s1_1_mtl_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6961524" y="0.4813158" z="0.6583632" />
+              <center x="2.355874e-05" y="-0.4859688" z="-0.131697" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="laser_turret">
+        <offset>
+          <position x="-0.003896847" y="-0.6701006" z="0.0111146" />
+          <quaternion qx="-0.6946584" qy="2.155926e-06" qz="-6.815538e-09" qw="-0.7193398" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="weapon small platformcollision aegs_prospector">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

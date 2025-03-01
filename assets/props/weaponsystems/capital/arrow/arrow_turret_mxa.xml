@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-06 16:36:26 from Blender-->
+<components>
+  <component name="arrow_turret_mxa" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\arrow\arrow_turret_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="turret" />
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForgimbal_mount" tags="part nocollision">
+        <parts>
+          <part name="gimbal_mount" wreck="gimbal_mount_wreck">
+            <restrictions>
+              <restriction type="rotation_y"/>
+            </restrictions>
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="3" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="4" ref="generic.bigbox_mtl_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4609515" y="0.2744071" z="0.8156835" />
+              <center x="-5.140901e-07" y="0.257985" z="0.0644545" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForweapon_mounts" tags="part nocollision" parent="gimbal_mount">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-90.0 "/>
+							<max value="5 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="4.994451e-05" y="0.367492" z="0.163521" />
+        </offset>
+        <parts>
+          <part name="weapon_mounts">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="3" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3798335" y="0.12891" z="0.450667" />
+              <center x="-4.842877e-07" y="0" z="0.182804" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormxa_gun" tags="part nocollision" parent="weapon_mounts">
+        <offset>
+          <position x="-0.3769633" y="0.003139585" z="-0.05979882" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+        <parts>
+          <part name="mxa_gun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1082831" y="0.7813818" z="1.003779" />
+              <center x="0.008083923" y="0.3769634" z="0.5585147" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="weapon_mounts">
+        <offset>
+          <position x="0.6489638" y="-0.008582741" z="1.553071" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="weapon_mounts">
+        <offset>
+          <position x="-0.6490639" y="-0.008582741" z="1.553071" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_arrow">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-11 00:22:51 from Blender-->
+<components>
+  <component name="reclaimer_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\reclaimer_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForseat" tags="part animation ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation">
+        <parts>
+          <part name="seat">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="4" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bar_1_mat_mtl_POM" />
+                  <material id="6" ref="generic.aegs_reclaimer_int_mtl_Leather" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="8" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="9" ref="generic.aegs_reclaimer_processing_room_mtl_technical_greeble" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.392315" y="0.769982" z="0.7721812" />
+              <center x="7.450581e-09" y="0.599508" z="-0.05687186" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseat_mesh" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer" parent="seat">
+        <parts>
+          <part name="seat_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="4" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bar_1_mat_mtl_POM" />
+                  <material id="6" ref="generic.aegs_reclaimer_int_mtl_Leather" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="8" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="9" ref="generic.aegs_reclaimer_processing_room_mtl_technical_greeble" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.392315" y="0.7683364" z="0.7710686" />
+              <center x="7.450581e-09" y="0.5978361" z="-0.05514642" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

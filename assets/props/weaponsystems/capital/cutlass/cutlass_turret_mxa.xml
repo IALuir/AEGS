@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-30 21:43:27 from Blender-->
+<components>
+  <component name="cutlass_turret_mxa" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\cutlass\cutlass_turret_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForpart_main" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.376011" y="1.065751" z="2.142604" />
+              <center x="-2.980232e-08" y="1.065747" z="-0.14572" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForgun" tags="part " parent="part_main">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-90.0 "/>
+							<max value="5 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-1.352638" y="1.222452" z="-1.02576" />
+        </offset>
+        <parts>
+          <part name="gun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01.001" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01.001" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01.001" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01.001" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.959265" y="0.1624245" z="1.505669" />
+              <center x="1.352638" y="-0.012126" z="0.8377719" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser" parent="gun">
+        <offset>
+          <position x="-0.4056664" y="0" z="2.376265" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser" parent="gun">
+        <offset>
+          <position x="3.110125" y="0" z="2.376265" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_cutlass">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

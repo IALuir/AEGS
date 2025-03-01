@@ -1,0 +1,1527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-30 18:24:14 from Blender-->
+<components>
+  <component name="cutlass" class="ship_s">
+    <source geometry="extensions\AEGS\assets\units\size_s\cutlass_data" />
+    <layers>
+      <layer>
+        <lights>
+          <arealight name="ego_area" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="0.3343702" specularintensity="1" range="30" shadowrange="1" lighteffect="1.4" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="0.2714919" z="-6.696343" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="0.3343702" specularintensity="1" range="30" shadowrange="1" lighteffect="1.4" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="0.150737" z="4.546289" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_s ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="defencenpc" tags="defence" value="-1" />
+      <connection name="ConnectionForbody" tags="part ">
+        <offset>
+          <position x="0" y="-0.592299" z="6.854364" />
+        </offset>
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="5" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="6" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="7" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="8" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                  <material id="14" ref="p1.cockpit_glass_inside_01" />
+                  <material id="15" ref="generic.drak_cutlass_black_mtl_internal_pom" />
+                  <material id="16" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="5" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="6" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="7" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="8" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                  <material id="14" ref="p1.cockpit_glass_inside_01" />
+                  <material id="15" ref="generic.drak_cutlass_black_mtl_internal_pom" />
+                  <material id="16" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="5" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="6" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="7" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="8" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                  <material id="14" ref="p1.cockpit_glass_inside_01" />
+                  <material id="15" ref="generic.drak_cutlass_black_mtl_internal_pom" />
+                  <material id="16" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="5" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="6" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="7" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="8" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                  <material id="14" ref="p1.cockpit_glass_inside_01" />
+                  <material id="15" ref="generic.drak_cutlass_black_mtl_internal_pom" />
+                  <material id="16" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="10.08466" y="4.583539" z="17.8913" />
+              <center x="-0.00999999" y="-0.2131557" z="-9.919425" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForthruster_main_base_left" tags="part " parent="body">
+        <offset>
+          <position x="0" y="0.592299" z="-6.854364" />
+        </offset>
+        <parts>
+          <part name="thruster_main_base_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.437784" y="1.906735" z="5.098351" />
+              <center x="-6.757448" y="1.264474" z="-11.73293" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForthruster_main_base_right" tags="part " parent="body">
+        <offset>
+          <position x="0" y="0.592299" z="-6.854364" />
+        </offset>
+        <parts>
+          <part name="thruster_main_base_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.453393" y="1.906736" z="5.098351" />
+              <center x="6.741831" y="1.264473" z="-11.73292" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcargo_door_box" tags="detail_l nocollision part ">
+        <offset>
+          <position x="0.728413" y="0.7271371" z="-1.942744" />
+        </offset>
+        <parts>
+          <part name="cargo_door_box">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.294053" y="0.757256" z="0.3728752" />
+              <center x="-0.7225516" y="-2.008989" z="-10.12022" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor_hydrolic_a_top" group="door01" tags="part animation require_docked nocollision detail_l" parent="cargo_door_box">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="2.095471" y="-1.469741" z="-10.4931" />
+        </offset>
+        <parts>
+          <part name="door_hydrolic_a_top">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="2" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.985302" y="0.4010922" z="0.1448107" />
+              <center x="-2.811569" y="-0.2564791" z="-0.002663612" />
+            </size>
+            <size_raw>
+              <max x="2.985302" y="0.135426" z="0.1448105" />
+              <center x="-2.811569" y="0.009186998" z="-0.002663501" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor_hydrolic_a_pole" group="door01" tags="part animation require_docked detail_l nocollision" parent="door_hydrolic_a_top">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <quaternion qx="-0.1008873" qy="-0.0001869539" qz="1.884616e-05" qw="-0.9948978" />
+        </offset>
+        <parts>
+          <part name="door_hydrolic_a_pole">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="2" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.986205" y="0.9456943" z="0.3164921" />
+              <center x="-2.811113" y="-1.022143" z="-0.2859373" />
+            </size>
+            <size_raw>
+              <max x="2.986205" y="0.6800282" z="0.3164923" />
+              <center x="-2.811113" y="-0.7564775" z="-0.2859375" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForint_door" group="door01" tags="part animation ui require_docked trigger_interact" parent="cargo_door_box">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.0004140139" y="-4.160691" z="-10.933" />
+          <quaternion qx="0.4654869" qy="0" qz="0" qw="-0.8850548" />
+        </offset>
+        <parts>
+          <part name="int_door">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="6" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="8" ref="generic.drak_cutlass_black_mtl_machine_stamped_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.197485" y="3.241158" z="0.5115361" />
+              <center x="-0.717083" y="3.18627" z="0.4041224" />
+            </size>
+            <size_raw>
+              <max x="3.197485" y="3.241157" z="0.5115361" />
+              <center x="-0.717083" y="3.18627" z="0.404122" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor_hydrolic_b_bot" tags="detail_l nocollision part " parent="int_door">
+        <offset>
+          <position x="2.095473" y="1.036142" z="0.3386698" />
+          <quaternion qx="-0.1123336" qy="0" qz="0" qw="-0.9936706" />
+        </offset>
+        <parts>
+          <part name="door_hydrolic_b_bot">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="3" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3" y="0.7532902" z="0.3106513" />
+              <center x="-2.811576" y="-0.3730423" z="-0.2752562" />
+            </size>
+            <size_raw>
+              <max x="3" y="0.2078154" z="0.09652997" />
+              <center x="-2.811576" y="0.1724325" z="-0.061134" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor_hydrolic_b_pole" group="door01" tags="part animation require_docked nocollision detail_l" parent="door_hydrolic_b_bot">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-1.192093e-06" y="-9.536743e-07" z="-3.814697e-06" />
+          <quaternion qx="-0.4542598" qy="-0.0001801612" qz="-5.079315e-05" qw="-0.8908693" />
+        </offset>
+        <parts>
+          <part name="door_hydrolic_b_pole">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.968389" y="1.432464" z="0.5754595" />
+              <center x="-2.811565" y="0.2775331" z="0.08334637" />
+            </size>
+            <size_raw>
+              <max x="2.968389" y="0.886989" z="0.3613388" />
+              <center x="-2.811568" y="0.8230075" z="0.297467" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForext_door" group="door01" tags="part ui require_docked trigger_interact" parent="int_door">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.718905" y="-0.07860851" z="-0.0977478" />
+          <quaternion qx="-0.465487" qy="0" qz="0" qw="-0.8850548" />
+        </offset>
+        <parts>
+          <part name="ext_door">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="5" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.220538" y="2.378402" z="2.546569" />
+              <center x="-9.536743e-07" y="2.191084" z="-2.444788" />
+            </size>
+            <size_raw>
+              <max x="3.220538" y="2.338534" z="2.492785" />
+              <center x="-1.013279e-06" y="2.151215" z="-2.498571" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForint_rear" tags="part ">
+        <offset>
+          <position x="0.0004897501" y="-3.331499" z="-8.707001" />
+        </offset>
+        <parts>
+          <part name="int_rear">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="3" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="8" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="12" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="13" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="14" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="15" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="16" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="17" ref="p1.cockpit_glass_inside_01" />
+                  <material id="18" ref="generic.drak_cutlass_black_mtl_rubber_grip" />
+                  <material id="19" ref="generic.drak_cutlass_black_mtl_machine_stamped_metal" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="3" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="8" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="12" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="13" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="14" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="15" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="16" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="17" ref="p1.cockpit_glass_inside_01" />
+                  <material id="18" ref="generic.drak_cutlass_black_mtl_rubber_grip" />
+                  <material id="19" ref="generic.drak_cutlass_black_mtl_machine_stamped_metal" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="3" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="8" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="12" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="13" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="14" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="15" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="16" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="17" ref="p1.cockpit_glass_inside_01" />
+                  <material id="18" ref="generic.drak_cutlass_black_mtl_rubber_grip" />
+                  <material id="19" ref="generic.drak_cutlass_black_mtl_machine_stamped_metal" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="3" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="8" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="12" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="13" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="14" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="15" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="16" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="17" ref="p1.cockpit_glass_inside_01" />
+                  <material id="18" ref="generic.drak_cutlass_black_mtl_rubber_grip" />
+                  <material id="19" ref="generic.drak_cutlass_black_mtl_machine_stamped_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.010634" y="2.794349" z="9.448114" />
+              <center x="-5.960464e-07" y="2.503428" z="0.3944502" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForint_rear_bulkhead" tags="part ">
+        <offset>
+          <position x="0.0004897501" y="-1.685664" z="-5.1" />
+          <quaternion qx="-5e-07" qy="-5e-07" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="int_rear_bulkhead">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="3" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_cutlass_black_mtl_machine_stamped_metal" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="10" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="12" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="13" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="14" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="3" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_cutlass_black_mtl_machine_stamped_metal" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="10" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="12" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="13" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="14" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="3" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_cutlass_black_mtl_machine_stamped_metal" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="10" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="12" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="13" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="14" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="3" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_cutlass_black_mtl_machine_stamped_metal" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="10" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="12" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="13" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="14" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.005655" y="2.764505" z="2.018315" />
+              <center x="-9.059906e-06" y="0.8869991" z="4.449009" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinterior" tags="part ">
+        <offset>
+          <position x="0.0005897499" y="-1.435" z="3.559201" />
+        </offset>
+        <parts>
+          <part name="interior">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="3" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="7" ref="generic.drak_cutlass_black_mtl_rubber_grip" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="9" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="12" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="13" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="14" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="15" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="16" ref="p1.cockpit_glass_outside_01" />
+                  <material id="17" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="18" ref="p1.cockpit_glass_outside_01" />
+                  <material id="19" ref="p1effects.p1_gradient_colour" />
+                  <material id="20" ref="generic.drak_caterpillar_interior_mtl_cloth_atlas" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="3" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="7" ref="generic.drak_cutlass_black_mtl_rubber_grip" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="9" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="12" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="13" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="14" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="15" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="16" ref="p1.cockpit_glass_outside_01" />
+                  <material id="17" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="18" ref="p1.cockpit_glass_outside_01" />
+                  <material id="19" ref="p1effects.p1_gradient_colour" />
+                  <material id="20" ref="generic.drak_caterpillar_interior_mtl_cloth_atlas" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="3" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="7" ref="generic.drak_cutlass_black_mtl_rubber_grip" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="9" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="12" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="13" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="14" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="15" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="16" ref="p1.cockpit_glass_outside_01" />
+                  <material id="17" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="18" ref="p1.cockpit_glass_outside_01" />
+                  <material id="19" ref="p1effects.p1_gradient_colour" />
+                  <material id="20" ref="generic.drak_caterpillar_interior_mtl_cloth_atlas" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="3" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="7" ref="generic.drak_cutlass_black_mtl_rubber_grip" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="9" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="12" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="13" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="14" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="15" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="16" ref="p1.cockpit_glass_outside_01" />
+                  <material id="17" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="18" ref="p1.cockpit_glass_outside_01" />
+                  <material id="19" ref="p1effects.p1_gradient_colour" />
+                  <material id="20" ref="generic.drak_caterpillar_interior_mtl_cloth_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.270472" y="3.107852" z="7.848232" />
+              <center x="-0.05755651" y="1.055721" z="3.292933" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlanding_gear_front_skin" tags="detail_l nocollision part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.00951" y="-3.694376" z="9.725264" />
+        </offset>
+        <parts>
+          <part name="landing_gear_front_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="6" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="7" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.137782" y="1.262051" z="1.858909" />
+              <center x="-0.002162973" y="-0.9975052" z="1.525049" />
+            </size>
+            <size_raw>
+              <max x="0.001137782" y="0.001262051" z="0.001858909" />
+              <center x="-2.162997e-06" y="-0.0009975052" z="0.00152505" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlanding_gear_left_skin" tags="detail_l nocollision part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-3.825511" y="-3.86195" z="-10.014" />
+        </offset>
+        <parts>
+          <part name="landing_gear_left_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="6" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="7" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.717093" y="1.483486" z="0.9133401" />
+              <center x="-2.294089" y="-0.6353846" z="-0.01812363" />
+            </size>
+            <size_raw>
+              <max x="0.002717093" y="0.001483486" z="0.00091334" />
+              <center x="-0.002294089" y="-0.0006353846" z="-1.812298e-05" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlanding_gear_right_skin" tags="detail_l nocollision part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="3.806059" y="-3.861951" z="-10.01354" />
+        </offset>
+        <parts>
+          <part name="landing_gear_right_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="6" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="7" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.717093" y="1.483485" z="0.9004841" />
+              <center x="2.294085" y="-0.6353347" z="0.01943588" />
+            </size>
+            <size_raw>
+              <max x="0.002717093" y="0.001483486" z="0.000900484" />
+              <center x="0.002294085" y="-0.0006353345" z="1.943597e-05" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForsidedoor_left" group="door02 " tags="part animation ui require_docked trigger_interact">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-4.699362" y="0.128818" z="-1.322091" />
+        </offset>
+        <parts>
+          <part name="sidedoor_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="7" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="8" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="11" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="12" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="13" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="14" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="15" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="16" ref="p1.cockpit_glass_inside_01" />
+                  <material id="17" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="18" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.751645" y="1.803276" z="2.534085" />
+              <center x="0.1286211" y="-1.384609" z="1.186087" />
+            </size>
+            <size_raw>
+              <max x="0.651326" y="1.803276" z="1.320164" />
+              <center x="0.22894" y="-1.384609" z="-0.0278343" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForsidedoor_left_02" group="door02 " tags="part animation ui require_docked trigger_interact">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-4.70054" y="0.120713" z="-3.839288" />
+        </offset>
+        <parts>
+          <part name="sidedoor_left_02">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="9" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="10" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="11" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="12" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="13" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="14" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.751056" y="1.807076" z="2.51094" />
+              <center x="0.1303868" y="-1.373775" z="-1.239922" />
+            </size>
+            <size_raw>
+              <max x="0.651326" y="1.807076" z="1.278498" />
+              <center x="0.230117" y="-1.373775" z="-0.007479727" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForsidedoor_right" group="door03 " tags="part animation ui require_docked trigger_interact">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="4.712717" y="0.127424" z="-1.322092" />
+        </offset>
+        <parts>
+          <part name="sidedoor_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="9" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="10" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="11" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="12" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="13" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="14" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7449676" y="1.807076" z="2.524187" />
+              <center x="-0.1333094" y="-1.38188" z="1.257762" />
+            </size>
+            <size_raw>
+              <max x="0.651326" y="1.807076" z="1.278497" />
+              <center x="-0.226951" y="-1.38188" z="0.0120725" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForsidedoor_right_02" group="door03 " tags="part animation ui require_docked trigger_interact">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="4.713894" y="0.120713" z="-3.839291" />
+        </offset>
+        <parts>
+          <part name="sidedoor_right_02">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="7" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="8" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="11" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="12" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="13" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="14" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="15" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="16" ref="p1.cockpit_glass_inside_01" />
+                  <material id="17" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="18" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7443793" y="1.803275" z="2.55728" />
+              <center x="-0.1350746" y="-1.377898" z="-1.204689" />
+            </size>
+            <size_raw>
+              <max x="0.651326" y="1.803275" z="1.320162" />
+              <center x="-0.228128" y="-1.377898" z="0.0324288" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForthruster_main_left" tags="part ">
+        <offset>
+          <position x="-10.6431" y="1.671022" z="-12.05422" />
+        </offset>
+        <parts>
+          <part name="thruster_main_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.drak_cutlass_black_mtl_internal_pom" />
+                  <material id="10" ref="generic.drak_cutlass_red_mtl_engine" />
+                  <material id="11" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="12" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.drak_cutlass_black_mtl_internal_pom" />
+                  <material id="10" ref="generic.drak_cutlass_red_mtl_engine" />
+                  <material id="11" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="12" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.drak_cutlass_black_mtl_internal_pom" />
+                  <material id="10" ref="generic.drak_cutlass_red_mtl_engine" />
+                  <material id="11" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="12" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.drak_cutlass_black_mtl_internal_pom" />
+                  <material id="10" ref="generic.drak_cutlass_red_mtl_engine" />
+                  <material id="11" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="12" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.817156" y="2.722121" z="6.138794" />
+              <center x="0.3870701" y="0.2087651" z="-0.3816029" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcutlass_thruster_main001" tags="detail_xl nocollision part " parent="thruster_main_left">
+        <offset>
+          <position x="0.07612991" y="1.029758" z="-4.412954" />
+          <quaternion qx="0.5000004" qy="0.4999996" qz="-0.4999996" qw="-0.5000004" />
+        </offset>
+        <parts>
+          <part name="cutlass_thruster_main001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="2" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="3" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="4" ref="generic.drak_cutlass_red_mtl_engine" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.090389" y="0.3740045" z="1.111158" />
+              <center x="5.364418e-07" y="1.505017e-06" z="-4.768372e-07" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcutlass_thruster_retro001" tags="detail_l nocollision part " parent="thruster_main_left">
+        <offset>
+          <position x="0.06029987" y="-1.173083" z="4.754817" />
+          <quaternion qx="-4.768372e-07" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="cutlass_thruster_retro001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="2" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="5" ref="generic.drak_cutlass_red_mtl_engine" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.328506" y="0.722205" z="1.234717" />
+              <center x="-1.803041e-05" y="1.901388e-05" z="-0.1724085" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcutlass_thruster_retro_nozzle001" tags="detail_m nocollision part " parent="cutlass_thruster_retro001">
+        <offset>
+          <position x="0" y="-8.006249e-06" z="-0.3770108" />
+        </offset>
+        <parts>
+          <part name="cutlass_thruster_retro_nozzle001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_red_mtl_thruster_glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.211017" y="0.6224555" z="0.213294" />
+              <center x="-1.013279e-06" y="-0.002933502" z="-0.667334" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForthruster_main_right" tags="part ">
+        <offset>
+          <position x="10.81197" y="1.671027" z="-12.05421" />
+        </offset>
+        <parts>
+          <part name="thruster_main_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.drak_cutlass_black_mtl_internal_pom" />
+                  <material id="10" ref="generic.drak_cutlass_red_mtl_engine" />
+                  <material id="11" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="12" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.drak_cutlass_black_mtl_internal_pom" />
+                  <material id="10" ref="generic.drak_cutlass_red_mtl_engine" />
+                  <material id="11" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="12" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.drak_cutlass_black_mtl_internal_pom" />
+                  <material id="10" ref="generic.drak_cutlass_red_mtl_engine" />
+                  <material id="11" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="12" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="2" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="3" ref="generic.drak_cutlass_black_mtl_Paint_Pri01_Light" />
+                  <material id="4" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="5" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.drak_cutlass_black_mtl_internal_pom" />
+                  <material id="10" ref="generic.drak_cutlass_red_mtl_engine" />
+                  <material id="11" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="12" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.817156" y="2.72212" z="6.138715" />
+              <center x="-0.5559429" y="0.2087642" z="-0.3815238" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcutlass_thruster_main" tags="detail_xl nocollision part " parent="thruster_main_right">
+        <offset>
+          <position x="-0.2450047" y="1.029772" z="-4.611927" />
+          <quaternion qx="0.5000004" qy="0.4999996" qz="-0.4999996" qw="-0.5000004" />
+        </offset>
+        <parts>
+          <part name="cutlass_thruster_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="2" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="3" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="4" ref="generic.drak_cutlass_red_mtl_engine" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.090389" y="0.3740045" z="1.111158" />
+              <center x="5.364418e-07" y="1.505017e-06" z="-4.768372e-07" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcutlass_thruster_retro" tags="detail_l nocollision part " parent="thruster_main_right">
+        <offset>
+          <position x="-0.2291746" y="-1.173094" z="4.754817" />
+          <quaternion qx="1.509958e-07" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="cutlass_thruster_retro">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="2" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="5" ref="generic.drak_cutlass_red_mtl_engine" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.328506" y="0.722205" z="1.234717" />
+              <center x="-1.803041e-05" y="1.901388e-05" z="-0.1724085" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcutlass_thruster_retro_nozzle" tags="detail_m nocollision part " parent="cutlass_thruster_retro">
+        <offset>
+          <position x="0" y="-8.023195e-06" z="-0.3770108" />
+        </offset>
+        <parts>
+          <part name="cutlass_thruster_retro_nozzle">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_red_mtl_thruster_glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.211017" y="0.6224555" z="0.213294" />
+              <center x="-1.013279e-06" y="-0.002933502" z="-0.667334" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForturret_hatch" tags="part ">
+        <offset>
+          <position x="-0.007591" y="1.211724" z="0.9540035" />
+          <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="turret_hatch">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="5" ref="generic.drak_cutlass_black_exterior_mtl_painted_metal_grey" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                  <material id="8" ref="p1.cockpit_glass_inside_01" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="10" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.930082" y="0.1238745" z="0.699484" />
+              <center x="-6.005168e-06" y="0.0871155" z="8.499622e-05" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectionchiar01" group="pilotcontrol" tags="part">
+				<offset>
+          <position x="0" y="-2.40209" z="11.8581" />
+        </offset>
+				<parts>
+					<part ref="cutlass_seat2.pilot_platform" name="pilot_platform"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="pilot_chair_base">
+				<offset>
+					<position x="0" y="-0.2" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar02" tags="part iklink ui" group="pilotcontrol" parent="pilot_platform">
+				<parts>
+					<part ref="cutlass_seat2.pilot_chair_base" name="pilot_chair_base"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair ">
+				<offset>
+          <position x="0.82533" y="-1.1494" z="11.2804" />
+        </offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor ">
+				<offset>
+          <position x="0" y="0" z="11.5265" />
+        </offset>
+			</connection>
+
+      <connection name="Connectionchiar03" group="gunnercontrol" tags="part">
+				<offset>
+          <position x="0" y="-2.3969" z="9.84679" />
+        </offset>
+				<parts>
+					<part ref="cutlass_seat.copilot_platform" name="copilot_platform"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control2" tags="npc service sit iklink" value="-1" group="gunnercontrol" parent="drak_cutlass_copilot_geo">
+				<offset>
+					<position x="0" y="-0.2" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar04" tags="part iklink ui " group="gunnercontrol" parent="copilot_platform">
+				<parts>
+					<part ref="cutlass_seat.drak_cutlass_copilot_geo" name="drak_cutlass_copilot_geo"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair002" group="gunnercontrol" tags="tochair ">
+				<offset>
+					<position x="0.82533" y="-1.1494" z="9.89834" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor002" group="gunnercontrol" tags="uianchor " >
+				<offset>
+					<position x="0" y="0.998" z="9.47809" />
+				</offset>
+			</connection>
+
+      <connection name="Connection74" tags="part">
+				<offset>
+          <position x="0" y="-2.14134" z="0.822551" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_02.detail_l_airlock" name="detail_l_airlock"/>
+				</parts>
+			</connection>
+			<connection name="Connection75" tags="part  " parent="detail_l_airlock">
+				<offset>
+          <position x="0" y="0" z="-0.35" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_02.detail_xl_switch" name="detail_xl_switch"/>
+				</parts>
+			</connection>
+			<connection name="Connection76" group="cabin_01" tags="part  " parent="detail_l_airlock">
+				<offset>
+					<quaternion qx="-0" qy="-0.8191521" qz="-0" qw="-0.5735763"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_02.detail_l_door" name="detail_l_door"/>
+				</parts>
+			</connection>
+      <connection name="con_npc_stand_001" group="cabin_01 " tags="npc_waypoint stand npctransport ">
+				<offset>
+          <position x="0" y="-3.14134" z="0.822551" />
+        </offset>
+			</connection>
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="0.505389" z="12" />
+				</offset>
+			</connection>
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="0.505389" z="12" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-5.95" z="17"/>
+				</offset>
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="1.06938" z="10.0699" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="0" y="1.81095" z="-18.7299" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_cutlass" parent="thruster_main_left">
+        <offset>
+          <position x="0.09044075" y="1.015395" z="-4.522285" />
+        </offset>
+			</connection>
+
+      <connection name="con_engine_02" tags="engine small component aegs_cutlass" parent="thruster_main_right">
+        <offset>
+          <position x="-0.2592697" y="1.01539" z="-4.522287" />
+        </offset>
+			</connection>
+
+      <connection name="con_turret_s_001" tags="turret small component combat aegs_cutlass">
+				<offset>
+          <position x="0" y="2.713" z="0.954001" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_left symmetry_1">
+				<offset>
+          <position x="4.47685" y="-2.40269" z="8.36711" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_right symmetry_1">
+				<offset>
+          <position x="-4.47685" y="-2.40269" z="8.36711" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_03" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_left symmetry_2">
+				<offset>
+          <position x="3.166707" y="0.4982991" z="4.281038" />
+          <quaternion qx="0" qy="0" qz="-0.9890158" qw="-0.1478096" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_04" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_right symmetry_2">
+				<offset>
+          <position x="-3.16671" y="0.4982991" z="4.281038" />
+          <quaternion qx="0" qy="0" qz="0.9890159" qw="-0.1478095" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_05" tags="component weapon small missile aegs_missile_s2 symmetry symmetry_1">
+				<offset>
+          <position x="3.1157" y="2.69063" z="-10.1585" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_06" tags="component weapon small missile aegs_missile_s2 symmetry symmetry_2">
+				<offset>
+          <position x="-3.1157" y="2.69063" z="-10.1585" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield small aegs_s1 civilian">
+				<offset>
+					<position x="0" y="-3.29381" z="-5.03055"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield small aegs_s1 industrial">
+				<offset>
+					<position x="0" y="-3.29381" z="-5.03055"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_03" tags="component shield small aegs_s1 millitary">
+				<offset>
+					<position x="0" y="-3.29381" z="-5.03055"/>
+				</offset>
+			</connection>
+
+      <connection name="con_storage01" tags="storage ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+    </connections>
+  </component>
+</components>

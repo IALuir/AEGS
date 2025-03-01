@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-16 00:12:34 from Blender-->
+<components>
+  <component name="polaris_turret2_cf" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\polaris\polaris_turret2_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForsocket" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="socket">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_NoSub_Primary" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.091895" y="0.8194975" z="2.24947" />
+              <center x="2.980232e-08" y="0.6433904" z="0.6843075" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcf_core" tags="part " parent="socket">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-15.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="0" y="0.1457838" z="-0.194393" />
+        </offset>
+        <parts>
+          <part name="cf_core">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="7" ref="generic.klwe_las_rep_s1-3_mtl_pom_decals" />
+                  <material id="8" ref="generic.klwe_las_rep_s1-3_mtl_graphic_decals" />
+                  <material id="9" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="10" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="11" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="12" ref="generic.behr_marksman_s1_mtl_glows" />
+                  <material id="13" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                  <material id="14" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_copper" />
+                  <material id="15" ref="generic.klwe_las_rep_s4-6_bar_1_mtl_plastic_main_02" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.580683" y="0.8131316" z="2.550657" />
+              <center x="1.788139e-07" y="0.3382381" z="1.580874" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="cf_laser" tags="laser " parent="cf_core">
+        <offset>
+          <position x="-2.013569" y="-0.04761192" z="4.153805" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="cf_laser001" tags="laser " parent="cf_core">
+        <offset>
+          <position x="2.037634" y="-0.04761192" z="4.153805" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="cf_laser002" tags="laser " parent="cf_core">
+        <offset>
+          <position x="-1.93531" y="0.901824" z="3.263307" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="cf_laser003" tags="laser " parent="cf_core">
+        <offset>
+          <position x="1.959376" y="0.901824" z="3.263307" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      
+
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_polaris_s3">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

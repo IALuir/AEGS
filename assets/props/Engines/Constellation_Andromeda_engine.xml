@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-02 12:18:48 from Blender-->
+<components>
+  <component name="constellation_andromeda_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\constellation_andromeda_engine_data" />
+    <layers>
+      <layer>
+        <trailemitters>
+          <emitter name="trail_ship_m_blue" type="trail_ship_m_blue">
+            <offset>
+              <position x="0" y="0" z="-5" />
+            </offset>
+          </emitter>
+        </trailemitters>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForandromeda_thruster_main" tags="part ">
+        <parts>
+          <part name="andromeda_thruster_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_constellation_ext_mtl_thruster_glow" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="4" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.361114" y="0.9801691" z="0.789937" />
+              <center x="-0.3782343" y="0.001111984" z="0.4704946" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.044094" y="1.044093" z="6.522075" />
+              <center x="-0.0112251" y="-1.955032e-05" z="-6.568383" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine medium component aegs_constellation">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+    <macro name="missile_s2_ignite_ii_macro" class="missile">
+    <component ref="missile_s2_ignite_ii" />
+    <properties>
+      <identification name="{996669,7}" basename="{996669,7}" description="{996669,8}" />
+      <ammunition value="1" />
+      <missile amount="1" barrelamount="1" lifetime="9" range="14000" guided="1" icon="hud_ms_guided_light_mk1" retarget="0" tags="aegs_s2" />
+      <explosiondamage value="509" />
+      <reload time="2.75" />
+      <hull max="2" />
+      <lock time="1" range="14000" angle="60" />
+      <effects>
+        <explosion ref="aegs_missile_explosion_ignite_ii" />
+        <launch ref="missile_guided_muzzle" />
+      </effects>
+      <weapon system="missile_guided" />
+      <countermeasure resilience="0.8" />
+      <physics mass="0.162">
+        <inertia pitch="0.306" yaw="0.306" roll="0.306" />
+        <drag forward="0.0218" reverse="0.58" horizontal="1" vertical="1" pitch="0.168" yaw="0.168" roll="0.168" />
+      </physics>
+    </properties>
+    <connections>
+      <connection ref="con_engine01">
+        <macro ref="engine_missile_guided_mk1_macro" connection="ship" />
+      </connection>
+    </connections>
+    </macro>
+</macros>

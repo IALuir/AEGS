@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.59) at 13.10.2021_12-11-29-->
+<macros>
+  <macro name="polaris_macro" class="ship_m">
+    <component ref="polaris" />
+    <properties>
+      <identification name="{996666,73}" basename="{996666,73}" description="{996666,74}" makerrace="terran" icon="ship_m_frigate_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <explosiondamage value="800" shield="3000" />
+      <storage missile="28" unit="2" countermeasure="40" deployable="20"/>
+      <hull max="56500" />
+      <secrecy level="3" />
+      <purpose primary="fight" />
+      <people capacity="12" />
+      <docksize tag="dock_aegs_small_m" />
+      <sounds>
+        <shipdetail ref="shipdetail_ship_m_03" />
+      </sounds>
+      <physics mass="76.5">
+        <inertia pitch="8.8" yaw="7.6" roll="8.8" />
+        <drag forward="13.46" reverse="44.22" horizontal="11.877" vertical="11.877" pitch="37.5" yaw="21" roll="21.5" />
+      </physics>
+      <thruster tags="medium" />
+      <ship type="frigate" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="con_cockpit">
+        <macro ref="cockpit_gen_virtual_01_macro" connection="ship" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="dock_aegs_xs_macro" connection="Connection_component" />
+      </connection>
+      <connection ref="con_dockarea_arg_s_ship_03">
+        <macro ref="dockarea_polaris_macro" connection="con_dockarea_01" />
+      </connection>
+      
+
+      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage01">
+        <macro ref="shipstorage_polaris_macro" connection="object" />
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="storage_polaris_macro" connection="ShipConnection" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

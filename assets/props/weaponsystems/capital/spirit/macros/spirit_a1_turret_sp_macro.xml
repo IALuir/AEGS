@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="spirit_a1_turret_sp_macro" class="turret">
+    <component ref="spirit_a1_turret_sp" />
+    <properties>
+      <identification name="{996667,30035}" basename="{996667,30035}" shortname="{996667,30035}" makerrace="terran" description="{996667,30036}" mk="1" />
+      <bullet class="S2_sp_2x_macro" />
+      <rotationspeed max="120" />
+      <rotationacceleration max="200" />
+      <reload rate="1" time="1" />
+      <hull hull="600" threshold="0.2" integrated="1" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-06 00:04:03 from Blender-->
+<components>
+  <component name="bengal_turret_medium_gun" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\bengal\bengal_turret_medium_gun_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForsocket" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="socket" wreck="socket_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="12" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="13" ref="generic.rsi_bengal_exterior_mtl_trim_02_light" />
+                  <material id="14" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nopom" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="12" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="13" ref="generic.rsi_bengal_exterior_mtl_trim_02_light" />
+                  <material id="14" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nopom" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="12" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="13" ref="generic.rsi_bengal_exterior_mtl_trim_02_light" />
+                  <material id="14" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nopom" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="10" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
+                  <material id="11" ref="generic.rsi_bengal_exterior_mtl_dark_grey_detail" />
+                  <material id="12" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="13" ref="generic.rsi_bengal_exterior_mtl_trim_02_light" />
+                  <material id="14" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nopom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.723135" y="5.777082" z="13.61029" />
+              <center x="0.03178596" y="5.777071" z="-0.5849625" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForgun" tags="part " parent="socket">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-5.0 "/>
+							<max value="70 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="2.728346" y="4.8587" z="10.95859" />
+        </offset>
+        <parts>
+          <part name="gun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_dark_grey_blue_spec_nodetail" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_dark_grey_blue_spec_nodetail" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_dark_grey_blue_spec_nodetail" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_light_grey_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_trims_02" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_trim_greeble_nolights" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_dark_grey_blue_spec_nodetail" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.251995" y="1.441268" z="9.780784" />
+              <center x="-2.72888" y="0.1912681" z="8.530784" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="gun">
+        <offset>
+          <position x="0.02144551" y="0.6962495" z="18.63705" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="gun">
+        <offset>
+          <position x="-5.478136" y="0.6962495" z="18.63705" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser" tags="turret large component combat aegs_bengal_m_gun">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

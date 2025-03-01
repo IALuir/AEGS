@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Lino (192.168.3.56) at 08.04.2020_09-52-07-->
+<macros>
+  <macro name="S7_db_macro" class="bullet">
+    <component ref="xsgc_m" />
+    <properties>
+      <ammunition value="1" reload="0.4285" />
+      <bullet speed="1350" lifetime="3.667" amount="1" barrelamount="1" icon="weapon_cannon_mk2" timediff="0.007" angle="0.03" maxhits="1" ricochet="1" restitution="1" scale="0" attach="0" selfdestruct="1"/>
+      <reload rate="2.33" />
+      <heat value="714" />
+      <areadamage value="21.925" range="7" falloff="1" lifetime="1" />
+      <damage value="438.5" hull="43.85" repair="0" />
+      <effects>
+        <impact ref="explosion_flak" />
+        <launch ref="launch_aegs_xsgc_big" />
+      </effects>
+      <weapon system="weapon_standard" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,2639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-10 15:19:27 from Blender-->
+<components>
+  <component name="reclaimer" class="ship_m">
+    <source geometry="extensions\AEGS\assets\units\size_m\reclaimer_data" />
+    <layers>
+      <layer>
+        <lights>
+          <arealight name="ego_area" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="255" g="221" b="208" intensity="1" specularintensity="1" range="20" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="2.207359" y="-2.712894" z="35.23045" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="255" g="221" b="208" intensity="1" specularintensity="1" range="20" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-1.876146" y="-2.712894" z="35.23045" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area002" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="255" g="221" b="208" intensity="0.6" specularintensity="1" range="10" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-2.884063" y="-2.049712" z="47.15149" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area003" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="255" g="221" b="208" intensity="0.6" specularintensity="1" range="10" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-2.884063" y="-3.716142" z="52.49185" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_m ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForbody" tags="part ">
+        <offset>
+          <position x="0" y="0" z="4e-06" />
+        </offset>
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="6" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="8" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="9" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="10" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="11" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                  <material id="12" ref="generic.aegs_hammerhead_exterior_mtl_Light_panel" />
+                  <material id="13" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="14" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="15" ref="p1.cockpit_glass_outside_01" />
+                  <material id="16" ref="generic.aegs_reclaimer_exterior_mtl_Internal_Pom" />
+                  <material id="17" ref="generic.sabre_mtl_emissives_unlinked" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="6" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="8" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="9" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="10" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="11" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                  <material id="12" ref="generic.aegs_hammerhead_exterior_mtl_Light_panel" />
+                  <material id="13" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="14" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="15" ref="p1.cockpit_glass_outside_01" />
+                  <material id="16" ref="generic.aegs_reclaimer_exterior_mtl_Internal_Pom" />
+                  <material id="17" ref="generic.sabre_mtl_emissives_unlinked" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="6" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="8" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="9" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="10" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="11" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                  <material id="12" ref="generic.aegs_hammerhead_exterior_mtl_Light_panel" />
+                  <material id="13" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="14" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="15" ref="p1.cockpit_glass_outside_01" />
+                  <material id="16" ref="generic.aegs_reclaimer_exterior_mtl_Internal_Pom" />
+                  <material id="17" ref="generic.sabre_mtl_emissives_unlinked" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="6" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="8" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="9" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="10" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="11" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                  <material id="12" ref="generic.aegs_hammerhead_exterior_mtl_Light_panel" />
+                  <material id="13" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="14" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="15" ref="p1.cockpit_glass_outside_01" />
+                  <material id="16" ref="generic.aegs_reclaimer_exterior_mtl_Internal_Pom" />
+                  <material id="17" ref="generic.sabre_mtl_emissives_unlinked" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="30.73775" y="23.25528" z="79.19414" />
+              <center x="-0.0001263618" y="4.213292" z="-21.95297" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForaux_arms_lower_left_b" tags="part animation" parent="body">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-11.66329" y="-4.078016" z="-22.33404" />
+          <quaternion qx="-0.0004304499" qy="6.419278e-05" qz="0.2161759" qw="-0.9763544" />
+        </offset>
+        <parts>
+          <part name="aux_arms_lower_left_b">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.506228" y="4.300355" z="1.40905" />
+              <center x="-6.606993" y="-2.906995" z="0.01273918" />
+            </size>
+            <size_raw>
+              <max x="7.506228" y="4.300355" z="1.40905" />
+              <center x="-6.60699" y="-2.906996" z="0.01273847" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForaux_arms_lower_left_bottom" tags="part animation" parent="aux_arms_lower_left_b"> 
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-12.28603" y="-5.547485" z="0.0001010895" />
+          <quaternion qx="-0.0003356679" qy="-8.490186e-05" qz="-0.2111714" qw="-0.977449" />
+        </offset>
+        <parts>
+          <part name="aux_arms_lower_left_bottom">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.85721" y="4.923634" z="1.675977" />
+              <center x="0.7503052" y="-3.223212" z="0.03119469" />
+            </size>
+            <size_raw>
+              <max x="2.510689" y="1.666633" z="1.675086" />
+              <center x="1.096826" y="0.03378904" z="0.03208351" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForaux_arms_lower_right_b" tags="part animation" parent="body">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="11.6633" y="-4.078015" z="-22.33405" />
+          <quaternion qx="0.976198" qy="0.2168671" qz="-0.002372908" qw="-0.0006708198" />
+        </offset>
+        <parts>
+          <part name="aux_arms_lower_right_b">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.506146" y="4.300394" z="1.409051" />
+              <center x="6.606914" y="2.907027" z="-0.01272774" />
+            </size>
+            <size_raw>
+              <max x="7.506146" y="4.300394" z="1.409051" />
+              <center x="6.606913" y="2.907026" z="-0.01272899" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForaux_arms_lower_right_bottom" tags="part animation" parent="aux_arms_lower_right_b">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="12.28135" y="5.558014" z="-0.06155014" />
+          <quaternion qx="-0.0002059141" qy="-0.003164882" qz="-0.2132283" qw="-0.9769973" />
+        </offset>
+        <parts>
+          <part name="aux_arms_lower_right_bottom">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.855563" y="4.93732" z="1.677988" />
+              <center x="-0.7519646" y="-3.304481" z="-0.02925491" />
+            </size>
+            <size_raw>
+              <max x="2.51069" y="1.666632" z="1.675086" />
+              <center x="-1.096836" y="-0.03379399" z="-0.03209305" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForaux_arms_top_left_a" tags="part animation" parent="body">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-16.38098" y="1.170467" z="-22.33501" />
+          <quaternion qx="0.0002280556" qy="-2.258433e-05" qz="0.259217" qw="-0.9658191" />
+        </offset>
+        <parts>
+          <part name="aux_arms_top_left_a">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="5" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.691599" y="4.26553" z="2.056046" />
+              <center x="-3.545959" y="-2.204015" z="0.002426147" />
+            </size>
+            <size_raw>
+              <max x="5.691598" y="4.26553" z="2.056046" />
+              <center x="-3.545961" y="-2.204016" z="0.002424955" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForaux_arms_top_left_b" tags="part animation" parent="aux_arms_top_left_a">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-8.218147" y="-5.098556" z="-1.144409e-05" />
+          <quaternion qx="0" qy="0" qz="-0.2614712" qw="-0.9652113" />
+        </offset>
+        <parts>
+          <part name="aux_arms_top_left_b">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.81993" y="4.705184" z="1.602142" />
+              <center x="2.361486" y="-3.070796" z="-0.01619911" />
+            </size>
+            <size_raw>
+              <max x="3.360181" y="1.608644" z="1.602098" />
+              <center x="2.821239" y="0.02574348" z="-0.01623249" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForaux_arms_block_left" tags="part animation" parent="aux_arms_top_left_b">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.1208916" y="-1.925454" z="-0.06418419" />
+          <quaternion qx="-0.0002142166" qy="8.142865e-05" qz="0.002334707" qw="-0.9999973" />
+        </offset>
+        <parts>
+          <part name="aux_arms_block_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="6" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="7" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="8" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.12762" y="9.898725" z="6.703955" />
+              <center x="-1.185715" y="-4.035195" z="-0.05534363" />
+            </size>
+            <size_raw>
+              <max x="2.84415" y="6.903581" z="6.703871" />
+              <center x="-1.134966" y="-1.040054" z="-0.05542183" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody_left001" tags="part animation" parent="aux_arms_block_left">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.7024441" y="-1.1314" z="-0.1643429" />
+          <quaternion qx="-0.7071047" qy="0.001681152" qz="0.001677616" qw="-0.7071049" />
+        </offset>
+        <parts>
+          <part name="body_left001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="6" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="8" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                  <material id="11" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="12" ref="generic.sabre_mtl_emissives_unlinked" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.753902" y="13.51509" z="9.244338" />
+              <center x="-7.608049" y="-3.563411" z="-0.685318" />
+            </size>
+            <size_raw>
+              <max x="5.468662" y="10.51796" z="9.244231" />
+              <center x="-7.554402" y="-0.5657167" z="-0.6847353" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForleft_aux_rig_skin" tags="part animation" parent="body_left001">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-8.267456" y="-3.004183" z="-1.305552" />
+          <quaternion qx="0.7071046" qy="0.001726054" qz="0.001729589" qw="-0.7071047" />
+        </offset>
+        <parts>
+          <part name="left_aux_rig_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="3" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="4" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="5" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Internal_Pom" />
+                  <material id="8" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="9" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="10" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="11" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="12" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="13" ref="p1.cockpit_glass_outside_01" />
+                  <material id="14" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="15" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                  <material id="16" ref="generic.sabre_mtl_emissives_unlinked" />
+                  <material id="17" ref="generic.sabre_mtl_emissives_linked" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.324192" y="14.19893" z="7.75375" />
+              <center x="0.3642464" y="-4.79379" z="-2.609646" />
+            </size>
+            <size_raw>
+              <max x="4.039492" y="8.019938" z="6.48547" />
+              <center x="0.4173645" y="1.393219" z="-3.03545" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForaux_arms_top_right_a" tags="part animation" parent="body">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="16.38098" y="1.170466" z="-22.33501" />
+          <quaternion qx="-0.9657542" qy="-0.2594586" qz="-2.249941e-05" qw="-0.0002279718" />
+        </offset>
+        <parts>
+          <part name="aux_arms_top_right_a">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="5" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.691601" y="4.265534" z="2.056046" />
+              <center x="3.545959" y="2.204012" z="-0.002426147" />
+            </size>
+            <size_raw>
+              <max x="5.691601" y="4.265534" z="2.056046" />
+              <center x="3.545961" y="2.204012" z="-0.002424955" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForaux_arms_top_right_b" tags="part animation" parent="aux_arms_top_right_a">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="8.216797" y="5.098794" z="-3.814697e-06" />
+          <quaternion qx="1.013059e-07" qy="-5.070524e-08" qz="-0.2614716" qw="-0.9652112" />
+        </offset>
+        <parts>
+          <part name="aux_arms_top_right_b">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.819669" y="4.70977" z="1.602161" />
+              <center x="-2.361748" y="-3.12688" z="0.01629639" />
+            </size>
+            <size_raw>
+              <max x="3.360182" y="1.608644" z="1.602097" />
+              <center x="-2.821236" y="-0.02575397" z="0.0162335" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForaux_arms_block_right" tags="part animation" parent="aux_arms_top_right_b">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="1.931538" y="0.8709005" z="0.06401062" />
+          <quaternion qx="-0.0002139693" qy="8.19191e-05" qz="-0.0003385296" qw="-0.9999999" />
+        </offset>
+        <parts>
+          <part name="aux_arms_block_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="6" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="7" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="8" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.56273" y="10.42862" z="6.703966" />
+              <center x="0.4869595" y="-2.48499" z="0.05551147" />
+            </size>
+            <size_raw>
+              <max x="2.844148" y="6.903582" z="6.70387" />
+              <center x="1.134963" y="1.040046" z="0.05541849" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody_right" tags="part animation" parent="aux_arms_block_right">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0.7019596" y="1.131535" z="0.1643429" />
+          <quaternion qx="-0.7071052" qy="0.001686456" qz="0.00168292" qw="-0.7071044" />
+        </offset>
+        <parts>
+          <part name="body_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="6" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="8" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                  <material id="11" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="12" ref="generic.sabre_mtl_emissives_unlinked" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.193364" y="14.03296" z="9.24511" />
+              <center x="6.920656" y="-2.959782" z="0.6947517" />
+            </size>
+            <size_raw>
+              <max x="5.474164" y="10.50745" z="9.244995" />
+              <center x="7.569549" y="0.5657187" z="0.6946368" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForright_aux_rig_skin" tags="part animation" parent="body_right">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="8.20908" y="2.943157" z="1.5766" />
+          <quaternion qx="-0.7071062" qy="1.590871e-05" qz="-1.237443e-05" qw="-0.7071073" />
+        </offset>
+        <parts>
+          <part name="right_aux_rig_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="3" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="4" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="5" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Internal_Pom" />
+                  <material id="8" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="9" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="10" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="11" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="12" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="13" ref="p1.cockpit_glass_outside_01" />
+                  <material id="14" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="15" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                  <material id="16" ref="generic.sabre_mtl_emissives_unlinked" />
+                  <material id="17" ref="generic.sabre_mtl_emissives_linked" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.757814" y="14.82347" z="7.675274" />
+              <center x="-1.063305" y="-5.418324" z="-2.865257" />
+            </size>
+            <size_raw>
+              <max x="4.03619" y="8.011257" z="6.478448" />
+              <center x="-0.4125564" y="1.393886" z="-3.035251" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormain_engine_blockleft" tags="part animation" parent="body">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-30.4536" y="1.031621" z="8.155999" />
+          <quaternion qx="0" qy="0" qz="-0.1492302" qw="-0.9888025" />
+        </offset>
+        <parts>
+          <part name="main_engine_blockleft">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="6" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                  <material id="8" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.244552" y="6.083327" z="9.998449" />
+              <center x="-1.018057" y="-1.943111e-05" z="-0.07072258" />
+            </size>
+            <size_raw>
+              <max x="6.244552" y="6.083327" z="9.998449" />
+              <center x="-1.018058" y="-1.955032e-05" z="-0.07072258" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForjoint_left" tags="part animation " parent="main_engine_blockleft">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-2.914999" y="0.5249176" z="-0.03100204" />
+          <quaternion qx="-0.704927" qy="0.0554788" qz="0.0554788" qw="-0.704927" />
+        </offset>
+        <parts>
+          <part name="joint_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="3" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="4" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="5" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="8" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="9" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="10" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="11" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="12" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="13" ref="generic.sabre_mtl_emissives_unlinked" />
+                  <material id="14" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.586228" y="17.18455" z="13.89707" />
+              <center x="-7.080715" y="-2.807344" z="-0.6739955" />
+            </size>
+            <size_raw>
+              <max x="9.575327" y="17.00406" z="13.89707" />
+              <center x="-7.069814" y="-2.987835" z="-0.673996" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForleft_main_rig_skin" tags="part animation" parent="joint_left">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-9.696308" y="-11.70592" z="-1.300787" />
+          <quaternion qx="0.7053125" qy="0.05034214" qz="0.05034221" qw="-0.7053124" />
+        </offset>
+        <parts>
+          <part name="left_main_rig_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="3" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="4" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="5" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Internal_Pom" />
+                  <material id="8" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="9" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                  <material id="10" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="11" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="12" ref="generic.aegs_reclaimer_exterior_mtl_Proxy" />
+                  <material id="13" ref="p1.cockpit_glass_outside_01" />
+                  <material id="14" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="15" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="16" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="17" ref="generic.sabre_mtl_emissives_unlinked" />
+                  <material id="18" ref="generic.sabre_mtl_emissives_linked" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.054022" y="20.40714" z="17.49064" />
+              <center x="0.5430641" y="-8.247573" z="10.48554" />
+            </size>
+            <size_raw>
+              <max x="6.64841" y="12.01927" z="11.86267" />
+              <center x="0.1374522" y="0.1402926" z="5.708376" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormain_engine_blockright" tags="part animation" parent="body">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="30.4536" y="1.03167" z="8.156001" />
+          <quaternion qx="0" qy="0" qz="0.1492351" qw="-0.9888017" />
+        </offset>
+        <parts>
+          <part name="main_engine_blockright">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="6" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                  <material id="8" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.244583" y="6.083352" z="9.998478" />
+              <center x="1.018009" y="-5.364418e-06" z="-0.07069778" />
+            </size>
+            <size_raw>
+              <max x="6.244583" y="6.083352" z="9.998478" />
+              <center x="1.018008" y="-5.483627e-06" z="-0.07069778" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForjoint_right" tags="part animation" parent="main_engine_blockright">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="2.915003" y="0.5249186" z="-0.03100014" />
+          <quaternion qx="-0.7048743" qy="-0.05547468" qz="-0.05548282" qw="-0.7049798" />
+        </offset>
+        <parts>
+          <part name="joint_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="3" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="4" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="5" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="8" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="9" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="10" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="11" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="12" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="13" ref="generic.sabre_mtl_emissives_unlinked" />
+                  <material id="14" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.586266" y="17.18447" z="13.88305" />
+              <center x="7.08075" y="-2.808247" z="-0.6933961" />
+            </size>
+            <size_raw>
+              <max x="9.575364" y="17.00398" z="13.88305" />
+              <center x="7.069849" y="-2.988737" z="-0.6933966" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForright_main_rig_skin" tags="part animation" parent="joint_right">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="9.6964" y="-11.70666" z="-1.300375" />
+          <quaternion qx="0.7053124" qy="-0.05034212" qz="-0.05034187" qw="-0.7053126" />
+        </offset>
+        <parts>
+          <part name="right_main_rig_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="3" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="4" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="5" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Internal_Pom" />
+                  <material id="8" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="9" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                  <material id="10" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="11" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                  <material id="13" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="14" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="15" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="16" ref="generic.sabre_mtl_emissives_unlinked" />
+                  <material id="17" ref="generic.sabre_mtl_emissives_linked" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.103731" y="20.39167" z="17.49287" />
+              <center x="-0.5895576" y="-8.243092" z="10.48308" />
+            </size>
+            <size_raw>
+              <max x="6.651453" y="12.00765" z="11.86546" />
+              <center x="-0.1372782" y="0.1409359" z="5.705194" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbridge" tags="part ">
+        <offset>
+          <position x="-2.878066" y="-5.496676" z="52.87542" />
+          <quaternion qx="3.244397e-05" qy="3.233811e-05" qz="-1.866829e-05" qw="-1" />
+        </offset>
+        <parts>
+          <part name="bridge">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_int_mtl_heavy_grates" />
+                  <material id="2" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="3" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="4" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="5" ref="generic.aegs_reclaimer_int_mtl_Atlas_int" />
+                  <material id="6" ref="generic.aegs_reclaimer_int_mtl_graphics" />
+                  <material id="7" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="8" ref="generic.aegs_reclaimer_int_mtl_PipeInsulation" />
+                  <material id="9" ref="p1.cockpit_glass_inside_01" />
+                  <material id="10" ref="generic.aegs_reclaimer_int_mtl_Leather" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_int_mtl_heavy_grates" />
+                  <material id="2" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="3" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="4" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="5" ref="generic.aegs_reclaimer_int_mtl_Atlas_int" />
+                  <material id="6" ref="generic.aegs_reclaimer_int_mtl_graphics" />
+                  <material id="7" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="8" ref="generic.aegs_reclaimer_int_mtl_PipeInsulation" />
+                  <material id="9" ref="p1.cockpit_glass_inside_01" />
+                  <material id="10" ref="generic.aegs_reclaimer_int_mtl_Leather" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_int_mtl_heavy_grates" />
+                  <material id="2" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="3" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="4" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="5" ref="generic.aegs_reclaimer_int_mtl_Atlas_int" />
+                  <material id="6" ref="generic.aegs_reclaimer_int_mtl_graphics" />
+                  <material id="7" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="8" ref="generic.aegs_reclaimer_int_mtl_PipeInsulation" />
+                  <material id="9" ref="p1.cockpit_glass_inside_01" />
+                  <material id="10" ref="generic.aegs_reclaimer_int_mtl_Leather" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_int_mtl_heavy_grates" />
+                  <material id="2" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="3" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="4" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="5" ref="generic.aegs_reclaimer_int_mtl_Atlas_int" />
+                  <material id="6" ref="generic.aegs_reclaimer_int_mtl_graphics" />
+                  <material id="7" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="8" ref="generic.aegs_reclaimer_int_mtl_PipeInsulation" />
+                  <material id="9" ref="p1.cockpit_glass_inside_01" />
+                  <material id="10" ref="generic.aegs_reclaimer_int_mtl_Leather" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.899799" y="2.889694" z="13.70195" />
+              <center x="3.860996" y="1.110326" z="-9.461847" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbridge1" tags="part ">
+        <offset>
+          <position x="-2.878066" y="-5.496676" z="52.87542" />
+          <quaternion qx="3.244397e-05" qy="3.233811e-05" qz="-1.866829e-05" qw="-1" />
+        </offset>
+        <parts>
+          <part name="bridge1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bar_1_mat_mtl_POM" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="5" ref="p1effects.p1_gradient_colour" />
+                  <material id="6" ref="generic.aegs_reclaimer_processing_room_mtl_decal_diff" />
+                  <material id="7" ref="generic.aegs_reclaimer_int_mtl_wires" />
+                  <material id="8" ref="generic.aegs_reclaimer_processing_room_mtl_technical_greeble" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="10" ref="generic.aegs_idris_mtl_vents" />
+                  <material id="11" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="13" ref="generic.aegs_reclaimer_int_mtl_loose_wires" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bar_1_mat_mtl_POM" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="5" ref="p1effects.p1_gradient_colour" />
+                  <material id="6" ref="generic.aegs_reclaimer_processing_room_mtl_decal_diff" />
+                  <material id="7" ref="generic.aegs_reclaimer_int_mtl_wires" />
+                  <material id="8" ref="generic.aegs_reclaimer_processing_room_mtl_technical_greeble" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="10" ref="generic.aegs_idris_mtl_vents" />
+                  <material id="11" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="13" ref="generic.aegs_reclaimer_int_mtl_loose_wires" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bar_1_mat_mtl_POM" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="5" ref="p1effects.p1_gradient_colour" />
+                  <material id="6" ref="generic.aegs_reclaimer_processing_room_mtl_decal_diff" />
+                  <material id="7" ref="generic.aegs_reclaimer_int_mtl_wires" />
+                  <material id="8" ref="generic.aegs_reclaimer_processing_room_mtl_technical_greeble" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="10" ref="generic.aegs_idris_mtl_vents" />
+                  <material id="11" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="13" ref="generic.aegs_reclaimer_int_mtl_loose_wires" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bar_1_mat_mtl_POM" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="5" ref="p1effects.p1_gradient_colour" />
+                  <material id="6" ref="generic.aegs_reclaimer_processing_room_mtl_decal_diff" />
+                  <material id="7" ref="generic.aegs_reclaimer_int_mtl_wires" />
+                  <material id="8" ref="generic.aegs_reclaimer_processing_room_mtl_technical_greeble" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="10" ref="generic.aegs_idris_mtl_vents" />
+                  <material id="11" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="13" ref="generic.aegs_reclaimer_int_mtl_loose_wires" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.899799" y="3.149221" z="13.81443" />
+              <center x="3.860996" y="1.350764" z="-9.560728" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_logo" tags="part ">
+        <offset>
+          <position x="0" y="12.841" z="-58.91846" />
+        </offset>
+        <parts>
+          <part name="fx_logo">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_logo" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="14.96962" y="4.830637" z="5.160256" />
+              <center x="-0.002838135" y="4.768372e-07" z="2.384186e-06" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhatch1" tags="part ">
+        <offset>
+          <position x="2.969518" y="1.701141" z="9.000343" />
+          <quaternion qx="3.609787e-05" qy="-0.7071297" qz="-0.7070838" qw="-9.696942e-06" />
+        </offset>
+        <parts>
+          <part name="hatch1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_processing_room_mtl_bare_metal" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="3" ref="generic.aegs_reclaimer_processing_room_mtl_decal_diff" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4079055" y="17.31404" z="1.233488" />
+              <center x="0.2870404" y="-0.0001764297" z="-1.118781" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhatch2" tags="part ">
+        <offset>
+          <position x="-2.970511" y="1.700919" z="8.999955" />
+          <quaternion qx="0.7071297" qy="3.60711e-05" qz="9.670171e-06" qw="-0.7070838" />
+        </offset>
+        <parts>
+          <part name="hatch2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_processing_room_mtl_bare_metal" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="3" ref="generic.aegs_reclaimer_processing_room_mtl_decal_diff" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4079055" y="17.31404" z="1.233488" />
+              <center x="0.2870404" y="-0.0001764297" z="-1.118781" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlift_ladder" group="elevator_01 " tags="part animation require_docked">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="6.553357" y="0.661087" z="33.99427" />
+        </offset>
+        <parts>
+          <part name="lift_ladder">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="3" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="4" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3103423" y="6.726719" z="0.8699913" />
+              <center x="4.768372e-07" y="-3.387768" z="-1.144409e-05" />
+            </size>
+            <size_raw>
+              <max x="0.3103425" y="3.338951" z="0.869991" />
+              <center x="4.991889e-07" y="0" z="-1.001358e-05" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlift_pillar3" group="elevator_01 " tags="part animation require_docked" parent="lift_ladder">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.004995823" y="-1.541306" z="-1.525879e-05" />
+        </offset>
+        <parts>
+          <part name="lift_pillar3">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="3" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="4" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="6" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2525866" y="8.415688" z="0.8475151" />
+              <center x="-0.0036273" y="-5.287811" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.2525865" y="2.63183" z="0.847514" />
+              <center x="-0.003627494" y="0.4960475" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlift_pillar2" group="elevator_01 " tags="part animation require_docked" parent="lift_pillar3">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.0001549721" y="0.2521062" z="0.0001678467" />
+        </offset>
+        <parts>
+          <part name="lift_pillar2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="3" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2476425" y="8.942691" z="0.8415165" />
+              <center x="6.67572e-06" y="-7.465949" z="-3.814697e-06" />
+            </size>
+            <size_raw>
+              <max x="0.2476425" y="1.250873" z="0.841517" />
+              <center x="6.500632e-06" y="0.225868" z="-7.003546e-06" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlift_pillar1" group="elevator_01 " tags="part animation require_docked trigger_interact ui" parent="lift_pillar2">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.001610756" y="-4.950728" z="3.814697e-06" />
+        </offset>
+        <parts>
+          <part name="lift_pillar1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="3" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="4" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="5" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="7" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="8" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="9" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="10" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="11" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5646842" y="10.03675" z="0.8476982" />
+              <center x="0.2052307" y="-5.703564" z="3.814697e-06" />
+            </size>
+            <size_raw>
+              <max x="0.564684" y="2.167742" z="0.8476975" />
+              <center x="0.2052304" y="2.165446" z="4.500151e-06" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlift_coffin" group="elevator_01 " tags="part animation require_docked trigger_interact ui" parent="lift_pillar1">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.43819" y="4.197447" z="0.005584717" />
+        </offset>
+        <parts>
+          <part name="lift_coffin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="3" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="4" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="5" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="7" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="9" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="10" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8994265" y="9.80857" z="1.29052" />
+              <center x="-0.3028064" y="-8.014645" z="3.814697e-06" />
+            </size>
+            <size_raw>
+              <max x="0.8994265" y="3.001561" z="1.29052" />
+              <center x="-0.3028064" y="-1.207638" z="4.470348e-06" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlift_door1" group="elevator_01 " tags="part animation require_docked" parent="lift_pillar1">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.657124" y="1.494254" z="-0.4660835" />
+          <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="lift_door1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="3" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="6" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2462995" y="8.319053" z="0.0953846" />
+              <center x="0.2221522" y="-8.340977" z="-0.07121658" />
+            </size>
+            <size_raw>
+              <max x="0.2462995" y="0.4500415" z="0.0953855" />
+              <center x="0.2221525" y="-0.4719645" z="-0.07121749" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlift_door2" group="elevator_01 " tags="part animation require_docked" parent="lift_pillar1">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.6571231" y="0.525394" z="0.4768982" />
+          <quaternion qx="0" qy="-0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="lift_door2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="3" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="6" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.246315" y="8.319053" z="0.09549141" />
+              <center x="0.2221498" y="-7.372116" z="0.0713501" />
+            </size>
+            <size_raw>
+              <max x="0.246315" y="0.450041" z="0.0954925" />
+              <center x="0.22215" y="0.496895" z="0.0713475" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlift_inner_door" group="elevator_01 " tags="part animation require_docked trigger_interact ui" parent="lift_pillar1">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.2009683" y="3.69783" z="0.005714417" />
+        </offset>
+        <parts>
+          <part name="lift_inner_door">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="3" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="4" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="6" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="8" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                  <material id="9" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.289865" y="10.15117" z="0.4842072" />
+              <center x="-0.1904612" y="-8.984496" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.289865" y="1.172746" z="0.484207" />
+              <center x="-0.190461" y="-0.006067038" z="-9.983778e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlights" tags="part ">
+        <offset>
+          <position x="0" y="1e-06" z="-4e-06" />
+        </offset>
+        <parts>
+          <part name="lights">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_reclaimer_exterior_mtl_Greebles" />
+                  <material id="6" ref="generic.aegs_reclaimer_exterior_mtl_Various_Metals" />
+                  <material id="7" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="8" ref="generic.aegs_reclaimer_exterior_mtl_Rubber_atlas" />
+                  <material id="9" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="10" ref="generic.sabre_mtl_emissives_linked" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.513747" y="1.851826" z="3.281832" />
+              <center x="1.192093e-07" y="-11.177" z="43.43599" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpcs" tags="part ">
+        <offset>
+          <position x="-5.163853e-05" y="3.000089" z="1.375065" />
+          <quaternion qx="3.614183e-05" qy="-0.7070841" qz="9.740917e-06" qw="-0.7071295" />
+        </offset>
+        <parts>
+          <part name="pcs">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="2" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_reclaimer_processing_room_mtl_decal_diff" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="7" ref="generic.aegs_reclaimer_int_mtl_Atlas_int" />
+                  <material id="8" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="9" ref="generic.aegs_reclaimer_processing_room_mtl_bare_metal" />
+                  <material id="10" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="11" ref="generic.aegs_reclaimer_processing_room_mtl_decal_diff" />
+                  <material id="12" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="13" ref="generic.aegs_idris_mtl_vents" />
+                  <material id="14" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="15" ref="generic.aegs_reclaimer_processing_room_mtl_technical_greeble" />
+                  <material id="16" ref="generic.mxox_neu_rep_I_bar_1_mat_mtl_POM" />
+                  <material id="17" ref="p1.cockpit_glass_inside_01" />
+                  <material id="18" ref="generic.aegs_reclaimer_processing_room_mtl_technical_greeble" />
+                  <material id="19" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="2" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_reclaimer_processing_room_mtl_decal_diff" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="7" ref="generic.aegs_reclaimer_int_mtl_Atlas_int" />
+                  <material id="8" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="9" ref="generic.aegs_reclaimer_processing_room_mtl_bare_metal" />
+                  <material id="10" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="11" ref="generic.aegs_reclaimer_processing_room_mtl_decal_diff" />
+                  <material id="12" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="13" ref="generic.aegs_idris_mtl_vents" />
+                  <material id="14" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="15" ref="generic.aegs_reclaimer_processing_room_mtl_technical_greeble" />
+                  <material id="16" ref="generic.mxox_neu_rep_I_bar_1_mat_mtl_POM" />
+                  <material id="17" ref="p1.cockpit_glass_inside_01" />
+                  <material id="18" ref="generic.aegs_reclaimer_processing_room_mtl_technical_greeble" />
+                  <material id="19" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="2" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_reclaimer_processing_room_mtl_decal_diff" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="7" ref="generic.aegs_reclaimer_int_mtl_Atlas_int" />
+                  <material id="8" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="9" ref="generic.aegs_reclaimer_processing_room_mtl_bare_metal" />
+                  <material id="10" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="11" ref="generic.aegs_reclaimer_processing_room_mtl_decal_diff" />
+                  <material id="12" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="13" ref="generic.aegs_idris_mtl_vents" />
+                  <material id="14" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="15" ref="generic.aegs_reclaimer_processing_room_mtl_technical_greeble" />
+                  <material id="16" ref="generic.mxox_neu_rep_I_bar_1_mat_mtl_POM" />
+                  <material id="17" ref="p1.cockpit_glass_inside_01" />
+                  <material id="18" ref="generic.aegs_reclaimer_processing_room_mtl_technical_greeble" />
+                  <material id="19" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="2" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_reclaimer_processing_room_mtl_decal_diff" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="7" ref="generic.aegs_reclaimer_int_mtl_Atlas_int" />
+                  <material id="8" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="9" ref="generic.aegs_reclaimer_processing_room_mtl_bare_metal" />
+                  <material id="10" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="11" ref="generic.aegs_reclaimer_processing_room_mtl_decal_diff" />
+                  <material id="12" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="13" ref="generic.aegs_idris_mtl_vents" />
+                  <material id="14" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                  <material id="15" ref="generic.aegs_reclaimer_processing_room_mtl_technical_greeble" />
+                  <material id="16" ref="generic.mxox_neu_rep_I_bar_1_mat_mtl_POM" />
+                  <material id="17" ref="p1.cockpit_glass_inside_01" />
+                  <material id="18" ref="generic.aegs_reclaimer_processing_room_mtl_technical_greeble" />
+                  <material id="19" ref="generic.aegs_reclaimer_processing_room_mtl_industrial_panels_da" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="21.31878" y="8.586481" z="6.499981" />
+              <center x="-7.056232" y="-2.830027" z="-5.483627e-06" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpersonnel_door1" group="elevator_01 " tags="part animation require_docked">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="5.568935" y="-9.690823" z="35.57281" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+          <part name="personnel_door1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_glows" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.02041" y="0.6012292" z="0.09282303" />
+              <center x="1.02041" y="-0.6012354" z="-0.07579041" />
+            </size>
+            <size_raw>
+              <max x="1.02041" y="0.6012289" z="0.092822" />
+              <center x="1.02041" y="-0.6012365" z="-0.07579" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpersonnel_door2" group="elevator_01 " tags="part animation require_docked">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="5.568935" y="-8.090558" z="32.53616" />
+          <quaternion qx="0.4146933" qy="0" qz="0" qw="-0.9099612" />
+        </offset>
+        <parts>
+          <part name="personnel_door2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_reclaimer_exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.021948" y="1.218376" z="0.08481026" />
+              <center x="1.021948" y="-1.21054" z="0.0837822" />
+            </size>
+            <size_raw>
+              <max x="1.021948" y="1.218376" z="0.08481102" />
+              <center x="1.021947" y="-1.210541" z="0.08378401" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForMount" tags="part ">
+        <offset>
+          <position x="0" y="-11.90119" z="0" />
+        </offset>
+        <parts>
+          <part name="Mount">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.AEGS_Reclaimer_Exterior_mtl_Internal_Pom" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="5" ref="generic.aegs_hammerhead_turrets_mtl_painted_metal_dark_2" />
+                  <material id="6" ref="generic.AEGS_Reclaimer_Exterior_mtl_Greebles" />
+                  <material id="7" ref="generic.AEGS_Reclaimer_Exterior_mtl_Dirt_Mask" />
+                  <material id="8" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="9" ref="generic.AEGS_Reclaimer_Exterior_mtl_Rubber_atlas" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="11" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.485796" y="5.605215" z="20.85737" />
+              <center x="0" y="-2.680146" z="-0.5179501" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForBig_Piston_Mount_Top_Left" tags="part animation" parent="Mount">
+        <animations>
+					<animation name="scraphatch_closed" start="1" end="1"/>
+					<animation name="scraphatch_opening" start="1" end="80"/>
+					<animation name="scraphatch_open" start="80" end="80"/>
+					<animation name="scraphatch_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="5.436001" y="-3.769845" z="5.558369" />
+          <quaternion qx="-0.1226813" qy="0.02020786" qz="0.002498393" qw="-0.9922372" />
+        </offset>
+        <parts>
+          <part name="Big_Piston_Mount_Top_Left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.AEGS_Reclaimer_Exterior_mtl_Greebles" />
+                  <material id="5" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="7" ref="generic.aegs_hammerhead_turrets_mtl_painted_metal_dark_2" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.687798" y="1.531583" z="12.3732" />
+              <center x="-0.3626204" y="0.001790047" z="10.83201" />
+            </size>
+            <size_raw>
+              <max x="1.687798" y="1.531583" z="7.000585" />
+              <center x="-0.3626199" y="0.001789987" z="5.459399" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForBig_Piston_Mount_Top_Right" tags="part animation" parent="Mount">
+        <animations>
+					<animation name="scraphatch_closed" start="1" end="1"/>
+					<animation name="scraphatch_opening" start="1" end="80"/>
+					<animation name="scraphatch_open" start="80" end="80"/>
+					<animation name="scraphatch_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-5.435632" y="-3.769845" z="5.558369" />
+          <quaternion qx="-0.1226816" qy="-0.020194" qz="-0.002496882" qw="-0.9922375" />
+        </offset>
+        <parts>
+          <part name="Big_Piston_Mount_Top_Right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.AEGS_Reclaimer_Exterior_mtl_Greebles" />
+                  <material id="5" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="7" ref="generic.aegs_hammerhead_turrets_mtl_painted_metal_dark_2" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.687798" y="1.531583" z="12.3732" />
+              <center x="0.3626199" y="-0.001790047" z="10.83201" />
+            </size>
+            <size_raw>
+              <max x="1.687798" y="1.531583" z="7.000587" />
+              <center x="0.3626199" y="-0.001789987" z="5.4594" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForMain_Arm" tags="part animation" parent="Mount">
+        <animations>
+					<animation name="scraphatch_closed" start="1" end="1"/>
+					<animation name="scraphatch_opening" start="1" end="80"/>
+					<animation name="scraphatch_open" start="80" end="80"/>
+					<animation name="scraphatch_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="-3.297381" z="-3.034518" />
+          <quaternion qx="0.5005791" qy="0.5005792" qz="0.4994203" qw="-0.4994201" />
+        </offset>
+        <parts>
+          <part name="Main_Arm">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_painted_metal_dark_2" />
+                  <material id="5" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="6" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="7" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="8" ref="generic.AEGS_Reclaimer_Exterior_mtl_Rubber_atlas" />
+                  <material id="9" ref="generic.AEGS_Reclaimer_Exterior_mtl_Various_Metals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="23.65793" y="3.357993" z="7.308995" />
+              <center x="18.31672" y="2.622604e-06" z="3.131312" />
+            </size>
+            <size_raw>
+              <max x="23.65793" y="3.357991" z="3.615282" />
+              <center x="18.31672" y="9.536743e-07" z="-0.5624018" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForForearm_Carriage" tags="part animation" parent="Main_Arm">
+        <animations>
+					<animation name="scraphatch_closed" start="1" end="1"/>
+					<animation name="scraphatch_opening" start="1" end="80"/>
+					<animation name="scraphatch_open" start="80" end="80"/>
+					<animation name="scraphatch_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="28.79972" y="9.999999e-07" z="-2.090935" />
+          <quaternion qx="2.763256e-10" qy="-5.960464e-08" qz="1.19209e-07" qw="-1" />
+        </offset>
+        <parts>
+          <part name="Forearm_Carriage">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_painted_metal_dark_2" />
+                  <material id="5" ref="generic.AEGS_Reclaimer_Exterior_mtl_Greebles" />
+                  <material id="6" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="7" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="9" ref="generic.AEGS_Reclaimer_Exterior_mtl_Various_Metals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="15.39357" y="4.983824" z="11.78513" />
+              <center x="-8.018253" y="4.768372e-07" z="7.742628" />
+            </size>
+            <size_raw>
+              <max x="15.39357" y="4.983822" z="4.039369" />
+              <center x="-8.018251" y="-4.768372e-07" z="-0.003131866" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForBig_Piston_Mount_Bottom_Left" tags="part animation" parent="Forearm_Carriage">
+        <animations>
+					<animation name="scraphatch_closed" start="1" end="1"/>
+					<animation name="scraphatch_opening" start="1" end="80"/>
+					<animation name="scraphatch_open" start="80" end="80"/>
+					<animation name="scraphatch_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-4.198759" y="4.763" z="-2.468203" />
+          <quaternion qx="0.4454965" qy="0.4227697" qz="-0.5491204" qw="-0.5668029" />
+        </offset>
+        <parts>
+          <part name="Big_Piston_Mount_Bottom_Left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.AEGS_Reclaimer_Exterior_mtl_Various_Metals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.087915" y="1.284287" z="16.22087" />
+              <center x="0.1334443" y="-0.02826595" z="14.89038" />
+            </size>
+            <size_raw>
+              <max x="1.087914" y="1.284285" z="8.475103" />
+              <center x="0.133445" y="-0.02826697" z="7.144621" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForBig_Piston_Mount_Bottom_Right" tags="part animation" parent="Forearm_Carriage">
+        <animations>
+					<animation name="scraphatch_closed" start="1" end="1"/>
+					<animation name="scraphatch_opening" start="1" end="80"/>
+					<animation name="scraphatch_open" start="80" end="80"/>
+					<animation name="scraphatch_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-4.198759" y="-4.763092" z="-2.468204" />
+          <quaternion qx="0.422768" qy="0.4454919" qz="-0.5668045" qw="-0.5491238" />
+        </offset>
+        <parts>
+          <part name="Big_Piston_Mount_Bottom_Right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.AEGS_Reclaimer_Exterior_mtl_Various_Metals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.087915" y="1.284286" z="16.2132" />
+              <center x="-0.1334448" y="0.02826786" z="14.88271" />
+            </size>
+            <size_raw>
+              <max x="1.087914" y="1.284284" z="8.467431" />
+              <center x="-0.133444" y="0.02826649" z="7.136943" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForForearm_Base" tags="part animation" parent="Forearm_Carriage">
+        <animations>
+					<animation name="scraphatch_closed" start="1" end="1"/>
+					<animation name="scraphatch_opening" start="1" end="80"/>
+					<animation name="scraphatch_open" start="80" end="80"/>
+					<animation name="scraphatch_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-3.111578" y="1.662079e-07" z="1.101583" />
+          <quaternion qx="5.526024e-10" qy="-1.192093e-07" qz="2.38418e-07" qw="-1" />
+        </offset>
+        <parts>
+          <part name="Forearm_Base">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="2" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="3" ref="generic.AEGS_Reclaimer_Exterior_mtl_Greebles" />
+                  <material id="4" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="5" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="6" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Text" />
+                  <material id="7" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="8" ref="generic.AEGS_Reclaimer_Exterior_mtl_Various_Metals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.694517" y="3.411293" z="13.61757" />
+              <center x="3.295085" y="4.768372e-07" z="11.26755" />
+            </size>
+            <size_raw>
+              <max x="5.694515" y="3.411292" z="2.742872" />
+              <center x="3.295088" y="1.192093e-07" z="0.3928514" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForForearm_Geo" tags="part " parent="Forearm_Base">
+        <offset>
+          <position x="6.995905" y="1.979681e-06" z="-0.3015925" />
+          <quaternion qx="1.192093e-07" qy="-1.036936e-07" qz="1" qw="-1.629202e-07" />
+        </offset>
+        <parts>
+          <part name="Forearm_Geo">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.aegs_hammerhead_turrets_mtl_painted_metal_dark_2" />
+                  <material id="5" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="6" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="7" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="8" ref="generic.AEGS_Reclaimer_Exterior_mtl_Various_Metals" />
+                  <material id="9" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="10.86523" y="2.247187" z="14.53935" />
+              <center x="-8.959584" y="3.33786e-06" z="10.3989" />
+            </size>
+            <size_raw>
+              <max x="10.86523" y="2.247186" z="3.664658" />
+              <center x="-8.959583" y="3.33786e-06" z="-0.4758" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForHead" tags="part " parent="Forearm_Geo">
+        <offset>
+          <position x="-18.12189" y="3.397203e-06" z="0.008280456" />
+          <quaternion qx="5.960464e-08" qy="1.039699e-07" qz="-1" qw="-2.821292e-07" />
+        </offset>
+        <parts>
+          <part name="Head">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="4" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="5" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="6" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="7" ref="generic.AEGS_Reclaimer_Exterior_mtl_Various_Metals" />
+                  <material id="8" ref="generic.aegs_hammerhead_turrets_mtl_painted_metal_dark_2" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.78457" y="4.589581" z="14.18923" />
+              <center x="1.868238" y="-3.33786e-06" z="10.9147" />
+            </size>
+            <size_raw>
+              <max x="3.784568" y="4.58958" z="3.314537" />
+              <center x="1.86824" y="-3.814697e-06" z="0.04000199" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForFinger_BL_Cylinder" tags="part animation" parent="Head">
+        <animations>
+					<animation name="scraphatch_closed" start="1" end="1"/>
+					<animation name="scraphatch_opening" start="1" end="80"/>
+					<animation name="scraphatch_open" start="80" end="80"/>
+					<animation name="scraphatch_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="3.774685" y="-1.278428" z="-2.191833" />
+          <quaternion qx="1" qy="-5.960448e-08" qz="-5.960464e-08" qw="-4.357324e-08" />
+        </offset>
+        <parts>
+          <part name="Finger_BL_Cylinder">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="2" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.AEGS_Reclaimer_Exterior_mtl_Various_Metals" />
+                  <material id="5" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Text" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.365352" y="1.564992" z="12.47878" />
+              <center x="2.10015" y="1.243324" z="10.16323" />
+            </size>
+            <size_raw>
+              <max x="4.365349" y="1.564991" z="1.604089" />
+              <center x="2.100153" y="1.243324" z="-0.7114598" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForFinger_BR_Cylinder" tags="part animation" parent="Head">
+        <animations>
+					<animation name="scraphatch_closed" start="1" end="1"/>
+					<animation name="scraphatch_opening" start="1" end="80"/>
+					<animation name="scraphatch_open" start="80" end="80"/>
+					<animation name="scraphatch_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="3.774685" y="1.147654" z="-2.191831" />
+          <quaternion qx="-1.381322e-10" qy="-2.980232e-08" qz="-5.960447e-08" qw="-1" />
+        </offset>
+        <parts>
+          <part name="Finger_BR_Cylinder">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="2" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.AEGS_Reclaimer_Exterior_mtl_Various_Metals" />
+                  <material id="5" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Text" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.365351" y="1.564992" z="12.47878" />
+              <center x="2.100143" y="1.243324" z="11.58615" />
+            </size>
+            <size_raw>
+              <max x="4.365349" y="1.564991" z="1.604089" />
+              <center x="2.100145" y="1.243324" z="0.7114586" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForFinger_TL_Cylinder" tags="part animation" parent="Head">
+        <animations>
+					<animation name="scraphatch_closed" start="1" end="1"/>
+					<animation name="scraphatch_opening" start="1" end="80"/>
+					<animation name="scraphatch_open" start="80" end="80"/>
+					<animation name="scraphatch_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="4.362167" y="-3.742619" z="0.7283289" />
+          <quaternion qx="-0.1379075" qy="0.7743618" qz="0.5902627" qw="-0.1814808" />
+        </offset>
+        <parts>
+          <part name="Finger_TL_Cylinder">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="2" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.AEGS_Reclaimer_Exterior_mtl_Various_Metals" />
+                  <material id="5" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Text" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.000157" y="1.408878" z="12.67818" />
+              <center x="-2.630462" y="1.398224" z="10.77465" />
+            </size>
+            <size_raw>
+              <max x="4.000155" y="1.408876" z="1.803486" />
+              <center x="-2.630461" y="1.398224" z="-0.1000445" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForFinger_TR_Cylinder" tags="part animation" parent="Head">
+        <animations>
+					<animation name="scraphatch_closed" start="1" end="1"/>
+					<animation name="scraphatch_opening" start="1" end="80"/>
+					<animation name="scraphatch_open" start="80" end="80"/>
+					<animation name="scraphatch_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="4.412842" y="3.023121" z="3.436277" />
+          <quaternion qx="0.1317599" qy="0.7745482" qz="-0.5943308" qw="-0.1717126" />
+        </offset>
+        <parts>
+          <part name="Finger_TR_Cylinder">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="2" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="4" ref="generic.AEGS_Reclaimer_Exterior_mtl_Various_Metals" />
+                  <material id="5" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Text" />
+                  <material id="6" ref="generic.aegs_hammerhead_turrets_mtl_orange_panel" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.016362" y="1.408878" z="12.606" />
+              <center x="-2.618397" y="1.398224" z="10.84563" />
+            </size>
+            <size_raw>
+              <max x="4.01636" y="1.408877" z="1.731308" />
+              <center x="-2.618396" y="1.398224" z="-0.02906001" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForIntake_Funnel" tags="part " parent="Head">
+        <offset>
+          <position x="3.457096" y="-1.000006e-06" z="0.7251962" />
+          <quaternion qx="-5.380945e-09" qy="5.48504e-09" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+        <parts>
+          <part name="Intake_Funnel">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Text" />
+                  <material id="2" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="3" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="4" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="5" ref="generic.AEGS_Reclaimer_Exterior_mtl_Various_Metals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.315693" y="1.567139" z="13.65864" />
+              <center x="-1.579163e-06" y="0.5606747" z="10.65962" />
+            </size>
+            <size_raw>
+              <max x="1.315691" y="1.567137" z="2.783946" />
+              <center x="4.768372e-07" y="0.5606744" z="-0.2150705" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForCrusher_Left" tags="part animation" parent="Intake_Funnel">
+        <animations>
+					<animation name="loop" start="1" end="80"/>
+				</animations>
+        <offset>
+          <position x="-0.50802" y="0.3889275" z="2.487129" />
+          <quaternion qx="4.599027e-07" qy="0.7071068" qz="-0.7071068" qw="-2.58864e-07" />
+        </offset>
+        <parts>
+          <part name="Crusher_Left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="2" ref="generic.AEGS_Reclaimer_Exterior_mtl_Various_Metals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7254881" y="1.960076" z="11.60018" />
+              <center x="-2.086163e-06" y="2.520542" z="10.87469" />
+            </size>
+            <size_raw>
+              <max x="0.725486" y="1.960075" z="0.7254858" />
+              <center x="1.490116e-08" y="2.520542" z="-9.834766e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForCrusher_Right" tags="part animation" parent="Intake_Funnel">
+        <animations>
+					<animation name="loop" start="1" end="80"/>
+				</animations>
+        <offset>
+          <position x="0.5080159" y="0.3969536" z="-2.657715" />
+          <quaternion qx="-3.288514e-07" qy="-0.7071068" qz="-0.7071068" qw="-3.285645e-07" />
+        </offset>
+        <parts>
+          <part name="Crusher_Right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.AEGS_Reclaimer_Exterior_mtl_Decal_Pom_Spec_Blend" />
+                  <material id="2" ref="generic.AEGS_Reclaimer_Exterior_mtl_Various_Metals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7254881" y="1.960076" z="11.60018" />
+              <center x="-2.086163e-06" y="2.520542" z="10.87469" />
+            </size>
+            <size_raw>
+              <max x="0.725486" y="1.960075" z="0.7254858" />
+              <center x="1.490116e-08" y="2.520542" z="-9.834766e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_scrap_start" group="hatch_01" tags="scrap start" parent="Intake_Funnel">
+				<offset>
+          <position x="-8.279783e-06" y="30" z="0.07762551" />
+          <quaternion qx="-1.416685e-07" qy="0.7079257" qz="0.7062869" qw="-1.730654e-07" />
+        </offset>
+			</connection>
+			<connection name="con_scrap_end" group="hatch_01" tags="scrap end " parent="Intake_Funnel">
+				<offset>
+          <position x="-8.279783e-06" y="60" z="0.07762551" />
+          <quaternion qx="-1.416685e-07" qy="0.7079257" qz="0.7062869" qw="-1.730654e-07" />
+        </offset>
+			</connection>
+      <connection name="con_dismantleprocessor" tags="dismantleprocessor">
+				<offset>
+          <position x="-8.279783e-06" y="30" z="0.07762551" />
+          <quaternion qx="-1.416685e-07" qy="0.7079257" qz="0.7062869" qw="-1.730654e-07" />
+        </offset>
+			</connection>
+
+      <connection name="Connectionthruster" tags="part animation  ">
+        <offset>
+          <position x="14.91888" y="3.717825" z="26.18102" />
+          <quaternion qx="-0.748722" qy="-0.1564339" qz="0.3177836" qw="-0.5603191" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_01"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster001" tags="part animation  ">
+        <offset>
+          <position x="-14.9189" y="3.717825" z="26.18102" />
+          <quaternion qx="-0.748722" qy="0.1564339" qz="-0.3177836" qw="-0.5603191" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_02"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster002" tags="part animation  ">
+        <offset>
+          <position x="-11.82893" y="1.175626" z="31.76841" />
+          <quaternion qx="0.08603792" qy="-0.7622742" qz="-0.07555942" qw="-0.637045" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_03"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster003" tags="part animation  ">
+        <offset>
+          <position x="11.8289" y="1.175626" z="31.76841" />
+          <quaternion qx="0.08603792" qy="0.7622742" qz="0.07555941" qw="-0.637045" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_04"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster004" tags="part animation  ">
+        <offset>
+          <position x="19.30617" y="-1.935968" z="23.63052" />
+          <quaternion qx="-0.05506461" qy="0.9446648" qz="0.05513597" qw="-0.3186476" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_05"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster005" tags="part animation  ">
+        <offset>
+          <position x="-19.3062" y="-1.935968" z="23.63052" />
+          <quaternion qx="-0.05360244" qy="-0.9359998" qz="-0.05655852" qw="-0.3432671" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_06"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster006" tags="part animation  ">
+        <offset>
+          <position x="-4.054111" y="24.97637" z="-73.11474" />
+          <quaternion qx="-0.6691306" qy="0" qz="0" qw="-0.7431448" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_07"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster007" tags="part animation  ">
+        <offset>
+          <position x="4.05411" y="24.97637" z="-73.11474" />
+          <quaternion qx="-0.6691306" qy="0" qz="0" qw="-0.7431448" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_08"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster008" tags="part animation  ">
+        <offset>
+          <position x="6.192536" y="-14.98068" z="-41.02979" />
+          <quaternion qx="0.6087614" qy="0" qz="0" qw="-0.7933534" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_09"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster009" tags="part animation  ">
+        <offset>
+          <position x="-6.19254" y="-14.98068" z="-41.02979" />
+          <quaternion qx="0.6087614" qy="0" qz="0" qw="-0.7933534" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_10"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster010" tags="part animation  " parent="joint_right">
+        <offset>
+          <position x="9.990093" y="4.662339" z="-12.39954" />
+          <quaternion qx="0.01737713" qy="0.007283465" qz="0.0001275655" qw="-0.9998225" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_11"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster016" tags="part animation  " parent="joint_right">
+        <offset>
+          <position x="10.00693" y="13.01102" z="7.697758" />
+          <quaternion qx="-0.001019825" qy="0.707159" qz="-0.7070531" qw="-0.001019467" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_12"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster017" tags="part animation  " parent="joint_right">
+        <offset>
+          <position x="10.02865" y="13.01135" z="5.508346" />
+          <quaternion qx="-0.001019825" qy="0.707159" qz="-0.7070531" qw="-0.001019467" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_13"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster018" tags="part animation  " parent="joint_right">
+        <offset>
+          <position x="10.03625" y="13.01299" z="-5.466741" />
+          <quaternion qx="-0.007190838" qy="0.7071232" qz="-0.7070172" qw="-0.00718955" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_14"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster019" tags="part animation  " parent="joint_right">
+        <offset>
+          <position x="10.00469" y="13.01333" z="-7.726761" />
+          <quaternion qx="-0.001019825" qy="0.707159" qz="-0.7070531" qw="-0.001019467" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_15"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster011" tags="part animation  " parent="joint_left">
+        <offset>
+          <position x="-9.996021" y="4.660482" z="-12.3598" />
+          <quaternion qx="0.01745196" qy="-0.007288565" qz="-0.0001272223" qw="-0.9998211" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_16"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster012" tags="part animation  " parent="joint_left">
+        <offset>
+          <position x="-10.09631" y="13.01217" z="-7.688381" />
+          <quaternion qx="-0.001016015" qy="-0.7071061" qz="0.7071061" qw="-0.001016076" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_17"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster013" tags="part animation  " parent="joint_left">
+        <offset>
+          <position x="-10.11847" y="13.01217" z="-5.480392" />
+          <quaternion qx="-0.001016015" qy="-0.7071061" qz="0.7071061" qw="-0.001016076" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_18"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster014" tags="part animation  " parent="joint_left">
+        <offset>
+          <position x="-10.11503" y="13.01217" z="5.524269" />
+          <quaternion qx="-0.001016015" qy="-0.7071061" qz="0.7071061" qw="-0.001016076" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_19"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster015" tags="part animation  " parent="joint_left">
+        <offset>
+          <position x="-10.06603" y="13.01217" z="7.687403" />
+          <quaternion qx="-0.001016015" qy="-0.7071061" qz="0.7071061" qw="-0.001016076" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_20"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster020" tags="part animation  " parent="body_right">
+        <offset>
+          <position x="7.550043" y="0.1951294" z="5.318165" />
+          <quaternion qx="-1" qy="2.499996e-06" qz="-4.100008e-05" qw="-4.926279e-07" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_21"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster021" tags="part animation  " parent="body_left001">
+        <offset>
+          <position x="-7.547216" y="-0.1949043" z="-5.30896" />
+          <quaternion qx="-6.5747e-08" qy="-0.002375009" qz="2.499956e-06" qw="-0.9999972" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_22"/>
+				</parts>
+      </connection>
+
+      <connection name="Connection36" group="pilotcontrol" tags="part ui">
+				<offset>
+          <position x="-3.859" y="-6.12" z="55.148" />
+        </offset>
+				<parts>
+					<part ref="reclaimer_seat.seat" name="seat"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="seat">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connection37" tags="part iklink  " group="pilotcontrol" parent="seat">
+				<parts>
+					<part ref="reclaimer_seat.seat_mesh" name="seat_mesh"/>
+				</parts>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair " >
+				<offset>
+					<position x="-3.859" y="-5.89634" z="53.8111" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor " >
+				<offset>
+					<position x="-3.859" y="-4.89634" z="54.8111" />
+				</offset>
+			</connection>
+
+      <connection name="Connection38" group="gunnercontrol" tags="part ui">
+				<offset>
+          <position x="-1.876" y="-6.125" z="55.148" />
+        </offset>
+				<parts>
+					<part ref="reclaimer_seat.seat" name="seat1"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_control02" tags="npc service sit iklink" value="-1" group="gunnercontrol" parent="seat1">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connection39" tags="part iklink  " group="gunnercontrol" parent="seat1">
+				<parts>
+					<part ref="reclaimer_seat.seat_mesh" name="seat_mesh1"/>
+				</parts>
+			</connection>
+      <connection name="con_tochair002" group="gunnercontrol" tags="tochair " >
+				<offset>
+					<position x="-1.876" y="-5.89634" z="53.8111" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor002" group="gunnercontrol" tags="uianchor " >
+				<offset>
+					<position x="-1.876" y="-4.89634" z="54.8111" />
+				</offset>
+			</connection>
+
+      <connection name="Connection74" tags="part">
+				<offset>
+          <position x="5.28899" y="-4.251485" z="36.45956" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_02.detail_l_airlock" name="detail_l_airlock"/>
+				</parts>
+			</connection>
+			<connection name="Connection75" tags="part  " parent="detail_l_airlock">
+				<offset>
+          <position x="0" y="0" z="-0.35" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_02.detail_xl_switch" name="detail_xl_switch"/>
+				</parts>
+			</connection>
+			<connection name="Connection76" group="cabin_01" tags="part  " parent="detail_l_airlock">
+				<offset>
+					<quaternion qx="-0" qy="-0.8191521" qz="-0" qw="-0.5735763"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_02.detail_l_door" name="detail_l_door"/>
+				</parts>
+			</connection>
+      <connection name="con_npc_stand_001" group="cabin_01 " tags="npc_waypoint stand npctransport ">
+				<offset>
+          <position x="5.28899" y="-5.551485" z="36.45956" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="0" y="-0.384017" z="-95.0536" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+      
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="-3.859" y="-4.89634" z="54.8111" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+        <offset>
+					<position x="-3.859" y="-4.89634" z="54.8111" />
+				</offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-21.2841" z="60"/>
+				</offset>
+			</connection>
+      <connection name="con_dockarea" tags="dockarea ">
+        <offset>
+					<position x="0" y="12.3095" z="-7.10245"/>
+				</offset>
+			</connection>
+      <connection name="con_shipstorage" tags="dockingbay ">
+			</connection>
+      <connection name="con_storage01" tags="storage ">
+			</connection>
+
+      <connection name="con_engine_01" tags="engine medium component aegs_reclaimer" parent="joint_left">
+				<offset>
+          <position x="-9.705753" y="-16.51155" z="-1.852008" />
+          <quaternion qx="0.7065973" qy="0.007144989" qz="0.007154556" qw="-0.7075437" />
+        </offset>
+			</connection>
+      <connection name="con_engine_02" tags="engine medium component aegs_reclaimer" parent="joint_right">
+				<offset>
+          <position x="9.31015" y="-16.28943" z="-1.817225" />
+          <quaternion qx="0.7065798" qy="-0.0009820338" qz="-0.0009836548" qw="-0.707632" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield medium aegs_s2 industrial">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield medium aegs_s2 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_04" tags="component shield medium aegs_s2 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      <connection name="con_turret_s_001" tags="turret small component combat aegs_reclaimer">
+				<offset>
+          <position x="-1.4e-05" y="26.25" z="-45" />
+        </offset>
+			</connection>
+      <connection name="con_turret_s_002" tags="turret small component combat aegs_reclaimer">
+				<offset>
+          <position x="-1.8e-05" y="-19.25" z="-18.875" />
+          <quaternion qx="-1" qy="0" qz="0" qw="-7.54979e-08" />
+        </offset>
+			</connection>
+      <connection name="con_turret_s_003" tags="turret small component combat aegs_reclaimer">
+				<offset>
+          <position x="-7.125006" y="-0.8749992" z="49.875" />
+          <quaternion qx="-0.09229599" qy="-0.09229596" qz="-0.7010573" qw="-0.7010575" />
+        </offset>
+			</connection>
+      <connection name="con_turret_s_004" tags="turret small component combat aegs_reclaimer">
+				<offset>
+          <position x="6.875005" y="-0.875001" z="49.875" />
+          <quaternion qx="-0.09229599" qy="0.09229596" qz="0.7010573" qw="-0.7010575" />
+        </offset>
+			</connection>
+      <connection name="con_turret_s_005" tags="turret small component combat aegs_reclaimer">
+				<offset>
+          <position x="-11.3782" y="-1.859999" z="-82.375" />
+          <quaternion qx="-0.8660254" qy="0.5" qz="3.774895e-08" qw="-6.53831e-08" />
+        </offset>
+			</connection>
+      <connection name="con_turret_s_006" tags="turret small component combat aegs_reclaimer">
+				<offset>
+          <position x="11.245" y="-1.707" z="-82.375" />
+          <quaternion qx="-0.8660253" qy="-0.5000001" qz="-3.774896e-08" qw="-6.53831e-08" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_001" tags="turret medium component combat aegs_javelin_s5">
+				<offset>
+          <position x="0" y="16.97259" z="35.66688" />
+          <quaternion qx="-0.01745241" qy="0" qz="0" qw="-0.9998477" />
+        </offset>
+			</connection>
+
+      
+
+
+
+    </connections>
+  </component>
+</components>

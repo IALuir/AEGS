@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-03 10:40:35 from Blender-->
+<components>
+  <component name="constellation_andromeda_turret_mxa" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\constellation\constellation_andromeda_turret_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionFornose_turret_door_top_left" tags="part animation">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="60"/>
+					<animation name="turret_active" start="60" end="60"/>
+					<animation name="turret_deactivating" start="60" end="120"/>
+					<animation name="gun_firing" start="60" end="60"/>
+				</animations>
+        <offset>
+          <position x="0.004477888" y="-1.790043" z="-2.417029" />
+          <quaternion qx="0" qy="0" qz="0.0697565" qw="-0.9975641" />
+        </offset>
+        <parts>
+          <part name="nose_turret_door_top_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="7" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.564157" y="1.052913" z="4.420595" />
+              <center x="-1.825029" y="2.650419" z="2.546083" />
+            </size>
+            <size_raw>
+              <max x="0.937715" y="0.8627889" z="4.367656" />
+              <center x="-1.198587" y="2.460295" z="2.493144" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFornose_turret_door_top_right" tags="part animation">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="60"/>
+					<animation name="turret_active" start="60" end="60"/>
+					<animation name="turret_deactivating" start="60" end="120"/>
+					<animation name="gun_firing" start="60" end="60"/>
+				</animations>
+        <offset>
+          <position x="-0.004478" y="-1.79004" z="-2.41703" />
+          <quaternion qx="0" qy="0" qz="-0.0697565" qw="-0.9975641" />
+        </offset>
+        <parts>
+          <part name="nose_turret_door_top_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="7" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.580591" y="1.052912" z="4.418734" />
+              <center x="1.842335" y="2.650293" z="2.54422" />
+            </size>
+            <size_raw>
+              <max x="0.9377149" y="0.862789" z="4.367656" />
+              <center x="1.199459" y="2.460171" z="2.493143" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForturret_body" tags="part animation">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="60"/>
+					<animation name="turret_active" start="60" end="60"/>
+					<animation name="turret_deactivating" start="60" end="120"/>
+					<animation name="gun_firing" start="60" end="60"/>
+				</animations>
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <offset>
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="turret_body">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_int_metal_a" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="9" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_int_metal_a" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="9" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_int_metal_a" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="9" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_int_metal_a" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="9" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.108458" y="1.661386" z="1.995707" />
+              <center x="0.0004611015" y="1.280017" z="-0.1669805" />
+            </size>
+            <size_raw>
+              <max x="1.108458" y="0.9113865" z="1.995707" />
+              <center x="0.0004610717" y="0.5300175" z="-0.1669805" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordetail" tags="part animation" parent="turret_body">
+        <animations>
+					<animation name="turret_inactive" start="1" end="1"/>
+					<animation name="turret_activating" start="1" end="60"/>
+					<animation name="turret_active" start="60" end="60"/>
+					<animation name="turret_deactivating" start="60" end="120"/>
+					<animation name="gun_firing" start="60" end="60"/>
+				</animations>
+        <offset>
+          <position x="0.004999004" y="-0.2089872" z="0.02785683" />
+          <quaternion qx="0" qy="1" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="detail">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.115092" y="0.8617934" z="1.126523" />
+              <center x="0.0166473" y="0.7726396" z="0.02763557" />
+            </size>
+            <size_raw>
+              <max x="1.098445" y="0.08915377" z="1.098445" />
+              <center x="0" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormxa_core" tags="part " parent="turret_body">
+        <offset>
+          <position x="0.781612" y="0.3751055" z="0.02672165" />
+          <quaternion qx="0" qy="1" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-90.0 "/>
+							<max value="5 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="mxa_core">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.170074" y="0.9124245" z="1.910058" />
+              <center x="1.563446" y="0.762126" z="-1.188717" />
+            </size>
+            <size_raw>
+              <max x="1.38824" y="0.1624245" z="1.505669" />
+              <center x="0.781612" y="0.01212597" z="-0.8377721" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser002" tags="laser " parent="mxa_core">
+        <offset>
+          <position x="-0.4056664" y="2.980232e-08" z="2.376265" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="laser003" tags="laser " parent="mxa_core">
+        <offset>
+          <position x="1.964098" y="0" z="2.376265" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      
+
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_constellation">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-10-03 16:15:59 from Blender-->
+<components>
+  <component name="turret_aegs_m_missile" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\javelin\turret_aegs_m_missile_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForpart_main" tags="forceoutline iklink part" >
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-30.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="part_main" wreck="part_main-wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.javelin_exterior_blackedout_mtl_decal_pom" />
+                  <material id="2" ref="generic.javelin_exterior_blackedout_mtl_Dark_Panel" />
+                  <material id="3" ref="generic.javelin_exterior_blackedout_mtl_Black_Panel" />
+                  <material id="4" ref="generic.javelin_exterior_blackedout_mtl_Black_No_Panel" />
+                  <material id="5" ref="generic.javelin_exterior_blackedout_mtl_Various_Materials" />
+                  <material id="6" ref="generic.javelin_exterior_blackedout_mtl_Emissive_Alpha" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.802606" y="2.639533" z="3.222081" />
+              <center x="7.987022e-06" y="-1.15633e-05" z="-0.9373996" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="con_guided_01" tags="rocket " parent="part_main">
+        <offset>
+          <position x="-2.561677" y="0.7915024" z="2.665684" />
+        </offset>
+      </connection>
+      <connection name="con_guided_02" tags="rocket " parent="part_main">
+        <offset>
+          <position x="-1.011212" y="0.7915024" z="2.665684" />
+        </offset>
+      </connection>
+      <connection name="con_guided_03" tags="rocket " parent="part_main">
+        <offset>
+          <position x="1.086813" y="0.7915024" z="2.665684" />
+        </offset>
+      </connection>
+      <connection name="con_guided_04" tags="rocket " parent="part_main">
+        <offset>
+          <position x="2.446476" y="0.7915024" z="2.665684" />
+        </offset>
+      </connection>
+      <connection name="con_guided_05" tags="rocket " parent="part_main">
+        <offset>
+          <position x="-2.561677" y="-0.7950283" z="2.665684" />
+        </offset>
+      </connection>
+      <connection name="con_guided_06" tags="rocket " parent="part_main">
+        <offset>
+          <position x="-1.011212" y="-0.7950283" z="2.665684" />
+        </offset>
+      </connection>
+      <connection name="con_guided_07" tags="rocket " parent="part_main">
+        <offset>
+          <position x="1.086813" y="-0.7950283" z="2.665684" />
+        </offset>
+      </connection>
+      <connection name="con_guided_08" tags="rocket " parent="part_main">
+        <offset>
+          <position x="2.446476" y="-0.7950283" z="2.665684" />
+        </offset>
+      </connection>
+      
+      <connection name="con_turret_missile" tags="turret medium component missile combat aegs_missile_javelin">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

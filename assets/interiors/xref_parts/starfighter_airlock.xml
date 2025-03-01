@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-01-25 16:25:11 from Blender-->
+<components>
+  <component name="starfighter_airlock" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\starfighter_airlock_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForejection_handle" tags="part ui transporter trigger_interact detail_xl location_cockpit platformcollision forceoutline ">
+        <parts>
+          <part name="ejection_handle">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.05105749" y="0.101352" z="0.051851" />
+              <center x="-5.001202e-07" y="4.900247e-05" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-01-26 11:09:01 from Blender-->
+<components>
+  <component name="weapon_sf7b_s7" class="weapon">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\generic\S7\weapon_sf7b_s7_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionFormain" tags="part forceoutline">
+        <restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-2"/>
+							<max value="2"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.01687501" y="0.01687501" z="0.01687501" />
+              <center x="0" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbas" tags="part forceoutline" parent="main">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-3"/>
+							<max value="3"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="bas">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="4" ref="generic.BEHR_BallisticGatling_S7_mtl_H_hard_anodized_01_A" />
+                  <material id="5" ref="generic.BEHR_BallisticGatling_S7_mtl_H_hard_anodized_01_B" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="4" ref="generic.BEHR_BallisticGatling_S7_mtl_H_hard_anodized_01_A" />
+                  <material id="5" ref="generic.BEHR_BallisticGatling_S7_mtl_H_hard_anodized_01_B" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="4" ref="generic.BEHR_BallisticGatling_S7_mtl_H_hard_anodized_01_A" />
+                  <material id="5" ref="generic.BEHR_BallisticGatling_S7_mtl_H_hard_anodized_01_B" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="4" ref="generic.BEHR_BallisticGatling_S7_mtl_H_hard_anodized_01_A" />
+                  <material id="5" ref="generic.BEHR_BallisticGatling_S7_mtl_H_hard_anodized_01_B" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.17118" y="1.573479" z="4.304458" />
+              <center x="5.662441e-07" y="-1.573479" z="0.9705411" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbar_spin" tags="part animation" parent="bas">
+        <animations>
+					<animation name="weapon_firing" start="0" end="10"/>
+				</animations>
+        <offset>
+          <position x="0" y="-1.56" z="5.59" />
+        </offset>
+        <parts>
+          <part name="bar_spin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="2" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="3" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="4" ref="generic.BEHR_BallisticGatling_S7_mtl_H_hard_anodized_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="2" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="3" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="4" ref="generic.BEHR_BallisticGatling_S7_mtl_H_hard_anodized_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="2" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="3" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="4" ref="generic.BEHR_BallisticGatling_S7_mtl_H_hard_anodized_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="2" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="3" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="4" ref="generic.BEHR_BallisticGatling_S7_mtl_H_hard_anodized_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7331762" y="0.774122" z="3.399494" />
+              <center x="0" y="0" z="3.066233" />
+            </size>
+            <size_raw>
+              <max x="0.7331762" y="0.7741219" z="3.399494" />
+              <center x="0" y="0" z="3.066234" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="bar_spin">
+        <offset>
+          <position x="-0.1840881" y="0.3087972" z="6.378841" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="bar_spin">
+        <offset>
+          <position x="-0.163116" y="-0.2854112" z="6.378841" />
+        </offset>
+      </connection>
+      <connection name="laser002" tags="laser " parent="bar_spin">
+        <offset>
+          <position x="0.3215716" y="0.01285803" z="6.378841" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="weapon small platformcollision aegs_weapon_s7">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-06-01 18:40:49 from Blender-->
+<components>
+  <component name="carrack_turret_2_mxa" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\carrack\carrack_turret_2_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForturret" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="turret">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="3" ref="generic.anvl_carrack_ext_mtl_EXT_paint_tileable_secondary_A" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_decal_text" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Decals_Opaque" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="p1.cockpit_glass_inside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.832113" y="1.049326" z="2.37202" />
+              <center x="-0.0005370975" y="0.8926795" z="-0.4805781" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    
+      <connection name="ConnectionFormxa_gun" tags="part " parent="turret">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-30.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-1.807573" y="0.9532357" z="0" />
+        </offset>
+        <parts>
+          <part name="mxa_gun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.656852" y="0.2273943" z="2.107936" />
+              <center x="1.807573" y="-0.01697639" z="1.172881" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="mxa_laser" tags="laser " parent="mxa_gun">
+        <offset>
+          <position x="-0.5679328" y="0" z="3.32677" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="mxa_laser001" tags="laser " parent="mxa_gun">
+        <offset>
+          <position x="4.175383" y="0" z="3.32677" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      
+
+      <connection name="con_turret_laser_m" tags="turret medium component combat aegs_carrack_s3">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

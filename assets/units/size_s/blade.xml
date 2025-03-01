@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-10-13 14:06:45 from Blender-->
+<components>
+  <component name="Blade" class="ship_s">
+    <source geometry="extensions\AEGS\assets\units\size_s\blade_data" />
+    <layers>
+      <layer>
+        <lights>
+          <arealight name="ego_area" areax="0.170665" areay="0.1733618" radius="0" spotattenuation="0" shadow="1" r="255" g="0" b="0" intensity="0.2" specularintensity="1" range="5" shadowrange="5" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0.3267223" y="0.7667342" z="5.277397" />
+              <quaternion qx="-0.09338924" qy="0.0215606" qz="0.2239154" qw="-0.9698843" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="0.170665" areay="0.1733618" radius="0" spotattenuation="0" shadow="1" r="255" g="0" b="0" intensity="0.2" specularintensity="1" range="5" shadowrange="5" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-0.326722" y="0.7667342" z="5.277397" />
+              <quaternion qx="-0.09338924" qy="-0.0215606" qz="-0.2239154" qw="-0.9698843" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_s ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForback_land01" tags="part animation detail_m">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="0" y="-0.905343" z="1.897183" />
+          <quaternion qx="-0.3417498" qy="0" qz="0" qw="-0.939791" />
+        </offset>
+        <parts>
+          <part name="back_land01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="4" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="5" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="6" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="7" ref="generic.vncl_blade_mtl_int_pipes" />
+                  <material id="8" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="9" ref="generic.vncl_blade_mtl_cross_hatch" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8209175" y="1.388217" z="2.909719" />
+              <center x="0.001919508" y="-0.9964914" z="-2.737325" />
+            </size>
+            <size_raw>
+              <max x="0.8209175" y="1.388217" z="2.115647" />
+              <center x="0.001919493" y="-0.9964914" z="-1.944561" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForback_land02" tags="part animation detail_m" parent="back_land01">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="0" y="1.657982" z="-1.391213" />
+          <quaternion qx="0.2586107" qy="0" qz="0" qw="-0.9659816" />
+        </offset>
+        <parts>
+          <part name="back_land02">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="4" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="5" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="6" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="7" ref="generic.vncl_blade_mtl_int_pipes" />
+                  <material id="8" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="9" ref="generic.vncl_blade_mtl_cross_hatch" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4558345" y="1.456897" z="2.429586" />
+              <center x="-1.049042e-05" y="-3.293236" z="-4.88887" />
+            </size>
+            <size_raw>
+              <max x="0.4558345" y="0.3738335" z="1.635514" />
+              <center x="-1.049787e-05" y="-2.211957" z="-4.097352" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody" tags="part nocollision">
+        <offset>
+          <position x="0" y="0.593288" z="0.736115" />
+        </offset>
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_engine_a" />
+                  <material id="2" ref="generic.vncl_blade_mtl_int_pipes" />
+                  <material id="3" ref="generic.vncl_blade_mtl_int_wall_b" />
+                  <material id="4" ref="generic.vncl_blade_mtl_cross_hatch" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="generic.vncl_blade_mtl_trim_01" />
+                  <material id="7" ref="generic.vncl_blade_mtl_int_wall_a" />
+                  <material id="8" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="9" ref="generic.vncl_blade_mtl_engineglow" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.vncl_blade_mtl_int_greeble_a" />
+                  <material id="12" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="13" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="14" ref="generic.vncl_scythe_mtl_engine_b" />
+                  <material id="15" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_engine_a" />
+                  <material id="2" ref="generic.vncl_blade_mtl_int_pipes" />
+                  <material id="3" ref="generic.vncl_blade_mtl_int_wall_b" />
+                  <material id="4" ref="generic.vncl_blade_mtl_cross_hatch" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="generic.vncl_blade_mtl_trim_01" />
+                  <material id="7" ref="generic.vncl_blade_mtl_int_wall_a" />
+                  <material id="8" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="9" ref="generic.vncl_blade_mtl_engineglow" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.vncl_blade_mtl_int_greeble_a" />
+                  <material id="12" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="13" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="14" ref="generic.vncl_scythe_mtl_engine_b" />
+                  <material id="15" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_engine_a" />
+                  <material id="2" ref="generic.vncl_blade_mtl_int_pipes" />
+                  <material id="3" ref="generic.vncl_blade_mtl_int_wall_b" />
+                  <material id="4" ref="generic.vncl_blade_mtl_cross_hatch" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="generic.vncl_blade_mtl_trim_01" />
+                  <material id="7" ref="generic.vncl_blade_mtl_int_wall_a" />
+                  <material id="8" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="9" ref="generic.vncl_blade_mtl_engineglow" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.vncl_blade_mtl_int_greeble_a" />
+                  <material id="12" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="13" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="14" ref="generic.vncl_scythe_mtl_engine_b" />
+                  <material id="15" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_engine_a" />
+                  <material id="2" ref="generic.vncl_blade_mtl_int_pipes" />
+                  <material id="3" ref="generic.vncl_blade_mtl_int_wall_b" />
+                  <material id="4" ref="generic.vncl_blade_mtl_cross_hatch" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="generic.vncl_blade_mtl_trim_01" />
+                  <material id="7" ref="generic.vncl_blade_mtl_int_wall_a" />
+                  <material id="8" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="9" ref="generic.vncl_blade_mtl_engineglow" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.vncl_blade_mtl_int_greeble_a" />
+                  <material id="12" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="13" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="14" ref="generic.vncl_scythe_mtl_engine_b" />
+                  <material id="15" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.643679" y="2.099648" z="8.209854" />
+              <center x="-5.960464e-08" y="0.1857853" z="-0.6282706" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhatch" group="ladder" tags="part animation ui trigger_interact require_docked detail_m" parent="body">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="1.741992e-06" y="-1.687891" z="6.364789" />
+          <quaternion qx="0.03862077" qy="-6.793387e-07" qz="-5.407991e-07" qw="-0.9992539" />
+        </offset>
+        <parts>
+          <part name="hatch">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="3" ref="generic.vncl_blade_mtl_trim_01" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="6" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="7" ref="generic.vncl_blade_mtl_int_pipes" />
+                  <material id="8" ref="generic.vncl_blade_mtl_int_greeble_a" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3907785" y="0.7889389" z="1.553753" />
+              <center x="4.633798e-07" y="0.62462" z="-1.240825" />
+            </size>
+            <size_raw>
+              <max x="0.3907785" y="0.7889389" z="1.553753" />
+              <center x="4.991889e-07" y="0.6246205" z="-1.240825" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseatbase" group="pilotcontrol" tags="part ui detail_xl chair forceoutline walk_exclude walk_excludeplayer chairreservation detail_m" parent="hatch">
+        <offset>
+          <position x="-0.0001608012" y="0.739711" z="-1.232897" />
+          <quaternion qx="-0.03796142" qy="4.719458e-07" qz="-6.812353e-08" qw="-0.9992793" />
+        </offset>
+        <parts>
+          <part name="seatbase">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="3" ref="generic.vncl_blade_mtl_pom_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3747551" y="1.283978" z="1.11105" />
+              <center x="-0.0001662163" y="-0.587159" z="-0.2274032" />
+            </size>
+            <size_raw>
+              <max x="0.374754" y="0.2576866" z="0.649493" />
+              <center x="-0.0001673698" y="0.1999148" z="0.2317425" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhatchcoverplate3001" group="ladder" tags="part animation trigger_interact require_docked detail_m ui" parent="body">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="-1.337425" z="2.301767" />
+          <quaternion qx="0.007910758" qy="0" qz="0" qw="-0.9999688" />
+        </offset>
+        <parts>
+          <part name="hatchcoverplate3001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="2" ref="generic.vncl_blade_mtl_pom_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4795197" y="0.08710644" z="0.6466422" />
+              <center x="5.64158e-05" y="0.07237649" z="0.0395987" />
+            </size>
+            <size_raw>
+              <max x="0.4795197" y="0.08710646" z="0.4009903" />
+              <center x="4.401058e-05" y="0.0723765" z="0.2836495" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhatchcoverplate4001" group="ladder" tags="part animation trigger_interact require_docked detail_m ui" parent="body">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="-7.541867e-10" y="-1.211205" z="3.220894" />
+          <quaternion qx="0.01651475" qy="-2.500339e-07" qz="0" qw="-0.9998636" />
+        </offset>
+        <parts>
+          <part name="hatchcoverplate4001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="2" ref="generic.vncl_blade_mtl_pom_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.518248" y="0.09264302" z="0.9184613" />
+              <center x="5.638675e-05" y="0" z="-0.5333791" />
+            </size>
+            <size_raw>
+              <max x="0.518248" y="0.09264304" z="0.3815822" />
+              <center x="4.399568e-05" y="0" z="5.066395e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhatchcoverplate5001" group="ladder" tags="part animation trigger_interact require_docked detail_m ui" parent="body">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="-1.292931" z="3.511508" />
+          <quaternion qx="-0.03482961" qy="0" qz="0" qw="-0.9993933" />
+        </offset>
+        <parts>
+          <part name="hatchcoverplate5001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="2" ref="generic.vncl_blade_mtl_pom_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5182475" y="0.08519903" z="1.215689" />
+              <center x="5.638599e-05" y="0.15429" z="-0.5257757" />
+            </size>
+            <size_raw>
+              <max x="0.5182475" y="0.08519902" z="0.3815821" />
+              <center x="4.399568e-05" y="0.15429" z="0.302894" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhatchcoverplate6001" group="ladder" tags="part animation trigger_interact require_docked detail_m ui" parent="body">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="-1.332908" z="4.11472" />
+          <quaternion qx="-0.1236446" qy="0" qz="0" qw="-0.9923266" />
+        </offset>
+        <parts>
+          <part name="hatchcoverplate6001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="2" ref="generic.vncl_blade_mtl_pom_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5182475" y="0.1523613" z="1.51996" />
+              <center x="5.638599e-05" y="0.2740866" z="-0.8280625" />
+            </size>
+            <size_raw>
+              <max x="0.5182475" y="0.0786175" z="0.3815824" />
+              <center x="4.399568e-05" y="0.2008235" z="0.3028945" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhatchcoverplate7001" group="ladder" tags="part animation trigger_interact require_docked detail_m ui" parent="body">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="-1.600678e-07" y="-1.482312" z="4.700313" />
+          <quaternion qx="-0.1938714" qy="-2.549183e-07" qz="-4.214359e-10" qw="-0.9810269" />
+        </offset>
+        <parts>
+          <part name="hatchcoverplate7001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="2" ref="generic.vncl_blade_mtl_pom_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5182475" y="0.2615277" z="1.810355" />
+              <center x="5.636725e-05" y="0.4322138" z="-1.116566" />
+            </size>
+            <size_raw>
+              <max x="0.5182475" y="0.07406501" z="0.3815821" />
+              <center x="4.399568e-05" y="0.245335" z="0.302894" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhatchcoverplate8001" group="ladder" tags="part animation trigger_interact require_docked detail_m ui" parent="body">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0" y="-1.606009" z="5.671365" />
+          <quaternion qx="-0.2341207" qy="0" qz="0" qw="-0.9722075" />
+        </offset>
+        <parts>
+          <part name="hatchcoverplate8001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="2" ref="generic.vncl_blade_mtl_pom_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4677069" y="0.416936" z="2.087898" />
+              <center x="5.090237e-05" y="0.3430704" z="-1.695192" />
+            </size>
+            <size_raw>
+              <max x="0.4677069" y="0.06982049" z="0.3815816" />
+              <center x="5.090982e-05" y="4.991889e-07" z="9.983778e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingleft" tags="part " parent="body">
+        <offset>
+          <position x="-3.044075" y="-0.09065205" z="0.7932556" />
+          <quaternion qx="-0.09644516" qy="-0.6013322" qz="-0.1229692" qw="-0.7835665" />
+        </offset>
+        <parts>
+          <part name="wingleft">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_greeble_a_glow" />
+                  <material id="6" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="7" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="8" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="9" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.vncl_blade_mtl_pitted_metal" />
+                  <material id="12" ref="generic.vncl_blade_mtl_engine_a" />
+                  <material id="13" ref="generic.vncl_blade_mtl_int_pipes" />
+                  <material id="14" ref="generic.vncl_blade_mtl_int_wall_b" />
+                  <material id="15" ref="generic.vncl_blade_mtl_cross_hatch" />
+                  <material id="16" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="17" ref="generic.vncl_blade_mtl_trim_01" />
+                  <material id="18" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="19" ref="generic.vncl_blade_mtl_engineglow" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_greeble_a_glow" />
+                  <material id="6" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="7" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="8" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="9" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.vncl_blade_mtl_pitted_metal" />
+                  <material id="12" ref="generic.vncl_blade_mtl_engine_a" />
+                  <material id="13" ref="generic.vncl_blade_mtl_int_pipes" />
+                  <material id="14" ref="generic.vncl_blade_mtl_int_wall_b" />
+                  <material id="15" ref="generic.vncl_blade_mtl_cross_hatch" />
+                  <material id="16" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="17" ref="generic.vncl_blade_mtl_trim_01" />
+                  <material id="18" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="19" ref="generic.vncl_blade_mtl_engineglow" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_greeble_a_glow" />
+                  <material id="6" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="7" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="8" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="9" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.vncl_blade_mtl_pitted_metal" />
+                  <material id="12" ref="generic.vncl_blade_mtl_engine_a" />
+                  <material id="13" ref="generic.vncl_blade_mtl_int_pipes" />
+                  <material id="14" ref="generic.vncl_blade_mtl_int_wall_b" />
+                  <material id="15" ref="generic.vncl_blade_mtl_cross_hatch" />
+                  <material id="16" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="17" ref="generic.vncl_blade_mtl_trim_01" />
+                  <material id="18" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="19" ref="generic.vncl_blade_mtl_engineglow" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_greeble_a_glow" />
+                  <material id="6" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="7" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="8" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="9" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.vncl_blade_mtl_pitted_metal" />
+                  <material id="12" ref="generic.vncl_blade_mtl_engine_a" />
+                  <material id="13" ref="generic.vncl_blade_mtl_int_pipes" />
+                  <material id="14" ref="generic.vncl_blade_mtl_int_wall_b" />
+                  <material id="15" ref="generic.vncl_blade_mtl_cross_hatch" />
+                  <material id="16" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="17" ref="generic.vncl_blade_mtl_trim_01" />
+                  <material id="18" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="19" ref="generic.vncl_blade_mtl_engineglow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.183367" y="1.598233" z="4.660467" />
+              <center x="-4.782728" y="-0.4658307" z="-0.7968287" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForleft_land01" tags="part animation detail_m" parent="wingleft">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-5.709832" y="-0.04037786" z="-1.959893" />
+          <quaternion qx="0.2980657" qy="0.4423225" qz="0.2576608" qw="-0.805679" />
+        </offset>
+        <parts>
+          <part name="left_land01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="2" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_cross_hatch" />
+                  <material id="6" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="7" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="8" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="9" ref="generic.vncl_blade_mtl_int_pipes" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.400902" y="1.346484" z="1.715149" />
+              <center x="0.1480117" y="-0.6040616" z="0.05307722" />
+            </size>
+            <size_raw>
+              <max x="0.2521406" y="0.959552" z="1.232225" />
+              <center x="-0.0005044863" y="-0.2177675" z="-0.4290505" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForleft_land02" tags="part animation detail_m" parent="left_land01">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-0.3339958" y="-0.3065455" z="0.4786525" />
+          <quaternion qx="-0.2766482" qy="0.03776735" qz="-0.1018009" qw="-0.9548172" />
+        </offset>
+        <parts>
+          <part name="left_land02">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="2" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_cross_hatch" />
+                  <material id="6" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="7" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="8" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="9" ref="generic.vncl_blade_mtl_int_pipes" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6115532" y="0.7454168" z="2.164705" />
+              <center x="0.1959996" y="-1.429166" z="0.8193831" />
+            </size>
+            <size_raw>
+              <max x="0.3748922" y="0.3715703" z="1.999491" />
+              <center x="-0.040275" y="-1.056181" z="0.6544315" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingright" tags="part " parent="body">
+        <offset>
+          <position x="3.013371" y="-0.09015328" z="0.7936575" />
+          <quaternion qx="0.783566" qy="-0.1229658" qz="0.6013332" qw="-0.09644739" />
+        </offset>
+        <parts>
+          <part name="wingright">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_greeble_a_glow" />
+                  <material id="6" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="7" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="8" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="9" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.vncl_blade_mtl_pitted_metal" />
+                  <material id="12" ref="generic.vncl_blade_mtl_engine_a" />
+                  <material id="13" ref="generic.vncl_blade_mtl_int_pipes" />
+                  <material id="14" ref="generic.vncl_blade_mtl_int_wall_b" />
+                  <material id="15" ref="generic.vncl_blade_mtl_cross_hatch" />
+                  <material id="16" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="17" ref="generic.vncl_blade_mtl_trim_01" />
+                  <material id="18" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="19" ref="generic.vncl_blade_mtl_engineglow" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_greeble_a_glow" />
+                  <material id="6" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="7" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="8" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="9" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.vncl_blade_mtl_pitted_metal" />
+                  <material id="12" ref="generic.vncl_blade_mtl_engine_a" />
+                  <material id="13" ref="generic.vncl_blade_mtl_int_pipes" />
+                  <material id="14" ref="generic.vncl_blade_mtl_int_wall_b" />
+                  <material id="15" ref="generic.vncl_blade_mtl_cross_hatch" />
+                  <material id="16" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="17" ref="generic.vncl_blade_mtl_trim_01" />
+                  <material id="18" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="19" ref="generic.vncl_blade_mtl_engineglow" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_greeble_a_glow" />
+                  <material id="6" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="7" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="8" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="9" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.vncl_blade_mtl_pitted_metal" />
+                  <material id="12" ref="generic.vncl_blade_mtl_engine_a" />
+                  <material id="13" ref="generic.vncl_blade_mtl_int_pipes" />
+                  <material id="14" ref="generic.vncl_blade_mtl_int_wall_b" />
+                  <material id="15" ref="generic.vncl_blade_mtl_cross_hatch" />
+                  <material id="16" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="17" ref="generic.vncl_blade_mtl_trim_01" />
+                  <material id="18" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="19" ref="generic.vncl_blade_mtl_engineglow" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_greeble_a_glow" />
+                  <material id="6" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="7" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="8" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="9" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.vncl_blade_mtl_pitted_metal" />
+                  <material id="12" ref="generic.vncl_blade_mtl_engine_a" />
+                  <material id="13" ref="generic.vncl_blade_mtl_int_pipes" />
+                  <material id="14" ref="generic.vncl_blade_mtl_int_wall_b" />
+                  <material id="15" ref="generic.vncl_blade_mtl_cross_hatch" />
+                  <material id="16" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="17" ref="generic.vncl_blade_mtl_trim_01" />
+                  <material id="18" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="19" ref="generic.vncl_blade_mtl_engineglow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.183418" y="1.598269" z="4.660504" />
+              <center x="4.790136" y="0.4640664" z="0.8265425" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForright_land01" tags="part animation detail_m" parent="wingright">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="5.717218" y="0.0386343" z="1.989757" />
+          <quaternion qx="-0.8056766" qy="0.2576594" qz="-0.4423264" qw="-0.2980675" />
+        </offset>
+        <parts>
+          <part name="right_land01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="2" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_cross_hatch" />
+                  <material id="6" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="7" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="8" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="9" ref="generic.vncl_blade_mtl_int_pipes" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3370447" y="1.346499" z="1.715177" />
+              <center x="-0.08330822" y="-0.6040546" z="0.05308723" />
+            </size>
+            <size_raw>
+              <max x="0.2521322" y="0.9595772" z="1.232236" />
+              <center x="0.001464009" y="-0.2177705" z="-0.4290585" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForright_land02" tags="part animation detail_m" parent="right_land01">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="0.2713614" y="-0.3386564" z="0.4648302" />
+          <quaternion qx="-0.2705101" qy="-0.03515759" qz="0.08246039" qw="-0.9585346" />
+        </offset>
+        <parts>
+          <part name="right_land02">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="2" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_cross_hatch" />
+                  <material id="6" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="7" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="8" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="9" ref="generic.vncl_blade_mtl_int_pipes" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5169053" y="0.7280205" z="2.170853" />
+              <center x="-0.1016221" y="-1.411823" z="0.825552" />
+            </size>
+            <size_raw>
+              <max x="0.3748963" y="0.3715584" z="1.999485" />
+              <center x="0.04016" y="-1.056195" z="0.6544394" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody001" tags="part">
+        <offset>
+          <position x="0" y="0.593288" z="0.736115" />
+        </offset>
+        <parts>
+          <part name="body001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_greeble_a_glow" />
+                  <material id="6" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="7" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="8" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="9" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.vncl_blade_mtl_pitted_metal" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_greeble_a_glow" />
+                  <material id="6" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="7" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="8" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="9" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.vncl_blade_mtl_pitted_metal" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_greeble_a_glow" />
+                  <material id="6" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="7" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="8" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="9" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.vncl_blade_mtl_pitted_metal" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_greeble_a_glow" />
+                  <material id="6" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="7" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="8" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="9" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.vncl_blade_mtl_pitted_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.658782" y="2.625053" z="8.42877" />
+              <center x="0" y="0.4653862" z="-0.4699511" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordashboard" tags="part part ui transporter trigger_interact detail_xl location_cockpit platformcollision forceoutline ">
+        <offset>
+          <position x="0.000548" y="-0.3292688" z="6.967009" />
+        </offset>
+        <parts>
+          <part name="dashboard">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="6" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="7" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.vncl_blade_mtl_int_pipes" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="6" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="7" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.vncl_blade_mtl_int_pipes" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="6" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="7" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.vncl_blade_mtl_int_pipes" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_bare_b" />
+                  <material id="3" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="4" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="5" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="6" ref="generic.vncl_blade_mtl_ribs" />
+                  <material id="7" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.vncl_blade_mtl_int_pipes" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4392535" y="0.3747845" z="0.6941285" />
+              <center x="5.491078e-06" y="0.01911649" z="-0.0008755028" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectiontrust" tags="part animation">
+        <offset>
+          <position x="-0.2369736" y="1.532434" z="2.713081" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_01"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust001" tags="part animation">
+        <offset>
+          <position x="0.236974" y="1.532434" z="2.713081" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_02"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust002" tags="part animation">
+        <offset>
+          <position x="-0.3077785" y="1.532434" z="2.451525" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_03"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust003" tags="part animation">
+        <offset>
+          <position x="0.307778" y="1.532434" z="2.451525" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_04"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust004" tags="part animation">
+        <offset>
+          <position x="-0.3797955" y="1.532434" z="2.162419" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_05"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust005" tags="part animation">
+        <offset>
+          <position x="0.379795" y="1.532434" z="2.162419" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_06"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust006" tags="part animation">
+        <offset>
+          <position x="-1.268043" y="2.165046" z="-1.483469" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_07"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust007" tags="part animation">
+        <offset>
+          <position x="-1.261509" y="2.165046" z="-1.781405" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_08"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust008" tags="part animation">
+        <offset>
+          <position x="-1.264232" y="2.165046" z="-2.053642" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_09"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust009" tags="part animation">
+        <offset>
+          <position x="1.26423" y="2.165046" z="-2.053642" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_10"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust010" tags="part animation">
+        <offset>
+          <position x="1.26151" y="2.165046" z="-1.781405" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_11"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust011" tags="part animation">
+        <offset>
+          <position x="1.26804" y="2.165046" z="-1.483469" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_12"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust012" tags="part animation">
+        <offset>
+          <position x="2.194042" y="-0.06851336" z="-1.295625" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_13"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust013" tags="part animation">
+        <offset>
+          <position x="2.194042" y="-0.06851336" z="-1.021995" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_14"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust014" tags="part animation">
+        <offset>
+          <position x="2.194042" y="-0.06851336" z="-0.7232747" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_15"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust015" tags="part animation">
+        <offset>
+          <position x="-2.19404" y="-0.06851336" z="-0.7232747" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_16"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust016" tags="part animation">
+        <offset>
+          <position x="-2.19404" y="-0.06851336" z="-1.021995" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_17"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust017" tags="part animation">
+        <offset>
+          <position x="-2.19404" y="-0.06851336" z="-1.295625" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_18"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust018" tags="part animation">
+        <offset>
+          <position x="-1.321301" y="-0.512885" z="2.733082" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_19"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust019" tags="part animation">
+        <offset>
+          <position x="1.3213" y="-0.512885" z="2.733082" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_20"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust020" tags="part animation">
+        <offset>
+          <position x="-1.281785" y="-0.512885" z="3.002165" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_21"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust021" tags="part animation">
+        <offset>
+          <position x="1.28178" y="-0.512885" z="3.002165" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_22"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust022" tags="part animation">
+        <offset>
+          <position x="-1.234366" y="-0.512885" z="3.294581" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_23"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust023" tags="part animation">
+        <offset>
+          <position x="1.23437" y="-0.512885" z="3.294581" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_24"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust024" tags="part animation">
+        <offset>
+          <position x="-1.547768" y="1.697942" z="-5.499919" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_25"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust025" tags="part animation">
+        <offset>
+          <position x="-1.547768" y="1.653252" z="-5.130636" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_26"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust026" tags="part animation">
+        <offset>
+          <position x="-1.547768" y="1.665796" z="-4.754295" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_27"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust027" tags="part animation">
+        <offset>
+          <position x="1.54777" y="1.697942" z="-5.499919" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_28"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust028" tags="part animation">
+        <offset>
+          <position x="1.54777" y="1.653252" z="-5.130636" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_29"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust029" tags="part animation">
+        <offset>
+          <position x="1.54777" y="1.665796" z="-4.754295" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_30"/>
+				</parts>
+      </connection>
+
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="seatbase">
+				<offset>
+					<position x="0" y="-0.5" z="1"/>
+				</offset>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair ">
+				<offset>
+					<position x="0" y="0.2" z="6.6" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor " >
+				<offset>
+					<position x="0" y="0.2" z="6.6" />
+				</offset>
+			</connection>
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="0.2" z="6.6" />
+				</offset>
+			</connection>
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="0.2" z="6.6" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-3.48" z="20"/>
+				</offset>
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="0.2" z="6.6" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_storage01" tags="storage ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      <connection name="con_npc_stand_01" tags="npc_waypoint stand npctransport ">
+				<offset>
+					<position x="0" y="0.2" z="6.6" />
+				</offset>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="0" y="0" z="-4.8" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_blade">
+        <offset>
+          <position x="0" y="0" z="-6.11366" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield small aegs_s1 industrial">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield small aegs_s1 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="weapon small platformcollision aegs_weapon_s2 symmetry_1">
+				<offset>
+          <position x="1.130605" y="0.3744959" z="3.29867" />
+          <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="weapon small platformcollision aegs_weapon_s2 symmetry_1">
+				<offset>
+          <position x="-1.1306" y="0.3744959" z="3.29867" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_03" tags="weapon small platformcollision aegs_weapon_s2 symmetry_2">
+				<offset>
+          <position x="-4.568104" y="0.02937537" z="2.66887" />
+          <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_04" tags="weapon small platformcollision aegs_weapon_s2 symmetry_2">
+				<offset>
+          <position x="4.5681" y="0.02937537" z="2.66887" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_missile" tags="component weapon small missile aegs_blade_missile symmetry_3">
+			</connection>
+    </connections>
+  </component>
+</components>

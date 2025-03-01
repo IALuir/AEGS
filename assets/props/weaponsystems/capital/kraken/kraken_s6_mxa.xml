@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-16 21:14:47 from Blender-->
+<components>
+  <component name="kraken_s6_mxa" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\kraken\kraken_s6_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForpart_main" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <offset>
+          <position x="0" y="-1.814321" z="0.2" />
+        </offset>
+        <parts>
+          <part name="part_main" wreck="part_main_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="5" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.713481" y="1.701939" z="2.917" />
+              <center x="0.003509939" y="1.701939" z="0.003491163" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForgun" tags="part " parent="part_main">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-20.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-2.675099" y="2.166913" z="-1.206388" />
+        </offset>
+        <parts>
+          <part name="gun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01.001" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.292773" y="0.4331321" z="4.015117" />
+              <center x="2.675099" y="-0.03233606" z="2.234059" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="gun">
+        <offset>
+          <position x="-1.081777" y="5.960464e-08" z="6.336706" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="gun">
+        <offset>
+          <position x="6.426705" y="5.960464e-08" z="6.336706" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_m" tags="turret medium component combat aegs_kraken_s6">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

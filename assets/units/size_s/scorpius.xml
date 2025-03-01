@@ -1,0 +1,2243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-19 19:36:41 from Blender-->
+<components>
+  <component name="scorpius" class="ship_s">
+    <source geometry="extensions\AEGS\assets\units\size_s\scorpius_data" />
+    <layers>
+      <layer>
+        <trailemitters>
+          <emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+            <offset>
+              <position x="15.01386" y="7.62801" z="-9.524924" />
+            </offset>
+          </emitter>
+          <emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+            <offset>
+              <position x="-15.0139" y="7.62801" z="-9.52492" />
+            </offset>
+          </emitter>
+          <emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+            <offset>
+              <position x="15.01386" y="-7.61904" z="-9.524924" />
+            </offset>
+          </emitter>
+          <emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+            <offset>
+              <position x="-15.0139" y="-7.61904" z="-9.52492" />
+            </offset>
+          </emitter>
+        </trailemitters>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_s ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="defencenpc" tags="defence" value="-1" />
+      <connection name="ConnectionForanimal_glows" tags="detail_m nocollision part animation textureanimation">
+        <animations>
+					<animation name="loop" start="0" end="100"/>
+				</animations>
+        <offset>
+          <position x="3.115698e-08" y="-0.1535546" z="13.21594" />
+        </offset>
+        <parts>
+          <part name="animal_glows">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.443273" y="0.1389355" z="0.04510641" />
+              <center x="2.980232e-08" y="0.0004450902" z="-0.0009799004" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="4" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="5" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="9" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="10" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="14" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="15" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="64" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="65" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="69" value="0" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="70" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="99" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+									<key frame="100" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+            <lights>
+							<omni name="XU Omni005" shadow="0" r="255" g="0" b="0" range="2" shadowrange="2" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="4" value="1"/>
+										<key frame="5" value="0"/>
+										<key frame="9" value="0"/>
+										<key frame="10" value="1"/>
+										<key frame="14" value="1"/>
+										<key frame="15" value="0"/>
+										<key frame="64" value="0"/>
+										<key frame="65" value="1"/>
+										<key frame="69" value="1"/>
+										<key frame="70" value="0"/>
+										<key frame="100" value="0"/>
+									</lightanimation>
+								</lightanimations>
+								<offset>
+									<position x="-1.43021" y="-0.018893" z="13.2407"/>
+								</offset>
+							</omni>
+              <omni name="XU Omni006" shadow="0" r="255" g="0" b="0" range="2" shadowrange="2" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="4" value="1"/>
+										<key frame="5" value="0"/>
+										<key frame="9" value="0"/>
+										<key frame="10" value="1"/>
+										<key frame="14" value="1"/>
+										<key frame="15" value="0"/>
+										<key frame="64" value="0"/>
+										<key frame="65" value="1"/>
+										<key frame="69" value="1"/>
+										<key frame="70" value="0"/>
+										<key frame="100" value="0"/>
+									</lightanimation>
+								</lightanimations>
+								<offset>
+									<position x="-1.41371" y="-0.288774" z="13.1893"/>
+								</offset>
+							</omni>
+              <omni name="XU Omni007" shadow="0" r="255" g="0" b="0" range="2" shadowrange="2" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="4" value="1"/>
+										<key frame="5" value="0"/>
+										<key frame="9" value="0"/>
+										<key frame="10" value="1"/>
+										<key frame="14" value="1"/>
+										<key frame="15" value="0"/>
+										<key frame="64" value="0"/>
+										<key frame="65" value="1"/>
+										<key frame="69" value="1"/>
+										<key frame="70" value="0"/>
+										<key frame="100" value="0"/>
+									</lightanimation>
+								</lightanimations>
+								<offset>
+									<position x="1.41371" y="-0.288774" z="13.1893"/>
+								</offset>
+							</omni>
+              <omni name="XU Omni008" shadow="0" r="255" g="0" b="0" range="2" shadowrange="2" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="4" value="1"/>
+										<key frame="5" value="0"/>
+										<key frame="9" value="0"/>
+										<key frame="10" value="1"/>
+										<key frame="14" value="1"/>
+										<key frame="15" value="0"/>
+										<key frame="64" value="0"/>
+										<key frame="65" value="1"/>
+										<key frame="69" value="1"/>
+										<key frame="70" value="0"/>
+										<key frame="100" value="0"/>
+									</lightanimation>
+								</lightanimations>
+								<offset>
+									<position x="1.43021" y="-0.018893" z="13.2407"/>
+								</offset>
+							</omni>
+            </lights>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody" tags="part ">
+        <offset>
+          <position x="-0.07351376" y="0.06561715" z="5.996304" />
+        </offset>
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="6" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="7" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Trim_Structural_B" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="13" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="14" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="15" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="16" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="17" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="18" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="19" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                  <material id="20" ref="generic.aegs_idris_mtl_leather" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="6" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="7" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Trim_Structural_B" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="13" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="14" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="15" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="16" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="17" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="18" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="19" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                  <material id="20" ref="generic.aegs_idris_mtl_leather" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="6" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="7" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Trim_Structural_B" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="13" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="14" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="15" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="16" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="17" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="18" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="19" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                  <material id="20" ref="generic.aegs_idris_mtl_leather" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="6" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="7" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Trim_Structural_B" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="13" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="14" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="15" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="16" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="17" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="18" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="19" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                  <material id="20" ref="generic.aegs_idris_mtl_leather" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.49748" y="2.332978" z="10.46693" />
+              <center x="0.07351387" y="-0.2484318" z="-3.125173" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcanopy_front_rail" tags="detail_xl nocollision part animation">
+        <animations>
+					<animation name="cockpit_closed" start="0" end="0"/>
+					<animation name="cockpit_opening" start="0" end="80"/>
+					<animation name="cockpit_open" start="80" end="80"/>
+					<animation name="cockpit_closing" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="0.005169077" y="-0.2900808" z="9.420332" />
+        </offset>
+        <parts>
+          <part name="canopy_front_rail">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4693135" y="0.1761998" z="1.224718" />
+              <center x="-0.005116565" y="0.007098049" z="0.1310892" />
+            </size>
+            <size_raw>
+              <max x="0.4693135" y="0.14098" z="0.623035" />
+              <center x="-0.005116567" y="0.04231785" z="-0.4705939" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcanopy_front" tags="detail_m nocollision part " parent="canopy_front_rail">
+        <offset>
+          <position x="-0.002814081" y="0.7059447" z="0.3327026" />
+        </offset>
+        <parts>
+          <part name="canopy_front">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="7" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="9" ref="p1.cockpit_glass_inside_01" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.997396" y="1.001338" z="2.377406" />
+              <center x="-0.002357023" y="0.07876888" z="0.8159838" />
+            </size>
+            <size_raw>
+              <max x="0.997396" y="0.971709" z="1.788143" />
+              <center x="-0.002356999" y="0.1083981" z="0.2267208" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcanopy_rear_glass" tags="part ">
+        <offset>
+          <position x="3.887259e-09" y="1.42822" z="7.59182" />
+        </offset>
+        <parts>
+          <part name="canopy_rear_glass">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_inside_01" />
+                  <material id="2" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.895352" y="0.3230996" z="0.7542346" />
+              <center x="-1.490116e-08" y="-0.07778865" z="-0.00411725" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcockpit_main" tags="detail_m nocollision part ">
+        <offset>
+          <position x="-0.002207753" y="0.462856" z="8.512758" />
+        </offset>
+        <parts>
+          <part name="cockpit_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="7" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="8" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="15" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="16" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="17" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="18" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="19" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="20" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="7" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="8" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="15" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="16" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="17" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="18" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="19" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="20" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="7" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="8" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="15" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="16" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="17" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="18" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="19" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="20" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="6" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="7" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="8" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="15" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="16" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="17" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="18" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="19" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="20" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.046551" y="1.033793" z="2.511558" />
+              <center x="0.002207756" y="0.2463454" z="-0.2908945" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_base" group="ladder" tags="part animation trigger_interact require_docked">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="180" />
+				</animations>
+        <offset>
+          <position x="-1.374011" y="-0.1046729" z="8.703813" />
+        </offset>
+        <parts>
+          <part name="ladder_base">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8636549" y="0.1177405" z="0.3857541" />
+              <center x="-0.2110177" y="-0.06552856" z="-0.02281284" />
+            </size>
+            <size_raw>
+              <max x="0.5075535" y="0.1177405" z="0.3857541" />
+              <center x="0.1450837" y="-0.06552856" z="-0.02281237" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_pivot_brace" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_base">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="180" />
+				</animations>
+        <offset>
+          <position x="0.6581844" y="0.04579319" z="-0.02421665" />
+        </offset>
+        <parts>
+          <part name="ladder_pivot_brace">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.9301144" y="0.03877238" z="0.2134461" />
+              <center x="-0.850159" y="-0.006234497" z="0.001403809" />
+            </size>
+            <size_raw>
+              <max x="0.07082149" y="0.03877238" z="0.2134461" />
+              <center x="0.009133786" y="-0.006234497" z="0.001403332" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_top" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_pivot_brace">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="180" />
+        </animations>
+        <offset>
+          <position x="-0.2942284" y="0.02162588" z="-0.0004119873" />
+        </offset>
+        <parts>
+          <part name="ladder_top">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.310705" y="0.1884303" z="0.2948241" />
+              <center x="-1.008246" y="-0.1351751" z="0.001808167" />
+            </size>
+            <size_raw>
+              <max x="0.4898674" y="0.061632" z="0.2948241" />
+              <center x="-0.1874087" y="-0.008376786" z="0.001808256" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_mid" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_top">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="180" />
+				</animations>
+        <offset>
+          <position x="-0.3067224" y="0.04482098" z="0.0001850128" />
+        </offset>
+        <parts>
+          <part name="ladder_mid">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.641699" y="0.6836484" z="0.3049107" />
+              <center x="-1.161927" y="-0.6296821" z="0.001324654" />
+            </size>
+            <size_raw>
+              <max x="0.5232395" y="0.0547195" z="0.3049107" />
+              <center x="-0.04346772" y="-0.0007532667" z="0.001324654" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_lower" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_mid">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="180" />
+				</animations>
+        <offset>
+          <position x="-0.04621005" y="0.03276096" z="0.001338005" />
+        </offset>
+        <parts>
+          <part name="ladder_lower">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.988047" y="1.099744" z="0.2887053" />
+              <center x="-1.510645" y="-1.075258" z="0.0003900528" />
+            </size>
+            <size_raw>
+              <max x="0.5095525" y="0.0374615" z="0.2887053" />
+              <center x="-0.03214967" y="-0.01297523" z="0.000389576" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_end" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_lower">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="180" />
+				</animations>
+        <offset>
+          <position x="-0.3905972" y="0.005127348" z="0.0001688004" />
+        </offset>
+        <parts>
+          <part name="ladder_end">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.817819" y="1.415297" z="0.2835784" />
+              <center x="-1.624344" y="-1.374617" z="0.0001277924" />
+            </size>
+            <size_raw>
+              <max x="0.2373576" y="0.0393535" z="0.2835784" />
+              <center x="-0.04388243" y="0.001326425" z="0.0001282692" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_bottom_step" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_end">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="180" />
+				</animations>
+        <offset>
+          <position x="-0.1916597" y="-0.0144643" z="0.002837181" />
+        </offset>
+        <parts>
+          <part name="ladder_bottom_step">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.6477" y="1.491729" z="0.2256541" />
+              <center x="-1.582727" y="-1.437225" z="0.0002908707" />
+            </size>
+            <size_raw>
+              <max x="0.0675866" y="0.01832518" z="0.2256541" />
+              <center x="-0.002613366" y="-0.0001328178" z="0.0002913475" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_coliision" tags="detail_m walk_stairway part " parent="ladder_end">
+        <offset>
+          <position x="0.7435249" y="-0.01120117" z="-0.00362587" />
+        </offset>
+        <parts>
+          <part name="ladder_coliision">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.598371" y="1.096662" z="0.3100004" />
+              <center x="-1.598371" y="-1.016662" z="0" />
+            </size>
+            <size_raw>
+              <max x="2" y="0.08000012" z="0.31" />
+              <center x="0" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggear_front_skin" tags="part animation platformcollision forceoutline anim_dockdoor ">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="0" y="-1" z="2" />
+        </offset>
+        <parts>
+          <part name="landinggear_front_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="6" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="7" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="12" ref="generic.rsi_scorpius_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="13" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="14" ref="generic.rsi_scorpius_mtl_Grate_Metal_Alpha_Tile" />
+                  <material id="15" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="16" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="17" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="18" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="19" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="20" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="21" ref="generic.rsi_scorpius_mtl_Trim_Structural_B" />
+                  <material id="22" ref="generic.rsi_scorpius_mtl_Trim_Core_Plating" />
+                  <material id="23" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="24" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="25" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                  <material id="26" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="27" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="28" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="29" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="30" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="31" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="32" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.100364" y="2.501597" z="3.951687" />
+              <center x="0.000910759" y="-0.3214433" z="0.6628921" />
+            </size>
+            <size_raw>
+              <max x="1.100364" y="1.50159" z="2.624876" />
+              <center x="0.000910759" y="0.6785641" z="-0.6639187" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormfd_left" tags="part nocollision animation">
+        <animations>
+					<animation name="cockpit_closed" start="0" end="0"/>
+					<animation name="cockpit_opening" start="0" end="80"/>
+					<animation name="cockpit_open" start="80" end="80"/>
+					<animation name="cockpit_closing" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="-0.3939629" y="0.563886" z="9.91014" />
+          <quaternion qx="0.1734215" qy="-0.5951414" qz="-0.4320791" qw="-0.6550109" />
+        </offset>
+        <parts>
+          <part name="mfd_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="3" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="4" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="5" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="7" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="9" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1259635" y="0.2626346" z="0.2639651" />
+              <center x="-0.0803051" y="-0.1056441" z="0.1222982" />
+            </size>
+            <size_raw>
+              <max x="0.06354696" y="0.2077225" z="0.2315535" />
+              <center x="-0.01788854" y="-0.05073188" z="0.08988713" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormfd_right" tags="part animation nocollision">
+        <animations>
+					<animation name="cockpit_closed" start="0" end="0"/>
+					<animation name="cockpit_opening" start="0" end="80"/>
+					<animation name="cockpit_open" start="80" end="80"/>
+					<animation name="cockpit_closing" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="0.3891437" y="0.5638863" z="9.910138" />
+          <quaternion qx="0.173421" qy="0.5951416" qz="0.432079" qw="-0.6550109" />
+        </offset>
+        <parts>
+          <part name="mfd_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="3" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="4" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="5" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="8" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="9" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1277377" y="0.2652184" z="0.2646174" />
+              <center x="0.08213234" y="-0.1037936" z="0.1202993" />
+            </size>
+            <size_raw>
+              <max x="0.06319109" y="0.2077045" z="0.2316237" />
+              <center x="0.01758577" y="-0.04627973" z="0.08730602" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormissile_tube_bottom_left" tags="part ">
+        <offset>
+          <position x="-2.431593" y="-0.8528254" z="5.048821" />
+        </offset>
+        <parts>
+          <part name="missile_tube_bottom_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.756482" y="1.389132" z="2.483441" />
+              <center x="2.433212" y="1.133871" z="0.4875787" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpanel_slider_bottom" group="ladder" tags="part animation trigger_interact require_docked ui">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="180" />
+				</animations>
+        <offset>
+          <position x="-2.589526" y="-0.3445212" z="8.691589" />
+        </offset>
+        <parts>
+          <part name="panel_slider_bottom">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6442498" y="0.2700161" z="1.469307" />
+              <center x="-0.2936003" y="-0.00190568" z="-0.8114271" />
+            </size>
+            <size_raw>
+              <max x="0.431501" y="0.238777" z="0.7905664" />
+              <center x="-0.08085144" y="-0.03314479" z="-0.1326866" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpanel_slider_split_top" group="ladder" tags="part animation trigger_interact require_docked">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="180" />
+				</animations>
+        <offset>
+          <position x="-2.54249" y="-0.06493434" z="8.748197" />
+        </offset>
+        <parts>
+          <part name="panel_slider_split_top">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6269867" y="0.2373214" z="1.54635" />
+              <center x="-0.1489971" y="0.009032764" z="-0.9384069" />
+            </size>
+            <size_raw>
+              <max x="0.4036984" y="0.2114935" z="0.8137302" />
+              <center x="-0.07717204" y="-0.01679516" z="-0.2057867" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpanel_slider_top" group="ladder" tags="part animation trigger_interact require_docked ui">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="180" />
+				</animations>
+        <offset>
+          <position x="-1.456853" y="0.8158837" z="8.385777" />
+        </offset>
+        <parts>
+          <part name="panel_slider_top">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8238311" y="0.4619306" z="2.095127" />
+              <center x="-0.4750555" y="0.06939989" z="-1.136009" />
+            </size>
+            <size_raw>
+              <max x="0.6491284" y="0.3570365" z="1.077275" />
+              <center x="-0.3003528" y="0.005359799" z="-0.1181571" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpanel_slider_mid" group="ladder" tags="part animation trigger_interact require_docked ui" parent="panel_slider_top">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="180" />
+				</animations>
+        <offset>
+          <position x="-1.114705" y="-0.4822834" z="-0.07078171" />
+        </offset>
+        <parts>
+          <part name="panel_slider_mid">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7155563" y="0.5005392" z="1.905162" />
+              <center x="0.1881115" y="0.139187" z="-0.8751945" />
+            </size>
+            <size_raw>
+              <max x="0.6125675" y="0.2685015" z="0.8873105" />
+              <center x="0.0851227" y="-0.02295777" z="0.1426568" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_mechanism_bottom_left" tags="part animation platformcollision forceoutline anim_dockdoor ">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="-2.482327" y="-1.491999" z="-6.98735" />
+          <quaternion qx="0" qy="0" qz="-0.258819" qw="-0.9659258" />
+        </offset>
+        <parts>
+          <part name="wing_mechanism_bottom_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="12" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="13" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                  <material id="14" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="15" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="12" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="13" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                  <material id="14" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="15" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="12" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="13" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                  <material id="14" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="15" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="12" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="13" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                  <material id="14" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="15" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.282331" y="1.17429" z="7.534418" />
+              <center x="-1.883563" y="-0.3321363" z="3.746994" />
+            </size>
+            <size_raw>
+              <max x="2.282331" y="1.17429" z="7.534418" />
+              <center x="-1.883563" y="-0.3321363" z="3.746994" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggear_left_skin" tags="part animation" parent="wing_mechanism_bottom_left">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="-0.9732292" y="-0.2923571" z="3.9582" />
+          <quaternion qx="0" qy="0" qz="1.192093e-07" qw="-1" />
+        </offset>
+        <parts>
+          <part name="landinggear_left_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="7" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="12" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="13" ref="generic.rsi_scorpius_mtl_Grate_Metal_Alpha_Tile" />
+                  <material id="14" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="15" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="16" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="17" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="18" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="19" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="20" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="21" ref="generic.rsi_scorpius_mtl_Trim_Structural_B" />
+                  <material id="22" ref="generic.rsi_scorpius_mtl_Trim_Core_Plating" />
+                  <material id="23" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="24" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="25" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                  <material id="26" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="27" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="28" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="29" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="30" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="31" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="32" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6153787" y="0.8875064" z="3.187936" />
+              <center x="-0.09180093" y="0.04230404" z="-0.02116394" />
+            </size>
+            <size_raw>
+              <max x="0.46512" y="0.6484693" z="2.568624" />
+              <center x="0.05845773" y="-0.00309962" z="0.5981481" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggear_left_skin001" tags="part animation" parent="landinggear_left_skin">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="0.1678417" y="-0.6202811" z="-1.682489" />
+          <quaternion qx="-0.004112332" qy="-0.004755617" qz="0.002621683" qw="-0.9999768" />
+        </offset>
+        <parts>
+          <part name="landinggear_left_skin001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="7" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="12" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="13" ref="generic.rsi_scorpius_mtl_Grate_Metal_Alpha_Tile" />
+                  <material id="14" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="15" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="16" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="17" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="18" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="19" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="20" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="21" ref="generic.rsi_scorpius_mtl_Trim_Structural_B" />
+                  <material id="22" ref="generic.rsi_scorpius_mtl_Trim_Core_Plating" />
+                  <material id="23" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="24" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="25" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                  <material id="26" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="27" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="28" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="29" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="30" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="31" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="32" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.160351" y="0.7249135" z="2.862031" />
+              <center x="-0.5451558" y="-0.2138453" z="-0.4859347" />
+            </size>
+            <size_raw>
+              <max x="0.6352426" y="0.5391625" z="1.786407" />
+              <center x="-0.0200469" y="-0.05483186" z="0.5896884" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_swivel_bottom_left" tags="part animation" parent="wing_mechanism_bottom_left">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="-1.314744" y="1.076109" z="6.679259" />
+          <quaternion qx="1.300854e-08" qy="-0.4617486" qz="4.199825e-09" qw="-0.8870108" />
+        </offset>
+        <parts>
+          <part name="wing_swivel_bottom_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_RTT_Text_To_Decal" />
+                  <material id="10" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                  <material id="14" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="15" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.447202" y="0.8662367" z="8.713943" />
+              <center x="-0.1305752" y="0.3530649" z="-7.602052" />
+            </size>
+            <size_raw>
+              <max x="2.266246" y="0.465465" z="8.713943" />
+              <center x="-0.3115315" y="-0.04770675" z="-7.602052" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_flaps_top_bottom_left" tags="part" parent="wing_swivel_bottom_left">
+        <offset>
+          <position x="1.622742" y="-0.05250359" z="-6.358095" />
+          <quaternion qx="-7.450581e-09" qy="-2.04891e-08" qz="-3.725289e-09" qw="-1" />
+        </offset>
+        <parts>
+          <part name="wing_flaps_top_bottom_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.01157" y="0.4700231" z="5.615164" />
+              <center x="2.230945" y="0.3564439" z="1.591967" />
+            </size>
+            <size_raw>
+              <max x="0.84017" y="0.114598" z="3.71878" />
+              <center x="0.05954526" y="0.001018792" z="-0.3044181" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_mechanism_bottom_right" tags="part animation platformcollision forceoutline anim_dockdoor ">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="2.482254" y="-1.491623" z="-6.98729" />
+          <quaternion qx="0" qy="0" qz="0.258819" qw="-0.9659258" />
+        </offset>
+        <parts>
+          <part name="wing_mechanism_bottom_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="12" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="15" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="12" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="15" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="12" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="15" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="11" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="12" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="15" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.282332" y="1.1745" z="7.53466" />
+              <center x="1.88364" y="-0.332369" z="3.746696" />
+            </size>
+            <size_raw>
+              <max x="2.282332" y="1.1745" z="7.53466" />
+              <center x="1.88364" y="-0.332369" z="3.746696" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggear_right_skin" tags="part animation" parent="wing_mechanism_bottom_right">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="0.8162367" y="-0.2902476" z="3.924591" />
+        </offset>
+        <parts>
+          <part name="landinggear_right_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="7" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="12" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="13" ref="generic.rsi_scorpius_mtl_Grate_Metal_Alpha_Tile" />
+                  <material id="14" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="15" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="16" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="17" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="18" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="19" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="20" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="21" ref="generic.rsi_scorpius_mtl_Trim_Structural_B" />
+                  <material id="22" ref="generic.rsi_scorpius_mtl_Trim_Core_Plating" />
+                  <material id="23" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="24" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="25" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                  <material id="26" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="27" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="28" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="29" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="30" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="31" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="32" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6891799" y="0.866225" z="3.18793" />
+              <center x="0.1656027" y="0.02126813" z="-0.02115846" />
+            </size>
+            <size_raw>
+              <max x="0.4651194" y="0.6484715" z="2.568623" />
+              <center x="-0.05845785" y="-0.003100455" z="0.5981479" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggear_right_skin001" tags="part animation" parent="landinggear_right_skin">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="-0.01689458" y="-0.6281805" z="-1.653262" />
+          <quaternion qx="-0.004112334" qy="-0.004755615" qz="0.002621682" qw="-0.9999768" />
+        </offset>
+        <parts>
+          <part name="landinggear_right_skin001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="7" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="12" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="13" ref="generic.rsi_scorpius_mtl_Grate_Metal_Alpha_Tile" />
+                  <material id="14" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="15" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="16" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="17" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="18" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="19" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="20" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="21" ref="generic.rsi_scorpius_mtl_Trim_Structural_B" />
+                  <material id="22" ref="generic.rsi_scorpius_mtl_Trim_Core_Plating" />
+                  <material id="23" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="24" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="25" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                  <material id="26" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="27" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="28" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="29" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="30" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="31" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="32" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.171144" y="0.7004672" z="2.876638" />
+              <center x="0.5559096" y="-0.2156432" z="-0.5006924" />
+            </size>
+            <size_raw>
+              <max x="0.6352448" y="0.5391629" z="1.786405" />
+              <center x="0.02001023" y="-0.05480297" z="0.5895405" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_swivel_bottom_right" tags="part animation" parent="wing_mechanism_bottom_right">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="1.315058" y="1.075694" z="6.679075" />
+          <quaternion qx="1.300854e-08" qy="0.4617486" qz="-4.199825e-09" qw="-0.8870108" />
+        </offset>
+        <parts>
+          <part name="wing_swivel_bottom_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_RTT_Text_To_Decal" />
+                  <material id="10" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="12" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="13" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="14" ref="p1effects.p1_gradient_colour" />
+                  <material id="15" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.447077" y="0.8659655" z="8.713951" />
+              <center x="0.1304584" y="0.3528001" z="-7.601953" />
+            </size>
+            <size_raw>
+              <max x="2.266245" y="0.4651433" z="8.713951" />
+              <center x="0.3112897" y="-0.04802203" z="-7.601953" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_flaps_top_bottom_right" tags="part" parent="wing_swivel_bottom_right">
+        <offset>
+          <position x="-1.674256" y="-0.05273008" z="-6.390974" />
+          <quaternion qx="2.235174e-08" qy="-5.587935e-09" qz="-7.450581e-09" qw="-1" />
+        </offset>
+        <parts>
+          <part name="wing_flaps_top_bottom_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.012451" y="0.4646293" z="5.640849" />
+              <center x="-2.23304" y="0.351314" z="1.613931" />
+            </size>
+            <size_raw>
+              <max x="0.840296" y="0.1145978" z="3.718822" />
+              <center x="-0.06088471" y="0.001282543" z="-0.3080962" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_mechanism_top_left" tags="part animation platformcollision forceoutline anim_dockdoor ">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="-2.482289" y="1.498274" z="-6.987111" />
+          <quaternion qx="0" qy="0" qz="0.258819" qw="-0.9659258" />
+        </offset>
+        <parts>
+          <part name="wing_mechanism_top_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Decal_Emblem_Tint_Stencil" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Decal_Emblem_Tint_Stencil" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Decal_Emblem_Tint_Stencil" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Decal_Emblem_Tint_Stencil" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.282331" y="0.784173" z="7.530715" />
+              <center x="-1.883606" y="-0.05797064" z="3.750466" />
+            </size>
+            <size_raw>
+              <max x="2.282331" y="0.784173" z="7.530715" />
+              <center x="-1.883606" y="-0.05797064" z="3.750466" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_swivel_top_left" tags="part animation" parent="wing_mechanism_top_left">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="-1.315026" y="-1.07735" z="6.678896" />
+          <quaternion qx="-1.300854e-08" qy="-0.4617486" qz="-4.199825e-09" qw="-0.8870108" />
+        </offset>
+        <parts>
+          <part name="wing_swivel_top_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="6" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="7" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_RTT_Text_To_Decal" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="13" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="14" ref="p1effects.p1_gradient_colour" />
+                  <material id="15" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.447491" y="0.8661776" z="8.713934" />
+              <center x="-0.130034" y="-0.3533838" z="-7.601964" />
+            </size>
+            <size_raw>
+              <max x="2.266243" y="0.4652524" z="8.713934" />
+              <center x="-0.3112814" y="0.04754141" z="-7.601965" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_flaps_top_left" tags="part" parent="wing_swivel_top_left">
+        <offset>
+          <position x="1.66924" y="0.05290699" z="-6.37198" />
+          <quaternion qx="-2.235174e-08" qy="5.587935e-09" qz="-7.450581e-09" qw="-1" />
+        </offset>
+        <parts>
+          <part name="wing_flaps_top_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.004067" y="0.4647244" z="5.632488" />
+              <center x="2.218786" y="-0.3533989" z="1.594174" />
+            </size>
+            <size_raw>
+              <max x="0.84017" y="0.114597" z="3.718776" />
+              <center x="0.05488884" y="-0.003271535" z="-0.3195379" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_mechanism_top_right" tags="part animation platformcollision forceoutline anim_dockdoor ">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="2.482124" y="1.498388" z="-6.986853" />
+          <quaternion qx="0" qy="0" qz="-0.258819" qw="-0.9659258" />
+        </offset>
+        <parts>
+          <part name="wing_mechanism_top_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Decal_Emblem_Tint_Stencil" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Decal_Emblem_Tint_Stencil" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Decal_Emblem_Tint_Stencil" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="9" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Decal_Emblem_Tint_Stencil" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.rsi_scorpius_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.282331" y="0.784173" z="7.530929" />
+              <center x="1.883771" y="-0.05808413" z="3.749995" />
+            </size>
+            <size_raw>
+              <max x="2.282331" y="0.784173" z="7.530929" />
+              <center x="1.883771" y="-0.05808411" z="3.749995" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_swivel_top_right" tags="part animation" parent="wing_mechanism_top_right">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="180"/>
+				</animations>
+        <offset>
+          <position x="1.31519" y="-1.077464" z="6.678639" />
+          <quaternion qx="-1.300854e-08" qy="0.4617486" qz="4.199825e-09" qw="-0.8870108" />
+        </offset>
+        <parts>
+          <part name="wing_swivel_top_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="6" ref="generic.rsi_scorpius_int_mtl_Trim_Structural_A" />
+                  <material id="7" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_RTT_Text_To_Decal" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="13" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="14" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="15" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.447509" y="0.8658921" z="8.713934" />
+              <center x="0.1300163" y="-0.3530949" z="-7.601965" />
+            </size>
+            <size_raw>
+              <max x="2.266244" y="0.4649183" z="8.713934" />
+              <center x="0.3112813" y="0.04787885" z="-7.601965" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_flaps_top_right" tags="part" parent="wing_swivel_top_right">
+        <offset>
+          <position x="-1.674258" y="0.05296755" z="-6.375927" />
+          <quaternion qx="-2.235174e-08" qy="-5.587935e-09" qz="7.450581e-09" qw="-1" />
+        </offset>
+        <parts>
+          <part name="wing_flaps_top_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.996005" y="0.4666786" z="5.623089" />
+              <center x="-2.215512" y="-0.3554135" z="1.581884" />
+            </size>
+            <size_raw>
+              <max x="0.8401706" y="0.1145972" z="3.718777" />
+              <center x="-0.05967855" y="-0.003332108" z="-0.3224289" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectiontrust001" tags="part animation  ">
+				<offset>
+          <position x="-3.065382" y="0.4838795" z="7.049275" />
+          <quaternion qx="-0.7208322" qy="-0.2608408" qz="-0.06096606" qw="-0.6392545" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_01"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust002" tags="part animation  ">
+				<offset>
+          <position x="3.06538" y="0.4838795" z="7.049275" />
+          <quaternion qx="-0.7208322" qy="0.2608408" qz="0.06096605" qw="-0.6392545" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_02"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust003" tags="part animation  ">
+				<offset>
+          <position x="1.604762" y="-0.8232819" z="9.768881" />
+          <quaternion qx="0.7208321" qy="0.2608408" qz="-0.06096609" qw="-0.6392545" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_03"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust004" tags="part animation  ">
+				<offset>
+          <position x="-1.60476" y="-0.8232819" z="9.768881" />
+          <quaternion qx="0.7208321" qy="-0.2608408" qz="0.06096609" qw="-0.6392545" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_04"/>
+				</parts>
+			</connection>
+
+      <connection name="Connectiontrust005" tags="part animation  " parent="mav_main_mesh006">
+				<offset>
+          <position x="-0.01540637" y="0.06242454" z="-0.004730701" />
+          <quaternion qx="-0.679907" qy="0.01383306" qz="-0.1709504" qw="-0.7129594" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_05"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust006" tags="part animation  " parent="mav_main_mesh007">
+				<offset>
+          <position x="0.01631665" y="0.06220043" z="-0.004966736" />
+          <quaternion qx="-0.679907" qy="-0.01383304" qz="0.1709504" qw="-0.7129594" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_06"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust007" tags="part animation  " parent="mav_main_mesh005">
+				<offset>
+          <position x="0.02297664" y="-0.06816721" z="-0.00253582" />
+          <quaternion qx="0.6964037" qy="0.07934519" qz="-0.08074223" qw="-0.7086655" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_07"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust008" tags="part animation  " parent="mav_main_mesh004">
+				<offset>
+          <position x="-0.0108707" y="-0.05248511" z="0.003073931" />
+          <quaternion qx="0.6964037" qy="-0.07934519" qz="0.08074225" qw="-0.7086655" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_08"/>
+				</parts>
+			</connection>
+
+      <connection name="Connectionchiar01" group="pilotcontrol" tags="part">
+				<offset>
+          <position x="0" y="-0.291404" z="9.16332" />
+        </offset>
+				<parts>
+					<part ref="scorpius_seat.seat_pilot_mesh" name="seat_pilot_mesh"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="seat_pilot_mesh">
+				<offset>
+					<position x="0" y="0.1" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar02" tags="part iklink  " group="pilotcontrol" parent="seat_pilot_mesh">
+				<parts>
+					<part ref="scorpius_seat.part_main" name="part_main001"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair ">
+				<offset>
+					<position x="0" y="0.969" z="8.96332" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor " >
+				<offset>
+					<position x="0" y="0.969" z="8.96332" />
+				</offset>
+			</connection>
+
+      <connection name="Connection_airlock" group="airock001" tags="part ui">
+				<parts>
+					<part ref="arrow_airlock.ejection_handle" name="ejection_handle2"/>
+				</parts>
+        <offset>
+          <position x="0" y="0.4" z="9.5" />
+        </offset>
+			</connection>
+      <connection name="Connection_airlockbox" group="airock001" tags="part ui" parent="ejection_handle2">
+				<parts>
+					<part ref="arrow_airlock.box" name="box"/>
+				</parts>
+			</connection>
+
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="1.069" z="8.86727" />
+				</offset>
+			</connection>
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="1.069" z="8.86727" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-3.8" z="20"/>
+				</offset>
+			</connection>
+      <connection name="con_npc_teleport01" group="cabin_01" tags="npc_waypoint npctransport stand ">
+				<offset>
+          <position x="0" y="1.069" z="8.86727" />
+        </offset>
+			</connection>
+      <connection name="con_storage01" tags="storage ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="0.3" z="4" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="0" y="0.9002736" z="-7.608951" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_scorpius" parent="wing_mechanism_top_left">
+        <offset>
+          <position x="-0.5493929" y="0.08410251" z="0.4883394" />
+          <quaternion qx="0.002738183" qy="0.03479191" qz="-0.0784113" qw="-0.9963101" />
+        </offset>
+			</connection>
+      <connection name="con_engine_02" tags="engine small component aegs_scorpius" parent="wing_mechanism_top_right">
+        <offset>
+          <position x="0.478332" y="0.08505154" z="0.4942737" />
+          <quaternion qx="0.002738183" qy="-0.03479191" qz="0.0784113" qw="-0.9963101" />
+        </offset>
+			</connection>
+      <connection name="con_engine_03" tags="engine small component aegs_scorpius" parent="wing_mechanism_bottom_right">
+        <offset>
+          <position x="0.4759482" y="-0.08704376" z="0.5005198" />
+          <quaternion qx="-0.002738183" qy="-0.03479191" qz="-0.0784113" qw="-0.9963101" />
+        </offset>
+			</connection>
+      <connection name="con_engine_04" tags="engine small component aegs_scorpius" parent="wing_mechanism_bottom_left">
+        <offset>
+          <position x="-0.5510547" y="-0.08653522" z="0.4804492" />
+          <quaternion qx="-0.002738183" qy="0.03479191" qz="0.0784113" qw="-0.9963101" />
+        </offset>
+			</connection>
+
+      <connection name="con_turret_s_001" tags="turret small component combat aegs_scorpius">
+				<offset>
+          <position x="0" y="2.04395" z="1.578" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="weapon small platformcollision aegs_weapon_s3 symmetry symmetry_right symmetry_1" parent="wing_swivel_bottom_left">
+				<offset>
+          <position x="-0.903681" y="-0.2514629" z="-14.57233" />
+          <quaternion qx="4.872861e-09" qy="0.4617486" qz="1.67993e-08" qw="-0.8870108" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="weapon small platformcollision aegs_weapon_s3 symmetry symmetry_left symmetry_1" parent="wing_swivel_bottom_right">
+				<offset>
+          <position x="0.9034379" y="-0.2514238" z="-14.5722" />
+          <quaternion qx="0" qy="-0.4617486" qz="4.199825e-09" qw="-0.8870108" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_03" tags="weapon small platformcollision aegs_weapon_s3 symmetry symmetry_right symmetry_2" parent="wing_swivel_top_left">
+				<offset>
+          <position x="-0.9034348" y="0.2464299" z="-14.5722" />
+          <quaternion qx="0.4617486" qy="8.39965e-09" qz="-0.8870108" qw="-2.519895e-08" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_04" tags="weapon small platformcollision aegs_weapon_s3 symmetry symmetry_left symmetry_2" parent="wing_swivel_top_right">
+				<offset>
+          <position x="0.9034364" y="0.2464299" z="-14.5722" />
+          <quaternion qx="0.4617486" qy="-8.39965e-09" qz="0.8870108" qw="-2.939877e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_05" tags="component weapon small missile aegs_missile_s2 symmetry symmetry_1">
+				<offset>
+          <position x="-1.909009" y="1.273612" z="5.863457" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_06" tags="component weapon small missile aegs_missile_s2 symmetry symmetry_2">
+				<offset>
+          <position x="1.90901" y="1.273612" z="5.863457" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_07" tags="component weapon small missile aegs_missile_s2 symmetry symmetry_3">
+				<offset>
+          <position x="2.19711" y="-0.920617" z="6.144204" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_08" tags="component weapon small missile aegs_missile_s2 symmetry symmetry_4">
+				<offset>
+          <position x="-2.19711" y="-0.920617" z="6.144204" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield small aegs_s1 industrial">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield small aegs_s1 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_03" tags="component shield small aegs_s1 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_04" tags="component shield small aegs_s1 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_05" tags="component shield small aegs_s1 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+    </connections>
+  </component>
+</components>

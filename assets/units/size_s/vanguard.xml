@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-26 12:35:49 from Blender-->
+<components>
+  <component name="vanguard" class="ship_s">
+    <source geometry="extensions\AEGS\assets\units\size_s\vanguard_data" />
+    <layers>
+      <layer>
+        <lights>
+          <arealight name="ego_area" areax="0.1195621" areay="0.119153" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="0.3343702" specularintensity="1" range="10" shadowrange="1" lighteffect="0.6" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0.1046357" y="0.7921942" z="-2.080147" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="0.1195621" areay="0.119153" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="0.3343702" specularintensity="1" range="10" shadowrange="1" lighteffect="0.6" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="0.7033094" z="3.296757" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area002" areax="0.1195621" areay="0.119153" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="0.3343702" specularintensity="1" range="10" shadowrange="1" lighteffect="0.6" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="1.780672" z="8.464302" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area003" areax="0.1195621" areay="0.119153" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="0.3343702" specularintensity="1" range="10" shadowrange="1" lighteffect="0.6" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="1.494043" z="11.61573" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_s ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="defencenpc" tags="defence" value="-1" />
+      <connection name="ConnectionForAEGS_Gladius_LandingGear_Front" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="-2.5" z="11.09337" />
+        </offset>
+        <parts>
+          <part name="AEGS_Gladius_LandingGear_Front">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3409815" y="0.9844366" z="1.697847" />
+              <center x="0.0003165305" y="-0.5392618" z="0.03382778" />
+            </size>
+            <size_raw>
+              <max x="0.0003409815" y="0.0009844366" z="0.001697847" />
+              <center x="3.165114e-07" y="-0.0005392616" z="3.382703e-05" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForanvil_hornet_front_landinggear_left" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-5.57715" y="0.3260338" z="-0.2559912" />
+        </offset>
+        <parts>
+          <part name="anvil_hornet_front_landinggear_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="4" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="5" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="7" ref="generic.bigbox_mtl_decals" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="11" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                  <material id="13" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="14" ref="generic.anvl_hornet_mtl_engine_glow" />
+                  <material id="15" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="16" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="17" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="18" ref="p1.cockpit_glass_inside_01" />
+                  <material id="19" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="20" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="21" ref="generic.anvl_hornet_mtl_internal_structure" />
+                  <material id="22" ref="generic.anvl_hornet_mtl_seat_stitch" />
+                  <material id="23" ref="generic.anvl_hornet_mtl_link_glows" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4939706" y="2.185536" z="2.578968" />
+              <center x="0.00145483" y="-2.187319" z="-2.581019" />
+            </size>
+            <size_raw>
+              <max x="0.0004939707" y="0.00129455" z="0.001554349" />
+              <center x="1.454726e-06" y="-0.003078305" z="-0.003605637" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForanvil_hornet_front_landinggear_right" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="5.57715" y="0.3260338" z="-0.2559912" />
+        </offset>
+        <parts>
+          <part name="anvil_hornet_front_landinggear_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="4" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="5" ref="generic.anvl_hornet_f7c_r_mtl_metals_atlas" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="7" ref="generic.bigbox_mtl_decals" />
+                  <material id="8" ref="generic.anvl_hornet_mtl_text_decals_dark" />
+                  <material id="9" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="10" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="11" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                  <material id="13" ref="generic.anvl_hornet_mtl_link_glows" />
+                  <material id="14" ref="generic.anvl_hornet_mtl_engine_glow" />
+                  <material id="15" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="16" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="17" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="18" ref="p1.cockpit_glass_inside_01" />
+                  <material id="19" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="20" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="21" ref="generic.anvl_hornet_mtl_internal_structure" />
+                  <material id="22" ref="generic.anvl_hornet_mtl_seat_stitch" />
+                  <material id="23" ref="generic.anvl_hornet_mtl_link_glows" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4939709" y="2.185536" z="2.578968" />
+              <center x="-0.00145483" y="-2.187319" z="-2.581019" />
+            </size>
+            <size_raw>
+              <max x="0.000493971" y="0.00129455" z="0.001554349" />
+              <center x="-1.45477e-06" y="-0.003078305" z="-0.003605638" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody" tags="part ">
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.vanguard_mtl_dark_metals" />
+                  <material id="4" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="5" ref="generic.vanguard_mtl_base_light" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="7" ref="generic.vanguard_mtl_base_light" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="9" ref="generic.retaliator_mtl_metals_temp" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.vanguard_mtl_dark_metals" />
+                  <material id="4" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="5" ref="generic.vanguard_mtl_base_light" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="7" ref="generic.vanguard_mtl_base_light" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="9" ref="generic.retaliator_mtl_metals_temp" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.vanguard_mtl_dark_metals" />
+                  <material id="4" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="5" ref="generic.vanguard_mtl_base_light" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="7" ref="generic.vanguard_mtl_base_light" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="9" ref="generic.retaliator_mtl_metals_temp" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.vanguard_mtl_dark_metals" />
+                  <material id="4" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="5" ref="generic.vanguard_mtl_base_light" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="7" ref="generic.vanguard_mtl_base_light" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="9" ref="generic.retaliator_mtl_metals_temp" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.35628" y="3.504183" z="19.12843" />
+              <center x="2.145767e-06" y="0.5107535" z="-2.14475" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForceiling_small2" tags="part ">
+        <offset>
+          <position x="1.578814" y="-0.5212188" z="2.043298" />
+        </offset>
+        <parts>
+          <part name="ceiling_small2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="4" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="5" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="6" ref="generic.vanguard_interior_warden_mtl_metal_paint_grey" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="9" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="13" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="4" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="5" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="6" ref="generic.vanguard_interior_warden_mtl_metal_paint_grey" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="9" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="13" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="4" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="5" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="6" ref="generic.vanguard_interior_warden_mtl_metal_paint_grey" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="9" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="13" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="4" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="5" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="6" ref="generic.vanguard_interior_warden_mtl_metal_paint_grey" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="9" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="13" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.841179" y="1.445277" z="3.625493" />
+              <center x="-1.578814" y="0.008003891" z="1.581641" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged003" tags="part ">
+        <offset>
+          <position x="-9.191581e-09" y="0.8752243" z="13.50039" />
+          <quaternion qx="0" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="merged003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="3" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="4" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="7" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="9" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="11" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="13" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="14" ref="p1effects.p1_gradient_colour" />
+                  <material id="15" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="3" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="4" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="7" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="9" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="11" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="13" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="14" ref="p1effects.p1_gradient_colour" />
+                  <material id="15" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="3" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="4" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="7" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="9" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="11" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="13" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="14" ref="p1effects.p1_gradient_colour" />
+                  <material id="15" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="3" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="4" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="7" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="9" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="11" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="13" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="14" ref="p1effects.p1_gradient_colour" />
+                  <material id="15" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.070605" y="1.529552" z="2.033249" />
+              <center x="-1.15335e-05" y="-0.5425096" z="-0.2409525" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged008" tags="part ">
+        <offset>
+          <position x="-9.191581e-09" y="-0.6247756" z="-0.1246099" />
+          <quaternion qx="0" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="merged008">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_metal_paint_grey" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="4" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="5" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="6" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="10" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="11" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="12" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="13" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_metal_paint_grey" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="4" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="5" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="6" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="10" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="11" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="12" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="13" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_metal_paint_grey" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="4" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="5" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="6" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="10" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="11" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="12" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="13" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_metal_paint_grey" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="4" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="5" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="6" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="10" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="11" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="12" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="13" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.066408" y="1.850267" z="2.96048" />
+              <center x="5.960464e-08" y="0.008261919" z="-2.817465" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged019" tags="part ">
+        <offset>
+          <position x="1.75" y="0.3752243" z="8.50039" />
+          <quaternion qx="0" qy="1" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="merged019">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="6" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="7" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="8" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="10" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="6" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="7" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="8" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="10" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="6" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="7" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="8" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="10" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="6" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="7" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="8" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="10" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.01824" y="1.861824" z="2.065868" />
+              <center x="1.75" y="-0.2640849" z="-0.815007" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpom" tags="part ">
+        <offset>
+          <position x="0.006777763" y="-0.3768969" z="3.506947" />
+        </offset>
+        <parts>
+          <part name="pom">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="generic.vanguard_interior_mtl_lights" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="4" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="5" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="6" ref="generic.vanguard_interior_warden_mtl_metal_paint_grey" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="9" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="13" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="14" ref="generic.vanguard_interior_warden_mtl_metal_paint_grey" />
+                  <material id="15" ref="generic.vanguard_interior_warden_mtl_lights" />
+                  <material id="16" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="17" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="18" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="19" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="20" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="21" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="22" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="23" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="24" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="25" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="26" ref="generic.vanguard_interior_warden_mtl_monitor_screens" />
+                  <material id="27" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="28" ref="p1.cockpit_glass_outside_01" />
+                  <material id="29" ref="generic.vanguard_interior_mtl_monitor_screens" />
+                  <material id="30" ref="p1.cockpit_glass_inside_01" />
+                  <material id="31" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="generic.vanguard_interior_mtl_lights" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="4" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="5" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="6" ref="generic.vanguard_interior_warden_mtl_metal_paint_grey" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="9" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="13" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="14" ref="generic.vanguard_interior_warden_mtl_metal_paint_grey" />
+                  <material id="15" ref="generic.vanguard_interior_warden_mtl_lights" />
+                  <material id="16" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="17" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="18" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="19" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="20" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="21" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="22" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="23" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="24" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="25" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="26" ref="generic.vanguard_interior_warden_mtl_monitor_screens" />
+                  <material id="27" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="28" ref="p1.cockpit_glass_outside_01" />
+                  <material id="29" ref="generic.vanguard_interior_mtl_monitor_screens" />
+                  <material id="30" ref="p1.cockpit_glass_inside_01" />
+                  <material id="31" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="generic.vanguard_interior_mtl_lights" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="4" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="5" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="6" ref="generic.vanguard_interior_warden_mtl_metal_paint_grey" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="9" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="13" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="14" ref="generic.vanguard_interior_warden_mtl_metal_paint_grey" />
+                  <material id="15" ref="generic.vanguard_interior_warden_mtl_lights" />
+                  <material id="16" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="17" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="18" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="19" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="20" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="21" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="22" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="23" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="24" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="25" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="26" ref="generic.vanguard_interior_warden_mtl_monitor_screens" />
+                  <material id="27" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="28" ref="p1.cockpit_glass_outside_01" />
+                  <material id="29" ref="generic.vanguard_interior_mtl_monitor_screens" />
+                  <material id="30" ref="p1.cockpit_glass_inside_01" />
+                  <material id="31" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="generic.vanguard_interior_mtl_lights" />
+                  <material id="3" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="4" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="5" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="6" ref="generic.vanguard_interior_warden_mtl_metal_paint_grey" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="9" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="13" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="14" ref="generic.vanguard_interior_warden_mtl_metal_paint_grey" />
+                  <material id="15" ref="generic.vanguard_interior_warden_mtl_lights" />
+                  <material id="16" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="17" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="18" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="19" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="20" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="21" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="22" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="23" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="24" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="25" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="26" ref="generic.vanguard_interior_warden_mtl_monitor_screens" />
+                  <material id="27" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="28" ref="p1.cockpit_glass_outside_01" />
+                  <material id="29" ref="generic.vanguard_interior_mtl_monitor_screens" />
+                  <material id="30" ref="p1.cockpit_glass_inside_01" />
+                  <material id="31" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.062989" y="2.130227" z="10.53684" />
+              <center x="-0.006751776" y="0.08519518" z="1.218623" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForramp_exterior" group="door" tags="part animation ui require_docked trigger_interact">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="1.5e-05" y="-2.517084" z="-0.455744" />
+          <quaternion qx="-0.9999898" qy="0" qz="0" qw="-0.004520239" />
+        </offset>
+        <parts>
+          <part name="ramp_exterior">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="2" ref="generic.vanguard_mtl_dark_metals" />
+                  <material id="3" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="5" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="6" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="7" ref="generic.retaliator_interior_mtl_buttons_switches" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="9" ref="generic.vanguard_mtl_landing_gear_chrome" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="2" ref="generic.vanguard_mtl_dark_metals" />
+                  <material id="3" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="5" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="6" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="7" ref="generic.retaliator_interior_mtl_buttons_switches" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="9" ref="generic.vanguard_mtl_landing_gear_chrome" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="2" ref="generic.vanguard_mtl_dark_metals" />
+                  <material id="3" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="5" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="6" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="7" ref="generic.retaliator_interior_mtl_buttons_switches" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="9" ref="generic.vanguard_mtl_landing_gear_chrome" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="2" ref="generic.vanguard_mtl_dark_metals" />
+                  <material id="3" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="5" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="6" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="7" ref="generic.retaliator_interior_mtl_buttons_switches" />
+                  <material id="8" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="9" ref="generic.vanguard_mtl_landing_gear_chrome" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.474793" y="0.9322617" z="2.544512" />
+              <center x="2.037541e-08" y="-0.6555638" z="2.100373" />
+            </size>
+            <size_raw>
+              <max x="1.474793" y="0.9322617" z="2.544512" />
+              <center x="0" y="-0.6555642" z="2.100374" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForramp_lower" group="door" tags="animation part ui require_docked trigger_interact" parent="ramp_exterior">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-1.4e-05" y="-0.7387255" z="1.956523" />
+          <quaternion qx="0.9902877" qy="0" qz="0" qw="-0.1390338" />
+        </offset>
+        <parts>
+          <part name="ramp_lower">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="2" ref="generic.retaliator_interior_mtl_buttons_switches" />
+                  <material id="3" ref="generic.vanguard_mtl_landing_gear_chrome" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.901452" y="0.9304541" z="3.952029" />
+              <center x="1.328499e-08" y="-0.9292789" z="-1.965019" />
+            </size>
+            <size_raw>
+              <max x="0.901452" y="0.08055494" z="2.095908" />
+              <center x="1.490116e-08" y="-0.079852" z="-0.108899" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForretaliator_thruster_mav_fixed" tags="part ">
+        <offset>
+          <position x="-8.622999" y="0.531001" z="1.717978" />
+          <quaternion qx="-0.5" qy="-0.5000001" qz="0.5" qw="-0.4999999" />
+        </offset>
+        <parts>
+          <part name="retaliator_thruster_mav_fixed">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="2" ref="generic.sabre_mtl_metal_bare" />
+                  <material id="3" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="4" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.701475" y="8.744247" z="1.64347" />
+              <center x="6.193421" y="8.623" z="0.8830312" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForscreen_centre_screen" tags="part ">
+        <offset>
+          <position x="0" y="1.087133" z="13.79166" />
+          <quaternion qx="0.1005374" qy="-4.774188e-06" qz="3.517823e-06" qw="-0.9949333" />
+        </offset>
+        <parts>
+          <part name="screen_centre_screen">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4870794" y="0.3669436" z="0.1131545" />
+              <center x="0.0004694238" y="-0.3491034" z="0.08457315" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_left_geo" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-8.424489" y="0.200077" z="2.523085" />
+          <quaternion qx="0" qy="0" qz="-1.043082e-07" qw="-1" />
+        </offset>
+        <parts>
+          <part name="wing_left_geo">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.vanguard_mtl_dark_metals" />
+                  <material id="4" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="6" ref="generic.vanguard_mtl_base_light" />
+                  <material id="7" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="8" ref="generic.vanguard_mtl_base_light" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.000793" y="1.203815" z="3.412184" />
+              <center x="-4.600764" y="-1.048933" z="-2.213895" />
+            </size>
+            <size_raw>
+              <max x="6.000792" y="1.203815" z="3.412184" />
+              <center x="-4.600768" y="-1.048934" z="-2.213895" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwing_right_geo" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="8.436399" y="0.267641" z="2.574031" />
+        </offset>
+        <parts>
+          <part name="wing_right_geo">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_landinggear_metal" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.vanguard_mtl_dark_metals" />
+                  <material id="4" ref="generic.retaliator_mtl_dt_blacks" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="6" ref="generic.vanguard_mtl_base_light" />
+                  <material id="7" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="8" ref="generic.vanguard_mtl_base_light" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.000793" y="1.203815" z="3.412113" />
+              <center x="4.58886" y="-1.116498" z="-2.26477" />
+            </size>
+            <size_raw>
+              <max x="6.000793" y="1.203815" z="3.412113" />
+              <center x="4.588859" y="-1.116498" z="-2.26477" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectiontrustthruster" tags="part animation  ">
+        <offset>
+          <position x="-8.621919" y="0.7758294" z="1.711299" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_01"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster001" tags="part animation  ">
+        <offset>
+          <position x="8.62192" y="0.7758294" z="1.711299" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_02"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster002" tags="part animation  ">
+        <offset>
+          <position x="5.987605" y="1.329061" z="-11.35702" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_03"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster003" tags="part animation  ">
+        <offset>
+          <position x="-5.9876" y="1.329061" z="-11.357" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_04"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster004" tags="part animation  ">
+        <offset>
+          <position x="-7.322856" y="0.4614603" z="-11.357" />
+          <quaternion qx="-0.5" qy="-0.5" qz="-0.5" qw="-0.5" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_05"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster005" tags="part animation  ">
+        <offset>
+          <position x="7.32286" y="0.4614603" z="-11.357" />
+          <quaternion qx="-0.5" qy="0.5" qz="0.5" qw="-0.5" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_06"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster006" tags="part animation  ">
+        <offset>
+          <position x="4.994966" y="-1.831786" z="-9.976403" />
+          <quaternion qx="0.6146439" qy="-0.08525557" qz="0.1210452" qw="-0.7747854" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_07"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster007" tags="part animation  ">
+        <offset>
+          <position x="-4.99497" y="-1.831786" z="-9.976403" />
+          <quaternion qx="0.6146439" qy="0.08525557" qz="-0.1210451" qw="-0.7747854" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_08"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster008" tags="part animation  ">
+        <offset>
+          <position x="7.89524" y="-1.022648" z="2.405784" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_09"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster009" tags="part animation  ">
+        <offset>
+          <position x="-7.89524" y="-1.022648" z="2.405784" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_10"/>
+				</parts>
+      </connection>
+
+      <connection name="Connection74" tags="part">
+				<offset>
+          <position x="1.50637" y="-0.454363" z="2.06246" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_02.detail_l_airlock" name="detail_l_airlock"/>
+				</parts>
+			</connection>
+			<connection name="Connection75" tags="part  " parent="detail_l_airlock">
+				<offset>
+          <position x="0" y="0" z="-0.35" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_02.detail_xl_switch" name="detail_xl_switch"/>
+				</parts>
+			</connection>
+			<connection name="Connection76" group="cabin_01" tags="part  " parent="detail_l_airlock">
+				<offset>
+					<quaternion qx="-0" qy="-0.8191521" qz="-0" qw="-0.5735763"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_02.detail_l_door" name="detail_l_door"/>
+				</parts>
+			</connection>
+      <connection name="con_npc_stand_001" group="cabin_01 " tags="npc_waypoint stand npctransport ">
+				<offset>
+          <position x="1.50637" y="-1.454363" z="2.06246" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+
+      <connection name="Connectionchiar01" group="pilotcontrol" tags="part">
+				<offset>
+          <position x="0" y="-0.383228" z="12.3764" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+				<parts>
+					<part ref="vanguard_seat.seat" name="seat"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="seat_mesh">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar02" tags="part iklink  " group="pilotcontrol" parent="seat">
+				<parts>
+					<part ref="vanguard_seat.seat_mesh" name="seat_mesh"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair ">
+				<offset>
+          <position x="0" y="0.005389" z="11.3894" />
+        </offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor ">
+				<offset>
+          <position x="0" y="0.805389" z="13.3894" />
+        </offset>
+			</connection>
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="0.505389" z="12" />
+				</offset>
+			</connection>
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="0.505389" z="12" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-4" z="18"/>
+				</offset>
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="0.8" z="12.3764" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="0" y="0.309354" z="-8.98942" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_vanguard">
+        <offset>
+					<position x="0" y="0" z="-14.3369"/>
+				</offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield small aegs_s1 industrial">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield small aegs_s1 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_03" tags="component shield small aegs_s1 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_04" tags="component shield small aegs_s1 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_04" tags="component shield small aegs_s1 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="weapon small platformcollision aegs_weapon_s4 symmetry symmetry_top symmetry_1">
+				<offset>
+          <position x="0" y="-2.03232" z="14.8084" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="weapon small platformcollision aegs_weapon_vanguard symmetry symmetry_top symmetry_2">
+				<offset>
+          <position x="0" y="-1.12427" z="17.2528" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_03" tags="component weapon small missile aegs_missile_s2 unfixed symmetry symmetry_1">
+				<offset>
+          <position x="-5.47062" y="-2.94387" z="3.1479" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_04" tags="component weapon small missile aegs_missile_s2 unfixed symmetry symmetry_2">
+				<offset>
+          <position x="5.47062" y="-2.94387" z="3.1479" />
+        </offset>
+			</connection>
+
+      <connection name="con_turret_s_001" tags="turret small component combat aegs_retaliator">
+				<offset>
+          <position x="0" y="3.36992" z="4.84509" />
+        </offset>
+			</connection>
+
+      <connection name="con_storage01" tags="storage ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+    </connections>
+  </component>
+</components>

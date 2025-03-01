@@ -1,0 +1,3205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-06-16 16:38:17 from Blender-->
+<components>
+  <component name="caterpillar" class="ship_m">
+    <source geometry="extensions\AEGS\assets\units\size_m\caterpillar_data" />
+    <layers>
+      <layer>
+        <lights>
+          <arealight name="ego_area" areax="0.6825824" areay="0.08899474" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0" y="2.307684" z="1.998299" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="0.6825824" areay="0.08899474" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0" y="2.307684" z="12.00162" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area002" areax="0.6825824" areay="0.08899474" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0" y="2.307684" z="22.00075" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area003" areax="0.6825824" areay="0.08899474" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0" y="2.307684" z="31.99972" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area004" areax="0.6825824" areay="0.08899474" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-1.313095" y="1.427152" z="43.4897" />
+              <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area005" areax="0.6825824" areay="0.08899474" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="1.3131" y="1.427152" z="43.4897" />
+              <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area006" areax="0.6825824" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0" y="-0.2429141" z="37.87864" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area007" areax="0.6825824" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0" y="-0.2429141" z="37.12472" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area008" areax="0.6825824" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0" y="-0.2429141" z="36.86259" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area009" areax="0.6825824" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0" y="-0.2429141" z="36.13802" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area010" areax="0.6825824" areay="0.07944489" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.01257344" y="-0.2429141" z="27.85274" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area011" areax="0.6825824" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.01257344" y="-0.2429141" z="27.12426" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area012" areax="0.6825824" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.01257344" y="-0.2429141" z="26.86213" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area013" areax="0.6825824" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.01257344" y="-0.2429141" z="26.13756" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area014" areax="0.6825824" areay="0.07944489" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.01257344" y="-0.2429141" z="17.85157" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area015" areax="0.6825824" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.01257344" y="-0.2429141" z="17.12308" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area016" areax="0.6825824" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.01257344" y="-0.2429141" z="16.86095" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area017" areax="0.6825824" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.01257344" y="-0.2429141" z="16.13638" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area018" areax="0.6825824" areay="0.07944489" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.01257344" y="-0.2429141" z="7.852232" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area019" areax="0.6825824" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.01257344" y="-0.2429141" z="7.123745" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area020" areax="0.6825824" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.01257344" y="-0.2429141" z="6.861615" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area021" areax="0.6825824" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.01257344" y="-0.2429141" z="6.137047" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area022" areax="0.6825824" areay="0.07944489" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.01257344" y="-0.2429141" z="-2.147432" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area023" areax="0.6825824" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.01257344" y="-0.2429141" z="-2.875919" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area024" areax="0.6825824" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.01257344" y="-0.2429141" z="-3.138049" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area025" areax="0.6825824" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.01257344" y="-0.2429141" z="-3.862617" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area026" areax="0.4664755" areay="0.07944489" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="-2.125139" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area027" areax="0.4579191" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="-2.877513" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area028" areax="0.4906282" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="-3.123731" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area029" areax="0.4625444" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="-3.886152" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area030" areax="0.4664755" areay="0.07944489" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="7.875144" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area031" areax="0.4579191" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="7.122769" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area032" areax="0.4906282" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="6.876551" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area033" areax="0.4625444" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="6.11413" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area034" areax="0.4664755" areay="0.07944489" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="17.87622" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area035" areax="0.4579191" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="17.12385" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area036" areax="0.4906282" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="16.87763" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area037" areax="0.4625444" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="16.11521" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area038" areax="0.4664755" areay="0.07944489" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="27.87521" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area039" areax="0.4579191" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="27.12284" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area040" areax="0.4906282" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="26.87662" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area041" areax="0.4625444" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="26.1142" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area042" areax="0.4664755" areay="0.07944489" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="37.87473" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area043" areax="0.4579191" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="37.12235" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area044" areax="0.4906282" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="36.87613" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area045" areax="0.4625444" areay="0.0821991" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.254019" y="2.75034" z="36.11371" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area046" areax="0.6891923" areay="0.09379768" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="3.280344" y="-0.2375796" z="-12.12637" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area047" areax="0.6891923" areay="0.09379768" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="3.280344" y="-0.2375796" z="-12.85255" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area048" areax="0.6891923" areay="0.09379768" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-3.256991" y="-0.2375796" z="-12.12637" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area049" areax="0.6891923" areay="0.09379768" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-3.256991" y="-0.2375796" z="-12.85255" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area050" areax="0.06938457" areay="0.4534645" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.986995" y="-0.8454409" z="-8.475633" />
+              <quaternion qx="0" qy="0" qz="-0.3826835" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area051" areax="0.06938457" areay="0.4534645" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.986995" y="-0.7304513" z="-7.49123" />
+              <quaternion qx="0" qy="0" qz="-0.3826835" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area052" areax="0.08576202" areay="0.1758385" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.309227" y="-0.3396991" z="-6.798578" />
+              <quaternion qx="0" qy="0" qz="-0.3826835" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area053" areax="0.08576202" areay="0.1758385" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.309227" y="-0.3396991" z="-6.561195" />
+              <quaternion qx="0" qy="0" qz="-0.3826835" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area054" areax="0.08576202" areay="0.1758385" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.309227" y="-0.3396991" z="-9.212652" />
+              <quaternion qx="0" qy="0" qz="-0.3826835" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area055" areax="0.08576202" areay="0.1758385" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.309227" y="-0.3396991" z="-9.818265" />
+              <quaternion qx="0" qy="0" qz="-0.3826835" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area056" areax="0.08576202" areay="0.7027984" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0" y="-0.6519532" z="-11.66852" />
+              <quaternion qx="0.2705981" qy="0.6532815" qz="-0.2705981" qw="-0.6532815" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area057" areax="0.08421135" areay="0.4352551" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-1.311895" y="-0.5618637" z="-14.41644" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area058" areax="0.08421135" areay="0.4352551" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="1.31189" y="-0.5618637" z="-14.41644" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area059" areax="0.171936" areay="0.07974625" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="2.843726" y="-0.2580247" z="-18.01185" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area060" areax="0.171936" areay="0.07974625" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-0.2503273" y="-0.3531094" z="-18.3301" />
+              <quaternion qx="0.3826835" qy="0" qz="0" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area061" areax="0.4569149" areay="0.09379768" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-3.522721" y="-0.2479133" z="-19.13136" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area062" areax="0.4457107" areay="0.09379768" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-3.49514" y="-0.2479133" z="-19.87508" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area063" areax="0.4457107" areay="0.0805397" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-3.49514" y="-0.2479133" z="-27.12305" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area064" areax="0.4457107" areay="0.0805397" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-3.49514" y="-0.2479133" z="-27.86877" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area065" areax="0.4457107" areay="0.0805397" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.009229862" y="-0.2479133" z="-27.86877" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area066" areax="0.4457107" areay="0.0805397" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="3.530033" y="-0.2479133" z="-27.86877" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area067" areax="0.1749673" areay="0.0805397" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="3.858189" y="-0.2139206" z="-30.42973" />
+              <quaternion qx="0.1305262" qy="0" qz="0" qw="-0.9914449" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area068" areax="0.1749673" areay="0.0805397" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="2.811783" y="-0.2139206" z="-30.42973" />
+              <quaternion qx="0.1305262" qy="0" qz="0" qw="-0.9914449" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area069" areax="0.1749673" areay="0.0805397" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-2.805733" y="-0.2139206" z="-30.42973" />
+              <quaternion qx="0.1305262" qy="0" qz="0" qw="-0.9914449" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area070" areax="0.1749673" areay="0.0805397" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-3.849353" y="-0.2139206" z="-30.42973" />
+              <quaternion qx="0.1305262" qy="0" qz="0" qw="-0.9914449" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area071" areax="0.1749673" areay="0.0805397" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-3.850746" y="-0.2139206" z="-31.58121" />
+              <quaternion qx="9.854454e-09" qy="0.9914449" qz="0.1305262" qw="-7.485201e-08" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area072" areax="0.1749673" areay="0.0805397" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-2.80434" y="-0.2139206" z="-31.58121" />
+              <quaternion qx="9.854454e-09" qy="0.9914449" qz="0.1305262" qw="-7.485201e-08" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area073" areax="0.1749673" areay="0.0805397" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="2.813176" y="-0.2139206" z="-31.58121" />
+              <quaternion qx="9.854454e-09" qy="0.9914449" qz="0.1305262" qw="-7.485201e-08" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area074" areax="0.1749673" areay="0.0805397" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="3.856796" y="-0.2139206" z="-31.58121" />
+              <quaternion qx="9.854454e-09" qy="0.9914449" qz="0.1305262" qw="-7.485201e-08" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area075" areax="0.1624168" areay="0.07171631" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0" y="-0.4203825" z="-32.19221" />
+              <quaternion qx="9.854454e-09" qy="0.9914449" qz="0.1305262" qw="-7.485201e-08" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area076" areax="0.1700435" areay="0.07551575" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="2.017048" y="-0.5308082" z="-36.51888" />
+              <quaternion qx="0.258819" qy="0" qz="0" qw="-0.9659258" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area077" areax="0.1700435" areay="0.07551575" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-1.515466" y="-0.5082168" z="-36.47715" />
+              <quaternion qx="0.258819" qy="0" qz="0" qw="-0.9659258" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area078" areax="0.4743176" areay="0.0845871" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="3.499933" y="-0.2479133" z="-27.17681" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area079" areax="0.4743176" areay="0.0845871" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="3.513192" y="3.731936" z="-17.98082" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area080" areax="0.4743176" areay="0.0845871" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="3.513192" y="2.728497" z="-19.99843" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area081" areax="0.4743176" areay="0.07875824" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="3.513192" y="1.718599" z="-22.01103" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area082" areax="0.4743176" areay="0.07875824" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="3.513192" y="0.7173244" z="-24.0221" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area083" areax="0.4743176" areay="0.07875824" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="3.513192" y="3.761101" z="-13.82571" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area084" areax="0.4743176" areay="0.07875824" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="3.513192" y="3.746674" z="-13.12443" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area085" areax="0.08008099" areay="0.4818916" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="5.622177" y="3.746674" z="-11.99584" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area086" areax="0.08008099" areay="0.4818916" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="6.375598" y="3.746674" z="-11.99584" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area087" areax="0.4810491" areay="0.08560944" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.002546906" y="3.773319" z="-11.49231" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area088" areax="0.4810491" areay="0.08560944" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.002546906" y="2.748789" z="-7.120512" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area089" areax="0.4810491" areay="0.08560944" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.002546906" y="2.748789" z="-7.876991" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area090" areax="0.6898012" areay="0.08560944" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.002546906" y="2.301024" z="-4.355514" />
+              <quaternion qx="-0.3826835" qy="0" qz="0" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area091" areax="0.1775398" areay="0.07774925" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-2.016999" y="2.37428" z="-6.592872" />
+              <quaternion qx="0.3826835" qy="0" qz="0" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area092" areax="0.4810491" areay="0.08560944" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.002546906" y="3.749882" z="-13.12349" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area093" areax="0.4810491" areay="0.08560944" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.002546906" y="3.749882" z="-13.87561" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area094" areax="0.4810491" areay="0.08560944" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.002546906" y="3.749882" z="-21.11983" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area095" areax="0.4810491" areay="0.08560944" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="0.002546906" y="3.749882" z="-21.878" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area096" areax="0.1586035" areay="0.07590485" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="1.014009" y="3.571172" z="-23.96245" />
+              <quaternion qx="-0.3826835" qy="0" qz="0" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area097" areax="0.4810491" areay="0.08560944" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-3.497876" y="3.749882" z="-21.878" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area098" areax="0.1586035" areay="0.07590485" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-0.9903785" y="3.571172" z="-23.96245" />
+              <quaternion qx="-0.3826835" qy="0" qz="0" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area099" areax="0.4810491" areay="0.08560944" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-3.497096" y="3.749882" z="-27.12168" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area100" areax="0.4810491" areay="0.08560944" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-3.497096" y="3.749882" z="-27.87848" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area101" areax="0.07652664" areay="0.1731644" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-4.922194" y="3.27886" z="-31.53852" />
+              <quaternion qx="0" qy="0" qz="-0.258819" qw="-0.9659258" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area102" areax="0.07652664" areay="0.1712537" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-3.557089" y="3.488242" z="-35.46616" />
+              <quaternion qx="0.1830127" qy="0.6830127" qz="-0.1830127" qw="-0.6830127" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area103" areax="0.07652664" areay="0.4819424" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-0.4917973" y="3.273545" z="-35.70244" />
+              <quaternion qx="0.1830127" qy="0.6830127" qz="-0.1830127" qw="-0.6830127" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area104" areax="0.07652664" areay="0.4819424" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-1.022805" y="3.552803" z="-32.59157" />
+              <quaternion qx="-0.2705981" qy="-0.6532815" qz="-0.2705981" qw="-0.6532815" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area105" areax="0.07593918" areay="0.1757376" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="1.802971" y="3.604236" z="-32.61877" />
+              <quaternion qx="-0.1830127" qy="-0.6830127" qz="-0.1830127" qw="-0.6830127" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area106" areax="0.08145905" areay="0.4799785" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-7.120545" y="5.251147" z="-11.998" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area107" areax="0.08145905" areay="0.4799785" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-7.874295" y="5.234626" z="-11.998" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area108" areax="0.08145905" areay="0.4799785" radius="0" spotattenuation="0" shadow="1" r="255" g="28" b="30" intensity="0.2535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-9.625963" y="5.253375" z="-11.998" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area109" areax="0.08145905" areay="0.1644897" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-10.75072" y="5.466018" z="-9.967529" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area110" areax="0.08145905" areay="0.1644897" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-12.75158" y="5.466018" z="-11.98462" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area111" areax="0.08145905" areay="0.1644897" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-9.761482" y="4.818115" z="-14.77032" />
+              <quaternion qx="0" qy="0" qz="0.3826835" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area112" areax="0.08145905" areay="0.1644897" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-13.73551" y="4.818115" z="-14.61851" />
+              <quaternion qx="0" qy="0" qz="-0.258819" qw="-0.9659258" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area113" areax="0.1708565" areay="0.0758419" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-11.75051" y="5.359596" z="-6.904578" />
+              <quaternion qx="-0.04361939" qy="0" qz="0" qw="-0.9990482" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area114" areax="0.1708565" areay="0.0758419" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-11.75051" y="5.180692" z="-5.020617" />
+              <quaternion qx="-0.1305262" qy="0" qz="0" qw="-0.9914449" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area115" areax="0.08009148" areay="0.1700716" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-10.44119" y="2.144973" z="-8.054166" />
+              <quaternion qx="0" qy="0" qz="0.3826835" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area116" areax="0.08009148" areay="0.1700716" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-10.44119" y="2.144973" z="-16.47801" />
+              <quaternion qx="0" qy="0" qz="0.3826835" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area117" areax="0.08009148" areay="0.1700716" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-10.44119" y="2.144973" z="-17.08829" />
+              <quaternion qx="0" qy="0" qz="0.3826835" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area118" areax="0.08009148" areay="0.1700716" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-13.52817" y="1.90014" z="-17.1966" />
+              <quaternion qx="0" qy="0" qz="-0.3826835" qw="-0.9238796" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area119" areax="0.08009148" areay="0.4680138" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-13.74449" y="1.616257" z="-13.75932" />
+              <quaternion qx="0" qy="0" qz="-0.258819" qw="-0.9659258" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area120" areax="0.08009148" areay="0.4680138" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-13.74449" y="1.777573" z="-12.74907" />
+              <quaternion qx="0" qy="0" qz="-0.258819" qw="-0.9659258" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area121" areax="0.08009148" areay="0.4680138" radius="0" spotattenuation="0" shadow="1" r="255" g="233" b="189" intensity="0.3535534" specularintensity="1" range="5">
+            <offset>
+              <position x="-13.15753" y="2.10831" z="-9.724687" />
+              <quaternion qx="0" qy="0" qz="-0.258819" qw="-0.9659258" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_m ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForbody" tags="part ">
+        <offset>
+          <position x="-1.049513" y="0.652463" z="-14.63903" />
+        </offset>
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="9" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="10" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="12" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="13" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="14" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="15" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="9" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="10" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="12" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="13" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="14" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="15" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="9" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="10" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="12" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="13" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="14" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="15" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="9" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="10" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="12" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="13" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="14" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="15" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.173366" y="3.82808" z="42.16509" />
+              <center x="-3.240378" y="-0.05131412" z="19.76034" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody001" tags="part ">
+        <offset>
+          <position x="-1.049513" y="0.652463" z="-14.63903" />
+        </offset>
+        <parts>
+          <part name="body001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="12" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="13" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="14" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="15" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="16" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="17" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="12" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="13" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="14" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="15" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="16" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="17" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="12" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="13" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="14" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="15" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="16" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="17" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="12" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="13" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="14" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="15" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="16" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="17" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="19.79371" y="6.344053" z="55.84874" />
+              <center x="3.755505" y="-0.1487582" z="13.11712" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody002" tags="part ">
+        <offset>
+          <position x="-1.049513" y="0.652463" z="-14.63903" />
+        </offset>
+        <parts>
+          <part name="body002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="2" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="3" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="5" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="2" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="3" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="5" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="2" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="3" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="5" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="2" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="3" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="5" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="6" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="19.77811" y="6.241806" z="55.82981" />
+              <center x="3.76786" y="-0.2068641" z="13.1354" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody003" tags="part ">
+        <offset>
+          <position x="-1.049513" y="0.652463" z="-14.63903" />
+        </offset>
+        <parts>
+          <part name="body003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="6" ref="generic.drak_caterpillar_cargo_doors_mtl_int_machine_stamped_me" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="6" ref="generic.drak_caterpillar_cargo_doors_mtl_int_machine_stamped_me" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="6" ref="generic.drak_caterpillar_cargo_doors_mtl_int_machine_stamped_me" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="6" ref="generic.drak_caterpillar_cargo_doors_mtl_int_machine_stamped_me" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="11" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.680427" y="3.812218" z="42.25727" />
+              <center x="-2.701266" y="-0.061914" z="20.09476" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_room" tags="detail_m part ">
+        <offset>
+          <position x="-3.499998" y="0.9999902" z="-21.50001" />
+          <quaternion qx="2.641229e-07" qy="0.7071066" qz="-2.641227e-07" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="inner_room">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="6" ref="p1.cockpit_glass_inside_01" />
+                  <material id="7" ref="generic.drak_cutlass_black_mtl_rubber_grip" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_machine_stamped_me" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_cloth_atlas" />
+                  <material id="11" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="6" ref="p1.cockpit_glass_inside_01" />
+                  <material id="7" ref="generic.drak_cutlass_black_mtl_rubber_grip" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_machine_stamped_me" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_cloth_atlas" />
+                  <material id="11" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="6" ref="p1.cockpit_glass_inside_01" />
+                  <material id="7" ref="generic.drak_cutlass_black_mtl_rubber_grip" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_machine_stamped_me" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_cloth_atlas" />
+                  <material id="11" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_int_trelace_grate" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_int_ceiling_tile" />
+                  <material id="6" ref="p1.cockpit_glass_inside_01" />
+                  <material id="7" ref="generic.drak_cutlass_black_mtl_rubber_grip" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_machine_stamped_me" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_cloth_atlas" />
+                  <material id="11" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="42.03844" y="4.308951" z="13.6463" />
+              <center x="26.46542" y="0.2135653" z="-2.941544" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_room001" tags="detail_m part ">
+        <offset>
+          <position x="-3.499998" y="0.9999902" z="-21.50001" />
+          <quaternion qx="2.641229e-07" qy="0.7071066" qz="-2.641227e-07" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="inner_room001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.907495" y="2.805196" z="10.90542" />
+              <center x="7.128084" y="1.727702" z="-5.733252" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_room002" tags="detail_m part ">
+        <offset>
+          <position x="-3.499998" y="0.9999902" z="-21.50001" />
+          <quaternion qx="2.641229e-07" qy="0.7071066" qz="-2.641227e-07" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="inner_room002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.787388" y="3.181947" z="5.713333" />
+              <center x="58.7521" y="-1.043488" z="-3.513624" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_room003" tags="detail_m part ">
+        <offset>
+          <position x="-3.499998" y="0.9999902" z="-21.50001" />
+          <quaternion qx="2.641229e-07" qy="0.7071066" qz="-2.641227e-07" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="inner_room003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="10.50393" y="3.081016" z="5.713335" />
+              <center x="38.50001" y="-0.9425411" z="-3.513629" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_room004" tags="detail_m part ">
+        <offset>
+          <position x="-3.499998" y="0.9999902" z="-21.50001" />
+          <quaternion qx="2.641229e-07" qy="0.7071066" qz="-2.641227e-07" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="inner_room004">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.698069" y="3.408334" z="3.17783" />
+              <center x="10.74476" y="1.258982" z="7.738197" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_room005" tags="detail_m part ">
+        <offset>
+          <position x="-3.499998" y="0.9999902" z="-21.50001" />
+          <quaternion qx="2.641229e-07" qy="0.7071066" qz="-2.641227e-07" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="inner_room005">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.112778" y="3.27594" z="5.713331" />
+              <center x="20.93955" y="-0.7475784" z="-3.513638" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_room006" tags="detail_m part ">
+        <offset>
+          <position x="-3.499998" y="0.9999902" z="-21.50001" />
+          <quaternion qx="2.641229e-07" qy="0.7071066" qz="-2.641227e-07" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="inner_room006">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.690045" y="1.641519" z="5.543141" />
+              <center x="10.23268" y="-2.370574" z="-3.499999" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_room007" tags="detail_m part ">
+        <offset>
+          <position x="-3.499998" y="0.9999902" z="-21.50001" />
+          <quaternion qx="2.641229e-07" qy="0.7071066" qz="-2.641227e-07" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="inner_room007">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.046827" y="3.683064" z="5.158107" />
+              <center x="-10.87362" y="-0.6533632" z="-3.499998" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_room008" tags="detail_m part ">
+        <offset>
+          <position x="-3.499998" y="0.9999902" z="-21.50001" />
+          <quaternion qx="2.641229e-07" qy="0.7071066" qz="-2.641227e-07" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="inner_room008">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.54142" y="3.580584" z="5.160933" />
+              <center x="-10.47751" y="-1.150911" z="-3.499344" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_room009" tags="detail_m part ">
+        <offset>
+          <position x="-3.499998" y="0.9999902" z="-21.50001" />
+          <quaternion qx="2.641229e-07" qy="0.7071066" qz="-2.641227e-07" qw="-0.7071069" />
+        </offset>
+        <parts>
+          <part name="inner_room009">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_insulation" />
+                  <material id="8" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="9" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.927164" y="3.599751" z="5.346555" />
+              <center x="0.8522511" y="-0.5195665" z="-3.456097" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor001" tags="animation part trigger_interact door ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-9.249999" y="2.749997" z="-11.9931" />
+          <quaternion qx="2.641228e-07" qy="-0.7071068" qz="2.641229e-07" qw="-0.7071067" />
+        </offset>
+        <parts>
+          <part name="door001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7949986" y="1.303723" z="1.044694" />
+              <center x="-1.049042e-05" y="1.249999" z="-0.7909269" />
+            </size>
+            <size_raw>
+              <max x="0.7949988" y="1.303723" z="0.2524609" />
+              <center x="-1.098216e-05" y="1.249998" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor002" tags="animation part trigger_interact door ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-4.248693" y="0.2500094" z="37.5" />
+          <quaternion qx="-1.33402e-08" qy="-5.002563e-09" qz="1.28066e-06" qw="-1" />
+        </offset>
+        <parts>
+          <part name="door002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.587891" y="1.303723" z="0.2524605" />
+              <center x="0.7915747" y="1.249999" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.7949989" y="1.303723" z="0.252461" />
+              <center x="-1.098216e-05" y="1.249998" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor003" tags="animation part trigger_interact door ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-4.248719" y="0.2500028" z="-3.500006" />
+          <quaternion qx="3.735261e-07" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="door003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.570341" y="1.303723" z="0.252461" />
+              <center x="0.7740526" y="1.249999" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.7949989" y="1.303723" z="0.252461" />
+              <center x="-1.098216e-05" y="1.249998" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor004" tags="animation part trigger_interact door ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="3.500846" y="-2.750015" z="-27.50001" />
+          <quaternion qx="0" qy="-1" qz="3.735261e-07" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="door004">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.577917" y="1.303723" z="0.2524605" />
+              <center x="-0.7816384" y="1.249998" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.7949989" y="1.303723" z="0.252461" />
+              <center x="-1.098216e-05" y="1.249998" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor006" tags="animation part trigger_interact door ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-3.504122" y="-2.750015" z="-27.5" />
+          <quaternion qx="3.735261e-07" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="door006">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.575789" y="1.303723" z="0.2524605" />
+              <center x="0.7794921" y="1.249998" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.7949989" y="1.303723" z="0.252461" />
+              <center x="-1.098216e-05" y="1.249998" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor007" tags="animation part trigger_interact door ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-3.498734" y="-2.750009" z="-19.5" />
+          <quaternion qx="3.735261e-07" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="door007">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.561261" y="1.303723" z="0.2524605" />
+              <center x="0.7649884" y="1.249998" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.7949989" y="1.303723" z="0.252461" />
+              <center x="-1.098216e-05" y="1.249998" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor009" tags="animation part trigger_interact door ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.001301451" y="1.249989" z="-21.50001" />
+          <quaternion qx="3.735261e-07" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="door009">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.582556" y="1.303723" z="0.2524605" />
+              <center x="0.7862476" y="1.249999" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.7949989" y="1.303723" z="0.252461" />
+              <center x="-1.098216e-05" y="1.249998" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor011" tags="animation part trigger_interact door ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-3.498697" y="1.249985" z="-27.50001" />
+          <quaternion qx="3.735261e-07" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="door011">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.583799" y="1.303722" z="0.2524605" />
+              <center x="0.7874892" y="1.249998" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.7949989" y="1.303723" z="0.252461" />
+              <center x="-1.098216e-05" y="1.249998" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorleft001" group="door1" tags="animation part trigger_interact door ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.0009658852" y="-2.749996" z="-3.500005" />
+          <quaternion qx="3.735261e-07" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="doorleft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.18475" y="1.303723" z="0.252461" />
+              <center x="-1.162539" y="1.249998" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.597226" y="1.303723" z="0.252461" />
+              <center x="-0.5759829" y="1.249998" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorleft002" group="door2" tags="animation part trigger_interact door ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="3.249042" y="-2.750003" z="-12.5" />
+          <quaternion qx="3.735261e-07" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="doorleft002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.180019" y="1.303723" z="0.2524614" />
+              <center x="-1.157815" y="1.249998" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.597226" y="1.303723" z="0.252461" />
+              <center x="-0.5759829" y="1.249998" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorleft003" group="door3" tags="animation part trigger_interact door ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-3.250966" y="-2.750003" z="-12.5" />
+          <quaternion qx="3.735261e-07" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="doorleft003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.184788" y="1.303723" z="0.2524614" />
+              <center x="-1.162577" y="1.249998" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.597226" y="1.303723" z="0.252461" />
+              <center x="-0.5759829" y="1.249998" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorright001" group="door1" tags="animation part trigger_interact door ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.000980756" y="-2.749996" z="-3.500005" />
+          <quaternion qx="3.735261e-07" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="doorright001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.195524" y="1.303723" z="0.252461" />
+              <center x="1.162706" y="1.249998" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.6025465" y="1.303723" z="0.252461" />
+              <center x="0.5707065" y="1.249998" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorright002" group="door2" tags="animation part trigger_interact door ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="3.250999" y="-2.750003" z="-12.5" />
+          <quaternion qx="3.735261e-07" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="doorright002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.206875" y="1.303723" z="0.2524614" />
+              <center x="1.174038" y="1.249998" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.6025465" y="1.303723" z="0.252461" />
+              <center x="0.5707065" y="1.249998" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoorright003" group="door3" tags="animation part trigger_interact door ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-3.249044" y="-2.750003" z="-12.5" />
+          <quaternion qx="3.735261e-07" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="doorright003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.180784" y="1.303723" z="0.2524614" />
+              <center x="1.147991" y="1.249998" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.6025465" y="1.303723" z="0.252461" />
+              <center x="0.5707065" y="1.249998" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordrakcaterpillarlandinggearrearskin" tags="animation detail_m part ">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="4.234001" y="-0.04899979" z="-38.779" />
+        </offset>
+        <parts>
+          <part name="drakcaterpillarlandinggearrearskin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="2" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="5" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.9102523" y="4.45237" z="5.828886" />
+              <center x="0.0002641678" y="-2.033261" z="-4.717216" />
+            </size>
+            <size_raw>
+              <max x="0.009845138" y="0.04815609" z="0.06304426" />
+              <center x="2.644723e-06" y="-0.02033261" z="-0.04717218" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordrakcaterpillarlandinggearrearskin001" tags="animation detail_m part ">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-4.234001" y="-0.04899979" z="-38.779" />
+        </offset>
+        <parts>
+          <part name="drakcaterpillarlandinggearrearskin001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="2" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="4" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="5" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.9102525" y="4.45237" z="5.828886" />
+              <center x="0.0002646446" y="-2.033261" z="-4.717216" />
+            </size>
+            <size_raw>
+              <max x="0.009845138" y="0.04815609" z="0.06304426" />
+              <center x="2.644723e-06" y="-0.02033261" z="-0.04717218" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordrakcaterpillarlandinggearsideskin" tags="animation detail_m part ">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="4.39541" y="-3.682702" z="-3" />
+          <quaternion qx="0" qy="0" qz="-0.765582" qw="-0.6433383" />
+        </offset>
+        <parts>
+          <part name="drakcaterpillarlandinggearsideskin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="2" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.733057" y="2.110579" z="20.45381" />
+              <center x="2.220502" y="-0.7638297" z="20" />
+            </size>
+            <size_raw>
+              <max x="2.527097" y="2.073267" z="20.45381" />
+              <center x="2.014882" y="-0.7265793" z="20" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordrakcaterpillarlandinggearsideskin003" tags="animation detail_m part " parent="drakcaterpillarlandinggearsideskin">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0.4425852" y="-0.07803965" z="0" />
+          <quaternion qx="0" qy="0" qz="-5.215406e-08" qw="-1" />
+        </offset>
+        <parts>
+          <part name="drakcaterpillarlandinggearsideskin003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="2" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5833766" y="0.6239262" z="20.37339" />
+              <center x="0.1541114" y="1.182082" z="20" />
+            </size>
+            <size_raw>
+              <max x="0.3743195" y="0.3617211" z="20.37339" />
+              <center x="-0.05396051" y="1.443855" z="20" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordrakcaterpillarlandinggearsideskin001" tags="animation detail_m part ">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-4.395414" y="-3.682705" z="-3" />
+          <quaternion qx="-0.765582" qy="-0.6433383" qz="-8.160368e-07" qw="-6.955703e-07" />
+        </offset>
+        <parts>
+          <part name="drakcaterpillarlandinggearsideskin001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="2" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.73322" y="2.110578" z="20.45381" />
+              <center x="1.809397" y="-0.763828" z="-20" />
+            </size>
+            <size_raw>
+              <max x="2.527257" y="2.0734" z="20.45381" />
+              <center x="2.015021" y="-0.7267114" z="-20" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordrakcaterpillarlandinggearsideskin002" tags="animation detail_m part " parent="drakcaterpillarlandinggearsideskin001">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0.4846321" y="-0.08545351" z="0" />
+          <quaternion qx="4.371108e-08" qy="0" qz="-6.705523e-08" qw="-1" />
+        </offset>
+        <parts>
+          <part name="drakcaterpillarlandinggearsideskin002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="2" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.588439" y="0.6453061" z="20.37339" />
+              <center x="-0.2667327" y="1.160737" z="-20" />
+            </size>
+            <size_raw>
+              <max x="0.3744797" y="0.3618529" z="20.37339" />
+              <center x="-0.05382079" y="1.443723" z="-20" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForelevatormount001" group="elevator" tags="animation detail_m part ">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-1.501598" y="-0.9828366" z="-12.74986" />
+        </offset>
+        <parts>
+          <part name="elevatormount001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.780334" y="1.83223" z="0.4382687" />
+              <center x="1.501596" y="-0.932518" z="-0.4129925" />
+            </size>
+            <size_raw>
+              <max x="1.780334" y="1.3464" z="0.4382685" />
+              <center x="1.501596" y="-0.447489" z="-0.4129925" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForarmtop001" group="elevator" tags="animation detail_m part " parent="elevatormount001">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.002539039" y="-1.512277" z="-0.5498362" />
+          <quaternion qx="0.0006688006" qy="0" qz="0" qw="-0.9999998" />
+        </offset>
+        <parts>
+          <part name="armtop001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.78102" y="1.454795" z="0.7147207" />
+              <center x="1.499057" y="0.1996479" z="-0.4345207" />
+            </size>
+            <size_raw>
+              <max x="1.78102" y="0.9689649" z="0.7147205" />
+              <center x="1.499057" y="0.6846769" z="-0.4345205" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfloor" group="elevator" tags="animation detail_m part require_docked trigger_interact ui" parent="armtop001">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.0001629591" y="1.463054" z="-0.9664536" />
+          <quaternion qx="-0.0006688006" qy="0" qz="0" qw="-0.9999998" />
+        </offset>
+        <parts>
+          <part name="floor">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="5" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="7" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="8" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_secondary_bare_metal" />
+                  <material id="11" ref="generic.drak_caterpillar_exterior_mtl_raw_metal_b" />
+                  <material id="12" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.04473" y="2.846462" z="3.00268" />
+              <center x="1.498894" y="-2.668216" z="-1.666107" />
+            </size>
+            <size_raw>
+              <max x="2.04473" y="1.108256" z="2.609273" />
+              <center x="1.498894" y="-0.9321045" z="-1.274656" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpistonbottom001" group="elevator" tags="animation detail_m part " parent="armtop001">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="2.026558e-06" y="1.463054" z="-0.9664536" />
+          <quaternion qx="-0.0006253144" qy="0" qz="0" qw="-0.9999998" />
+        </offset>
+        <parts>
+          <part name="pistonbottom001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.640253" y="2.172939" z="1.080231" />
+              <center x="1.499056" y="-1.431527" z="0.1632643" />
+            </size>
+            <size_raw>
+              <max x="1.640253" y="0.434732" z="0.6868235" />
+              <center x="1.499056" y="0.304585" z="0.5547155" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForoleo001" group="elevator" tags="animation detail_m part " parent="elevatormount001">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0" y="0.6989949" z="-0.202034" />
+          <quaternion qx="4.348637e-05" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="oleo001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="4" ref="generic.drak_caterpillar_cargo_doors_mtl_int_tertiary_construct" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.712896" y="0.8932797" z="0.5852604" />
+              <center x="1.501597" y="-0.688538" z="-0.3799257" />
+            </size>
+            <size_raw>
+              <max x="1.712896" y="0.40745" z="0.5852605" />
+              <center x="1.501596" y="-0.203509" z="-0.3799255" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpistontop001" group="elevator" tags="animation detail_m part " parent="oleo001">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.002539992" y="-0.3521219" z="-0.620573" />
+        </offset>
+        <parts>
+          <part name="pistontop001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.596342" y="1.474656" z="0.7664247" />
+              <center x="1.499057" y="-1.040332" z="-0.09272194" />
+            </size>
+            <size_raw>
+              <max x="1.596342" y="0.3960995" z="0.6115585" />
+              <center x="1.499057" y="0.0369505" z="0.06143153" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfloor1" tags="part animation detail_m trigger_interact ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-11.72257" y="-0.2586433" z="-18.68044" />
+        </offset>
+        <parts>
+          <part name="floor1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3320665" y="1.510814" z="0.3320656" />
+              <center x="0" y="1.499434" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.3320661" y="0.008904612" z="0.3320661" />
+              <center x="0" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectionthruster" tags="part animation ">
+        <offset>
+          <position x="0" y="3.849567" z="-5.679914" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_01"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster001" tags="part animation ">
+        <offset>
+          <position x="0.8327413" y="3.628042" z="-5.679914" />
+          <quaternion qx="-0.6532815" qy="0.2705981" qz="0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_02"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster002" tags="part animation ">
+        <offset>
+          <position x="-0.8265754" y="3.628042" z="-5.679914" />
+          <quaternion qx="-0.6532815" qy="-0.2705981" qz="-0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_03"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster003" tags="part animation ">
+        <offset>
+          <position x="0" y="3.849567" z="14.24871" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_04"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster004" tags="part animation ">
+        <offset>
+          <position x="0.8327413" y="3.628042" z="14.24871" />
+          <quaternion qx="-0.6532815" qy="0.2705981" qz="0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_05"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster005" tags="part animation ">
+        <offset>
+          <position x="-0.8265754" y="3.628042" z="14.24871" />
+          <quaternion qx="-0.6532815" qy="-0.2705981" qz="-0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_06"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster006" tags="part animation ">
+        <offset>
+          <position x="0" y="3.849567" z="34.23224" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_07"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster007" tags="part animation ">
+        <offset>
+          <position x="0.8327413" y="3.628042" z="34.23224" />
+          <quaternion qx="-0.6532815" qy="0.2705981" qz="0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_08"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster008" tags="part animation ">
+        <offset>
+          <position x="-0.8265754" y="3.628042" z="34.23224" />
+          <quaternion qx="-0.6532815" qy="-0.2705981" qz="-0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_09"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster009" tags="part animation ">
+        <offset>
+          <position x="-3.176046" y="-4.271912" z="34.25137" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_10"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster010" tags="part animation ">
+        <offset>
+          <position x="-2.34045" y="-4.050386" z="34.25137" />
+          <quaternion qx="0.6532815" qy="0.2705981" qz="-0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_11"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster011" tags="part animation ">
+        <offset>
+          <position x="-3.176046" y="-4.271912" z="14.2441" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_12"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster012" tags="part animation ">
+        <offset>
+          <position x="3.180226" y="-4.271912" z="34.25137" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_13"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster013" tags="part animation ">
+        <offset>
+          <position x="2.347484" y="-4.050386" z="34.25137" />
+          <quaternion qx="0.6532815" qy="-0.2705981" qz="0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_14"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster014" tags="part animation ">
+        <offset>
+          <position x="-2.34045" y="-4.050386" z="14.2441" />
+          <quaternion qx="0.6532815" qy="0.2705981" qz="-0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_15"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster015" tags="part animation ">
+        <offset>
+          <position x="3.180226" y="-4.271912" z="14.2441" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_16"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster016" tags="part animation ">
+        <offset>
+          <position x="2.347484" y="-4.050386" z="14.2441" />
+          <quaternion qx="0.6532815" qy="-0.2705981" qz="0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_17"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster017" tags="part animation ">
+        <offset>
+          <position x="-2.887665" y="-4.498904" z="-5.758183" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_18"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster018" tags="part animation ">
+        <offset>
+          <position x="-2.052069" y="-4.277379" z="-5.758183" />
+          <quaternion qx="0.6532815" qy="0.2705981" qz="-0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_18"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster019" tags="part animation ">
+        <offset>
+          <position x="2.888015" y="-4.521683" z="-5.758183" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_27"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster020" tags="part animation ">
+        <offset>
+          <position x="2.055274" y="-4.300158" z="-5.758183" />
+          <quaternion qx="0.6532815" qy="-0.2705981" qz="0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_19"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster021" tags="part animation ">
+        <offset>
+          <position x="-3.579607" y="-4.268368" z="-34.32891" />
+          <quaternion qx="0.6532815" qy="-0.2705981" qz="0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_20"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster022" tags="part animation ">
+        <offset>
+          <position x="-2.640615" y="-4.474756" z="-34.32891" />
+          <quaternion qx="0.6532815" qy="0.2705981" qz="-0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_21"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster023" tags="part animation ">
+        <offset>
+          <position x="3.578637" y="-4.275005" z="-34.32891" />
+          <quaternion qx="0.6532815" qy="0.2705981" qz="-0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_22"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster024" tags="part animation ">
+        <offset>
+          <position x="2.663427" y="-4.464952" z="-34.32891" />
+          <quaternion qx="0.6532815" qy="-0.2705981" qz="0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_23"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster025" tags="part animation ">
+        <offset>
+          <position x="0" y="5.18446" z="-29.37078" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_24"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster026" tags="part animation ">
+        <offset>
+          <position x="0.8327413" y="4.962935" z="-29.37078" />
+          <quaternion qx="-0.6532815" qy="0.2705981" qz="0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_25"/>
+				</parts>
+      </connection>
+      <connection name="Connectionthruster027" tags="part animation ">
+        <offset>
+          <position x="-0.8265754" y="4.962935" z="-29.37078" />
+          <quaternion qx="-0.6532815" qy="-0.2705981" qz="-0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_26"/>
+				</parts>
+      </connection>
+
+      <connection name="Connectionchiar01" group="pilotcontrol" tags="part ui">
+				<offset>
+          <position x="-11.7807" y="3.30153" z="-5.28209" />
+        </offset>
+				<parts>
+					<part ref="caterpillar_seat.chair" name="seat"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="seat_mesh">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar02" tags="part iklink ui" group="pilotcontrol" parent="seat">
+				<parts>
+					<part ref="caterpillar_seat.chair_mesh" name="seat_mesh"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair ">
+				<offset>
+          <position x="-10.7807" y="3.52563" z="-5.57942" />
+        </offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor ">
+				<offset>
+          <position x="-11.7807" y="4.52563" z="-5.52942" />
+        </offset>
+			</connection>
+
+      <connection name="Connectionchiar03" group="navigationcontrol" tags="part ui">
+				<offset>
+          <position x="-11.7807" y="3.30153" z="-7.02611" />
+        </offset>
+				<parts>
+					<part ref="caterpillar_seat.chair" name="seat01"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control02" tags="npc service sit iklink" value="-1" group="navigationcontrol" parent="seat_mesh01">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar04" tags="part iklink ui" group="navigationcontrol" parent="seat01">
+				<parts>
+					<part ref="caterpillar_seat.chair_mesh" name="seat_mesh01"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair002" group="navigationcontrol" tags="tochair ">
+				<offset>
+          <position x="-10.7807" y="3.52563" z="-7.32611" />
+        </offset>
+			</connection>
+			<connection name="con_uianchor002" group="navigationcontrol" tags="uianchor ">
+				<offset>
+          <position x="-11.7807" y="4.52563" z="-7.32611" />
+        </offset>
+			</connection>
+
+      <connection name="Connectionchiar05" group="seat1" tags="part ui">
+				<offset>
+          <position x="-13.0104 " y="2.798" z="-15.5427" />
+        </offset>
+				<parts>
+					<part ref="caterpillar_seat.chair" name="seat02"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control03" tags="npc service sit iklink" value="-1" group="seat1" parent="seat_mesh02">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar06" tags="part iklink ui" group="seat1" parent="seat02">
+				<parts>
+					<part ref="caterpillar_seat.chair_mesh" name="seat_mesh02"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair003" group="seat1" tags="tochair ">
+				<offset>
+          <position x="-13.0104" y="3.13422" z="-15.8571" />
+        </offset>
+			</connection>
+			<connection name="con_uianchor003" group="seat1" tags="uianchor ">
+				<offset>
+          <position x="-13.0104" y="4.13422" z="-15.8571" />
+        </offset>
+			</connection>
+
+      <connection name="Connectionchiar07" group="seat2" tags="part ui">
+				<offset>
+          <position x="-10.4902 " y="2.798" z="-15.5427" />
+        </offset>
+				<parts>
+					<part ref="caterpillar_seat.chair" name="seat03"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control04" tags="npc service sit iklink" value="-1" group="seat2" parent="seat_mesh03">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar08" tags="part iklink ui" group="seat2" parent="seat03">
+				<parts>
+					<part ref="caterpillar_seat.chair_mesh" name="seat_mesh03"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair004" group="seat2" tags="tochair ">
+				<offset>
+          <position x="-10.4902" y="3.13422" z="-15.8571" />
+        </offset>
+			</connection>
+			<connection name="con_uianchor004" group="seat2" tags="uianchor ">
+				<offset>
+          <position x="-10.4902" y="4.13422" z="-15.8571" />
+        </offset>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="-0.971277" y="2.37382" z="-42.332" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_02" tags="countermeasures ">
+				<offset>
+          <position x="0.971277" y="2.37382" z="-42.332" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_npc_transport" value="-1" tags="npc_waypoint stand npctransport ">
+				<offset>
+          <position x="10.9627" y="2.73805" z="-11.9994" />
+        </offset>
+			</connection>
+
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="7.50102" y="-9.39471" z="-3.01097" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+        <offset>
+					<position x="-10.7807" y="3.52563" z="-5.57942" />
+				</offset>
+			</connection>
+      <connection name="con_player_01" tags="player ">
+        <offset>
+          <position x="-10.7807" y="3.52563" z="-5.57942" />
+        </offset>
+      </connection>
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="-10.7807" y="3.52563" z="-5.57942" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-6.55376" z="80"/>
+				</offset>
+			</connection>
+
+      <connection name="storage" tags="part">
+			</connection>
+
+      <connection name="con_engine_01" tags="engine medium component aegs_caterpillar">
+				<offset>
+					<position x="0" y="0" z="-44.8993" />
+				</offset>
+			</connection>
+
+      <connection name="con_turret_s_001" tags="turret small component combat aegs_cutlass">
+				<offset>
+          <position x="0" y="4.028" z="39.04985" />
+        </offset>
+			</connection>
+      <connection name="con_turret_s_002" tags="turret small component combat aegs_cutlass">
+				<offset>
+          <position x="0" y="-4.293716" z="-25.66837" />
+          <quaternion qx="-1" qy="-4.371139e-08" qz="-4.371139e-08" qw="0" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield medium aegs_s2 industrial">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield medium aegs_s2 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_04" tags="component shield medium aegs_s2 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+    </connections>
+  </component>
+</components>

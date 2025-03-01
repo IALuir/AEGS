@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) at 25.11.2018_17-56-48-->
+<macros>
+  <macro name="weapon_sf7b_s7_macro" class="weapon">
+    <component ref="weapon_sf7b_s7" />
+    <properties>
+      <identification name="{996667,50003}" basename="{996667,50003}" shortname="{996667,50003}" description="{996667,50004}" mk="1" />
+      <bullet class="S7_s_ad_macro" />
+      <heat overheat="100000" cooldelay="1.13" coolrate="1000" reenable="0" />
+      <rotationspeed max="47.4" />
+      <rotationacceleration max="94.8" />
+      <reload />
+      <effects>
+        <firing start="startshooting_gen_m_gatling_01_mk1" stop="stopshooting_gen_m_gatling_01_mk1" />
+      </effects>
+      <sounds>
+        <firing ref="mg_firing" />
+      </sounds>
+      <hull max="500" hittable="1" />
+    </properties>
+  </macro>
+</macros>

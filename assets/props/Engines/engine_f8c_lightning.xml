@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-10-21 15:24:39 from Blender-->
+<components>
+  <component name="engine_f8c_lightning" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\engine_f8c_lightning_data" />
+    <layers>
+			<layer>
+				<waypoints/>
+				
+        <trailemitters>
+					<emitter name="trail_aegs_s_01" type="trail_aegs_s_01">
+						<offset>
+              <position x="0" y="0" z="-4.210623" />
+            </offset>
+					</emitter>
+					<emitter name="trail_aegs_s_02" type="trail_aegs_s_01">
+						<offset>
+							<position x="0" y="0.945222" z="-4.210623" />
+						</offset>
+					</emitter>
+          <emitter name="trail_aegs_s_03" type="trail_aegs_s_01">
+						<offset>
+							<position x="4.491834" y="0.9148442" z="-5.056002" />
+              <quaternion qx="0" qy="0" qz="0.09584577" qw="-0.9953962" />
+						</offset>
+					</emitter>
+          <emitter name="trail_aegs_s_04" type="trail_aegs_s_01">
+						<offset>
+							<position x="4.287791" y="-0.1947105" z="-5.056002" />
+              <quaternion qx="0" qy="0" qz="0.09584577" qw="-0.9953962" />
+						</offset>
+					</emitter>
+          <emitter name="trail_aegs_s_05" type="trail_aegs_s_01">
+						<offset>
+							<position x="-4.28779" y="-0.1947105" z="-5.056002" />
+              <quaternion qx="0" qy="0" qz="-0.09584577" qw="-0.9953962" />
+						</offset>
+					</emitter>
+          <emitter name="trail_aegs_s_06" type="trail_aegs_s_01">
+						<offset>
+							  <position x="-4.49183" y="0.9148442" z="-5.056002" />
+                <quaternion qx="0" qy="0" qz="-0.09584577" qw="-0.9953962" />
+						</offset>
+					</emitter>
+				</trailemitters>
+			</layer>
+		</layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionFormain_thruster" tags="part ">
+        <parts>
+          <part name="main_thruster">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_lightning_f8_mtl_glow_thruster" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_metal_dark_semigloss" />
+                  <material id="4" ref="generic.anvl_lightning_f8_mtl_metal_gunmetal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.394606" y="0.9704152" z="0.7439454" />
+              <center x="0.0129267" y="-0.1384" z="-0.9292619" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal_fx" tags="fx nocollision part detail_l animation textureanimation speedscale_forward useobjectrotation ">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.263769" y="0.7946373" z="2.178264" />
+              <center x="0.0008087158" y="-0.150605" z="-2.291591" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx" tags="part ">
+        <parts>
+          <part name="part_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.153316" y="0.7513376" z="0.4058304" />
+              <center x="0.008953214" y="-0.1410747" z="-0.876514" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      
+
+      <connection name="con_engine_01" tags="engine small component f8c">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

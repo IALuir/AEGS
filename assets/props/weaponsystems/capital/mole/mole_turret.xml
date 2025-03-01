@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-04 19:12:41 from Blender-->
+<components>
+  <component name="mole_turret" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\mole\mole_turret_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForminingarmrotation" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y">
+            <limits>
+							<min value="-30.0 "/>
+							<max value="30 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="miningarmrotation">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="3" ref="generic.argo_mole_exterior_mtl_pom_decals_opaque" />
+                  <material id="4" ref="generic.argo_mole_exterior_mtl_decals" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="6" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="7" ref="generic.argo_mole_exterior_mtl_trims_1_structural" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="9" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.000923" y="0.8126536" z="3.522169" />
+              <center x="0.01457709" y="-0.3552657" z="2.625177" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcradle" tags="part animation" parent="miningarmrotation">
+        <animations>
+					<animation name="turret_inactive" start="0" end="0"/>
+					<animation name="turret_activating" start="0" end="80"/>
+					<animation name="turret_active" start="80" end="80"/>
+					<animation name="turret_deactivating" start="80" end="240"/>
+					<animation name="gun_firing" start="80" end="80"/>
+				</animations>
+        <offset>
+          <position x="1.907348e-06" y="-2.030715" z="-2.078201" />
+          <quaternion qx="0" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="cradle">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.argo_mole_exterior_mtl_pom_decals_opaque" />
+                  <material id="2" ref="generic.argo_mole_exterior_mtl_decals" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="4" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="5" ref="generic.argo_mole_interior_mtl_rubber" />
+                  <material id="6" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="7" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="8" ref="generic.argo_mole_exterior_mtl_int_chair_leather" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6429317" y="1.143574" z="2.267607" />
+              <center x="3.254414e-05" y="0.05286002" z="1.241743" />
+            </size>
+            <size_raw>
+              <max x="0.6429316" y="1.143574" z="1.017865" />
+              <center x="3.251433e-05" y="0.05286002" z="-0.00594002" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlaser_turret" tags="part " parent="miningarmrotation">
+        <restrictions>
+					<restriction type="rotation_x">
+            
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="0" y="-0.7606189" z="6.0032" />
+          <quaternion qx="9.311277e-07" qy="0.7933535" qz="-0.6087613" qw="-1.260422e-06" />
+        </offset>
+        <parts>
+          <part name="laser_turret">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.powr_aegs_s02_pl01_mtl_decal_pom" />
+                  <material id="2" ref="generic.thcn_min_hed_s1_1_mtl_bare_metal_02" />
+                  <material id="3" ref="generic.modular_sofa_set_1_mtl_black_paint" />
+                  <material id="4" ref="generic.thcn_min_hed_s1_1_mtl_black_painted_metal_matte" />
+                  <material id="5" ref="generic.powr_aegs_s02_pl01_mtl_cap_painted_metal_black" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="generic.grin_salvage_head_s1_1_mtl_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6961524" y="0.4813159" z="0.6583632" />
+              <center x="-2.516806e-05" y="-0.4859689" z="0.1316969" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="laser_turret">
+        <offset>
+          <position x="0.003894819" y="-0.6701012" z="-0.0111146" />
+          <quaternion qx="-1.090147e-06" qy="-0.71934" qz="0.6946582" qw="-1.109764e-06" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_m" tags="turret small component combat aegs_mole_min">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

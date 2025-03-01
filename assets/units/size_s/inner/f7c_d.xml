@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-01-14 19:24:27 from Blender-->
+<components>
+  <component name="f7c_d" class="storage">
+    <source geometry="extensions\AEGS\assets\units\size_s\inner\f7c_d_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="storage">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForstoreallbox" tags="part ">
+        <offset>
+          <position x="0" y="-0.166246" z="0.019831" />
+        </offset>
+        <parts>
+          <part name="storeallbox">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="2" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="3" ref="generic.bigbox_mtl_decals" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="6" ref="generic.anvl_hornet_f7c_r_mtl_glow" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="2" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="3" ref="generic.bigbox_mtl_decals" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="6" ref="generic.anvl_hornet_f7c_r_mtl_glow" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="2" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="3" ref="generic.bigbox_mtl_decals" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="6" ref="generic.anvl_hornet_f7c_r_mtl_glow" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="2" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="3" ref="generic.bigbox_mtl_decals" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="6" ref="generic.anvl_hornet_f7c_r_mtl_glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.804254" y="1.652909" z="2.7628" />
+              <center x="5.960464e-08" y="0.06877398" z="-0.01268554" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

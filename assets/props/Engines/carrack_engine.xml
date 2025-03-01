@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-31 23:36:44 from Blender-->
+<components>
+  <component name="carrack_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\carrack_engine_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForengine" tags="part ">
+        <parts>
+          <part name="engine">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_carrack_ext_mtl_engine_glow" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="3" ref="generic.anvl_carrack_ext_mtl_EXT_paint_tileable_secondary_A" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.anvl_carrack_ext_mtl_trim_engine" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="12.11101" y="2.758847" z="2.532908" />
+              <center x="-0.02513385" y="0.3844593" z="-1.200879" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_animal" tags="animation detail_l fx nocollision part speedscale_forward textureanimation useobjectrotation ">
+        <animations>
+					<animation name="loop" start="1" end="120"/>
+			  </animations>
+        <parts>
+          <part name="fx_animal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2fx.fx_p2_thruster_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.37871" y="1.32897" z="8.900399" />
+              <center x="16.04421" y="-0.2963166" z="-11.23805" />
+            </size>
+            <uv_animations>
+              <uv_animation rotaroundcenter="1" mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="8" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="0" />
+                </uv_property>
+              </uv_animation>
+              <uv_animation rotaroundcenter="1" mapchannel="2">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="2" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="-16" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine medium component aegs_carrack">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

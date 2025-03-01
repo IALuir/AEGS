@@ -1,0 +1,1842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-10 19:09:11 from Blender-->
+<components>
+  <component name="eclipse" class="ship_s">
+    <source geometry="extensions\AEGS\assets\units\size_s\eclipse_data" />
+    <layers>
+      <layer>
+        <lights>
+          <arealight name="ego_area" areax="0.05093348" areay="0.01250076" radius="0" spotattenuation="0" shadow="1" r="48" g="158" b="136" intensity="0.1" specularintensity="1" range="0.5" shadowrange="0.5" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-0.2702031" y="0.2365709" z="7.910279" />
+              <quaternion qx="-0.580703" qy="0" qz="0" qw="-0.8141155" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="0.05093348" areay="0.01250076" radius="0" spotattenuation="0" shadow="1" r="48" g="158" b="136" intensity="0.1" specularintensity="1" range="0.5" shadowrange="0.5" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0.270203" y="0.2365709" z="7.910279" />
+              <quaternion qx="-0.580703" qy="0" qz="0" qw="-0.8141155" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area002" areax="0.05093348" areay="0.01250076" radius="0" spotattenuation="0" shadow="1" r="48" g="158" b="136" intensity="0.1" specularintensity="1" range="0.5" shadowrange="0.5" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0.6124845" y="0.2887572" z="7.701533" />
+              <quaternion qx="-0.580703" qy="0" qz="0" qw="-0.8141155" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area003" areax="0.05093348" areay="0.01250076" radius="0" spotattenuation="0" shadow="1" r="48" g="158" b="136" intensity="0.1" specularintensity="1" range="0.5" shadowrange="0.5" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-0.612484" y="0.2887572" z="7.701533" />
+              <quaternion qx="-0.580703" qy="0" qz="0" qw="-0.8141155" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area004" areax="0.05093348" areay="0.01250076" radius="0" spotattenuation="0" shadow="1" r="48" g="158" b="136" intensity="0.1" specularintensity="1" range="0.5" shadowrange="0.5" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="0.8566492" z="7.141886" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_s ship" />
+      <connection name="position" tags="position" value="1" />
+      
+      <connection name="ConnectionForbody" tags="part ">
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="4" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="5" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="6" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="7" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="8" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="11" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="12" ref="generic.sabre_mtl_stencils" />
+                  <material id="13" ref="p1.cockpit_glass_inside_01" />
+                  <material id="14" ref="p1.cockpit_glass_outside_01" />
+                  <material id="15" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="16" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="17" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="18" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="19" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="20" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="4" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="5" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="6" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="7" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="8" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="11" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="12" ref="generic.sabre_mtl_stencils" />
+                  <material id="13" ref="p1.cockpit_glass_inside_01" />
+                  <material id="14" ref="p1.cockpit_glass_outside_01" />
+                  <material id="15" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="16" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="17" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="18" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="19" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="20" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="4" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="5" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="6" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="7" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="8" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="11" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="12" ref="generic.sabre_mtl_stencils" />
+                  <material id="13" ref="p1.cockpit_glass_inside_01" />
+                  <material id="14" ref="p1.cockpit_glass_outside_01" />
+                  <material id="15" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="16" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="17" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="18" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="19" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="20" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="4" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="5" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="6" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="7" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="8" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="11" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="12" ref="generic.sabre_mtl_stencils" />
+                  <material id="13" ref="p1.cockpit_glass_inside_01" />
+                  <material id="14" ref="p1.cockpit_glass_outside_01" />
+                  <material id="15" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="16" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="17" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="18" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="19" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="20" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="12.21416" y="1.829202" z="9.825991" />
+              <center x="-5.722046e-06" y="-0.01218903" z="-0.4727716" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcanopy_rotation_geo" tags="part animation">
+        <animations>
+					<animation name="cockpit_closed" start="0" end="0"/>
+					<animation name="cockpit_opening" start="0" end="80"/>
+					<animation name="cockpit_open" start="80" end="80"/>
+					<animation name="cockpit_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-2e-06" y="-0.385063" z="9.18308" />
+        </offset>
+        <parts>
+          <part name="canopy_rotation_geo">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.152562" y="0.2369155" z="0.1383095" />
+              <center x="3.999796e-05" y="-0.03966951" z="-0.1386824" />
+            </size>
+            <size_raw>
+              <max x="0.152562" y="0.2369155" z="0.1383095" />
+              <center x="4.000589e-05" y="-0.03966951" z="-0.1386825" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcanopy_slider" tags="part animation" parent="canopy_rotation_geo">
+        <animations>
+					<animation name="cockpit_closed" start="0" end="0"/>
+					<animation name="cockpit_opening" start="0" end="80"/>
+					<animation name="cockpit_open" start="80" end="80"/>
+					<animation name="cockpit_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="0.1455078" z="-0.1482401" />
+          <quaternion qx="0.5299465" qy="0" qz="0" qw="-0.8480311" />
+        </offset>
+        <parts>
+          <part name="canopy_slider">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1713305" y="0.1993898" z="0.163322" />
+              <center x="-4.884939e-07" y="0.1212718" z="0.1054325" />
+            </size>
+            <size_raw>
+              <max x="0.1713305" y="0.1687674" z="0.09921596" />
+              <center x="-4.954636e-07" y="0.0906495" z="0.041326" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcockpit_canopy"  tags="part animation nocollision" parent="canopy_slider">
+        <animations>
+					<animation name="cockpit_closed" start="0" end="0"/>
+					<animation name="cockpit_opening" start="0" end="80"/>
+					<animation name="cockpit_open" start="80" end="80"/>
+					<animation name="cockpit_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="0.4092808" z="0.1127167" />
+          <quaternion qx="-0.004651473" qy="0" qz="0" qw="-0.9999892" />
+        </offset>
+        <parts>
+          <part name="cockpit_canopy">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="4" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="8" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="10" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                  <material id="11" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="12" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="13" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="14" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="15" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="16" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="17" ref="generic.sabre_mtl_stencils" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="4" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="8" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="10" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                  <material id="11" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="12" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="13" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="14" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="15" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="16" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="17" ref="generic.sabre_mtl_stencils" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="4" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="8" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="10" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                  <material id="11" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="12" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="13" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="14" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="15" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="16" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="17" ref="generic.sabre_mtl_stencils" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="4" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="8" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="10" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                  <material id="11" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="12" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="13" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="14" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="15" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="16" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="17" ref="generic.sabre_mtl_stencils" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.010395" y="1.719182" z="0.6407046" />
+              <center x="-4.079674e-06" y="1.052322" z="-0.01124001" />
+            </size>
+            <size_raw>
+              <max x="1.010395" y="1.690832" z="0.4087043" />
+              <center x="-3.993511e-06" y="1.037106" z="-0.2432398" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcockpit_left" tags="part ">
+        <offset>
+          <position x="-2.091986e-05" y="0.4314109" z="6.320684" />
+          <quaternion qx="-8.62269e-06" qy="-1.342196e-05" qz="1.183374e-10" qw="-1" />
+        </offset>
+        <parts>
+          <part name="cockpit_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_cockpit_decals" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="6" ref="generic.aegs_eclipse_mtl_cockpit_scratch_decal" />
+                  <material id="7" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="8" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_cockpit_decals" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="6" ref="generic.aegs_eclipse_mtl_cockpit_scratch_decal" />
+                  <material id="7" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="8" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_cockpit_decals" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="6" ref="generic.aegs_eclipse_mtl_cockpit_scratch_decal" />
+                  <material id="7" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="8" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_cockpit_decals" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="6" ref="generic.aegs_eclipse_mtl_cockpit_scratch_decal" />
+                  <material id="7" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="8" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="10" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.9644425" y="0.9376811" z="2.03101" />
+              <center x="4.768372e-07" y="-0.212963" z="0.8006021" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcockpit_monitor_mfd_left" tags="part animation">
+        <animations>
+					<animation name="cockpit_closed" start="0" end="0"/>
+					<animation name="cockpit_opening" start="0" end="80"/>
+					<animation name="cockpit_open" start="80" end="80"/>
+					<animation name="cockpit_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.580073" y="0.1480521" z="7.560849" />
+          <quaternion qx="0.5" qy="0" qz="0" qw="-0.8660254" />
+        </offset>
+        <parts>
+          <part name="cockpit_monitor_mfd_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.133671" y="0.05832101" z="0.1033664" />
+              <center x="0" y="-0.036394" z="0.09534359" />
+            </size>
+            <size_raw>
+              <max x="0.133671" y="0.05832101" z="0.1033665" />
+              <center x="-3.72529e-09" y="-0.036394" z="0.0953435" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcockpit_monitor_mfd_right" tags="part animation">
+        <animations>
+					<animation name="cockpit_closed" start="0" end="0"/>
+					<animation name="cockpit_opening" start="0" end="80"/>
+					<animation name="cockpit_open" start="80" end="80"/>
+					<animation name="cockpit_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0.5832739" y="0.1481345" z="7.564335" />
+          <quaternion qx="0.5" qy="0" qz="0" qw="-0.8660254" />
+        </offset>
+        <parts>
+          <part name="cockpit_monitor_mfd_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.133671" y="0.05832101" z="0.1033664" />
+              <center x="0" y="-0.036394" z="0.09534359" />
+            </size>
+            <size_raw>
+              <max x="0.133671" y="0.05832101" z="0.1033665" />
+              <center x="-3.72529e-09" y="-0.036394" z="0.0953435" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForgun_bay_mount_right" tags="part ">
+        <offset>
+          <position x="5.443152" y="-0.80802" z="-2.132461" />
+          <quaternion qx="-5e-07" qy="-1e-06" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="gun_bay_mount_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="4" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="5" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.102945" y="0.2368551" z="3.120045" />
+              <center x="-5.443159" y="-0.04332817" z="-1.642274" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_mount" tags="part ">
+        <offset>
+          <position x="-0.6367511" y="-0.507468" z="7.291337" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-5.523351e-07" />
+        </offset>
+        <parts>
+          <part name="ladder_mount">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="5" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="6" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="7" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.053112" y="0.7388685" z="0.566332" />
+              <center x="0.06564899" y="6.496906e-06" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_door_mechanism" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_mount">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="1.007832" y="-0.09235102" z="-0.4302168" />
+          <quaternion qx="-0.7071068" qy="7.277347e-07" qz="0.7071068" qw="-7.277347e-07" />
+        </offset>
+        <parts>
+          <part name="ladder_door_mechanism">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1989744" y="0.041612" z="0.2930236" />
+              <center x="-0.1745425" y="0.0002190471" z="-0.0008254051" />
+            </size>
+            <size_raw>
+              <max x="0.030061" y="0.041612" z="0.2930235" />
+              <center x="-0.005628998" y="0.0002190005" z="-0.0008254945" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_door" group="ladder" tags="part animation trigger_interact ui require_docked" parent="ladder_door_mechanism">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-0.4113231" y="-0.1508159" z="0.04366195" />
+          <quaternion qx="-0.7071069" qy="7.277346e-07" qz="-0.7071066" qw="-7.277346e-07" />
+        </offset>
+        <parts>
+          <part name="ladder_door">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.096824" y="0.8327273" z="0.9156475" />
+              <center x="-0.1331897" y="-0.04141724" z="0.4697227" />
+            </size>
+            <size_raw>
+              <max x="0.892193" y="0.7913145" z="0.4489275" />
+              <center x="6.005168e-06" y="-4.500151e-06" z="0.003002495" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_rail" group="ladder" tags="part animation trigger_interact require_docked">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-0.8854762" y="-1.003126" z="7.554004" />
+          <quaternion qx="3.905598e-07" qy="-0.7071068" qz="-0.7071068" qw="-3.905599e-07" />
+        </offset>
+        <parts>
+          <part name="ladder_rail">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.264495" y="0.333598" z="0.05771065" />
+              <center x="-1.200057" y="-0.273664" z="-4.768372e-07" />
+            </size>
+            <size_raw>
+              <max x="0.725547" y="0.333598" z="0.0577105" />
+              <center x="-0.6611091" y="-0.273664" z="-5.010515e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_pivot" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_rail">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="0.005872011" y="-0.273663" z="1.00007e-06" />
+          <quaternion qx="2.247659e-08" qy="-0.7071069" qz="3.090873e-08" qw="-0.7071066" />
+        </offset>
+        <parts>
+          <part name="ladder_pivot">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5778586" y="0.333567" z="0.03891087" />
+              <center x="-0.5389476" y="0" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.038911" y="0.333567" z="0.038911" />
+              <center x="0" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_col" group="ladder" tags="part animation trigger_interact walk_stairway platformcollision" parent="ladder_pivot">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-0.01757262" y="-0.0045681" z="-0.9500334" />
+          <quaternion qx="5.59148e-07" qy="-0.7071066" qz="-0.7071069" qw="-5.591466e-07" />
+        </offset>
+        <parts>
+          <part name="ladder_col">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.353863" y="2.174556" z="0.400001" />
+              <center x="-1.243863" y="-0.674556" z="-4.768372e-07" />
+            </size>
+            <size_raw>
+              <max x="0.11" y="0.9999999" z="0.4" />
+              <center x="0" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_top" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_pivot">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-1.350033e-07" y="-1.907349e-06" z="-0.02919" />
+          <quaternion qx="-0.002172676" qy="0.002172564" qz="0.7071026" qw="-0.7071043" />
+        </offset>
+        <parts>
+          <part name="ladder_top">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="5" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8416405" y="0.4557112" z="0.5769067" />
+              <center x="-0.5608246" y="0.3630109" z="-0.3352571" />
+            </size>
+            <size_raw>
+              <max x="0.2808005" y="0.1160615" z="0.5769063" />
+              <center x="1.548976e-05" y="0.0524775" z="-0.3352575" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_mid" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_top">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="0.0002651215" y="2.060551e-07" z="-0.758202" />
+          <quaternion qx="-1.117587e-08" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="ladder_mid">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="4" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.392309" y="0.4556797" z="0.2997842" />
+              <center x="-1.131529" y="-0.3901566" z="-4.768372e-07" />
+            </size>
+            <size_raw>
+              <max x="0.2607805" y="0.06552297" z="0.2997829" />
+              <center x="-4.991889e-07" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_bottom" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_mid">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-0.0002980232" y="-0.001072007" z="-0.346485" />
+          <quaternion qx="0.001080513" qy="-5.960491e-08" qz="0" qw="-0.9999994" />
+        </offset>
+        <parts>
+          <part name="ladder_bottom">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="4" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.643931" y="0.6190029" z="0.2704866" />
+              <center x="-1.391579" y="-0.56352" z="-0.02739143" />
+            </size>
+            <size_raw>
+              <max x="0.2520675" y="0.05662698" z="0.2704854" />
+              <center x="0.000284493" y="-0.001144001" z="-0.02739051" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_bottom_rung" tags="part " parent="ladder_bottom">
+        <offset>
+          <position x="4.768372e-07" y="-1.180451e-07" z="-0.345153" />
+          <quaternion qx="2.328306e-10" qy="0" qz="-1.645617e-10" qw="-1" />
+        </offset>
+        <parts>
+          <part name="ladder_bottom_rung">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="4" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.903419" y="0.79028" z="0.02789497" />
+              <center x="-1.65105" y="-0.734998" z="0.2076168" />
+            </size>
+            <size_raw>
+              <max x="0.252083" y="0.05652048" z="0.0278935" />
+              <center x="0.000285998" y="-0.001238499" z="0.2076175" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_mid_rung" tags="part " parent="ladder_mid">
+        <offset>
+          <position x="-0.0002989769" y="-0.001426134" z="-0.390166" />
+          <quaternion qx="0.001080513" qy="-5.960491e-08" qz="0" qw="-0.9999994" />
+        </offset>
+        <parts>
+          <part name="ladder_mid_rung">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="4" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.68537" y="0.6497284" z="0.0278945" />
+              <center x="-1.424291" y="-0.5856534" z="0.2076168" />
+            </size>
+            <size_raw>
+              <max x="0.2607805" y="0.06552298" z="0.0278935" />
+              <center x="0.0002995059" y="-0.001447998" z="0.2076175" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggear_front" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-2e-06" y="-1.115123" z="6.095126" />
+          <quaternion qx="-0.91706" qy="0" qz="0" qw="-0.3987492" />
+        </offset>
+        <parts>
+          <part name="landinggear_front">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="3" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="5" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="6" ref="generic.aegs_eclipse_mtl_cockpit_decals" />
+                  <material id="7" ref="generic.aegs_eclipse_mtl_proxy" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_shield" />
+                  <material id="10" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="11" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="12" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="13" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="14" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="15" ref="generic.aegs_eclipse_mtl_decals" />
+                  <material id="16" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="17" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="18" ref="p1.cockpit_glass_inside_01" />
+                  <material id="19" ref="p1.cockpit_glass_outside_01" />
+                  <material id="20" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="21" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="22" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="23" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="24" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="25" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="26" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="27" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="28" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="29" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="30" ref="generic.aegs_eclipse_mtl_cockpit_scratch_decal" />
+                  <material id="31" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="32" ref="generic.aegs_eclipse_mtl_rtt_hud" />
+                  <material id="33" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="34" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="35" ref="generic.aegs_eclipse_mtl_nocollision_faces" />
+                  <material id="36" ref="generic.sabre_mtl_stencils" />
+                  <material id="37" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="38" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="39" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                  <material id="40" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4402555" y="1.855605" z="2.711097" />
+              <center x="-5.033951e-07" y="-1.173755" z="-0.7425861" />
+            </size>
+            <size_raw>
+              <max x="0.4402555" y="1.585099" z="1.407366" />
+              <center x="-5.140901e-07" y="-1.444261" z="0.5611442" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFornose_cone" tags="part animation">
+        <animations>
+					<animation name="cockpit_closed" start="0" end="0"/>
+					<animation name="cockpit_opening" start="0" end="80"/>
+					<animation name="cockpit_open" start="80" end="80"/>
+					<animation name="cockpit_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-2.335926e-06" y="-1.025826" z="8.947129" />
+          <quaternion qx="-0.6159167" qy="0.6159165" qz="-0.3473426" qw="-0.3473422" />
+        </offset>
+        <parts>
+          <part name="nose_cone">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="4" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="5" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="6" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="7" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6626785" y="0.9414938" z="0.7915723" />
+              <center x="0.3744677" y="-0.03356886" z="-0.4584541" />
+            </size>
+            <size_raw>
+              <max x="0.6626785" y="0.9079255" z="0.7528561" />
+              <center x="0.374468" y="-5.066395e-07" z="-0.4971701" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForthruster_mav_ball" tags="part ">
+        <offset>
+          <position x="-7.577772" y="-1.127262" z="0.6277" />
+          <quaternion qx="0.7062988" qy="0.0290349" qz="0.7067213" qw="-0.02905235" />
+        </offset>
+        <parts>
+          <part name="thruster_mav_ball">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="4" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="4" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="4" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="4" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.982707" y="1.729651" z="8.297894" />
+              <center x="-3.237592" y="-0.3001887" z="7.616007" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingtip_left_pivot" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-12.09768" y="-0.9616206" z="-2.999077" />
+          <quaternion qx="0" qy="0" qz="-0.03489949" qw="-0.9993908" />
+        </offset>
+        <parts>
+          <part name="wingtip_left_pivot">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5288587" y="0.1126438" z="1.714235" />
+              <center x="-0.4225483" y="-0.01258653" z="-0.1915174" />
+            </size>
+            <size_raw>
+              <max x="0.5288584" y="0.1126438" z="1.714234" />
+              <center x="-0.4225456" y="-0.0125865" z="-0.1915186" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingtip_left" tags="part " parent="wingtip_left_pivot">
+        <offset>
+          <position x="1.907349e-06" y="5.960464e-08" z="-0.004416466" />
+          <quaternion qx="-2.589076e-07" qy="-1" qz="2.463951e-07" qw="-7.888274e-07" />
+        </offset>
+        <parts>
+          <part name="wingtip_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="4" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="5" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="8" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                  <material id="10" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="11" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="12" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.216712" y="0.3612288" z="4.444677" />
+              <center x="2.164522" y="-0.1989772" z="2.345934" />
+            </size>
+            <size_raw>
+              <max x="4.216706" y="0.3612254" z="4.444676" />
+              <center x="2.164513" y="-0.1989732" z="2.345947" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForeclipse_landinggear_left" tags="part animation" parent="wingtip_left">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.2938318" y="-0.2232265" z="5.634972" />
+          <quaternion qx="-0.7071074" qy="-0.7071062" qz="3.452733e-09" qw="-4.010938e-07" />
+        </offset>
+        <parts>
+          <part name="eclipse_landinggear_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="5" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="6" ref="generic.aegs_eclipse_mtl_cockpit_decals" />
+                  <material id="7" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="9" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="10" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="11" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="12" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="13" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="14" ref="generic.aegs_eclipse_mtl_decals" />
+                  <material id="15" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="16" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="17" ref="p1.cockpit_glass_inside_01" />
+                  <material id="18" ref="p1.cockpit_glass_outside_01" />
+                  <material id="19" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="20" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="21" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="22" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="23" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="24" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="25" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="26" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="27" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="28" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="29" ref="generic.aegs_eclipse_mtl_cockpit_scratch_decal" />
+                  <material id="30" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="31" ref="generic.aegs_eclipse_mtl_rtt_hud" />
+                  <material id="32" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="33" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="34" ref="generic.sabre_mtl_stencils" />
+                  <material id="35" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="36" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="37" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5515156" y="0.656426" z="1.384348" />
+              <center x="-0.2623138" y="-0.4155221" z="1.225635" />
+            </size>
+            <size_raw>
+              <max x="0.2855469" y="0.5730138" z="0.7815149" />
+              <center x="0.003654428" y="-0.33211" z="0.622802" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForeclipse_landinggear_left003" tags="part animation" parent="eclipse_landinggear_left">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.01336348" y="0.2314672" z="-0.3367882" />
+          <quaternion qx="-1.022308e-06" qy="-5.448417e-08" qz="0.01127434" qw="-0.9999365" />
+        </offset>
+        <parts>
+          <part name="eclipse_landinggear_left003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="5" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="6" ref="generic.aegs_eclipse_mtl_cockpit_decals" />
+                  <material id="7" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_shield" />
+                  <material id="10" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="11" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="12" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="13" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="14" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="15" ref="generic.aegs_eclipse_mtl_decals" />
+                  <material id="16" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="17" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="18" ref="p1.cockpit_glass_inside_01" />
+                  <material id="19" ref="p1.cockpit_glass_outside_01" />
+                  <material id="20" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="21" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="22" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="23" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="24" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="25" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="26" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="27" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="28" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="29" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="30" ref="generic.aegs_eclipse_mtl_cockpit_scratch_decal" />
+                  <material id="31" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="32" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="33" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="34" ref="generic.sabre_mtl_stencils" />
+                  <material id="35" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="36" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="37" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.335371" y="0.6368008" z="1.447472" />
+              <center x="-0.1491127" y="-1.336211" z="2.703926" />
+            </size>
+            <size_raw>
+              <max x="0.1862121" y="0.6043486" z="0.6762459" />
+              <center x="4.602596e-05" y="-1.303759" z="1.932701" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForeclipse_landinggear_left002" tags="part animation" parent="eclipse_landinggear_left003">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0.2080801" y="-0.7040958" z="2.603442" />
+          <quaternion qx="0.4771487" qy="0.002948096" qz="-0.005429738" qw="-0.8788009" />
+        </offset>
+        <parts>
+          <part name="eclipse_landinggear_left002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="5" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="6" ref="generic.aegs_eclipse_mtl_cockpit_decals" />
+                  <material id="7" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_shield" />
+                  <material id="10" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="11" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="12" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="13" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="14" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="15" ref="generic.aegs_eclipse_mtl_decals" />
+                  <material id="16" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="17" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="18" ref="p1.cockpit_glass_inside_01" />
+                  <material id="19" ref="p1.cockpit_glass_outside_01" />
+                  <material id="20" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="21" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="22" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="23" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="24" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="25" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="26" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="27" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="28" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="29" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="30" ref="generic.aegs_eclipse_mtl_cockpit_scratch_decal" />
+                  <material id="31" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="32" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="33" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="34" ref="generic.aegs_eclipse_mtl_nocollision_faces" />
+                  <material id="35" ref="generic.sabre_mtl_stencils" />
+                  <material id="36" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="37" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="38" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6929178" y="1.347611" z="1.967854" />
+              <center x="-0.5673962" y="-1.29254" z="0.8282909" />
+            </size>
+            <size_raw>
+              <max x="0.2976187" y="0.3724045" z="1.291963" />
+              <center x="-0.1721529" y="-0.317333" z="0.1523994" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForeclipse_landinggear_left001" tags="part animation" parent="eclipse_landinggear_left002">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0.153243" y="-0.5901213" z="-1.08538" />
+          <quaternion qx="-0.4771588" qy="5.763067e-08" qz="2.861314e-08" qw="-0.8788171" />
+        </offset>
+        <parts>
+          <part name="eclipse_landinggear_left001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="5" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="6" ref="generic.aegs_eclipse_mtl_cockpit_decals" />
+                  <material id="7" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_shield" />
+                  <material id="10" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="11" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="12" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="13" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="14" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="15" ref="generic.aegs_eclipse_mtl_decals" />
+                  <material id="16" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="17" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="18" ref="p1.cockpit_glass_inside_01" />
+                  <material id="19" ref="p1.cockpit_glass_outside_01" />
+                  <material id="20" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="21" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="22" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="23" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="24" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="25" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="26" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="27" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="28" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="29" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="30" ref="generic.aegs_eclipse_mtl_cockpit_scratch_decal" />
+                  <material id="31" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="32" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="33" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="34" ref="generic.sabre_mtl_stencils" />
+                  <material id="35" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="36" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="37" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.240885" y="2.021583" z="1.527917" />
+              <center x="-1.225351" y="-0.8470372" z="-0.8685431" />
+            </size>
+            <size_raw>
+              <max x="0.3123808" y="0.6401202" z="1.346603" />
+              <center x="-0.3107354" y="0.5344253" z="-1.049859" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingtip_right_pivot" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="12.09767" y="-0.9615816" z="-2.995065" />
+          <quaternion qx="1.450585e-07" qy="2.90449e-06" qz="-0.9993908" qw="-0.0348995" />
+        </offset>
+        <parts>
+          <part name="wingtip_right_pivot">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5288577" y="0.1126438" z="1.714234" />
+              <center x="-0.4225473" y="0.01258653" z="-0.1915183" />
+            </size>
+            <size_raw>
+              <max x="0.5288574" y="0.1126438" z="1.714234" />
+              <center x="-0.422545" y="0.0125865" z="-0.1915195" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingtip_right" tags="part " parent="wingtip_right_pivot">
+        <offset>
+          <position x="-8.583069e-06" y="3.713369e-05" z="-4.768372e-06" />
+          <quaternion qx="1" qy="2.769753e-06" qz="-3.170155e-08" qw="-3.097471e-06" />
+        </offset>
+        <parts>
+          <part name="wingtip_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="3" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="4" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="5" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="6" ref="p1.cockpit_glass_inside_01" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                  <material id="8" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="10" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                  <material id="11" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="12" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="13" ref="generic.sabre_mtl_cockpit_05" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.216675" y="0.3563392" z="4.444679" />
+              <center x="-2.164585" y="-0.1966082" z="2.346001" />
+            </size>
+            <size_raw>
+              <max x="4.216657" y="0.356317" z="4.444679" />
+              <center x="-2.164592" y="-0.1966299" z="2.346015" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForeclipse_landinggear_right" tags="part animation" parent="wingtip_right">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0.2938585" y="-0.2232231" z="5.638479" />
+          <quaternion qx="0.7071064" qy="-0.7071072" qz="4.83247e-07" qw="-1.552947e-07" />
+        </offset>
+        <parts>
+          <part name="eclipse_landinggear_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_cockpit_decals" />
+                  <material id="5" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="6" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_shield" />
+                  <material id="10" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="11" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="12" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="13" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="14" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="15" ref="generic.aegs_eclipse_mtl_decals" />
+                  <material id="16" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="17" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="18" ref="p1.cockpit_glass_inside_01" />
+                  <material id="19" ref="p1.cockpit_glass_outside_01" />
+                  <material id="20" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="21" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="22" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="23" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="24" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="25" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="26" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="27" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="28" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="29" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="30" ref="generic.aegs_eclipse_mtl_cockpit_scratch_decal" />
+                  <material id="31" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="32" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="33" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="34" ref="generic.sabre_mtl_stencils" />
+                  <material id="35" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="36" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="37" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5515323" y="1.168998" z="1.803544" />
+              <center x="0.2696218" y="-0.9280895" z="1.641387" />
+            </size>
+            <size_raw>
+              <max x="0.2855472" y="1.085591" z="1.19896" />
+              <center x="0.003637381" y="-0.8446794" z="1.036809" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForeclipse_landinggear_right003" tags="part animation" parent="eclipse_landinggear_right">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0.07039583" y="0.2285738" z="-0.3075857" />
+          <quaternion qx="4.731588e-07" qy="4.154763e-08" qz="0.006181789" qw="-0.9999809" />
+        </offset>
+        <parts>
+          <part name="eclipse_landinggear_right003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_cockpit_decals" />
+                  <material id="5" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="6" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_shield" />
+                  <material id="10" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="11" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="12" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="13" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="14" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="15" ref="generic.aegs_eclipse_mtl_decals" />
+                  <material id="16" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="17" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="18" ref="p1.cockpit_glass_inside_01" />
+                  <material id="19" ref="p1.cockpit_glass_outside_01" />
+                  <material id="20" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="21" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="22" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="23" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="24" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="25" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="26" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="27" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="28" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="29" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="30" ref="generic.aegs_eclipse_mtl_cockpit_scratch_decal" />
+                  <material id="31" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="32" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="33" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="34" ref="generic.sabre_mtl_stencils" />
+                  <material id="35" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="36" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="37" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3386831" y="0.620595" z="1.434503" />
+              <center x="0.1527386" y="-1.300667" z="2.690785" />
+            </size>
+            <size_raw>
+              <max x="0.1860775" y="0.6046817" z="0.6761281" />
+              <center x="0.000132855" y="-1.304139" z="1.932422" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForeclipse_landinggear_right002" tags="part animation" parent="eclipse_landinggear_right003">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.257734" y="-0.7106867" z="2.607162" />
+          <quaternion qx="0.4771411" qy="0.004162714" qz="-0.007665811" qw="-0.8787834" />
+        </offset>
+        <parts>
+          <part name="eclipse_landinggear_right002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_cockpit_decals" />
+                  <material id="5" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="6" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_shield" />
+                  <material id="10" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="11" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="12" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="13" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="14" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="15" ref="generic.aegs_eclipse_mtl_decals" />
+                  <material id="16" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="17" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="18" ref="p1.cockpit_glass_inside_01" />
+                  <material id="19" ref="p1.cockpit_glass_outside_01" />
+                  <material id="20" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="21" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="22" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="23" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="24" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="25" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="26" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="27" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="28" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="29" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="30" ref="generic.aegs_eclipse_mtl_cockpit_scratch_decal" />
+                  <material id="31" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="32" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="33" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="34" ref="generic.sabre_mtl_stencils" />
+                  <material id="35" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="36" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="37" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6935172" y="1.355622" z="1.959481" />
+              <center x="0.5676823" y="-1.300877" z="0.8198848" />
+            </size>
+            <size_raw>
+              <max x="0.2976195" y="0.3720521" z="1.291948" />
+              <center x="0.1722533" y="-0.3173051" z="0.1523537" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForeclipse_landinggear_right001" tags="part animation " parent="eclipse_landinggear_right002">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.1554877" y="-0.5712404" z="-1.081065" />
+          <quaternion qx="-0.4771588" qy="7.147618e-09" qz="7.41822e-09" qw="-0.8788171" />
+        </offset>
+        <parts>
+          <part name="eclipse_landinggear_right001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="2" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_eclipse_mtl_cockpit_pom" />
+                  <material id="4" ref="generic.aegs_eclipse_mtl_cockpit_decals" />
+                  <material id="5" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="6" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="7" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="8" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="9" ref="generic.aegs_eclipse_mtl_shield" />
+                  <material id="10" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="11" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="12" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="13" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="14" ref="generic.sabre_mtl_cockpit_05" />
+                  <material id="15" ref="generic.aegs_eclipse_mtl_decals" />
+                  <material id="16" ref="generic.aegs_javelin_mtl_decals_pom" />
+                  <material id="17" ref="generic.aegs_eclipse_mtl_metal" />
+                  <material id="18" ref="p1.cockpit_glass_inside_01" />
+                  <material id="19" ref="p1.cockpit_glass_outside_01" />
+                  <material id="20" ref="generic.aegs_javelin_mtl_glows_physics" />
+                  <material id="21" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="22" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="23" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="24" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="25" ref="generic.aegs_eclipse_mtl_white_bays_nodamage" />
+                  <material id="26" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="27" ref="generic.sabre_raven_mtl_Trim_Cable" />
+                  <material id="28" ref="generic.aegs_cor_pipes_steel_mtl_buttons" />
+                  <material id="29" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="30" ref="generic.aegs_eclipse_mtl_cockpit_scratch_decal" />
+                  <material id="31" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="32" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="33" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Tile" />
+                  <material id="34" ref="generic.sabre_mtl_stencils" />
+                  <material id="35" ref="generic.sabre_raven_mtl_Panel_LF_Paint_Primary_A" />
+                  <material id="36" ref="generic.aegs_eclipse_mtl_ext_decals" />
+                  <material id="37" ref="generic.aegs_eclipse_mtl_ext_decals_2" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.237902" y="2.025301" z="1.528449" />
+              <center x="1.21914" y="-0.8538672" z="-0.8486872" />
+            </size>
+            <size_raw>
+              <max x="0.3123831" y="0.6401295" z="1.346594" />
+              <center x="0.3107009" y="0.5313022" z="-1.030547" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectiontrust001" tags="part animation  " parent="thruster_mav_ball003">
+				<offset>
+          <position x="0.001457214" y="0.1910024" z="-0.00276351" />
+          <quaternion qx="8.429369e-08" qy="0.7071072" qz="-0.7071064" qw="-2.247651e-08" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_01"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust002" tags="part animation  " parent="thruster_mav_ball002">
+				<offset>
+          <position x="-0.001364708" y="0.1910024" z="-0.006821752" />
+          <quaternion qx="-3.090862e-08" qy="-0.7071068" qz="0.7071068" qw="-3.090862e-08" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_02"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust003" tags="part animation  " parent="thruster_mav_ball">
+				<offset>
+          <position x="-0.002737582" y="0.2001895" z="-0.01396656" />
+          <quaternion qx="-0.4788856" qy="0.4791967" qz="-0.5202582" qw="-0.5199717" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_03"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust004" tags="part animation  " parent="thruster_mav_ball001">
+				<offset>
+          <position x="0.006884038" y="0.2001889" z="-0.01397085" />
+          <quaternion qx="-0.478886" qy="-0.4791964" qz="0.5202584" qw="-0.5199714" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_04"/>
+				</parts>
+			</connection>
+
+      <connection name="Connection_airlock" group="airock001" tags="part ui">
+				<parts>
+					<part ref="arrow_airlock.ejection_handle" name="ejection_handle"/>
+				</parts>
+        <offset>
+          <position x="0" y="-0.1" z="7.5" />
+        </offset>
+			</connection>
+      <connection name="Connection_airlockbox" group="airock001" tags="part ui" parent="ejection_handle">
+				<parts>
+					<part ref="arrow_airlock.box" name="box"/>
+				</parts>
+			</connection>
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="0.65" z="6.858" />
+				</offset>
+			</connection>
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="0.65" z="6.858" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-3.5" z="20"/>
+				</offset>
+			</connection>
+      <connection name="con_npc_stand_01" tags="npc_waypoint stand npctransport ">
+				<offset>
+					<position x="0" y="0.65" z="6.858" />
+				</offset>
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="1.160178" z="7.254037" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="0" y="0" z="-9" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+
+      <connection name="Connectionchiar01" group="pilotcontrol" tags="part">
+				<offset>
+          <position x="0" y="-0.656" z="6.858" />
+        </offset>
+				<parts>
+					<part ref="eclipse_seat.cockpit_seat_mesh" name="cockpit_seat_mesh"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="cockpit_seat_mesh">
+				<offset>
+					<position x="0" y="0.1" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar02" tags="part iklink  " group="pilotcontrol" parent="cockpit_seat_mesh">
+				<parts>
+					<part ref="eclipse_seat.cockpit_seat" name="cockpit_seat"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair ">
+				<offset>
+					<position x="0" y="0.65" z="6.858" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor " >
+				<offset>
+					<position x="0" y="0.65" z="6.858" />
+				</offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_eclipse">
+        <offset>
+          <position x="0" y="0.602208" z="-8.54023" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield small aegs_s1 industrial">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield small aegs_s1 industrial">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_03" tags="component shield small aegs_s1 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_left">
+				<offset>
+          <position x="-5.442431" y="-1.034792" z="-1.326728" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="weapon small platformcollision aegs_weapon_s2 symmetry symmetry_right">
+				<offset>
+          <position x="5.44243" y="-1.034792" z="-1.326728" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_03" tags="turret medium component combat aegs_eclipse">
+			</connection>
+      <connection name="con_weapon_s9" tags="component weapon large missile aegs_missile_s9 symmetry symmetry_1">
+        <offset>
+          <position x="0" y="-4" z="-2.6" />
+        </offset>
+      </connection>
+
+      <connection name="con_storage01" tags="storage ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+
+
+    </connections>
+  </component>
+</components>

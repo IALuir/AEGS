@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-18 12:28:05 from Blender-->
+<components>
+  <component name="prospector_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\prospector_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForchair" tags="part ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation ">
+        <parts>
+          <part name="chair">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="2" ref="generic.misc_prospector_interior_mtl_decal_pom" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="6" ref="generic.misc_prospector_mtl_buttons" />
+                  <material id="7" ref="generic.misc_prospector_mtl_High_Detail_Pipes" />
+                  <material id="8" ref="generic.misc_prospector_interior_mtl_Bed_Fabric" />
+                  <material id="9" ref="generic.misc_prospector_interior_mtl_Interior_Decals" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="12" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="13" ref="generic.misc_prospector_interior_mtl_BlackMetal_Shiny" />
+                  <material id="14" ref="generic.misc_prospector_interior_mtl_Orange_PaintedMetal" />
+                  <material id="15" ref="generic.misc_prospector_interior_mtl_BlackMetal_Shiny" />
+                  <material id="16" ref="generic.misc_prospector_mtl_Interior_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4971705" y="1.304108" z="0.7343208" />
+              <center x="-0.002172511" y="1.189698" z="-0.06262352" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForchair_mesh" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="chair">
+        <parts>
+          <part name="chair_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="2" ref="generic.misc_prospector_interior_mtl_decal_pom" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.misc_prospector_interior_mtl_Grey_Shiny" />
+                  <material id="6" ref="generic.misc_prospector_mtl_buttons" />
+                  <material id="7" ref="generic.misc_prospector_mtl_High_Detail_Pipes" />
+                  <material id="8" ref="generic.misc_prospector_interior_mtl_Bed_Fabric" />
+                  <material id="9" ref="generic.misc_prospector_interior_mtl_Interior_Decals" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="12" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="13" ref="generic.misc_prospector_interior_mtl_BlackMetal_Shiny" />
+                  <material id="14" ref="generic.misc_prospector_interior_mtl_Orange_PaintedMetal" />
+                  <material id="15" ref="generic.misc_prospector_interior_mtl_BlackMetal_Shiny" />
+                  <material id="16" ref="generic.misc_prospector_mtl_Interior_POM" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4971705" y="1.304108" z="0.7343208" />
+              <center x="-0.002172511" y="1.189698" z="-0.06262352" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="kraken_refinedmetals_macro" class="production">
+    <component ref="generic_buildmodule" />
+    <properties>
+      <identification name="{996671,36}" description="{996671,36}" />
+      <build>
+        <sets>
+          <set ref="factory" />
+          <set ref="headquarters_player" />
+        </sets>
+      </build>
+      <hull integrated="1" />
+      <secrecy level="3" />
+      <workforce max="0" />
+      <production wares="refinedmetals">
+        <queue ware="refinedmetals" method="kraken"/>
+      </production>
+      <workforce max="75" />
+    </properties>
+  </macro>
+</macros>

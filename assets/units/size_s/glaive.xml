@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-10-13 20:44:46 from Blender-->
+<components>
+  <component name="glaive" class="ship_s">
+    <source geometry="extensions\AEGS\assets\units\size_s\glaive_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_s ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForweapon_l" tags="part ">
+        <offset>
+          <position x="7.550526" y="-1.951829" z="17.3639" />
+        </offset>
+        <parts>
+          <part name="weapon_l">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_lights" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8282022" y="0.4671815" z="4.331345" />
+              <center x="-15.06698" y="0.1301715" z="-0.6952691" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForweapon_r" tags="part ">
+        <offset>
+          <position x="7.550526" y="-1.951829" z="17.3639" />
+        </offset>
+        <parts>
+          <part name="weapon_r">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_lights" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.828202" y="0.4671815" z="4.331345" />
+              <center x="-0.03464501" y="0.1301715" z="-0.6952691" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody" tags="part ">
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_lights" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="6" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="7" ref="generic.vncl_glaive_mtl_light_link" />
+                  <material id="8" ref="generic.vncl_scythe_mtl_cockpit" />
+                  <material id="9" ref="generic.vncl_scythe_mtl_hull_grey_dark" />
+                  <material id="10" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="11" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="12" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="13" ref="generic.vncl_scythe_mtl_lights" />
+                  <material id="14" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="15" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="16" ref="generic.vncl_scythe_mtl_hull_grey_dark" />
+                  <material id="17" ref="generic.vncl_scythe_mtl_decal_text" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_lights" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="6" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="7" ref="generic.vncl_glaive_mtl_light_link" />
+                  <material id="8" ref="generic.vncl_scythe_mtl_cockpit" />
+                  <material id="9" ref="generic.vncl_scythe_mtl_hull_grey_dark" />
+                  <material id="10" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="11" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="12" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="13" ref="generic.vncl_scythe_mtl_lights" />
+                  <material id="14" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="15" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="16" ref="generic.vncl_scythe_mtl_hull_grey_dark" />
+                  <material id="17" ref="generic.vncl_scythe_mtl_decal_text" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_lights" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="6" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="7" ref="generic.vncl_glaive_mtl_light_link" />
+                  <material id="8" ref="generic.vncl_scythe_mtl_cockpit" />
+                  <material id="9" ref="generic.vncl_scythe_mtl_hull_grey_dark" />
+                  <material id="10" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="11" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="12" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="13" ref="generic.vncl_scythe_mtl_lights" />
+                  <material id="14" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="15" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="16" ref="generic.vncl_scythe_mtl_hull_grey_dark" />
+                  <material id="17" ref="generic.vncl_scythe_mtl_decal_text" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_lights" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="6" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="7" ref="generic.vncl_glaive_mtl_light_link" />
+                  <material id="8" ref="generic.vncl_scythe_mtl_cockpit" />
+                  <material id="9" ref="generic.vncl_scythe_mtl_hull_grey_dark" />
+                  <material id="10" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="11" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="12" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="13" ref="generic.vncl_scythe_mtl_lights" />
+                  <material id="14" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="15" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="16" ref="generic.vncl_scythe_mtl_hull_grey_dark" />
+                  <material id="17" ref="generic.vncl_scythe_mtl_decal_text" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.70766" y="2.266356" z="8.868679" />
+              <center x="-5.960464e-08" y="-0.456158" z="1.493558" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcockpit" tags="part nocollision">
+        <offset>
+          <position x="-0.0002869964" y="-0.2683913" z="6.705206" />
+        </offset>
+        <parts>
+          <part name="cockpit">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="p1.cockpit_glass_inside_01" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.091915" y="1.667974" z="3.334577" />
+              <center x="2.980232e-08" y="-0.6277634" z="0.4756653" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcockpitlock" group="ladder" tags="part animation trigger_interact require_docked detail_m ui">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0.003808" y="-1.581053" z="6.624179" />
+          <quaternion qx="-0.02576013" qy="0" qz="0" qw="-0.9996682" />
+        </offset>
+        <parts>
+          <part name="cockpitlock">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.639856" y="0.507505" z="1.034546" />
+              <center x="9.755604e-07" y="-0.268159" z="0.7910843" />
+            </size>
+            <size_raw>
+              <max x="0.639856" y="0.5075051" z="1.034546" />
+              <center x="9.983778e-07" y="-0.268159" z="0.7910839" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcockpitopening" group="ladder" tags="part animation trigger_interact require_docked detail_m">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="0.003808" y="-2.704194" z="9.754333" />
+          <quaternion qx="0.0004314842" qy="0" qz="0" qw="-0.9999999" />
+        </offset>
+        <parts>
+          <part name="cockpitopening">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_cockpit" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.975486" y="0.980257" z="1.851109" />
+              <center x="1.034932e-06" y="0.328573" z="-0.8875809" />
+            </size>
+            <size_raw>
+              <max x="0.975486" y="0.980257" z="1.85111" />
+              <center x="9.834766e-07" y="0.328573" z="-0.8875805" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcockpitbaseplate" group="pilotcontrol" tags="part ui detail_xl chair forceoutline walk_exclude walk_excludeplayer chairreservation detail_m" parent="cockpitopening">
+        <offset>
+          <position x="2.328306e-10" y="0.7141157" z="-1.403068" />
+          <quaternion qx="0.7071075" qy="0" qz="0" qw="-0.707106" />
+        </offset>
+        <parts>
+          <part name="cockpitbaseplate">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_cockpit" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_hull_grey_dark" />
+                  <material id="6" ref="generic.vncl_scythe_mtl_decal_text" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.684793" y="2.091675" z="0.6782103" />
+              <center x="2.142042e-08" y="-0.7847633" z="-0.04365253" />
+            </size>
+            <size_raw>
+              <max x="0.684793" y="1.305601" z="0.551027" />
+              <center x="0" y="0.0001004934" z="-0.0001760125" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcockpitkneepads" group="ladder" tags="part animation trigger_interact require_docked detail_m" parent="cockpitbaseplate">
+        <animations>
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+				</animations>
+        <offset>
+          <position x="-9.000069e-06" y="0.1326418" z="0.07159133" />
+          <quaternion qx="-0.0001849532" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="cockpitkneepads">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_cockpit" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.362359" y="1.31443" z="0.5969589" />
+              <center x="-8.614734e-09" y="-1.136645" z="-0.4437475" />
+            </size>
+            <size_raw>
+              <max x="0.362359" y="0.176889" z="0.151759" />
+              <center x="7.450581e-09" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggearrearcover" tags="part animation detail_m">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="1.315959e-06" y="-1.850567" z="-2.603502" />
+          <quaternion qx="0.4953472" qy="-0.4953474" qz="-0.5046077" qw="-0.5046119" />
+        </offset>
+        <parts>
+          <part name="landinggearrearcover">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.072185" y="0.353008" z="0.340305" />
+              <center x="-1.065961" y="0" z="-0.274394" />
+            </size>
+            <size_raw>
+              <max x="1.072185" y="0.353008" z="0.340305" />
+              <center x="-1.065961" y="0" z="-0.274394" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggearrearfront" tags="part animation detail_m">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="0" y="-2.558365" z="0.6289603" />
+          <quaternion qx="-2.185568e-08" qy="-7.152557e-07" qz="-2.185568e-08" qw="-1" />
+        </offset>
+        <parts>
+          <part name="landinggearrearfront">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3542385" y="1.531664" z="2.126258" />
+              <center x="-4.768372e-07" y="-0.9108813" z="-0.9901511" />
+            </size>
+            <size_raw>
+              <max x="0.3542385" y="0.310593" z="1.134474" />
+              <center x="-4.842877e-07" y="0.308177" z="-5.364418e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggearrearsupportfront" tags="part animation detail_m" parent="landinggearrearfront">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-0.015861" y="0.442153" z="0.775273" />
+          <quaternion qx="0.6898633" qy="0" qz="0" qw="-0.7239397" />
+        </offset>
+        <parts>
+          <part name="landinggearrearsupportfront">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.169107" y="2.637946" z="1.160892" />
+              <center x="0.015863" y="0.08181906" z="-0.9877149" />
+            </size>
+            <size_raw>
+              <max x="0.169107" y="1.416875" z="0.1691065" />
+              <center x="0.015863" y="1.300877" z="0.002435505" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggearrearsupportrear" tags="part animation detail_m" parent="landinggearrearfront">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-0.015862" y="0.442153" z="-0.766099" />
+          <quaternion qx="0.6423656" qy="0" qz="0" qw="-0.7663984" />
+        </offset>
+        <parts>
+          <part name="landinggearrearsupportrear">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.169107" y="2.602295" z="1.160892" />
+              <center x="0.01586301" y="0.04616857" z="-0.9877149" />
+            </size>
+            <size_raw>
+              <max x="0.169107" y="1.381225" z="0.1691065" />
+              <center x="0.015863" y="1.265226" z="0.002435505" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <!-- <connection name="ConnectionForscy_wings" tags="part ">
+        <offset>
+          <position x="-0.02051675" y="-0.02287993" z="3.036138" />
+        </offset>
+        <parts>
+          <part name="scy_wings">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_a" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_a" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_a" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_a" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8269869" y="0.9149545" z="3.235377" />
+              <center x="-3.984712" y="-1.96834" z="0.2190984" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForscy_wingleft" tags="part animation" parent="scy_wings">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-4.555" y="-2.629714" z="2.369537" />
+          <quaternion qx="0" qy="0" qz="-0.8865953" qw="-0.4625459" />
+        </offset>
+        <parts>
+          <part name="scy_wingleft">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6229544" y="2.165419" z="4.976717" />
+              <center x="-0.3996944" y="1.927581" z="1.679037" />
+            </size>
+            <size_raw>
+              <max x="0.6229545" y="2.165418" z="4.976717" />
+              <center x="-0.3996946" y="1.92758" z="1.679037" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggearleftlight" tags="part " parent="scy_wingleft">
+        <offset>
+          <position x="-0.4357951" y="0.422626" z="-1.208059" />
+        </offset>
+        <parts>
+          <part name="landinggearleftlight">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="2" ref="generic.vncl_glaive_mtl_lights" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4239388" y="0.5717863" z="0.6313981" />
+              <center x="-0.4215474" y="0.4963906" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.1685225" y="0.060778" z="0.631398" />
+              <center x="-0.1672085" y="-0.014444" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForscy_landing" tags="part animation" parent="scy_wingleft">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-0.6043246" y="0.1089439" z="-1.214731" />
+        </offset>
+        <parts>
+          <part name="scy_landing">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.9256287" y="2.008882" z="1.134475" />
+              <center x="-0.2886219" y="0.1905718" z="4.768372e-07" />
+            </size>
+            <size_raw>
+              <max x="0.262457" y="1.076972" z="1.134475" />
+              <center x="-0.09108698" y="1.068591" z="4.768372e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForscy_landing01" tags="part animation" parent="scy_landing">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="7.152557e-07" y="1.127043" z="0.7777081" />
+          <quaternion qx="-1" qy="7.450581e-08" qz="2.50074e-08" qw="-1.113492e-07" />
+        </offset>
+        <parts>
+          <part name="scy_landing01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.2291875" y="0.9969267" z="0.09805608" />
+              <center x="-0.01660109" y="-0.002087831" z="2.384186e-06" />
+            </size>
+            <size_raw>
+              <max x="0.098056" y="0.5103965" z="0.098056" />
+              <center x="1.862645e-09" y="-0.4866995" z="2.000481e-06" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForscy_landing02" tags="part animation" parent="scy_landing">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-0.01586199" y="0.4421535" z="-0.766098" />
+          <quaternion qx="-0.4222924" qy="-2.069957e-08" qz="1.643886e-08" qw="-0.9064597" />
+        </offset>
+        <parts>
+          <part name="scy_landing02">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6437583" y="2.037358" z="0.169107" />
+              <center x="-0.0324564" y="0.8158748" z="0.002450943" />
+            </size>
+            <size_raw>
+              <max x="0.1690915" y="1.381595" z="0.169107" />
+              <center x="0.0158735" y="1.261919" z="0.002450995" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForscy_landing03" tags="part animation" parent="scy_landing02">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="0.01586127" y="0.6609693" z="0.002436042" />
+          <quaternion qx="1.490116e-08" qy="-1.490116e-08" qz="-7.450581e-09" qw="-1" />
+        </offset>
+        <parts>
+          <part name="scy_landing03">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1771863" y="0.9061364" z="0.3706529" />
+              <center x="-0.08092403" y="0.8809624" z="-0.2298243" />
+            </size>
+            <size_raw>
+              <max x="0.0953185" y="0.5103959" z="0.09531849" />
+              <center x="-5.047768e-07" y="0.4867" z="-5.029142e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection> -->
+      <connection name="ConnectionForwingleftarm" tags="part ">
+        <offset>
+          <position x="-5.781" y="-1.174508" z="5.834" />
+        </offset>
+        <parts>
+          <part name="wingleftarm">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="6" ref="generic.vncl_glaive_mtl_light_link" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="6" ref="generic.vncl_glaive_mtl_light_link" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="6" ref="generic.vncl_glaive_mtl_light_link" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="6" ref="generic.vncl_glaive_mtl_light_link" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.235204" y="1.980385" z="6.670095" />
+              <center x="-1.403831" y="-0.6153746" z="-1.634566" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingleftgun" tags="part " parent="wingleftarm">
+        <offset>
+          <position x="-2.319505" y="-1.022245" z="10.68117" />
+          <quaternion qx="-1" qy="0" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="wingleftgun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_engine_a" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_engine_a" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_engine_a" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_engine_a" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.719954" y="1.06945" z="6.621988" />
+              <center x="0.05625644" y="-0.005070329" z="0.02699113" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwinglefta" tags="part animation" parent="wingleftgun">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-1.406494" y="0.8132462" z="8.914167" />
+          <quaternion qx="2.705842e-08" qy="-1.726959e-08" qz="0.8429468" qw="-0.5379969" />
+        </offset>
+        <parts>
+          <part name="winglefta">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="5" ref="generic.vncl_glaive_mtl_light_link" />
+                  <material id="6" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="5" ref="generic.vncl_glaive_mtl_light_link" />
+                  <material id="6" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="5" ref="generic.vncl_glaive_mtl_light_link" />
+                  <material id="6" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="5" ref="generic.vncl_glaive_mtl_light_link" />
+                  <material id="6" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6472683" y="3.776259" z="12.04138" />
+              <center x="-0.07242966" y="-2.674321" z="-3.808691" />
+            </size>
+            <size_raw>
+              <max x="0.6472685" y="3.776259" z="12.04138" />
+              <center x="-0.07242952" y="-2.674321" z="-3.808691" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggearleftfront" tags="part animation" parent="winglefta">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="0.0797348" y="-0.2935286" z="-7.730412" />
+          <quaternion qx="0" qy="0" qz="1.490116e-08" qw="-1" />
+        </offset>
+        <parts>
+          <part name="landinggearleftfront">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8291378" y="2.115268" z="2.715417" />
+              <center x="0.4736538" y="-1.967321" z="0.0002975464" />
+            </size>
+            <size_raw>
+              <max x="0.262457" y="1.076972" z="2.715416" />
+              <center x="-0.09141099" y="-1.068621" z="0.0002980232" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggearleftrear" tags="part animation" parent="winglefta">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="0.07973528" y="-0.2910013" z="-7.730412" />
+          <quaternion qx="0" qy="0" qz="1.490116e-08" qw="-1" />
+        </offset>
+        <parts>
+          <part name="landinggearleftrear">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8283191" y="2.115356" z="1.796696" />
+              <center x="0.4728298" y="-1.968301" z="5.78947" />
+            </size>
+            <size_raw>
+              <max x="0.262457" y="1.076973" z="1.796695" />
+              <center x="-0.09141399" y="-1.068624" z="5.789471" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingrightarm" tags="part">
+        <offset>
+          <position x="5.780999" y="-1.174508" z="5.834001" />
+        </offset>
+        <parts>
+          <part name="wingrightarm">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="6" ref="generic.vncl_glaive_mtl_light_link" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="6" ref="generic.vncl_glaive_mtl_light_link" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="6" ref="generic.vncl_glaive_mtl_light_link" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="6" ref="generic.vncl_glaive_mtl_light_link" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.235202" y="1.980387" z="6.670099" />
+              <center x="1.403828" y="-0.6153756" z="-1.634569" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingrightgun" tags="part " parent="wingrightarm">
+        <offset>
+          <position x="2.319506" y="-1.022245" z="10.68117" />
+        </offset>
+        <parts>
+          <part name="wingrightgun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_engine_a" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_engine_a" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_engine_a" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_engine_a" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.719953" y="1.06945" z="6.621989" />
+              <center x="-0.05625698" y="0.005073011" z="-0.02699018" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingrighta" tags="part animation" parent="wingrightgun">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="1.406495" y="-0.813247" z="-8.914177" />
+          <quaternion qx="2.107367e-07" qy="-1.344992e-07" qz="0.8429468" qw="-0.5379969" />
+        </offset>
+        <parts>
+          <part name="wingrighta">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="5" ref="generic.vncl_glaive_mtl_light_link" />
+                  <material id="6" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="5" ref="generic.vncl_glaive_mtl_light_link" />
+                  <material id="6" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="5" ref="generic.vncl_glaive_mtl_light_link" />
+                  <material id="6" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="5" ref="generic.vncl_glaive_mtl_light_link" />
+                  <material id="6" ref="generic.vncl_scythe_mtl_base_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6472688" y="3.776257" z="12.04126" />
+              <center x="0.07242966" y="2.674605" z="3.808209" />
+            </size>
+            <size_raw>
+              <max x="0.647269" y="3.776257" z="12.04126" />
+              <center x="0.07243001" y="2.674605" z="3.808209" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggearrightfront" tags="part animation" parent="wingrighta">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-0.07973385" y="0.2935286" z="7.730051" />
+          <quaternion qx="0" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="landinggearrightfront">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8290763" y="2.115122" z="2.715418" />
+              <center x="-0.4735909" y="0.1700659" z="-0.0002975464" />
+            </size>
+            <size_raw>
+              <max x="0.262457" y="1.076972" z="2.715416" />
+              <center x="0.09141" y="1.068625" z="-0.0002980232" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlandinggearrightrear" tags="part animation" parent="wingrighta">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
+        <offset>
+          <position x="-0.0797348" y="0.2910042" z="9.008563" />
+          <quaternion qx="0" qy="0" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="landinggearrightrear">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_base_metal" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8282585" y="2.115211" z="2.436478" />
+              <center x="-0.4727659" y="0.1690903" z="-6.428199" />
+            </size>
+            <size_raw>
+              <max x="0.262457" y="1.076973" z="1.796695" />
+              <center x="0.091413" y="1.068626" z="-5.789471" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectiontrust" tags="part animation">
+        <offset>
+          <position x="-2.524476" y="1.155139" z="2.281803" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_01"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust001" tags="part animation">
+        <offset>
+          <position x="2.52448" y="1.155139" z="2.281803" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_02"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust002" tags="part animation">
+        <offset>
+          <position x="3.235998" y="0.4517292" z="3.068207" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_03"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust003" tags="part animation">
+        <offset>
+          <position x="-3.236" y="0.4517292" z="3.068207" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_04"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust004" tags="part animation">
+        <offset>
+          <position x="-0.2581236" y="-1.245725" z="-2.855167" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_05"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrust005" tags="part animation">
+        <offset>
+          <position x="0.258124" y="-1.245725" z="-2.855167" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_06"/>
+				</parts>
+      </connection>
+
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="cockpitbaseplate">
+				<offset>
+					<position x="0" y="-0.5" z="1"/>
+				</offset>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair ">
+				<offset>
+					<position x="0" y="-1.35" z="8.8" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor " >
+				<offset>
+					<position x="0" y="-1.35" z="8.8" />
+				</offset>
+			</connection>
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="-1.35" z="8.8" />
+				</offset>
+			</connection>
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="-1.35" z="8.8" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-5" z="20"/>
+				</offset>
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="-5" z="8.8" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_storage01" tags="storage ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="0" y="-1.7" z="-3" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_npc_stand_01" tags="npc_waypoint stand npctransport ">
+				<offset>
+					<position x="0" y="-1.35" z="8.8" />
+				</offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_glaive">
+        <offset>
+          <position x="0" y="0" z="-3.56296" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="weapon small platformcollision aegs_weapon_glaive symmetry_1">
+				<offset>
+          <position x="7.8367" y="-1.8092" z="20.8423" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="weapon small platformcollision aegs_weapon_glaive symmetry_1">
+				<offset>
+          <position x="-7.8367" y="-1.8092" z="20.8423" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_03" tags="weapon small platformcollision aegs_weapon_glaive_s2 symmetry_2">
+				<offset>
+          <position x="0.6143836" y="-3.19" z="10.7" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_04" tags="weapon small platformcollision aegs_weapon_glaive_s2 symmetry_2">
+				<offset>
+          <position x="-0.614384" y="-3.19" z="10.7" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield small aegs_s1 industrial">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield small aegs_s1 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+    </connections>
+  </component>
+</components>

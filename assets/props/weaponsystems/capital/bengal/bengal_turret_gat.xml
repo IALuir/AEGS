@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-06 00:12:30 from Blender-->
+<components>
+  <component name="bengal_turret_gat" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\bengal\bengal_turret_gat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForturretbase" tags="part ">
+        <parts>
+          <part name="turretbase" wreck="turretbase_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.95643" y="0.727485" z="2.390664" />
+              <center x="0.005265892" y="0.727488" z="-0.03616798" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody" tags="part " parent="turretbase">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="body">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_decal_diff" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_lights" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_trims_02_dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.601546" y="2.090357" z="2.632534" />
+              <center x="-5.960464e-07" y="2.900214" z="-1.217394" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForturret" tags="part " parent="body">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-5.0 "/>
+							<max value="70 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="0" y="3.695958" z="0" />
+        </offset>
+        <parts>
+          <part name="turret">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_decal_diff" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_trims_02_dark" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.148185" y="1.358175" z="4.809338" />
+              <center x="-3.993511e-06" y="0.1346221" z="1.460697" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbas" tags="part " parent="turret">
+        <offset>
+          <position x="1.489749e-08" y="0.2006745" z="2.663234" />
+        </offset>
+        <parts>
+          <part name="bas">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5530823" y="0.5384887" z="3.036459" />
+              <center x="0.01458985" y="-1.144409e-05" z="3.183634" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="bas">
+        <offset>
+          <position x="-1.489749e-08" y="-0.008917093" z="6.473939" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser" tags="turret medium component combat aegs_bengal_gat">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

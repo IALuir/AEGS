@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-04 16:36:57 from Blender-->
+<components>
+  <component name="mole_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\mole_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForchair" tags="part ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation ">
+        <parts>
+          <part name="chair">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.argo_mole_interior_mtl_pom_decals" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="4" ref="generic.argo_mole_interior_mtl_rubber" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="6" ref="generic.argo_mole_interior_mtl_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4364235" y="0.7977365" z="0.494279" />
+              <center x="4.991889e-07" y="0.5754564" z="-0.018738" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForchair_mesh" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="chair">
+        <parts>
+          <part name="chair_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.argo_mole_interior_mtl_pom_decals" />
+                  <material id="2" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="3" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="4" ref="generic.argo_mole_interior_mtl_rubber" />
+                  <material id="5" ref="generic.anvl_pisces_ext_mtl_HS_Panel_Tile_Paint_Dark" />
+                  <material id="6" ref="generic.argo_mole_interior_mtl_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4364235" y="0.7977365" z="0.494279" />
+              <center x="4.991889e-07" y="0.5754564" z="-0.018738" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

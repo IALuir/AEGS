@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-04 13:04:13 from Blender-->
+<components>
+  <component name="weapon_p52_s3" class="weapon">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\p52\weapon_p52_s3_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForhousing" tags="part nocollision">
+        <parts>
+          <part name="housing">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.p52_merlin_mtl_decals_pom" />
+                  <material id="2" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="3" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="7" ref="generic.taln_stalker_v_mtl_Base" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.235725" y="0.263558" z="0.813196" />
+              <center x="-3.72529e-09" y="-1.013279e-06" z="0.08630598" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbarrel" tags="part animation nocollision" parent="housing">
+        <animations>
+					<animation name="weapon_firing" start="0" end="40"/>
+				</animations>
+        <offset>
+          <position x="0" y="0.08622101" z="0.740308" />
+        </offset>
+        <parts>
+          <part name="barrel">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.p52_merlin_mtl_decals_pom" />
+                  <material id="2" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="4" ref="generic.taln_stalker_v_mtl_Base" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1329385" y="0.1329385" z="0.8807639" />
+              <center x="5.066395e-07" y="5.066395e-07" z="1.004752" />
+            </size>
+            <size_raw>
+              <max x="0.1329385" y="0.1329385" z="0.880764" />
+              <center x="4.954636e-07" y="4.991889e-07" z="1.004752" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="housing">
+        <offset>
+          <position x="0" y="0.1609088" z="2.63326" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="weapon small platformcollision aegs_weapon_p52">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

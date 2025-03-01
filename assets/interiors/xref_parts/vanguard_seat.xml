@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-26 12:57:07 from Blender-->
+<components>
+  <component name="vanguard_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\vanguard_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForseat" tags="part animation ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation">
+        <animations>
+					<animation name="chair_default_inactive" start="1" end="1"/>
+					<animation name="chair_default_activating" start="1" end="80"/>
+					<animation name="chair_default_active" start="80" end="80"/>
+					<animation name="chair_default_deactivating" start="80" end="180"/>
+					<animation name="chair_paranid_inactive" start="1" end="1"/>
+					<animation name="chair_paranid_activating" start="1" end="80"/>
+					<animation name="chair_paranid_active" start="8" end="80"/>
+					<animation name="chair_paranid_deactivating" start="80" end="180"/>
+					<animation name="chair_default_to_paranid" start="1" end="1"/>
+					<animation name="chair_paranid_to_default" start="1" end="1"/>
+				</animations>
+        <parts>
+          <part name="seat">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="3" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="4" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="5" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="7" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.374108" y="0.655312" z="1.039001" />
+              <center x="0.0003280044" y="0.7421628" z="-0.697646" />
+            </size>
+            <size_raw>
+              <max x="0.374108" y="0.655312" z="0.539001" />
+              <center x="0.0003279969" y="0.7421628" z="-0.197646" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseat_mesh" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer" parent="seat">
+        <parts>
+          <part name="seat_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_metal_painted_blue" />
+                  <material id="3" ref="generic.retaliator_mtl_metal_alum_bare" />
+                  <material id="4" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="5" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
+                  <material id="7" ref="generic.vanguard_interior_warden_mtl_black_matte" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.374108" y="0.655312" z="1.039001" />
+              <center x="0.0003280044" y="0.7421628" z="-0.697646" />
+            </size>
+            <size_raw>
+              <max x="0.374108" y="0.655312" z="0.539001" />
+              <center x="0.0003279969" y="0.7421628" z="-0.197646" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-24 23:40:58 from Blender-->
+<components>
+  <component name="starlifter_turret_mxa" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\starlifter\starlifter_turret_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForstand" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="stand">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5037995" y="0.4233834" z="0.5146649" />
+              <center x="4.61936e-07" y="0.4090841" z="-0.09698787" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForturret_body" tags="part " parent="stand">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-5.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="0.001108" y="1.108266" z="-0.2297668" />
+        </offset>
+        <parts>
+          <part name="turret_body">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="7" ref="generic.starlifter_exterior_mtl_Raw_Metal" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="7" ref="generic.starlifter_exterior_mtl_Raw_Metal" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="7" ref="generic.starlifter_exterior_mtl_Raw_Metal" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="7" ref="generic.starlifter_exterior_mtl_Raw_Metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.280166" y="0.492172" z="1.123101" />
+              <center x="-0.0005229712" y="-0.090873" z="0.169501" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForgun" tags="part " parent="turret_body">
+        <offset>
+          <position x="-0.736156" y="-0.180792" z="-0.1014925" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+        <parts>
+          <part name="gun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.216566" y="1.544993" z="2.007558" />
+              <center x="0.008083982" y="0.3680781" z="0.5585147" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="gun">
+        <offset>
+          <position x="2.287875e-08" y="-0.5408885" z="3.168353" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="gun">
+        <offset>
+          <position x="1.561119e-07" y="2.013325" z="3.168353" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_m" tags="turret small component combat aegs_starlifter">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

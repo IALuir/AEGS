@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="aegs_l_s10_macro" class="turret">
+    <component ref="aegs_l_s10" />
+    <properties>
+      <identification name="{996671,12}" basename="{996671,12}" shortname="{996671,12}" makerrace="terran" description="{996671,13}" mk="1" />
+      <bullet class="S10_gvsr_macro" />
+      <rotationspeed max="15" />
+      <rotationacceleration max="60" />
+      <hull hull="30000" threshold="0.2" integrated="0" />
+    </properties>
+  </macro>
+</macros>

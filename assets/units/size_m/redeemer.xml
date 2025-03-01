@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-29 22:40:54 from Blender-->
+<components>
+  <component name="redeemer" class="ship_m">
+    <source geometry="extensions\AEGS\assets\units\size_m\redeemer_data" />
+    <layers>
+      <layer>
+        <lights>
+          <arealight name="ego_area" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="255" g="221" b="208" intensity="0.6" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="1.007909" z="14.97022" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="255" g="221" b="208" intensity="0.6" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="1.519238" z="10.53047" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area002" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="255" g="221" b="208" intensity="0.6" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="1.759668" z="3.41954" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area003" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="255" g="221" b="208" intensity="0.6" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="1.686002" z="-2.136928" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area004" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="255" g="221" b="208" intensity="0.6" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="-1.283953" z="-0.3922956" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area005" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="255" g="221" b="208" intensity="0.6" specularintensity="1" range="5" shadowrange="1" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="-1.283953" z="4.495152" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_m ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForbody" tags="part ">
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_buttons_switches" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_trim_thruster_glow" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_glows_thruster" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_buttons_switches" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_trim_thruster_glow" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_glows_thruster" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_buttons_switches" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_trim_thruster_glow" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_glows_thruster" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_buttons_switches" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="4" ref="generic.sabre_raven_mtl_Damage_Internal_Structure_Alpha" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_trim_thruster_glow" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_glows_thruster" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.132134" y="6.548717" z="23.82349" />
+              <center x="-5.13792e-05" y="1.257931" z="-1.376922" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody1" tags="part ">
+        <parts>
+          <part name="body1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="6" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decals_pom_blended" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="9" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="13" ref="generic.aegs_redeemer_mtl_vent_grating" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="6" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decals_pom_blended" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="9" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="13" ref="generic.aegs_redeemer_mtl_vent_grating" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="6" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decals_pom_blended" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="9" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="13" ref="generic.aegs_redeemer_mtl_vent_grating" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="6" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decals_pom_blended" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="9" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="10" ref="p1effects.p1_gradient_colour" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="13" ref="generic.aegs_redeemer_mtl_vent_grating" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.75437" y="6.610371" z="25.36892" />
+              <center x="-6.699562e-05" y="1.344669" z="-2.918272" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_logo" tags="part ">
+        <parts>
+          <part name="fx_logo">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_logo" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.11853" y="3.954021" z="11.1355" />
+              <center x="0.004869401" y="-1.24215" z="8.299022" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_body" tags="part ">
+        <offset>
+          <position x="0" y="0.02410234" z="0" />
+        </offset>
+        <parts>
+          <part name="inner_body">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="4" ref="generic.aegs_idris_mtl_vents" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="p1.cockpit_glass_inside_01" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="4" ref="generic.aegs_idris_mtl_vents" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="p1.cockpit_glass_inside_01" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="4" ref="generic.aegs_idris_mtl_vents" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="p1.cockpit_glass_inside_01" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.aegs_idris_mtl_rubber_quilt" />
+                  <material id="4" ref="generic.aegs_idris_mtl_vents" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="p1.cockpit_glass_inside_01" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.230207" y="2.640373" z="15.50283" />
+              <center x="0.190827" y="-0.5521028" z="5.699509" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_body1" tags="part ">
+        <offset>
+          <position x="0" y="0.02410234" z="0" />
+        </offset>
+        <parts>
+          <part name="inner_body1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="4" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="12" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="4" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="12" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="4" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="12" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="4" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="8" ref="p1effects.p1_gradient_colour" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_buttons_switches" />
+                  <material id="11" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="12" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.706374" y="3.647463" z="15.81149" />
+              <center x="0.05336666" y="-1.2181" z="5.740444" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrampinnertop" group="door" tags="part animation trigger_interact">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="3.7e-05" y="-3.724461" z="-3.216994" />
+          <quaternion qx="-0.7071069" qy="0.0001009839" qz="0.7071066" qw="-0.0001024393" />
+        </offset>
+        <parts>
+          <part name="rampinnertop">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="3" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.792815" y="0.1398255" z="1.040462" />
+              <center x="0.943758" y="0.06422138" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.792815" y="0.1398255" z="1.040462" />
+              <center x="0.943758" y="0.06422149" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrampouter" group="door" tags="part animation trigger_interact ui" parent="rampinnertop">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="1.141633" y="1.121538" z="3.966688e-05" />
+          <quaternion qx="0.3417516" qy="0.9397904" qz="1.318046e-06" qw="-1.268992e-07" />
+        </offset>
+        <parts>
+          <part name="rampouter">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="4" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decals_pom_blended" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.016084" y="0.6887255" z="1.753747" />
+              <center x="-3.477803" y="0.1178756" z="0.2259398" />
+            </size>
+            <size_raw>
+              <max x="4.016084" y="0.5273129" z="1.527529" />
+              <center x="-3.477804" y="0.278961" z="4.351139e-05" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrampinnerbottom" group="door" tags="part animation trigger_interact ui" parent="rampouter">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-1.134754" y="-0.5112684" z="3.663826e-05" />
+          <quaternion qx="-0.06535126" qy="-0.9978623" qz="-5.965179e-07" qw="-1.101698e-07" />
+        </offset>
+        <parts>
+          <part name="rampinnerbottom">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="3" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_decals_pom_blended" />
+                  <material id="5" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="6" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.879919" y="0.4457477" z="1.229922" />
+              <center x="2.813214" y="-0.2120645" z="0.04849052" />
+            </size>
+            <size_raw>
+              <max x="2.879919" y="0.1544045" z="1.181401" />
+              <center x="2.813215" y="0.0786605" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrampextension" group="door" tags="part animation trigger_interact" parent="rampinnerbottom">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="3.410475" y="0.08511543" z="2.033668e-05" />
+          <quaternion qx="0.707108" qy="-0.0001520234" qz="-0.7071055" qw="-0.0001527613" />
+        </offset>
+        <parts>
+          <part name="rampextension">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="3" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.aegs_javelin_gauntlet_mtl_rubber_grip" />
+                  <material id="5" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.9671512" y="2.672508" z="5.032102" />
+              <center x="-7.863491e-08" y="-2.62384" z="-1.839272" />
+            </size>
+            <size_raw>
+              <max x="0.967151" y="0.08117" z="2.725763" />
+              <center x="-1.490116e-08" y="-0.033216" z="0.46249" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForredeemer_lg_rear_right_skin" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0.03528455" y="-5.230821" z="-4.174736" />
+        </offset>
+        <parts>
+          <part name="redeemer_lg_rear_right_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="generic.aegs_redeemer_mtl_landing_gear_rubber" />
+                  <material id="12" ref="generic.aegs_redeemer_mtl_decals_pom_blended" />
+                  <material id="13" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="14" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.118542" y="2.741293" z="1.971863" />
+              <center x="-0.03528502" y="0.06385136" z="0.3460402" />
+            </size>
+            <size_raw>
+              <max x="0.0553613" y="0.02964937" z="0.02132734" />
+              <center x="-0.000352852" y="0.01147648" z="0.003460402" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForredeemer_lg_rear_right_skin1" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0.003831258" y="-5.176276" z="7.825791" />
+        </offset>
+        <parts>
+          <part name="redeemer_lg_rear_right_skin1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="7" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="generic.aegs_redeemer_mtl_landing_gear_rubber" />
+                  <material id="12" ref="generic.aegs_redeemer_mtl_decals_pom_blended" />
+                  <material id="13" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="14" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.555677" y="1.69135" z="0.7241225" />
+              <center x="-0.003831734" y="-1.053786" z="0.08244181" />
+            </size>
+            <size_raw>
+              <max x="0.03845761" y="0.01829336" z="0.007831989" />
+              <center x="-3.83174e-05" y="0.00390104" z="0.0008244186" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingthrusterbottomleft" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="9.868314" y="-0.6964717" z="0.9904587" />
+          <quaternion qx="-1.309938e-08" qy="-0.9848327" qz="0.1735065" qw="-7.43528e-08" />
+        </offset>
+        <parts>
+          <part name="wingthrusterbottomleft">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="9" ref="generic.aegs_redeemer_mtl_trim_thruster_glow" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="11" ref="generic.aegs_redeemer_mtl_decals_pom_blended" />
+                  <material id="12" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                  <material id="14" ref="generic.aegs_redeemer_mtl_vent_grating" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.267399" y="2.393587" z="9.787183" />
+              <center x="-5.722046e-06" y="-2.246226" z="6.425289" />
+            </size>
+            <size_raw>
+              <max x="1.267399" y="2.393587" z="9.787182" />
+              <center x="-6.318092e-06" y="-2.246226" z="6.425289" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingthrusterbottomleft001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-9.868451" y="-0.6964591" z="0.9902" />
+          <quaternion qx="1.309938e-08" qy="-0.9848327" qz="-0.1735065" qw="-7.43528e-08" />
+        </offset>
+        <parts>
+          <part name="wingthrusterbottomleft001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="9" ref="generic.aegs_redeemer_mtl_trim_thruster_glow" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="11" ref="generic.aegs_redeemer_mtl_decals_pom_blended" />
+                  <material id="12" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                  <material id="14" ref="generic.aegs_redeemer_mtl_vent_grating" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.267399" y="2.393586" z="9.787182" />
+              <center x="1.049042e-05" y="2.246226" z="6.425288" />
+            </size>
+            <size_raw>
+              <max x="1.267399" y="2.393586" z="9.787181" />
+              <center x="1.069903e-05" y="2.246226" z="6.425288" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingthrusterbottomleft002" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="9.867459" y="-0.6964597" z="0.9904583" />
+          <quaternion qx="1.309938e-08" qy="-0.9848327" qz="-0.1735065" qw="-7.43528e-08" />
+        </offset>
+        <parts>
+          <part name="wingthrusterbottomleft002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="9" ref="generic.aegs_redeemer_mtl_trim_thruster_glow" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="11" ref="generic.aegs_redeemer_mtl_decals_pom_blended" />
+                  <material id="12" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                  <material id="14" ref="generic.aegs_redeemer_mtl_vent_grating" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.267399" y="2.393588" z="9.787184" />
+              <center x="6.67572e-06" y="2.246225" z="6.425289" />
+            </size>
+            <size_raw>
+              <max x="1.267399" y="2.393588" z="9.787185" />
+              <center x="6.28829e-06" y="2.246225" z="6.42529" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwingthrusterbottomleft003" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-9.867596" y="-0.6964707" z="0.9901991" />
+          <quaternion qx="-1.309938e-08" qy="-0.9848327" qz="0.1735065" qw="-7.43528e-08" />
+        </offset>
+        <parts>
+          <part name="wingthrusterbottomleft003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="7" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_trim_thruster" />
+                  <material id="9" ref="generic.aegs_redeemer_mtl_trim_thruster_glow" />
+                  <material id="10" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="11" ref="generic.aegs_redeemer_mtl_decals_pom_blended" />
+                  <material id="12" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                  <material id="14" ref="generic.aegs_redeemer_mtl_vent_grating" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.267399" y="2.393587" z="9.787181" />
+              <center x="-4.768372e-06" y="-2.246225" z="6.425288" />
+            </size>
+            <size_raw>
+              <max x="1.267399" y="2.393587" z="9.78718" />
+              <center x="-4.976988e-06" y="-2.246225" z="6.425287" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_col" group="ladder" tags="part animation trigger_interact ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="2.085006" y="-3.432619" z="4.792773" />
+        </offset>
+        <parts>
+          <part name="ladder_col">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4672489" y="1.490446" z="0.4630036" />
+              <center x="0" y="1.469997" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.4672488" y="0.01802217" z="0.4630035" />
+              <center x="0" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectiontrustthruster105" tags="part animation " parent="wingthrusterbottomleft003">
+        <offset>
+          <position x="0.0008640289" y="-0.0002629757" z="5.221073" />
+          <quaternion qx="-3.090862e-08" qy="0.7071068" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_01"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster106" tags="part animation " parent="wingthrusterbottomleft003">
+        <offset>
+          <position x="0.0008649826" y="-0.0002628565" z="6.864663" />
+          <quaternion qx="-3.090862e-08" qy="0.7071068" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_02"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster107" tags="part animation " parent="wingthrusterbottomleft003">
+        <offset>
+          <position x="0.0008649826" y="-0.0002629757" z="8.498679" />
+          <quaternion qx="-3.090862e-08" qy="0.7071068" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_03"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster108" tags="part animation " parent="wingthrusterbottomleft003">
+        <offset>
+          <position x="0.0008649826" y="-0.0002627373" z="10.2113" />
+          <quaternion qx="-3.090862e-08" qy="0.7071068" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_04"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster109" tags="part animation " parent="wingthrusterbottomleft003">
+        <offset>
+          <position x="0.0008649826" y="-0.0002629757" z="11.81762" />
+          <quaternion qx="-3.090862e-08" qy="0.7071068" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_05"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster020" tags="part animation " parent="wingthrusterbottomleft003">
+        <offset>
+          <position x="0.0008649826" y="-0.8823514" z="16.03618" />
+          <quaternion qx="0" qy="1" qz="0" qw="-4.371139e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_06"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster015" tags="part animation " parent="wingthrusterbottomleft">
+        <offset>
+          <position x="-0.0001459122" y="-0.0002621412" z="5.221333" />
+          <quaternion qx="-3.090862e-08" qy="0.7071068" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_07"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster016" tags="part animation " parent="wingthrusterbottomleft">
+        <offset>
+          <position x="-0.0001449585" y="-0.0002619028" z="6.864923" />
+          <quaternion qx="-3.090862e-08" qy="0.7071068" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_08"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster017" tags="part animation " parent="wingthrusterbottomleft">
+        <offset>
+          <position x="-0.0001449585" y="-0.0002622604" z="8.49894" />
+          <quaternion qx="-3.090862e-08" qy="0.7071068" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_09"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster018" tags="part animation " parent="wingthrusterbottomleft">
+        <offset>
+          <position x="-0.0001449585" y="-0.0002622604" z="10.21156" />
+          <quaternion qx="-3.090862e-08" qy="0.7071068" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_10"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster019" tags="part animation " parent="wingthrusterbottomleft">
+        <offset>
+          <position x="-0.0001449585" y="-0.0002622604" z="11.81788" />
+          <quaternion qx="-3.090862e-08" qy="0.7071068" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_11"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster023" tags="part animation " parent="wingthrusterbottomleft">
+        <offset>
+          <position x="-0.0001449585" y="-0.8823504" z="16.03644" />
+          <quaternion qx="0" qy="1" qz="0" qw="-4.371139e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_12"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster100" tags="part animation " parent="wingthrusterbottomleft001">
+        <offset>
+          <position x="8.583069e-06" y="-0.000274539" z="5.221074" />
+          <quaternion qx="3.090862e-08" qy="0.7071068" qz="0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_13"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster101" tags="part animation " parent="wingthrusterbottomleft001">
+        <offset>
+          <position x="9.536743e-06" y="-0.0002746582" z="6.864664" />
+          <quaternion qx="3.090862e-08" qy="0.7071068" qz="0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_14"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster102" tags="part animation " parent="wingthrusterbottomleft001">
+        <offset>
+          <position x="9.536743e-06" y="-0.0002746582" z="8.49868" />
+          <quaternion qx="3.090862e-08" qy="0.7071068" qz="0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_15"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster103" tags="part animation " parent="wingthrusterbottomleft001">
+        <offset>
+          <position x="9.536743e-06" y="-0.0002741814" z="10.2113" />
+          <quaternion qx="3.090862e-08" qy="0.7071068" qz="0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_16"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster104" tags="part animation " parent="wingthrusterbottomleft001">
+        <offset>
+          <position x="9.536743e-06" y="-0.0002741814" z="11.81762" />
+          <quaternion qx="3.090862e-08" qy="0.7071068" qz="0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_17"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster021" tags="part animation " parent="wingthrusterbottomleft001">
+        <offset>
+          <position x="9.536743e-06" y="0.8801403" z="16.03618" />
+          <quaternion qx="0" qy="1" qz="0" qw="-4.371139e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_18"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster010" tags="part animation " parent="wingthrusterbottomleft002">
+        <offset>
+          <position x="-0.001000404" y="-0.0002738237" z="5.221332" />
+          <quaternion qx="3.090862e-08" qy="0.7071068" qz="0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_19"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster011" tags="part animation " parent="wingthrusterbottomleft002">
+        <offset>
+          <position x="-0.0009994507" y="-0.0002739429" z="6.864923" />
+          <quaternion qx="3.090862e-08" qy="0.7071068" qz="0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_20"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster012" tags="part animation " parent="wingthrusterbottomleft002">
+        <offset>
+          <position x="-0.0009994507" y="-0.0002737045" z="8.498939" />
+          <quaternion qx="3.090862e-08" qy="0.7071068" qz="0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_21"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster013" tags="part animation " parent="wingthrusterbottomleft002">
+        <offset>
+          <position x="-0.0009994507" y="-0.0002739429" z="10.21156" />
+          <quaternion qx="3.090862e-08" qy="0.7071068" qz="0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_22"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster014" tags="part animation " parent="wingthrusterbottomleft002">
+        <offset>
+          <position x="-0.0009994507" y="-0.0002737045" z="11.81788" />
+          <quaternion qx="3.090862e-08" qy="0.7071068" qz="0.7071068" qw="-3.090862e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_23"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster022" tags="part animation " parent="wingthrusterbottomleft002">
+        <offset>
+          <position x="-0.0009994507" y="0.8801403" z="16.03644" />
+          <quaternion qx="0" qy="1" qz="0" qw="-4.371139e-08" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_24"/>
+				</parts>
+      </connection>
+
+      <connection name="Connectiontrustthruster" tags="part animation ">
+        <offset>
+          <position x="-2.180348" y="0.5440845" z="17.11317" />
+          <quaternion qx="-0.7128577" qy="-0.2880132" qz="-0.2395381" qw="-0.5928776" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_25"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster001" tags="part animation ">
+        <offset>
+          <position x="2.18035" y="0.5440845" z="17.11317" />
+          <quaternion qx="-0.7128577" qy="0.2880132" qz="0.2395381" qw="-0.5928776" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_26"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster002" tags="part animation ">
+        <offset>
+          <position x="1.693283" y="-1.786649" z="17.67617" />
+          <quaternion qx="0.6532815" qy="0.2705981" qz="-0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_27"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster003" tags="part animation ">
+        <offset>
+          <position x="-1.69328" y="-1.786649" z="17.67617" />
+          <quaternion qx="0.6532815" qy="-0.2705981" qz="0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_28"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster004" tags="part animation ">
+        <offset>
+          <position x="-4.783125" y="-1.661951" z="-6.431867" />
+          <quaternion qx="0.6532815" qy="-0.2705981" qz="0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_29"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster005" tags="part animation ">
+        <offset>
+          <position x="4.78312" y="-1.661951" z="-6.431867" />
+          <quaternion qx="0.6532815" qy="0.2705981" qz="-0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_30"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster006" tags="part animation ">
+        <offset>
+          <position x="4.947785" y="2.930917" z="-8.207943" />
+          <quaternion qx="-0.6532815" qy="0.2705981" qz="0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_31"/>
+				</parts>
+      </connection>
+      <connection name="Connectiontrustthruster007" tags="part animation ">
+        <offset>
+          <position x="-4.94779" y="2.930917" z="-8.207943" />
+          <quaternion qx="-0.6532815" qy="-0.2705981" qz="-0.2705981" qw="-0.6532815" />
+        </offset>
+        <parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_32"/>
+				</parts>
+      </connection>
+
+      <connection name="Connection74" tags="part">
+				<offset>
+          <position x="-1.592846" y="0.8487647" z="4.732859" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_02.detail_l_airlock" name="detail_l_airlock"/>
+				</parts>
+			</connection>
+			<connection name="Connection75" tags="part  " parent="detail_l_airlock">
+				<offset>
+          <position x="0" y="0" z="-0.35" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_02.detail_xl_switch" name="detail_xl_switch"/>
+				</parts>
+			</connection>
+			<connection name="Connection76" group="cabin_01" tags="part  " parent="detail_l_airlock">
+				<offset>
+					<quaternion qx="-0" qy="-0.8191521" qz="-0" qw="-0.5735763"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_02.detail_l_door" name="detail_l_door"/>
+				</parts>
+			</connection>
+      <connection name="con_npc_stand_001" group="cabin_01 " tags="npc_waypoint stand npctransport ">
+				<offset>
+          <position x="-1.592846" y="-0.8" z="4.732859" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      
+      <connection name="Connectionchiar01" group="pilotcontrol" tags="part ui">
+				<offset>
+          <position x="0" y="-0.430961" z="18.941" />
+        </offset>
+				<parts>
+					<part ref="redeemer_seat.seat" name="seat"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="seat_mesh">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar02" tags="part iklink ui" group="pilotcontrol" parent="seat">
+				<parts>
+					<part ref="redeemer_seat.seat_mesh" name="seat_mesh"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair ">
+				<offset>
+          <position x="0" y="0.053038" z="16.9328" />
+        </offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor ">
+				<offset>
+          <position x="0" y="0.753038" z="18.9328" />
+        </offset>
+			</connection>
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="0.77619" z="19.033" />
+				</offset>
+			</connection>
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="0.77619" z="19.033" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-7.7" z="80"/>
+				</offset>
+			</connection>
+
+      <connection name="con_storage01" tags="storage ">
+			</connection>
+      
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="0.77619" z="19.033" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+
+      <connection name="con_npc_01" value="-1" tags="npc sit marine">
+				<offset>
+          <position x="1.13194" y="-0.4152677" z="1.86786" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_npc_02" value="-1" tags="npc sit marine">
+				<offset>
+          <position x="1.13194" y="-0.4152677" z="3.24862" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_npc_03" value="-1" tags="npc sit marine">
+				<offset>
+          <position x="-1.13194" y="-0.4152677" z="3.24862" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_npc_04" value="-1" tags="npc sit marine">
+				<offset>
+          <position x="-1.13194" y="-0.4152677" z="1.86786" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="-1.24601" y="4.87329" z="-24.4679" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_02" tags="countermeasures ">
+				<offset>
+          <position x="1.24601" y="4.87329" z="-24.4679" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_redeemer">
+        <offset>
+					<position x="0" y="0" z="-8.44505"/>
+				</offset>
+			</connection>
+
+      <connection name="con_turret_m_001" tags="turret small component combat aegs_redeemer">
+				<offset>
+          <position x="0" y="3.95344" z="-3.53793" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_002" tags="turret small component combat aegs_redeemer">
+				<offset>
+          <position x="0" y="-2.10807" z="12.2151" />
+          <quaternion qx="0" qy="0" qz="1" qw="0" />
+        </offset>
+			</connection>
+      <connection name="con_turret_s_001" tags="turret small component combat aegs_redeemer_b">
+				<offset>
+          <position x="0" y="-2.05095" z="18.4683" />
+          <quaternion qx="0" qy="0" qz="1" qw="0" />
+        </offset>
+			</connection>
+      <connection name="con_turret_s_002" tags="turret small component combat aegs_redeemer_b">
+				<offset>
+          <position x="0" y="3.80114" z="-22.3663" />
+          <quaternion qx="1" qy="0" qz="0" qw="0" />
+        </offset>
+			</connection>
+
+      <connection name="left_weapon" tags="weapon small platformcollision aegs_weapon_s4">
+        <offset>
+          <position x="-7.01674" y="-1.93902" z="0.978521" />
+        </offset>
+      </connection>
+      <connection name="right_weapon" tags="weapon small platformcollision aegs_weapon_s4">
+        <offset>
+          <position x="7.01674" y="-1.93902" z="0.978521" />
+        </offset>
+      </connection>
+      <connection name="con_primaryweapon_01" tags="component weapon small missile aegs_missile_s2">
+				<offset>
+          <position x="5.1943" y="-2.31167" z="0" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="component weapon small missile aegs_missile_s2">
+				<offset>
+          <position x="-5.1943" y="-2.31167" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield medium aegs_s2 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield medium aegs_s2 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_04" tags="component shield medium aegs_s2 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+    </connections>
+  </component>
+</components>

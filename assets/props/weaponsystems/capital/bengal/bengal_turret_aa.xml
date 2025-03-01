@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-05 23:58:35 from Blender-->
+<components>
+  <component name="bengal_turret_aa" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\bengal\bengal_turret_aa_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForturretbase" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="turretbase" wreck="turretbase_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_green_flat" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="4" ref="generic.rsi_bengal_exterior_mtl_trim_greeble" />
+                  <material id="5" ref="generic.rsi_bengal_exterior_mtl_trims_01" />
+                  <material id="6" ref="generic.rsi_bengal_exterior_mtl_decal_diff" />
+                  <material id="7" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_engine" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.314414" y="2.576737" z="4.869002" />
+              <center x="0" y="2.076737" z="-2.554588" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormount" tags="part " parent="turretbase">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-5.0 "/>
+							<max value="70 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-1e-05" y="3.98194" z="-1.399634" />
+        </offset>
+        <parts>
+          <part name="mount">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_bengal_exterior_mtl_pom_decal" />
+                  <material id="2" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="3" ref="generic.rsi_bengal_exterior_mtl_trims_02_dark" />
+                  <material id="4" ref="generic.GATS_MasterMaterial_bal_gat_mtl_I_decal" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="7" ref="generic.gats_shipweapon_bal_can_bengal_mat_mtl_decal_mat" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.404286" y="1.399734" z="4.508538" />
+              <center x="-0.005888909" y="-0.006501555" z="3.094429" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="mount">
+        <offset>
+          <position x="0.8754518" y="-0.001878262" z="7.681355" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="mount">
+        <offset>
+          <position x="-0.875432" y="-0.001878262" z="7.681355" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser" tags="turret medium component combat aegs_bengal_aa">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-16 12:35:17 from Blender-->
+<components>
+  <component name="retaliator_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\retaliator_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForchair_ext_arm" tags="part animation ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation">
+        <animations>
+					<animation name="chair_default_inactive" start="1" end="1"/>
+					<animation name="chair_default_activating" start="1" end="80"/>
+					<animation name="chair_default_active" start="80" end="80"/>
+					<animation name="chair_default_deactivating" start="80" end="180"/>
+					<animation name="chair_paranid_inactive" start="1" end="1"/>
+					<animation name="chair_paranid_activating" start="1" end="80"/>
+					<animation name="chair_paranid_active" start="8" end="80"/>
+					<animation name="chair_paranid_deactivating" start="80" end="180"/>
+					<animation name="chair_default_to_paranid" start="1" end="1"/>
+					<animation name="chair_paranid_to_default" start="1" end="1"/>
+				</animations>
+        <parts>
+          <part name="chair_ext_arm">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.227729" y="0.1407665" z="1.473891" />
+              <center x="0.0004579872" y="-0.0285984" z="1.22586" />
+            </size>
+            <size_raw>
+              <max x="0.227729" y="0.1407665" z="0.9738913" />
+              <center x="0.0004579835" y="-0.0285984" z="0.7258596" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForchair_base" tags="part animation iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer" parent="chair_ext_arm">
+        <animations>
+					<animation name="chair_default_inactive" start="1" end="1"/>
+					<animation name="chair_default_activating" start="1" end="80"/>
+					<animation name="chair_default_active" start="80" end="80"/>
+					<animation name="chair_default_deactivating" start="80" end="180"/>
+					<animation name="chair_paranid_inactive" start="1" end="1"/>
+					<animation name="chair_paranid_activating" start="1" end="80"/>
+					<animation name="chair_paranid_active" start="8" end="80"/>
+					<animation name="chair_paranid_deactivating" start="80" end="180"/>
+					<animation name="chair_default_to_paranid" start="1" end="1"/>
+					<animation name="chair_paranid_to_default" start="1" end="1"/>
+				</animations>
+        <offset>
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="chair_base">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="3" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="4" ref="generic.retaliator_mtl_leather" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3711965" y="0.7787405" z="1.062426" />
+              <center x="0.0003355145" y="0.8741125" z="0.2473295" />
+            </size>
+            <size_raw>
+              <max x="0.3711965" y="0.7787405" z="0.5624256" />
+              <center x="0.0003354922" y="0.8741125" z="-0.2526705" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForchair_foot_ext" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer" parent="chair_base">
+        <offset>
+          <quaternion qx="0" qy="3.178651e-08" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="chair_foot_ext">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.35374" y="0.0471965" z="0.7364569" />
+              <center x="0" y="0.1802585" z="0.8627481" />
+            </size>
+            <size_raw>
+              <max x="0.35374" y="0.0471965" z="0.2364569" />
+              <center x="-7.450581e-09" y="0.1802585" z="0.3627481" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfoot_rest_left" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer" parent="chair_base">
+        <offset>
+          <quaternion qx="0" qy="3.178651e-08" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="foot_rest_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.104297" y="0.02000082" z="0.6708546" />
+              <center x="-0.267405" y="0.2162221" z="1.113686" />
+            </size>
+            <size_raw>
+              <max x="0.104297" y="0.02000082" z="0.1708546" />
+              <center x="-0.267405" y="0.2162221" z="0.6136856" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfoot_rest_right" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer" parent="chair_base">
+        <offset>
+          <quaternion qx="0" qy="3.178651e-08" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="foot_rest_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                  <material id="2" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1042815" y="0.01999635" z="0.6708546" />
+              <center x="0.2674035" y="0.2162352" z="1.113686" />
+            </size>
+            <size_raw>
+              <max x="0.1042815" y="0.01999635" z="0.1708546" />
+              <center x="0.2674035" y="0.2162352" z="0.6136856" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfoot_swivel" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer" parent="chair_base">
+        <offset>
+          <quaternion qx="0" qy="3.178651e-08" qz="0" qw="-1" />
+        </offset>
+        <parts>
+          <part name="foot_swivel">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_hornet_mtl_cockpit_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.409955" y="0.04168424" z="0.5603981" />
+              <center x="0" y="0.1872059" z="1.008341" />
+            </size>
+            <size_raw>
+              <max x="0.409955" y="0.04168424" z="0.0603981" />
+              <center x="7.450581e-09" y="0.1872059" z="0.5083408" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

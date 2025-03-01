@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-23 22:52:22 from Blender-->
+<components>
+  <component name="starlifter_c2_inner" class="storage">
+    <source geometry="extensions\AEGS\assets\units\size_m\inner\starlifter_c2_inner_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="storage">
+				<offset/>
+			</connection>
+      <connection name="ConnectionFormerged002" tags="part ">
+        <offset>
+          <position x="0" y="-8.874941" z="-17" />
+        </offset>
+        <parts>
+          <part name="merged002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.starlifter_int_mtl_Trim_Grips_Hold" />
+                  <material id="10" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="13" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="14" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="15" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="16" ref="generic.misc_prospector_interior_mtl_Tiling_Fabric" />
+                  <material id="17" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="18" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.starlifter_int_mtl_Trim_Grips_Hold" />
+                  <material id="10" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="13" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="14" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="15" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="16" ref="generic.misc_prospector_interior_mtl_Tiling_Fabric" />
+                  <material id="17" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="18" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.starlifter_int_mtl_Trim_Grips_Hold" />
+                  <material id="10" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="13" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="14" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="15" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="16" ref="generic.misc_prospector_interior_mtl_Tiling_Fabric" />
+                  <material id="17" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="18" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.starlifter_int_mtl_Trim_Grips_Hold" />
+                  <material id="10" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="13" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="14" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="15" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="16" ref="generic.misc_prospector_interior_mtl_Tiling_Fabric" />
+                  <material id="17" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="18" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="10.02273" y="4.343276" z="10.3533" />
+              <center x="2.384186e-07" y="2.964128" z="-10.35159" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged091" tags="part ">
+        <offset>
+          <position x="2" y="-8.874941" z="2.5" />
+        </offset>
+        <parts>
+          <part name="merged091">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.starlifter_int_mtl_Trim_Grips_Hold" />
+                  <material id="9" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="13" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="14" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="15" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="16" ref="p1.cockpit_glass_outside_01" />
+                  <material id="17" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="18" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="19" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.starlifter_int_mtl_Trim_Grips_Hold" />
+                  <material id="9" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="13" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="14" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="15" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="16" ref="p1.cockpit_glass_outside_01" />
+                  <material id="17" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="18" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="19" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.starlifter_int_mtl_Trim_Grips_Hold" />
+                  <material id="9" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="13" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="14" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="15" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="16" ref="p1.cockpit_glass_outside_01" />
+                  <material id="17" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="18" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="19" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.starlifter_int_mtl_Trim_Grips_Hold" />
+                  <material id="9" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="13" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="14" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="15" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="16" ref="p1.cockpit_glass_outside_01" />
+                  <material id="17" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="18" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="19" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.529005" y="3.865458" z="14.49318" />
+              <center x="-3.528915" y="2.009663" z="-5.006794" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged119" tags="part ">
+        <offset>
+          <position x="1.83759" y="-8.874941" z="-5.25" />
+        </offset>
+        <parts>
+          <part name="merged119">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.104894" y="0.0660145" z="14.22074" />
+              <center x="-1.83759" y="-0.0591585" z="2.53098" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged149" tags="part ">
+        <offset>
+          <position x="0" y="-7.499941" z="12" />
+        </offset>
+        <parts>
+          <part name="merged149">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="4" ref="generic.misc_prospector_interior_mtl_Tiling_Fabric" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="p1.cockpit_glass_outside_01" />
+                  <material id="12" ref="generic.starlifter_int_mtl_Glows_Monitor" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="15" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="16" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="4" ref="generic.misc_prospector_interior_mtl_Tiling_Fabric" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="p1.cockpit_glass_outside_01" />
+                  <material id="12" ref="generic.starlifter_int_mtl_Glows_Monitor" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="15" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="16" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="4" ref="generic.misc_prospector_interior_mtl_Tiling_Fabric" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="p1.cockpit_glass_outside_01" />
+                  <material id="12" ref="generic.starlifter_int_mtl_Glows_Monitor" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="15" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="16" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="4" ref="generic.misc_prospector_interior_mtl_Tiling_Fabric" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="p1.cockpit_glass_outside_01" />
+                  <material id="12" ref="generic.starlifter_int_mtl_Glows_Monitor" />
+                  <material id="13" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="14" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="15" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="16" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.710325" y="3.673911" z="32.66963" />
+              <center x="0" y="2.121313" z="-13.30365" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged184" tags="part ">
+        <offset>
+          <position x="0" y="-3.999941" z="4" />
+        </offset>
+        <parts>
+          <part name="merged184">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.915048" y="0.209133" z="8.801356" />
+              <center x="1.192093e-07" y="-0.132632" z="-8.417273" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged274" tags="part ">
+        <offset>
+          <position x="0" y="-7.499941" z="12" />
+        </offset>
+        <parts>
+          <part name="merged274">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="9" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="13" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="14" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="15" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="16" ref="generic.misc_prospector_interior_mtl_Tiling_Fabric" />
+                  <material id="17" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="9" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="13" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="14" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="15" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="16" ref="generic.misc_prospector_interior_mtl_Tiling_Fabric" />
+                  <material id="17" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="9" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="13" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="14" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="15" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="16" ref="generic.misc_prospector_interior_mtl_Tiling_Fabric" />
+                  <material id="17" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="9" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="13" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="14" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="15" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="16" ref="generic.misc_prospector_interior_mtl_Tiling_Fabric" />
+                  <material id="17" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.710325" y="3.907326" z="16.29642" />
+              <center x="0" y="1.455693" z="-12.70356" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged277" tags="part ">
+        <offset>
+          <position x="7.5" y="-8.874941" z="-14.5" />
+          <quaternion qx="0" qy="1" qz="0" qw="-1.947072e-07" />
+        </offset>
+        <parts>
+          <part name="merged277">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.2533" y="1.037411" z="1.140649" />
+              <center x="7.5" y="1.120579" z="0.7500027" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormerged300" tags="part ">
+        <offset>
+          <position x="-7.5" y="-8.874941" z="0.5" />
+        </offset>
+        <parts>
+          <part name="merged300">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="9" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="10" ref="generic.carrack_interior_mtl_Grate" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="9" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="10" ref="generic.carrack_interior_mtl_Grate" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="9" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="10" ref="generic.carrack_interior_mtl_Grate" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="9" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="10" ref="generic.carrack_interior_mtl_Grate" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.443022" y="1.219009" z="8.45411" />
+              <center x="7.5" y="2.906406" z="-7.44449" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwall_light_1m001" tags="part ">
+        <offset>
+          <position x="-7.502191" y="-8.874941" z="-14.5" />
+        </offset>
+        <parts>
+          <part name="wall_light_1m001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_grate" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="6" ref="generic.misc_prospector_interior_mtl_Tiling_Fabric" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="9.51158" y="3.41601" z="1.251272" />
+              <center x="7.502191" y="3.338309" z="-0.7495372" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connection01" group="transporter_02 " tags="location_exit ">
+				<offset>
+          <position x="-7.02262" y="-7.708027" z="0.9115866" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.part_main" name="part_main"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part iklink  " parent="part_main">
+				<offset>
+					<position x="0" y="5.153775E-02" z="3.353691E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals" name="detail_m_decals"/>
+				</parts>
+			</connection>
+			<connection name="Connection03" group="transporter_02 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="0.54566" y="0.007" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_left" name="anim_door_left"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection04" tags="part iklink  " parent="anim_door_left">
+				<offset>
+					<position x="-0.4329364" y="3.16143E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_left" name="detail_m_decals_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part nocollision iklink  " parent="anim_door_left">
+				<offset>
+					<position x="6.043839E-02" y="9.536743E-07" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_left" name="detail_m_light_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection06" group="transporter_02 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="-0.54566" y="0.008" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_right" name="anim_door_right"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection07" tags="part iklink  " parent="anim_door_right">
+				<offset>
+					<position x="0.4321223" y="3.553271E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_right" name="detail_m_decals_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part nocollision iklink  " parent="anim_door_right">
+				<offset>
+					<position x="-6.110048E-02" y="3.925562E-04" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_right" name="detail_m_light_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection09" group="transporter_02 " tags="part detail_l  " parent="part_main">
+				<offset>
+					<position x="1.205526" y="0.04" z="-0.1"/>
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_l_button" name="detail_l_button"/>
+				</parts>
+			</connection>
+			<connection name="Connection10" group="transporter_02 " tags="part  " parent="part_main">
+				<offset>
+					<position x="0" y="1.14" z="0.9"/>
+					<quaternion qx="0.7071066" qy="-0" qz="-0" qw="-0.7071069"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.dummy_sound_animation" name="dummy_sound_animation"/>
+				</parts>
+			</connection>
+
+      
+    </connections>
+  </component>
+</components>

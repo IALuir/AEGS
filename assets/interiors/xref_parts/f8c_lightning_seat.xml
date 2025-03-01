@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-10-18 14:28:12 from Blender-->
+<components>
+  <component name="f8c_lightning_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\f8c_lightning_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForpilot_03" tags="part iklink detail_xl chair platformcollision forceoutline walk_exclude walk_excludeplayer  ">
+        <parts>
+          <part name="pilot_03">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_interior_atlas" />
+                  <material id="4" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_cockpit_seat" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_pom_interior" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_seat_stitch" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.327952" y="0.7069309" z="0.5739307" />
+              <center x="-2.250075e-05" y="0.5643909" z="0.02299786" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpilot_seat" tags="part animation ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation  ">
+        <parts>
+          <part name="pilot_seat">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_lightning_f8_mtl_interior_glows" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_decals_pom" />
+                  <material id="3" ref="generic.anvl_lightning_f8_mtl_interior_atlas" />
+                  <material id="4" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="5" ref="generic.anvl_lightning_f8_mtl_cockpit_seat" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_pom_interior" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_decals_light" />
+                  <material id="8" ref="generic.anvl_lightning_f8_mtl_seat_stitch" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.327952" y="0.7069309" z="0.5739307" />
+              <center x="-2.250075e-05" y="0.5643909" z="0.02299786" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_control01" tags="npc  pilot control sit " value="-1" parent="pilot_seat">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_tochair" tags="tochair">
+				<offset>
+					<position x="0" y="0" z="-10"/>
+				</offset>
+			</connection>
+    </connections>
+  </component>
+</components>

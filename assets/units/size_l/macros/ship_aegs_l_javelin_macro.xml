@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<macros>
+  <macro name="ship_aegs_l_javelin_macro" class="ship_l">
+    <component ref="ship_aegs_l_javelin" />
+    <properties>
+      <identification name="{996666,1}" basename="{996666,1}" makerrace="terran" description="{996666,2}" icon="ship_l_destroyer_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <explosiondamage value="700" shield="3800" />
+      <storage missile="30" unit="15" />
+      <hull max="101000" />
+      <secrecy level="2" />
+      <purpose primary="fight" />
+      <people capacity="80" />
+      <physics mass="182.6">
+        <inertia pitch="107.528" yaw="86.022" roll="107.528" />
+        <drag forward="35.66" reverse="158.63" horizontal="23.482" vertical="23.482" pitch="91.818" yaw="91.818" roll="91.818" />
+      </physics>
+      <sounds>
+        <shipdetail ref="shipdetail_ship_l_01" />
+      </sounds>
+      <thruster tags="large" />
+      <ship type="destroyer" />
+    </properties>
+    <connections>
+      <connection ref="con_cockpit">
+        <macro ref="bridge_arg_l_01_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="con_storage_01">
+        <macro ref="storage_aegs_javelin_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_dockarea_arg_s_ship_03">
+        <macro ref="dockarea_aegs_s_javelin_macro" connection="Connection01" />
+      </connection>
+      <connection ref="room1">
+        <macro ref="room_aegs_javelin_room1_v_macro" connection="Connection01" />
+      </connection>
+      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component" />
+      </connection>
+
+      <connection ref="room_01">
+        <macro ref="room_aegs_javelin_connection_01_macro" connection="position" />
+      </connection>
+
+    </connections>
+  </macro>
+</macros>

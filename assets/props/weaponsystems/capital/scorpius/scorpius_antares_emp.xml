@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-29 22:21:47 from Blender-->
+<components>
+  <component name="scorpius_antares_emp" class="weapon">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\scorpius\scorpius_antares_emp_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForemp_frame" tags="part nocollision">
+        <parts>
+          <part name="emp_frame">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.979946" y="0.049274" z="0.979946" />
+              <center x="1.490116e-08" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      
+      <connection name="ConnectionForemp_cylinder" tags="part nocollision" parent="emp_frame">
+        <offset>
+          <position x="7.6e-05" y="-1.986048" z="0" />
+        </offset>
+        <parts>
+          <part name="emp_cylinder">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Trim_Core_Plating" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.957862" y="0.05244195" z="0.957862" />
+              <center x="-7.598102e-05" y="1.97919" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForemp_inner_cylinder" tags="part nocollision" parent="emp_cylinder">
+        <offset>
+          <position x="-7.6e-05" y="1.727168" z="2.980232e-06" />
+        </offset>
+        <parts>
+          <part name="emp_inner_cylinder">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Trim_Core_Plating" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.718596" y="0.2415415" z="0.718596" />
+              <center x="0" y="-0.0396525" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.718596" y="0.2415415" z="0.718596" />
+              <center x="0" y="-0.0396525" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForring_arm" tags="part nocollision" parent="emp_inner_cylinder">
+        <offset>
+          <position x="0" y="0.1571599" z="-2.980232e-06" />
+        </offset>
+        <parts>
+          <part name="ring_arm">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.063392" y="0.061731" z="0.303457" />
+              <center x="0" y="-0.05089299" z="0.5849071" />
+            </size>
+            <size_raw>
+              <max x="0.063392" y="0.061731" z="0.303457" />
+              <center x="0" y="-0.050893" z="0.584907" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForring_arm_2" tags="part nocollision" parent="emp_inner_cylinder">
+        <offset>
+          <position x="0" y="0.1571599" z="-0.01696742" />
+          <quaternion qx="0" qy="-0.8660254" qz="0" qw="-0.5" />
+        </offset>
+        <parts>
+          <part name="ring_arm_2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.06339197" y="0.061731" z="0.3034569" />
+              <center x="-1.06229e-09" y="-0.05089299" z="0.5849068" />
+            </size>
+            <size_raw>
+              <max x="0.06339197" y="0.061731" z="0.3034569" />
+              <center x="0" y="-0.050893" z="0.584907" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForring_arm_3" tags="part nocollision" parent="emp_inner_cylinder">
+        <offset>
+          <position x="0" y="0.1571599" z="-0.01696742" />
+          <quaternion qx="0" qy="0.8660254" qz="0" qw="-0.5" />
+        </offset>
+        <parts>
+          <part name="ring_arm_3">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.06339197" y="0.061731" z="0.3034569" />
+              <center x="-5.689799e-09" y="-0.05089299" z="0.5849068" />
+            </size>
+            <size_raw>
+              <max x="0.06339197" y="0.061731" z="0.3034569" />
+              <center x="0" y="-0.050893" z="0.584907" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForemp_cylinder_fx" tags="part animation textureanimation nocollision forceoutline " parent="emp_frame">
+        <animations>
+					<animation name="loop" start="0" end="60"/>
+				</animations>
+        <offset>
+          <position x="7.6e-05" y="-1.986048" z="0" />
+        </offset>
+        <parts>
+          <part name="emp_cylinder_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.688761" y="0.02431399" z="0.688761" />
+              <center x="-7.601082e-05" y="1.96115" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="emp_frame">
+        <offset>
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+
+      <connection name="WeaponCon_01" tags="component weapon small aegs_scorpius_antares_emp">
+			<offset/>
+		</connection>
+    </connections>
+  </component>
+</components>

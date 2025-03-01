@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-06-06 21:24:49 from Blender-->
+<components>
+  <component name="c8x_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\c8x_engine_data" />
+    <layers>
+      <layer>
+        <trailemitters>
+          <emitter name="trail_aegs_s_01" type="trail_aegs_s_01">
+            <offset>
+              <position x="0" y="0" z="-5" />
+            </offset>
+          </emitter>
+        </trailemitters>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForengine" tags="part ">
+        <offset>
+          <position x="-2.23754e-07" y="0" z="0" />
+        </offset>
+        <parts>
+          <part name="engine">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_ext_mtl_Glow_Thrusters" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.149775" y="0.1982805" z="0.2130141" />
+              <center x="-1.788139e-07" y="-0.006238908" z="0.02556849" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_animal" tags="animation detail_l fx nocollision part speedscale_forward textureanimation useobjectrotation ">
+        <animations>
+					<animation name="loop" start="1" end="120"/>
+			  </animations>
+        <parts>
+          <part name="fx_animal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2fx.fx_p2_thruster_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.076234" y="0.115814" z="1.571252" />
+              <center x="-2.384186e-07" y="-0.0140783" z="-1.503839" />
+            </size>
+            <uv_animations>
+              <uv_animation rotaroundcenter="1" mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="8" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="0" />
+                </uv_property>
+              </uv_animation>
+              <uv_animation rotaroundcenter="1" mapchannel="2">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="2" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="-16" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_c8x">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="sabre_macro" class="ship_s">
+    <component ref="sabre" />
+    <properties>
+      <identification name="{996666,45}" basename="{996666,45}" description="{996666,46}" makerrace="terran" icon="ship_s_fight_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <storage missile="0" countermeasure="40" deployable="50"/>
+      <hull max="7250" />
+      <secrecy level="1" />
+      <purpose primary="fight" />
+      <people capacity="1" />
+      <sounds>
+        <shipdetail ref="shipdetail_ship_01" />
+      </sounds>
+      <physics mass="9.8">
+        <inertia pitch="3.06" yaw="2.38" roll="3.06" />
+        <drag forward="4.1" reverse="23.12" horizontal="3.22" vertical="3.22" pitch="4.91" yaw="2.32" roll="1.97" />
+      </physics>
+      <thruster tags="small" />
+      <enginearticulation y="1" z="1" />
+      <ship type="fighter" />
+      <sound_occlusion inside="0.5" />
+    </properties>
+    <connections>
+      <connection ref="con_cockpit">
+        <macro ref="cockpit_gen_virtual_01_macro" connection="ship" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="dock_aegs_xs_macro" connection="Connection_component" />
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="storage_aegs_sabre_macro" connection="ShipConnection" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

@@ -1,0 +1,1815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-01-25 17:13:14 from Blender-->
+<components>
+  <component name="starfighter" class="ship_s">
+    <source geometry="extensions\AEGS\assets\units\size_s\starfighter_data" />
+    <layers>
+			<layer>
+				<waypoints/>
+        <trailemitters>
+					<emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+						<offset>
+							<position x="14.98494" y="-1.881008" z="-4.658281" />
+						</offset>
+					</emitter>
+					<emitter name="wingtip_vortex_ship_s_01" type="wingtip_vortex_ship_s_01">
+						<offset>
+							<position x="-14.9849" y="-1.881008" z="-4.658281" />
+						</offset>
+					</emitter>
+				</trailemitters>
+			</layer>
+		</layers>
+    <connections>
+      <connection name="space" tags="ship_s ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForbody" tags="part ">
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_grate" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_ext_engine_trim" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="13" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="14" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="15" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_grate" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_ext_engine_trim" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="13" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="14" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="15" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_grate" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_ext_engine_trim" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="13" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="14" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="15" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_grate" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="8" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_ext_engine_trim" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="13" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="14" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="15" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="14.88013" y="2.544911" z="12.42043" />
+              <center x="-4.768372e-07" y="0.159489" z="-0.04753971" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_flap_top_slider" group="ladder" tags="part animation trigger_interact" parent="body">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-1.093235" y="0.408189" z="9.394629" />
+          <quaternion qx="0.7063648" qy="-0.03238482" qz="-0.03238482" qw="-0.7063648" />
+        </offset>
+        <parts>
+          <part name="ladder_flap_top_slider">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6603937" y="1.135548" z="0.7404413" />
+              <center x="-0.5357741" y="-0.7006016" z="0.5795746" />
+            </size>
+            <size_raw>
+              <max x="0.6433659" y="1.135548" z="0.2223275" />
+              <center x="-0.5528019" y="-0.7006015" z="0.06146049" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_wing_flap" group="ladder" tags="part animation trigger_interact ui require_docked" parent="body">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-2.227865" y="-0.523987" z="9.966999" />
+          <quaternion qx="0.5" qy="-0.5" qz="0.5" qw="-0.5" />
+        </offset>
+        <parts>
+          <part name="ladder_wing_flap">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.122227" y="0.9447" z="0.863903" />
+              <center x="-0.04008007" y="0.06682199" z="-0.783658" />
+            </size>
+            <size_raw>
+              <max x="0.122227" y="0.9447" z="0.863903" />
+              <center x="-0.04008" y="0.06682203" z="-0.783658" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody001" tags="part ">
+        <parts>
+          <part name="body001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_glow_linked" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_internal_structure" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Damage_Internal_Tile" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_ext_atlas" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="13" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="14" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="15" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="16" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="17" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="18" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="19" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="20" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_glow_linked" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_internal_structure" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Damage_Internal_Tile" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_ext_atlas" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="13" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="14" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="15" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="16" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="17" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="18" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="19" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="20" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_glow_linked" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_internal_structure" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Damage_Internal_Tile" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_ext_atlas" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="13" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="14" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="15" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="16" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="17" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="18" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="19" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="20" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_glow_linked" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_internal_structure" />
+                  <material id="6" ref="generic.sabre_raven_mtl_Damage_Internal_Tile" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_ext_atlas" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="13" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="14" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="15" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="16" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="17" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="18" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="19" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="20" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="14.88272" y="2.680408" z="12.38273" />
+              <center x="-1.192093e-06" y="0.2750388" z="-0.3293567" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody002" tags="part ">
+        <parts>
+          <part name="body002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_decal_diffuse_black" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="7" ref="p1.cockpit_glass_inside_01" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_decal_diffuse_black" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="7" ref="p1.cockpit_glass_inside_01" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_decal_diffuse_black" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="7" ref="p1.cockpit_glass_inside_01" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_decal_diffuse_black" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="7" ref="p1.cockpit_glass_inside_01" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="14.8793" y="2.664278" z="12.27708" />
+              <center x="0" y="0.295613" z="0.09154654" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcanopy_hinge_a" tags="part animation">
+        <animations>
+					<animation name="cockpit_closed" start="0" end="0"/>
+					<animation name="cockpit_opening" start="0" end="80"/>
+					<animation name="cockpit_open" start="80" end="80"/>
+					<animation name="cockpit_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="1.48637" z="9.368125" />
+          <quaternion qx="-0.2164394" qy="0" qz="0" qw="-0.9762961" />
+        </offset>
+        <parts>
+          <part name="canopy_hinge_a">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.405957" y="0.4032122" z="1.154807" />
+              <center x="0" y="0.3860521" z="-1.020267" />
+            </size>
+            <size_raw>
+              <max x="0.405957" y="0.024964" z="0.07794451" />
+              <center x="-7.450581e-09" y="0.007804001" z="0.0565965" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcanopy_hinge_b" tags="part nocollision" parent="canopy_hinge_a">
+        <offset>
+          <position x="0" y="0.01580048" z="0.1176748" />
+          <quaternion qx="0.2164394" qy="0" qz="0" qw="-0.9762961" />
+        </offset>
+        <parts>
+          <part name="canopy_hinge_b">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="2" ref="p1.cockpit_glass_inside_01" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_ext_decal_diffuse_black" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="7" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.041846" y="0.8253343" z="2.354961" />
+              <center x="0" y="-0.0007237196" z="-0.2072754" />
+            </size>
+            <size_raw>
+              <max x="1.041846" y="0.4470862" z="1.278099" />
+              <center x="0" y="-0.3789718" z="0.8695874" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcrus_starfighter_landinggear_front_skin" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="1.526177" z="3.812405" />
+        </offset>
+        <parts>
+          <part name="crus_starfighter_landinggear_front_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_glass_detail" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="p1.cockpit_glass_inside_01" />
+                  <material id="8" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_glow_linked" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_ext_decal_diffuse_black" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="13" ref="generic.crus_starfighter_mtl_ext_grate" />
+                  <material id="14" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="15" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="16" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="17" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="18" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="19" ref="generic.crus_starfighter_mtl_internal_structure" />
+                  <material id="20" ref="generic.sabre_raven_mtl_Damage_Internal_Tile" />
+                  <material id="21" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="22" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="23" ref="generic.crus_starfighter_mtl_int_trim_leather" />
+                  <material id="24" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="25" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="26" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="27" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="28" ref="generic.crus_starfighter_mtl_ext_atlas" />
+                  <material id="29" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="30" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="31" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="32" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="33" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="34" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="35" ref="generic.crus_starfighter_mtl_ext_engine_trim" />
+                  <material id="36" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="37" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="38" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="39" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="40" ref="generic.crus_starfighter_mtl_int_primary_tile_b" />
+                  <material id="41" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="42" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="43" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="44" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="45" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="46" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="47" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="48" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="49" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="50" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="51" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="52" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="53" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="54" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="55" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="56" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="57" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="58" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="59" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="60" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.511186" y="2.263564" z="3.366697" />
+              <center x="-6.973743e-06" y="-2.262805" z="0.1044586" />
+            </size>
+            <size_raw>
+              <max x="0.511186" y="1.500475" z="2.772899" />
+              <center x="-7.003546e-06" y="-1.499716" z="-0.4893391" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcrus_starfighter_landinggear_rear_skin" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-8.115999" y="-0.580338" z="-4.47578" />
+          <quaternion qx="-0.258819" qy="0" qz="0" qw="-0.9659258" />
+        </offset>
+        <parts>
+          <part name="crus_starfighter_landinggear_rear_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_glass_detail" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="p1.cockpit_glass_inside_01" />
+                  <material id="8" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_glow_linked" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_ext_decal_diffuse_black" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="13" ref="generic.crus_starfighter_mtl_ext_grate" />
+                  <material id="14" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="15" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="16" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="17" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="18" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="19" ref="generic.crus_starfighter_mtl_internal_structure" />
+                  <material id="20" ref="generic.sabre_raven_mtl_Damage_Internal_Tile" />
+                  <material id="21" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="22" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="23" ref="generic.crus_starfighter_mtl_int_trim_leather" />
+                  <material id="24" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="25" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="26" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="27" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="28" ref="generic.crus_starfighter_mtl_ext_atlas" />
+                  <material id="29" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="30" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="31" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="32" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="33" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="34" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="35" ref="generic.crus_starfighter_mtl_ext_engine_trim" />
+                  <material id="36" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="37" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="38" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="39" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="40" ref="generic.crus_starfighter_mtl_int_primary_tile_b" />
+                  <material id="41" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="42" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="43" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="44" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="45" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="46" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="47" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="48" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="49" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="50" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="51" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="52" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="53" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="54" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="55" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="56" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="57" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="58" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="59" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="60" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4027486" y="1.336757" z="2.096451" />
+              <center x="0" y="-0.6998605" z="-0.0638895" />
+            </size>
+            <size_raw>
+              <max x="0.4027485" y="1.126925" z="1.834342" />
+              <center x="5.140901e-07" y="-0.4900284" z="0.19822" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcrus_starfighter_landinggear_rear_skin002" tags="part animation" parent="crus_starfighter_landinggear_rear_skin">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="-0.006217957" z="0.6110196" />
+          <quaternion qx="-0.06975655" qy="0" qz="0" qw="-0.9975641" />
+        </offset>
+        <parts>
+          <part name="crus_starfighter_landinggear_rear_skin002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_glass_detail" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="p1.cockpit_glass_inside_01" />
+                  <material id="8" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_glow_linked" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_ext_decal_diffuse_black" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="13" ref="generic.crus_starfighter_mtl_ext_grate" />
+                  <material id="14" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="15" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="16" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="17" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="18" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="19" ref="generic.crus_starfighter_mtl_internal_structure" />
+                  <material id="20" ref="generic.sabre_raven_mtl_Damage_Internal_Tile" />
+                  <material id="21" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="22" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="23" ref="generic.crus_starfighter_mtl_int_trim_leather" />
+                  <material id="24" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="25" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="26" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="27" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="28" ref="generic.crus_starfighter_mtl_ext_atlas" />
+                  <material id="29" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="30" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="31" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="32" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="33" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="34" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="35" ref="generic.crus_starfighter_mtl_ext_engine_trim" />
+                  <material id="36" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="37" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="38" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="39" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="40" ref="generic.crus_starfighter_mtl_int_primary_tile_b" />
+                  <material id="41" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="42" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="43" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="44" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="45" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="46" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="47" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="48" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="49" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="50" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="51" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="52" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="53" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="54" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="55" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="56" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="57" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="58" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="59" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="60" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5110755" y="0.5824101" z="1.677527" />
+              <center x="0" y="-1.52654" z="-2.190378" />
+            </size>
+            <size_raw>
+              <max x="0.5110755" y="0.5141705" z="1.152393" />
+              <center x="-4.768372e-07" y="-1.486011" z="-1.665244" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcrus_starfighter_landinggear_rear_skin005" tags="part animation" parent="crus_starfighter_landinggear_rear_skin">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-9.536743e-07" y="0.3083339" z="-0.544601" />
+          <quaternion qx="0.258819" qy="0" qz="0" qw="-0.9659258" />
+        </offset>
+        <parts>
+          <part name="crus_starfighter_landinggear_rear_skin005">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_glass_detail" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="p1.cockpit_glass_inside_01" />
+                  <material id="8" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_glow_linked" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_ext_decal_diffuse_black" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="13" ref="generic.crus_starfighter_mtl_ext_grate" />
+                  <material id="14" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="15" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="16" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="17" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="18" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="19" ref="generic.crus_starfighter_mtl_internal_structure" />
+                  <material id="20" ref="generic.sabre_raven_mtl_Damage_Internal_Tile" />
+                  <material id="21" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="22" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="23" ref="generic.crus_starfighter_mtl_int_trim_leather" />
+                  <material id="24" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="25" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="26" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="27" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="28" ref="generic.crus_starfighter_mtl_ext_atlas" />
+                  <material id="29" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="30" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="31" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="32" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="33" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="34" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="35" ref="generic.crus_starfighter_mtl_ext_engine_trim" />
+                  <material id="36" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="37" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="38" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="39" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="40" ref="generic.crus_starfighter_mtl_int_primary_tile_b" />
+                  <material id="41" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="42" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="43" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="44" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="45" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="46" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="47" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="48" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="49" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="50" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="51" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="52" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="53" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="54" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="55" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="56" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="57" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="58" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="59" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="60" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5111859" y="0.8819242" z="1.111239" />
+              <center x="-9.536743e-07" y="-2.077255" z="-0.0096035" />
+            </size>
+            <size_raw>
+              <max x="0.511186" y="0.4024295" z="1.007565" />
+              <center x="-1.02818e-06" y="-1.59776" z="0.09407154" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcrus_starfighter_landinggear_rear_skin001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="8.115999" y="-0.5803383" z="-4.475779" />
+          <quaternion qx="-0.258819" qy="0" qz="0" qw="-0.9659258" />
+        </offset>
+        <parts>
+          <part name="crus_starfighter_landinggear_rear_skin001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_glass_detail" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="p1.cockpit_glass_inside_01" />
+                  <material id="8" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_glow_linked" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_ext_decal_diffuse_black" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="13" ref="generic.crus_starfighter_mtl_ext_grate" />
+                  <material id="14" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="15" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="16" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="17" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="18" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="19" ref="generic.crus_starfighter_mtl_internal_structure" />
+                  <material id="20" ref="generic.sabre_raven_mtl_Damage_Internal_Tile" />
+                  <material id="21" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="22" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="23" ref="generic.crus_starfighter_mtl_int_trim_leather" />
+                  <material id="24" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="25" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="26" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="27" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="28" ref="generic.crus_starfighter_mtl_ext_atlas" />
+                  <material id="29" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="30" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="31" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="32" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="33" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="34" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="35" ref="generic.crus_starfighter_mtl_ext_engine_trim" />
+                  <material id="36" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="37" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="38" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="39" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="40" ref="generic.crus_starfighter_mtl_int_primary_tile_b" />
+                  <material id="41" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="42" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="43" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="44" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="45" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="46" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="47" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="48" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="49" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="50" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="51" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="52" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="53" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="54" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="55" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="56" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="57" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="58" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="59" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="60" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4027486" y="1.336757" z="2.096452" />
+              <center x="0" y="-0.6998603" z="-0.0638895" />
+            </size>
+            <size_raw>
+              <max x="0.4027485" y="1.126925" z="1.834342" />
+              <center x="5.140901e-07" y="-0.4900284" z="0.19822" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcrus_starfighter_landinggear_rear_skin003" tags="part animation" parent="crus_starfighter_landinggear_rear_skin001">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="9.536743e-07" y="-0.006220341" z="0.6110213" />
+          <quaternion qx="-0.06975655" qy="0" qz="0" qw="-0.9975641" />
+        </offset>
+        <parts>
+          <part name="crus_starfighter_landinggear_rear_skin003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_glass_detail" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="p1.cockpit_glass_inside_01" />
+                  <material id="8" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_glow_linked" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_ext_decal_diffuse_black" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="13" ref="generic.crus_starfighter_mtl_ext_grate" />
+                  <material id="14" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="15" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="16" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="17" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="18" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="19" ref="generic.crus_starfighter_mtl_internal_structure" />
+                  <material id="20" ref="generic.sabre_raven_mtl_Damage_Internal_Tile" />
+                  <material id="21" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="22" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="23" ref="generic.crus_starfighter_mtl_int_trim_leather" />
+                  <material id="24" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="25" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="26" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="27" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="28" ref="generic.crus_starfighter_mtl_ext_atlas" />
+                  <material id="29" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="30" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="31" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="32" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="33" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="34" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="35" ref="generic.crus_starfighter_mtl_ext_engine_trim" />
+                  <material id="36" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="37" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="38" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="39" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="40" ref="generic.crus_starfighter_mtl_int_primary_tile_b" />
+                  <material id="41" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="42" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="43" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="44" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="45" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="46" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="47" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="48" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="49" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="50" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="51" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="52" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="53" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="54" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="55" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="56" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="57" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="58" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="59" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="60" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5110755" y="0.5824089" z="1.677527" />
+              <center x="-9.536743e-07" y="-1.526538" z="-2.190378" />
+            </size>
+            <size_raw>
+              <max x="0.5110755" y="0.5141705" z="1.152393" />
+              <center x="-4.768372e-07" y="-1.486011" z="-1.665244" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcrus_starfighter_landinggear_rear_skin004" tags="part animation" parent="crus_starfighter_landinggear_rear_skin001">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="0.3083348" z="-0.5446026" />
+          <quaternion qx="0.258819" qy="0" qz="0" qw="-0.9659258" />
+        </offset>
+        <parts>
+          <part name="crus_starfighter_landinggear_rear_skin004">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_glass_detail" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="p1.cockpit_glass_inside_01" />
+                  <material id="8" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_glow_linked" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_ext_decal_diffuse_black" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="13" ref="generic.crus_starfighter_mtl_ext_grate" />
+                  <material id="14" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                  <material id="15" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="16" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="17" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="18" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="19" ref="generic.crus_starfighter_mtl_internal_structure" />
+                  <material id="20" ref="generic.sabre_raven_mtl_Damage_Internal_Tile" />
+                  <material id="21" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="22" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="23" ref="generic.crus_starfighter_mtl_int_trim_leather" />
+                  <material id="24" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="25" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="26" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="27" ref="generic.crus_starfighter_mtl_int_trim_black" />
+                  <material id="28" ref="generic.crus_starfighter_mtl_ext_atlas" />
+                  <material id="29" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="30" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="31" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="32" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="33" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="34" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="35" ref="generic.crus_starfighter_mtl_ext_engine_trim" />
+                  <material id="36" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="37" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="38" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="39" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="40" ref="generic.crus_starfighter_mtl_int_primary_tile_b" />
+                  <material id="41" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="42" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="43" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="44" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="45" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="46" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="47" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="48" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="49" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="50" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="51" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="52" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="53" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="54" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="55" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="56" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="57" ref="generic.crus_starfighter_mtl_int_primary_tile_a" />
+                  <material id="58" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                  <material id="59" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="60" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5111859" y="0.8819247" z="1.111239" />
+              <center x="-9.536743e-07" y="-2.077256" z="-0.009602547" />
+            </size>
+            <size_raw>
+              <max x="0.511186" y="0.4024295" z="1.007565" />
+              <center x="-1.02818e-06" y="-1.59776" z="0.09407154" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_piston" group="ladder" tags="part animation trigger_interact require_docked">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-2.226894" y="-0.437658" z="9.441326" />
+          <quaternion qx="0" qy="0" qz="-0.7049564" qw="-0.7092507" />
+        </offset>
+        <parts>
+          <part name="ladder_piston">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.0324719" y="0.2036196" z="0.4806967" />
+              <center x="0" y="-0.1711385" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.03247201" y="0.2036196" z="0.480697" />
+              <center x="0" y="-0.1711385" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_hinge" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_piston">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.0646657" y="-0.4738022" z="0" />
+          <quaternion qx="0" qy="0" qz="0.7049564" qw="-0.7092507" />
+        </offset>
+        <parts>
+          <part name="ladder_hinge">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3024127" y="0.1631314" z="0.3764768" />
+              <center x="-0.2618883" y="0.1237414" z="-6.484985e-05" />
+            </size>
+            <size_raw>
+              <max x="0.284646" y="0.038911" z="0.3764765" />
+              <center x="-0.248912" y="-0.0004790016" z="-6.55055e-05" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_base" tags="part " parent="ladder_hinge">
+        <offset>
+          <position x="-0.4640629" y="0.03573602" z="9.536743e-07" />
+        </offset>
+        <parts>
+          <part name="ladder_base">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4549744" y="0.2114979" z="0.5018768" />
+              <center x="0.1084049" y="0.1400129" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.437132" y="0.088687" z="0.501877" />
+              <center x="0.121514" y="0.017202" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_extender" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_base">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.35474" y="-0.02607" z="0.0001487732" />
+        </offset>
+        <parts>
+          <part name="ladder_extender">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4982195" y="0.1935929" z="0.2004147" />
+              <center x="-0.3685602" y="0.1480979" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.085635" y="0.0697045" z="0.200415" />
+              <center x="0.03925" y="0.0242095" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_rail_01" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_extender">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <quaternion qx="0" qy="0" qz="1" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="ladder_rail_01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8514103" y="0.1946609" z="0.2997217" />
+              <center x="-0.1743759" y="0.1220279" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.438826" y="0.0707725" z="0.299722" />
+              <center x="0.233434" y="-0.001860499" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_col" group="ladder" tags="part animation trigger_interact walk_stairway platformcollision require_docked" parent="ladder_rail_01">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="1.329306" y="-0.1671655" z="-0.01168537" />
+          <quaternion qx="0" qy="0" qz="-0.8645031" qw="-0.5026273" />
+        </offset>
+        <parts>
+          <part name="ladder_col">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.095326" y="1.826691" z="0.2799997" />
+              <center x="-0.4880161" y="-0.4226315" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.0009013223" y="0.001257407" z="0.00028" />
+              <center x="1.490116e-08" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_rail_02" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_rail_01">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.2856461" y="-0.01357004" z="0" />
+        </offset>
+        <parts>
+          <part name="ladder_rail_02">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.898352" y="0.4532195" z="0.2847071" />
+              <center x="-0.5069659" y="-0.1631067" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.365459" y="0.044099" z="0.284707" />
+              <center x="0.02117401" y="-2.799928e-05" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_rail_03" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_rail_02">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.08504701" y="-3.922727e-08" z="-9.536743e-07" />
+        </offset>
+        <parts>
+          <part name="ladder_rail_03">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.028272" y="0.7527364" z="0.2672505" />
+              <center x="-0.7296257" y="-0.4770061" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.339259" y="0.0288245" z="0.2672505" />
+              <center x="-0.045366" y="0.001380501" z="4.917383e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_rungs_05" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_rail_03">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.001250029" y="-0.004451016" z="-1.907349e-06" />
+        </offset>
+        <parts>
+          <part name="ladder_rungs_05">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6467327" y="0.6557559" z="0.2494278" />
+              <center x="-0.6074026" y="-0.3787195" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.0348525" y="0.0350045" z="0.249428" />
+              <center x="-0.0002685003" y="-0.004580499" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_rungs_06" tags="part " parent="ladder_rail_03">
+        <offset>
+          <position x="0.06886911" y="-0.00445201" z="-1.907349e-06" />
+        </offset>
+        <parts>
+          <part name="ladder_rungs_06">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7143784" y="0.7897577" z="0.2494278" />
+              <center x="-0.675108" y="-0.5142268" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.034852" y="0.035005" z="0.249428" />
+              <center x="-0.0003279988" y="-0.004581" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_rungs_03" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_rail_02">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.05844402" y="-0.01465698" z="-9.536743e-07" />
+        </offset>
+        <parts>
+          <part name="ladder_rungs_03">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5431417" y="0.3727822" z="0.267067" />
+              <center x="-0.5030801" y="-0.08113593" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.0349135" y="0.0370495" z="0.267067" />
+              <center x="0.000418501" y="0.0076605" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_rungs_04" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_rail_02">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.01371193" y="0.001334996" z="-9.536743e-07" />
+        </offset>
+        <parts>
+          <part name="ladder_rungs_04">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6057982" y="0.5038921" z="0.267067" />
+              <center x="-0.5664461" y="-0.2292156" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.034913" y="0.0370495" z="0.267067" />
+              <center x="-0.0003160024" y="-0.008331499" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_rungs_01" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_rail_01">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.09496498" y="-0.02822804" z="-9.536743e-07" />
+        </offset>
+        <parts>
+          <part name="ladder_rungs_01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5586587" y="0.2609528" z="0.2814412" />
+              <center x="-0.518525" y="0.04207069" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.0348825" y="0.0607625" z="0.2814415" />
+              <center x="0.0005214987" y="-0.0049385" z="4.917383e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_rungs_02" tags="part " parent="ladder_rail_01">
+        <offset>
+          <position x="0.1562279" y="-0.02822704" z="-9.536743e-07" />
+        </offset>
+        <parts>
+          <part name="ladder_rungs_02">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_atlas" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4215488" y="0.1841762" z="0.2814417" />
+              <center x="-0.3816271" y="0.1184762" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.0348825" y="0.0607625" z="0.281442" />
+              <center x="0.0003094999" y="-0.004937502" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_hatch" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_base">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-0.2797899" y="-0.03573501" z="0" />
+          <quaternion qx="0" qy="0" qz="1" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="ladder_hatch">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_ext_decal_diffuse" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_primary_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.07145786" y="0.2106792" z="0.3764462" />
+              <center x="0.004887581" y="0.06908119" z="-2.765656e-05" />
+            </size>
+            <size_raw>
+              <max x="0.0536975" y="0.0887175" z="0.376446" />
+              <center x="0.0178565" y="-0.0528805" z="-2.70009e-05" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_oleo" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_base">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="0.409191" y="0.02926499" z="0" />
+          <quaternion qx="-3.523379e-07" qy="7.046607e-07" qz="0.7095664" qw="-0.7046385" />
+        </offset>
+        <parts>
+          <part name="ladder_oleo">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_decal_pom" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_atlas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.05050516" y="0.3491882" z="0.488205" />
+              <center x="-0.01368654" y="-0.06955987" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.03259351" y="0.2251351" z="0.488205" />
+              <center x="-0.0004615001" y="-0.193613" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectiontrust001" tags="part animation  ">
+				<offset>
+          <position x="-1.759634" y="1.128392" z="5.181952" />
+          <quaternion qx="-0.7518377" qy="-0.06577728" qz="-0.05717931" qw="-0.6535625" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_01"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust002" tags="part animation  ">
+				<offset>
+          <position x="1.75963" y="1.128392" z="5.181952" />
+          <quaternion qx="-0.7518377" qy="0.06577727" qz="0.0571793" qw="-0.6535625" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_02"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust003" tags="part animation  ">
+				<offset>
+          <position x="6.428404" y="0.5057007" z="-8.635921" />
+          <quaternion qx="-0.6743798" qy="0.2126311" qz="0.2126311" qw="-0.6743797" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_03"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust004" tags="part animation  ">
+				<offset>
+          <position x="-6.4284" y="0.5057007" z="-8.635921" />
+          <quaternion qx="-0.6743798" qy="-0.2126311" qz="-0.2126311" qw="-0.6743797" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_04"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust005" tags="part animation  ">
+				<offset>
+          <position x="-12.7789" y="-1.048493" z="-5.515799" />
+          <quaternion qx="-0.6903455" qy="-0.153046" qz="-0.1530459" qw="-0.6903456" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_05"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust006" tags="part animation  ">
+				<offset>
+          <position x="12.7789" y="-1.048493" z="-5.515799" />
+          <quaternion qx="-0.6903455" qy="0.153046" qz="0.1530459" qw="-0.6903456" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_06"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust007" tags="part animation  ">
+				<offset>
+          <position x="12.52835" y="-2.08979" z="-6.128256" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_07"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust008" tags="part animation  ">
+				<offset>
+          <position x="-12.5283" y="-2.08979" z="-6.128256" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_08"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust009" tags="part animation  ">
+				<offset>
+          <position x="-3.288776" y="-1.805605" z="-5.916508" />
+          <quaternion qx="-0.2364697" qy="0.1830616" qz="0.06371894" qw="-0.9521084" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_09"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust010" tags="part animation  ">
+				<offset>
+          <position x="3.28878" y="-1.805605" z="-5.916508" />
+          <quaternion qx="-0.2364697" qy="-0.1830616" qz="-0.06371894" qw="-0.9521084" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_10"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust011" tags="part animation  ">
+				<offset>
+          <position x="-1.794183" y="-1.47161" z="4.065569" />
+          <quaternion qx="0.6553892" qy="-0.2700088" qz="0.3062729" qw="-0.6354189" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_11"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust012" tags="part animation  ">
+				<offset>
+          <position x="1.79418" y="-1.47161" z="4.065569" />
+          <quaternion qx="0.6553892" qy="0.2700088" qz="-0.3062729" qw="-0.6354189" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_12"/>
+				</parts>
+			</connection>
+
+      <connection name="Connectionchiar01" group="pilotcontrol" tags="part ui">
+				<offset>
+          <position x="0" y="-0.06813088" z="10.1557" />
+          <quaternion qx="0.1305262" qy="0" qz="0" qw="-0.9914449" />
+        </offset>
+				<parts>
+					<part ref="starfighter_seat.seat" name="seat"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="seat">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar02" tags="part iklink ui" group="pilotcontrol" parent="seat">
+				<parts>
+					<part ref="starfighter_seat.seat_mesh" name="seat_mesh"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair ">
+				<offset>
+					<position x="0" y="1.06201" z="9.64121" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor " >
+				<offset>
+					<position x="0" y="1.06201" z="9.64121" />
+				</offset>
+			</connection>
+
+      <connection name="Connection_airlock" group="airock001" tags="part ui">
+				<parts>
+					<part ref="arrow_airlock.ejection_handle" name="ejection_handle2"/>
+				</parts>
+        <offset>
+          <position x="0" y="0.4" z="10.3" />
+        </offset>
+			</connection>
+      <connection name="Connection_airlockbox" group="airock001" tags="part ui" parent="ejection_handle2">
+				<parts>
+					<part ref="arrow_airlock.box" name="box"/>
+				</parts>
+			</connection>
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="1.06201" z="9.64121" />
+				</offset>
+			</connection>
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="1.06201" z="9.64121" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-3" z="20"/>
+				</offset>
+			</connection>
+      <connection name="con_npc_teleport01" group="cabin_01" tags="npc_waypoint npctransport stand ">
+				<offset>
+          <position x="0" y="1.06201" z="9.64121" />
+        </offset>
+			</connection>
+      <connection name="con_storage01" tags="storage ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="1.06201" z="10" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="-6.152214" y="-0.2174083" z="-10.08328" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_02" tags="countermeasures ">
+				<offset>
+          <position x="6.15221" y="-0.2174083" z="-10.08328" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_starfighter">
+        <offset>
+          <position x="0" y="0" z="-12.2432" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="weapon small platformcollision aegs_weapon_s7 symmetry symmetry_top symmetry_1">
+				<offset>
+          <position x="2.229386" y="0.6355748" z="0.8304363" />
+          <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_02" tags="component weapon small missile aegs_missile_s3 unfixed symmetry symmetry_1">
+				<offset>
+          <position x="3.436576" y="-1.459792" z="1.885997" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_03" tags="component weapon small missile aegs_missile_s3 unfixed symmetry symmetry_2">
+				<offset>
+          <position x="-3.43658" y="-1.459792" z="1.885997" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_04" tags="component weapon small missile aegs_missile_s3 symmetry symmetry_3">
+				<offset>
+          <position x="1.774797" y="-0.1182487" z="8.223543" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield small aegs_s1 industrial">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield small aegs_s1 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_03" tags="component shield small aegs_s1 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_04" tags="component shield small aegs_s1 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_05" tags="component shield small aegs_s1 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+    <macro name="missile_s1_marksman_i_macro" class="missile">
+    <component ref="missile_s1_marksman_i" />
+    <properties>
+      <identification name="{996669,21}" basename="{996669,21}" description="{996669,22}" />
+      <ammunition value="1" />
+      <missile amount="1" barrelamount="1" lifetime="8.5" range="12500" guided="1" icon="hud_ms_guided_light_mk1" retarget="0" tags="aegs_s1" />
+      <explosiondamage value="365" />
+      <reload time="1.85" />
+      <hull max="1" />
+      <lock time="1" range="12500" angle="60" />
+      <effects>
+        <explosion ref="aegs_missile_explosion_marksman_i" />
+        <launch ref="missile_guided_muzzle" />
+      </effects>
+      <weapon system="missile_guided" />
+      <countermeasure resilience="0.8" />
+      <physics mass="0.152">
+        <inertia pitch="0.258" yaw="0.258" roll="0.258" />
+        <drag forward="0.019" reverse="0.53" horizontal="1" vertical="1" pitch="0.122" yaw="0.122" roll="0.122" />
+      </physics>
+    </properties>
+    <connections>
+      <connection ref="con_engine01">
+        <macro ref="engine_missile_guided_mk1_macro" connection="ship" />
+      </connection>
+    </connections>
+    </macro>
+</macros>

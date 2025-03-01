@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-04 12:28:30 from Blender-->
+<components>
+  <component name="p52_merlin_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\p52_merlin_engine_data" />
+    <layers>
+      <layer>
+        <trailemitters>
+          <emitter name="trail_aegs_s_01" type="trail_aegs_s_01">
+            <offset>
+              <position x="0" y="0" z="-4.994337" />
+            </offset>
+          </emitter>
+        </trailemitters>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionFormerlin_main_thruster" tags="part ">
+        <parts>
+          <part name="merlin_main_thruster">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="2" ref="generic.p52_merlin_mtl_decals_pom" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="4" ref="generic.p52_merlin_mtl_greeble_utility_sheet" />
+                  <material id="5" ref="generic.taln_stalker_v_mtl_Base" />
+                  <material id="6" ref="generic.p52_merlin_mtl_thruster_glow" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="p1.cockpit_glass_inside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.41874" y="0.4187395" z="0.2814815" />
+              <center x="7.450581e-09" y="-5.066395e-07" z="-0.1307245" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5072285" y="0.5072279" z="3.168471" />
+              <center x="-0.005453259" y="-9.506941e-06" z="-3.374408" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_p52">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

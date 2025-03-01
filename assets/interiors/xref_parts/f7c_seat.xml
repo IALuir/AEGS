@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-01-11 23:25:33 from Blender-->
+<components>
+  <component name="f7c_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\f7c_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForanvl_hornet_seat_pilot_geo" tags="part iklink detail_xl chair platformcollision forceoutline walk_exclude walk_excludeplayer ">
+        <parts>
+          <part name="anvl_hornet_seat_pilot_geo">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="5" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="6" ref="generic.bigbox_mtl_metal_c" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.350978" y="0.647431" z="0.4043107" />
+              <center x="-0.0003509894" y="0.8151047" z="-0.03501564" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForanvl_hornet_seat_pilot_geo_mesh" tags="part animation ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation ">
+        <parts>
+          <part name="anvl_hornet_seat_pilot_geo_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="2" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="3" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="4" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="5" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="6" ref="generic.bigbox_mtl_metal_c" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.350978" y="0.647431" z="0.4043107" />
+              <center x="-0.0003509894" y="0.8151047" z="-0.03501564" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="turret_bengal_singer_cannon_b_macro" class="turret">
+    <component ref="turret_aegs_bengal_b" />
+    <properties>
+      <identification name="{996671,46}" basename="{996671,46}" shortname="{996671,46}" makerrace="terran" description="{996671,47}" mk="1" />
+      <bullet class="S11_rail_macro" />
+      <rotationspeed max="25" />
+      <rotationacceleration max="10" />
+      <reload rate="1" time="1" />
+      <hull max="28000" threshold="0.2" integrated="0" />
+    </properties>
+  </macro>
+</macros>

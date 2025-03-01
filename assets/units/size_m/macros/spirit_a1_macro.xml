@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.120) at 27.11.2018_14-39-59-->
+<macros>
+  <macro name="spirit_a1_macro" class="ship_m">
+    <component ref="spirit_a1" />
+    <properties>
+      <identification name="{996666,63}" basename="{996666,63}" description="{996666,64}" makerrace="terran" icon="ship_m_fight_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <explosiondamage value="800" shield="3000" />
+      <storage missile="32" unit="0" countermeasure="40" deployable="50"/>
+      <hull max="10000" />
+      <secrecy level="2" />
+      <purpose primary="fight" />
+      <people capacity="2" />
+      <docksize tag="dock_aegs_big_s" />
+      <sounds>
+        <shipdetail ref="shipdetail_ship_m_03" />
+      </sounds>
+      <physics mass="18.5">
+        <inertia pitch="7.65" yaw="6.1" roll="7.65" />
+        <drag forward="8" reverse="36.411" horizontal="7.05" vertical="7.05" pitch="13.09" yaw="6.17" roll="5.42" />
+      </physics>
+      <thruster tags="medium" />
+      <enginearticulation y="1" z="1" />
+      <ship type="bomber" />
+      <sound_occlusion inside="0.5" />
+    </properties>
+    <connections>
+      <connection ref="con_cockpit">
+        <macro ref="cockpit_gen_virtual_01_macro" connection="ship" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="dock_aegs_xs_macro" connection="Connection_component" />
+      </connection>
+      <connection ref="storage">
+        <macro ref="spirit_a1_inner_macro" connection="position" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

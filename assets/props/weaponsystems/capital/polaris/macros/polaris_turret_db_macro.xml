@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="polaris_turret_db_macro" class="turret">
+    <component ref="polaris_turret_db" />
+    <properties>
+      <identification name="{996667,70007}" basename="{996667,70007}" shortname="{996667,70007}" makerrace="terran" description="{996667,70008}" mk="1" />
+      <bullet class="S5_db_2x_macro" />
+      <rotationspeed max="90" />
+      <rotationacceleration max="200" />
+      <reload rate="1" time="1" />
+      <hull hull="10000" threshold="0.2" integrated="1" paint="1"/>
+    </properties>
+  </macro>
+</macros>

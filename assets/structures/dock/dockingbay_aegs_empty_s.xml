@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-22 22:55:10 from Blender-->
+<components>
+  <component name="dockingbay_aegs_empty_s" class="dockingbay">
+    <source geometry="extensions\aegs\assets\structures\dock\kraken_airport_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="dockingbay">
+				<offset/>
+			</connection>
+
+      
+
+      <connection name="con_dockpos" tags="dockpos ">
+      </connection>
+      <connection name="con_dockpos_pivot" tags="dockpos_pivot ">
+      </connection>
+      <connection name="launchpos" tags="launchpos ">
+      </connection>
+      <connection name="todockpos" tags="todock ">
+      </connection>
+    </connections>
+  </component>
+</components>

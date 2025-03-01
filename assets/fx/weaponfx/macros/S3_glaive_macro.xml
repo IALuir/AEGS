@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Alexei (192.168.3.58) at 08.11.2019_12-35-16-->
+<macros>
+  <macro name="S3_glaive_macro" class="bullet">
+    <component ref="bullet_blue_s" />
+    <properties>
+      <bullet speed="1650" lifetime="2.1" amount="1" barrelamount="1" icon="weapon_ion_mk2" timediff="0.008" angle="0.02" maxhits="1" ricochet="0" scale="0" attach="0" />
+      <heat value="1975" />
+      <reload time="1.2" />
+      <damage value="720" shield="72" repair="0" />
+      <effects>
+        <impact ref="impact_arg_m_ion_01_mk1" inside="impact_arg_m_ion_01_mk1_inside" />
+        <bigobjectimpact ref="impact_arg_m_ion_01_mk1_bigobject" inside="impact_arg_m_ion_01_mk1_bigobject_inside" />
+        <launch ref="launch_aegs_nnxa_small" />
+      </effects>
+      <weapon system="weapon_standard" />
+    </properties>
+  </macro>
+</macros>

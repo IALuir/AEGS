@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-07-28 17:03:28 from Blender-->
+<components>
+  <component name="defender_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\defender_engine_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForpart_animal" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <offset>
+          <position x="-1.574064" y="-0.05901561" z="-0.9180411" />
+        </offset>
+        <parts>
+          <part name="part_animal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.207256" y="0.6264558" z="5.217659" />
+              <center x="1.574064" y="-1.087785e-05" z="-5.273804" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForthrustermain" tags="part ">
+        <parts>
+          <part name="thrustermain">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.banu_defender_mtl_Internal_Structure_Int" />
+                  <material id="2" ref="p1teladi.tel_engine_trim" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="generic.banu_defender_mtl_Metal_Trims_Int" />
+                  <material id="5" ref="generic.banu_defender_mtl_POM_Int" />
+                  <material id="6" ref="generic.banu_defender_mtl_Internal_Structure_Alpha" />
+                  <material id="7" ref="generic.banu_defender_mtl_Pipes_Int" />
+                  <material id="8" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="9" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="10" ref="generic.banu_defender_mtl_Poly_Gloss_Int" />
+                  <material id="11" ref="generic.banu_defender_mtl_Banu_Metal_Rough_Int" />
+                  <material id="12" ref="generic.banu_defender_mtl_Banu_Copper_Int" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.222713" y="1.279699" z="1.069841" />
+              <center x="1.788139e-07" y="-0.03511602" z="-0.2983664" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_defender">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

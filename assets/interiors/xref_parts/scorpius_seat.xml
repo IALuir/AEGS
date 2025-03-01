@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-20 13:16:40 from Blender-->
+<components>
+  <component name="scorpius_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\scorpius_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForpart_main" tags="part iklink detail_xl chair platformcollision forceoutline walk_exclude walk_excludeplayer ">
+        <parts>
+          <part name="part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="5" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="7" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.433912" y="0.6625565" z="0.5805535" />
+              <center x="-2.607703e-07" y="0.8457262" z="-0.1030011" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseat_pilot_mesh" tags="part animation ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation ">
+        <parts>
+          <part name="seat_pilot_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="4" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="5" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_Tile_Paint_Blue" />
+                  <material id="7" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_gray_glossy" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="9" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.433912" y="0.6625565" z="0.5805535" />
+              <center x="-2.607703e-07" y="0.8457262" z="-0.1030011" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

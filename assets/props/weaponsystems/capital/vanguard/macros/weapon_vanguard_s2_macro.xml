@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Markus (192.168.3.72) at 26.01.2022_13-52-25-->
+<macros>
+  <macro name="weapon_vanguard_s2_macro" class="weapon">
+    <component ref="weapon_vanguard_s2" />
+    <properties>
+      <identification name="{996667,1}" basename="{996667,1}" makerrace="terran" description="{996667,2}" mk="1" />
+      <bullet class="S2_cf_vanguard_macro" />
+      <heat overheat="48000" cooldelay="1" coolrate="12000" reenable="300" />
+      <rotationspeed max="0" />
+      <rotationacceleration max="0" />
+      <reload />
+      <hull max="8000" integrated="1"/>
+    </properties>
+  </macro>
+</macros>

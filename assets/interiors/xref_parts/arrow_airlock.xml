@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-08 15:16:25 from Blender-->
+<components>
+  <component name="arrow_airlock" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\arrow_airlock_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForejection_handle" group="airock001" tags="part ui transporter trigger_interact detail_xl location_cockpit platformcollision forceoutline">
+        <parts>
+          <part name="ejection_handle">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_int_mtl_seat" />
+                  <material id="2" ref="generic.anvl_terrapin_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_arrow_int_mtl_atlas" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.063143" y="0.0755353" z="0.04507613" />
+              <center x="0.001068814" y="-0.007647768" z="0.006937742" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbox" group="airock001" tags=" part ui transporter trigger_interact detail_xl location_cockpit platformcollision forceoutline" parent="ejection_handle">
+        <offset>
+          <position x="0" y="-0.08705717" z="-0.5263859" />
+        </offset>
+        <parts>
+          <part name="box">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1638989" y="0" z="0.5143394" />
+              <center x="0" y="0" z="0.05782813" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

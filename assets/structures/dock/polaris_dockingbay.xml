@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-14 13:23:11 from Blender-->
+<components>
+  <component name="polaris_dockingbay" class="dockingbay">
+    <source geometry="extensions\aegs\assets\structures\dock\polaris_dockingbay_data" />
+    <layers>
+      <layer>
+        <lights>
+          <omni name="ego_area000" shadow="1" r="209" g="248" b="255" intensity="0.8" specularintensity="1" range="30" shadowrange="5" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="12.96794" y="-3.345723" z="-26.35048" />
+              <quaternion qx="0" qy="0" qz="0.8660254" qw="-0.5" />
+            </offset>
+          </omni>
+          <omni name="ego_area001" shadow="1" r="209" g="248" b="255" intensity="0.8" specularintensity="1" range="30" shadowrange="5" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="12.96794" y="-3.345723" z="-20.61241" />
+              <quaternion qx="0" qy="0" qz="0.8660254" qw="-0.5" />
+            </offset>
+          </omni>
+          <omni name="ego_area002" shadow="1" r="209" g="248" b="255" intensity="0.8" specularintensity="1" range="30" shadowrange="5" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="12.96794" y="-3.345723" z="-32.071" />
+              <quaternion qx="0" qy="0" qz="0.8660254" qw="-0.5" />
+            </offset>
+          </omni>
+          <omni name="ego_area03" shadow="1" r="209" g="248" b="255" intensity="0.8" specularintensity="1" range="30" shadowrange="5" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="12.96794" y="-3.345723" z="-37.83842" />
+              <quaternion qx="0" qy="0" qz="0.8660254" qw="-0.5" />
+            </offset>
+          </omni>
+          <omni name="ego_area004" shadow="1" r="209" g="248" b="255" intensity="0.8" specularintensity="1" range="30" shadowrange="5" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-12.9679" y="-3.345723" z="-26.35048" />
+              <quaternion qx="0" qy="0" qz="-0.8660254" qw="-0.5" />
+            </offset>
+          </omni>
+          <omni name="ego_area005" shadow="1" r="209" g="248" b="255" intensity="0.8" specularintensity="1" range="30" shadowrange="5" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-12.9679" y="-3.345723" z="-20.61241" />
+              <quaternion qx="0" qy="0" qz="-0.8660254" qw="-0.5" />
+            </offset>
+          </omni>
+          <omni name="ego_area006" shadow="1" r="209" g="248" b="255" intensity="0.8" specularintensity="1" range="30" shadowrange="5" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-12.9679" y="-3.345723" z="-32.071" />
+              <quaternion qx="0" qy="0" qz="-0.8660254" qw="-0.5" />
+            </offset>
+          </omni>
+          <omni name="ego_area007" shadow="1" r="209" g="248" b="255" intensity="0.8" specularintensity="1" range="30" shadowrange="5" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-12.9679" y="-3.345723" z="-37.83842" />
+              <quaternion qx="0" qy="0" qz="-0.8660254" qw="-0.5" />
+            </offset>
+          </omni>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="dockingbay">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForinner_dock" tags="part ">
+        <parts>
+          <part name="inner_dock">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="2" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Decals_large" />
+                  <material id="6" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="7" ref="generic.anvl_pisces_interior_mtl_decal_diffuse" />
+                  <material id="8" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="9" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="10" ref="generic.anvl_carrack_ext_mtl_grate" />
+                  <material id="11" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Decals_livery" />
+                  <material id="13" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="14" ref="generic.carrack_interior_mtl_Panels_paint_white" />
+                  <material id="15" ref="generic.carrack_interior_mtl_Rubber_grip" />
+                  <material id="16" ref="generic.anvl_terrapin_interior_mtl_Grey_Plastic" />
+                  <material id="17" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="16.53885" y="8.410152" z="24.37381" />
+              <center x="8.583069e-06" y="1.310308" z="-26.98597" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      
+			<connection name="Connection01" group="transporter_01 " tags="part ">
+				<offset>
+          <position x="11.07744" y="-2.81635" z="-7.895701" />
+          <quaternion qx="0" qy="0.9238796" qz="0" qw="-0.3826835" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.part_main" name="part_main"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part iklink  " parent="part_main">
+				<offset>
+					<position x="0" y="5.153775E-02" z="3.353691E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals" name="detail_m_decals"/>
+				</parts>
+			</connection>
+			<connection name="Connection03" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="0.54566" y="0.007" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_left" name="anim_door_left"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection04" tags="part iklink  " parent="anim_door_left">
+				<offset>
+					<position x="-0.4329364" y="3.16143E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_left" name="detail_m_decals_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part nocollision iklink  " parent="anim_door_left">
+				<offset>
+					<position x="6.043839E-02" y="9.536743E-07" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_left" name="detail_m_light_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection06" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="-0.54566" y="0.008" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_right" name="anim_door_right"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection07" tags="part iklink  " parent="anim_door_right">
+				<offset>
+					<position x="0.4321223" y="3.553271E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_right" name="detail_m_decals_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part nocollision iklink  " parent="anim_door_right">
+				<offset>
+					<position x="-6.110048E-02" y="3.925562E-04" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_right" name="detail_m_light_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection09" group="transporter_01 " tags="part detail_l  " parent="part_main">
+				<offset>
+					<position x="1.205526" y="0.04" z="-0.1"/>
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_l_button" name="detail_l_button"/>
+				</parts>
+			</connection>
+			<connection name="Connection10" group="transporter_01 " tags="part  " parent="part_main">
+				<offset>
+					<position x="0" y="1.14" z="0.9"/>
+					<quaternion qx="0.7071066" qy="-0" qz="-0" qw="-0.7071069"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.dummy_sound_animation" name="dummy_sound_animation"/>
+				</parts>
+			</connection>
+      <connection name="con_npc_stand_001" group="transporter_01" tags="npc_waypoint stand npctransport ">
+				<offset>
+          <position x="0" y="2.97512" z="4.01271" />
+        </offset>
+			</connection>
+
+      <connection name="con_dockpos" tags="dockpos ">
+        <offset>
+          <position x="0" y="-4.72814" z="-6.99996" />
+        </offset>
+      </connection>
+      <connection name="con_dockpos_pivot" tags="dockpos_pivot ">
+        <offset>
+          <position x="0" y="-4.72814" z="-6.99996" />
+        </offset>
+      </connection>
+      <connection name="launchpos" tags="launchpos ">
+        <offset>
+          <position x="0" y="20" z="-6.99996" />
+        </offset>
+      </connection>
+      <connection name="todockpos" tags="todock ">
+        <offset>
+          <position x="0" y="20" z="-6.99996" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

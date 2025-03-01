@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-16 22:53:36 from Blender-->
+<components>
+  <component name="scorpius_turret_mxa" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\scorpius\scorpius_turret_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForturret_body" tags="part nocollision">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="turret_body">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="7" ref="generic.rsi_scorpius_mtl_Trim_Structural_B" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="11" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="7" ref="generic.rsi_scorpius_mtl_Trim_Structural_B" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="11" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="7" ref="generic.rsi_scorpius_mtl_Trim_Structural_B" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="11" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="7" ref="generic.rsi_scorpius_mtl_Trim_Structural_B" />
+                  <material id="8" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                  <material id="11" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.77047" y="0.6785188" z="1.587281" />
+              <center x="1.639128e-07" y="0.6194367" z="0.5593249" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortop_arms" tags="part nocollision" parent="turret_body">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-5.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="0" y="0.695253" z="-0.05865639" />
+        </offset>
+        <parts>
+          <part name="top_arms">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_scorpius_mtl_Decal_POM2" />
+                  <material id="4" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="5" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Tertiary" />
+                  <material id="6" ref="generic.rsi_scorpius_mtl_Panel_LF_Paint_Grey" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.117019" y="0.5735497" z="0.6158792" />
+              <center x="-5.662441e-07" y="0.2343401" z="0.1281667" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForgun" tags="part nocollision" parent="top_arms">
+        <offset>
+          <position x="-1.060295" y="-0.02228224" z="0.4677196" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+        <parts>
+          <part name="gun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1624246" y="1.666923" z="1.505669" />
+              <center x="0.01212595" y="1.060295" z="0.8377719" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="gun">
+        <offset>
+          <position x="4.474565e-09" y="-0.4056664" z="2.376265" />
+        </offset>
+      </connection>
+      <connection name="laser002" tags="laser " parent="gun">
+        <offset>
+          <position x="-1.23829e-07" y="2.529576" z="2.376265" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForgun001" tags="part nocollision" parent="top_arms">
+        <offset>
+          <position x="-1.022862" y="0.6181054" z="-0.1564836" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+        <parts>
+          <part name="gun001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1624245" y="1.62949" z="1.505669" />
+              <center x="0.01212598" y="1.022862" z="0.8377719" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser001" tags="laser " parent="gun001">
+        <offset>
+          <position x="6.244295e-08" y="-0.4056664" z="2.376265" />
+        </offset>
+      </connection>
+      <connection name="laser003" tags="laser " parent="gun001">
+        <offset>
+          <position x="-6.247675e-08" y="2.452163" z="2.376265" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_scorpius">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

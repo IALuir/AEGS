@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-28 10:24:27 from Blender-->
+<components>
+  <component name="Idris_p_s10" class="weapon">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\idris\idris_s10_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForouter_barrel" tags="part ">
+        <parts>
+          <part name="outer_barrel">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.aegs_idris_turret_large_mtl_ext_dark_flat" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.234888" y="4.954096" z="12.96289" />
+              <center x="0" y="0" z="-0.2221866" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormiddle_barrel" tags="part " parent="outer_barrel">
+        <parts>
+          <part name="middle_barrel">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.924572" y="2.757218" z="11.44449" />
+              <center x="0" y="0" z="1.095464" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_barrel" tags="part " parent="middle_barrel">
+        <parts>
+          <part name="inner_barrel">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.idris_frigate_exterior_wip_mtl_decal_text" />
+                  <material id="2" ref="generic.idris_frigate_exterior_wip_mtl_decal_pom" />
+                  <material id="3" ref="generic.idris_frigate_exterior_wip_mtl_Green_Panel" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.795675" y="3.287598" z="11.38706" />
+              <center x="1.490116e-08" y="0" z="1.791675" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForinner_fx" tags="part animation textureanimation nocollision forceoutline" parent="middle_barrel">
+        <animations>
+					<animation name="weapon_firing" start="0" end="300"/>
+				</animations>
+        <parts>
+          <part name="inner_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5636225" y="1.371834" z="10.9949" />
+              <center x="0.000230521" y="0" z="1.53475" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0.05"/>
+									<key frame="3" value="0"/>
+									<key frame="5" value="-0.05"/>
+									<key frame="295" value="-0.55"/>
+									<key frame="300" value="-0.6"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+            <lights>
+							<box name="XU BoxLight01" shadow="0" r="255" g="194" b="0" lighteffect="1" trigger="1" intensity="0" specularintensity="1">
+								<size x="1.5" y="2" z="13"/>
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="0"/>
+										<key frame="5" value="2"/>
+										<key frame="300" value="0"/>
+									</lightanimation>
+									<lightanimation name="color" controller="bezier_color">
+										<key frame="0" r="255" g="194" b="0"/>
+										<key frame="5" r="255" g="194" b="0"/>
+										<key frame="300" r="255" g="0" b="0"/>
+									</lightanimation>
+								</lightanimations>
+							</box>
+						</lights>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser" parent="inner_barrel">
+        <offset>
+          <position x="0" y="0" z="-9" />
+        </offset>
+      </connection>
+
+      <connection name="con_weapon_01" tags="component weapon large aegs_idris_p">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-09 12:02:50 from Blender-->
+<components>
+  <component name="arrow_turret_sp" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\arrow\arrow_turret_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForgimbal_mount" tags="part nocollision">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="gimbal_mount" wreck="gimbal_mount_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="3" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="4" ref="generic.bigbox_mtl_decals" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4609515" y="0.2744071" z="0.8156835" />
+              <center x="-5.140901e-07" y="0.257985" z="0.0644545" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForweapon_mounts" tags="part nocollision" parent="gimbal_mount">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-90.0 "/>
+							<max value="5 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="4.994451e-05" y="0.367492" z="0.163521" />
+          <quaternion qx="0" qy="0" qz="1" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="weapon_mounts">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="3" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.3798335" y="0.12891" z="0.450667" />
+              <center x="4.991889e-07" y="0" z="0.182804" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForsp_base" tags="part nocollision" parent="weapon_mounts">
+        <offset>
+          <position x="0.3610902" y="0.008751159" z="0.007371873" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="sp_base">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.jokr_dis_can_I_bas_mat_mtl_L_pipe_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.jokr_dis_can_I_bas_mat_mtl_L_pipe_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.jokr_dis_can_I_bas_mat_mtl_L_pipe_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01" />
+                  <material id="5" ref="generic.jokr_dis_can_I_bas_mat_mtl_L_pipe_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.9888183" y="0.276636" z="1.428967" />
+              <center x="0.3610403" y="-0.02892299" z="0.7784815" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="sp_base">
+        <offset>
+          <position x="-0.2991682" y="0" z="2.243044" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="sp_base">
+        <offset>
+          <position x="1.014374" y="2.980232e-08" z="2.243044" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_arrow">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

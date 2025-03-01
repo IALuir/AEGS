@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-25 17:11:08 from Blender-->
+<components>
+  <component name="kraken_airportc" class="dockingbay">
+    <source geometry="extensions\aegs\assets\structures\dock\kraken_airportc_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="dockingbay">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForkraken_ext_hangar_mesh" tags="part ">
+        <parts>
+          <part name="kraken_ext_hangar_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.94336" y="10.13469" z="25.04312" />
+              <center x="17.08599" y="-6.438348" z="25.65707" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_b_bottom_01" tags="part animation" parent="kraken_ext_hangar_mesh">
+        <animations>
+					<animation name="dockingbay_closed" start="0" end="0"/>
+					<animation name="dockingbay_opening" start="0" end="150"/>
+					<animation name="dockingbay_open" start="150" end="150"/>
+					<animation name="dockingbay_closing" start="150" end="300"/>
+          <animation name="dockingbay_idle" start="0" end="0"/>
+					<animation name="dockingbay_storingship_fastest" start="150" end="300"/>
+					<animation name="dockingbay_retrievingship_fastest" start="0" end="150"/>
+					<animation name="dockingbay_storingship_faster" start="150" end="300"/>
+					<animation name="dockingbay_retrievingship_faster" start="0" end="150"/>
+					<animation name="dockingbay_storingship" start="150" end="300"/>
+					<animation name="dockingbay_retrievingship" start="0" end="150"/>
+				</animations>
+        <offset>
+          <position x="27.39854" y="-9.93563" z="25.48727" />
+        </offset>
+        <parts>
+          <part name="kraken_b_bottom_01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5529652" y="3.181366" z="14.8603" />
+              <center x="-0.01207924" y="-1.66002" z="0.007440567" />
+            </size>
+            <size_raw>
+              <max x="0.5529652" y="1.564187" z="14.8603" />
+              <center x="-0.01207924" y="-0.04284048" z="0.007440567" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_door_b_bottom_02" tags="part animation" parent="kraken_b_bottom_01">
+        <animations>
+					<animation name="dockingbay_closed" start="0" end="0"/>
+					<animation name="dockingbay_opening" start="0" end="150"/>
+					<animation name="dockingbay_open" start="150" end="150"/>
+					<animation name="dockingbay_closing" start="150" end="300"/>
+          <animation name="dockingbay_idle" start="0" end="0"/>
+					<animation name="dockingbay_storingship_fastest" start="150" end="300"/>
+					<animation name="dockingbay_retrievingship_fastest" start="0" end="150"/>
+					<animation name="dockingbay_storingship_faster" start="150" end="300"/>
+					<animation name="dockingbay_retrievingship_faster" start="0" end="150"/>
+					<animation name="dockingbay_storingship" start="150" end="300"/>
+					<animation name="dockingbay_retrievingship" start="0" end="150"/>
+				</animations>
+        <offset>
+          <position x="0.6345062" y="2.288496" z="0.01717567" />
+        </offset>
+        <parts>
+          <part name="kraken_door_b_bottom_02">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1042995" y="3.611238" z="14.8603" />
+              <center x="-0.0229435" y="-2.565389" z="-0.009735107" />
+            </size>
+            <size_raw>
+              <max x="0.1042995" y="1.039645" z="14.8603" />
+              <center x="-0.0229435" y="0.006203651" z="-0.009734154" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_b_bottom_01001" tags="part " parent="kraken_ext_hangar_mesh">
+        <offset>
+          <position x="5.581568" y="-10.60009" z="25.40694" />
+          <quaternion qx="0" qy="1" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="kraken_b_bottom_01001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6635582" y="1.877024" z="17.83236" />
+              <center x="-0.0144949" y="-0.05140877" z="0.008930206" />
+            </size>
+            <size_raw>
+              <max x="0.6635582" y="1.877024" z="17.83236" />
+              <center x="-0.0144951" y="-0.0514086" z="0.008929253" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_door_b_bottom_02001" tags="part " parent="kraken_ext_hangar_mesh">
+        <offset>
+          <position x="4.82016" y="-7.853891" z="25.38633" />
+          <quaternion qx="0" qy="1" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="kraken_door_b_bottom_02001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1251595" y="1.247574" z="17.83236" />
+              <center x="-0.0275322" y="0.007444382" z="-0.01168156" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_door_b_top_01" tags="part animation" parent="kraken_ext_hangar_mesh">
+        <animations>
+					<animation name="dockingbay_closed" start="0" end="0"/>
+					<animation name="dockingbay_opening" start="0" end="150"/>
+					<animation name="dockingbay_open" start="150" end="150"/>
+					<animation name="dockingbay_closing" start="150" end="300"/>
+          <animation name="dockingbay_idle" start="0" end="0"/>
+					<animation name="dockingbay_storingship_fastest" start="150" end="300"/>
+					<animation name="dockingbay_retrievingship_fastest" start="0" end="150"/>
+					<animation name="dockingbay_storingship_faster" start="150" end="300"/>
+					<animation name="dockingbay_retrievingship_faster" start="0" end="150"/>
+					<animation name="dockingbay_storingship" start="150" end="300"/>
+					<animation name="dockingbay_retrievingship" start="0" end="150"/>
+				</animations>
+        <offset>
+          <position x="27.40199" y="-3.299628" z="25.34208" />
+        </offset>
+        <parts>
+          <part name="kraken_door_b_top_01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5529652" y="3.234021" z="14.8603" />
+              <center x="-0.0155201" y="1.729193" z="0.1526222" />
+            </size>
+            <size_raw>
+              <max x="0.5529652" y="1.564188" z="14.8603" />
+              <center x="-0.0155201" y="0.05936009" z="0.1526232" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_door_b_top_02" tags="part animation" parent="kraken_door_b_top_01">
+        <animations>
+					<animation name="dockingbay_closed" start="0" end="0"/>
+					<animation name="dockingbay_opening" start="0" end="150"/>
+					<animation name="dockingbay_open" start="150" end="150"/>
+					<animation name="dockingbay_closing" start="150" end="300"/>
+          <animation name="dockingbay_idle" start="0" end="0"/>
+					<animation name="dockingbay_storingship_fastest" start="150" end="300"/>
+					<animation name="dockingbay_retrievingship_fastest" start="0" end="150"/>
+					<animation name="dockingbay_storingship_faster" start="150" end="300"/>
+					<animation name="dockingbay_retrievingship_faster" start="0" end="150"/>
+					<animation name="dockingbay_storingship" start="150" end="300"/>
+					<animation name="dockingbay_retrievingship" start="0" end="150"/>
+				</animations>
+        <offset>
+          <position x="0.613678" y="-2.271384" z="0.12714" />
+        </offset>
+        <parts>
+          <part name="kraken_door_b_top_02">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1053457" y="3.647901" z="14.8603" />
+              <center x="-0.02510452" y="2.601439" z="0.02548599" />
+            </size>
+            <size_raw>
+              <max x="0.1053457" y="1.039648" z="14.8603" />
+              <center x="-0.02510548" y="-0.006814241" z="0.02548647" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_door_b_top_01001" tags="part " parent="kraken_ext_hangar_mesh">
+        <offset>
+          <position x="5.577439" y="-2.636883" z="25.58116" />
+          <quaternion qx="0" qy="1" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="kraken_door_b_top_01001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6635582" y="1.877026" z="17.83236" />
+              <center x="-0.01862408" y="0.07123208" z="0.1831474" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_door_b_top_02001" tags="part " parent="kraken_ext_hangar_mesh">
+        <offset>
+          <position x="4.841025" y="-5.362545" z="25.42859" />
+          <quaternion qx="0" qy="1" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="kraken_door_b_top_02001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1264149" y="1.247577" z="17.83236" />
+              <center x="-0.03012658" y="-0.008177042" z="0.03058338" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+			<connection name="Connection01" group="transporter_01 " tags="part  ">
+				<offset>
+          <position x="7.86035" y="-11.0637" z="13.7581" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.part_main" name="part_main"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part iklink  " parent="part_main">
+				<offset>
+					<position x="0" y="5.153775E-02" z="3.353691E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals" name="detail_m_decals"/>
+				</parts>
+			</connection>
+			<connection name="Connection03" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="0.54566" y="0.007" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_left" name="anim_door_left"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection04" tags="part iklink  " parent="anim_door_left">
+				<offset>
+					<position x="-0.4329364" y="3.16143E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_left" name="detail_m_decals_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part nocollision iklink  " parent="anim_door_left">
+				<offset>
+					<position x="6.043839E-02" y="9.536743E-07" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_left" name="detail_m_light_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection06" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="-0.54566" y="0.008" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_right" name="anim_door_right"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection07" tags="part iklink  " parent="anim_door_right">
+				<offset>
+					<position x="0.4321223" y="3.553271E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_right" name="detail_m_decals_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part nocollision iklink  " parent="anim_door_right">
+				<offset>
+					<position x="-6.110048E-02" y="3.925562E-04" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_right" name="detail_m_light_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection09" group="transporter_01 " tags="part detail_l  " parent="part_main">
+				<offset>
+					<position x="1.205526" y="0.04" z="-0.1"/>
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_l_button" name="detail_l_button"/>
+				</parts>
+			</connection>
+			<connection name="Connection10" group="transporter_01 " tags="part  " parent="part_main">
+				<offset>
+					<position x="0" y="1.14" z="0.9"/>
+					<quaternion qx="0.7071066" qy="-0" qz="-0" qw="-0.7071069"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.dummy_sound_animation" name="dummy_sound_animation"/>
+				</parts>
+			</connection>
+
+      <connection name="con_dockpos" tags="dockpos ">
+        <offset>
+          <position x="16.77571" y="-11.82381" z="42.9912" />
+        </offset>
+      </connection>
+      <connection name="con_dockpos_pivot" tags="dockpos_pivot ">
+        <offset>
+          <position x="16.77571" y="-11.82381" z="42.9912" />
+        </offset>
+      </connection>
+      <connection name="launchpos" tags="launchpos ">
+        <offset>
+          <position x="16.77571" y="-11.82381" z="42.9912" />
+        </offset>
+      </connection>
+      <connection name="todockpos" tags="todock ">
+        <offset>
+          <position x="16.77571" y="-11.82381" z="42.9912" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

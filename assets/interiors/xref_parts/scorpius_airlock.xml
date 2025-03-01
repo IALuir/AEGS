@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-21 22:44:06 from Blender-->
+<components>
+  <component name="scorpius_airlock" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\scorpius_airlock_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForeject_housing" group="airock001" tags="part ui transporter trigger_interact detail_xl location_cockpit platformcollision forceoutline  ">
+        <offset>
+          <position x="-0.0002159185" y="0.275957" z="9.494917" />
+        </offset>
+        <parts>
+          <part name="eject_housing">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_Diffuse" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Panel_LF_Paint_Matte_Dark" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.03335705" y="0.0358595" z="0.08478022" />
+              <center x="0.0002054637" y="-0.008842528" z="0.01941061" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseat_pilot_ejection_handle" group="airock001" tags="part ui transporter trigger_interact detail_xl location_cockpit platformcollision forceoutline  ">
+        <offset>
+          <position x="3.696306e-07" y="0.3574568" z="9.370209" />
+        </offset>
+        <parts>
+          <part name="seat_pilot_ejection_handle">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_scorpius_int_mtl_Decal_Diffuse" />
+                  <material id="3" ref="generic.rsi_scorpius_int_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="4" ref="generic.rsi_scorpius_int_mtl_Panel_LF_Paint_Grey" />
+                  <material id="5" ref="generic.rsi_scorpius_int_mtl_Panel_LF_Metal_Grey" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.061831" y="0.06460147" z="0.07188559" />
+              <center x="2.793968e-09" y="-0.03519492" z="0.04003286" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Lino (192.168.3.56) at 08.04.2020_09-52-07-->
+<macros>
+  <macro name="S7_mxa_4x_macro" class="bullet">
+    <component ref="bullet_aegs_l_flak" />
+    <properties>
+      <ammunition value="1" reload="1.2" />
+      <bullet speed="1800" lifetime="2.72" amount="1" barrelamount="4" icon="weapon_cannon_mk1" timediff="0.01" angle="0.02" maxhits="1" ricochet="0" scale="0" attach="0"  />
+      <reload rate="0.75" />
+      <damage value="450" shield="45" repair="0" />
+      <effects>
+        <impact ref="impact_xen_m_laser_01_mk1" inside="impact_xen_m_laser_01_mk1_inside" />
+        <bigobjectimpact ref="impact_xen_m_laser_01_mk1_bigobject" inside="impact_xen_m_laser_01_mk1_bigobject_inside" />
+        <launch ref="launch_aegs_mxa_big" />
+      </effects>
+    </properties>
+  </macro>
+</macros>

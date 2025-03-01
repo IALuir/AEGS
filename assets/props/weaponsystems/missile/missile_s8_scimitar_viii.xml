@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-17 16:13:28 from Blender-->
+<components>
+  <component name="missile_s8_scimitar_viii" class="missile">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\missile\missile_s8_scimitar_viii_data" />
+    <layers>
+			<layer>
+				<waypoints/>
+				<trailemitters>
+					<emitter name="trail_red_small_01" type="trail_red_small_01">
+						<offset>
+							<position x="0" y="0" z="-4"/>
+						</offset>
+					</emitter>
+				</trailemitters>
+			</layer>
+		</layers>
+    <connections>
+      <connection name="space" tags="missile" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForanim_booster" tags="part nocollision animation textureanimation ">
+        <animations>
+			    <animation name="loop" start="1" end="500"/>
+		    </animations>
+        <parts>
+          <part name="anim_booster">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="effects.booster" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1754382" y="0.1754382" z="1.209962" />
+              <center x="-3.72529e-09" y="0" z="-3.695599" />
+            </size>
+            <uv_animations>
+					    <uv_animation mapchannel="1">
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="0" value="0"/>
+                  <key frame="500" value="-50"/>
+                </uv_property>
+            </uv_animation>
+          </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormissile" tags="part nocollision">
+        <parts>
+          <part name="missile">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_marksman_s1_mtl_pom_decal" />
+                  <material id="2" ref="generic.behr_marksman_s1_mtl_graphic_decals_a" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.fski_tempest_s2_mtl_dull_metal_01" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_marksman_s1_mtl_pom_decal" />
+                  <material id="2" ref="generic.behr_marksman_s1_mtl_graphic_decals_a" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.fski_tempest_s2_mtl_dull_metal_01" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_marksman_s1_mtl_pom_decal" />
+                  <material id="2" ref="generic.behr_marksman_s1_mtl_graphic_decals_a" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.fski_tempest_s2_mtl_dull_metal_01" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_marksman_s1_mtl_pom_decal" />
+                  <material id="2" ref="generic.behr_marksman_s1_mtl_graphic_decals_a" />
+                  <material id="3" ref="p1.cockpit_glass_outside_01" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                  <material id="5" ref="generic.fski_tempest_s2_mtl_dull_metal_01" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.270177" y="0.262826" z="2.513722" />
+              <center x="-0.0008649901" y="0.0006169975" z="0.03017497" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.47" y="1.47" z="4.41" />
+              <center x="2.980232e-08" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine01" tags="engine standard ">
+        <offset>
+              <position x="0" y="0" z="0" />
+        </offset>
+	    </connection>
+    </connections>
+  </component>
+</components>

@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-07 20:18:51 from Blender-->
+<components>
+  <component name="arrow" class="ship_s">
+    <source geometry="extensions\AEGS\assets\units\size_s\arrow_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_s ship" />
+      <connection name="position" tags="position" value="2" />
+      <connection name="defencenpc" tags="defence" value="-1" />
+      <connection name="ConnectionForarrow_landing_gear_front_skin" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="0.8673012" z="0.5120265" />
+        </offset>
+        <parts>
+          <part name="arrow_landing_gear_front_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="3" ref="generic.bigbox_mtl_decals" />
+                  <material id="4" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="5" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="6" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="7" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="8" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="9" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="10" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="11" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="12" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="13" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="14" ref="p1.cockpit_glass_outside_01" />
+                  <material id="15" ref="p1.cockpit_glass_inside_01" />
+                  <material id="16" ref="p1effects.p1_gradient_colour" />
+                  <material id="17" ref="generic.anvl_carrack_ext_mtl_trim_engine" />
+                  <material id="18" ref="generic.anvl_hornet_mtl_engine_glow" />
+                  <material id="19" ref="p1effects.p1_gradient_colour" />
+                  <material id="20" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="21" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="22" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="23" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="24" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="25" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Structure" />
+                  <material id="26" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="27" ref="generic.anvl_carrack_ext_mtl_decal_vin" />
+                  <material id="28" ref="generic.anvl_arrow_mtl_raw_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.292725" y="1.765506" z="2.042052" />
+              <center x="0" y="-1.512424" z="1.956846" />
+            </size>
+            <size_raw>
+              <max x="0.292725" y="0.9545075" z="1.439745" />
+              <center x="-7.450581e-09" y="-0.7014256" z="1.354539" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForarrow_landing_gear_left_skin001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-1.636212" y="-0.305753" z="-2.410441" />
+          <quaternion qx="0.732222" qy="-0.3173438" qz="-0.03999925" qw="-0.6012852" />
+        </offset>
+        <parts>
+          <part name="arrow_landing_gear_left_skin001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="3" ref="generic.bigbox_mtl_decals" />
+                  <material id="4" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="5" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="6" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="7" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="8" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="9" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="10" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="11" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="12" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="13" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="14" ref="p1.cockpit_glass_outside_01" />
+                  <material id="15" ref="p1.cockpit_glass_inside_01" />
+                  <material id="16" ref="p1effects.p1_gradient_colour" />
+                  <material id="17" ref="generic.anvl_carrack_ext_mtl_trim_engine" />
+                  <material id="18" ref="generic.anvl_hornet_mtl_engine_glow" />
+                  <material id="19" ref="p1effects.p1_gradient_colour" />
+                  <material id="20" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="21" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="22" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="23" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="24" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="25" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Structure" />
+                  <material id="26" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="27" ref="generic.anvl_carrack_ext_mtl_decal_vin" />
+                  <material id="28" ref="generic.anvl_arrow_mtl_raw_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6916482" y="1.094694" z="0.9196326" />
+              <center x="-0.3941792" y="-0.9990128" z="0.06359458" />
+            </size>
+            <size_raw>
+              <max x="0.6916482" y="1.094694" z="0.9196327" />
+              <center x="-0.3941792" y="-0.9990128" z="0.06359449" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForarrow_landing_gear_right_skin" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="1.636212" y="-0.305753" z="-2.410441" />
+          <quaternion qx="0.7322223" qy="0.3173438" qz="0.03999983" qw="-0.6012848" />
+        </offset>
+        <parts>
+          <part name="arrow_landing_gear_right_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="3" ref="generic.bigbox_mtl_decals" />
+                  <material id="4" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="5" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="6" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="7" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="8" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="9" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="10" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="11" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="12" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="13" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="14" ref="p1.cockpit_glass_outside_01" />
+                  <material id="15" ref="p1.cockpit_glass_inside_01" />
+                  <material id="16" ref="p1effects.p1_gradient_colour" />
+                  <material id="17" ref="generic.anvl_carrack_ext_mtl_trim_engine" />
+                  <material id="18" ref="generic.anvl_hornet_mtl_engine_glow" />
+                  <material id="19" ref="p1effects.p1_gradient_colour" />
+                  <material id="20" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="21" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="22" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="23" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="24" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="25" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Structure" />
+                  <material id="26" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="27" ref="generic.anvl_carrack_ext_mtl_decal_vin" />
+                  <material id="28" ref="generic.anvl_arrow_mtl_raw_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7242414" y="1.095346" z="1.061224" />
+              <center x="0.3611234" y="-0.9983495" z="0.2051795" />
+            </size>
+            <size_raw>
+              <max x="0.7242415" y="1.095346" z="1.061224" />
+              <center x="0.3611235" y="-0.9983494" z="0.2051795" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody" group="ladder" tags="part animation trigger_interact require_docked ui">
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="5" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="6" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="7" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="11" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="12" ref="generic.bigbox_mtl_decals" />
+                  <material id="13" ref="generic.anvl_arrow_mtl_raw_metal" />
+                  <material id="14" ref="p1effects.p1_gradient_colour" />
+                  <material id="15" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="16" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="17" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="18" ref="p1effects.p1_gradient_colour" />
+                  <material id="19" ref="generic.anvl_hornet_mtl_engine_glow" />
+                  <material id="20" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="21" ref="p1.cockpit_glass_inside_01" />
+                  <material id="22" ref="generic.anvl_carrack_ext_mtl_trim_engine" />
+                  <material id="23" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="24" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="25" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="26" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="27" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Structure" />
+                  <material id="28" ref="generic.anvl_carrack_ext_mtl_decal_vin" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="5" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="6" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="7" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="11" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="12" ref="generic.bigbox_mtl_decals" />
+                  <material id="13" ref="generic.anvl_arrow_mtl_raw_metal" />
+                  <material id="14" ref="p1effects.p1_gradient_colour" />
+                  <material id="15" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="16" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="17" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="18" ref="p1effects.p1_gradient_colour" />
+                  <material id="19" ref="generic.anvl_hornet_mtl_engine_glow" />
+                  <material id="20" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="21" ref="p1.cockpit_glass_inside_01" />
+                  <material id="22" ref="generic.anvl_carrack_ext_mtl_trim_engine" />
+                  <material id="23" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="24" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="25" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="26" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="27" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Structure" />
+                  <material id="28" ref="generic.anvl_carrack_ext_mtl_decal_vin" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="5" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="6" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="7" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="11" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="12" ref="generic.bigbox_mtl_decals" />
+                  <material id="13" ref="generic.anvl_arrow_mtl_raw_metal" />
+                  <material id="14" ref="p1effects.p1_gradient_colour" />
+                  <material id="15" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="16" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="17" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="18" ref="p1effects.p1_gradient_colour" />
+                  <material id="19" ref="generic.anvl_hornet_mtl_engine_glow" />
+                  <material id="20" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="21" ref="p1.cockpit_glass_inside_01" />
+                  <material id="22" ref="generic.anvl_carrack_ext_mtl_trim_engine" />
+                  <material id="23" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="24" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="25" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="26" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="27" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Structure" />
+                  <material id="28" ref="generic.anvl_carrack_ext_mtl_decal_vin" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="5" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="6" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="7" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="11" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="12" ref="generic.bigbox_mtl_decals" />
+                  <material id="13" ref="generic.anvl_arrow_mtl_raw_metal" />
+                  <material id="14" ref="p1effects.p1_gradient_colour" />
+                  <material id="15" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="16" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="17" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="18" ref="p1effects.p1_gradient_colour" />
+                  <material id="19" ref="generic.anvl_hornet_mtl_engine_glow" />
+                  <material id="20" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="21" ref="p1.cockpit_glass_inside_01" />
+                  <material id="22" ref="generic.anvl_carrack_ext_mtl_trim_engine" />
+                  <material id="23" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="24" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="25" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="26" ref="generic.anvl_hornet_mtl_internal_pom" />
+                  <material id="27" ref="generic.anvl_pisces_ext_mtl_Damage_Internal_Structure" />
+                  <material id="28" ref="generic.anvl_carrack_ext_mtl_decal_vin" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.253636" y="1.289388" z="8.130077" />
+              <center x="-5.960464e-08" y="-0.03793949" z="0.711586" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody_light" tags="part ">
+        <parts>
+          <part name="body_light">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.01549" y="1.178398" z="0.06768739" />
+              <center x="-2.328306e-10" y="0.01007652" z="1.51406" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcanopy" tags="part animation nocollision forceoutline anim_cockpit nocollision">
+        <animations>
+					<animation name="cockpit_closed" start="0" end="0"/>
+					<animation name="cockpit_opening" start="0" end="80"/>
+					<animation name="cockpit_open" start="80" end="80"/>
+					<animation name="cockpit_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0" y="0.956124" z="4.524896" />
+        </offset>
+        <parts>
+          <part name="canopy">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="3" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="4" ref="generic.anvl_carrack_ext_mtl_trim_engine" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="p1.cockpit_glass_inside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.84167" y="0.56209" z="1.470984" />
+              <center x="0" y="-0.557871" z="1.419775" />
+            </size>
+            <size_raw>
+              <max x="0.84167" y="0.56209" z="1.470984" />
+              <center x="1.490116e-08" y="-0.557871" z="1.419775" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcockpit" tags="part ">
+        <offset>
+          <position x="-1.907348e-07" y="-0.02865234" z="4.423099" />
+        </offset>
+        <parts>
+          <part name="cockpit">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_terrapin_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_arrow_int_mtl_atlas" />
+                  <material id="3" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="4" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="5" ref="generic.bigbox_mtl_decals" />
+                  <material id="6" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="7" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="8" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="10" ref="generic.anvl_hornet_f7a_thruster_mav_joint_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_arrow_int_mtl_carbon_fiber" />
+                  <material id="12" ref="p1effects.p1_gradient_colour" />
+                  <material id="13" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.anvl_terrapin_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_arrow_int_mtl_atlas" />
+                  <material id="3" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="4" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="5" ref="generic.bigbox_mtl_decals" />
+                  <material id="6" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="7" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="8" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="10" ref="generic.anvl_hornet_f7a_thruster_mav_joint_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_arrow_int_mtl_carbon_fiber" />
+                  <material id="12" ref="p1effects.p1_gradient_colour" />
+                  <material id="13" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.anvl_terrapin_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_arrow_int_mtl_atlas" />
+                  <material id="3" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="4" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="5" ref="generic.bigbox_mtl_decals" />
+                  <material id="6" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="7" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="8" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="10" ref="generic.anvl_hornet_f7a_thruster_mav_joint_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_arrow_int_mtl_carbon_fiber" />
+                  <material id="12" ref="p1effects.p1_gradient_colour" />
+                  <material id="13" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.anvl_terrapin_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_arrow_int_mtl_atlas" />
+                  <material id="3" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="4" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="5" ref="generic.bigbox_mtl_decals" />
+                  <material id="6" ref="generic.anvl_pisces_interior_mtl_buttons" />
+                  <material id="7" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="8" ref="generic.bigbox_mtl_metal_c" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Atlas" />
+                  <material id="10" ref="generic.anvl_hornet_f7a_thruster_mav_joint_mtl_metals_atlas" />
+                  <material id="11" ref="generic.anvl_arrow_int_mtl_carbon_fiber" />
+                  <material id="12" ref="p1effects.p1_gradient_colour" />
+                  <material id="13" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.756951" y="0.852321" z="1.453348" />
+              <center x="-1.490116e-08" y="0.107673" z="1.537686" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_cuby" group="ladder" tags="part animation trigger_interact require_docked">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="0.224855" y="-0.899256" z="6.139696" />
+        </offset>
+        <parts>
+          <part name="ladder_cuby">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5391443" y="0.07129097" z="0.4112978" />
+              <center x="-0.4185103" y="0" z="9.536743e-07" />
+            </size>
+            <size_raw>
+              <max x="0.3447985" y="0.071291" z="0.411298" />
+              <center x="-0.2241645" y="0" z="9.983778e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForarm_extender_a" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_cuby">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-0.563076" y="-0.01825798" z="0" />
+        </offset>
+        <animations>
+          <animation name="arm_extender_aAction_arm_extender_aAction" start="1" end="240" />
+        </animations>
+        <parts>
+          <part name="arm_extender_a">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_raw_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6009358" y="0.05774102" z="0.3993039" />
+              <center x="-0.01182789" y="0.01825798" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.2884915" y="0.057741" z="0.399304" />
+              <center x="0.3006165" y="0.018258" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForarm_extender_b" group="ladder" tags="part animation trigger_interact require_docked" parent="arm_extender_a">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="0.181413" y="0.01825798" z="0" />
+        </offset>
+        <parts>
+          <part name="arm_extender_b">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_raw_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.855556" y="0.059389" z="0.3754082" />
+              <center x="-0.3877001" y="0" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.2635885" y="0.059389" z="0.375408" />
+              <center x="0.2042675" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrotator" group="ladder" tags="part animation trigger_interact require_docked" parent="arm_extender_b">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+        <parts>
+          <part name="rotator">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_raw_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.655324" y="0.248436" z="0.3465071" />
+              <center x="-0.592071" y="0.06828403" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.0633565" y="0.248436" z="0.346507" />
+              <center x="-0.0001034997" y="0.068284" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbottom_step_extender" group="ladder" tags="part animation trigger_interact require_docked" parent="rotator">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-0.01888504" y="-0.179744" z="0" />
+        </offset>
+        <parts>
+          <part name="bottom_step_extender">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_raw_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6990763" y="0.4779567" z="0.2704854" />
+              <center x="-0.6716403" y="-0.008291721" z="4.768372e-07" />
+            </size>
+            <size_raw>
+              <max x="0.027436" y="0.2349155" z="0.2704855" />
+              <center x="4.656613e-10" y="0.2347495" z="4.917383e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForladder_col" group="ladder" tags="part animation trigger_interact walk_stairway platformcollision" parent="rotator">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="0.002099483" y="-0.2511044" z="-0.004359245" />
+          <quaternion qx="0" qy="0" qz="-0.258819" qw="-0.9659258" />
+        </offset>
+        <parts>
+          <part name="ladder_col">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8685639" y="1.079231" z="0.3200002" />
+              <center x="-0.8618711" y="-0.216413" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.00669282" y="0.0107923" z="0.32" />
+              <center x="-1.490116e-08" y="0" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormiddle_step" group="ladder" tags="part animation trigger_interact require_docked" parent="rotator">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="0.03580598" y="-0.078069" z="0" />
+        </offset>
+        <parts>
+          <part name="middle_step">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_raw_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.606128" y="0.1364286" z="0.2518692" />
+              <center x="-0.59199" y="0.1294996" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.0141605" y="0.0661795" z="0.251869" />
+              <center x="-2.250005e-05" y="0.0661255" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortop_step_extender" group="ladder" tags="part animation trigger_interact require_docked" parent="rotator">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="1.207211e-08" y="0.316708" z="0" />
+        </offset>
+        <parts>
+          <part name="top_step_extender">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_raw_metal" />
+                  <material id="4" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6682413" y="0.5913143" z="0.3248391" />
+              <center x="-0.6051022" y="0.1162793" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.0631885" y="0.3397015" z="0.324839" />
+              <center x="-4.950352e-05" y="-0.1353335" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhandles" group="ladder" tags="part animation trigger_interact require_docked" parent="top_step_extender">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="0.01784101" y="0.188521" z="0" />
+          <quaternion qx="0" qy="0" qz="0.8433914" qw="-0.5372998" />
+        </offset>
+        <parts>
+          <part name="handles">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_raw_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7286276" y="0.3871145" z="0.3151035" />
+              <center x="-0.5761275" y="0.3712895" z="4.768372e-07" />
+            </size>
+            <size_raw>
+              <max x="0.08417001" y="0.04940951" z="0.3151035" />
+              <center x="0.06833" y="0.0335845" z="5.066395e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortop_step" group="ladder" tags="part animation trigger_interact require_docked" parent="top_step_extender">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="0.02830101" y="-0.02053499" z="0" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+        <parts>
+          <part name="top_step">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="2" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7055571" y="0.2713271" z="0.2704859" />
+              <center x="-0.4996351" y="0.2498111" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.1135895" y="0.021531" z="0.270486" />
+              <center x="0.0923325" y="1.499988e-05" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForstabilizer_right" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="2.140847" y="0.598189" z="-5.898069" />
+          <quaternion qx="0.999191" qy="-0.0003425931" qz="-0.03925824" qw="-0.008719594" />
+        </offset>
+        <parts>
+          <part name="stabilizer_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="5" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="5" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="5" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="5" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.317639" y="0.71236" z="2.211547" />
+              <center x="-1.948743" y="-0.4466174" z="1.390096" />
+            </size>
+            <size_raw>
+              <max x="4.317639" y="0.7123601" z="2.211547" />
+              <center x="-1.948743" y="-0.4466168" z="1.390095" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForstabilizer_right001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-2.14085" y="0.598189" z="-5.898069" />
+          <quaternion qx="0.999191" qy="0.0003425931" qz="0.03925824" qw="-0.008719595" />
+        </offset>
+        <parts>
+          <part name="stabilizer_right001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="5" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="5" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="5" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="5" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="6" ref="p1effects.p1_gradient_colour" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.317639" y="0.7123601" z="2.211547" />
+              <center x="1.948743" y="-0.4466174" z="1.390096" />
+            </size>
+            <size_raw>
+              <max x="4.317638" y="0.7123601" z="2.211547" />
+              <center x="1.948743" y="-0.4466175" z="1.390096" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwings" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="3.094427" y="0.354081" z="-0.399373" />
+          <quaternion qx="-0.01306854" qy="-0.05668793" qz="0.0007420857" qw="-0.9983062" />
+        </offset>
+        <parts>
+          <part name="wings">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="5" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="6" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="7" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="9" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="10" ref="generic.bigbox_mtl_decals" />
+                  <material id="11" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="12" ref="p1effects.p1_gradient_colour" />
+                  <material id="13" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="14" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="15" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="5" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="6" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="7" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="9" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="10" ref="generic.bigbox_mtl_decals" />
+                  <material id="11" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="12" ref="p1effects.p1_gradient_colour" />
+                  <material id="13" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="14" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="15" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="5" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="6" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="7" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="9" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="10" ref="generic.bigbox_mtl_decals" />
+                  <material id="11" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="12" ref="p1effects.p1_gradient_colour" />
+                  <material id="13" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="14" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="15" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="5" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="6" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="7" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="9" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="10" ref="generic.bigbox_mtl_decals" />
+                  <material id="11" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="12" ref="p1effects.p1_gradient_colour" />
+                  <material id="13" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="14" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="15" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.88296" y="0.6928775" z="3.401" />
+              <center x="1.619024" y="-0.6452085" z="-2.02922" />
+            </size>
+            <size_raw>
+              <max x="1.882959" y="0.6928776" z="3.401" />
+              <center x="1.619025" y="-0.6452082" z="-2.02922" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwings001" tags="part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-3.09443" y="0.354081" z="-0.399373" />
+          <quaternion qx="-0.01045494" qy="0.05668968" qz="-0.0005936746" qw="-0.998337" />
+        </offset>
+        <parts>
+          <part name="wings001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="5" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="6" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="7" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="9" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="10" ref="generic.bigbox_mtl_decals" />
+                  <material id="11" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="12" ref="p1effects.p1_gradient_colour" />
+                  <material id="13" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="14" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="15" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="5" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="6" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="7" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="9" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="10" ref="generic.bigbox_mtl_decals" />
+                  <material id="11" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="12" ref="p1effects.p1_gradient_colour" />
+                  <material id="13" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="14" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="15" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="5" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="6" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="7" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="9" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="10" ref="generic.bigbox_mtl_decals" />
+                  <material id="11" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="12" ref="p1effects.p1_gradient_colour" />
+                  <material id="13" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="14" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="15" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="2" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="3" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="4" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="5" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="6" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="7" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="9" ref="generic.anvl_hornet_f7a_thruster_main_mtl_pom" />
+                  <material id="10" ref="generic.bigbox_mtl_decals" />
+                  <material id="11" ref="generic.anvl_arrow_mtl_livery_02" />
+                  <material id="12" ref="p1effects.p1_gradient_colour" />
+                  <material id="13" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="14" ref="generic.anvl_arrow_mtl_metal_dark" />
+                  <material id="15" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.882962" y="0.6928774" z="3.401" />
+              <center x="-1.619026" y="-0.6452084" z="-2.02922" />
+            </size>
+            <size_raw>
+              <max x="1.882961" y="0.6928774" z="3.401" />
+              <center x="-1.619025" y="-0.6452085" z="-2.02922" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connectiontrust001" tags="part animation  ">
+				<offset>
+              <position x="-1.842155" y="0.7620574" z="2.250677" />
+              <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+            </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_01"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust002" tags="part animation  ">
+				<offset>
+              <position x="1.84215" y="0.7620574" z="2.250677" />
+              <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+            </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_02"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust003" tags="part animation  ">
+				<offset>
+              <position x="2.192491" y="0.6459035" z="-4.343859" />
+              <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+            </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_03"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust004" tags="part animation  ">
+				<offset>
+              <position x="-2.19249" y="0.6459035" z="-4.34386" />
+              <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+            </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_04"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust005" tags="part animation  ">
+				<offset>
+              <position x="-1.924137" y="-0.2107783" z="-4.23883" />
+              <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+            </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_05"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust006" tags="part animation">
+				<offset>
+              <position x="1.92414" y="-0.2107783" z="-4.23883" />
+              <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+            </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_06"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust007" tags="part animation  ">
+				<offset>
+              <position x="1.648395" y="-0.5171574" z="2.216958" />
+              <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+            </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_07"/>
+				</parts>
+			</connection>
+      <connection name="Connectiontrust008" tags="part animation  ">
+				<offset>
+              <position x="-1.64839" y="-0.5171574" z="2.216958" />
+              <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+            </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_s_01.anim_thruster_001" name="anim_thruster_08"/>
+				</parts>
+			</connection>
+
+      <connection name="Connectionchiar01" group="pilotcontrol" tags="part">
+				<offset>
+          <position x="0" y="-0.849051" z="5.67728" />
+        </offset>
+				<parts>
+					<part ref="arrow_seat.pilot_seat_mesh" name="pilot_seat_mesh"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="pilot_seat_mesh">
+				<offset>
+					<position x="0" y="0.1" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connectionchiar02" tags="part iklink  " group="pilotcontrol" parent="pilot_seat_mesh">
+				<parts>
+					<part ref="arrow_seat.pilot_seat" name="pilot_seat"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair ">
+				<offset>
+					<position x="0" y="0.625966" z="5.39602" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor " >
+				<offset>
+					<position x="0" y="0.625966" z="5.39602" />
+				</offset>
+			</connection>
+
+      
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="0.625966" z="5.39602" />
+				</offset>
+			</connection>
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="0.625966" z="5.39602" />
+        </offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-2.4" z="20"/>
+				</offset>
+			</connection>
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="0.9353511" z="5.414962" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+
+      <connection name="Connection_airlock" group="airock001" tags="part ui">
+				<parts>
+					<part ref="arrow_airlock.ejection_handle" name="ejection_handle"/>
+				</parts>
+        <offset>
+          <position x="0" y="-0.2" z="5.8" />
+        </offset>
+			</connection>
+      <connection name="Connection_airlockbox" group="airock001" tags="part ui" parent="ejection_handle">
+				<parts>
+					<part ref="arrow_airlock.box" name="box"/>
+				</parts>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="0" y="-1.04977" z="1.06614" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+      <connection name="con_npc_stand_01" tags="npc_waypoint stand npctransport ">
+				<offset>
+					<position x="0" y="0.625966" z="5.39602" />
+				</offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_arrow">
+        <offset>
+          <position x="0" y="0" z="-4" />
+        </offset>
+			</connection>
+
+      <connection name="con_turret_s_001" tags="turret small component combat aegs_arrow">
+				<offset>
+          <position x="0" y="1.01" z="0" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="component weapon small missile aegs_generic_s2_missile symmetry symmetry_left" parent="bodye">
+				<offset>
+          <position x="0.7852805" y="-0.3096882" z="-0.5720568" />
+          <quaternion qx="5.050206e-07" qy="0.7071067" qz="5.521073e-07" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="component weapon small missile aegs_generic_s2_missile symmetry symmetry_right" parent="bodyd">
+				<offset>
+          <position x="4.768372e-07" y="-0.251822" z="2.384186e-07" />
+          <quaternion qx="-4.656614e-10" qy="-1.861508e-09" qz="0" qw="-1" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_03" tags="weapon small platformcollision aegs_weapon_s2 unfixed symmetry symmetry_1">
+				<offset>
+          <position x="2.6791" y="-0.4017832" z="-0.4829011" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_04" tags="weapon small platformcollision aegs_weapon_s2 unfixed symmetry symmetry_2">
+				<offset>
+          <position x="-2.6791" y="-0.4017832" z="-0.4829011" />
+        </offset>
+			</connection>
+
+      <connection name="con_storage01" tags="storage ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield small aegs_s1 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield small aegs_s1 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      
+
+    </connections>
+  </component>
+</components>

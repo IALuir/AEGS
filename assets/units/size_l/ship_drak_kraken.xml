@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-22 10:39:20 from Blender-->
+<components>
+  <component name="ship_drak_kraken" class="ship_l">
+    <source geometry="extensions\AEGS\assets\units\size_l\ship_drak_kraken_data" />
+    <layers>
+      <layer>
+        <waypoints>
+				  <waypoint name="001" tags="sizeLevel1 typedock start dynamicmasstraffic " x="0" y="0" z="0" qx="0" qy="0" qz="-0.7071068" qw="-0.7071068">
+            <links>
+              <link ref="" />
+              <link ref="002" />
+            </links>
+          </waypoint>
+          <waypoint name="002" tags="closelink typenormal sizeLevel1 dynamicmasstraffic" x="0" y="0" z="151.6476" qx="0" qy="0" qz="0" qw="-1">
+            <links>
+              <link ref="" />
+            </links>
+          </waypoint>
+          <waypoint name="003" tags="typenormal sizeLevel1 dynamicmasstraffic closelink" x="0" y="0" z="151.6476" qx="0.7071068" qy="0.7071068" qz="0" qw="0">
+            <links>
+              <link ref="" />
+              <link ref="004" />
+            </links>
+          </waypoint>
+          <waypoint name="004" tags="sizeLevel1 typedock end dynamicmasstraffic" x="0" y="0" z="0" qx="0" qy="0" qz="0" qw="-1">
+            <links>
+              <link ref="" />
+            </links>
+          </waypoint>
+        </waypoints>
+			</layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_l ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForfx_logo" tags="part ">
+        <parts>
+          <part name="fx_logo">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_logo" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.892593" y="2.353983" z="3.287281" />
+              <center x="1.976286" y="5.559335" z="73.83928" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_01" tags="part ">
+        <parts>
+          <part name="kraken_01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_surface_landing_paint" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7405319" y="0.02993011" z="42.04294" />
+              <center x="41.10712" y="8.91068" z="15.82487" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_aux_l" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="0 "/>
+							<max value="180 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-51.99965" y="-4.12772" z="53.75414" />
+        </offset>
+        <parts>
+          <part name="kraken_aux_l">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_surface_landing_paint" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.902948" y="3.558714" z="6.562664" />
+              <center x="2.754564" y="0.2524641" z="0.3708992" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_aux_l001" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="0 "/>
+							<max value="180 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="8.08079" y="-11.93134" z="77.94283" />
+          <quaternion qx="0" qy="0" qz="0.2164396" qw="-0.976296" />
+        </offset>
+        <parts>
+          <part name="kraken_aux_l001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_surface_landing_paint" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.90295" y="3.558715" z="6.562664" />
+              <center x="2.754559" y="0.2754824" z="0.3719697" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_aux_r" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="0 "/>
+							<max value="180 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="52.24965" y="-4.125103" z="53.75635" />
+        </offset>
+        <parts>
+          <part name="kraken_aux_r">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_surface_landing_paint" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.902952" y="3.558713" z="6.562664" />
+              <center x="-2.754557" y="0.2498349" z="0.3687057" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_aux_r001" tags="part ">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="0 "/>
+							<max value="180 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-4.220367" y="-11.99911" z="77.94651" />
+          <quaternion qx="0" qy="0" qz="-0.2164396" qw="-0.976296" />
+        </offset>
+        <parts>
+          <part name="kraken_aux_r001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_surface_landing_paint" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.902954" y="3.558713" z="6.562664" />
+              <center x="-2.754547" y="0.2353648" z="0.3766289" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_engine_small_left" tags="part ">
+        <parts>
+          <part name="kraken_engine_small_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_greebles_b" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_greebles_c" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="15" ref="generic.drak_kraken_ext_mtl_dirt_decal" />
+                  <material id="16" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="17" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_greebles_b" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_greebles_c" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="15" ref="generic.drak_kraken_ext_mtl_dirt_decal" />
+                  <material id="16" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="17" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_greebles_b" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_greebles_c" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="15" ref="generic.drak_kraken_ext_mtl_dirt_decal" />
+                  <material id="16" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="17" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_greebles_b" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_greebles_c" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="15" ref="generic.drak_kraken_ext_mtl_dirt_decal" />
+                  <material id="16" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="17" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="28.04985" y="15.77783" z="15.21795" />
+              <center x="0.0007972717" y="-3.234704" z="-121.6196" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_Entryway" tags="part ">
+        <parts>
+          <part name="kraken_Entryway">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_surface_landing_a" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="15" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="16" ref="generic.drak_kraken_ext_mtl_surface_landing_paint" />
+                  <material id="17" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="18" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="19" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_surface_landing_a" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="15" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="16" ref="generic.drak_kraken_ext_mtl_surface_landing_paint" />
+                  <material id="17" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="18" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="19" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_surface_landing_a" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="15" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="16" ref="generic.drak_kraken_ext_mtl_surface_landing_paint" />
+                  <material id="17" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="18" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="19" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_surface_landing_a" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="15" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="16" ref="generic.drak_kraken_ext_mtl_surface_landing_paint" />
+                  <material id="17" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="18" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="19" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="50.82674" y="7.516033" z="74.70403" />
+              <center x="-0.006183624" y="6.295225" z="0.2238274" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_glows_sequence" tags="detail_m nocollision part ">
+        <parts>
+          <part name="kraken_glows_sequence">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_glow" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_glow" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_glow" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.014236" y="0.05244112" z="45.73462" />
+              <center x="-32.7695" y="12.61667" z="-17.22446" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_glows_side" tags="detail_m nocollision part ">
+        <parts>
+          <part name="kraken_glows_side">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_glow" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_glow" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_glow" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="13.84736" y="0.2291121" z="68.91299" />
+              <center x="-28.66801" y="12.32824" z="-5.874821" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_hangar_rear_art" tags="part ">
+        <parts>
+          <part name="kraken_hangar_rear_art">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_greebles_b" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_greebles_b" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_greebles_b" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_greebles_b" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="21.40571" y="11.38508" z="84.73622" />
+              <center x="-0.3105464" y="-12.49802" z="-13.96431" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_Line032" tags="part ">
+        <parts>
+          <part name="kraken_Line032">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles_c" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="9" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_surface_landing_paint" />
+                  <material id="15" ref="generic.drak_kraken_ext_mtl_surface_landing_a" />
+                  <material id="16" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="17" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles_c" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="9" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_surface_landing_paint" />
+                  <material id="15" ref="generic.drak_kraken_ext_mtl_surface_landing_a" />
+                  <material id="16" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="17" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles_c" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="9" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_surface_landing_paint" />
+                  <material id="15" ref="generic.drak_kraken_ext_mtl_surface_landing_a" />
+                  <material id="16" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="17" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles_c" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="9" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_surface_landing_paint" />
+                  <material id="15" ref="generic.drak_kraken_ext_mtl_surface_landing_a" />
+                  <material id="16" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="17" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="53.73783" y="16.86548" z="41.03516" />
+              <center x="0.006555557" y="0.9627266" z="86.20679" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_Line032001" tags="part ">
+        <parts>
+          <part name="kraken_Line032001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_greebles_b" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_greebles_b" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_greebles_b" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_greebles_b" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="53.81373" y="17.59315" z="50.38163" />
+              <center x="0.006308556" y="0.201683" z="76.11145" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_Object001" tags="part ">
+        <parts>
+          <part name="kraken_Object001" wreck="kraken_Object001_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_greebles_b" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_greebles_c" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_dirt_decal" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="7" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_text_decals" />
+                  <material id="15" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="16" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="17" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_greebles_b" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_greebles_c" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_dirt_decal" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="7" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_text_decals" />
+                  <material id="15" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="16" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="17" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_greebles_b" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_greebles_c" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_dirt_decal" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="7" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_text_decals" />
+                  <material id="15" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="16" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="17" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_greebles" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_greebles_b" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_greebles_c" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_dirt_decal" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="7" ref="generic.drak_caterpillar_exterior_mtl_pipes" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_text_decals" />
+                  <material id="15" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="16" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="17" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="33.78679" y="32.00696" z="94.87785" />
+              <center x="0" y="7.012735" z="-45.7039" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_Object001001" tags="part ">
+        <parts>
+          <part name="kraken_Object001001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_grunge_metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="51.91277" y="32.22066" z="65.24556" />
+              <center x="-9.536743e-07" y="6.977916" z="-75.33618" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_small_entry001" tags="part ">
+        <parts>
+          <part name="kraken_small_entry001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="2" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_greebles_d" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="9" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="11.44178" y="6.346412" z="50.50436" />
+              <center x="1.863587" y="6.67116" z="17.32137" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+
+      <connection name="Connectionthruster01" tags="part animation  " parent="kraken_aux_l">
+				<offset>
+                  <position x="3.741379" y="0.6708627" z="-5.906475" />
+                </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_01"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster02" tags="part animation  " parent="kraken_aux_l">
+				<offset>
+                  <position x="3.741379" y="-1.350513" z="-5.906475" />
+                </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_02"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster03" tags="part animation  " parent="kraken_aux_l001">
+				<offset>
+                  <position x="3.720764" y="0.7072625" z="-5.995979" />
+                  <quaternion qx="0" qy="0" qz="-0.2164396" qw="-0.9762961" />
+                </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_03"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster04" tags="part animation  " parent="kraken_aux_l001">
+				<offset>
+                  <position x="3.728028" y="-1.307696" z="-6.05307" />
+                  <quaternion qx="0" qy="0" qz="-0.2164396" qw="-0.9762961" />
+                </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_04"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster05" tags="part animation  " parent="kraken_aux_r">
+				<offset>
+                  <position x="-3.727264" y="0.6682453" z="-5.908684" />
+                </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_05"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster06" tags="part animation  " parent="kraken_aux_r">
+				<offset>
+                  <position x="-3.727264" y="-1.353131" z="-5.908684" />
+                </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_06"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster07" tags="part animation  " parent="kraken_aux_r001">
+				<offset>
+                  <position x="-3.747637" y="0.6372337" z="-5.999657" />
+                  <quaternion qx="0" qy="0" qz="0.2164395" qw="-0.9762961" />
+                </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_07"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster08" tags="part animation  " parent="kraken_aux_r001">
+				<offset>
+                  <position x="-3.735054" y="-1.369367" z="-6.056747" />
+                  <quaternion qx="0" qy="0" qz="0.2164395" qw="-0.9762961" />
+                </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_08"/>
+				</parts>
+			</connection>
+
+      <connection name="con_model_01" tags="production">
+			</connection>
+      <connection name="con_buildmodule02" tags="buildmodule">
+			</connection>
+      <connection name="con_storage01" tags="storage">
+			</connection>
+      <connection name="con_storage02" tags="storage">
+			</connection>
+
+      <connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+          <position x="0" y="33" z="-40.5674" />
+        </offset>
+			</connection>
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="33" z="-40.5674" />
+				</offset>
+			</connection>
+      <connection name="con_shiptradernpc" value="-1" tags="shiptrader ">
+			</connection>
+
+      <connection name="con_dockarea_kraken_s01" tags="dockarea ">
+        <offset>
+          <position x="29.61838" y="8.72377" z="-22.98459" />
+        </offset>
+			</connection>
+      <connection name="con_dockarea_kraken_s02" tags="dockarea ">
+        <offset>
+          <position x="29.61838" y="8.723769" z="4.016064" />
+        </offset>
+			</connection>
+      <connection name="con_dockarea_kraken_s03" tags="dockarea ">
+        <offset>
+          <position x="29.61838" y="8.825036" z="31.01455" />
+        </offset>
+			</connection>
+      <connection name="con_dockarea_kraken_s04" tags="dockarea ">
+        <offset>
+          <position x="29.61838" y="8.723768" z="58.01662" />
+        </offset>
+			</connection>
+
+      <connection name="con_dockarea_kraken_s05" tags="dockarea ">
+			</connection>
+      <connection name="con_dockarea_kraken_s06" tags="dockarea ">
+			</connection>
+
+      <connection name="con_engine_01" group="back_engine" tags="engine large component aegs_kraken">
+				<offset>
+					<position x="0" y="0" z="-131.483"/>
+				</offset>
+			</connection>
+      <connection name="con_shieldgen_001" group="back_engine  " tags="component shield medium aegs_s2 millitary">
+			</connection>
+      <connection name="con_shieldgen_002" group="back_engine  " tags="component shield medium aegs_s2 millitary">
+			</connection>
+
+      <connection name="con_turret_m_001" group="group_front" tags="turret medium component combat aegs_kraken_s6">
+				<offset>
+          <position x="1.988392" y="13.68449" z="76.06716" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_002" group="group_front" tags="turret medium component combat aegs_kraken_s6">
+				<offset>
+          <position x="1.988392" y="-19.07204" z="66.41103" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+      <connection name="con_shieldgen_003" group="group_front  " tags="component shield small aegs_s1 millitary">
+			</connection>
+
+      <connection name="con_turret_m_003" group="group_top" tags="turret medium component combat aegs_kraken_s6">
+				<offset>
+          <position x="0" y="28.77306" z="-86.89522" />
+          <quaternion qx="0" qy="1" qz="0" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_004" group="group_top" tags="turret medium component combat aegs_kraken_s6">
+				<offset>
+          <position x="29.85681" y="4.421622" z="-95.77274" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_005" group="group_top" tags="turret medium component combat aegs_kraken_s6">
+				<offset>
+          <position x="-29.8568" y="4.421622" z="-95.77274" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+      <connection name="con_shieldgen_004" group="group_top  " tags="component shield small aegs_s1 millitary">
+			</connection>
+
+      <connection name="con_turret_m_006" group="group_bottom" tags="turret medium component combat aegs_kraken_s6">
+				<offset>
+          <position x="-29.8568" y="-16.87157" z="-95.77274" />
+          <quaternion qx="0.7071068" qy="3.090862e-08" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_007" group="group_bottom" tags="turret medium component combat aegs_kraken_s6">
+				<offset>
+          <position x="29.8568" y="-16.87157" z="-95.77274" />
+          <quaternion qx="-0.7071068" qy="-3.090862e-08" qz="-0.7071068" qw="-3.090862e-08" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_008" group="group_bottom" tags="turret medium component combat aegs_kraken_s6">
+				<offset>
+          <position x="0" y="-22.51122" z="-59.09135" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+      <connection name="con_shieldgen_005" group="group_bottom  " tags="component shield small aegs_s1 millitary">
+			</connection>
+
+      <connection name="con_turret_l" group="group_front_large" tags="turret medium component combat aegs_kraken_s7">
+				<offset>
+          <position x="2.002453" y="5.948762" z="112.442" />
+        </offset>
+			</connection>
+      <connection name="con_shieldgen_006" group="group_front_large  " tags="component shield small aegs_s1 millitary">
+			</connection>
+      <connection name="con_shieldgen_007" group="group_front_large  " tags="component shield small aegs_s1 millitary">
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield large aegs_s3 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield large aegs_s3 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_03" tags="component shield large aegs_s3 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+
+      <connection name="con_shipstorage_xs_01" tags="dockingbay ">
+			</connection>
+      <connection name="con_shipstorage" tags="dockingbay ">
+			</connection>
+
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="0" y="26.1521" z="-58.7935" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071067" />
+        </offset>
+			</connection>
+    </connections>
+  </component>
+</components>

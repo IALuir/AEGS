@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-10-27 11:36:02 from Blender-->
+<components>
+  <component name="S12_launch" class="effectobject">
+    <source geometry="extensions\AEGS\assets\fx\weaponfx\S12_launch_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="effectobject" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForpart_back" tags="part animation  ">
+				<offset/>
+				<animations>
+					<animation name="playonce" start="0" end="5"/>
+				</animations>
+        <parts>
+          <part name="part_back">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="effects.bullets_fx_master" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.071068" y="7.071068" z="2.384186e-07" />
+              <center x="0" y="0" z="0.9481459" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part animation  ">
+				<offset/>
+				<animations>
+					<animation name="playonce" start="0" end="5"/>
+				</animations>
+        <parts>
+          <part name="part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="effects.bullets_fx_master" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5" y="5" z="10" />
+              <center x="0" y="0" z="-8.533562" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

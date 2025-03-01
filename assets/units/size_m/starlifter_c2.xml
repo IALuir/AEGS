@@ -1,0 +1,1620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-12-23 18:54:57 from Blender-->
+<components>
+  <component name="starlifter_c2" class="ship_m">
+    <source geometry="extensions\AEGS\assets\units\size_m\starlifter_c2_data" />
+    <layers>
+      <layer>
+        <lights>
+          <arealight name="ego_area" areax="0.09469157" areay="0.05545807" radius="0" spotattenuation="0" shadow="1" r="171" g="213" b="255" intensity="0.3343702" specularintensity="0.5" range="10" shadowrange="10" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="1.611212" y="0.5062147" z="34.35485" />
+              <quaternion qx="0" qy="0" qz="0.5224986" qw="-0.8526402" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="0.09469157" areay="0.05545807" radius="0" spotattenuation="0" shadow="1" r="171" g="213" b="255" intensity="0.3343702" specularintensity="0.5" range="10" shadowrange="10" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-1.61121" y="0.5062147" z="34.35485" />
+              <quaternion qx="0" qy="0" qz="-0.5224986" qw="-0.8526402" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="ship_m ship" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForbody" tags="part ">
+        <parts>
+          <part name="body" wreck="body_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="4" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="9" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="13" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="14" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="4" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="9" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="13" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="14" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="4" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="9" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="13" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="14" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="3" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="4" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_glass_lights" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="9" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="10" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="13" ref="generic.aegs_gladius_int_mtl_UI_Graphics" />
+                  <material id="14" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="29.37451" y="11.63281" z="47.24326" />
+              <center x="0" y="-2.839048" z="-5.455463" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody001" tags="part ">
+        <parts>
+          <part name="body001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_Red_Metal_LF" />
+                  <material id="2" ref="generic.starlifter_exterior_mtl_Decals_Int" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="4" ref="generic.starlifter_exterior_mtl_Metal_Warm_LF" />
+                  <material id="5" ref="generic.starlifter_exterior_mtl_Red_Metal_LF" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="7" ref="generic.starlifter_exterior_mtl_Glows_Thruster" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="13" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="14" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="15" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_Red_Metal_LF" />
+                  <material id="2" ref="generic.starlifter_exterior_mtl_Decals_Int" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="4" ref="generic.starlifter_exterior_mtl_Metal_Warm_LF" />
+                  <material id="5" ref="generic.starlifter_exterior_mtl_Red_Metal_LF" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="7" ref="generic.starlifter_exterior_mtl_Glows_Thruster" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="13" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="14" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="15" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_Red_Metal_LF" />
+                  <material id="2" ref="generic.starlifter_exterior_mtl_Decals_Int" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="4" ref="generic.starlifter_exterior_mtl_Metal_Warm_LF" />
+                  <material id="5" ref="generic.starlifter_exterior_mtl_Red_Metal_LF" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="7" ref="generic.starlifter_exterior_mtl_Glows_Thruster" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="13" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="14" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="15" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_Red_Metal_LF" />
+                  <material id="2" ref="generic.starlifter_exterior_mtl_Decals_Int" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="4" ref="generic.starlifter_exterior_mtl_Metal_Warm_LF" />
+                  <material id="5" ref="generic.starlifter_exterior_mtl_Red_Metal_LF" />
+                  <material id="6" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="7" ref="generic.starlifter_exterior_mtl_Glows_Thruster" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="12" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="13" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="14" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="15" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="29.34994" y="9.937117" z="46.31993" />
+              <center x="-1.430511e-06" y="-3.708991" z="-6.121468" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody002" tags="part ">
+        <parts>
+          <part name="body002">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="2" ref="generic.starlifter_int_mtl_Decal_Diffuse_Black" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="p1.cockpit_glass_inside_01" />
+                  <material id="9" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="10" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="2" ref="generic.starlifter_int_mtl_Decal_Diffuse_Black" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="p1.cockpit_glass_inside_01" />
+                  <material id="9" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="10" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="2" ref="generic.starlifter_int_mtl_Decal_Diffuse_Black" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="p1.cockpit_glass_inside_01" />
+                  <material id="9" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="10" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1effects.p1_terminal_displays_01" />
+                  <material id="2" ref="generic.starlifter_int_mtl_Decal_Diffuse_Black" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_engine_detail" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="p1.cockpit_glass_inside_01" />
+                  <material id="9" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="10" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="29.27107" y="5.854338" z="19.83464" />
+              <center x="0" y="-3.911157" z="20.36326" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbody003" tags="part ">
+        <parts>
+          <part name="body003">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.argo_mole_exterior_mtl_engine_glows" />
+                  <material id="2" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="12" ref="generic.starlifter_exterior_mtl_Engine_Trim" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.argo_mole_exterior_mtl_engine_glows" />
+                  <material id="2" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="12" ref="generic.starlifter_exterior_mtl_Engine_Trim" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.argo_mole_exterior_mtl_engine_glows" />
+                  <material id="2" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="12" ref="generic.starlifter_exterior_mtl_Engine_Trim" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.argo_mole_exterior_mtl_engine_glows" />
+                  <material id="2" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="11" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="12" ref="generic.starlifter_exterior_mtl_Engine_Trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="31.09109" y="11.59922" z="47.20358" />
+              <center x="-2.384186e-06" y="-2.799769" z="-5.468555" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcrus_starlifter_front_landinggear_skin" tags="animation iklink part anim_dockdoor">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0.000391" y="-6.368685" z="-2.000001" />
+        </offset>
+        <parts>
+          <part name="crus_starlifter_front_landinggear_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="2" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.732801" y="3.555698" z="7.537182" />
+              <center x="-0.002521032" y="-5.571197" z="0.1537371" />
+            </size>
+            <size_raw>
+              <max x="1.732801" y="2.927541" z="7.537182" />
+              <center x="-0.002521008" y="-4.94304" z="0.1537375" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcrus_starlifter_rear_l_landinggear_skin" tags="animation iklink part anim_dockdoor">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-26.99526" y="-8.541291" z="-17.82577" />
+          <quaternion qx="0" qy="0" qz="-0.6691306" qw="-0.7431448" />
+        </offset>
+        <parts>
+          <part name="crus_starlifter_rear_l_landinggear_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="9" ref="generic.starlifter_exterior_mtl_Engine_Trim" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.433228" y="3.629208" z="6.037608" />
+              <center x="-0.3738022" y="-3.302355" z="-2.489666" />
+            </size>
+            <size_raw>
+              <max x="1.40135" y="3.087353" z="6.037608" />
+              <center x="-1.40568" y="-2.760499" z="-2.489666" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcrus_starlifter_rear_l_landinggear_skin2" tags="animation iklink part anim_dockdoor">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-22.54715" y="-7.536242" z="-17.82577" />
+        </offset>
+        <parts>
+          <part name="crus_starlifter_rear_l_landinggear_skin2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="9" ref="generic.starlifter_exterior_mtl_Engine_Trim" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.751234" y="4.813836" z="0.6382408" />
+              <center x="1.622545" y="-1.838109" z="-3.677402" />
+            </size>
+            <size_raw>
+              <max x="3.559055" y="3.769457" z="0.6382403" />
+              <center x="2.814723" y="-0.7937303" z="-3.677402" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcrus_starlifter_rear_r_landinggear_skin" tags="animation iklink part anim_dockdoor">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="26.87844" y="-8.65866" z="-17.82577" />
+          <quaternion qx="0" qy="0" qz="0.6691306" qw="-0.7431448" />
+        </offset>
+        <parts>
+          <part name="crus_starlifter_rear_r_landinggear_skin">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="9" ref="generic.starlifter_exterior_mtl_Engine_Trim" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.373571" y="3.570524" z="6.037607" />
+              <center x="0.432991" y="-3.24367" z="-2.489668" />
+            </size>
+            <size_raw>
+              <max x="1.401349" y="3.087354" z="6.037607" />
+              <center x="1.405213" y="-2.7605" z="-2.489667" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForcrus_starlifter_rear_r_landinggear_skin2" tags="animation iklink part anim_dockdoor">
+        <animations>
+					<animation name="landinggears_inactive" start="1" end="1"/>
+					<animation name="landinggears_activating" start="1" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="22.33499" y="-7.61274" z="-17.82577" />
+        </offset>
+        <parts>
+          <part name="crus_starlifter_rear_r_landinggear_skin2">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="9" ref="generic.starlifter_exterior_mtl_Engine_Trim" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.858635" y="4.775931" z="0.6383123" />
+              <center x="-1.51738" y="-1.799292" z="-3.677162" />
+            </size>
+            <size_raw>
+              <max x="3.559132" y="3.769802" z="0.6383128" />
+              <center x="-2.816883" y="-0.7931621" z="-3.677163" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor_01" group="elevator_01 " tags="forceoutline anim_cockpit animation detail_xl iklink part require_docked trigger_interact ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-8.493834" y="-10.6397" z="-3.000001" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="door_01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="5" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.514763" y="0.08719063" z="2.006517" />
+              <center x="-0.8851604" y="0.03583145" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.8149049" y="0.087191" z="2.006517" />
+              <center x="-0.1853027" y="0.03583145" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor_02" group="elevator_01 " tags="forceoutline anim_cockpit animation detail_xl iklink part require_docked trigger_interact ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-6.493841" y="-10.6397" z="-3.000001" />
+        </offset>
+        <parts>
+          <part name="door_02">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="5" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.399367" y="0.08719158" z="2.006517" />
+              <center x="0.3991585" y="0.03583241" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.8149055" y="0.08719178" z="2.006517" />
+              <center x="-0.1853035" y="0.0358325" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordoor_lift_cage_mesh" group="elevator_01 " tags="forceoutline anim_cockpit animation detail_xl iklink part require_docked trigger_interact ui">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-5.954826" y="-6.477237" z="-3.000001" />
+        </offset>
+        <parts>
+          <part name="door_lift_cage_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="8" ref="p1.cockpit_glass_outside_01" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.09025192" y="2.49491" z="1.173582" />
+              <center x="-0.06967497" y="-0.02396393" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.09025186" y="1.303109" z="1.173582" />
+              <center x="-0.06967485" y="1.167837" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlower_lift_slide" group="elevator_01 " tags="forceoutline anim_cockpit animation detail_xl iklink part require_docked trigger_interact ">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="-8.844803" y="-10.375" z="-3" />
+        </offset>
+        <parts>
+          <part name="lower_lift_slide">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1691642" y="5.445017" z="0.4939115" />
+              <center x="0.05298233" y="0.6639414" z="-4.768372e-07" />
+            </size>
+            <size_raw>
+              <max x="0.169164" y="2.952448" z="0.4939115" />
+              <center x="0.052983" y="3.15651" z="-5.066395e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordecal_lower_lift_slide" tags="part " parent="lower_lift_slide">
+        <offset>
+          <position x="0" y="9.536743e-07" z="0" />
+        </offset>
+        <parts>
+          <part name="decal_lower_lift_slide">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1693468" y="5.445227" z="0.4940951" />
+              <center x="0.05298328" y="0.6639404" z="0" />
+            </size>
+            <size_raw>
+              <max x="0.169347" y="2.952658" z="0.494095" />
+              <center x="0.052983" y="3.15651" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlift_platform" group="elevator_01 " tags="forceoutline anim_cockpit animation detail_xl iklink part require_docked trigger_interact ui" parent="lower_lift_slide">
+        <animations>
+          <animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+        </animations>
+        <offset>
+          <position x="1.344803" y="1.500059" z="0" />
+        </offset>
+        <parts>
+          <part name="lift_platform">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.carrack_interior_mtl_Grate" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.39708" y="4.035199" z="1.865345" />
+              <center x="-0.03698111" y="-2.562459" z="-4.768372e-07" />
+            </size>
+            <size_raw>
+              <max x="1.39708" y="0.836375" z="1.865345" />
+              <center x="-0.03698108" y="0.6363651" z="-4.768372e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordecal_lift_platform" tags="part " parent="lift_platform">
+        <parts>
+          <part name="decal_lift_platform">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
+                  <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.382076" y="4.036435" z="1.830335" />
+              <center x="-0.05211163" y="-2.562984" z="-4.768372e-07" />
+            </size>
+            <size_raw>
+              <max x="1.382076" y="0.837611" z="1.830334" />
+              <center x="-0.05211148" y="0.6358401" z="-5.364418e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpiston_exterior_rear_ramp" tags="detail_l part animation">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-6.5022" y="-3.936129" z="-27.10505" />
+          <quaternion qx="1.384407e-05" qy="0.004297741" qz="-0.9999855" qw="-0.003259103" />
+        </offset>
+        <parts>
+          <part name="piston_exterior_rear_ramp">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.argo_mole_exterior_mtl_engine_glows" />
+                  <material id="2" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="3" ref="generic.starlifter_exterior_mtl_Decals_Int" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="8" ref="generic.starlifter_exterior_mtl_Metal_Warm_LF" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4229827" y="1.661383" z="0.6598492" />
+              <center x="0.007029533" y="0.9987831" z="-0.007715225" />
+            </size>
+            <size_raw>
+              <max x="0.4229826" y="1.661383" z="0.6598487" />
+              <center x="0.007029489" y="0.9987825" z="-0.007714987" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpiston_interio_rear_ramp" group="door " tags="detail_l part animation require_docked trigger_interact" parent="piston_exterior_rear_ramp">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-0.02717924" y="4.308652" z="0.01091194" />
+          <quaternion qx="-1.304888e-05" qy="0.005549659" qz="-0.9999752" qw="-0.004343896" />
+        </offset>
+        <parts>
+          <part name="piston_interio_rear_ramp">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.argo_mole_exterior_mtl_engine_glows" />
+                  <material id="2" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="3" ref="generic.starlifter_exterior_mtl_Decals_Int" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4378159" y="3.778754" z="1.439994" />
+              <center x="0.1928325" y="2.04144" z="-0.8523254" />
+            </size>
+            <size_raw>
+              <max x="0.4369771" y="3.029832" z="0.5790483" />
+              <center x="0.191994" y="2.790362" z="0.008621007" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpiston_exterior_rear_ramp_right" group="door " tags="detail_l part animation require_docked trigger_interact">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="6.411883" y="-3.936129" z="-27.10505" />
+          <quaternion qx="5.035894e-05" qy="-0.004373167" qz="0.9999237" qw="-0.0115518" />
+        </offset>
+        <parts>
+          <part name="piston_exterior_rear_ramp_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.argo_mole_exterior_mtl_engine_glows" />
+                  <material id="2" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="3" ref="generic.starlifter_exterior_mtl_Decals_Int" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_int_trim_wires" />
+                  <material id="8" ref="generic.starlifter_exterior_mtl_Metal_Warm_LF" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.4229825" y="1.661381" z="0.6598482" />
+              <center x="-0.007446289" y="0.9988856" z="-0.0079422" />
+            </size>
+            <size_raw>
+              <max x="0.4229826" y="1.661381" z="0.6598485" />
+              <center x="-0.007446505" y="0.9988849" z="-0.007942498" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpiston_interio_rear_ramp_right" group="door " tags="detail_l part animation require_docked trigger_interact" parent="piston_exterior_rear_ramp_right">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="0.02977514" y="4.309325" z="0.0109024" />
+          <quaternion qx="-1.679234e-05" qy="-0.005548439" qz="0.9999716" qw="-0.005096049" />
+        </offset>
+        <parts>
+          <part name="piston_interio_rear_ramp_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.argo_mole_exterior_mtl_engine_glows" />
+                  <material id="2" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="3" ref="generic.starlifter_exterior_mtl_Decals_Int" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.439949" y="3.778781" z="1.439551" />
+              <center x="-0.1946282" y="2.041734" z="-0.8519058" />
+            </size>
+            <size_raw>
+              <max x="0.436977" y="3.029851" z="0.5790483" />
+              <center x="-0.191656" y="2.790662" z="0.008598" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrear_ramp_door" group="door " tags="detail_l part animation require_docked trigger_interact ui">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-1.016135e-06" y="-8.408424" z="-23.91187" />
+        </offset>
+        <parts>
+          <part name="rear_ramp_door">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="5" ref="generic.starlifter_int_mtl_Trim_Grips_Hold" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="8" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="7.175462" y="5.21074" z="7.715299" />
+              <center x="-2.234889e-05" y="2.79064" z="-9.247833" />
+            </size>
+            <size_raw>
+              <max x="7.175462" y="4.632499" z="6.235803" />
+              <center x="-2.253056e-05" y="2.212401" z="-7.768342" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfloorlevelramp" group="door " tags="detail_l part animation require_docked trigger_interact" parent="rear_ramp_door">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-0.04446498" y="-0.5610781" z="-1.71895" />
+          <quaternion qx="-0.1815638" qy="0" qz="0" qw="-0.9833792" />
+        </offset>
+        <parts>
+          <part name="floorlevelramp">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="3" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="4" ref="generic.starlifter_exterior_mtl_Red_Metal_LF" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.445184" y="0.3608446" z="1.108627" />
+              <center x="0.04445169" y="-0.05615044" z="-0.5472965" />
+            </size>
+            <size_raw>
+              <max x="6.445184" y="0.09816346" z="0.5039213" />
+              <center x="0.04445159" y="0.2065305" z="1.15037e-05" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpavement_rear_top" group="door " tags="detail_l part animation require_docked trigger_interact ui" parent="rear_ramp_door">
+        <offset>
+          <position x="0.001636703" y="3.085863" z="-6.114788" />
+          <quaternion qx="1.490117e-07" qy="-5.216168e-07" qz="-9.270149e-09" qw="-1" />
+        </offset>
+        <parts>
+          <part name="pavement_rear_top">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.starlifter_exterior_mtl_Decals_Int" />
+                  <material id="3" ref="generic.starlifter_int_mtl_Trim_Grips_Hold" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_trim_white" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="6" ref="generic.starlifter_exterior_mtl_Red_Metal_LF" />
+                  <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="8" ref="generic.starlifter_exterior_mtl_Red_Metal_LF" />
+                  <material id="9" ref="generic.anvl_carrack_ext_mtl_grate" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.408149" y="6.062272" z="5.567143" />
+              <center x="-0.001638071" y="-3.25987" z="-1.023918" />
+            </size>
+            <size_raw>
+              <max x="6.408149" y="3.478099" z="4.12649" />
+              <center x="-0.001638055" y="-0.675697" z="0.4167366" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpavement_rear_middle" group="door " tags="detail_l part animation require_docked trigger_interact" parent="pavement_rear_top">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="-0.001645125" y="1.581457" z="-2.562275" />
+          <quaternion qx="-1.530393e-08" qy="-0.9408808" qz="-0.3387379" qw="-9.956095e-08" />
+        </offset>
+        <parts>
+          <part name="pavement_rear_middle">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.starlifter_exterior_mtl_Decals_Int" />
+                  <material id="3" ref="generic.starlifter_int_mtl_Trim_Grips_Hold" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="5" ref="generic.starlifter_exterior_mtl_Red_Metal_LF" />
+                  <material id="6" ref="generic.starlifter_exterior_mtl_Red_Metal_LF" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.997898" y="5.390123" z="10.43978" />
+              <center x="-2.563938e-07" y="-4.978171" z="-7.952782" />
+            </size>
+            <size_raw>
+              <max x="5.997898" y="0.3644501" z="5.08232" />
+              <center x="-3.576279e-07" y="0.047502" z="-2.595323" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpavement_rear_bottom" group="door " tags="detail_l part animation require_docked trigger_interact" parent="pavement_rear_middle">
+        <animations>
+					<animation name="deactivated" start="1" end="1" />
+          <animation name="activating" start="1" end="80" />
+          <animation name="active" start="80" end="80" />
+          <animation name="deactivating" start="80" end="240" />
+				</animations>
+        <offset>
+          <position x="1.11888e-06" y="0.05084991" z="0.6844406" />
+          <quaternion qx="7.450581e-08" qy="-6.225039e-07" qz="4.409026e-09" qw="-1" />
+        </offset>
+        <parts>
+          <part name="pavement_rear_bottom">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.starlifter_exterior_mtl_Decals_Int" />
+                  <material id="3" ref="generic.starlifter_int_mtl_Trim_Grips_Hold" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="5" ref="generic.starlifter_exterior_mtl_Red_Metal_LF" />
+                  <material id="6" ref="generic.starlifter_exterior_mtl_Red_Metal_LF" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.889283" y="6.107643" z="12.56268" />
+              <center x="-1.762237e-07" y="-5.804123" z="-10.61138" />
+            </size>
+            <size_raw>
+              <max x="5.889283" y="0.1480375" z="4.930126" />
+              <center x="-1.192093e-07" y="0.1554825" z="-2.978822" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForturnmechanism_l_geo" tags="  part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-29.85355" y="-8.728062" z="-6.575" />
+        </offset>
+        <parts>
+          <part name="turnmechanism_l_geo">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="6" ref="generic.argo_mole_exterior_mtl_engine_glows" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="6" ref="generic.argo_mole_exterior_mtl_engine_glows" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="6" ref="generic.argo_mole_exterior_mtl_engine_glows" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="6" ref="generic.argo_mole_exterior_mtl_engine_glows" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.36204" y="5.192646" z="8.292192" />
+              <center x="3.036581" y="3.160066" z="-8.697616" />
+            </size>
+            <size_raw>
+              <max x="8.36204" y="5.192646" z="8.292192" />
+              <center x="3.036582" y="3.160066" z="-8.697616" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForturnmechanism_r_geo" tags=" part animation">
+        <animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="80"/>
+					<animation name="landinggears_active" start="80" end="80"/>
+					<animation name="landinggears_deactivating" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="29.85355" y="-8.728069" z="-6.575004" />
+        </offset>
+        <parts>
+          <part name="turnmechanism_r_geo">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="6" ref="generic.argo_mole_exterior_mtl_engine_glows" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="6" ref="generic.argo_mole_exterior_mtl_engine_glows" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="6" ref="generic.argo_mole_exterior_mtl_engine_glows" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
+                  <material id="5" ref="generic.aegs_redeemer_mtl_decal_leaks" />
+                  <material id="6" ref="generic.argo_mole_exterior_mtl_engine_glows" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.362028" y="5.192755" z="8.292147" />
+              <center x="-3.036592" y="3.160096" z="-8.697658" />
+            </size>
+            <size_raw>
+              <max x="8.362028" y="5.192755" z="8.292146" />
+              <center x="-3.036593" y="3.160096" z="-8.697658" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connection01" group="transporter_01 " tags="location_cockpit ">
+				<offset>
+          <position x="0" y="-0.35" z="28.0284" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.part_main" name="part_main"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part iklink  " parent="part_main">
+				<offset>
+					<position x="0" y="5.153775E-02" z="3.353691E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals" name="detail_m_decals"/>
+				</parts>
+			</connection>
+			<connection name="Connection03" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="0.54566" y="0.007" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_left" name="anim_door_left"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection04" tags="part iklink  " parent="anim_door_left">
+				<offset>
+					<position x="-0.4329364" y="3.16143E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_left" name="detail_m_decals_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part nocollision iklink  " parent="anim_door_left">
+				<offset>
+					<position x="6.043839E-02" y="9.536743E-07" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_left" name="detail_m_light_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection06" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="-0.54566" y="0.008" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_right" name="anim_door_right"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection07" tags="part iklink  " parent="anim_door_right">
+				<offset>
+					<position x="0.4321223" y="3.553271E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_right" name="detail_m_decals_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part nocollision iklink  " parent="anim_door_right">
+				<offset>
+					<position x="-6.110048E-02" y="3.925562E-04" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_right" name="detail_m_light_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection09" group="transporter_01 " tags="part detail_l  " parent="part_main">
+				<offset>
+					<position x="1.205526" y="0.04" z="-0.1"/>
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_l_button" name="detail_l_button"/>
+				</parts>
+			</connection>
+			<connection name="Connection10" group="transporter_01 " tags="part  " parent="part_main">
+				<offset>
+					<position x="0" y="1.14" z="0.9"/>
+					<quaternion qx="0.7071066" qy="-0" qz="-0" qw="-0.7071069"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.dummy_sound_animation" name="dummy_sound_animation"/>
+				</parts>
+			</connection>
+      <connection name="con_npc_stand_001" group="transporter_01" tags="npc_waypoint stand npctransport ">
+				<offset>
+          <position x="0" y="-0.35" z="28.0284" />
+        </offset>
+			</connection>
+      
+
+      <connection name="Connectionthruster01" tags="part animation  ">
+				<offset>
+          <position x="5.464911" y="-1.144131" z="28.45438" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_01"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster02" tags="part animation  ">
+				<offset>
+          <position x="-5.46491" y="-1.144131" z="28.45438" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_02"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster03" tags="part animation  ">
+				<offset>
+          <position x="-5.259196" y="-3.144495" z="28.38855" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_03"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster04" tags="part animation  ">
+				<offset>
+          <position x="5.2592" y="-3.144495" z="28.38855" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_04"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster05" tags="part animation  ">
+				<offset>
+          <position x="8.651599" y="-2.603942" z="21.70743" />
+          <quaternion qx="0.6427493" qy="0.4803528" qz="-0.3002369" qw="-0.5157444" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_05"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster06" tags="part animation  ">
+				<offset>
+          <position x="-8.6516" y="-2.603942" z="21.70743" />
+          <quaternion qx="0.6427493" qy="-0.4803527" qz="0.3002369" qw="-0.5157445" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_06"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster07" tags="part animation  ">
+				<offset>
+          <position x="-10.45583" y="0.2557344" z="1.125927" />
+          <quaternion qx="-0.7010574" qy="-0.4304594" qz="-0.09229594" qw="-0.5609855" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_07"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster08" tags="part animation  ">
+				<offset>
+          <position x="10.4558" y="0.2557344" z="1.125927" />
+          <quaternion qx="-0.7010574" qy="0.4304594" qz="0.09229594" qw="-0.5609855" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_08"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster09" tags="part animation  ">
+				<offset>
+          <position x="-2.706424" y="7.582413" z="-19.76009" />
+          <quaternion qx="-0.7010574" qy="-0.2705981" qz="-0.09229594" qw="-0.6532815" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_09"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster10" tags="part animation  ">
+				<offset>
+          <position x="2.70642" y="7.582413" z="-19.76009" />
+          <quaternion qx="-0.7010574" qy="0.2705981" qz="0.09229595" qw="-0.6532815" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_10"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster11" tags="part animation  ">
+				<offset>
+          <position x="21.29811" y="-0.6280683" z="-33.91359" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_11"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster12" tags="part animation  ">
+				<offset>
+          <position x="-21.2981" y="-0.6280683" z="-33.91359" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_12"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster13" tags="part animation  ">
+				<offset>
+          <position x="-6.829439" y="-11.68579" z="-22.73507" />
+          <quaternion qx="0.6755902" qy="0" qz="0" qw="-0.7372774" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_13"/>
+				</parts>
+			</connection>
+      <connection name="Connectionthruster14" tags="part animation  ">
+				<offset>
+          <position x="6.82944" y="-11.68579" z="-22.73507" />
+          <quaternion qx="0.6755902" qy="0" qz="0" qw="-0.7372774" />
+        </offset>
+				<animations/>
+				<parts>
+					<part ref="thruster_ship_m_01.anim_thruster_00" name="anim_thruster_14"/>
+				</parts>
+			</connection>
+
+      
+
+      <connection name="Connection36" group="pilotcontrol" tags="part ui">
+				<offset>
+          <position x="-1" y="-1.65404" z="34.762" />
+        </offset>
+				<parts>
+					<part ref="starlifter_seat.seat" name="seat"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="control" tags="npc pilot sit_pilot sit_terminal_left sit_terminal_right" value="-1" group="pilotcontrol" parent="seat">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connection37" tags="part iklink  " group="pilotcontrol" parent="seat">
+				<parts>
+					<part ref="starlifter_seat.seat2" name="seat2"/>
+				</parts>
+			</connection>
+      <connection name="con_tochair001" group="pilotcontrol" tags="tochair " >
+				<offset>
+					<position x="-1" y="-0.15404" z="36.262" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor001" group="pilotcontrol" tags="uianchor " >
+				<offset>
+					<position x="-1" y="-0.15404" z="37.262" />
+				</offset>
+			</connection>
+
+      <connection name="Connection38" group="gunnercontrol" tags="part ui">
+				<offset>
+          <position x="1" y="-1.65404" z="34.762" />
+        </offset>
+				<parts>
+					<part ref="starlifter_seat.seat" name="seat3"/>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="con_control02" tags="npc service sit iklink" value="-1" group="gunnercontrol" parent="seat3">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="Connection39" tags="part iklink  " group="gunnercontrol" parent="seat3">
+				<parts>
+					<part ref="starlifter_seat.seat2" name="seat4"/>
+				</parts>
+			</connection>
+      <connection name="con_tochair002" group="gunnercontrol" tags="tochair " >
+				<offset>
+					<position x="1" y="-0.15404" z="36.262" />
+				</offset>
+			</connection>
+			<connection name="con_uianchor002" group="gunnercontrol" tags="uianchor " >
+				<offset>
+					<position x="1" y="-0.15404" z="37.262" />
+				</offset>
+			</connection>
+
+      <connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+          <position x="11.41526" y="-11.74991" z="-10.68767" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+      <connection name="con_countermeasures_02" tags="countermeasures ">
+				<offset>
+          <position x="-11.4153" y="-11.74991" z="-10.68767" />
+          <quaternion qx="-1.672763e-08" qy="-0.9238796" qz="0.3826835" qw="-4.038406e-08" />
+        </offset>
+			</connection>
+
+      <connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+          <position x="7.50102" y="-9.39471" z="-3.01097" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+			</connection>
+
+      <connection name="con_cockpit" tags="cockpit cockpit_visible">
+        <offset>
+					<position x="-1.00498" y="0.287535" z="37.4535" />
+				</offset>
+			</connection>
+      <connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-15.5" z="80"/>
+				</offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_starlifter">
+				<offset>
+					<position x="0" y="0" z="-25.4847"/>
+				</offset>
+			</connection>
+
+      <connection name="storage" tags="part">
+			</connection>
+
+      <connection name="con_turret_m_001" tags="turret small component combat aegs_starlifter">
+				<offset>
+          <position x="0" y="6.087293" z="-27.45362" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-4.371139e-08" />
+        </offset>
+			</connection>
+      <connection name="con_turret_m_002" tags="turret small component combat aegs_starlifter">
+				<offset>
+          <position x="0" y="-12.94501" z="-14.62854" />
+          <quaternion qx="-1" qy="-4.371139e-08" qz="-4.371139e-08" qw="0" />
+        </offset>
+			</connection>
+
+      <connection name="con_primaryweapon_01" tags="weapon small platformcollision aegs_weapon_s5">
+				<offset>
+          <position x="6.963888" y="-3.365041" z="21.57264" />
+        </offset>
+			</connection>
+      <connection name="con_primaryweapon_02" tags="weapon small platformcollision aegs_weapon_s5">
+				<offset>
+          <position x="-6.96389" y="-3.365041" z="21.57264" />
+        </offset>
+			</connection>
+
+      <connection name="con_shield_01" tags="component shield medium aegs_s2 civilian">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+      <connection name="con_shield_02" tags="component shield medium aegs_s2 millitary">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+    </connections>
+  </component>
+</components>

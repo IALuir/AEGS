@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-06 13:00:28 from Blender-->
+<components>
+  <component name="weapon_fl_s2" class="weapon">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\generic\S2\weapon_fl_s2_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="weapon" />
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionFormain" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-8"/>
+							<max value="8"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.02025001" y="0.02025001" z="0.02025001" />
+              <center x="-4.656613e-10" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbas" tags="part " parent="main">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-8"/>
+							<max value="8"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-0.001281" y="0" z="0" />
+        </offset>
+        <parts>
+          <part name="bas">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.kron_mastermaterial_mtl_pom" />
+                  <material id="2" ref="generic.kron_mastermaterial_mtl_decals" />
+                  <material id="3" ref="generic.kron_mastermaterial_mtl_I_trim" />
+                  <material id="4" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="5" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.kron_mastermaterial_mtl_H_rubber_01_A" />
+                  <material id="10" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="11" ref="generic.kron_mastermaterial_mtl_H_plastic_01_A" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.kron_mastermaterial_mtl_pom" />
+                  <material id="2" ref="generic.kron_mastermaterial_mtl_decals" />
+                  <material id="3" ref="generic.kron_mastermaterial_mtl_I_trim" />
+                  <material id="4" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="5" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.kron_mastermaterial_mtl_H_rubber_01_A" />
+                  <material id="10" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="11" ref="generic.kron_mastermaterial_mtl_H_plastic_01_A" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.kron_mastermaterial_mtl_pom" />
+                  <material id="2" ref="generic.kron_mastermaterial_mtl_decals" />
+                  <material id="3" ref="generic.kron_mastermaterial_mtl_I_trim" />
+                  <material id="4" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="5" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.kron_mastermaterial_mtl_H_rubber_01_A" />
+                  <material id="10" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="11" ref="generic.kron_mastermaterial_mtl_H_plastic_01_A" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.kron_mastermaterial_mtl_pom" />
+                  <material id="2" ref="generic.kron_mastermaterial_mtl_decals" />
+                  <material id="3" ref="generic.kron_mastermaterial_mtl_I_trim" />
+                  <material id="4" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="5" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.kron_mastermaterial_mtl_H_rubber_01_A" />
+                  <material id="10" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="11" ref="generic.kron_mastermaterial_mtl_H_plastic_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.1391645" y="0.3286359" z="0.8457032" />
+              <center x="0.001282778" y="-0.3266249" z="0.2666878" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbar_main_lvl1" tags="part animation" parent="bas">
+        <animations>
+					<animation name="weapon_firing" start="0" end="20"/>
+				</animations>
+        <offset>
+          <position x="0.001281" y="-0.3223854" z="0.3930065" />
+        </offset>
+        <parts>
+          <part name="bar_main_lvl1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.kron_mastermaterial_mtl_I_trim" />
+                  <material id="2" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="3" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="4" ref="generic.kron_mastermaterial_mtl_pom" />
+                  <material id="5" ref="generic.kron_mastermaterial_mtl_decals" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="p1effects.p1_gradient_colour" />
+                  <material id="8" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.0905515" y="0.1548057" z="0.8085765" />
+              <center x="-5.066395e-07" y="0" z="0.8137322" />
+            </size>
+            <size_raw>
+              <max x="0.0905515" y="0.1548057" z="0.7435209" />
+              <center x="-5.047768e-07" y="0" z="0.8787879" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="bar_main_lvl1">
+        <offset>
+          <position x="0" y="-0.001859367" z="1.620259" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="weapon small platformcollision aegs_weapon_s2">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

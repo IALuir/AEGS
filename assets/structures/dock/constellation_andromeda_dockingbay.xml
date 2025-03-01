@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-04-03 11:56:39 from Blender-->
+<components>
+  <component name="constellation_andromeda_dockingbay" class="dockingbay">
+    <source geometry="extensions\aegs\assets\structures\dock\constellation_andromeda_dockingbay_data" />
+    <layers>
+      <layer>
+        <lights>
+          <arealight name="ego_area" areax="0.25" areay="0.25" radius="0" spotattenuation="0" shadow="1" r="255" g="255" b="255" intensity="0.6" specularintensity="1" range="5" shadowrange="0" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="4.295104" z="-25.80844" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="dockingbay">
+				<offset/>
+			</connection>
+      <connection name="ConnectionFordock_plat" tags="part ">
+        <offset>
+          <position x="0.0008233205" y="1.899876" z="-26.14001" />
+        </offset>
+        <parts>
+          <part name="dock_plat">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="p1effects.p1_gradient_colour" />
+                  <material id="3" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="4" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="5" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="6" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="7" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="8" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="9" ref="generic.rsi_bengal_exterior_mtl_rusty_detail" />
+                  <material id="10" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="11" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="12" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="13" ref="generic.idris_hangar_mtl_floors_b" />
+                  <material id="14" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="15" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                  <material id="16" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="17" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="18" ref="generic.rsi_constellation_ext_mtl_thruster_glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.352102" y="0.4419445" z="1.833518" />
+              <center x="-0.0008243024" y="0.002653241" z="-0.2153578" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhatch_main_left" tags="part animation">
+        <animations>
+					<animation name="dockingbay_closed" start="1" end="1"/>
+					<animation name="dockingbay_opening" start="1" end="80"/>
+					<animation name="dockingbay_open" start="80" end="80"/>
+					<animation name="dockingbay_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.7115098" y="1.587585" z="-23.39144" />
+          <quaternion qx="0" qy="0" qz="0.004791568" qw="-0.9999886" />
+        </offset>
+        <parts>
+          <part name="hatch_main_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="3" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="5" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.550463" y="0.3777375" z="2.679182" />
+              <center x="-0.8395833" y="0.1102345" z="-2.34066" />
+            </size>
+            <size_raw>
+              <max x="1.029026" y="0.3777374" z="2.679182" />
+              <center x="-0.318146" y="0.1102345" z="-2.34066" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhinge_secondary_left" tags="part animation" parent="hatch_main_left">
+        <animations>
+					<animation name="dockingbay_closed" start="1" end="1"/>
+					<animation name="dockingbay_opening" start="1" end="80"/>
+					<animation name="dockingbay_open" start="80" end="80"/>
+					<animation name="dockingbay_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.52164" y="-0.01552401" z="-2.48122" />
+          <quaternion qx="0" qy="0" qz="4.656616e-10" qw="-1" />
+        </offset>
+        <parts>
+          <part name="hinge_secondary_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="3" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7560892" y="0.1255844" z="0.9783154" />
+              <center x="-0.3220664" y="-0.09259939" z="0.998991" />
+            </size>
+            <size_raw>
+              <max x="0.2346518" y="0.1255844" z="0.9783155" />
+              <center x="0.199371" y="-0.0925995" z="0.9989905" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhatch_secondary_left" tags="part animation" parent="hinge_secondary_left">
+        <animations>
+					<animation name="dockingbay_closed" start="1" end="1"/>
+					<animation name="dockingbay_opening" start="1" end="80"/>
+					<animation name="dockingbay_open" start="80" end="80"/>
+					<animation name="dockingbay_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0.3784501" y="-0.2391163" z="0.2508469" />
+          <quaternion qx="0" qy="0" qz="-4.65661e-10" qw="-1" />
+        </offset>
+        <parts>
+          <part name="hatch_secondary_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="3" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="4" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                  <material id="5" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="6" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="7" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="8" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="9" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.278093" y="0.4804436" z="2.107933" />
+              <center x="-0.4159163" y="-0.04452229" z="-0.09162521" />
+            </size>
+            <size_raw>
+              <max x="0.5539644" y="0.4223505" z="2.107933" />
+              <center x="0.3082115" y="0.01357042" z="-0.09162605" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhatch_main_right" tags="part animation">
+        <animations>
+					<animation name="dockingbay_closed" start="1" end="1"/>
+					<animation name="dockingbay_opening" start="1" end="80"/>
+					<animation name="dockingbay_open" start="80" end="80"/>
+					<animation name="dockingbay_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0.71151" y="1.584526" z="-23.39144" />
+          <quaternion qx="0" qy="0" qz="0.001190575" qw="-0.9999993" />
+        </offset>
+        <parts>
+          <part name="hatch_main_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="3" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="4" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="5" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="6" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.549719" y="0.3777372" z="2.679182" />
+              <center x="0.8388399" y="0.1102273" z="-2.34066" />
+            </size>
+            <size_raw>
+              <max x="1.029026" y="0.3777373" z="2.679182" />
+              <center x="0.318146" y="0.1102275" z="-2.34066" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhinge_secondary_right" tags="part animation" parent="hatch_main_right">
+        <animations>
+					<animation name="dockingbay_closed" start="1" end="1"/>
+					<animation name="dockingbay_opening" start="1" end="80"/>
+					<animation name="dockingbay_open" start="80" end="80"/>
+					<animation name="dockingbay_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="0.5216396" y="-0.01552405" z="-2.481218" />
+        </offset>
+        <parts>
+          <part name="hinge_secondary_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="3" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.7553155" y="0.125769" z="0.9783154" />
+              <center x="0.3213644" y="-0.09280705" z="0.998991" />
+            </size>
+            <size_raw>
+              <max x="0.2346214" y="0.1257689" z="0.9783155" />
+              <center x="-0.1993295" y="-0.09280699" z="0.9989905" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForhatch_secondary_right" tags="part animation" parent="hinge_secondary_right">
+        <animations>
+					<animation name="dockingbay_closed" start="1" end="1"/>
+					<animation name="dockingbay_opening" start="1" end="80"/>
+					<animation name="dockingbay_open" start="80" end="80"/>
+					<animation name="dockingbay_closing" start="80" end="240"/>
+				</animations>
+        <offset>
+          <position x="-0.37845" y="-0.2392301" z="0.250845" />
+        </offset>
+        <parts>
+          <part name="hatch_secondary_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="3" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="4" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                  <material id="5" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="6" ref="generic.rsi_constellation_interior_mtl_wires" />
+                  <material id="7" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="8" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="9" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.27703" y="0.4825571" z="2.107932" />
+              <center x="0.4148538" y="-0.04664278" z="-0.09162712" />
+            </size>
+            <size_raw>
+              <max x="0.5539646" y="0.4223447" z="2.107933" />
+              <center x="-0.3082115" y="0.01356936" z="-0.09162605" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFornose_clamp" tags="part ">
+        <offset>
+          <position x="-4e-06" y="0.735549" z="-18.63544" />
+        </offset>
+        <parts>
+          <part name="nose_clamp">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_constellation_ext_mtl_ext_hull_d" />
+                  <material id="3" ref="generic.misc_prospector_interior_mtl_metal_painted_dark" />
+                  <material id="4" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.052585" y="0.426489" z="0.368695" />
+              <center x="-5.960464e-08" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortail_mesh" tags="part ">
+        <offset>
+          <position x="1.387444e-06" y="2.785412" z="-23.63776" />
+        </offset>
+        <parts>
+          <part name="tail_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_scorpius_mtl_Damage_Internal_Tile_Alpha" />
+                  <material id="2" ref="p1.cockpit_glass_outside_01" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="generic.misc_prospector_mtl_Exterior_Leather" />
+                  <material id="5" ref="generic.rsi_constellation_interior_mtl_int_metal_a" />
+                  <material id="6" ref="generic.anvl_lightning_f8_mtl_interior_dark" />
+                  <material id="7" ref="generic.anvl_lightning_f8_mtl_interior_metal" />
+                  <material id="8" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="9" ref="generic.rsi_constellation_interior_mtl_accent" />
+                  <material id="10" ref="generic.rsi_constellation_interior_mtl_chrome" />
+                  <material id="11" ref="generic.rsi_scorpius_mtl_Grate_Metal_Alpha_Tile" />
+                  <material id="12" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
+                  <material id="13" ref="generic.rsi_constellation_interior_mtl_decals_diffuse" />
+                  <material id="14" ref="generic.rsi_constellation_interior_mtl_wires" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.224108" y="1.533307" z="3.330546" />
+              <center x="-0.02875262" y="0.7703636" z="-2.129865" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="Connection01" group="transporter_01 " tags="part ">
+				<offset>
+          <position x="0" y="3.311704" z="-22.06014" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-4.371139e-08" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.part_main" name="part_main"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part iklink  " parent="part_main">
+				<offset>
+					<position x="0" y="5.153775E-02" z="3.353691E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals" name="detail_m_decals"/>
+				</parts>
+			</connection>
+			<connection name="Connection03" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="0.54566" y="0.007" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_left" name="anim_door_left"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection04" tags="part iklink  " parent="anim_door_left">
+				<offset>
+					<position x="-0.4329364" y="3.16143E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_left" name="detail_m_decals_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part nocollision iklink  " parent="anim_door_left">
+				<offset>
+					<position x="6.043839E-02" y="9.536743E-07" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_left" name="detail_m_light_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection06" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="-0.54566" y="0.008" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_right" name="anim_door_right"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection07" tags="part iklink  " parent="anim_door_right">
+				<offset>
+					<position x="0.4321223" y="3.553271E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_right" name="detail_m_decals_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part nocollision iklink  " parent="anim_door_right">
+				<offset>
+					<position x="-6.110048E-02" y="3.925562E-04" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_right" name="detail_m_light_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection09" group="transporter_01 " tags="part detail_l  " parent="part_main">
+				<offset>
+					<position x="1.205526" y="0.04" z="-0.1"/>
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_l_button" name="detail_l_button"/>
+				</parts>
+			</connection>
+			<connection name="Connection10" group="transporter_01 " tags="part  " parent="part_main">
+				<offset>
+					<position x="0" y="1.14" z="0.9"/>
+					<quaternion qx="0.7071066" qy="-0" qz="-0" qw="-0.7071069"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.dummy_sound_animation" name="dummy_sound_animation"/>
+				</parts>
+			</connection>
+      <connection name="con_npc_stand_001" group="transporter_01" tags="npc_waypoint stand npctransport ">
+				<offset>
+          <position x="0" y="2.97512" z="4.01271" />
+        </offset>
+			</connection>
+
+      <connection name="con_dockpos" tags="dockpos ">
+        <offset>
+          <position x="0" y="-0.376414" z="-4.62795" />
+        </offset>
+      </connection>
+      <connection name="con_dockpos_pivot" tags="dockpos_pivot ">
+        <offset>
+          <position x="0" y="-0.376414" z="-4.62795" />
+        </offset>
+      </connection>
+
+      <connection name="launchpos" tags="launchpos ">
+        <offset>
+          <position x="0" y="-3.376414" z="-4.62795" />
+        </offset>
+      </connection>
+      <connection name="todockpos" tags="todock ">
+        <offset>
+          <position x="0" y="-3.376414" z="-4.62795" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

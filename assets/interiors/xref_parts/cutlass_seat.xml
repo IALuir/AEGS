@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-30 20:26:06 from Blender-->
+<components>
+  <component name="cutlass_seat" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\cutlass_seat_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="positional" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForcopilot_platform" tags="part animation ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation">
+        <animations>
+					<animation name="chair_default_inactive" start="1" end="1"/>
+					<animation name="chair_default_activating" start="1" end="80"/>
+					<animation name="chair_default_active" start="80" end="80"/>
+					<animation name="chair_default_deactivating" start="80" end="240"/>
+					<animation name="chair_paranid_inactive" start="1" end="1"/>
+					<animation name="chair_paranid_activating" start="1" end="80"/>
+					<animation name="chair_paranid_active" start="8" end="80"/>
+					<animation name="chair_paranid_deactivating" start="80" end="240"/>
+					<animation name="chair_default_to_paranid" start="1" end="1"/>
+					<animation name="chair_paranid_to_default" start="1" end="1"/>
+				</animations>
+        <parts>
+          <part name="copilot_platform">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="2" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="3" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="4" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="5" ref="generic.drak_caterpillar_exterior_mtl_grate" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="7" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="8" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="10" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="11" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="12" ref="generic.drak_cutlass_black_mtl_rubber_grip" />
+                  <material id="13" ref="p1effects.p1_gradient_colour" />
+                  <material id="14" ref="p1effects.p1_gradient_colour" />
+                  <material id="15" ref="generic.drak_caterpillar_interior_mtl_buttons" />
+                  <material id="16" ref="p1effects.p1_terminal_displays_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.448811" y="1.767144" z="0.8042721" />
+              <center x="0" y="1.423329" z="0.5284633" />
+            </size>
+            <size_raw>
+              <max x="1.448811" y="0.6936435" z="0.8042721" />
+              <center x="0" y="0.3498285" z="0.5284633" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordrak_cutlass_copilot_geo" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="copilot_platform">
+        <offset>
+          <position x="0.001922" y="0.1851249" z="-0.01022434" />
+        </offset>
+        <parts>
+          <part name="drak_cutlass_copilot_geo">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="2" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="3" ref="generic.drak_caterpillar_interior_mtl_decals_pom" />
+                  <material id="4" ref="generic.drak_caterpillar_interior_mtl_decals_diffuse" />
+                  <material id="5" ref="generic.drak_caterpillar_interior_mtl_pipes" />
+                  <material id="6" ref="generic.drak_caterpillar_interior_mtl_atlas" />
+                  <material id="7" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="8" ref="generic.misc_prospector_interior_mtl_BlackMetal_Matte" />
+                  <material id="9" ref="generic.drak_caterpillar_interior_mtl_cloth_atlas" />
+                  <material id="10" ref="generic.drak_caterpillar_interior_mtl_stich" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.382855" y="1.827246" z="0.526612" />
+              <center x="0.01587201" y="1.582587" z="-0.170005" />
+            </size>
+            <size_raw>
+              <max x="0.382855" y="0.753746" z="0.526612" />
+              <center x="0.01587199" y="0.509087" z="-0.170005" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

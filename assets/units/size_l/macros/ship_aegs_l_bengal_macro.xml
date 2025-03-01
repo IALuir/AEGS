@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<macros>
+  <macro name="ship_aegs_l_bengal_macro" class="ship_l">
+    <component ref="ship_aegs_l_bengal" />
+    <properties>
+      <identification name="{996666,7}" basename="{996666,7}" makerrace="terran" description="{996666,8}" icon="ship_l_carrier_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk2" default="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <explosiondamage value="1500" shield="7500" />
+      <storage missile="400" unit="20" />
+      <hull max="137000" />
+      <secrecy level="2" />
+      <purpose primary="fight" />
+      <people capacity="476" />
+      <physics mass="341.545">
+        <inertia pitch="118.961" yaw="95.169" roll="118.961" />
+        <drag forward="218.9" reverse="475.47" horizontal="32.5" vertical="32.5" pitch="112.976" yaw="112.976" roll="112.976" />
+      </physics>
+      <thruster tags="large" />
+      <ship type="carrier" />
+      <radar range="50000" />
+    </properties>
+    <connections>
+      <connection ref="con_buildmodule">
+        <macro ref="buildmodule_bengal_macro" connection="object" />
+      </connection>
+      <connection ref="con_cockpit">
+        <macro ref="bridge_arg_xl_01_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="con_dockarea_bengal">
+        <macro ref="launchtube_arg_s_01_macro" connection="Connection02" />
+      </connection>
+      <!-- <connection ref="con_dockarea_bengal2">
+        <macro ref="dockarea_aegs_bengal_dockbaya_macro" connection="Connection01" />
+      </connection> -->
+      <connection ref="con_dockarea_bengal3">
+        <macro ref="dockarea_aegs_bengal_m_macro" connection="con_dockarea_01" />
+      </connection>
+
+      <connection ref="con_dock_xs">
+        <macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component" />
+      </connection>
+      <connection ref="con_shipstorage02">
+        <macro ref="shipstorage_gen_s_01_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage03">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage04">
+        <macro ref="shipstorage_aegs_bengal_m_macro" connection="object" />
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="storage_aegs_bengal_macro" connection="ShipConnection" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

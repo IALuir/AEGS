@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-06-01 18:18:30 from Blender-->
+<components>
+  <component name="carrack_turret_1_ad" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\carrack\carrack_turret_1_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForturret" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="turret">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1.cockpit_glass_outside_01" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="5" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="6" ref="generic.anvl_pisces_ext_mtl_MD_Decal_POM" />
+                  <material id="7" ref="generic.vncl_scythe_mtl_decal_text" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.634055" y="0.9797833" z="2.868936" />
+              <center x="0.0003039539" y="0.9762467" z="0.6059577" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForad_part_main" tags="part " parent="turret">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-30.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-1.58208" y="1.259339" z="0.08681355" />
+        </offset>
+        <parts>
+          <part name="ad_part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_mastermaterial_2_mtl_pom" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.behr_mastermaterial_2_mtl_decals" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.009469" y="0.4068187" z="3.343036" />
+              <center x="1.58208" y="0.004027247" z="2.214659" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ad_laser" tags="laser " parent="ad_part_main">
+        <offset>
+          <position x="-0.7453146" y="0.005174279" z="5.494133" />
+        </offset>
+      </connection>
+      <connection name="ad_laser001" tags="laser " parent="ad_part_main">
+        <offset>
+          <position x="3.894197" y="0.005174279" z="5.494133" />
+        </offset>
+      </connection>
+      
+
+      <connection name="con_turret_laser_m" tags="turret medium component combat aegs_carrack_s4">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

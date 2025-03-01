@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-10 19:08:00 from Blender-->
+<components>
+  <component name="sabre_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\sabre_engine_data" />
+    <layers>
+      <layer>
+        <trailemitters>
+          <emitter name="trail_aegs_s_01" type="trail_aegs_s_01">
+            <offset>
+              <position x="-2.17653" y="0.407558" z="-4.994337" />
+            </offset>
+          </emitter>
+        </trailemitters>
+        <trailemitters>
+          <emitter name="trail_aegs_s_02" type="trail_aegs_s_01">
+            <offset>
+              <position x="2.17653" y="0.407558" z="-4.994337" />
+            </offset>
+          </emitter>
+        </trailemitters>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForpart_fx" tags="part ">
+        <parts>
+          <part name="part_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_mtl_engines_glow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.988465" y="0.2450091" z="0.6990704" />
+              <center x="-5.960464e-07" y="0.3898306" z="-0.9443728" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vanguard_interior_warden_mtl_decals_pom" />
+                  <material id="2" ref="generic.sabre_mtl_engines_glow" />
+                  <material id="3" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="4" ref="generic.aegs_sabre_thruster_mav_joint_01_mtl_metal_dark_glossy" />
+                  <material id="5" ref="generic.sabre_mtl_metal_bare" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.117589" y="0.5887785" z="1.13821" />
+              <center x="-1.370907e-06" y="0.4375694" z="-0.7495777" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_sabre">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

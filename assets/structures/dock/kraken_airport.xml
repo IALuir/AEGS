@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-11-22 22:55:10 from Blender-->
+<components>
+  <component name="kraken_airport" class="dockingbay">
+    <source geometry="extensions\aegs\assets\structures\dock\kraken_airport_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="dockingbay">
+				<offset/>
+			</connection>
+      <connection name="ConnectionFordockroom" tags="part ">
+        <offset>
+          <position x="-18.0" y="1.23897" z="-0.426442" />
+        </offset>
+        <parts>
+          <part name="dockroom">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.405156" y="1.836902" z="1.41935" />
+              <center x="-0.01419887" y="0.4903392" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfence" tags="part ">
+        <parts>
+          <part name="fence">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="19.67125" y="1" z="12.80098" />
+              <center x="0.02615643" y="1" z="-0.7106282" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForkraken_Platform" tags="part platformcollision walk_dockingbay animation">
+        <animations>
+					<animation name="dockingbay_idle" start="0" end="0"/>
+					<animation name="dockingbay_storingship_fastest" start="0" end="0" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_storing_ship_s_fastest"/>
+						</sounds>
+					</animation>
+					<animation name="dockingbay_retrievingship_fastest" start="0" end="0" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_retrieving_ship_s_fastest"/>
+						</sounds>
+					</animation>
+					<animation name="dockingbay_storingship_faster" start="0" end="0" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_storing_ship_s_faster"/>
+						</sounds>
+					</animation>
+					<animation name="dockingbay_retrievingship_faster" start="0" end="0" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_retrieving_ship_s_faster"/>
+						</sounds>
+					</animation>
+					<animation name="dockingbay_storingship" start="0" end="0" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_storing_ship_s"/>
+						</sounds>
+					</animation>
+					<animation name="dockingbay_retrievingship" start="0" end="0" startsound="1">
+						<sounds>
+							<sound ref="XU SoundEmitter_retrieving_ship_s"/>
+						</sounds>
+					</animation>
+				</animations>
+        <parts>
+          <part name="kraken_Platform" wreck="kraken_Platform_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_surface_landing_a" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_surface_landing_paint" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_surface_landing_a" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_surface_landing_paint" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_surface_landing_a" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_surface_landing_paint" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.drak_caterpillar_cargo_doors_mtl_pom_decal" />
+                  <material id="2" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="3" ref="generic.drak_kraken_ext_mtl_iron_oxide_panel" />
+                  <material id="4" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="5" ref="generic.drak_kraken_ext_mtl_white_panel_detail" />
+                  <material id="6" ref="generic.drak_kraken_ext_mtl_engine_greebles_b" />
+                  <material id="7" ref="generic.drak_kraken_ext_mtl_scaffolding_grey" />
+                  <material id="8" ref="generic.drak_kraken_ext_mtl_dif_decal" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                  <material id="10" ref="generic.drak_kraken_ext_mtl_glow" />
+                  <material id="11" ref="generic.drak_kraken_ext_mtl_trim" />
+                  <material id="12" ref="generic.drak_kraken_ext_mtl_surface_landing_a" />
+                  <material id="13" ref="generic.drak_kraken_ext_mtl_engine_greebles_a" />
+                  <material id="14" ref="generic.drak_kraken_ext_mtl_surface_landing_paint" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="19.16634" y="1.324456" z="12.13813" />
+              <center x="1.951275" y="0.02722788" z="-0.1762333" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      
+      <connection name="Connection01" group="transporter_01 " tags="part  ">
+				<offset>
+          <position x="-17.9273" y="1.27" z="-0.430968" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.part_main" name="part_main"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part iklink  " parent="part_main">
+				<offset>
+					<position x="0" y="5.153775E-02" z="3.353691E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals" name="detail_m_decals"/>
+				</parts>
+			</connection>
+			<connection name="Connection03" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="0.54566" y="0.007" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_left" name="anim_door_left"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection04" tags="part iklink  " parent="anim_door_left">
+				<offset>
+					<position x="-0.4329364" y="3.16143E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_left" name="detail_m_decals_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part nocollision iklink  " parent="anim_door_left">
+				<offset>
+					<position x="6.043839E-02" y="9.536743E-07" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_left" name="detail_m_light_left"/>
+				</parts>
+			</connection>
+			<connection name="Connection06" group="transporter_01 " tags="part animation  " parent="part_main">
+				<offset>
+					<position x="-0.54566" y="0.008" z="1.14514"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.anim_door_right" name="anim_door_right"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection07" tags="part iklink  " parent="anim_door_right">
+				<offset>
+					<position x="0.4321223" y="3.553271E-03" z="-8.512306E-02"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_decals_right" name="detail_m_decals_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part nocollision iklink  " parent="anim_door_right">
+				<offset>
+					<position x="-6.110048E-02" y="3.925562E-04" z="-2.498627E-04"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_m_light_right" name="detail_m_light_right"/>
+				</parts>
+			</connection>
+			<connection name="Connection09" group="transporter_01 " tags="part detail_l  " parent="part_main">
+				<offset>
+					<position x="1.205526" y="0.04" z="-0.1"/>
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.detail_l_button" name="detail_l_button"/>
+				</parts>
+			</connection>
+			<connection name="Connection10" group="transporter_01 " tags="part  " parent="part_main">
+				<offset>
+					<position x="0" y="1.14" z="0.9"/>
+					<quaternion qx="0.7071066" qy="-0" qz="-0" qw="-0.7071069"/>
+				</offset>
+				<parts>
+					<part ref="interiors_arg_airlock_01_body.dummy_sound_animation" name="dummy_sound_animation"/>
+				</parts>
+			</connection>
+
+      <connection name="con_dockpos" tags="dockpos ">
+        <offset>
+          <position x="2.136001" y="0.1" z="17.5" />
+        </offset>
+      </connection>
+      <connection name="con_dockpos_pivot" tags="dockpos_pivot ">
+        <offset>
+          <position x="2.136001" y="0.1" z="17.5" />
+        </offset>
+      </connection>
+      <connection name="launchpos" tags="launchpos ">
+        <offset>
+          <position x="2.136001" y="5.1" z="17.5" />
+        </offset>
+      </connection>
+      <connection name="todockpos" tags="todock ">
+        <offset>
+          <position x="2.136001" y="5.1" z="17.5" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

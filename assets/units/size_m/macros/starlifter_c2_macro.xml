@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.59) at 13.10.2021_12-11-29-->
+<macros>
+  <macro name="starlifter_c2_macro" class="ship_m">
+    <component ref="starlifter_c2" />
+    <properties>
+      <identification name="{996666,29}" basename="{996666,29}" description="{996666,30}" makerrace="terran" icon="ship_m_trade_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <explosiondamage value="800" shield="3000" />
+      <storage missile="20" unit="0" countermeasure="40" deployable="50"/>
+      <hull max="37500" />
+      <secrecy level="1" />
+      <purpose primary="trade" />
+      <people capacity="5" />
+      <docksize tag="dock_aegs_small_m" />
+      <sounds>
+        <shipdetail ref="shipdetail_ship_m_03" />
+      </sounds>
+      <physics mass="36.5">
+        <inertia pitch="7.65" yaw="6.1" roll="7.65" />
+        <drag forward="8.65" reverse="36.411" horizontal="11.877" vertical="11.877" pitch="23.45" yaw="9.48" roll="8.2" />
+      </physics>
+      <thruster tags="medium" />
+      <ship type="transporter" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="con_cockpit">
+        <macro ref="cockpit_gen_virtual_01_macro" connection="ship" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component" />
+      </connection>
+      <connection ref="storage">
+        <macro ref="starlifter_c2_inner_macro" connection="position" />
+      </connection>
+
+    </connections>
+  </macro>
+</macros>

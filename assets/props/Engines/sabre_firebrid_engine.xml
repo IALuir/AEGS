@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-08-27 17:22:23 from Blender-->
+<components>
+  <component name="sabre_firebrid_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\sabre_firebrid_engine_data" />
+    <layers>
+      <layer>
+        <trailemitters>
+          <emitter name="trail_aegs_s_01" type="trail_aegs_s_01">
+            <offset>
+              <position x="0" y="0" z="-4.994337" />
+            </offset>
+          </emitter>
+        </trailemitters>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForengine" tags="part ">
+        <parts>
+          <part name="engine">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.sabre_raven_mtl_Glow_Thrusters" />
+                  <material id="2" ref="generic.sabre_raven_mtl_Decal_POM_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.986881" y="0.4145241" z="0.9363438" />
+              <center x="0.0005320013" y="0.1030802" z="0.06721222" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForengine_fx" tags="part ">
+        <parts>
+          <part name="engine_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.482705" y="0.04653651" z="0.0006610472" />
+              <center x="0.01378956" y="0.00624999" z="-0.004573682" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_animal" tags="animation detail_l fx nocollision part speedscale_forward textureanimation useobjectrotation ">
+        <animations>
+					<animation name="loop" start="1" end="120"/>
+			  </animations>
+        <offset>
+          <position x="-0.03885584" y="0" z="-1.051307" />
+        </offset>
+        <parts>
+          <part name="fx_animal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2fx.fx_p2_thruster_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.571602" y="0.1407735" z="3.153165" />
+              <center x="0.008817226" y="0.001348197" z="-3.199261" />
+            </size>
+            <uv_animations>
+              <uv_animation rotaroundcenter="1" mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="8" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="0" />
+                </uv_property>
+              </uv_animation>
+              <uv_animation rotaroundcenter="1" mapchannel="2">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="2" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="-16" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_sabre_firebrid">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

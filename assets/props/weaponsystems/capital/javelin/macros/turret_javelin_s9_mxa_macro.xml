@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="turret_javelin_s9_mxa_macro" class="turret">
+    <component ref="turret_aegs_l" />
+    <properties>
+      <identification name="{996667,37}" basename="{996667,37}" shortname="{996667,37}" makerrace="terran" description="{996667,38}" mk="1" />
+      <bullet class="S9_omnisk_4x_macro" />
+      <rotationspeed max="40" />
+      <rotationacceleration max="200" />
+      <reload rate="1" time="1" />
+      <hull max="12000" threshold="0.2" integrated="0" paint="1"/>
+    </properties>
+  </macro>
+</macros>

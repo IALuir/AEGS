@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) at 25.11.2018_17-56-48-->
+<macros>
+  <macro name="weapon_nnxa_s3_macro" class="weapon">
+    <component ref="weapon_nnxa_s3" />
+    <properties>
+      <identification name="{996667,20003}" basename="{996667,20003}" shortname="{996667,20003}" description="{996667,20004}" mk="1" />
+      <bullet class="S3_nnxa_macro" />
+      <heat overheat="10000" cooldelay="1.25" coolrate="1000" reenable="0" />
+      <rotationspeed max="47.4" />
+      <rotationacceleration max="94.8" />
+      <reload />
+      <hull max="500" hittable="1" />
+    </properties>
+  </macro>
+</macros>

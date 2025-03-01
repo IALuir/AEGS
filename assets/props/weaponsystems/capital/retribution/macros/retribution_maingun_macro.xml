@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="retribution_maingun_macro" class="weapon">
+    <component ref="retribution_maingun" />
+    <properties>
+      <identification name="{996671,14}" basename="{996671,14}" shortname="{996671,14}" makerrace="terran" description="{996671,15}" mk="1" />
+      <bullet class="bullet_retribution_maingun_macro" />
+      <heat overheat="70000" cooldelay="2.5" coolrate="7000" reenable="0" />
+      <hull hittable="0" integrated="1" />
+      <effects>
+        <firing start="charge_aegs_xl_maingun" stop="stop_aegs_xl_maingun" />
+      </effects>
+      <sounds>
+        <firing ref="startshooting_aegs_xl_maingun" />
+      </sounds>
+    </properties>
+  </macro>
+</macros>

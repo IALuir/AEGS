@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-05-01 17:25:46 from Blender-->
+<components>
+  <component name="redeemer_turret_b_sp" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\redeemer\redeemer_turret_b_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForturret_body" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="turret_body">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="2" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="3" ref="generic.aegs_redeemer_interior_mtl_internal_trim" />
+                  <material id="4" ref="generic.aegs_redeemer_mtl_decal_diff" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="7" ref="generic.aegs_redeemer_mtl_ext_panel_metal_01" />
+                  <material id="8" ref="generic.carrack_interior_mtl_Trims_cables_pipes" />
+                  <material id="9" ref="generic.aegs_redeemer_interior_mtl_decals_pom" />
+                  <material id="10" ref="generic.aegs_redeemer_mtl_decals_pom_blended" />
+                  <material id="11" ref="generic.aegs_redeemer_interior_mtl_decals" />
+                  <material id="12" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6433625" y="0.8385675" z="1.31705" />
+              <center x="0.006603464" y="0.8376105" z="0.1065066" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      
+      <connection name="ConnectionForsp_core" tags="part " parent="turret_body">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-5.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-0.4794194" y="1.025573" z="0" />
+        </offset>
+        <parts>
+          <part name="sp_core">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.jokr_dis_can_I_bas_mat_mtl_pom" />
+                  <material id="2" ref="generic.jokr_dis_can_I_bas_mat_mtl_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour.001" />
+                  <material id="4" ref="p1.cockpit_glass_outside_01.002" />
+                  <material id="5" ref="generic.jokr_dis_can_I_bas_mat_mtl_L_pipe_01_A" />
+                  <material id="6" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="7" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="8" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.421086" y="0.414954" z="2.143451" />
+              <center x="0.4794194" y="-0.04338448" z="1.167722" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="sp_laser" tags="laser" parent="sp_core">
+        <offset>
+          <position x="-0.4487523" y="0" z="3.364565" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="sp_laser001" tags="laser" parent="sp_core">
+        <offset>
+          <position x="1.415346" y="0" z="3.364565" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_redeemer_b">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

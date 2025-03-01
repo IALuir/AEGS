@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-10-13 20:56:01 from Blender-->
+<components>
+  <component name="glaive_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\glaive_engine_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForengine" tags="part ">
+        <offset>
+          <position x="0" y="0.005251604" z="0" />
+        </offset>
+        <parts>
+          <part name="engine">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_vs_panels_b" />
+                  <material id="2" ref="generic.vncl_scythe_mtl_pipes_joints" />
+                  <material id="3" ref="generic.vncl_scythe_mtl_engine_a" />
+                  <material id="4" ref="generic.vncl_scythe_mtl_engine_b" />
+                  <material id="5" ref="generic.vncl_scythe_mtl_lights" />
+                  <material id="6" ref="generic.vncl_scythe_mtl_vs_panels_a" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.654909" y="1.086819" z="4.197902" />
+              <center x="6.365776e-05" y="-0.05857414" z="0.9532406" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx" tags="part ">
+        <offset>
+          <position x="0" y="0.005251604" z="0" />
+        </offset>
+        <parts>
+          <part name="fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_scythe_mtl_lights" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.844622" y="0.6335775" z="0.607516" />
+              <center x="6.41048e-05" y="-0.0220561" z="-0.5462921" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.846312" y="0.6374215" z="5.972616" />
+              <center x="-0.006852746" y="-0.01240283" z="-6.607817" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_glaive">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

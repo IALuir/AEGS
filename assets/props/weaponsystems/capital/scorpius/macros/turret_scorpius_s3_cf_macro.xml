@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="turret_scorpius_s3_cf_macro" class="turret">
+    <component ref="scorpius_turret" />
+    <properties>
+      <identification name="{996667,3}" basename="{996667,3}" shortname="{996667,3}" makerrace="terran" description="{996667,4}" mk="1" />
+      <bullet class="S3_cf_4x_macro" />
+      <rotationspeed max="115" />
+      <rotationacceleration max="200" />
+      <reload rate="1" time="1" />
+      <hull hull="6000" threshold="0.2" integrated="1" paint="1"/>
+    </properties>
+  </macro>
+</macros>

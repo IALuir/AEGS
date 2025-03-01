@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) at 25.11.2018_17-56-48-->
+<macros>
+  <macro name="spirit_a1_boom_macro" class="missilelauncher">
+    <component ref="spirit_a1_boom" />
+    <properties>
+      <identification name="{996671,20}" basename="{996671,20}" shortname="{996671,20}" makerrace="terran" description="{996671,21}" unique="0" mk="1" />
+      <ammunition tags="aegs_s5_unguide" />
+      <bullet class="missile_spirit_a1_fski_macro" />
+      <reload />
+      <storage capacity="6" />
+      <hull hittable="0" integrated="1" />
+    </properties>
+  </macro>
+</macros>

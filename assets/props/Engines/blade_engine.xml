@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-10-13 15:12:29 from Blender-->
+<components>
+  <component name="blade_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\blade_engine_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForengine" tags="part ">
+        <offset>
+          <position x="0" y="2.002817" z="0" />
+        </offset>
+        <parts>
+          <part name="engine">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_metal_bare_a_dark" />
+                  <material id="2" ref="generic.vncl_blade_mtl_metal_panel_dark" />
+                  <material id="3" ref="generic.vncl_blade_mtl_pom_decals" />
+                  <material id="4" ref="generic.vncl_blade_mtl_engine_trim" />
+                  <material id="5" ref="generic.vncl_blade_mtl_engine_thruster_greeble" />
+                  <material id="6" ref="generic.vncl_blade_mtl_engine_thruster_greeble_blend" />
+                  <material id="7" ref="generic.vncl_blade_mtl_pitted_metal" />
+                  <material id="8" ref="generic.vncl_blade_mtl_pipes" />
+                  <material id="9" ref="generic.vncl_blade_mtl_engine_a" />
+                  <material id="10" ref="generic.vncl_blade_mtl_engine_b" />
+                  <material id="11" ref="generic.vncl_blade_mtl_engineglow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.945634" y="1.117768" z="1.296183" />
+              <center x="0.0009225309" y="-0.60923" z="0.502473" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal" tags="fx nocollision part detail_l animation textureanimation speedscale_forward">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.505784" y="0.8192972" z="2.235823" />
+              <center x="-0.003847837" y="1.387838" z="-2.677533" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_fx" tags="part ">
+        <offset>
+          <position x="0" y="2.002817" z="0" />
+        </offset>
+        <parts>
+          <part name="part_fx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_blade_mtl_engineglow" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.521452" y="0.81248" z="0.4101585" />
+              <center x="0.0007075369" y="-0.6241631" z="-0.3637134" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="conn_booster01" tags="booster ">
+				<offset>
+					<position x="0" y="0" z="-23.53223"/>
+				</offset>
+			</connection>
+
+      <connection name="con_engine_01" tags="engine small component aegs_blade">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

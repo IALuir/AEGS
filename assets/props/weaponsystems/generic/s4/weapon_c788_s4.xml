@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-03-02 16:54:49 from Blender-->
+<components>
+  <component name="weapon_c788_s4" class="weapon">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\generic\S4\weapon_c788_s4_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionFormain" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-10"/>
+							<max value="10"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.005000002" y="0.005000002" z="0.005000002" />
+              <center x="1.164153e-10" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForc788_body" tags="part " parent="main">
+        <restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-10"/>
+							<max value="10"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <quaternion qx="0" qy="0" qz="1" qw="-7.54979e-08" />
+        </offset>
+        <parts>
+          <part name="c788_body">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="6" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="6" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="6" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="6" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="9" ref="p1.cockpit_glass_outside_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.342028" y="0.6052225" z="2.265839" />
+              <center x="7.450581e-09" y="0.6261294" z="0.696775" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForc788_barrel" tags="part animation" parent="c788_body">
+        <animations>
+					<animation name="weapon_firing" start="0" end="10"/>
+				</animations>
+        <offset>
+          <position x="0" y="0" z="-0.033079" />
+          <quaternion qx="0" qy="0" qz="-3.178651e-08" qw="-1" />
+        </offset>
+        <parts>
+          <part name="c788_barrel">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.18507" y="0.184055" z="1.79688" />
+              <center x="-9.983778e-07" y="0.642307" z="2.560996" />
+            </size>
+            <size_raw>
+              <max x="0.18507" y="0.184055" z="1.541252" />
+              <center x="-1.002103e-06" y="0.642307" z="2.816623" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="c788_barrel">
+        <offset>
+          <position x="5.664928e-08" y="0.6479923" z="4.089183" />
+          <quaternion qx="0" qy="0" qz="-1" qw="-4.371139e-08" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="weapon small platformcollision aegs_weapon_s4">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

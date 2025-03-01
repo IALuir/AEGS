@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2024-11-10 19:00:56 from Blender-->
+<components>
+  <component name="engine_aegs_xl_bengal_b" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\engine_aegs_xl_bengal_b_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForengine_main" tags="part nocollision">
+        <parts>
+          <part name="engine_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_engine_trim" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="183.523" y="25.21855" z="14.33125" />
+              <center x="1.144409e-05" y="-28.92732" z="11.55292" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_animal" tags="part animation textureanimation speedscale_forward nocollision">
+        <animations>
+					<animation name="loop" start="1" end="10"/>
+			  </animations>
+        <parts>
+          <part name="part_animal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="192.6915" y="34.42529" z="130.8414" />
+              <center x="-1.525879e-05" y="-28.95294" z="-133.0434" />
+            </size>
+            <uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine extralarge component bengal_b">
+      </connection>
+    </connections>
+  </component>
+</components>

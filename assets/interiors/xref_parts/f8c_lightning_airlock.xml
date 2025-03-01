@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2023-10-27 18:09:30 from Blender-->
+<components>
+  <component name="f8c_lightning_airlock" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\f8c_lightning_airlock_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForbutton" tags="part ui transporter trigger_interact detail_xl location_cockpit platformcollision forceoutline  ">
+        <parts>
+          <part name="button">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.anvl_lightning_f8_mtl_cockpit_buttons" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.01397027" y="0.01816574" z="0.02472305" />
+              <center x="0.0006698519" y="-0.001937956" z="-0.001652718" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>
