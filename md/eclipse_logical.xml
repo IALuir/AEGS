@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="eclipse_logical" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		
+		<cue name="eclipse_logical_start" >
+			<conditions>
+                <check_any>
+					<event_game_started />
+					<event_game_loaded />
+				</check_any>
+            </conditions>
+			<actions>
+				<set_value name="$Object_eclipse" exact="[]"/>
+
+				<reset_cue cue="eclipse_logical_start_02"/>
+				<reset_cue cue="eclipse_logical_start_01"/>
+			</actions>
+			<cues>
+
+				<cue name="eclipse_logical_start_02" instantiate="true" checkinterval="20min">
+					<actions>
+						<set_value name="$Object_eclipse" exact="[]"/>
+						
+						<find_ship name="$Object_eclipse" macro="macro.eclipse_macro"  multiple="true" />
+					</actions>
+				</cue>
+
+				<cue name="eclipse_logical_start_01" instantiate="true" checkinterval="1min">
+					<actions>
+						<do_for_each name="$ship" in="$Object_eclipse">
+							<add_equipment_mods object="$ship">
+								<ship ware="ware.mod_eclipse_system"/>
+							</add_equipment_mods>
+							<find_gravidar_contact name="$Contacts" object="$ship" multiple="true" class="[class.ship_s, class.ship_m, class.ship_l, class.ship_xl, class.station]" excluded="$ship" negateownerfilter="true">
+								<match_distance object="$ship" max="$ship.currentradarrange * 0.5"/>
+							</find_gravidar_contact>
+							<do_if value="$Contacts">
+								<set_object_radar_visible object="$ship" visible="true"/>
+							</do_if>
+							<do_else>
+								<do_if value="$ship.owner == faction.player">
+									<set_object_radar_visible object="$ship" visible="true"/>
+								</do_if>
+								<do_elseif value="$ship.relationto.{faction.player} ge -0.1">
+									<set_object_radar_visible object="$ship" visible="true"/>
+								</do_elseif>
+								<do_else>
+									<set_object_radar_visible object="$ship" visible="false"/>
+								</do_else>
+							</do_else>
+						</do_for_each>
+					</actions>
+				</cue>
+			</cues>
+		</cue>
+	</cues>
+</mdscript>

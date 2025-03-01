@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+  <add sel="/compatibility">
+    <aiscript name="order.aegs.buildship" version="7">
+      <attention min="unknown">
+        <run_script line="172" sinceversion="1"/>
+        <move_to line="180"/>
+        <run_script line="217" sinceversion="7"/>
+        <wait line="222"/>
+        <run_script line="227" sinceversion="7"/>
+        <wait line="231"/>
+        <run_script line="239" sinceversion="1" label="cleanup"/>
+      </attention>
+    </aiscript>
+  </add>
+</diff>

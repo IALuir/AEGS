@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="carrack_logical" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+          <cue name="carrack_logical_01" >
+			<conditions>
+                    <check_any>
+					<event_game_started />
+					<event_game_loaded />
+				</check_any>
+               </conditions>
+			<actions>
+
+                    <reset_cue cue="carrack_logical_start"/>
+                    <reset_cue cue="Player_carrack_c8_Build_Finished"/>
+			</actions>
+          </cue>
+
+		<cue name="carrack_logical_start" instantiate="true">
+			<conditions>
+                    <event_player_changed_activity/>
+			     <check_value value="player.ship.macro == macro.carrack_macro"/>
+               </conditions>
+			<actions>
+				<do_if value="event.param == activity.scan_longrange">
+					<trigger_animation object="player.ship" group="'scan'" trigger="activate" />
+					<add_equipment_mods object="player.ship">
+                        <ship ware="ware.mod_carrack_scan_system_on"/>
+                    </add_equipment_mods>
+				</do_if>
+				<do_else>
+					<trigger_animation object="player.ship" group="'scan'" trigger="deactivate" />
+					<add_equipment_mods object="player.ship">
+                        <ship ware="ware.mod_carrack_scan_system_off"/>
+                    </add_equipment_mods>
+				</do_else>
+			</actions>
+		</cue>
+
+		<cue name="Player_carrack_c8_Build_Finished" instantiate="true">
+               <conditions>
+                    <event_player_build_finished/>
+                    <check_value value="@event.param3.buildobject.macro.ismacro.{macro.carrack_macro} or @event.param3.macro.ismacro.{macro.carrack_macro}"/>
+                    <check_value value="@event.param3.buildobject.trueowner == faction.player or @event.param3.trueowner == faction.player"/>
+               </conditions>
+               <actions>
+                    <set_value name="$Ship" exact="@event.param3.buildobject"/>
+
+                    <create_ship name="$c8x" dock="$Ship" macro="macro.c8x_macro">
+                         <owner exact="faction.player"/>
+                         <pilot>
+                              <select tags="tag.pilot" race="race.terran"/>
+                              <skills>
+                                   <skill type="piloting"    exact="2"/>
+                              </skills>
+                         </pilot>
+                    </create_ship>
+               </actions>
+          </cue>
+	</cues>
+</mdscript>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="/equipmentmods/ship">
+    <radarcloak ware="mod_eclipse_system" quality="3" min="-0.5" max="-0.5"/>
+
+    <radarrange ware="mod_carrack_scan_system_on" quality="3" min="2" max="2"/>
+    <radarrange ware="mod_carrack_scan_system_off" quality="3" min="1" max="1"/>
+  </add>
+</diff>

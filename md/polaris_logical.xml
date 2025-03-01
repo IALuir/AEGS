@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="polaris_logical" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		
+		<cue name="polaris_logical_start" >
+			<conditions>
+                <check_any>
+					<event_game_started />
+					<event_game_loaded />
+				</check_any>
+            </conditions>
+			<actions>
+				<set_value name="$Object_polaris" exact="[]"/>
+
+				<reset_cue cue="polaris_logical_start_02"/>
+				<reset_cue cue="polaris_logical_start_01"/>
+			</actions>
+			<cues>
+
+				<cue name="polaris_logical_start_02" instantiate="true" checkinterval="20min">
+					<actions>
+						<set_value name="$Object_polaris" exact="[]"/>
+						
+						<find_ship name="$Object_polaris" macro="macro.polaris_macro"  multiple="true" />
+					</actions>
+				</cue>
+
+				<cue name="polaris_logical_start_01" instantiate="true" checkinterval="1min">
+					<actions>
+						<set_value name="$maxs10" exact="36"/>
+						<do_for_each name="$ship" in="$Object_polaris">
+							<do_if value="$ship.ammostorage.{macro.missile_s10_typhoon_x_macro}.count gt $maxs10">
+								<remove_ammo object="$ship" macro="macro.missile_s10_typhoon_x_macro" amount="$ship.ammostorage.{macro.missile_s10_typhoon_x_macro}.count"/>
+								<add_ammo object="$ship" macro="macro.missile_s10_typhoon_x_macro" amount="$maxs10"/>
+							</do_if>
+						</do_for_each>
+					</actions>
+				</cue>
+			</cues>
+		</cue>
+	</cues>
+</mdscript>

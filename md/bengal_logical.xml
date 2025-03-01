@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="bengal_logical" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+          <cue name="bengal_logical_01" >
+			<conditions>
+                    <check_any>
+					<event_game_started />
+					<event_game_loaded />
+				</check_any>
+               </conditions>
+			<actions>
+                    <set_value name="$Object_bengal" exact="[]"/>
+
+                    <reset_cue cue="bengal_logical_02"/>
+                    <reset_cue cue="bengal_logical_trade"/>
+			</actions>
+               <cues>
+
+                    <cue name="bengal_logical_02" instantiate="true" checkinterval="20min">
+                         <actions>
+                              <set_value name="$Object_bengal" exact="[]"/>
+                              
+                              <find_ship name="$Object_bengal" macro="macro.ship_aegs_l_bengal_macro"  multiple="true" />
+                         </actions>
+                    </cue>
+
+                    <cue name="bengal_logical_trade" instantiate="true" checkinterval="1min">
+                         <actions>
+                              <do_for_each name="$ship" in="$Object_bengal">
+                                   <do_if value="$ship.defaultorder.id == 'aegs_buildship'">
+                                        <set_tradeoffers_enabled object="$ship" enabled="true"/>
+                                   </do_if>
+                                   <do_else>
+                                        <set_tradeoffers_enabled object="$ship" enabled="false"/>
+                                   </do_else>
+                              </do_for_each>
+                         </actions>
+                    </cue>
+               </cues>
+          </cue>
+          
+	</cues>
+</mdscript>

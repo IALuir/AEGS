@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<diff>
+	<add sel="//groups/group[@name='xen_fighter_s']">
+		<select macro="blade_macro" weight="10"/>
+		<select macro="glaive_macro" weight="10"/>
+		<select macro="scythe_macro" weight="20"/>
+	</add>
+
+	<add sel="//groups/group[@name='xen_fighter_heavy_s']">
+		<select macro="blade_macro" weight="30"/>
+		<select macro="glaive_macro" weight="30"/>
+		<select macro="scythe_macro" weight="15"/>
+	</add>
+
+	<add sel="//groups/group[@name='xen_fighter_light_s']">
+		<select macro="blade_macro" weight="10"/>
+		<select macro="glaive_macro" weight="10"/>
+		<select macro="scythe_macro" weight="30"/>
+	</add>
+</diff>

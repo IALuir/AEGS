@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<diff>
+  <replace sel="//aiscript/attention/actions/do_else/do_elseif[@value='$commander.isclass.[class.station, class.buildstorage]']/@value">$commander.isclass.[class.station, class.buildstorage] or ($commander.macro.ismacro.[macro.ship_drak_kraken_macro] and $assignment == assignment.mining)</replace>
+</diff>

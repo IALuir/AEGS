@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="aegs_research" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+          <cue name="xenon_e_version" ref="md.xenon_e_version_regular.xenon_e_regular" namespace="this"/>
+
+          <cue name="aegs_research_01" >
+               <conditions>
+                    <check_any>
+                         <event_game_loaded/>
+                         <event_game_started/>
+                    </check_any>
+               </conditions>
+			<actions>
+                    <set_value name="$hasXenonE" exact="xenon_e_version.$Version"/>
+                    <find_ship name="$hasXenonE_e" multiple="true" macro="macro.ship_xenon_battleship_e_macro"/>
+                    <do_if value="not $hasXenonE and $hasXenonE_e.count lt 10">
+                         <set_value name="$hasXenonE" exact="0.1"/>
+                    </do_if>
+
+
+                    <set_value name="$Player_Retribution_Builds" exact="[]"/>
+                    <do_if value="not $hasXenonE">
+
+                    </do_if>
+                    <do_else>
+                         <debug_text text="'xenon_e_version:' + $hasXenonE"/>
+                    </do_else>
+
+                    <create_group groupname="$Object_e_Group"/>
+                    <create_group groupname="$Object_Retribution_Group"/>
+
+                    <create_cue_actor name="$ComputerActor" cue="this">
+                         <select race="race.drone"/>
+                         <owner exact="faction.civilian"/>
+                         <page exact="996677"/>
+                         <name name="'{996671,35}'"/>
+                    </create_cue_actor>
+
+                    <reset_cue cue="aegs_research_01_01"/>
+
+                    <reset_cue cue="aegs_research_01_02"/>
+                    <reset_cue cue="aegs_research_01_01_01"/>
+                    <reset_cue cue="aegs_research_01_02_01"/>
+
+                    <reset_cue cue="Player_Retribution_Build_Added"/>
+                    <reset_cue cue="Player_Retribution_Build_Cancelled"/>
+                    <reset_cue cue="Player_Retribution_Build_Finished"/>
+			</actions>
+               <cues>
+
+                    <library name="ClearInvalidBuilds">
+                         <actions>
+                              <do_for_each name="$Build" in="$Player_Retribution_Builds" reverse="true">
+                                   <do_if value="not $Build.exists or $Build.iscancelled">
+                                        <remove_from_list name="$Player_Retribution_Builds" exact="$Build"/>
+                                   </do_if>
+                              </do_for_each>
+                         </actions>
+                    </library>
+
+
+                    <cue name="aegs_research_01_01" instantiate="true" checkinterval="30min">
+                         <actions>
+                              <clear_group group="$Object_Retribution_Group"/>
+                              <clear_group group="$Object_e_Group"/>
+                              
+                              <find_ship name="$Player_Retribution_Group" multiple="true" macro="macro.retribution_macro">
+                                   <match owner="faction.player"/>
+                              </find_ship>
+                              <do_if value="$hasXenonE">
+                                   <find_ship name="$Object_Ship" macro="macro.ship_xenon_battleship_e_macro" space="player.galaxy"  multiple="true" />
+                                   <do_for_each name="$ship" in="$Object_Ship">
+                                        <add_to_group groupname="$Object_e_Group" object="$ship"/>
+                                   </do_for_each>
+                              </do_if>
+                              <do_for_each name="$ship_r" in="$Player_Retribution_Group">
+                                   <add_to_group groupname="$Object_Retribution_Group" object="$ship_r"/>
+                              </do_for_each>
+                              <debug_text text="$Object_e_Group.count + ' : ' + $Object_Retribution_Group.count"/>
+                         </actions>
+                    </cue>
+
+                    <cue name="aegs_research_01_01_01" instantiate="true">
+                         <conditions>
+                              <event_object_destroyed group="$Object_e_Group"/>
+                         </conditions>
+                         <actions>
+                              <do_if value="$ComputerActor">
+                                   <speak actor="$ComputerActor" line="1" priority="85" recipient="player.entity"/>
+                              </do_if>
+                              <remove_from_group group="$Object_e_Group" object="event.object"/>
+                         </actions>
+                         <delay exact="5s" />
+                         <actions>
+                              <signal_cue cue="aegs_research_01_02_01"/>
+                         </actions>
+                    </cue>
+
+                    <cue name="aegs_research_add" checkinterval="10s">
+                         <conditions>
+                              <check_value value="not $hasXenonE"/>
+                         </conditions>
+                         <actions>
+                              <do_if value="faction.player.relationto.{faction.uee}">
+                                   <do_if value="faction.player.relationto.{faction.uee} ge 0.1">
+                                        <signal_cue cue="aegs_research_01_02_01"/>
+                                   </do_if>
+                              </do_if>
+                              <do_elseif value="faction.player.relationto.{faction.terran} ge 0.1">
+                                   <signal_cue cue="aegs_research_01_02_01"/>
+                              </do_elseif>
+                         </actions>
+                    </cue>
+                    
+                    <cue name="aegs_research_01_02" instantiate="true">
+                         <conditions>
+                              <event_object_destroyed group="$Object_Retribution_Group"/>
+                              <check_value value="event.object.trueowner == faction.player"/>
+                         </conditions>
+                         <actions>
+                              <remove_from_group group="$Object_Retribution_Group" object="event.object"/>
+                              <do_if value="$ComputerActor">
+                                   <speak actor="$ComputerActor" line="3" priority="85" recipient="player.entity"/>
+                              </do_if>
+                         </actions>
+                         <delay exact="5s" />
+                         <actions>
+                              <signal_cue cue="aegs_research_01_02_01"/>
+                         </actions>
+                    </cue>
+
+                    <cue name="aegs_research_01_02_01" instantiate="true">
+                         <conditions>
+                              <event_cue_signalled/>
+                         </conditions>
+                         <actions>
+                              <do_if value="$Object_Retribution_Group.count == 0">
+                                   <add_blueprints wares="ware.retribution"/>
+                                   <add_encyclopedia_entry type="researchables" item="'research_aegs_01'"/>
+                                   <do_if value="$ComputerActor">
+                                        <do_if value="$hasXenonE">
+                                             <speak actor="$ComputerActor" line="2" priority="85" recipient="player.entity"/>
+                                        </do_if>
+                                        <do_else>
+                                             <speak actor="$ComputerActor" line="6" priority="85" recipient="player.entity"/>
+                                        </do_else>
+                                   </do_if>
+                              </do_if>
+                              <do_else>
+                                   <do_if value="$ComputerActor">
+                                        <do_if value="$hasXenonE">
+                                             <speak actor="$ComputerActor" line="5" priority="85" recipient="player.entity"/>
+                                        </do_if>
+                                        <do_else>
+                                             <speak actor="$ComputerActor" line="7" priority="85" recipient="player.entity"/>
+                                        </do_else>
+                                   </do_if>
+                              </do_else>
+                              
+                         </actions>
+                    </cue>
+
+                    <cue name="Player_Retribution_Build_Added" instantiate="true">
+                         <conditions>
+                              <event_player_build_added/>
+                              <check_value value="event.param.isshipbuild"/>
+                              <check_value value="@event.param.buildobject.macro.ismacro.{macro.retribution_macro} or @event.param.macro.ismacro.{macro.retribution_macro}"/>
+                         </conditions>
+                         <actions>
+                              <include_actions ref="ClearInvalidBuilds"/>
+                              <append_to_list name="$Player_Retribution_Builds" exact="event.param"/>
+                         </actions>
+                        <delay exact="2s"/>
+                         <actions>
+                              <remove_encyclopedia_entry type="researchables" item="'research_aegs_01'"/>
+                              <remove_research ware="ware.research_aegs_01"/>
+                         </actions>
+                    </cue>
+
+                    <cue name="Player_Retribution_Build_Cancelled" instantiate="true">
+                         <conditions>
+                              <event_player_build_cancelled/>
+                              <check_value value="$Player_Retribution_Builds.indexof.{event.param}"/>
+                         </conditions>
+                         <actions>
+                              <remove_from_list name="$Player_Retribution_Builds" exact="event.param"/>
+                              <include_actions ref="ClearInvalidBuilds"/>
+                              <do_if value="$Player_Retribution_Builds.count == 0">
+                                   <add_research ware="ware.research_aegs_01"/>
+                                   <add_encyclopedia_entry type="researchables" item="'research_aegs_01'"/>
+                              </do_if>
+                         </actions>
+                    </cue>
+
+                    <cue name="Player_Retribution_Build_Finished" instantiate="true">
+                         <conditions>
+                              <event_player_build_finished/>
+                              <check_value value="$Player_Retribution_Builds.indexof.{event.param3}"/>
+                         </conditions>
+                         <actions>
+                              <remove_from_list name="$Player_Retribution_Builds" exact="event.param3"/>
+                              <include_actions ref="ClearInvalidBuilds"/>
+                              <do_if value="event.param3.buildobject.macro.ismacro.{macro.retribution_macro}">
+                                   <add_to_group groupname="$Object_Retribution_Group" object="event.param3.buildobject"/>
+                                   <do_if value="$ComputerActor">
+                                        <speak actor="$ComputerActor" line="4" priority="85" recipient="player.entity"/>
+                                   </do_if>
+                              </do_if>
+                         </actions>
+                    </cue>
+               </cues>
+		</cue>
+	</cues>
+</mdscript>

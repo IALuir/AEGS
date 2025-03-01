@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="aegs_subsystem" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+          <cue name="aegs_neutron_armor_01" >
+               <conditions>
+                    <check_any>
+                         <event_game_loaded/>
+                         <event_game_started/>
+                    </check_any>
+               </conditions>
+			<actions>
+                    <create_group groupname="$Object_ShipGroup"/>
+                    <clear_group group="$Object_ShipGroup"/>
+
+                    <reset_cue cue="aegs_neutron_armor_02"/>
+			</actions>
+               <cues>
+
+                    <cue name="aegs_neutron_armor_02" instantiate="true" checkinterval="20min">
+                         <actions>
+                              <find_ship name="$Object_Ship" macro="macro.retribution_macro"  multiple="true" />
+                              <clear_group group="$Object_ShipGroup"/>
+                              <do_for_each name="$ship" in="$Object_Ship">
+                                   <add_to_group groupname="$Object_ShipGroup" object="$ship"/>
+                              </do_for_each>
+                         </actions>
+                    </cue>
+                    <cue name="aegs_neutron_armor_03" >
+                         <conditions>
+                              <check_any>
+                                   <event_object_hull_damaged group="$Object_ShipGroup"/>
+                                   <event_object_shield_damaged group="$Object_ShipGroup"/>
+                              </check_any>
+                         </conditions>
+                         <actions>
+                              <do_if value="@event.name == 'event_object_hull_damaged'">
+                                   <do_if value="@event.param3 gt 5000">
+                                        <set_value name="$damage_x"  exact="(@event.param3 - 5000)/@event.param3"/>
+                                        <set_value name="$damage_hull_per"  exact="@event.param3/@event.param.maxhull * 100 * $damage_x"/>
+                                        <set_object_hull object="@event.param" exact="@event.param.hullpercentage + $damage_hull_per"/>
+                                   </do_if>
+                              </do_if>
+                              <do_else>
+                                   <do_if value="@event.param3 gt 10000">
+                                        <set_value name="$damage_y"  exact="(@event.param3 - 10000)/@event.param3 * 0.6"/>
+                                        <set_value name="$damage_shield_per"  exact="@event.param3/@event.param.maxshield * 100 * $damage_y"/>
+                                        <set_object_shield object="@event.param" exact="@event.param.shieldpercentage + $damage_shield_per"/>
+                                   </do_if>
+                              </do_else>
+                         </actions>
+                    </cue>
+                    <cue name="InterestingObject_Destroyed" >
+                         <conditions>
+                              <event_object_destroyed group="$Object_ShipGroup"/>
+                         </conditions>
+                         <actions>
+                              <remove_from_group group="$Object_ShipGroup" object="event.object"/>
+                         </actions>
+                    </cue>
+               </cues>
+		</cue>
+	</cues>
+</mdscript>

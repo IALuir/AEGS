@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdscript name="Addthemestoplayer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+    <cues>
+        <cue name="add_aegs_wares">
+            <conditions>
+                <check_any>
+                    <event_game_started />
+                    <event_game_loaded />
+                </check_any>
+            </conditions>
+            <delay exact="5s" />
+            <actions>
+                <set_value name="$aegswares" exact="[
+                ware.engine_aegs_max_javelin,
+                ware.engine_f8c_lightning,
+                ware.engine_aegs_xl_bengal,
+                ware.engine_aegs_xl_bengal_b,
+                ware.hammerhead_engine,
+                ware.retaliator_engine,
+                ware.scorpius_engine,
+                ware.engine_kraken_engine,
+                ware.engine_idris_engine,
+                ware.arrow_engine,
+                ware.eclipse_engine,
+                ware.starlifter_engine,
+                ware.f7a_engine,
+                ware.f7c_engine,
+                ware.starfighter_engine,
+                ware.talon_engine,
+                ware.sabre_engine,
+                ware.gladius_engine,
+                ware.vanguard_engine,
+                ware.cutlass_engine,
+                ware.retribution_engine,
+                ware.constellation_andromeda_engine,
+                ware.p52_merlin_engine,
+                ware.reclaimer_engine,
+                ware.wepon_missile_s12,
+                ware.wepon_missile_s11,
+                ware.wepon_missile_s10,
+                ware.wepon_missile_s9,
+                ware.wepon_missile_s8,
+                ware.wepon_missile_s7,
+                ware.wepon_missile_s6,
+                ware.wepon_missile_s5,
+                ware.wepon_missile_s4,
+                ware.wepon_missile_s4_s3,
+                ware.wepon_missile_s3,
+                ware.wepon_missile_s3_s2,
+                ware.wepon_missile_s2,
+                ware.wepon_missile_s2_s1,
+                ware.wepon_f8_s2_missile,
+                ware.wepon_f8_s1_missile,
+                ware.weapon_left_hammerhead_s3_missile,
+                ware.weapon_rigth_hammerhead_s3_missile,
+                ware.weapon_vanguard_s2,
+                ware.weapon_p52_s3,
+                ware.generic_s2_missile,
+                ware.generic_s1_missile,
+                ware.avenger_engine,
+                ware.spirit_a1_engine,
+                ware.redeemer_engine,
+                ware.mole_engine,
+                ware.polaris_engine,
+                ware.prospector_engine,
+                ware.carrack_engine,
+                ware.c8x_engine,
+                ware.caterpillar_engine,
+                ware.defender_engine,
+                ware.sabre_firebrid_engine,
+                ware.sabre_raven_engine,
+                ware.sabre_peregrine_engine
+                ]" />
+                <add_blueprints wares="$aegswares" />
+                <remove_value name="$aegswares" />
+            </actions>
+        </cue>
+
+        
+    </cues>
+</mdscript>

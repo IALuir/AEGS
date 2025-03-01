@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ?xml-stylesheet href="index.xsl" type="text\xsl" ? -->
+<index>
+      <!-- 飞船 -->
+      <entry name="ship_aegs_l_bengal_macro" value="extensions\AEGS\assets\units\size_l\macros\ship_aegs_l_bengal_macro" />
+      <entry name="ship_aegs_l_bengal_b_macro" value="extensions\AEGS\assets\units\size_l\macros\ship_aegs_l_bengal_b_macro" />
+      <entry name="ship_aegs_l_javelin_macro" value="extensions\AEGS\assets\units\size_l\macros\ship_aegs_l_javelin_macro" />
+      <entry name="f8c_lightning_macro" value="extensions\AEGS\assets\units\size_s\macros\f8c_lightning_macro" />
+      <entry name="f8c_lightning_a_macro" value="extensions\AEGS\assets\units\size_s\macros\f8c_lightning_a_macro" />
+      <entry name="aegs_hammer_macro" value="extensions\AEGS\assets\units\size_m\macros\aegs_hammer_macro" />
+      <entry name="retribution_macro" value="extensions\AEGS\assets\units\size_xl\macros\retribution_macro" />
+      <entry name="retaliator_macro" value="extensions\AEGS\assets\units\size_m\macros\retaliator_macro" />
+      <entry name="scorpius_macro" value="extensions\AEGS\assets\units\size_s\macros\scorpius_macro" />
+      <entry name="scorpius_antares_macro" value="extensions\AEGS\assets\units\size_s\macros\scorpius_antares_macro" />
+      <entry name="ship_drak_kraken_macro" value="extensions\AEGS\assets\units\size_l\macros\ship_drak_kraken_macro" />
+      <entry name="ship_aegs_idris_macro" value="extensions\AEGS\assets\units\size_l\macros\ship_aegs_idris_macro" />
+      <entry name="ship_aegs_idris_p_macro" value="extensions\AEGS\assets\units\size_l\macros\ship_aegs_idris_p_macro" />
+      <entry name="arrow_macro" value="extensions\AEGS\assets\units\size_s\macros\arrow_macro" />
+      <entry name="eclipse_macro" value="extensions\AEGS\assets\units\size_s\macros\eclipse_macro" />
+      <entry name="starlifter_c2_macro" value="extensions\AEGS\assets\units\size_m\macros\starlifter_c2_macro" />
+      <entry name="starlifter_a2_macro" value="extensions\AEGS\assets\units\size_m\macros\starlifter_a2_macro" />
+      <entry name="starlifter_m2_macro" value="extensions\AEGS\assets\units\size_m\macros\starlifter_m2_macro" />
+      <entry name="f7a_macro" value="extensions\AEGS\assets\units\size_s\macros\f7a_macro" />
+      <entry name="f7c_macro" value="extensions\AEGS\assets\units\size_s\macros\f7c_macro" />
+      <entry name="f7cr_macro" value="extensions\AEGS\assets\units\size_s\macros\f7cr_macro" />
+      <entry name="f7cm_macro" value="extensions\AEGS\assets\units\size_s\macros\f7cm_macro" />
+      <entry name="talon_macro" value="extensions\AEGS\assets\units\size_s\macros\talon_macro" />
+      <entry name="starfighter_macro" value="extensions\AEGS\assets\units\size_s\macros\starfighter_macro" />
+      <entry name="sabre_macro" value="extensions\AEGS\assets\units\size_s\macros\sabre_macro" />
+      <entry name="gladius_macro" value="extensions\AEGS\assets\units\size_s\macros\gladius_macro" />
+      <entry name="vanguard_macro" value="extensions\AEGS\assets\units\size_s\macros\vanguard_macro" />
+      <entry name="cutlass_macro" value="extensions\AEGS\assets\units\size_s\macros\cutlass_macro" />
+      <entry name="constellation_andromeda_macro" value="extensions\AEGS\assets\units\size_m\macros\constellation_andromeda_macro" />
+      <entry name="p52_merlin_macro" value="extensions\AEGS\assets\units\size_s\macros\p52_merlin_macro" />
+      <entry name="reclaimer_macro" value="extensions\AEGS\assets\units\size_m\macros\reclaimer_macro" />
+      <entry name="avenger_macro" value="extensions\AEGS\assets\units\size_s\macros\avenger_macro" />
+      <entry name="spirit_a1_macro" value="extensions\AEGS\assets\units\size_m\macros\spirit_a1_macro" />
+      <entry name="spirit_c1_macro" value="extensions\AEGS\assets\units\size_m\macros\spirit_c1_macro" />
+      <entry name="redeemer_macro" value="extensions\AEGS\assets\units\size_m\macros\redeemer_macro" />
+      <entry name="mole_macro" value="extensions\AEGS\assets\units\size_m\macros\mole_macro" />
+      <entry name="polaris_macro" value="extensions\AEGS\assets\units\size_m\macros\polaris_macro" />
+      <entry name="prospector_macro" value="extensions\AEGS\assets\units\size_s\macros\prospector_macro" />
+      <entry name="carrack_macro" value="extensions\AEGS\assets\units\size_m\macros\carrack_macro" />
+      <entry name="c8x_macro" value="extensions\AEGS\assets\units\size_s\macros\c8x_macro" />
+      <entry name="caterpillar_macro" value="extensions\AEGS\assets\units\size_m\macros\caterpillar_macro" />
+      <entry name="defender_macro" value="extensions\AEGS\assets\units\size_s\macros\defender_macro" />
+      <entry name="sabre_firebrid_macro" value="extensions\AEGS\assets\units\size_s\macros\sabre_firebrid_macro" />
+      <entry name="sabre_raven_macro" value="extensions\AEGS\assets\units\size_s\macros\sabre_raven_macro" />
+      <entry name="sabre_peregrine_macro" value="extensions\AEGS\assets\units\size_s\macros\sabre_peregrine_macro" />
+      <entry name="blade_macro" value="extensions\AEGS\assets\units\size_s\macros\blade_macro" />
+      <entry name="glaive_macro" value="extensions\AEGS\assets\units\size_s\macros\glaive_macro" />
+      <entry name="scythe_macro" value="extensions\AEGS\assets\units\size_s\macros\scythe_macro" />
+
+      <!-- 引擎 -->
+      <entry name="engine_aegs_m_javelin_macro" value="extensions\AEGS\assets\props\Engines\macros\engine_aegs_m_javelin_macro" />
+      <entry name="engine_aegs_l_javelin_macro" value="extensions\AEGS\assets\props\Engines\macros\engine_aegs_l_javelin_macro" />
+      <entry name="engine_aegs_max_javelin_macro" value="extensions\AEGS\assets\props\Engines\macros\engine_aegs_max_javelin_macro" />
+      <entry name="engine_f8c_lightning_macro" value="extensions\AEGS\assets\props\Engines\macros\engine_f8c_lightning_macro" />
+      <entry name="engine_aegs_xl_bengal_macro" value="extensions\AEGS\assets\props\Engines\macros\engine_aegs_xl_bengal_macro" />
+      <entry name="engine_aegs_xl_bengal_b_macro" value="extensions\AEGS\assets\props\Engines\macros\engine_aegs_xl_bengal_b_macro" />
+      <entry name="hammerhead_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\hammerhead_engine_macro" />
+      <entry name="retaliator_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\retaliator_engine_macro" />
+      <entry name="scorpius_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\scorpius_engine_macro" />
+      <entry name="engine_kraken_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\engine_kraken_engine_macro" />
+      <entry name="engine_idris_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\engine_idris_engine_macro" />
+      <entry name="arrow_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\arrow_engine_macro" />
+      <entry name="eclipse_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\eclipse_engine_macro" />
+      <entry name="starlifter_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\starlifter_engine_macro" />
+      <entry name="f7a_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\f7a_engine_macro" />
+      <entry name="f7c_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\f7c_engine_macro" />
+      <entry name="starfighter_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\starfighter_engine_macro" />
+      <entry name="retribution_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\retribution_engine_macro" />
+      <entry name="talon_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\talon_engine_macro" />
+      <entry name="sabre_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\sabre_engine_macro" />
+      <entry name="gladius_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\gladius_engine_macro" />
+      <entry name="vanguard_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\vanguard_engine_macro" />
+      <entry name="cutlass_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\cutlass_engine_macro" />
+      <entry name="constellation_andromeda_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\constellation_andromeda_engine_macro" />
+      <entry name="p52_merlin_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\p52_merlin_engine_macro" />
+      <entry name="reclaimer_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\reclaimer_engine_macro" />
+      <entry name="avenger_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\avenger_engine_macro" />
+      <entry name="spirit_a1_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\spirit_a1_engine_macro" />
+      <entry name="redeemer_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\redeemer_engine_macro" />
+      <entry name="mole_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\mole_engine_macro" />
+      <entry name="polaris_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\polaris_engine_macro" />
+      <entry name="prospector_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\prospector_engine_macro" />
+      <entry name="carrack_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\carrack_engine_macro" />
+      <entry name="c8x_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\c8x_engine_macro" />
+      <entry name="caterpillar_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\caterpillar_engine_macro" />
+      <entry name="defender_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\defender_engine_macro" />
+      <entry name="sabre_firebrid_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\sabre_firebrid_engine_macro" />
+      <entry name="sabre_raven_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\sabre_raven_engine_macro" />
+      <entry name="sabre_peregrine_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\sabre_peregrine_engine_macro" />
+      <entry name="blade_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\blade_engine_macro" />
+      <entry name="glaive_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\glaive_engine_macro" />
+
+      <!-- 护盾 -->
+      <entry name="shield_aegs_civilian_akura_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_civilian_akura_macro" />
+      <entry name="shield_aegs_civilian_nargun_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_civilian_nargun_macro" />
+      <entry name="shield_aegs_civilian_bila_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_civilian_bila_macro" />
+      <entry name="shield_aegs_civilian_mirage_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_civilian_mirage_macro" />
+      <entry name="shield_aegs_civilian_obscura_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_civilian_obscura_macro" />
+      <entry name="shield_aegs_civilian_sheut_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_civilian_sheut_macro" />
+      <entry name="shield_aegs_civilian_shimmer_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_civilian_shimmer_macro" />
+      <entry name="shield_aegs_civilian_umbra_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_civilian_umbra_macro" />
+      <entry name="shield_aegs_civilian_vell_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_civilian_vell_macro" />
+
+      <entry name="shield_aegs_industrial_aspis_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_industrial_aspis_macro" />
+      <entry name="shield_aegs_industrial_barbican_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_industrial_barbican_macro" />
+      <entry name="shield_aegs_industrial_bulwark_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_industrial_bulwark_macro" />
+      <entry name="shield_aegs_industrial_citadel_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_industrial_citadel_macro" />
+      <entry name="shield_aegs_industrial_guardian_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_industrial_guardian_macro" />
+      <entry name="shield_aegs_industrial_pallsade_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_industrial_pallsade_macro" />
+      <entry name="shield_aegs_industrial_parapet_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_industrial_parapet_macro" />
+      <entry name="shield_aegs_industrial_rampart_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_industrial_rampart_macro" />
+      <entry name="shield_aegs_industrial_stronghold_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_industrial_stronghold_macro" />
+
+      <entry name="shield_aegs_millitary_allstop_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_millitary_allstop_macro" />
+      <entry name="shield_aegs_millitary_coverall_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_millitary_coverall_macro" />
+      <entry name="shield_aegs_millitary_forcewall_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_millitary_forcewall_macro" />
+      <entry name="shield_aegs_millitary_fr66_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_millitary_fr66_macro" />
+      <entry name="shield_aegs_millitary_fr76_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_millitary_fr76_macro" />
+      <entry name="shield_aegs_millitary_fr86_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_millitary_fr86_macro" />
+      <entry name="shield_aegs_millitary_fr96_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_millitary_fr96_macro" />
+      <entry name="shield_aegs_millitary_fullblock_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_millitary_fullblock_macro" />
+      <entry name="shield_aegs_millitary_fullstop_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_millitary_fullstop_macro" />
+      <entry name="shield_aegs_millitary_sukoran_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_millitary_sukoran_macro" />
+      
+
+      <!-- 炮塔 -->
+      <entry name="turret_javelin_s9_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\macros\turret_javelin_s9_mxa_macro"/>
+      <entry name="turret_javelin_s7_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\macros\turret_javelin_s7_mxa_macro"/>
+      <entry name="turret_javelin_s5_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\macros\turret_javelin_s5_mxa_macro"/>
+      <entry name="turret_javelin_s5_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\macros\turret_javelin_s5_cf_macro"/>
+      <entry name="turret_javelin_s5_ad_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\macros\turret_javelin_s5_ad_macro"/>
+      <entry name="turret_aegs_m_missile_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\macros\turret_aegs_m_missile_macro"/>
+
+      <entry name="turret_f8_s3_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\f8\macros\turret_f8_s3_mxa_macro"/>
+      <entry name="turret_f8_s3_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\f8\macros\turret_f8_s3_cf_macro"/>
+      <entry name="turret_f8_s3_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\f8\macros\turret_f8_s3_gtx_macro"/>
+      <entry name="turret_f8_s3_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\f8\macros\turret_f8_s3_sp_macro"/>
+
+      <entry name="turret_bengal_singer_cannon_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\bengal\macros\turret_bengal_singer_cannon_macro"/>
+      <entry name="turret_bengal_singer_cannon_b_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\bengal\macros\turret_bengal_singer_cannon_b_macro"/>
+      <entry name="bengal_turret_aa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\bengal\macros\bengal_turret_aa_macro"/>
+      <entry name="bengal_turret_ai_ad_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\bengal\macros\bengal_turret_ai_ad_macro"/>
+      <entry name="bengal_turret_ai_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\bengal\macros\bengal_turret_ai_cf_macro"/>
+      <entry name="bengal_turret_ai_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\bengal\macros\bengal_turret_ai_mxa_macro"/>
+      <entry name="bengal_turret_medium_gun_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\bengal\macros\bengal_turret_medium_gun_macro"/>
+      <entry name="bengal_turret_gat_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\bengal\macros\bengal_turret_gat_macro"/>
+
+      <entry name="retribution_sx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\retribution\macros\retribution_sx_macro"/>
+      <entry name="retribution_l2x_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\retribution\macros\retribution_l2x_macro"/>
+      <entry name="retribution_sx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\retribution\macros\retribution_sx_macro"/>
+
+      <entry name="turret_retaliator_s3_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\retaliator\macros\turret_retaliator_s3_cf_macro"/>
+      <entry name="turret_retaliator_s3_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\retaliator\macros\turret_retaliator_s3_mxa_macro"/>
+      <entry name="turret_retaliator_s3_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\retaliator\macros\turret_retaliator_s3_gtx_macro"/>
+      <entry name="turret_retaliator_s3_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\retaliator\macros\turret_retaliator_s3_sp_macro"/>
+
+      <entry name="turret_scorpius_s3_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\scorpius\macros\turret_scorpius_s3_cf_macro"/>
+      <entry name="turret_scorpius_s3_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\scorpius\macros\turret_scorpius_s3_mxa_macro"/>
+      <entry name="turret_scorpius_s3_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\scorpius\macros\turret_scorpius_s3_gtx_macro"/>
+      <entry name="turret_scorpius_s3_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\scorpius\macros\turret_scorpius_s3_sp_macro"/>
+
+      <entry name="turret_kraken_s6_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\kraken\macros\turret_kraken_s6_cf_macro"/>
+      <entry name="turret_kraken_s6_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\kraken\macros\turret_kraken_s6_mxa_macro"/>
+      <entry name="turret_kraken_s6_ad_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\kraken\macros\turret_kraken_s6_ad_macro"/>
+      <entry name="turret_kraken_s7_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\kraken\macros\turret_kraken_s7_mxa_macro"/>
+      <entry name="turret_kraken_s7_at_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\kraken\macros\turret_kraken_s7_at_macro"/>
+      <entry name="turret_kraken_s7_ad_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\kraken\macros\turret_kraken_s7_ad_macro"/>
+
+      <entry name="turret_arrow_s2_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\arrow\macros\turret_arrow_s2_cf_macro"/>
+      <entry name="turret_arrow_s2_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\arrow\macros\turret_arrow_s2_mxa_macro"/>
+      <entry name="turret_arrow_s2_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\arrow\macros\turret_arrow_s2_gtx_macro"/>
+      <entry name="turret_arrow_s2_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\arrow\macros\turret_arrow_s2_sp_macro"/>
+
+      <entry name="turret_hammerhead_s4_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\hammerhead\macros\turret_hammerhead_s4_cf_macro"/>
+      <entry name="turret_hammerhead_s4_ad_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\hammerhead\macros\turret_hammerhead_s4_ad_macro"/>
+      <entry name="turret_hammerhead_s4_2_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\hammerhead\macros\turret_hammerhead_s4_2_cf_macro"/>
+      <entry name="turret_hammerhead_s4_2_ad_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\hammerhead\macros\turret_hammerhead_s4_2_ad_macro"/>
+
+      <entry name="turret_idris_s7_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\idris\macros\turret_idris_s7_mxa_macro"/>
+      <entry name="turret_idris_s7_at_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\idris\macros\turret_idris_s7_at_macro"/>
+      <entry name="turret_idris_s7_ad_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\idris\macros\turret_idris_s7_ad_macro"/>
+      <entry name="turret_idris_s3_missile_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\idris\macros\turret_idris_s3_missile_macro"/>
+
+      <entry name="turret_starlifter_s4_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\starlifter\macros\turret_starlifter_s4_cf_macro"/>
+      <entry name="turret_starlifter_s4_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\starlifter\macros\turret_starlifter_s4_mxa_macro"/>
+      <entry name="turret_starlifter_s4_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\starlifter\macros\turret_starlifter_s4_gtx_macro"/>
+
+      <entry name="turret_f7a_s3_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\f7\macros\turret_f7a_s3_mxa_macro"/>
+      <entry name="turret_f7a_s3_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\f7\macros\turret_f7a_s3_cf_macro"/>
+      <entry name="turret_f7a_s3_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\f7\macros\turret_f7a_s3_gtx_macro"/>
+      <entry name="turret_f7a_s3_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\f7\macros\turret_f7a_s3_sp_macro"/>
+
+      <entry name="turret_f7cm_s2_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\f7\macros\turret_f7cm_s2_mxa_macro"/>
+      <entry name="turret_f7cm_s2_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\f7\macros\turret_f7cm_s2_cf_macro"/>
+      <entry name="turret_f7cm_s2_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\f7\macros\turret_f7cm_s2_gtx_macro"/>
+      <entry name="turret_f7cm_s2_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\f7\macros\turret_f7cm_s2_sp_macro"/>
+
+      <entry name="cutlass_turret_s2_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\cutlass\macros\cutlass_turret_s2_mxa_macro"/>
+      <entry name="cutlass_turret_s2_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\cutlass\macros\cutlass_turret_s2_cf_macro"/>
+      <entry name="cutlass_turret_s2_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\cutlass\macros\cutlass_turret_s2_gtx_macro"/>
+      <entry name="cutlass_turret_s2_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\cutlass\macros\cutlass_turret_s2_sp_macro"/>
+
+      <entry name="constellation_andromeda_turret_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\constellation\macros\constellation_andromeda_turret_cf_macro"/>
+      <entry name="constellation_andromeda_turret_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\constellation\macros\constellation_andromeda_turret_mxa_macro"/>
+      <entry name="constellation_andromeda_turret_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\constellation\macros\constellation_andromeda_turret_gtx_macro"/>
+      <entry name="constellation_andromeda_turret_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\constellation\macros\constellation_andromeda_turret_sp_macro"/>
+
+      <entry name="reclaimer_turret_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\reclaimer\macros\reclaimer_turret_cf_macro"/>
+      <entry name="reclaimer_turret_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\reclaimer\macros\reclaimer_turret_gtx_macro"/>
+      <entry name="reclaimer_turret_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\reclaimer\macros\reclaimer_turret_mxa_macro"/>
+      <entry name="reclaimer_turret_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\reclaimer\macros\reclaimer_turret_sp_macro"/>
+
+      <entry name="spirit_a1_turret_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\spirit\macros\spirit_a1_turret_cf_macro"/>
+      <entry name="spirit_a1_turret_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\spirit\macros\spirit_a1_turret_gtx_macro"/>
+      <entry name="spirit_a1_turret_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\spirit\macros\spirit_a1_turret_mxa_macro"/>
+      <entry name="spirit_a1_turret_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\spirit\macros\spirit_a1_turret_sp_macro"/>
+
+      <entry name="redeemer_turret_ad_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\redeemer\macros\redeemer_turret_ad_macro"/>
+      <entry name="redeemer_turret_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\redeemer\macros\redeemer_turret_cf_macro"/>
+      <entry name="redeemer_turret_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\redeemer\macros\redeemer_turret_mxa_macro"/>
+
+      <entry name="redeemer_turret_b_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\redeemer\macros\redeemer_turret_b_cf_macro"/>
+      <entry name="redeemer_turret_b_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\redeemer\macros\redeemer_turret_b_gtx_macro"/>
+      <entry name="redeemer_turret_b_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\redeemer\macros\redeemer_turret_b_mxa_macro"/>
+      <entry name="redeemer_turret_b_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\redeemer\macros\redeemer_turret_b_sp_macro"/>
+
+      <entry name="mole_turret_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\mole\macros\mole_turret_macro"/>
+      <entry name="mole_turret2_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\mole\macros\mole_turret2_macro"/>
+
+      <entry name="polaris_turret_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret_cf_macro"/>
+      <entry name="polaris_turret_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret_mxa_macro"/>
+      <entry name="polaris_turret_ad_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret_ad_macro"/>
+      <entry name="polaris_turret_db_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret_db_macro"/>
+      <entry name="polaris_turret2_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret2_cf_macro"/>
+      <entry name="polaris_turret2_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret2_mxa_macro"/>
+      <entry name="polaris_turret2_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret2_gtx_macro"/>
+      <entry name="polaris_turret2_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret2_sp_macro"/>
+      <entry name="polaris_turret2_missile_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret2_missile_macro"/>
+
+      <entry name="carrack_turret_1_ad_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_1_ad_macro"/>
+      <entry name="carrack_turret_1_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_1_cf_macro"/>
+      <entry name="carrack_turret_1_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_1_mxa_macro"/>
+      <entry name="carrack_turret_1_db_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_1_db_macro"/>
+      <entry name="carrack_turret_2_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_2_gtx_macro"/>
+      <entry name="carrack_turret_2_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_2_cf_macro"/>
+      <entry name="carrack_turret_2_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_2_mxa_macro"/>
+      <entry name="carrack_turret_2_db_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_2_db_macro"/>
+      <entry name="carrack_turret_2_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_2_sp_macro"/>
+      <entry name="carrack_turret_3_ad_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_3_ad_macro"/>
+      <entry name="carrack_turret_3_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_3_cf_macro"/>
+      <entry name="carrack_turret_3_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_3_mxa_macro"/>
+      <entry name="carrack_turret_3_db_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_3_db_macro"/>
+
+      
+
+      <!-- 装饰 -->
+      <entry name="eclipse_missile_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\eclipse\macros\eclipse_missile_macro"/>
+
+      <!-- 特殊武器 -->
+      <entry name="wepon_f8_s2_missile_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\f8\macros\wepon_f8_s2_missile_macro"/>
+      <entry name="wepon_f8_s1_missile_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\f8\macros\wepon_f8_s1_missile_macro"/>
+
+      <entry name="weapon_left_hammerhead_s3_missile_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\hammerhead\macros\weapon_left_hammerhead_s3_missile_macro"/>
+      <entry name="weapon_rigth_hammerhead_s3_missile_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\hammerhead\macros\weapon_rigth_hammerhead_s3_missile_macro"/>
+
+      <entry name="weapon_idris_s10_cannon_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\idris\macros\weapon_idris_s10_cannon_macro"/>
+      <entry name="weapon_idris_s10_beam_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\idris\macros\weapon_idris_s10_beam_macro"/>
+
+      <entry name="weapon_antares_emp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\scorpius\macros\weapon_antares_emp_macro"/>
+
+      <entry name="generic_s2_missile_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\generic_s2_missile_macro"/>
+      <entry name="generic_s1_missile_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\generic_s1_missile_macro"/>
+
+      <entry name="aegs_l_s10_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\s10\macros\aegs_l_s10_macro"/>
+      <entry name="retribution_maingun_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\retribution\macros\retribution_maingun_macro"/>
+
+      <entry name="weapon_vanguard_s2_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\vanguard\macros\weapon_vanguard_s2_macro"/>
+
+      <entry name="weapon_p52_s3_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\p52\macros\weapon_p52_s3_macro"/>
+
+      <entry name="spirit_a1_boom_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\spirit\macros\spirit_a1_boom_macro"/>
+
+      <entry name="prospector_weapon_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\prospector\macros\prospector_weapon_macro"/>
+
+      <entry name="wepon_missile_sabre_firebrid_missile_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_sabre_firebrid_missile_macro"/>
+
+      <entry name="wepon_missile_blade_missile_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_blade_missile_macro"/>
+
+      <entry name="weapon_glaive_s3_macro" value="extensions\aegs\assets\props\weaponsystems\generic\macros\weapon_glaive_s3_macro"/>
+      <entry name="weapon_glaive_s2_macro" value="extensions\aegs\assets\props\weaponsystems\generic\macros\weapon_glaive_s2_macro"/>
+
+      <!-- 武器 -->
+      <entry name="weapon_nnxa_s2_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_nnxa_s2_macro"/>
+      <entry name="weapon_cf_s2_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_cf_s2_macro"/>
+      <entry name="weapon_mxa_s2_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_mxa_s2_macro"/>
+      <entry name="weapon_gtx_s2_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_gtx_s2_macro"/>
+      <entry name="weapon_xsgc_s2_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_xsgc_s2_macro"/>
+      <entry name="weapon_sw16br_s2_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_sw16br_s2_macro"/>
+      <entry name="weapon_xsgc_he_s2_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_xsgc_he_s2_macro"/>
+      <entry name="weapon_sp_s2_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_sp_s2_macro"/>
+      <entry name="weapon_db_s2_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_db_s2_macro"/>
+      <entry name="weapon_fl_s2_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_fl_s2_macro"/>
+      <entry name="weapon_nbd_s2_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_nbd_s2_macro"/>
+
+      <entry name="weapon_nnxa_s3_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_nnxa_s3_macro"/>
+      <entry name="weapon_cf_s3_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_cf_s3_macro"/>
+      <entry name="weapon_mxa_s3_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_mxa_s3_macro"/>
+      <entry name="weapon_gtx_s3_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_gtx_s3_macro"/>
+      <entry name="weapon_xsgc_s3_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_xsgc_s3_macro"/>
+      <entry name="weapon_sw16br_s3_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_sw16br_s3_macro"/>
+      <entry name="weapon_xsgc_he_s3_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_xsgc_he_s3_macro"/>
+      <entry name="weapon_sp_s3_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_sp_s3_macro"/>
+      <entry name="weapon_db_s3_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_db_s3_macro"/>
+      <entry name="weapon_fl_s3_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_fl_s3_macro"/>
+      <entry name="weapon_nbd_s3_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_nbd_s3_macro"/>
+      
+
+      <entry name="weapon_cf_s4_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_cf_s4_macro"/>
+      <entry name="weapon_mxa_s4_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_mxa_s4_macro"/>
+      <entry name="weapon_ad_s4_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_ad_s4_macro"/>
+      <entry name="weapon_rgt_s4_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_rgt_s4_macro"/>
+      <entry name="weapon_c788_s4_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_c788_s4_macro"/>
+      <entry name="weapon_db_s4_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_db_s4_macro"/>
+      <entry name="weapon_gt870_s4_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_gt870_s4_macro"/>
+
+      <entry name="weapon_cf_s5_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_cf_s5_macro"/>
+      <entry name="weapon_mxa_s5_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_mxa_s5_macro"/>
+      <entry name="weapon_ad_s5_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_ad_s5_macro"/>
+      <entry name="weapon_db_s5_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_db_s5_macro"/>
+      <entry name="weapon_gt870_s5_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_gt870_s5_macro"/>
+
+      <entry name="weapon_sf7e_s7_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_sf7e_s7_macro"/>
+      <entry name="weapon_sf7b_s7_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_sf7b_s7_macro"/>
+
+      <!-- 通用导弹发射架 -->
+      <entry name="wepon_missile_s12_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_s12_macro"/>
+      <entry name="wepon_missile_s11_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_s11_macro"/>
+      <entry name="wepon_missile_s10_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_s10_macro"/>
+      <entry name="wepon_missile_s9_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_s9_macro"/>
+      <entry name="wepon_missile_s8_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_s8_macro"/>
+      <entry name="wepon_missile_s7_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_s7_macro"/>
+      <entry name="wepon_missile_s6_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_s6_macro"/>
+      <entry name="wepon_missile_s5_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_s5_macro"/>
+      <entry name="wepon_missile_s4_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_s4_macro"/>
+      <entry name="wepon_missile_s3_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_s3_macro"/>
+      <entry name="wepon_missile_s2_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_s2_macro"/>
+
+      <entry name="wepon_missile_s4_s3_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_s4_s3_macro"/>
+      <entry name="wepon_missile_s4_s2_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_s4_s2_macro"/>
+      <entry name="wepon_missile_s3_s2_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_s3_s2_macro"/>
+      <entry name="wepon_missile_s3_s1_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_s3_s1_macro"/>
+      <entry name="wepon_missile_s2_s1_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\macros\wepon_missile_s2_s1_macro"/>
+
+
+      
+
+      <!-- 炮弹 -->
+            <!-- CF -->
+      <entry name="S9_at_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\S9_at_macro"/>
+      <entry name="S7_at_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\S7_at_macro"/>
+      <entry name="S2_cf_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\S2_cf_macro"/>
+      <entry name="S4_cf_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\S4_cf_macro"/>
+      <entry name="S3_cf_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\S3_cf_macro"/>
+      <entry name="S6_cf_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\S6_cf_macro"/>
+      <entry name="S8_at_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\S8_at_macro"/>
+      <entry name="S5_cf_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\S5_cf_macro"/>
+
+      <entry name="S2_cf_vanguard_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\S2_cf_vanguard_macro"/>
+
+      <entry name="S9_at_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\2x\S9_at_2x_macro"/>
+      <entry name="S7_at_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\2x\S7_at_2x_macro"/>
+      <entry name="S2_cf_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\2x\S2_cf_2x_macro"/>
+      <entry name="S4_cf_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\2x\S4_cf_2x_macro"/>
+      <entry name="S3_cf_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\2x\S3_cf_2x_macro"/>
+      <entry name="S6_cf_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\2x\S6_cf_2x_macro"/>
+      <entry name="S8_at_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\2x\S8_at_2x_macro"/>
+      <entry name="S5_cf_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\2x\S5_cf_2x_macro"/>
+
+      <entry name="S9_at_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\4x\S9_at_4x_macro"/>
+      <entry name="S7_at_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\4x\S7_at_4x_macro"/>
+      <entry name="S2_cf_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\4x\S2_cf_4x_macro"/>
+      <entry name="S4_cf_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\4x\S4_cf_4x_macro"/>
+      <entry name="S3_cf_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\4x\S3_cf_4x_macro"/>
+      <entry name="S6_cf_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\4x\S6_cf_4x_macro"/>
+      <entry name="S8_at_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\4x\S8_at_4x_macro"/>
+      <entry name="S5_cf_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\CF\4x\S5_cf_4x_macro"/>
+            <!-- MXA -->
+      <entry name="S2_mxa_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\S2_mxa_macro"/>
+      <entry name="S3_mxa_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\S3_mxa_macro"/>
+      <entry name="S4_mxa_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\S4_mxa_macro"/>
+      <entry name="S5_mxa_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\S5_mxa_macro"/>
+      <entry name="S6_mxa_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\S6_mxa_macro"/>
+      <entry name="S8_omnisk_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\S8_omnisk_macro"/>
+      <entry name="S7_mxa_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\S7_mxa_macro"/>
+      <entry name="S9_omnisk_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\S9_omnisk_macro"/>
+
+      <entry name="S2_mxa_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\2x\S2_mxa_2x_macro"/>
+      <entry name="S3_mxa_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\2x\S3_mxa_2x_macro"/>
+      <entry name="S4_mxa_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\2x\S4_mxa_2x_macro"/>
+      <entry name="S5_mxa_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\2x\S5_mxa_2x_macro"/>
+      <entry name="S6_mxa_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\2x\S6_mxa_2x_macro"/>
+      <entry name="S8_omnisk_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\2x\S8_omnisk_2x_macro"/>
+      <entry name="S7_mxa_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\2x\S7_mxa_2x_macro"/>
+      <entry name="S9_omnisk_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\2x\S9_omnisk_2x_macro"/>
+
+      <entry name="S2_mxa_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\4x\S2_mxa_4x_macro"/>
+      <entry name="S3_mxa_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\4x\S3_mxa_4x_macro"/>
+      <entry name="S4_mxa_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\4x\S4_mxa_4x_macro"/>
+      <entry name="S5_mxa_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\4x\S5_mxa_4x_macro"/>
+      <entry name="S6_mxa_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\4x\S6_mxa_4x_macro"/>
+      <entry name="S8_omnisk_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\4x\S8_omnisk_4x_macro"/>
+      <entry name="S7_mxa_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\4x\S7_mxa_4x_macro"/>
+      <entry name="S9_omnisk_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\MXA\4x\S9_omnisk_4x_macro"/>
+            <!-- GTX -->
+      <entry name="S2_gtx_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\S2_gtx_macro"/>
+      <entry name="S3_gtx_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\S3_gtx_macro"/>
+      <entry name="S4_ad_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\S4_ad_macro"/>
+      <entry name="S5_ad_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\S5_ad_macro"/>
+      <entry name="S6_ad_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\S6_ad_macro"/>
+      <entry name="S8_ad_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\S8_ad_macro"/>
+      <entry name="S7_ad_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\S7_ad_macro"/>
+      <entry name="S9_ad_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\S9_ad_macro"/>
+
+      <entry name="S2_gtx_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\2x\S2_gtx_2x_macro"/>
+      <entry name="S3_gtx_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\2x\S3_gtx_2x_macro"/>
+      <entry name="S4_ad_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\2x\S4_ad_2x_macro"/>
+      <entry name="S5_ad_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\2x\S5_ad_2x_macro"/>
+      <entry name="S6_ad_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\2x\S6_ad_2x_macro"/>
+      <entry name="S8_ad_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\2x\S8_ad_2x_macro"/>
+      <entry name="S7_ad_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\2x\S7_ad_2x_macro"/>
+      <entry name="S9_ad_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\2x\S9_ad_2x_macro"/>
+
+      <entry name="S2_gtx_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\4x\S2_gtx_4x_macro"/>
+      <entry name="S3_gtx_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\4x\S3_gtx_4x_macro"/>
+      <entry name="S4_ad_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\4x\S4_ad_4x_macro"/>
+      <entry name="S5_ad_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\4x\S5_ad_4x_macro"/>
+      <entry name="S6_ad_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\4x\S6_ad_4x_macro"/>
+      <entry name="S8_ad_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\4x\S8_ad_4x_macro"/>
+      <entry name="S7_ad_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\4x\S7_ad_4x_macro"/>
+      <entry name="S9_ad_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gtx\4x\S9_ad_4x_macro"/>
+            <!-- XSGC -->
+      <entry name="S2_xsgc_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\xsgc\S2_xsgc_macro"/>
+      <entry name="S3_xsgc_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\xsgc\S3_xsgc_macro"/>
+
+      <entry name="S2_xsgc_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\xsgc\2x\S2_xsgc_2x_macro"/>
+      <entry name="S3_xsgc_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\xsgc\2x\S3_xsgc_2x_macro"/>
+
+      <entry name="S2_xsgc_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\xsgc\4x\S2_xsgc_4x_macro"/>
+      <entry name="S3_xsgc_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\xsgc\4x\S3_xsgc_4x_macro"/>
+            <!-- NNXA -->
+      <entry name="S2_nnxa_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\nnxa\S2_nnxa_macro"/>
+      <entry name="S3_nnxa_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\nnxa\S3_nnxa_macro"/>
+
+      <entry name="S2_nnxa_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\nnxa\2x\S2_nnxa_2x_macro"/>
+      <entry name="S3_nnxa_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\nnxa\2x\S3_nnxa_2x_macro"/>
+
+      <entry name="S2_nnxa_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\nnxa\4x\S2_nnxa_4x_macro"/>
+      <entry name="S3_nnxa_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\nnxa\4x\S3_nnxa_4x_macro"/>
+            <!-- RGT -->
+      <entry name="S3_rgt_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\rgt\S3_rgt_macro"/>
+      <entry name="S4_rgt_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\rgt\S4_rgt_macro"/>
+            <!-- SW16BR -->
+      <entry name="S2_sw16br_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\sw16br\S2_sw16br_macro"/>
+      <entry name="S3_sw16br_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\sw16br\S3_sw16br_macro"/>
+            <!-- SP -->
+      <entry name="S2_sp_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\sp\S2_sp_macro"/>
+      <entry name="S3_sp_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\sp\S3_sp_macro"/>
+
+      <entry name="S3_glaive_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S3_glaive_macro"/>
+
+      <entry name="S2_sp_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\sp\2x\S2_sp_2x_macro"/>
+      <entry name="S3_sp_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\sp\2x\S3_sp_2x_macro"/>
+
+      <entry name="S2_sp_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\sp\4x\S2_sp_4x_macro"/>
+      <entry name="S3_sp_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\sp\4x\S3_sp_4x_macro"/>
+            <!-- C788 -->
+      <entry name="S4_c788_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\c788\S4_c788_macro"/>
+            <!-- SLEDGE -->
+      <entry name="S7_sledge_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\sledge\S7_sledge_macro"/>
+      <entry name="S8_sledge_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\sledge\S8_sledge_macro"/>
+      <entry name="S9_sledge_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\sledge\S9_sledge_macro"/>
+            <!-- FL -->
+      <entry name="S2_fl_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\FL\S2_fl_macro"/>
+      <entry name="S3_fl_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\FL\S3_fl_macro"/>
+            <!-- NBD -->
+      <entry name="S2_nbd_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\NBD\S2_nbd_macro"/>
+      <entry name="S3_nbd_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\NBD\S3_nbd_macro"/>
+            <!-- GT870 -->
+      <entry name="S4_gt870_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gt870\S4_gt870_macro"/>
+      <entry name="S5_gt870_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gt870\S5_gt870_macro"/>
+      <entry name="S6_gt870_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\gt870\S6_gt870_macro"/>
+            <!-- DB -->
+      <entry name="S2_db_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\S2_db_macro"/>
+      <entry name="S3_db_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\S3_db_macro"/>
+      <entry name="S4_db_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\S4_db_macro"/>
+      <entry name="S5_db_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\S5_db_macro"/>
+      <entry name="S6_db_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\S6_db_macro"/>
+      <entry name="S8_db_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\S8_db_macro"/>
+      <entry name="S7_db_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\S7_db_macro"/>
+      <entry name="S9_db_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\S9_db_macro"/>
+
+      <entry name="S2_db_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\2x\S2_db_2x_macro"/>
+      <entry name="S3_db_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\2x\S3_db_2x_macro"/>
+      <entry name="S4_db_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\2x\S4_db_2x_macro"/>
+      <entry name="S5_db_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\2x\S5_db_2x_macro"/>
+      <entry name="S6_db_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\2x\S6_db_2x_macro"/>
+      <entry name="S8_db_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\2x\S8_db_2x_macro"/>
+      <entry name="S7_db_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\2x\S7_db_2x_macro"/>
+      <entry name="S9_db_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\2x\S9_db_2x_macro"/>
+
+      <entry name="S2_db_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\4x\S2_db_4x_macro"/>
+      <entry name="S3_db_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\4x\S3_db_4x_macro"/>
+      <entry name="S4_db_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\4x\S4_db_4x_macro"/>
+      <entry name="S5_db_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\4x\S5_db_4x_macro"/>
+      <entry name="S6_db_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\4x\S6_db_4x_macro"/>
+      <entry name="S8_db_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\4x\S8_db_4x_macro"/>
+      <entry name="S7_db_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\4x\S7_db_4x_macro"/>
+      <entry name="S9_db_4x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\db\4x\S9_db_4x_macro"/>
+            <!-- 其他 -->
+      <entry name="S12_rail_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S12_rail_macro"/>
+      <entry name="S11_rail_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S11_rail_macro"/>
+      <entry name="S10_rail_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S10_rail_macro"/>
+      <entry name="S10_p_laser_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S10_p_laser_macro"/>
+      <entry name="antares_emp_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\antares_emp_macro"/>
+      <entry name="bullet_retribution_maingun_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\bullet_retribution_maingun_macro"/>
+
+      <entry name="S7_s_ad_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S7_s_ad_macro"/>
+      <entry name="S7_s_mxa_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S7_s_mxa_macro"/>
+
+      <entry name="S10_gvsr_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S10_gvsr_macro"/>
+      <entry name="S11_gvsr_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S11_gvsr_2x_macro"/>
+      <entry name="SX_rail_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\SX_rail_macro"/>
+
+      <entry name="S10_bengal_gun_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S10_bengal_gun_2x_macro"/>
+      <entry name="S6_aa_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S6_aa_2x_macro"/>
+      <entry name="S5_gat_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S5_gat_macro"/>
+
+      <!-- 导弹 -->
+      <entry name="missile_s12_seeker_xii_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s12_seeker_xii_macro"/>
+      <entry name="missile_s11_seeker_xi_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s11_seeker_xi_macro"/>
+      <entry name="missile_s9_argos_ix_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s9_argos_ix_macro"/>
+      <entry name="missile_s10_typhoon_x_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s10_typhoon_x_macro"/>
+      <entry name="missile_s8_scimitar_viii_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s8_scimitar_viii_macro"/>
+      <entry name="missile_s2_dominator_ii_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s2_dominator_ii_macro"/>
+      <entry name="missile_s2_ignite_ii_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s2_ignite_ii_macro"/>
+      <entry name="missile_s2_tempest_ii_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s2_tempest_ii_macro"/>
+      <entry name="missile_s3_thunderbolt_iii_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s3_thunderbolt_iii_macro"/>
+      <entry name="missile_s3_viper_iii_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s3_viper_iii_macro"/>
+      <entry name="missile_s3_arrester_iii_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s3_arrester_iii_macro"/>
+      <entry name="missile_s1_taskforce_i_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s1_taskforce_i_macro"/>
+      <entry name="missile_s1_spark_i_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s1_spark_i_macro"/>
+      <entry name="missile_s1_marksman_i_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s1_marksman_i_macro"/>
+
+      <entry name="missile_spirit_a1_fski_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_spirit_a1_fski_macro"/>
+
+      <entry name="missile_s3_thunderbolt_iii_firebrid_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s3_thunderbolt_iii_firebrid_macro"/>
+      <entry name="missile_s3_viper_iii_firebrid_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s3_viper_iii_firebrid_macro"/>
+      <entry name="missile_s3_arrester_iii_firebrid_macro" value="extensions\AEGS\assets\props\weaponsystems\missile\macros\missile_s3_arrester_iii_firebrid_macro"/>
+
+      <!-- 停机坪 -->
+      <entry name="dockingbay_aegs_s_macro" value="extensions\AEGS\assets\structures\dock\macros\dockingbay_aegs_s_macro"/>
+      <entry name="dockarea_aegs_s_javelin_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_aegs_s_javelin_macro"/>
+      <entry name="kraken_airport_macro" value="extensions\AEGS\assets\structures\dock\macros\kraken_airport_macro"/>
+      <entry name="dockarea_kraken_airport_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_kraken_airport_macro"/>
+      <entry name="kraken_airportb_macro" value="extensions\AEGS\assets\structures\dock\macros\kraken_airportb_macro"/>
+      <entry name="kraken_airporta_macro" value="extensions\AEGS\assets\structures\dock\macros\kraken_airporta_macro"/>
+      <entry name="dockarea_kraken_airport_left_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_kraken_airport_left_macro"/>
+      <entry name="kraken_airportc_macro" value="extensions\AEGS\assets\structures\dock\macros\kraken_airportc_macro"/>
+      <entry name="kraken_airportc2_macro" value="extensions\AEGS\assets\structures\dock\macros\kraken_airportc2_macro"/>
+      <entry name="dockarea_kraken_airport_bottom_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_kraken_airport_bottom_macro"/>
+      <entry name="dockarea_aegs_bengal_dockbaya_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_aegs_bengal_dockbaya_macro"/>
+      <entry name="idris_dockingbay_macro" value="extensions\AEGS\assets\structures\dock\macros\idris_dockingbay_macro"/>
+      <entry name="dockarea_idris_airport_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_idris_airport_macro"/>
+      <entry name="dockarea_retribution_s_ship_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_retribution_s_ship_macro"/>
+      <entry name="constellation_andromeda_dockarea_macro" value="extensions\AEGS\assets\structures\dock\macros\constellation_andromeda_dockarea_macro"/>
+      <entry name="constellation_andromeda_dockingbay_macro" value="extensions\AEGS\assets\structures\dock\macros\constellation_andromeda_dockingbay_macro"/>
+      <entry name="dockarea_aegs_empty_s_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_aegs_empty_s_macro"/>
+      <entry name="dockingbay_aegs_empty_s_macro" value="extensions\AEGS\assets\structures\dock\macros\dockingbay_aegs_empty_s_macro"/>
+      <entry name="polaris_dockingbay_macro" value="extensions\AEGS\assets\structures\dock\macros\polaris_dockingbay_macro"/>
+      <entry name="dockarea_polaris_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_polaris_macro"/>
+      <entry name="carrack_dockarea_macro" value="extensions\AEGS\assets\structures\dock\macros\carrack_dockarea_macro"/>
+      <entry name="carrack_dockingbay_macro" value="extensions\AEGS\assets\structures\dock\macros\carrack_dockingbay_macro"/>
+      <entry name="dockarea_aegs_bengal_m_macro" value="extensions\AEGS\assets\structures\dock\macros\dockarea_aegs_bengal_m_macro"/>
+      <entry name="dockingbay_aegs_kraken_m_macro" value="extensions\AEGS\assets\structures\dock\macros\dockingbay_aegs_kraken_m_macro"/>
+      <entry name="dockingbay_aegs_bengal_m_macro" value="extensions\AEGS\assets\structures\dock\macros\dockingbay_aegs_bengal_m_macro"/>
+      
+      <!-- 引擎特效 -->
+      <entry name="aegs_javelin_boost_fx_macro" value="extensions\AEGS\assets\fx\boostfx\macros\aegs_javelin_boost_fx_macro"/>
+      <entry name="aegs_m_boost_fx_macro" value="extensions\AEGS\assets\fx\boostfx\macros\aegs_m_boost_fx_macro"/>
+      <entry name="aegs_l_boost_fx_macro" value="extensions\AEGS\assets\fx\boostfx\macros\aegs_l_boost_fx_macro"/>
+      <entry name="aegs_f8c_boost_fx_macro" value="extensions\AEGS\assets\fx\boostfx\macros\aegs_f8c_boost_fx_macro"/>
+      <entry name="aegs_hammer_boost_fx_macro" value="extensions\AEGS\assets\fx\boostfx\macros\aegs_hammer_boost_fx_macro"/>
+
+      <!-- 火炮特效 -->
+	<entry name="S12_launch_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S12_launch_macro"/>
+      <entry name="S12_impact_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S12_impact_macro"/>
+
+      <!-- 内构房间 -->
+      <entry name="room_aegs_javelin_connection_01_macro" value="extensions\aegs\assets\interiors\rooms\macros\room_aegs_javelin_connection_01_macro"/>
+
+      <!-- 船体部件 -->
+      <entry name="buildmodule_bengal_macro" value="extensions\AEGS\assets\structures\model\macros\buildmodule_bengal_macro"/>
+      <entry name="kraken_macro" value="extensions\AEGS\assets\structures\model\macros\kraken_macro"/>
+      <entry name="kraken_refinedmetals_macro" value="extensions\AEGS\assets\structures\model\macros\kraken_refinedmetals_macro"/>
+      <entry name="shipstorage_kraken_macro" value="extensions\AEGS\assets\props\SurfaceElements\macros\shipstorage_kraken_macro"/>
+      <entry name="storage_aegs_kraken_normal_macro" value="extensions\AEGS\assets\units\size_l\macros\storage_aegs_kraken_normal_macro"/>
+      <entry name="storage_aegs_kraken_solid_macro" value="extensions\AEGS\assets\units\size_l\macros\storage_aegs_kraken_solid_macro"/>
+      <entry name="storage_aegs_avenger_macro" value="extensions\AEGS\assets\units\size_s\macros\storage_aegs_avenger_macro"/>
+      <entry name="storage_aegs_f8_macro" value="extensions\AEGS\assets\units\size_s\macros\storage_aegs_f8_macro"/>
+      <entry name="storage_aegs_f7c_macro" value="extensions\AEGS\assets\units\size_s\macros\storage_aegs_f7c_macro"/>
+      <entry name="storage_aegs_sabre_macro" value="extensions\AEGS\assets\units\size_s\macros\storage_aegs_sabre_macro"/>
+      <entry name="storage_aegs_vanguard_macro" value="extensions\AEGS\assets\units\size_s\macros\storage_aegs_vanguard_macro"/>
+      <entry name="storage_aegs_gladius_macro" value="extensions\AEGS\assets\units\size_s\macros\storage_aegs_gladius_macro"/>
+      <entry name="storage_aegs_arrow_macro" value="extensions\AEGS\assets\units\size_s\macros\storage_aegs_arrow_macro"/>
+      <entry name="storage_aegs_c8_macro" value="extensions\AEGS\assets\units\size_s\macros\storage_aegs_c8_macro"/>
+      <entry name="storage_aegs_hammer_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_aegs_hammer_macro"/>
+      <entry name="storage_aegs_retaliator_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_aegs_retaliator_macro"/>
+      <entry name="storage_constellation_andromeda_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_constellation_andromeda_macro"/>
+      <entry name="storage_reclaimer_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_reclaimer_macro"/>
+      <entry name="storage_aegs_idris_m_macro" value="extensions\AEGS\assets\units\size_l\macros\storage_aegs_idris_m_macro"/>
+      <entry name="storage_aegs_idris_p_macro" value="extensions\AEGS\assets\units\size_l\macros\storage_aegs_idris_p_macro"/>
+      <entry name="storage_aegs_javelin_macro" value="extensions\AEGS\assets\units\size_l\macros\storage_aegs_javelin_macro"/>
+      <entry name="storage_aegs_bengal_macro" value="extensions\AEGS\assets\units\size_l\macros\storage_aegs_bengal_macro"/>
+      <entry name="storage_aegs_retribution_macro" value="extensions\AEGS\assets\units\size_xl\macros\storage_aegs_retribution_macro"/>
+      <entry name="idris_bridge_macro" value="extensions\aegs\assets\interiors\bridges\macros\idris_bridge_macro"/>
+      <entry name="starlifter_c2_inner_macro" value="extensions\AEGS\assets\units\size_m\inner\macros\starlifter_c2_inner_macro"/>
+      <entry name="starlifter_a2_inner_macro" value="extensions\AEGS\assets\units\size_m\inner\macros\starlifter_a2_inner_macro"/>
+      <entry name="starlifter_m2_inner_macro" value="extensions\AEGS\assets\units\size_m\inner\macros\starlifter_m2_inner_macro"/>
+      <entry name="shipstorage_aegs_idris_m_macro" value="extensions\AEGS\assets\units\size_l\macros\shipstorage_aegs_idris_m_macro"/>
+      <entry name="room_aegs_javelin_room1_macro" value="extensions\AEGS\assets\interiors\rooms\macros\room_aegs_javelin_room1_macro"/>
+      <entry name="room_aegs_javelin_room1_v_macro" value="extensions\AEGS\assets\interiors\rooms\macros\room_aegs_javelin_room1_v_macro"/>
+      <entry name="dock_aegs_xs_macro" value="extensions\AEGS\assets\props\SurfaceElements\macros\dock_aegs_xs_macro"/>
+      <entry name="f7c_d_macro" value="extensions\AEGS\assets\units\size_s\inner\macros\f7c_d_macro"/>
+      <entry name="f7c_t_macro" value="extensions\AEGS\assets\units\size_s\inner\macros\f7c_t_macro"/>
+      <entry name="spirit_a1_inner_macro" value="extensions\AEGS\assets\units\size_m\inner\macros\spirit_a1_inner_macro"/>
+      <entry name="spirit_c1_inner_macro" value="extensions\AEGS\assets\units\size_m\inner\macros\spirit_c1_inner_macro"/>
+      <entry name="storage_polaris_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_polaris_macro"/>
+      <entry name="shipstorage_polaris_macro" value="extensions\AEGS\assets\units\size_m\macros\shipstorage_polaris_macro"/>
+      <entry name="storage_prospector_macro" value="extensions\AEGS\assets\units\size_s\macros\storage_prospector_macro"/>
+      <entry name="storage_carrack_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_carrack_macro"/>
+      <entry name="storage_mole_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_mole_macro"/>
+      <entry name="shipstorage_aegs_bengal_m_macro" value="extensions\AEGS\assets\units\size_l\macros\shipstorage_aegs_bengal_m_macro"/>
+      <entry name="storage_caterpillar_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_caterpillar_macro"/>
+
+      <!-- 星系 -->
+      <entry name="AEGS_cluster01_macro" value="extensions\AEGS\maps\XU_ep2_universe\aegs_clusters"/>
+      <entry name="AEGS_cluster02_macro" value="extensions\AEGS\maps\XU_ep2_universe\aegs_clusters"/>
+      <entry name="AEGS_cluster03_macro" value="extensions\AEGS\maps\XU_ep2_universe\aegs_clusters"/>
+      <entry name="AEGS_cluster04_macro" value="extensions\AEGS\maps\XU_ep2_universe\aegs_clusters"/>
+      <entry name="AEGS_cluster01_sector001_macro" value="extensions\AEGS\maps\XU_ep2_universe\aegs_sectors"/>
+      <entry name="AEGS_cluster02_sector001_macro" value="extensions\AEGS\maps\XU_ep2_universe\aegs_sectors"/>
+      <entry name="AEGS_cluster03_sector001_macro" value="extensions\AEGS\maps\XU_ep2_universe\aegs_sectors"/>
+      <entry name="AEGS_cluster04_sector001_macro" value="extensions\AEGS\maps\XU_ep2_universe\aegs_sectors"/>
+      <entry name="AEGS_cluster01_sector001_zone001_macro" value="extensions\AEGS\maps\XU_ep2_universe\aegs_zones"/>
+
+</index>

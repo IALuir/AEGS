@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<groups>
+  <group name="aegs_javelin" >
+    <select macro="room_aegs_javelin_room1_macro" />
+  </group>
+</groups>

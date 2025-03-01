@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="ship_animations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		<cue name="ship_animations_start">
+			<conditions>
+				<check_any>
+					<event_game_started />
+					<event_game_loaded />
+				</check_any>
+            </conditions>
+			<actions>
+				<set_value name="$Object_bengal" exact="[]"/>
+				<set_value name="$Object_polaris" exact="[]"/>
+				<set_value name="$Object_carrack" exact="[]"/>
+				<set_value name="$Object_javelin" exact="[]"/>
+				<debug_text text="'ship_animations_start'"/>
+
+				<reset_cue cue="ship_animations_start_01"/>
+				<reset_cue cue="ship_bengal_animations_start_01"/>
+				<reset_cue cue="ship_polaris_animations_start_01"/>
+				<reset_cue cue="ship_carrack_animations_start_01"/>
+				<reset_cue cue="ship_javelin_animations_start_01"/>
+				<reset_cue cue="ship_carrack_animations_lift_01"/>
+			</actions>
+			<cues>
+				<cue name="ship_animations_start_01" instantiate="true" checkinterval="20min">
+					<actions>
+						<set_value name="$Object_bengal" exact="[]"/>
+						<set_value name="$Object_polaris" exact="[]"/>
+						<set_value name="$Object_carrack" exact="[]"/>
+						<set_value name="$Object_javelin" exact="[]"/>
+
+						<find_ship name="$Object_bengal" macro="macro.ship_aegs_l_bengal_macro" multiple="true" append="true"/>
+						<find_ship name="$Object_polaris" macro="macro.polaris_macro" multiple="true" append="true"/>
+						<find_ship name="$Object_carrack" macro="macro.carrack_macro" multiple="true" append="true"/>
+						<find_ship name="$Object_javelin" macro="macro.ship_aegs_l_javelin_macro" multiple="true" append="true"/>
+					</actions>
+				</cue>
+
+				<cue name="ship_bengal_animations_start_01" instantiate="true" checkinterval="3s">
+					<actions>
+						<do_for_each name="$ship" in="$Object_bengal">
+							<set_value name="$hasdock" exact="0"/>
+							<find_dockingbay name="$dockingbays" object="$ship" multiple="true"/>
+							<do_all exact="$dockingbays.count" counter="$i">
+								<do_if value="$dockingbays.{$i}.assignedship and not $dockingbays.{$i}.assignedship.dock">
+									<set_value name="$hasdock" exact="1"/>
+								</do_if>
+							</do_all>
+							<do_if value="$hasdock == 0">
+								<trigger_animation object="$ship" group="'front_door'" trigger="deactivate" />
+								<trigger_animation object="$ship" group="'back_door'" trigger="deactivate" />
+								<trigger_animation object="$ship" group="'top_door'" trigger="deactivate" />
+							</do_if>
+							<do_else>
+								<trigger_animation object="$ship" group="'front_door'" trigger="activate" />
+								<trigger_animation object="$ship" group="'back_door'" trigger="activate" />
+								<trigger_animation object="$ship" group="'top_door'" trigger="activate" />
+							</do_else>
+						</do_for_each>
+					</actions>
+				</cue>
+
+				<cue name="ship_polaris_animations_start_01" instantiate="true"  checkinterval="3s">
+					<actions>
+						<do_for_each name="$ship" in="$Object_polaris">
+							<set_value name="$hasdock" exact="0"/>
+							<set_value name="$hasactive" exact="0"/>
+							<find_object_component name="$turrets" object="$ship" class="class.turret" checkoperational="false" multiple="true"/>
+							<do_if value="$turrets.count">
+								<do_all exact="$turrets.count" counter="$i">
+									<do_if value="$turrets.{$i}.isactive">
+										<set_value name="$hasactive" exact="1"/>
+									</do_if>
+								</do_all>
+							</do_if>
+							<do_if value="$hasactive == 1">
+								<trigger_animation object="$ship" group="'left_turret'" trigger="activate_turret_hatch" />
+								<trigger_animation object="$ship" group="'right_turret'" trigger="activate_turret_hatch" />
+							</do_if>
+							<do_else>
+								<trigger_animation object="$ship" group="'left_turret'" trigger="deactivate_turret_hatch" />
+								<trigger_animation object="$ship" group="'right_turret'" trigger="deactivate_turret_hatch" />
+							</do_else>
+							<find_dockingbay name="$dockingbays" object="$ship" multiple="true"/>
+							<do_all exact="$dockingbays.count" counter="$i">
+								<do_if value="$dockingbays.{$i}.assignedship and not $dockingbays.{$i}.assignedship.dock">
+									<set_value name="$hasdock" exact="1"/>
+								</do_if>
+							</do_all>
+							<do_if value="$hasdock">
+								<trigger_animation object="$ship" group="'door'" trigger="activate" />
+							</do_if>
+							<do_else>
+								<trigger_animation object="$ship" group="'door'" trigger="deactivate" />
+							</do_else>
+						</do_for_each>
+					</actions>
+				</cue>
+
+				<cue name="ship_carrack_animations_start_01" instantiate="true"  checkinterval="3s">
+					<actions>
+						<do_for_each name="$ship" in="$Object_carrack">
+							<find_dockingbay name="$dockingbays" object="$ship" multiple="true"/>
+							<set_value name="$hasdock" exact="0"/>
+							<do_all exact="$dockingbays.count" counter="$i">
+								<do_if value="$dockingbays.{$i}.assignedship and not $dockingbays.{$i}.assignedship.dock">
+									<set_value name="$hasdock" exact="1"/>
+								</do_if>
+							</do_all>
+							<do_if value="$hasdock">
+								<trigger_animation object="$ship" group="'top_door'" trigger="activate" />
+							</do_if>
+							<do_else>
+								<trigger_animation object="$ship" group="'top_door'" trigger="deactivate" />
+							</do_else>
+						</do_for_each>
+					</actions>
+				</cue>
+
+				<cue name="ship_javelin_animations_start_01" instantiate="true"  checkinterval="3s">
+					<actions>
+						<do_for_each name="$ship" in="$Object_javelin">
+							<set_value name="$hasdock" exact="0"/>
+							<find_dockingbay name="$dockingbays" object="$ship" multiple="true"/>
+							<do_all exact="$dockingbays.count" counter="$i">
+								<set_value name="$anima_dockingbay" exact="$dockingbays.{$i}"/>
+								<do_if value="$dockingbays.{$i}.assignedship and not $dockingbays.{$i}.assignedship.dock">
+									<set_value name="$hasdock" exact="1"/>
+								</do_if>
+							</do_all>
+							<do_if value="$hasdock == 0">
+								<trigger_animation object="$anima_dockingbay" group="'open'" trigger="deactivate" />
+								<trigger_animation object="$ship" group="'door'" trigger="deactivate" />
+							</do_if>
+							<do_else>
+								<trigger_animation object="$ship" group="'door'" trigger="activate" />
+								<trigger_animation object="$anima_dockingbay" group="'open'" trigger="activate" />
+							</do_else>
+						</do_for_each>
+					</actions>
+				</cue>
+			</cues>
+		</cue>
+
+		<cue name="ship_carrack_animations_lift_01" instantiate="true">
+            <conditions>
+				<check_any>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift1_01"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift1_02"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift1_03"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift2_01"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift2_02"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift2_03"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift2_04"/>
+
+					<event_player_activated_platform_trigger component="player.ship" group="tag.call_1_01"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.call_1_02"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.call_1_03"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.call_2_01"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.call_2_02"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.call_2_03"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.call_2_04"/>
+                </check_any>
+            </conditions>
+            <actions>
+				<do_if value="event.param2 == tag.lift1_01 or event.param2 == tag.call_1_01">
+					<trigger_animation object="player.ship" group="'3_floor_lift'" trigger="switch01" />
+				</do_if>
+				<do_elseif value="event.param2 == tag.lift1_02 or event.param2 == tag.call_1_02">
+					<trigger_animation object="player.ship" group="'3_floor_lift'" trigger="switch02" />
+				</do_elseif>
+				<do_elseif value="event.param2 == tag.lift1_03 or event.param2 == tag.call_1_03">
+					<trigger_animation object="player.ship" group="'3_floor_lift'" trigger="switch03" />
+				</do_elseif>
+
+				<do_if value="event.param2 == tag.lift2_01 or event.param2 == tag.call_2_01">
+					<trigger_animation object="player.ship" group="'4_floor_lift'" trigger="switch01" />
+				</do_if>
+				<do_elseif value="event.param2 == tag.lift2_02 or event.param2 == tag.call_2_02">
+					<trigger_animation object="player.ship" group="'4_floor_lift'" trigger="switch02" />
+				</do_elseif>
+				<do_elseif value="event.param2 == tag.lift2_03 or event.param2 == tag.call_2_03">
+					<trigger_animation object="player.ship" group="'4_floor_lift'" trigger="switch03" />
+				</do_elseif>
+				<do_elseif value="event.param2 == tag.lift2_04 or event.param2 == tag.call_2_04">
+					<trigger_animation object="player.ship" group="'4_floor_lift'" trigger="activate" />
+				</do_elseif>
+            </actions>
+        </cue>
+
+	</cues>
+</mdscript>

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ?xml-stylesheet href="index.xsl" type="text/xsl" ? -->
+<diff>
+	<add sel = '/index' >
+		<!-- 飞船 -->
+		<entry name="ship_aegs_l_bengal" value="extensions\AEGS\assets\units\size_l\ship_aegs_l_bengal"/>
+		<entry name="ship_aegs_l_bengal_b" value="extensions\AEGS\assets\units\size_l\ship_aegs_l_bengal_b"/>
+		<entry name="ship_aegs_l_Javelin" value="extensions\AEGS\assets\units\size_l\ship_aegs_l_javelin"/>
+		<entry name="f8c_lightning" value="extensions\AEGS\assets\units\size_s\f8c_lightning"/>
+		<entry name="f8c_lightning_a" value="extensions\AEGS\assets\units\size_s\f8c_lightning_a"/>
+		<entry name="aegs_hammer" value="extensions\AEGS\assets\units\size_m\aegs_hammer"/>
+		<entry name="retribution" value="extensions\AEGS\assets\units\size_xl\retribution"/>
+		<entry name="retaliator" value="extensions\AEGS\assets\units\size_m\retaliator"/>
+		<entry name="scorpius" value="extensions\AEGS\assets\units\size_s\scorpius"/>
+		<entry name="scorpius_antares" value="extensions\AEGS\assets\units\size_s\scorpius_antares"/>
+		<entry name="ship_drak_kraken" value="extensions\AEGS\assets\units\size_l\ship_drak_kraken"/>
+		<entry name="ship_aegs_idris" value="extensions\AEGS\assets\units\size_l\ship_aegs_idris"/>
+		<entry name="ship_aegs_idris_p" value="extensions\AEGS\assets\units\size_l\ship_aegs_idris_p"/>
+		<entry name="arrow" value="extensions\AEGS\assets\units\size_s\arrow"/>
+		<entry name="eclipse" value="extensions\AEGS\assets\units\size_s\eclipse"/>
+		<entry name="starlifter_c2" value="extensions\AEGS\assets\units\size_m\starlifter_c2"/>
+		<entry name="starlifter_a2" value="extensions\AEGS\assets\units\size_m\starlifter_a2"/>
+		<entry name="f7a" value="extensions\AEGS\assets\units\size_s\f7a"/>
+		<entry name="f7c" value="extensions\AEGS\assets\units\size_s\f7c"/>
+		<entry name="f7cr" value="extensions\AEGS\assets\units\size_s\f7cr"/>
+		<entry name="f7cm" value="extensions\AEGS\assets\units\size_s\f7cm"/>
+		<entry name="talon" value="extensions\AEGS\assets\units\size_s\talon"/>
+		<entry name="starfighter" value="extensions\AEGS\assets\units\size_s\starfighter"/>
+		<entry name="sabre" value="extensions\AEGS\assets\units\size_s\sabre"/>
+		<entry name="gladius" value="extensions\AEGS\assets\units\size_s\gladius"/>
+		<entry name="vanguard" value="extensions\AEGS\assets\units\size_s\vanguard"/>
+		<entry name="cutlass" value="extensions\AEGS\assets\units\size_s\cutlass"/>
+		<entry name="constellation_andromeda" value="extensions\AEGS\assets\units\size_m\constellation_andromeda"/>
+		<entry name="p52_merlin" value="extensions\AEGS\assets\units\size_s\p52_merlin"/>
+		<entry name="reclaimer" value="extensions\AEGS\assets\units\size_m\reclaimer"/>
+		<entry name="avenger" value="extensions\AEGS\assets\units\size_s\avenger"/>
+		<entry name="spirit_a1" value="extensions\AEGS\assets\units\size_m\spirit_a1"/>
+		<entry name="spirit_c1" value="extensions\AEGS\assets\units\size_m\spirit_c1"/>
+		<entry name="redeemer" value="extensions\AEGS\assets\units\size_m\redeemer"/>
+		<entry name="mole" value="extensions\AEGS\assets\units\size_m\mole"/>
+		<entry name="polaris" value="extensions\AEGS\assets\units\size_m\polaris"/>
+		<entry name="prospector" value="extensions\AEGS\assets\units\size_s\prospector"/>
+		<entry name="carrack" value="extensions\AEGS\assets\units\size_m\carrack"/>
+		<entry name="c8x" value="extensions\AEGS\assets\units\size_s\c8x"/>
+		<entry name="caterpillar" value="extensions\AEGS\assets\units\size_m\caterpillar"/>
+		<entry name="defender" value="extensions\AEGS\assets\units\size_s\defender"/>
+		<entry name="sabre_firebrid" value="extensions\AEGS\assets\units\size_s\sabre_firebrid"/>
+		<entry name="sabre_raven" value="extensions\AEGS\assets\units\size_s\sabre_raven"/>
+		<entry name="sabre_peregrine" value="extensions\AEGS\assets\units\size_s\sabre_peregrine"/>
+		<entry name="blade" value="extensions\AEGS\assets\units\size_s\blade"/>
+		<entry name="glaive" value="extensions\AEGS\assets\units\size_s\glaive"/>
+		<entry name="scythe" value="extensions\AEGS\assets\units\size_s\scythe"/>
+
+		<!-- 引擎 -->
+		<entry name="engine_aegs_m_javelin" value="extensions\AEGS\assets\props\Engines\engine_aegs_m_javelin" />
+		<entry name="engine_aegs_l_javelin" value="extensions\AEGS\assets\props\Engines\engine_aegs_l_javelin" />
+		<entry name="engine_aegs_max_javelin" value="extensions\AEGS\assets\props\Engines\engine_aegs_max_javelin" />
+		<entry name="engine_f8c_lightning" value="extensions\AEGS\assets\props\Engines\engine_f8c_lightning" />
+		<entry name="engine_aegs_xl_bengal" value="extensions\AEGS\assets\props\Engines\engine_aegs_xl_bengal" />
+		<entry name="engine_aegs_xl_bengal_b" value="extensions\AEGS\assets\props\Engines\engine_aegs_xl_bengal_b" />
+		<entry name="hammerhead_engine" value="extensions\AEGS\assets\props\Engines\hammerhead_engine" />
+		<entry name="retaliator_engine" value="extensions\AEGS\assets\props\Engines\retaliator_engine" />
+		<entry name="scorpius_engine" value="extensions\AEGS\assets\props\Engines\scorpius_engine" />
+		<entry name="kraken_engine" value="extensions\AEGS\assets\props\Engines\kraken_engine" />
+		<entry name="idris_engine" value="extensions\AEGS\assets\props\Engines\idris_engine" />
+		<entry name="arrow_engine" value="extensions\AEGS\assets\props\Engines\arrow_engine" />
+		<entry name="eclipse_engine" value="extensions\AEGS\assets\props\Engines\eclipse_engine" />
+		<entry name="starlifter_engine" value="extensions\AEGS\assets\props\Engines\starlifter_engine" />
+		<entry name="f7a_engine" value="extensions\AEGS\assets\props\Engines\f7a_engine" />
+		<entry name="f7c_engine" value="extensions\AEGS\assets\props\Engines\f7c_engine" />
+		<entry name="starfighter_engine" value="extensions\AEGS\assets\props\Engines\starfighter_engine" />
+		<entry name="retribution_engine" value="extensions\AEGS\assets\props\Engines\retribution_engine" />
+		<entry name="talon_engine" value="extensions\AEGS\assets\props\Engines\talon_engine" />
+		<entry name="sabre_engine" value="extensions\AEGS\assets\props\Engines\sabre_engine" />
+		<entry name="gladius_engine" value="extensions\AEGS\assets\props\Engines\gladius_engine" />
+		<entry name="vanguard_engine" value="extensions\AEGS\assets\props\Engines\vanguard_engine" />
+		<entry name="cutlass_engine" value="extensions\AEGS\assets\props\Engines\cutlass_engine" />
+		<entry name="constellation_andromeda_engine" value="extensions\AEGS\assets\props\Engines\constellation_andromeda_engine" />
+		<entry name="p52_merlin_engine" value="extensions\AEGS\assets\props\Engines\p52_merlin_engine" />
+		<entry name="reclaimer_engine" value="extensions\AEGS\assets\props\Engines\reclaimer_engine" />
+		<entry name="avenger_engine" value="extensions\AEGS\assets\props\Engines\avenger_engine" />
+		<entry name="spirit_a1_engine" value="extensions\AEGS\assets\props\Engines\spirit_a1_engine" />
+		<entry name="redeemer_engine" value="extensions\AEGS\assets\props\Engines\redeemer_engine" />
+		<entry name="mole_engine" value="extensions\AEGS\assets\props\Engines\mole_engine" />
+		<entry name="polaris_engine" value="extensions\AEGS\assets\props\Engines\polaris_engine" />
+		<entry name="prospector_engine" value="extensions\AEGS\assets\props\Engines\prospector_engine" />
+		<entry name="carrack_engine" value="extensions\AEGS\assets\props\Engines\carrack_engine" />
+		<entry name="c8x_engine" value="extensions\AEGS\assets\props\Engines\c8x_engine" />
+		<entry name="caterpillar_engine" value="extensions\AEGS\assets\props\Engines\caterpillar_engine" />
+		<entry name="defender_engine" value="extensions\AEGS\assets\props\Engines\defender_engine" />
+		<entry name="sabre_firebrid_engine" value="extensions\AEGS\assets\props\Engines\sabre_firebrid_engine" />
+		<entry name="sabre_raven_engine" value="extensions\AEGS\assets\props\Engines\sabre_raven_engine" />
+		<entry name="sabre_peregrine_engine" value="extensions\AEGS\assets\props\Engines\sabre_peregrine_engine" />
+		<entry name="blade_engine" value="extensions\AEGS\assets\props\Engines\blade_engine" />
+		<entry name="glaive_engine" value="extensions\AEGS\assets\props\Engines\glaive_engine"/>
+
+		<!-- 护盾 -->
+      <entry name="shield_aegs_civilian_akura" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_civilian_akura" />
+      <entry name="shield_aegs_civilian_mirage" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_civilian_mirage" />
+      <entry name="shield_aegs_civilian_bila" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_civilian_bila" />
+      <entry name="shield_aegs_civilian_obscura" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_civilian_obscura" />
+      <entry name="shield_aegs_civilian_sheut" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_civilian_sheut" />
+      <entry name="shield_aegs_civilian_shimmer" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_civilian_shimmer" />
+      <entry name="shield_aegs_civilian_nargun" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_civilian_nargun" />
+      <entry name="shield_aegs_civilian_umbra" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_civilian_umbra" />
+      <entry name="shield_aegs_civilian_vell" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_civilian_vell" />
+
+      <entry name="shield_aegs_industrial_aspis" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_industrial_aspis" />
+      <entry name="shield_aegs_industrial_barbican" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_industrial_barbican" />
+      <entry name="shield_aegs_industrial_bulwark" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_industrial_bulwark" />
+      <entry name="shield_aegs_industrial_citadel" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_industrial_citadel" />
+      <entry name="shield_aegs_industrial_guardian" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_industrial_guardian" />
+      <entry name="shield_aegs_industrial_pallsade" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_industrial_pallsade" />
+      <entry name="shield_aegs_industrial_parapet" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_industrial_parapet" />
+      <entry name="shield_aegs_industrial_rampart" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_industrial_rampart" />
+      <entry name="shield_aegs_industrial_stronghold" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_industrial_stronghold" />
+
+      <entry name="shield_aegs_millitary_allstop" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_millitary_allstop" />
+      <entry name="shield_aegs_millitary_coverall" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_millitary_coverall" />
+      <entry name="shield_aegs_millitary_forcewall" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_millitary_forcewall" />
+      <entry name="shield_aegs_millitary_fr66" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_millitary_fr66" />
+      <entry name="shield_aegs_millitary_fr76" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_millitary_fr76" />
+      <entry name="shield_aegs_millitary_fr86" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_millitary_fr86" />
+	  <entry name="shield_aegs_millitary_fr96" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_millitary_fr96" />
+      <entry name="shield_aegs_millitary_fullblock" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_civilian_akura" />
+      <entry name="shield_aegs_millitary_fullstop" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_millitary_fullstop" />
+      <entry name="shield_aegs_millitary_sukoran" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_millitary_sukoran" />
+
+		<!-- 炮塔 -->
+		<entry name="turret_aegs_l" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\turret_aegs_l"/>
+		<entry name="turret_aegs_m" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\turret_aegs_m"/>
+		<entry name="turret_aegs_s5" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\turret_aegs_s5"/>
+		<entry name="turret_aegs_s5_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\turret_aegs_s5_cf"/>
+		<entry name="turret_aegs_s5_ad" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\turret_aegs_s5_ad"/>
+		<entry name="turret_aegs_m_missile" value="extensions\AEGS\assets\props\weaponsystems\capital\javelin\turret_aegs_m_missile"/>
+		<entry name="f8c_turret" value="extensions\AEGS\assets\props\weaponsystems\capital\f8\f8c_turret"/>
+		<entry name="f8c_turret_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\f8\f8c_turret_cf"/>
+		<entry name="f8c_turret_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\f8\f8c_turret_gtx"/>
+		<entry name="f8c_turret_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\f8\f8c_turret_sp"/>
+		<entry name="turret_aegs_bengal" value="extensions\AEGS\assets\props\weaponsystems\capital\bengal\turret_aegs_bengal"/>
+		<entry name="turret_aegs_bengal_b" value="extensions\AEGS\assets\props\weaponsystems\capital\bengal\turret_aegs_bengal_b"/>
+		<entry name="bengal_turret_aa" value="extensions\AEGS\assets\props\weaponsystems\capital\bengal\bengal_turret_aa"/>
+		<entry name="bengal_turret_ai_ad" value="extensions\AEGS\assets\props\weaponsystems\capital\bengal\bengal_turret_ai_ad"/>
+		<entry name="bengal_turret_ai_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\bengal\bengal_turret_ai_cf"/>
+		<entry name="bengal_turret_ai_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\bengal\bengal_turret_ai_mxa"/>
+		<entry name="bengal_turret_medium_gun" value="extensions\AEGS\assets\props\weaponsystems\capital\bengal\bengal_turret_medium_gun"/>
+		<entry name="bengal_turret_gat" value="extensions\AEGS\assets\props\weaponsystems\capital\bengal\bengal_turret_gat"/>
+		<entry name="retribution_sx" value="extensions\AEGS\assets\props\weaponsystems\capital\retribution\retribution_sx"/>
+		<entry name="retribution_l2x" value="extensions\AEGS\assets\props\weaponsystems\capital\retribution\retribution_l2x"/>
+		<entry name="hammerhead_turret_s4" value="extensions\AEGS\assets\props\weaponsystems\capital\hammerhead\hammerhead_turret_s4"/>
+		<entry name="hammerhead_turret_s4_ad" value="extensions\AEGS\assets\props\weaponsystems\capital\hammerhead\hammerhead_turret_s4_ad"/>
+		<entry name="hammerhead_turret_s4_2" value="extensions\AEGS\assets\props\weaponsystems\capital\hammerhead\hammerhead_turret_s4_2"/>
+		<entry name="hammerhead_turret_s4_2_ad" value="extensions\AEGS\assets\props\weaponsystems\capital\hammerhead\hammerhead_turret_s4_2_ad"/>
+		<entry name="turret_aegs_s3" value="extensions\AEGS\assets\props\weaponsystems\capital\retaliator\turret_aegs_s3"/>
+		<entry name="turret_aegs_s3_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\retaliator\turret_aegs_s3_mxa"/>
+		<entry name="turret_aegs_s3_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\retaliator\turret_aegs_s3_gtx"/>
+		<entry name="turret_aegs_s3_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\retaliator\turret_aegs_s3_sp"/>
+		<entry name="arrow_turret_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\arrow\arrow_turret_cf"/>
+		<entry name="arrow_turret_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\arrow\arrow_turret_mxa"/>
+		<entry name="arrow_turret_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\arrow\arrow_turret_gtx"/>
+		<entry name="arrow_turret_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\arrow\arrow_turret_sp"/>
+		<entry name="scorpius_turret" value="extensions\AEGS\assets\props\weaponsystems\capital\scorpius\scorpius_turret"/>
+		<entry name="scorpius_turret_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\scorpius\scorpius_turret_mxa"/>
+		<entry name="scorpius_turret_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\scorpius\scorpius_turret_gtx"/>
+		<entry name="scorpius_turret_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\scorpius\scorpius_turret_sp"/>
+		<entry name="kraken_s6" value="extensions\AEGS\assets\props\weaponsystems\capital\kraken\kraken_s6"/>
+		<entry name="kraken_s6_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\kraken\kraken_s6_mxa"/>
+		<entry name="kraken_s6_ad" value="extensions\AEGS\assets\props\weaponsystems\capital\kraken\kraken_s6_ad"/>
+		<entry name="kraken_s7_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\kraken\kraken_s7_mxa"/>
+		<entry name="kraken_s7_at" value="extensions\AEGS\assets\props\weaponsystems\capital\kraken\kraken_s7_at"/>
+		<entry name="kraken_s7_ad" value="extensions\AEGS\assets\props\weaponsystems\capital\kraken\kraken_s7_ad"/>
+		<entry name="turret_aegs_s7" value="extensions\AEGS\assets\props\weaponsystems\capital\idris\turret_aegs_s7"/>
+		<entry name="turret_aegs_s7_at" value="extensions\AEGS\assets\props\weaponsystems\capital\idris\turret_aegs_s7_at"/>
+		<entry name="turret_aegs_s7_ad" value="extensions\AEGS\assets\props\weaponsystems\capital\idris\turret_aegs_s7_ad"/>
+		<entry name="idris_turret_missile" value="extensions\AEGS\assets\props\weaponsystems\capital\idris\idris_turret_missile"/>
+		<entry name="eclipse_missile" value="extensions\AEGS\assets\props\weaponsystems\capital\eclipse\eclipse_missile"/>
+		<entry name="starlifter_turret_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\starlifter\starlifter_turret_cf"/>
+		<entry name="starlifter_turret_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\starlifter\starlifter_turret_mxa"/>
+		<entry name="starlifter_turret_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\starlifter\starlifter_turret_gtx"/>
+		<entry name="f7a_turret_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\f7\f7a_turret_mxa"/>
+		<entry name="f7a_turret_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\f7\f7a_turret_cf"/>
+		<entry name="f7a_turret_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\f7\f7a_turret_gtx"/>
+		<entry name="f7a_turret_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\f7\f7a_turret_sp"/>
+		<entry name="f7cm_turret_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\f7\f7cm_turret_mxa"/>
+		<entry name="f7cm_turret_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\f7\f7cm_turret_cf"/>
+		<entry name="f7cm_turret_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\f7\f7cm_turret_gtx"/>
+		<entry name="f7cm_turret_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\f7\f7cm_turret_sp"/>
+		<entry name="cutlass_turret_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\cutlass\cutlass_turret_cf"/>
+		<entry name="cutlass_turret_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\cutlass\cutlass_turret_mxa"/>
+		<entry name="cutlass_turret_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\cutlass\cutlass_turret_sp"/>
+		<entry name="cutlass_turret_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\cutlass\cutlass_turret_gtx"/>
+		<entry name="constellation_andromeda_turret_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\constellation\constellation_andromeda_turret_cf"/>
+		<entry name="constellation_andromeda_turret_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\constellation\constellation_andromeda_turret_mxa"/>
+		<entry name="constellation_andromeda_turret_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\constellation\constellation_andromeda_turret_gtx"/>
+		<entry name="constellation_andromeda_turret_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\constellation\constellation_andromeda_turret_sp"/>
+		<entry name="reclaimer_turret_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\reclaimer\reclaimer_turret_cf"/>
+		<entry name="reclaimer_turret_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\reclaimer\reclaimer_turret_gtx"/>
+		<entry name="reclaimer_turret_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\reclaimer\reclaimer_turret_mxa"/>
+		<entry name="reclaimer_turret_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\reclaimer\reclaimer_turret_sp"/>
+		<entry name="spirit_a1_turret_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\spirit\spirit_a1_turret_cf"/>
+		<entry name="spirit_a1_turret_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\spirit\spirit_a1_turret_gtx"/>
+		<entry name="spirit_a1_turret_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\spirit\spirit_a1_turret_mxa"/>
+		<entry name="spirit_a1_turret_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\spirit\spirit_a1_turret_sp"/>
+		<entry name="redeemer_turret_ad" value="extensions\AEGS\assets\props\weaponsystems\capital\redeemer\redeemer_turret_ad"/>
+		<entry name="redeemer_turret_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\redeemer\redeemer_turret_cf"/>
+		<entry name="redeemer_turret_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\redeemer\redeemer_turret_mxa"/>
+		<entry name="redeemer_turret_b_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\redeemer\redeemer_turret_b_cf"/>
+		<entry name="redeemer_turret_b_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\redeemer\redeemer_turret_b_gtx"/>
+		<entry name="redeemer_turret_b_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\redeemer\redeemer_turret_b_mxa"/>
+		<entry name="redeemer_turret_b_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\redeemer\redeemer_turret_b_sp"/>
+		<entry name="mole_turret" value="extensions\AEGS\assets\props\weaponsystems\capital\mole\mole_turret"/>
+		<entry name="mole_turret2" value="extensions\AEGS\assets\props\weaponsystems\capital\mole\mole_turret2"/>
+		<entry name="polaris_turret_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret_cf"/>
+		<entry name="polaris_turret_ad" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret_ad"/>
+		<entry name="polaris_turret_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret_mxa"/>
+		<entry name="polaris_turret_db" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret_db"/>
+		<entry name="polaris_turret2_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret2_cf"/>
+		<entry name="polaris_turret2_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret2_gtx"/>
+		<entry name="polaris_turret2_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret2_mxa"/>
+		<entry name="polaris_turret2_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret2_sp"/>
+		<entry name="polaris_turret2_missile" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret2_missile"/>
+		<entry name="carrack_turret_1_ad" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_1_ad"/>
+		<entry name="carrack_turret_1_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_1_cf"/>
+		<entry name="carrack_turret_1_db" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_1_db"/>
+		<entry name="carrack_turret_1_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_1_mxa"/>
+		<entry name="carrack_turret_2_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_2_gtx"/>
+		<entry name="carrack_turret_2_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_2_cf"/>
+		<entry name="carrack_turret_2_db" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_2_db"/>
+		<entry name="carrack_turret_2_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_2_mxa"/>
+		<entry name="carrack_turret_2_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_2_sp"/>
+		<entry name="carrack_turret_3_ad" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_3_ad"/>
+		<entry name="carrack_turret_3_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_3_cf"/>
+		<entry name="carrack_turret_3_db" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_3_db"/>
+		<entry name="carrack_turret_3_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_3_mxa"/>
+
+		<!-- 特殊武器 -->
+		<entry name="wepon_f8c_missile" value="extensions\AEGS\assets\props\weaponsystems\capital\f8\wepon_f8c_missile"/>
+		<entry name="hammerhead_weapon_left" value="extensions\AEGS\assets\props\weaponsystems\capital\hammerhead\hammerhead_weapon_left"/>
+		<entry name="hammerhead_weapon_right" value="extensions\AEGS\assets\props\weaponsystems\capital\hammerhead\hammerhead_weapon_right"/>
+		<entry name="idris_s10" value="extensions\AEGS\assets\props\weaponsystems\capital\idris\idris_s10"/>
+		<entry name="Idris_p_s10" value="extensions\AEGS\assets\props\weaponsystems\capital\idris\Idris_p_s10"/>
+		<entry name="scorpius_antares_emp" value="extensions\AEGS\assets\props\weaponsystems\capital\scorpius\scorpius_antares_emp"/>
+		<entry name="aegs_l_s10" value="extensions\AEGS\assets\props\weaponsystems\capital\s10\aegs_l_s10"/>
+		<entry name="aegs_l_s10_missile" value="extensions\AEGS\assets\props\weaponsystems\capital\s10\aegs_l_s10_missile"/>
+		<entry name="retribution_maingun" value="extensions\AEGS\assets\props\weaponsystems\capital\retribution\retribution_maingun"/>
+		<entry name="weapon_vanguard_s2" value="extensions\AEGS\assets\props\weaponsystems\capital\vanguard\weapon_vanguard_s2"/>
+		<entry name="weapon_p52_s3" value="extensions\AEGS\assets\props\weaponsystems\capital\p52\weapon_p52_s3"/>
+		<entry name="spirit_a1_boom" value="extensions\AEGS\assets\props\weaponsystems\capital\spirit\spirit_a1_boom"/>
+		<entry name="prospector_weapon" value="extensions\AEGS\assets\props\weaponsystems\capital\prospector\prospector_weapon"/>
+		<entry name="wepon_missile_sabre_firebrid_missile" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\wepon_missile_sabre_firebrid_missile"/>
+		<entry name="wepon_missile_blade_missile" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\wepon_missile_blade_missile"/>
+		<entry name="weapon_glaive_s3" value="extensions\aegs\assets\props\weaponsystems\generic\weapon_glaive_s3"/>
+		<entry name="weapon_glaive_s2" value="extensions\aegs\assets\props\weaponsystems\generic\weapon_glaive_s2"/>
+
+		<!-- 实体导弹 -->
+		<entry name="missile_s2" value="extensions\AEGS\assets\props\weaponsystems\generic\missile_s2"/>
+
+		<!-- 武器 -->
+		<entry name="wepon_missile_s12" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\wepon_missile_s12"/>
+		<entry name="wepon_missile_s11" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\wepon_missile_s11"/>
+		<entry name="wepon_missile_s10" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\wepon_missile_s10"/>
+		<entry name="wepon_missile_s9" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\wepon_missile_s9"/>
+		<entry name="wepon_missile_s8" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\wepon_missile_s8"/>
+		<entry name="wepon_missile_s7" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\wepon_missile_s7"/>
+		<entry name="wepon_missile_s6" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\wepon_missile_s6"/>
+		<entry name="wepon_missile_s5" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\wepon_missile_s5"/>
+		<entry name="wepon_missile_s4" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\wepon_missile_s4"/>
+		<entry name="wepon_missile_s3" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\wepon_missile_s3"/>
+		<entry name="wepon_missile_s2" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\wepon_missile_s2"/>
+
+		<entry name="wepon_missile_s12_fixed" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\fixed\wepon_missile_s12_fixed"/>
+		<entry name="wepon_missile_s11_fixed" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\fixed\wepon_missile_s11_fixed"/>
+		<entry name="wepon_missile_s10_fixed" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\fixed\wepon_missile_s10_fixed"/>
+		<entry name="wepon_missile_s9_fixed" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\fixed\wepon_missile_s9_fixed"/>
+		<entry name="wepon_missile_s8_fixed" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\fixed\wepon_missile_s8_fixed"/>
+		<entry name="wepon_missile_s7_fixed" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\fixed\wepon_missile_s7_fixed"/>
+		<entry name="wepon_missile_s6_fixed" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\fixed\wepon_missile_s6_fixed"/>
+		<entry name="wepon_missile_s5_fixed" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\fixed\wepon_missile_s5_fixed"/>
+		<entry name="wepon_missile_s4_fixed" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\fixed\wepon_missile_s4_fixed"/>
+		<entry name="wepon_missile_s3_fixed" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\fixed\wepon_missile_s3_fixed"/>
+		<entry name="wepon_missile_s2_fixed" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\fixed\wepon_missile_s2_fixed"/>
+
+		<entry name="weapon_nnxa_s2" value="extensions\AEGS\assets\props\weaponsystems\generic\s2\weapon_nnxa_s2"/>
+		<entry name="weapon_gtx_s2" value="extensions\AEGS\assets\props\weaponsystems\generic\s2\weapon_gtx_s2"/>
+		<entry name="weapon_cf_s2" value="extensions\AEGS\assets\props\weaponsystems\generic\s2\weapon_cf_s2"/>
+		<entry name="weapon_mxa_s2" value="extensions\AEGS\assets\props\weaponsystems\generic\s2\weapon_mxa_s2"/>
+		<entry name="weapon_xsgc_s2" value="extensions\AEGS\assets\props\weaponsystems\generic\s2\weapon_xsgc_s2"/>
+		<entry name="weapon_sw16br_s2" value="extensions\AEGS\assets\props\weaponsystems\generic\s2\weapon_sw16br_s2"/>
+		<entry name="weapon_sp_s2" value="extensions\AEGS\assets\props\weaponsystems\generic\s2\weapon_sp_s2"/>
+		<entry name="weapon_db_s2" value="extensions\AEGS\assets\props\weaponsystems\generic\s2\weapon_db_s2"/>
+		<entry name="weapon_fl_s2" value="extensions\AEGS\assets\props\weaponsystems\generic\s2\weapon_fl_s2"/>
+		<entry name="weapon_nbd_s2" value="extensions\AEGS\assets\props\weaponsystems\generic\s2\weapon_nbd_s2"/>
+
+		<entry name="weapon_nnxa_s3" value="extensions\AEGS\assets\props\weaponsystems\generic\s3\weapon_nnxa_s3"/>
+		<entry name="weapon_mxa_s3" value="extensions\AEGS\assets\props\weaponsystems\generic\s3\weapon_mxa_s3"/>
+		<entry name="weapon_gtx_s3" value="extensions\AEGS\assets\props\weaponsystems\generic\s3\weapon_gtx_s3"/>
+		<entry name="weapon_cf_s3" value="extensions\AEGS\assets\props\weaponsystems\generic\s3\weapon_cf_s3"/>
+		<entry name="weapon_xsgc_s3" value="extensions\AEGS\assets\props\weaponsystems\generic\s3\weapon_xsgc_s3"/>
+		<entry name="weapon_sw16br_s3" value="extensions\AEGS\assets\props\weaponsystems\generic\s3\weapon_sw16br_s3"/>
+		<entry name="weapon_sp_s3" value="extensions\AEGS\assets\props\weaponsystems\generic\s3\weapon_sp_s3"/>
+		<entry name="weapon_db_s3" value="extensions\AEGS\assets\props\weaponsystems\generic\s3\weapon_db_s3"/>
+		<entry name="weapon_fl_s3" value="extensions\AEGS\assets\props\weaponsystems\generic\s3\weapon_fl_s3"/>
+		<entry name="weapon_nbd_s3" value="extensions\AEGS\assets\props\weaponsystems\generic\s3\weapon_nbd_s3"/>
+
+		<entry name="weapon_mxa_s4" value="extensions\AEGS\assets\props\weaponsystems\generic\s4\weapon_mxa_s4"/>
+		<entry name="weapon_ad_s4" value="extensions\AEGS\assets\props\weaponsystems\generic\s4\weapon_ad_s4"/>
+		<entry name="weapon_cf_s4" value="extensions\AEGS\assets\props\weaponsystems\generic\s4\weapon_cf_s4"/>
+		<entry name="weapon_rgt_s4" value="extensions\AEGS\assets\props\weaponsystems\generic\s4\weapon_rgt_s4"/>
+		<entry name="weapon_c788_s4" value="extensions\AEGS\assets\props\weaponsystems\generic\s4\weapon_c788_s4"/>
+		<entry name="weapon_db_s4" value="extensions\AEGS\assets\props\weaponsystems\generic\s4\weapon_db_s4"/>
+		<entry name="weapon_gt870_s4" value="extensions\AEGS\assets\props\weaponsystems\generic\s4\weapon_gt870_s4"/>
+
+		<entry name="weapon_mxa_s5" value="extensions\AEGS\assets\props\weaponsystems\generic\s5\weapon_mxa_s5"/>
+		<entry name="weapon_ad_s5" value="extensions\AEGS\assets\props\weaponsystems\generic\s5\weapon_ad_s5"/>
+		<entry name="weapon_cf_s5" value="extensions\AEGS\assets\props\weaponsystems\generic\s5\weapon_cf_s5"/>
+		<entry name="weapon_db_s5" value="extensions\AEGS\assets\props\weaponsystems\generic\s5\weapon_db_s5"/>
+		<entry name="weapon_gt870_s5" value="extensions\AEGS\assets\props\weaponsystems\generic\s5\weapon_gt870_s5"/>
+
+		<entry name="weapon_sf7e_s7" value="extensions\AEGS\assets\props\weaponsystems\generic\s7\weapon_sf7e_s7"/>
+		<entry name="weapon_sf7b_s7" value="extensions\AEGS\assets\props\weaponsystems\generic\s7\weapon_sf7b_s7"/>
+		
+
+		<!-- 炮弹 -->
+		<entry name="bullet_aegs_l_flak" value="extensions\AEGS\assets\fx\weaponfx\bullet_aegs_l_flak"/>
+		<entry name="bullet_aegs_m_flak" value="extensions\AEGS\assets\fx\weaponfx\bullet_aegs_m_flak"/>
+		<entry name="bullet_aegs_s_flak" value="extensions\AEGS\assets\fx\weaponfx\bullet_aegs_s_flak"/>
+		<entry name="bullet_aegs_empt" value="extensions\AEGS\assets\fx\weaponfx\bullet_aegs_empt"/>
+		<entry name="S12_bullet" value="extensions\AEGS\assets\fx\weaponfx\S12_bullet"/>
+		<entry name="S10_bullet" value="extensions\AEGS\assets\fx\weaponfx\S10_bullet"/>
+		<entry name="xsgc_m" value="extensions\AEGS\assets\fx\weaponfx\xsgc_m"/>
+		<entry name="bullet_railgun_s" value="extensions\AEGS\assets\fx\weaponfx\bullet_railgun_s"/>
+		<entry name="bullet_railgun_m" value="extensions\AEGS\assets\fx\weaponfx\bullet_railgun_m"/>
+		<entry name="bullet_blue_s" value="extensions\AEGS\assets\fx\weaponfx\bullet_blue_s"/>
+		<entry name="bullet_blue_m" value="extensions\AEGS\assets\fx\weaponfx\bullet_blue_m"/>
+		<entry name="bullet_railgun_sx" value="extensions\AEGS\assets\fx\weaponfx\bullet_railgun_sx"/>
+		<entry name="retribution_maingun_bullet" value="extensions\AEGS\assets\fx\weaponfx\retribution_maingun_bullet"/>
+
+		<!-- 导弹 -->
+		<entry name="missile_s12_seeker_xii" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s12_seeker_xii"/>
+		<entry name="missile_s10_typhoon_x" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s10_typhoon_x"/>
+		<entry name="missile_s9_argos_ix" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s9_argos_ix"/>
+		<entry name="missile_s8_scimitar_viii" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s8_scimitar_viii"/>
+		<entry name="missile_s2_ignite_ii" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s2_ignite_ii"/>
+		<entry name="missile_s2_dominator_ii" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s2_dominator_ii"/>
+		<entry name="missile_s2_tempest_ii" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s2_tempest_ii"/>
+		<entry name="missile_s3_thunderbolt_iii" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s3_thunderbolt_iii"/>
+		<entry name="missile_s3_viper_iii" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s3_viper_iii"/>
+		<entry name="missile_s3_arrester_iii" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s3_arrester_iii"/>
+		<entry name="missile_s1_marksman_i" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s1_marksman_i"/>
+		<entry name="missile_s1_spark_i" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s1_spark_i"/>
+		<entry name="missile_s1_taskforce_i" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s1_taskforce_i"/>
+
+		<entry name="missile_spirit_a1_fski" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_spirit_a1_fski"/>
+
+		<!-- 停机坪 -->
+		<entry name="dockingbay_aegs_s" value="extensions\AEGS\assets\structures\dock\dockingbay_aegs_s"/>
+		<entry name="dockarea_aegs_s_javelin" value="extensions\AEGS\assets\structures\dock\dockarea_aegs_s_javelin"/>
+		<entry name="kraken_airport" value="extensions\AEGS\assets\structures\dock\kraken_airport"/>
+		<entry name="dockarea_kraken_airport" value="extensions\AEGS\assets\structures\dock\dockarea_kraken_airport"/>
+		<entry name="kraken_airporta" value="extensions\AEGS\assets\structures\dock\kraken_airporta"/>
+		<entry name="kraken_airportb" value="extensions\AEGS\assets\structures\dock\kraken_airportb"/>
+		<entry name="dockarea_kraken_airport_left" value="extensions\AEGS\assets\structures\dock\dockarea_kraken_airport_left"/>
+		<entry name="kraken_airportc" value="extensions\AEGS\assets\structures\dock\kraken_airportc"/>
+		<entry name="kraken_airportc2" value="extensions\AEGS\assets\structures\dock\kraken_airportc2"/>
+		<entry name="dockarea_kraken_airport_bottom" value="extensions\AEGS\assets\structures\dock\dockarea_kraken_airport_bottom"/>
+		<entry name="dockarea_aegs_benga_dockbaya" value="extensions\AEGS\assets\structures\dock\dockarea_aegs_benga_dockbaya"/>
+		<entry name="dockarea_idris_airport" value="extensions\AEGS\assets\structures\dock\dockarea_idris_airport"/>
+		<entry name="idris_dockingbay" value="extensions\AEGS\assets\structures\dock\idris_dockingbay"/>
+		<entry name="dockarea_retribution_s_ship" value="extensions\AEGS\assets\structures\dock\dockarea_retribution_s_ship"/>
+		<entry name="constellation_andromeda_dockarea" value="extensions\AEGS\assets\structures\dock\constellation_andromeda_dockarea"/>
+		<entry name="constellation_andromeda_dockingbay" value="extensions\AEGS\assets\structures\dock\constellation_andromeda_dockingbay"/>
+		<entry name="dockarea_aegs_empty_s" value="extensions\AEGS\assets\structures\dock\dockarea_aegs_empty_s"/>
+		<entry name="dockingbay_aegs_empty_s" value="extensions\AEGS\assets\structures\dock\dockingbay_aegs_empty_s"/>
+		<entry name="polaris_dockingbay" value="extensions\AEGS\assets\structures\dock\polaris_dockingbay"/>
+		<entry name="dockarea_polaris" value="extensions\AEGS\assets\structures\dock\dockarea_polaris"/>
+		<entry name="carrack_dockarea" value="extensions\AEGS\assets\structures\dock\carrack_dockarea"/>
+		<entry name="carrack_dockingbay" value="extensions\AEGS\assets\structures\dock\carrack_dockingbay"/>
+		<entry name="dockarea_aegs_bengal_m" value="extensions\AEGS\assets\structures\dock\dockarea_aegs_bengal_m"/>
+		<entry name="dockingbay_aegs_bengal_m" value="extensions\AEGS\assets\structures\dock\dockingbay_aegs_bengal_m"/>
+
+		<entry name="buildmodule_bengal" value="extensions\AEGS\assets\structures\model\buildmodule_bengal"/>
+		<entry name="production_kraken" value="extensions\AEGS\assets\structures\model\production_kraken"/>
+
+		<!-- 引擎特效 -->
+		<entry name="aegs_javelin_boost_fx" value="extensions\AEGS\assets\fx\BoostFx\aegs_javelin_boost_fx"/>
+		<entry name="aegs_m_boost_fx" value="extensions\AEGS\assets\fx\BoostFx\aegs_m_boost_fx"/>
+		<entry name="aegs_l_boost_fx" value="extensions\AEGS\assets\fx\BoostFx\aegs_l_boost_fx"/>
+		<entry name="aegs_f8c_boost_fx" value="extensions\AEGS\assets\fx\BoostFx\aegs_f8c_boost_fx"/>
+		<entry name="aegs_hammer_boost_fx" value="extensions\AEGS\assets\fx\BoostFx\aegs_hammer_boost_fx"/>
+
+		<!-- 火炮特效 -->
+		<entry name="S12_launch" value="extensions\AEGS\assets\fx\weaponfx\S12_launch"/>
+		<entry name="S12_impact" value="extensions\AEGS\assets\fx\weaponfx\S12_impact"/>
+
+		<!-- 内构房间 -->
+		<entry name="room_aegs_javelin_connection_01" value="extensions\aegs\assets\interiors\rooms\room_aegs_javelin_connection_01"/>
+
+		<!-- 其他部件 -->
+		<entry name="f8c_lightning_seat" value="extensions\AEGS\assets\interiors\xref_parts\f8c_lightning_seat"/>
+		<entry name="f8c_lightning_airlock" value="extensions\AEGS\assets\interiors\xref_parts\f8c_lightning_airlock"/>
+		<entry name="hammerhead_seat" value="extensions\AEGS\assets\interiors\xref_parts\hammerhead_seat"/>
+		<entry name="hammerhead_seat2" value="extensions\AEGS\assets\interiors\xref_parts\hammerhead_seat2"/>
+		<entry name="hammerhead_turret_s4_seat" value="extensions\AEGS\assets\interiors\xref_parts\hammerhead_turret_s4_seat"/>
+		<entry name="retaliator_seat" value="extensions\AEGS\assets\interiors\xref_parts\retaliator_seat"/>
+		<entry name="scorpius_seat" value="extensions\AEGS\assets\interiors\xref_parts\scorpius_seat"/>
+		<entry name="scorpius_airlock" value="extensions\AEGS\assets\interiors\xref_parts\scorpius_airlock"/>
+		<entry name="arrow_seat" value="extensions\AEGS\assets\interiors\xref_parts\arrow_seat"/>
+		<entry name="arrow_airlock" value="extensions\AEGS\assets\interiors\xref_parts\arrow_airlock"/>
+		<entry name="idris_bridge" value="extensions\aegs\assets\interiors\bridges\idris_bridge"/>
+		<entry name="eclipse_seat" value="extensions\AEGS\assets\interiors\xref_parts\eclipse_seat"/>
+		<entry name="starlifter_c2_inner" value="extensions\AEGS\assets\units\size_m\inner\starlifter_c2_inner"/>
+		<entry name="starlifter_seat" value="extensions\AEGS\assets\interiors\xref_parts\starlifter_seat"/>
+		<entry name="javelin_room1" value="extensions\aegs\assets\interiors\rooms\javelin_room1"/>
+		<entry name="roomarea_javelin_room1" value="extensions\aegs\assets\interiors\rooms\roomarea_javelin_room1"/>
+		<entry name="f7a_seat" value="extensions\AEGS\assets\interiors\xref_parts\f7a_seat"/>
+		<entry name="f7c_seat" value="extensions\AEGS\assets\interiors\xref_parts\f7c_seat"/>
+		<entry name="dock_aegs_xs" value="extensions\AEGS\assets\props\SurfaceElements\dock_aegs_xs"/>
+		<entry name="f7c_d" value="extensions\AEGS\assets\units\size_s\inner\f7c_d"/>
+		<entry name="f7c_t" value="extensions\AEGS\assets\units\size_s\inner\f7c_t"/>
+		<entry name="starfighter_seat" value="extensions\AEGS\assets\interiors\xref_parts\starfighter_seat"/>
+		<entry name="starfighter_airlock" value="extensions\AEGS\assets\interiors\xref_parts\starfighter_airlock"/>
+		<entry name="talon_seat" value="extensions\AEGS\assets\interiors\xref_parts\talon_seat"/>
+		<entry name="sabre_seat" value="extensions\AEGS\assets\interiors\xref_parts\sabre_seat"/>
+		<entry name="gladius_seat" value="extensions\AEGS\assets\interiors\xref_parts\gladius_seat"/>
+		<entry name="vanguard_seat" value="extensions\AEGS\assets\interiors\xref_parts\vanguard_seat"/>
+		<entry name="cutlass_seat" value="extensions\AEGS\assets\interiors\xref_parts\cutlass_seat"/>
+		<entry name="cutlass_seat2" value="extensions\AEGS\assets\interiors\xref_parts\cutlass_seat2"/>
+		<entry name="constellation_andromeda_seat2" value="extensions\AEGS\assets\interiors\xref_parts\constellation_andromeda_seat2"/>
+		<entry name="constellation_andromeda_seat1" value="extensions\AEGS\assets\interiors\xref_parts\constellation_andromeda_seat1"/>
+		<entry name="p52_merlin_seat" value="extensions\AEGS\assets\interiors\xref_parts\p52_merlin_seat"/>
+		<entry name="reclaimer_seat" value="extensions\AEGS\assets\interiors\xref_parts\reclaimer_seat"/>
+		<entry name="avenger_seat" value="extensions\AEGS\assets\interiors\xref_parts\avenger_seat"/>
+		<entry name="spirit_a1_seat" value="extensions\AEGS\assets\interiors\xref_parts\spirit_a1_seat"/>
+		<entry name="spirit_a1_inner" value="extensions\AEGS\assets\units\size_m\inner\spirit_a1_inner"/>
+		<entry name="spirit_c1_inner" value="extensions\AEGS\assets\units\size_m\inner\spirit_c1_inner"/>
+		<entry name="redeemer_seat" value="extensions\AEGS\assets\interiors\xref_parts\redeemer_seat"/>
+		<entry name="mole_seat" value="extensions\AEGS\assets\interiors\xref_parts\mole_seat"/>
+		<entry name="polaris_seat" value="extensions\AEGS\assets\interiors\xref_parts\polaris_seat"/>
+		<entry name="prospector_seat" value="extensions\AEGS\assets\interiors\xref_parts\prospector_seat"/>
+		<entry name="carrack_seat" value="extensions\AEGS\assets\interiors\xref_parts\carrack_seat"/>
+		<entry name="carrack_seat2" value="extensions\AEGS\assets\interiors\xref_parts\carrack_seat2"/>
+		<entry name="c8x_seat" value="extensions\AEGS\assets\interiors\xref_parts\c8x_seat"/>
+		<entry name="caterpillar_seat" value="extensions\AEGS\assets\interiors\xref_parts\caterpillar_seat"/>
+		<entry name="defender_seat" value="extensions\AEGS\assets\interiors\xref_parts\defender_seat"/>
+		<entry name="sabre_firebrid_seat" value="extensions\AEGS\assets\interiors\xref_parts\sabre_firebrid_seat"/>
+	</add>
+</diff>

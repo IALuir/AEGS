@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+  <add sel="/sequencestates">
+    <state name="01">
+      <transition nextstate="01_to_02" trigger="switch02" />
+      <transition nextstate="01_to_03" trigger="switch03" />
+      <transition nextstate="01_to_04" trigger="activate" />
+    </state>
+    <state name="01_to_02">
+      <transition nextstate="02" />
+    </state>
+    <state name="01_to_03">
+      <transition nextstate="03" />
+    </state>
+    <state name="01_to_04">
+      <transition nextstate="04" />
+    </state>
+    <state name="02">
+      <transition nextstate="02_to_01" trigger="switch01" />
+      <transition nextstate="02_to_03" trigger="switch03" />
+      <transition nextstate="02_to_04" trigger="activate" />
+    </state>
+    <state name="02_to_01">
+      <transition nextstate="01" />
+    </state>
+    <state name="02_to_03">
+      <transition nextstate="03" />
+    </state>
+    <state name="02_to_04">
+      <transition nextstate="04" />
+    </state>
+    <state name="03">
+      <transition nextstate="03_to_01" trigger="switch01" />
+      <transition nextstate="03_to_02" trigger="switch02" />
+      <transition nextstate="03_to_04" trigger="activate" />
+    </state>
+    <state name="03_to_01">
+      <transition nextstate="01" />
+    </state>
+    <state name="03_to_02">
+      <transition nextstate="02" />
+    </state>
+    <state name="03_to_04">
+      <transition nextstate="04" />
+    </state>
+    <state name="04">
+      <transition nextstate="04_to_01" trigger="switch01" />
+      <transition nextstate="04_to_02" trigger="switch02" />
+      <transition nextstate="04_to_03" trigger="switch03" />
+    </state>
+    <state name="04_to_01">
+      <transition nextstate="01" />
+    </state>
+    <state name="04_to_02">
+      <transition nextstate="02" />
+    </state>
+    <state name="04_to_03">
+      <transition nextstate="03" />
+    </state>
+  </add>
+</diff>

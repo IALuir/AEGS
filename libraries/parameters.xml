@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+    <add sel="//parameters/docking" append="true">
+
+        <dock tags="dock_aegs_p52" timeout="300" maxdistance="5000" unassigndistance="100" retrievalsafety="15" playerretrievalsafety="25" allowrotated="false">
+            <dockpath zdistance="100" />
+            <farguidance material="p1effects.p1_guidance_docking_01" amount="10" duration="1.5" scale="0.02" starttangent="1.0" startdistance="2.0" maxdistance="2000" dx="15" dz="50" fadein="2.0" />
+            <nearguidance renderdistance="1.2906321">
+                <background material="p1.gui_dock_background" width="1.5" height="1.5">
+                <offset y="0.2" z="2.0" />
+                </background>
+                <rotation>
+                <uturn material="p1.gui_dock_ship_rot_uturn" width="0.05" height="0.05" frequency="0.75">
+                    <startcolor r="255" g="80" b="0" a="255" />
+                    <endcolor r="255" g="80" b="0" a="0" />
+                </uturn>
+                <direction material="p1.gui_dock_ship_rot_horizontal" width="0.04" height="0.04" minangle="5" minoffset="2.0" maxoffset="5.0" frequency="0.75">
+                    <color r="255" g="80" b="0" a="255" />
+                </direction>
+                <target material="p1.gui_dock_ship_rot_target" width="0.017" height="0.017">
+                    <goodcolor r="96" g="255" b="64" a="255" />
+                    <badcolor r="255" g="32" b="50" a="255" />
+                </target>
+                <currentroll material="p1.gui_dock_ship_roll_current" width="0.25" height="0.0625">
+                    <goodcolor r="96" g="255" b="64" a="255" />
+                    <badcolor r="255" g="32" b="50" a="255" />
+                </currentroll>
+                <targetroll material="p1.gui_dock_ship_roll_target" width="0.25" height="0.0625">
+                    <goodcolor r="96" g="255" b="64" a="255" />
+                    <badcolor r="255" g="32" b="50" a="255" />
+                </targetroll>
+                </rotation>
+                <position outsidealpha="0.1">
+                    <offset y="-0.2" z="2" />
+                    <scale x="0.01" y="0.005" z="0.1" />
+                    <min x="-50" y="-10" z="-10" />
+                    <max x="50" y="50" z="10" />
+                    <base material="p1.gui_dock_frame_ground" width="0.75" height="1.5">
+                        <goodcolor r="255" g="255" b="255" a="255" />
+                        <badcolor r="255" g="255" b="255" a="255" />
+                    </base>
+                    <horizontal material="p1.gui_dock_pos_horizontal" width="0.75" height="0.6">
+                        <goodcolor r="96" g="255" b="64" a="255" />
+                        <badcolor r="255" g="32" b="50" a="255" />
+                    </horizontal>
+                    <vertical material="p1.gui_dock_pos_vertical" width="0.1" height="0.7">
+                        <goodcolor r="96" g="255" b="64" a="255" />
+                        <badcolor r="255" g="32" b="50" a="255" />
+                    </vertical>
+                    <currentpos material="p1.gui_dock_ship_pos_current" width="0.08" height="0.08" linewidth="0.02">
+                        <goodcolor r="255" g="255" b="255" a="255" />
+                        <badcolor r="127" g="197" b="255" a="255" />
+                    </currentpos>
+                    <projectedpos material="p1.gui_dock_ship_pos_projected" width="0.08" height="0.08" align="false">
+                        <goodcolor r="96" g="255" b="64" a="255" />
+                        <badcolor r="255" g="32" b="50" a="255" />
+                    </projectedpos>
+                </position>
+            </nearguidance>
+            <maxoffsets>
+                <maxoffset>
+                <position x="1" y="5" z="3" />
+                <rotation pitch="2" yaw="2" roll="2" />
+                </maxoffset>
+                <maxoffset software="software_dockmk1">
+                <position x="10" y="10" z="10" />
+                <rotation pitch="20" yaw="20" roll="20" />
+                </maxoffset>
+                <maxoffset software="software_dockmk2">
+                <position x="50" y="50" z="50" />
+                <rotation pitch="89" yaw="179" roll="179" />
+                </maxoffset>
+            </maxoffsets>
+            <landing>
+                <entry traffic="normal" vertical="true" duration="8.0">
+                <slowdown duration="0.5" />
+                <align duration="6.0" />
+                <touchdown duration="8.0"/>
+                <suspension dy="-0.15" duration="1" />
+                <sway duration="8.0">
+                    <pitch min="0.2" max="0.3" randomsgn="false" cp1="1" cp2="0.2" />
+                    <yaw min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="heavy" vertical="true" duration="6.0">
+                <slowdown duration="0.5" />
+                <align duration="4.0" />
+                <touchdown duration="6.0"/>
+                <suspension dy="-0.15" duration="1" />
+                <sway duration="6.0">
+                    <pitch min="0.2" max="0.3" randomsgn="false" cp1="1" cp2="0.2" />
+                    <yaw min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="gridlock" vertical="true" duration="4.0">
+                <slowdown duration="0.5" />
+                <align duration="3.0" />
+                <touchdown duration="4.0"/>
+                <suspension dy="-0.15" duration="1" />
+                <sway duration="4.0">
+                    <pitch min="0.2" max="0.3" randomsgn="false" cp1="1" cp2="0.2" />
+                    <yaw min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="normal" vertical="false" usetodockpos="true" duration="8.0">
+                <slowdown duration="0.1" />
+                <align duration="2.0" />
+                <move delay="1.5" duration="5.5" />
+                <touchdown delay="6.5" duration="1.5"/>
+                <suspension dy="-0.15" duration="1" />
+                <sway delay="1.5" duration="6.5">
+                    <pitch min="0.2" max="0.3" randomsgn="false" cp1="1" cp2="0.2" />
+                    <yaw min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="heavy" vertical="false" usetodockpos="true" duration="6.0">
+                <slowdown duration="0.1" />
+                <align duration="1.5" />
+                <move delay="1.0" duration="4.5" />
+                <touchdown delay="5.0" duration="1.0"/>
+                <suspension dy="-0.15" duration="1" />
+                <sway delay="1.0" duration="5.0">
+                    <pitch min="0.2" max="0.3" randomsgn="false" cp1="1" cp2="0.2" />
+                    <yaw min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="gridlock" vertical="false" usetodockpos="true" duration="4.0">
+                <slowdown duration="0.1" />
+                <align duration="1.0" />
+                <move delay="0.5" duration="3.25" />
+                <touchdown delay="3.5" duration="0.5"/>
+                <suspension dy="-0.15" duration="1" />
+                <sway delay="0.5" duration="3.5">
+                    <pitch min="0.2" max="0.3" randomsgn="false" cp1="1" cp2="0.2" />
+                    <yaw min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+            </landing>
+            <takeoff>
+                <entry traffic="normal" vertical="true" duration="8.0">
+                <release duration="1.5" dy="0" />
+                <align starttime="2.0" />
+                <sway>
+                    <pitch min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <yaw min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="heavy" vertical="true" duration="6.0">
+                <release duration="1.0" dy="0" />
+                <align starttime="1.5" />
+                <sway>
+                    <pitch min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <yaw min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="gridlock" vertical="true" duration="4.0">
+                <release duration="0.5" dy="0" />
+                <align starttime="1.0" />
+                <sway>
+                    <pitch min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <yaw min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="normal" vertical="false" duration="8.0">
+                <release duration="1.5" dy="0" />
+                <align starttime="2.0" />
+                <sway>
+                    <pitch min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <yaw min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="heavy" vertical="false" duration="6.0">
+                <release duration="1.0" dy="0" />
+                <align starttime="1.5" />
+                <sway>
+                    <pitch min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <yaw min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="gridlock" vertical="false" duration="4.0">
+                <release duration="0.5" dy="0" />
+                <align starttime="1.0" />
+                <sway>
+                    <pitch min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <yaw min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+            </takeoff>
+        </dock>
+
+        <dock tags="dock_aegs_c8" timeout="300" maxdistance="5000" unassigndistance="100" retrievalsafety="15" playerretrievalsafety="25" allowrotated="false">
+            <dockpath zdistance="100" />
+            <farguidance material="p1effects.p1_guidance_docking_01" amount="10" duration="1.5" scale="0.02" starttangent="1.0" startdistance="2.0" maxdistance="2000" dx="15" dz="50" fadein="2.0" />
+            <nearguidance renderdistance="1.2906321">
+                <background material="p1.gui_dock_background" width="1.5" height="1.5">
+                <offset y="0.2" z="2.0" />
+                </background>
+                <rotation>
+                <uturn material="p1.gui_dock_ship_rot_uturn" width="0.05" height="0.05" frequency="0.75">
+                    <startcolor r="255" g="80" b="0" a="255" />
+                    <endcolor r="255" g="80" b="0" a="0" />
+                </uturn>
+                <direction material="p1.gui_dock_ship_rot_horizontal" width="0.04" height="0.04" minangle="5" minoffset="2.0" maxoffset="5.0" frequency="0.75">
+                    <color r="255" g="80" b="0" a="255" />
+                </direction>
+                <target material="p1.gui_dock_ship_rot_target" width="0.017" height="0.017">
+                    <goodcolor r="96" g="255" b="64" a="255" />
+                    <badcolor r="255" g="32" b="50" a="255" />
+                </target>
+                <currentroll material="p1.gui_dock_ship_roll_current" width="0.25" height="0.0625">
+                    <goodcolor r="96" g="255" b="64" a="255" />
+                    <badcolor r="255" g="32" b="50" a="255" />
+                </currentroll>
+                <targetroll material="p1.gui_dock_ship_roll_target" width="0.25" height="0.0625">
+                    <goodcolor r="96" g="255" b="64" a="255" />
+                    <badcolor r="255" g="32" b="50" a="255" />
+                </targetroll>
+                </rotation>
+                <position outsidealpha="0.1">
+                    <offset y="-0.2" z="2" />
+                    <scale x="0.01" y="0.005" z="0.1" />
+                    <min x="-50" y="-10" z="-10" />
+                    <max x="50" y="50" z="10" />
+                    <base material="p1.gui_dock_frame_ground" width="0.75" height="1.5">
+                        <goodcolor r="255" g="255" b="255" a="255" />
+                        <badcolor r="255" g="255" b="255" a="255" />
+                    </base>
+                    <horizontal material="p1.gui_dock_pos_horizontal" width="0.75" height="0.6">
+                        <goodcolor r="96" g="255" b="64" a="255" />
+                        <badcolor r="255" g="32" b="50" a="255" />
+                    </horizontal>
+                    <vertical material="p1.gui_dock_pos_vertical" width="0.1" height="0.7">
+                        <goodcolor r="96" g="255" b="64" a="255" />
+                        <badcolor r="255" g="32" b="50" a="255" />
+                    </vertical>
+                    <currentpos material="p1.gui_dock_ship_pos_current" width="0.08" height="0.08" linewidth="0.02">
+                        <goodcolor r="255" g="255" b="255" a="255" />
+                        <badcolor r="127" g="197" b="255" a="255" />
+                    </currentpos>
+                    <projectedpos material="p1.gui_dock_ship_pos_projected" width="0.08" height="0.08" align="false">
+                        <goodcolor r="96" g="255" b="64" a="255" />
+                        <badcolor r="255" g="32" b="50" a="255" />
+                    </projectedpos>
+                </position>
+            </nearguidance>
+            <maxoffsets>
+                <maxoffset>
+                <position x="1" y="5" z="3" />
+                <rotation pitch="2" yaw="2" roll="2" />
+                </maxoffset>
+                <maxoffset software="software_dockmk1">
+                <position x="10" y="10" z="10" />
+                <rotation pitch="20" yaw="20" roll="20" />
+                </maxoffset>
+                <maxoffset software="software_dockmk2">
+                <position x="50" y="50" z="50" />
+                <rotation pitch="89" yaw="179" roll="179" />
+                </maxoffset>
+            </maxoffsets>
+            <landing>
+                <entry traffic="normal" vertical="true" duration="8.0">
+                <slowdown duration="0.5" />
+                <align duration="6.0" />
+                <touchdown duration="8.0"/>
+                <suspension dy="-0.15" duration="1" />
+                <sway duration="8.0">
+                    <pitch min="0.2" max="0.3" randomsgn="false" cp1="1" cp2="0.2" />
+                    <yaw min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="heavy" vertical="true" duration="6.0">
+                <slowdown duration="0.5" />
+                <align duration="4.0" />
+                <touchdown duration="6.0"/>
+                <suspension dy="-0.15" duration="1" />
+                <sway duration="6.0">
+                    <pitch min="0.2" max="0.3" randomsgn="false" cp1="1" cp2="0.2" />
+                    <yaw min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="gridlock" vertical="true" duration="4.0">
+                <slowdown duration="0.5" />
+                <align duration="3.0" />
+                <touchdown duration="4.0"/>
+                <suspension dy="-0.15" duration="1" />
+                <sway duration="4.0">
+                    <pitch min="0.2" max="0.3" randomsgn="false" cp1="1" cp2="0.2" />
+                    <yaw min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="normal" vertical="false" usetodockpos="true" duration="8.0">
+                <slowdown duration="0.1" />
+                <align duration="2.0" />
+                <move delay="1.5" duration="5.5" />
+                <touchdown delay="6.5" duration="1.5"/>
+                <suspension dy="-0.15" duration="1" />
+                <sway delay="1.5" duration="6.5">
+                    <pitch min="0.2" max="0.3" randomsgn="false" cp1="1" cp2="0.2" />
+                    <yaw min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="heavy" vertical="false" usetodockpos="true" duration="6.0">
+                <slowdown duration="0.1" />
+                <align duration="1.5" />
+                <move delay="1.0" duration="4.5" />
+                <touchdown delay="5.0" duration="1.0"/>
+                <suspension dy="-0.15" duration="1" />
+                <sway delay="1.0" duration="5.0">
+                    <pitch min="0.2" max="0.3" randomsgn="false" cp1="1" cp2="0.2" />
+                    <yaw min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="gridlock" vertical="false" usetodockpos="true" duration="4.0">
+                <slowdown duration="0.1" />
+                <align duration="1.0" />
+                <move delay="0.5" duration="3.25" />
+                <touchdown delay="3.5" duration="0.5"/>
+                <suspension dy="-0.15" duration="1" />
+                <sway delay="0.5" duration="3.5">
+                    <pitch min="0.2" max="0.3" randomsgn="false" cp1="1" cp2="0.2" />
+                    <yaw min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.1" max="0.25" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+            </landing>
+            <takeoff>
+                <entry traffic="normal" vertical="true" duration="8.0">
+                <release duration="1.5" dy="0" />
+                <align starttime="2.0" />
+                <sway>
+                    <pitch min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <yaw min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="heavy" vertical="true" duration="6.0">
+                <release duration="1.0" dy="0" />
+                <align starttime="1.5" />
+                <sway>
+                    <pitch min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <yaw min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="gridlock" vertical="true" duration="4.0">
+                <release duration="0.5" dy="0" />
+                <align starttime="1.0" />
+                <sway>
+                    <pitch min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <yaw min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="normal" vertical="false" duration="8.0">
+                <release duration="1.5" dy="0" />
+                <align starttime="2.0" />
+                <sway>
+                    <pitch min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <yaw min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="heavy" vertical="false" duration="6.0">
+                <release duration="1.0" dy="0" />
+                <align starttime="1.5" />
+                <sway>
+                    <pitch min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <yaw min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+                <entry traffic="gridlock" vertical="false" duration="4.0">
+                <release duration="0.5" dy="0" />
+                <align starttime="1.0" />
+                <sway>
+                    <pitch min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <yaw min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                    <roll min="0.05" max="0.15" randomsgn="true" cp1="1" cp2="0.2" />
+                </sway>
+                </entry>
+            </takeoff>
+        </dock>
+    </add>
+
+    <replace sel="//parameters/docking/dock[@tags='dock_s']/@allowrotated">false</replace>
+    <replace sel="//parameters/docking/dock[@tags='dock_s']/takeoff/entry[6]/release/@dy">0</replace>
+    <replace sel="//parameters/docking/dock[@tags='dock_s']/takeoff/entry[1]/release/@dy">0</replace>
+    <replace sel="//parameters/docking/dock[@tags='dock_s']/takeoff/entry[2]/release/@dy">0</replace>
+    <replace sel="//parameters/docking/dock[@tags='dock_s']/takeoff/entry[3]/release/@dy">0</replace>
+    <replace sel="//parameters/docking/dock[@tags='dock_s']/takeoff/entry[4]/release/@dy">0</replace>
+    <replace sel="//parameters/docking/dock[@tags='dock_s']/takeoff/entry[5]/release/@dy">0</replace>
+
+
+    <replace sel="//parameters/docking/dock[@tags='dock_m']/@tags">dock_m dock_aegs_small_m dock_aegs_big_s</replace>
+</diff>

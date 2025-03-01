@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+  <add sel="/soundlibrary">
+    <sound id="996666_normal" description="Ships" repeat="1" is3d="1" preload="0">
+      <sample start="extensions\aegs\voice\996666\normal"/>
+      <effects>
+        <reverb room="sewer pipe" roomsize="10" drymix="5" density="90"/>
+      </effects>
+    </sound>
+    <sound id="996666_comm" description="Ships" repeat="1" is3d="1" preload="0">
+      <sample start="extensions\aegs\voice\996666\normal"/>
+      <effects>
+        <reverb room="sewer pipe" roomsize="10" drymix="5" density="90"/>
+      </effects>
+    </sound>
+
+    <sound id="996677_normal" description="Computer" repeat="1" is3d="1" preload="0">
+      <sample start="extensions\aegs\voice\996677\normal"/>
+      <volume start="1.812" distance="0.090"/>
+    </sound>
+    <sound id="996677_comm" description="Computer" repeat="1" is3d="1" preload="0">
+      <sample start="extensions\aegs\voice\996677\normal"/>
+      <volume start="1.812" distance="0.090"/>
+    </sound>
+
+
+    <sound id="launch_aegs_xl_railgun_sx" description="Railgun Shot" repeat="1" is3d="1" preload="1">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\aegs_generic\xs"/>
+      </sample>
+      <volume start="1.0" distance="20"/>
+      <effects>
+        <filter mode="lowpass" distance="20"> 
+          <distancecurve>
+            <point distance="0.0" volume="1.0"/>
+            <point distance="0.2" volume="0.5"/>
+            <point distance="0.5" volume="0.1"/>
+            <point distance="1.0" volume="0.0001"/>
+          </distancecurve>
+        </filter>
+      </effects>
+    </sound>
+    <sound id="launch_aegs_xl_railgun_s12" description="Railgun Shot" repeat="1" is3d="1" preload="1">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\S12_railgun\launch\S12launch"/>
+        <select start="extensions\aegs\voice\S12_railgun\launch\S12launch"/>
+        <select start="extensions\aegs\voice\S12_railgun\launch\S12launch"/>
+        <select start="extensions\aegs\voice\S12_railgun\launch\S12launch"/>
+        <select start="extensions\aegs\voice\S12_railgun\launch\S12launch"/>
+        <select start="extensions\aegs\voice\S12_railgun\launch\S12launch"/>
+      </sample>
+      <volume start="1.0" distance="20"/>
+      <effects>
+        <filter mode="lowpass" distance="20"> 
+          <distancecurve>
+            <point distance="0.0" volume="1.0"/>
+            <point distance="0.2" volume="0.5"/>
+            <point distance="0.5" volume="0.1"/>
+            <point distance="1.0" volume="0.0001"/>
+          </distancecurve>
+        </filter>
+      </effects>
+    </sound>
+    <sound id="launch_aegs_l_railgun_s10" description="Railgun Shot" repeat="1" is3d="1" preload="1">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\S10_railgun\S10launch"/>
+      </sample>
+      <volume start="1.0" distance="15"/>
+      <effects>
+        <filter mode="lowpass" distance="15"> 
+          <distancecurve>
+            <point distance="0.0" volume="1.0"/>
+            <point distance="0.2" volume="0.5"/>
+            <point distance="0.5" volume="0.1"/>
+            <point distance="1.0" volume="0.0001"/>
+          </distancecurve>
+        </filter>
+      </effects>
+    </sound>
+    <sound id="charge_aegs_l_railgun_s10" description="Railgun Shot" repeat="1" is3d="1" preload="1">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\S10_railgun\S10charge"/>
+      </sample>
+      <volume start="1.0" distance="15"/>
+      <effects>
+        <filter mode="lowpass" distance="15"> 
+          <distancecurve>
+            <point distance="0.0" volume="1.0"/>
+            <point distance="0.2" volume="0.5"/>
+            <point distance="0.5" volume="0.1"/>
+            <point distance="1.0" volume="0.0001"/>
+          </distancecurve>
+        </filter>
+      </effects>
+    </sound>
+    <sound id="stop_aegs_l_railgun_s10" description="Railgun Shot" repeat="1" is3d="1" preload="1">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\S10_railgun\S10stop"/>
+      </sample>
+      <volume start="1.0" distance="15"/>
+      <effects>
+        <filter mode="lowpass" distance="15"> 
+          <distancecurve>
+            <point distance="0.0" volume="1.0"/>
+            <point distance="0.2" volume="0.5"/>
+            <point distance="0.5" volume="0.1"/>
+            <point distance="1.0" volume="0.0001"/>
+          </distancecurve>
+        </filter>
+      </effects>
+    </sound>
+    <sound id="S12_impact_hull_impact" description="Physical large bullet impacts the surface" repeat="1" is3d="1" preload="0">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\S12_railgun\impact\S12impact"/>
+        <select start="extensions\aegs\voice\S12_railgun\impact\S12impact"/>
+        <select start="extensions\aegs\voice\S12_railgun\impact\S12impact"/>
+      </sample>
+      <volume start="1.0" distance="30.0"/>
+    </sound>
+
+    <sound id="launch_aegs_xl_maingun" description="maingun" repeat="1" is3d="1" preload="1">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\maingun\maingun_shot"/>
+      </sample>
+      <volume start="1.0" distance="15"/>
+      <effects>
+        <filter mode="lowpass" distance="15"> 
+          <distancecurve>
+            <point distance="0.0" volume="1.0"/>
+            <point distance="0.2" volume="0.5"/>
+            <point distance="0.5" volume="0.1"/>
+            <point distance="1.0" volume="0.0001"/>
+          </distancecurve>
+        </filter>
+      </effects>
+    </sound>
+    <sound id="charge_aegs_xl_maingun" description="maingun" repeat="1" is3d="1" preload="1">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\maingun\maingun_charge"/>
+      </sample>
+      <volume start="1.0" distance="20"/>
+      <effects>
+        <filter mode="lowpass" distance="20"> 
+          <distancecurve>
+            <point distance="0.0" volume="1.0"/>
+            <point distance="0.2" volume="0.5"/>
+            <point distance="0.5" volume="0.1"/>
+            <point distance="1.0" volume="0.0001"/>
+          </distancecurve>
+        </filter>
+      </effects>
+    </sound>
+    <sound id="stop_aegs_xl_maingun" description="maingun" repeat="1" is3d="1" preload="1">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\maingun\maingun_end"/>
+      </sample>
+      <volume start="1.0" distance="20"/>
+      <effects>
+        <filter mode="lowpass" distance="20"> 
+          <distancecurve>
+            <point distance="0.0" volume="1.0"/>
+            <point distance="0.2" volume="0.5"/>
+            <point distance="0.5" volume="0.1"/>
+            <point distance="1.0" volume="0.0001"/>
+          </distancecurve>
+        </filter>
+      </effects>
+    </sound>
+    <sound id="impact_aegs_xl_maingun" description="maingun" repeat="1" is3d="1" preload="0">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\maingun\maingun_impact"/>
+      </sample>
+      <volume start="1.0" distance="60.0"/>
+    </sound>
+    
+
+    <sound id="launch_aegs_cf_small" description="cf" repeat="1" is3d="1" preload="0">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\aegs_generic\cf_small"/>
+      </sample>
+      <volume start="1.0" distance="3"/>
+      <effects>
+        <filter mode="lowpass" distance="3"> 
+          <distancecurve>
+            <point distance="0.0" volume="1.0"/>
+            <point distance="0.2" volume="0.5"/>
+            <point distance="0.5" volume="0.1"/>
+            <point distance="1.0" volume="0.0001"/>
+          </distancecurve>
+        </filter>
+      </effects>
+    </sound>
+    <sound id="launch_aegs_cf_big" description="cf" repeat="1" is3d="1" preload="0">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\aegs_generic\cf_big"/>
+      </sample>
+      <volume start="1.0" distance="10.0"/>
+      <effects>
+        <filter mode="lowpass" distance="10"> 
+          <distancecurve>
+            <point distance="0.0" volume="1.0"/>
+            <point distance="0.2" volume="0.5"/>
+            <point distance="0.5" volume="0.1"/>
+            <point distance="1.0" volume="0.0001"/>
+          </distancecurve>
+        </filter>
+      </effects>
+    </sound>
+    <sound id="launch_aegs_gtx_big" description="cf" repeat="1" is3d="1" preload="0">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\aegs_generic\gtx_big"/>
+      </sample>
+      <volume start="1.0" distance="10.0"/>
+      <effects>
+        <filter mode="lowpass" distance="10"> 
+          <distancecurve>
+            <point distance="0.0" volume="1.0"/>
+            <point distance="0.2" volume="0.5"/>
+            <point distance="0.5" volume="0.1"/>
+            <point distance="1.0" volume="0.0001"/>
+          </distancecurve>
+        </filter>
+      </effects>
+    </sound>
+    <sound id="launch_aegs_gtx_small" description="cf" repeat="1" is3d="1" preload="0">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\aegs_generic\gtx_small"/>
+      </sample>
+      <volume start="1.0" distance="3.0"/>
+      <effects>
+        <filter mode="lowpass" distance="3"> 
+          <distancecurve>
+            <point distance="0.0" volume="1.0"/>
+            <point distance="0.2" volume="0.5"/>
+            <point distance="0.5" volume="0.1"/>
+            <point distance="1.0" volume="0.0001"/>
+          </distancecurve>
+        </filter>
+      </effects>
+    </sound>
+    <sound id="launch_aegs_mxa_small" description="cf" repeat="1" is3d="1" preload="0">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\aegs_generic\mxa_small"/>
+      </sample>
+      <volume start="1.0" distance="3.0"/>
+      <effects>
+        <filter mode="lowpass" distance="3"> 
+          <distancecurve>
+            <point distance="0.0" volume="1.0"/>
+            <point distance="0.2" volume="0.5"/>
+            <point distance="0.5" volume="0.1"/>
+            <point distance="1.0" volume="0.0001"/>
+          </distancecurve>
+        </filter>
+      </effects>
+    </sound>
+    <sound id="launch_aegs_mxa_big" description="Railgun Shot" repeat="1" is3d="1" preload="1">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\S9_railgun\S9launch"/>
+        <select start="extensions\aegs\voice\S9_railgun\S9launch"/>
+      </sample>
+      <volume start="1.0" distance="10"/>
+      <effects>
+        <filter mode="lowpass" distance="10"> 
+          <distancecurve>
+            <point distance="0.0" volume="1.0"/>
+            <point distance="0.2" volume="0.5"/>
+            <point distance="0.5" volume="0.1"/>
+            <point distance="1.0" volume="0.0001"/>
+          </distancecurve>
+        </filter>
+      </effects>
+    </sound>
+    <sound id="launch_aegs_nnxa" description="cf" repeat="1" is3d="1" preload="0">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\aegs_generic\nnxa"/>
+      </sample>
+      <volume start="1.0" distance="10.0"/>
+      <effects>
+        <filter mode="lowpass" distance="10"> 
+          <distancecurve>
+            <point distance="0.0" volume="1.0"/>
+            <point distance="0.2" volume="0.5"/>
+            <point distance="0.5" volume="0.1"/>
+            <point distance="1.0" volume="0.0001"/>
+          </distancecurve>
+        </filter>
+      </effects>
+    </sound>
+    <sound id="launch_aegs_xsgc" description="cf" repeat="1" is3d="1" preload="0">
+      <sample selection="random">
+        <select start="extensions\aegs\voice\aegs_generic\xsgc"/>
+      </sample>
+      <volume start="1.0" distance="5"/>
+      <effects>
+        <filter mode="lowpass" distance="5"> 
+          <distancecurve>
+            <point distance="0.0" volume="1.0"/>
+            <point distance="0.2" volume="0.5"/>
+            <point distance="0.5" volume="0.1"/>
+            <point distance="1.0" volume="0.0001"/>
+          </distancecurve>
+        </filter>
+      </effects>
+    </sound>
+
+    <sound id="aegs_open" description="" repeat="1" is3d="1" preload="0">
+      <sample start="extensions\aegs\voice\aegs_generic\open"/>
+      <volume start="1.0" distance="5"/>
+    </sound>
+    <sound id="aegs_close" description="" repeat="1" is3d="1" preload="0">
+      <sample start="extensions\aegs\voice\aegs_generic\close"/>
+      <volume start="1.0" distance="5"/>
+    </sound>
+  </add>
+</diff>

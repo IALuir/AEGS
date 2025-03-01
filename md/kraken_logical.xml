@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="kraken_logical" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+          <cue name="kraken_logical_dock_01" >
+			<conditions>
+                    <check_any>
+					<event_game_started />
+					<event_game_loaded />
+				</check_any>
+               </conditions>
+			<actions>
+                    <set_value name="$Object_kraken" exact="[]"/>
+                    <create_group groupname="$Object_krakenGroup"/>
+                    <clear_group group="$Object_krakenGroup"/>
+                    <set_value name="$hasship_s" exact="0"/>
+                    <set_value name="$hasship_m" exact="0"/>
+
+                    <reset_cue cue="kraken_logical_dock_02_01"/>
+                    <reset_cue cue="kraken_logical_dock_02"/>
+                    <reset_cue cue="kraken_logical_refinedmetals"/>
+                    <reset_cue cue="kraken_logical_dock_04"/>
+                    <reset_cue cue="kraken_logical_dock_06"/>
+			</actions>
+               <cues>
+
+                    <cue name="kraken_logical_dock_02_01" instantiate="true" checkinterval="10min">
+                         <actions>
+                              <set_value name="$Object_kraken" exact="[]"/>
+
+                              <find_ship name="$Object_kraken" macro="macro.ship_drak_kraken_macro"  multiple="true" append="true"/>
+                              <clear_group group="$Object_krakenGroup"/>
+                              <do_for_each name="$ship" in="$Object_kraken">
+                                   <add_to_group groupname="$Object_krakenGroup" object="$ship"/>
+                              </do_for_each>
+                         </actions>
+                    </cue>
+
+                    <cue name="kraken_logical_dock_02" instantiate="true" checkinterval="1s">
+                         <actions>
+                              <set_value name="$hasship_s" exact="0"/>
+                              <set_value name="$hasship_m" exact="0"/>
+                              <do_for_each name="$ship" in="$Object_kraken">
+                                   <find_dockingbay name="$dockingbays_k" object="$ship" macro="[macro.kraken_airporta_macro,macro.kraken_airportb_macro,macro.dockingbay_aegs_bengal_m_macro]" multiple="true"/>
+                                   <do_all exact="$dockingbays_k.count" counter="$i">
+								<do_if value="$dockingbays_k.{$i}.assignedship and $dockingbays_k.{$i}.macro.ismacro.[macro.kraken_airporta_macro,macro.kraken_airportb_macro]">
+									<set_value name="$hasship_s" exact="1"/>
+								</do_if>
+                                        <do_elseif value="$dockingbays_k.{$i}.assignedship and $dockingbays_k.{$i}.macro.ismacro.[macro.dockingbay_aegs_bengal_m_macro]">
+                                             <set_value name="$hasship_m" exact="1"/>
+                                        </do_elseif>
+							</do_all>
+				          </do_for_each>
+                         </actions>
+                    </cue>
+
+                    <cue name="kraken_logical_refinedmetals" instantiate="true" checkinterval="10s">
+                         <actions>
+                              <do_for_each name="$ship" in="$Object_kraken">
+                                   <do_if value="$ship.order.id">
+                                        <do_if value="$ship.order.id == 'MiningPlayer' or $ship.order.id == 'MiningCollect' or $ship.order.id == 'MiningRoutine' or $ship.order.id == 'MiningRoutine_Advanced' or $ship.order.id == 'MiningRoutine_Basic' or $ship.order.id == 'MiningRoutine_Expert'">
+                                             <set_tradeoffers_enabled object="$ship" enabled="true"/>
+                                        </do_if>
+                                        <do_else>
+                                             <set_tradeoffers_enabled object="$ship" enabled="false"/>
+                                        </do_else>
+                                   </do_if>
+                                   
+
+                                   <!-- <set_value name="$ore" exact="$ship.cargo.{ware.ore}.count"/>
+                                   <do_if value="$ore ge 20 and $ship.cargo.{ware.refinedmetals}.count lt $ship.cargo.{ware.refinedmetals}.target" >
+                                        <remove_cargo object="$ship" ware="ware.ore" exact="20"/>
+                                        <add_cargo object="$ship" ware="ware.refinedmetals" exact="20"/>
+                                   </do_if> -->
+				          </do_for_each>
+                         </actions>
+                    </cue>
+
+                    <cue name="kraken_logical_dock_04" instantiate="true">
+                         <conditions>
+                              <event_object_dock_assigned_at group="$Object_krakenGroup"/>
+                              <check_value value="event.param2.isclass.[class.ship_m]"/>
+                              <check_value value="event.param2.macro.ismacro.[macro.constellation_andromeda_macro,macro.mole_macro,macro.redeemer_macro,
+                                                                                macro.retaliator_macro,macro.spirit_a1_macro,macro.spirit_c1_macro,
+                                                                                ]"/>
+                              <check_value value="$hasship_s"/>
+                         </conditions>
+                         <actions>
+                              <remove_docking_request ship="event.param2" container="event.param" immediate="true"/>
+                              <do_if value="event.param2.isplayerowned">
+                                   <show_help duration="5s" custom="event.param2.name + {996675,4}"/>
+                              </do_if>
+                              <do_for_each name="$order" in="event.param2.orders">
+                                   <do_if value="$order.id == 'DockAt'">
+                                        <cancel_order order="$order" />
+                                   </do_if>
+                              </do_for_each>
+                         </actions>
+                    </cue>
+
+                    <cue name="kraken_logical_dock_06" instantiate="true">
+                         <conditions>
+                              <event_object_dock_assigned_at group="$Object_krakenGroup"/>
+                              <check_value value="event.param.macro.ismacro.[macro.kraken_airporta_macro,macro.kraken_airportb_macro,macro.dockingbay_aegs_bengal_m_macro]"/>
+                              <check_value value="$hasship_m"/>
+                         </conditions>
+                         <actions>
+                              <remove_docking_request ship="event.param2" container="event.param" immediate="true"/>
+                              <do_if value="event.param2.isplayerowned">
+                                   <show_help duration="5s" custom="event.param2.name + {996675,4}"/>
+                              </do_if>
+                              <do_for_each name="$order" in="event.param2.orders">
+                                   <do_if value="$order.id == 'DockAt'">
+                                        <cancel_order order="$order" />
+                                   </do_if>
+                              </do_for_each>
+                         </actions>
+                    </cue>
+               </cues>
+		</cue>
+	</cues>
+</mdscript>

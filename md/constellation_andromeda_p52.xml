@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="constellation_andromeda_p52" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+          <cue name="Player_constellation_andromeda_p52_Build_Finished">
+               <conditions>
+                    <check_any>
+					<event_game_started />
+					<event_game_loaded />
+				</check_any>
+               </conditions>
+			<actions>
+                    <reset_cue cue="Player_constellation_andromeda_p52_Build_Finished_01"/>
+			</actions>
+               <cues>
+
+                    <cue name="Player_constellation_andromeda_p52_Build_Finished_01" instantiate="true">
+                         <conditions>
+                              <event_player_build_finished/>
+                              <check_value value="@event.param3.buildobject.macro.ismacro.{macro.constellation_andromeda_macro} or @event.param3.macro.ismacro.{macro.constellation_andromeda_macro}"/>
+                              <check_value value="@event.param3.buildobject.trueowner == faction.player or @event.param3.trueowner == faction.player"/>
+                         </conditions>
+                         <actions>
+                              <set_value name="$Ship" exact="@event.param3.buildobject"/>
+
+                              <create_ship name="$P52" dock="$Ship" macro="macro.p52_merlin_macro">
+                                   <owner exact="faction.player"/>
+                                   <pilot>
+                                        <select tags="tag.pilot" race="race.terran"/>
+                                        <skills>
+                                             <skill type="piloting"    exact="1"/>
+                                        </skills>
+                                   </pilot>
+                              </create_ship>
+                         </actions>
+                    </cue>
+
+               </cues>
+          </cue>
+	</cues>
+</mdscript>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<diff>
+  <replace sel="//aiscript/init/do_if[@value='@this.assignedcontrolled.commander.isclass.[class.station, class.buildstorage]']/@value">@this.assignedcontrolled.commander.isclass.[class.station, class.buildstorage] or @this.assignedcontrolled.commander.macro.ismacro.[macro.ship_drak_kraken_macro]</replace>
+</diff>
