@@ -1,0 +1,11 @@
+<?xml version="1.1" encoding="utf-8"?>
+<content id="AEGS" name="AEGS" description="AEGS" author="ALuir Lambda" version="092" date="2025-01-27" save="0" enabled="0">
+  <text language="86" name="AEGS" description="添加一系列SC飞船进入X4宇宙,本MOD为纯船包,势力请下次AEGS_Faction." author="ALuir Lambda"></text>
+  <dependency version="710" />
+  <dependency id="ego_dlc_split" optional="false" name="Split Vendetta"/>
+  <dependency id="ego_dlc_terran" optional="false" name="Cradle of Humanity"/>
+  <dependency id="ego_dlc_pirate" optional="false" name="Tides of Avarice"/>
+  <dependency id="ego_dlc_boron" optional="false" name="Kingdom End"/>
+  <dependency id="ego_dlc_timelines" optional="true" name="Timelines"/>
+  <dependency id="kuerteeUIExtensionsAndHUD" optional="false" name="kuertee UI Extensions and HUD"></dependency>
+</content>
