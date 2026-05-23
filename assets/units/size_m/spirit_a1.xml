@@ -247,7 +247,7 @@
                   <material id="6" ref="generic.crus_starfighter_mtl_int_decal_pom" />
                   <material id="7" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
                   <material id="8" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
-                  <material id="9" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
                   <material id="10" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
                   <material id="11" ref="generic.crus_starfighter_mtl_ext_engine_trim" />
                 </materials>
@@ -262,7 +262,7 @@
                   <material id="6" ref="generic.crus_starfighter_mtl_int_decal_pom" />
                   <material id="7" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
                   <material id="8" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
-                  <material id="9" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
                   <material id="10" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
                   <material id="11" ref="generic.crus_starfighter_mtl_ext_engine_trim" />
                 </materials>
@@ -277,7 +277,7 @@
                   <material id="6" ref="generic.crus_starfighter_mtl_int_decal_pom" />
                   <material id="7" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
                   <material id="8" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
-                  <material id="9" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
                   <material id="10" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
                   <material id="11" ref="generic.crus_starfighter_mtl_ext_engine_trim" />
                 </materials>
@@ -292,7 +292,7 @@
                   <material id="6" ref="generic.crus_starfighter_mtl_int_decal_pom" />
                   <material id="7" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
                   <material id="8" ref="generic.crus_starfighter_mtl_int_decal_diffuse" />
-                  <material id="9" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="9" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
                   <material id="10" ref="generic.crus_starfighter_mtl_ext_trim_transparent" />
                   <material id="11" ref="generic.crus_starfighter_mtl_ext_engine_trim" />
                 </materials>
@@ -305,15 +305,16 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForcrus_starlifter_front_landinggear_skin" tags="part animation">
+      <connection name="ConnectionForcrus_starlifter_front_landinggear_skin" tags="part animation nocollision">
         <animations>
-					<animation name="landinggears_inactive" start="1" end="1"/>
-					<animation name="landinggears_activating" start="1" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="120" end="120"/>
 				</animations>
         <offset>
-          <position x="-0.00357042" y="-1.378326" z="9.901361" />
+          <position x="-0.00357042" y="-0.928565" z="9.901361" />
+          <quaternion qx="0.01743803" qy="0" qz="0" qw="-0.9998479" />
         </offset>
         <parts>
           <part name="crus_starlifter_front_landinggear_skin">
@@ -322,7 +323,7 @@
                 <materials>
                   <material id="1" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
                   <material id="2" ref="generic.starlifter_exterior_mtl_POM_Blended" />
-                  <material id="3" ref="generic.starlifter_exterior_mtl_Raw_Metal" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
                   <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
                   <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
                   <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
@@ -332,25 +333,25 @@
               </lod>
             </lods>
             <size>
-              <max x="0.8664005" y="1.463771" z="2.931762" />
-              <center x="0.002700967" y="-1.075462" z="-0.7586412" />
+              <max x="0.8664006" y="1.951944" z="2.931762" />
+              <center x="0.002700967" y="-1.03705" z="-0.7586412" />
             </size>
             <size_raw>
-              <max x="0.0008664005" y="0.001463771" z="0.002931762" />
-              <center x="2.700937e-06" y="0.0003629025" z="-0.0007586416" />
+              <max x="0.4335572" y="0.7324884" z="1.467089" />
+              <center x="0.002700955" y="0.3629025" z="-0.7586417" />
             </size_raw>
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForcrus_starlifter_front_landinggear_skin001" tags="part animation">
+      <connection name="ConnectionForcrus_starlifter_front_landinggear_skin001" tags="part animation nocollision">
         <animations>
-					<animation name="landinggears_inactive" start="1" end="1"/>
-					<animation name="landinggears_activating" start="1" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="120" end="120"/>
 				</animations>
         <offset>
-          <position x="0.0002918243" y="-0.8620589" z="-4.337626" />
+          <position x="0.0002918243" y="-0.5630882" z="-4.337626" />
         </offset>
         <parts>
           <part name="crus_starlifter_front_landinggear_skin001">
@@ -359,7 +360,7 @@
                 <materials>
                   <material id="1" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
                   <material id="2" ref="generic.starlifter_exterior_mtl_POM_Blended" />
-                  <material id="3" ref="generic.starlifter_exterior_mtl_Raw_Metal" />
+                  <material id="3" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
                   <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
                   <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
                   <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
@@ -369,12 +370,12 @@
               </lod>
             </lods>
             <size>
-              <max x="14.37791" y="1.528663" z="2.931762" />
-              <center x="9.822845e-05" y="-1.526836" z="-0.7586417" />
+              <max x="14.37791" y="2.134839" z="2.931762" />
+              <center x="9.822845e-05" y="-1.219631" z="-0.7586417" />
             </size>
             <size_raw>
-              <max x="0.01437791" y="0.001463771" z="0.002931762" />
-              <center x="9.848736e-08" y="0.0003629272" z="-0.0007586419" />
+              <max x="14.37791" y="0.7324885" z="1.467089" />
+              <center x="9.870529e-05" y="0.3629272" z="-0.7586418" />
             </size_raw>
           </part>
         </parts>
@@ -591,10 +592,10 @@
       </connection>
       <connection name="ConnectionForpistons_top001" group="door" tags="part animation require_docked trigger_interact">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
         </animations>
         <offset>
           <position x="-2.760141" y="2.577053" z="-13.4934" />
@@ -629,10 +630,10 @@
       </connection>
       <connection name="ConnectionForpistons_bot001" group="door" tags="part animation require_docked trigger_interact" parent="pistons_top001">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
         </animations>
         <offset>
           <position x="2.969581" y="4.529953e-06" z="-0.01868153" />
@@ -663,10 +664,10 @@
       </connection>
       <connection name="ConnectionForramp_base001" group="door" tags="part animation require_docked trigger_interact ui">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
         </animations>
         <offset>
           <position x="0" y="-0.721472" z="-12.42902" />
@@ -701,10 +702,10 @@
       </connection>
       <connection name="ConnectionForramp_extender_01001" group="door" tags="part animation require_docked trigger_interact ui" parent="ramp_base001">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
         </animations>
         <offset>
           <position x="-0.004466998" y="0.04484797" z="0.1358528" />
@@ -741,10 +742,10 @@
       </connection>
       <connection name="ConnectionForramp_extender_02001" group="door" tags="part animation require_docked trigger_interact ui" parent="ramp_extender_01001">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
         </animations>
         <offset>
           <position x="9.997748e-07" y="-0.1602411" z="0.5236521" />
@@ -780,10 +781,10 @@
       </connection>
       <connection name="ConnectionForramp_mech_lock001" group="door" tags="part animation require_docked trigger_interact" parent="ramp_base001">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
         </animations>
         <offset>
           <position x="2.999999e-06" y="-0.3620639" z="-3.922228" />
@@ -812,10 +813,10 @@
       </connection>
       <connection name="ConnectionForramp_internals_03001" group="door" tags="part animation require_docked trigger_interact" parent="ramp_mech_lock001">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
         </animations>
         <offset>
           <position x="1e-06" y="0.03411198" z="-0.8002014" />
@@ -848,10 +849,10 @@
       </connection>
       <connection name="ConnectionForramp_mechanism_01001" group="door" tags="part animation require_docked trigger_interact" parent="ramp_base001">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
         </animations>
         <offset>
           <position x="2.999999e-06" y="-0.3620639" z="-3.922235" />
@@ -865,13 +866,13 @@
                   <material id="1" ref="generic.crus_starfighter_mtl_int_decal_pom" />
                   <material id="2" ref="generic.crus_starfighter_mtl_int_trim_white" />
                   <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
-                  <material id="4" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="4" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
                 </materials>
               </lod>
             </lods>
             <size>
-              <max x="3.081662" y="1.972739" z="1.324944" />
-              <center x="-9.588193e-07" y="-1.731428" z="-0.4912968" />
+              <max x="3.081662" y="1.972882" z="1.327737" />
+              <center x="-9.588193e-07" y="-1.731284" z="-0.4940891" />
             </size>
             <size_raw>
               <max x="3.081664" y="0.1852239" z="0.9246438" />
@@ -882,10 +883,10 @@
       </connection>
       <connection name="ConnectionForramp_internals_02001" group="door" tags="part animation require_docked trigger_interact" parent="ramp_mechanism_01001">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
         </animations>
         <offset>
           <position x="-2.9e-05" y="0.1019726" z="-0.8748751" />
@@ -896,7 +897,7 @@
             <lods>
               <lod index="0">
                 <materials>
-                  <material id="1" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="1" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
                   <material id="2" ref="generic.crus_starfighter_mtl_int_decal_pom" />
                   <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
                   <material id="4" ref="generic.crus_spirit_ext_mtl_Alpha_Trim_Grips" />
@@ -908,8 +909,8 @@
               </lod>
             </lods>
             <size>
-              <max x="3.247657" y="2.41829" z="1.421072" />
-              <center x="-6.45896e-06" y="-2.198537" z="-1.317787" />
+              <max x="3.247657" y="2.418434" z="1.423865" />
+              <center x="-6.45896e-06" y="-2.198394" z="-1.32058" />
             </size>
             <size_raw>
               <max x="3.247659" y="0.2661995" z="0.9337479" />
@@ -939,12 +940,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForturret_base_geo001" tags="part animation">
+      <connection name="ConnectionForturret_base_geo001" tags="part animation nocollision">
         <animations>
-					<animation name="battlestate_green" start="1" end="1"/>
-					<animation name="battlestate_green_to_red" start="1" end="80"/>
-					<animation name="battlestate_red" start="80" end="80"/>
-					<animation name="battlestate_red_to_green" start="80" end="240"/>
+					<animation name="battlestate_green" start="0" end="0"/>
+					<animation name="battlestate_green_to_red" start="0" end="60"/>
+					<animation name="battlestate_red" start="60" end="60"/>
+					<animation name="battlestate_red_to_green" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="0" y="3.283486" z="-18.41573" />
@@ -998,12 +999,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForvtol_geo_left001" tags="part animation">
+      <connection name="ConnectionForvtol_geo_left001" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="-19.81246" y="-0.5615613" z="-5.010334" />
@@ -1023,7 +1024,7 @@
                   <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
                   <material id="8" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
                   <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
-                  <material id="10" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
                   <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
                   <material id="12" ref="generic.crus_starfighter_mtl_ext_engine_trim" />
                 </materials>
@@ -1040,12 +1041,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForvtol_flap_geo_left001" tags="part animation" parent="vtol_geo_left001">
+      <connection name="ConnectionForvtol_flap_geo_left001" tags="part animation nocollision" parent="vtol_geo_left001">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="-0.2375755" y="0.3619753" z="-5.389665" />
@@ -1078,12 +1079,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForvtol_geo_right001" tags="part animation">
+      <connection name="ConnectionForvtol_geo_right001" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="19.8125" y="-0.5615613" z="-5.010334" />
@@ -1103,7 +1104,7 @@
                   <material id="7" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
                   <material id="8" ref="generic.anvl_pisces_interior_mtl_panel_dark" />
                   <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
-                  <material id="10" ref="generic.crus_starfighter_mtl_ext_titanium_panel" />
+                  <material id="10" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
                   <material id="11" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
                   <material id="12" ref="generic.crus_starfighter_mtl_ext_engine_trim" />
                 </materials>
@@ -1120,12 +1121,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForvtol_flap_geo_right001" tags="part animation" parent="vtol_geo_right001">
+      <connection name="ConnectionForvtol_flap_geo_right001" tags="part animation nocollision" parent="vtol_geo_right001">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="0.2375355" y="0.3619758" z="-5.389664" />
@@ -1158,12 +1159,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForvtol_pistons_bot_geo_left001" tags="part animation">
+      <connection name="ConnectionForvtol_pistons_bot_geo_left001" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="-14.79854" y="-0.7049351" z="-10.38889" />
@@ -1193,12 +1194,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForvtol_pistons_top_geo_left001" tags="part animation" parent="vtol_pistons_bot_geo_left001">
+      <connection name="ConnectionForvtol_pistons_top_geo_left001" tags="part animation nocollision" parent="vtol_pistons_bot_geo_left001">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="2.466032" y="1.865625e-05" z="0" />
@@ -1228,12 +1229,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForvtol_pistons_bot_geo_right001" tags="part animation">
+      <connection name="ConnectionForvtol_pistons_bot_geo_right001" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="14.79854" y="-0.7049351" z="-10.38889" />
@@ -1263,12 +1264,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForvtol_pistons_top_geo_right001" tags="part animation" parent="vtol_pistons_bot_geo_right001">
+      <connection name="ConnectionForvtol_pistons_top_geo_right001" tags="part animation nocollision" parent="vtol_pistons_bot_geo_right001">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="2.465873" y="-0.02679375" z="-6.67572e-06" />
@@ -1298,12 +1299,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForweapon_arm_geo_left001" tags="part animation">
+      <connection name="ConnectionForweapon_arm_geo_left001" tags="part animation nocollision">
         <animations>
-					<animation name="battlestate_green" start="1" end="1"/>
-					<animation name="battlestate_green_to_red" start="1" end="80"/>
-					<animation name="battlestate_red" start="80" end="80"/>
-					<animation name="battlestate_red_to_green" start="80" end="240"/>
+					<animation name="battlestate_green" start="0" end="0"/>
+					<animation name="battlestate_green_to_red" start="0" end="60"/>
+					<animation name="battlestate_red" start="60" end="60"/>
+					<animation name="battlestate_red_to_green" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="-5.826838" y="1.098298" z="1.489121" />
@@ -1335,12 +1336,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForweapon_mount_geo_left001" tags="part animation" parent="weapon_arm_geo_left001">
+      <connection name="ConnectionForweapon_mount_geo_left001" tags="part animation nocollision" parent="weapon_arm_geo_left001">
         <animations>
-					<animation name="battlestate_green" start="1" end="1"/>
-					<animation name="battlestate_green_to_red" start="1" end="80"/>
-					<animation name="battlestate_red" start="80" end="80"/>
-					<animation name="battlestate_red_to_green" start="80" end="240"/>
+					<animation name="battlestate_green" start="0" end="0"/>
+					<animation name="battlestate_green_to_red" start="0" end="60"/>
+					<animation name="battlestate_red" start="60" end="60"/>
+					<animation name="battlestate_red_to_green" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="0.02076149" y="0.06625111" z="-3.176388" />
@@ -1368,18 +1369,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="left_weapon" tags="" parent="weapon_mount_geo_left001">
-        <offset>
-          <position x="0.1604242" y="0.03173971" z="0.06044595" />
-          <quaternion qx="0.4884803" qy="0.5114381" qz="-0.4933058" qw="-0.5064263" />
-        </offset>
-      </connection>
-      <connection name="ConnectionForweapon_arm_geo_right001" tags="part animation">
+      <connection name="ConnectionForweapon_arm_geo_right001" tags="part animation nocollision">
         <animations>
-					<animation name="battlestate_green" start="1" end="1"/>
-					<animation name="battlestate_green_to_red" start="1" end="80"/>
-					<animation name="battlestate_red" start="80" end="80"/>
-					<animation name="battlestate_red_to_green" start="80" end="240"/>
+					<animation name="battlestate_green" start="0" end="0"/>
+					<animation name="battlestate_green_to_red" start="0" end="60"/>
+					<animation name="battlestate_red" start="60" end="60"/>
+					<animation name="battlestate_red_to_green" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="5.826838" y="1.098298" z="1.48912" />
@@ -1411,12 +1406,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForweapon_mount_geo_right001" tags="part animation" parent="weapon_arm_geo_right001">
+      <connection name="ConnectionForweapon_mount_geo_right001" tags="part animation nocollision" parent="weapon_arm_geo_right001">
         <animations>
-					<animation name="battlestate_green" start="1" end="1"/>
-					<animation name="battlestate_green_to_red" start="1" end="80"/>
-					<animation name="battlestate_red" start="80" end="80"/>
-					<animation name="battlestate_red_to_green" start="80" end="240"/>
+					<animation name="battlestate_green" start="0" end="0"/>
+					<animation name="battlestate_green_to_red" start="0" end="60"/>
+					<animation name="battlestate_red" start="60" end="60"/>
+					<animation name="battlestate_red_to_green" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="0.2071533" y="0.08686192" z="-3.227166" />
@@ -1444,18 +1439,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="right_weapon" tags="" parent="weapon_mount_geo_right001">
-        <offset>
-          <position x="0.02220535" y="0.01911926" z="-0.1141963" />
-          <quaternion qx="0.04361951" qy="-1.542538e-08" qz="-0.9990482" qw="-9.902129e-08" />
-        </offset>
-      </connection>
-      <connection name="ConnectionForweapon_door_01_geo_left001" tags="part animation">
+      <connection name="ConnectionForweapon_door_01_geo_left001" tags="part animation nocollision">
         <animations>
-					<animation name="battlestate_green" start="1" end="1"/>
-					<animation name="battlestate_green_to_red" start="1" end="80"/>
-					<animation name="battlestate_red" start="80" end="80"/>
-					<animation name="battlestate_red_to_green" start="80" end="240"/>
+					<animation name="battlestate_green" start="0" end="0"/>
+					<animation name="battlestate_green_to_red" start="0" end="60"/>
+					<animation name="battlestate_red" start="60" end="60"/>
+					<animation name="battlestate_red_to_green" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="-6.291617" y="2.211127" z="-0.4217093" />
@@ -1484,12 +1473,13 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForweapon_door_01_geo_right001" tags="part animation">
+      <connection name="ConnectionForweapon_door_01_geo_right001" tags="part animation nocollision">
         <animations>
 					<animation name="battlestate_green" start="1" end="1"/>
-					<animation name="battlestate_green_to_red" start="1" end="80"/>
-					<animation name="battlestate_red" start="80" end="80"/>
-					<animation name="battlestate_red_to_green" start="80" end="240"/>
+					<animation name="battlestate_green" start="0" end="0"/>
+					<animation name="battlestate_green_to_red" start="0" end="60"/>
+					<animation name="battlestate_red" start="60" end="60"/>
+					<animation name="battlestate_red_to_green" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="6.57326" y="2.416885" z="-1.900789" />
@@ -1518,12 +1508,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForweapon_door_02_geo_left001" tags="part animation">
+      <connection name="ConnectionForweapon_door_02_geo_left001" tags="part animation nocollision">
         <animations>
-					<animation name="battlestate_green" start="1" end="1"/>
-					<animation name="battlestate_green_to_red" start="1" end="80"/>
-					<animation name="battlestate_red" start="80" end="80"/>
-					<animation name="battlestate_red_to_green" start="80" end="240"/>
+					<animation name="battlestate_green" start="0" end="0"/>
+					<animation name="battlestate_green_to_red" start="0" end="60"/>
+					<animation name="battlestate_red" start="60" end="60"/>
+					<animation name="battlestate_red_to_green" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="-5.251645" y="2.427605" z="0.3136736" />
@@ -1552,12 +1542,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForweapon_door_02_geo_right001" tags="part animation">
+      <connection name="ConnectionForweapon_door_02_geo_right001" tags="part animation nocollision">
         <animations>
-					<animation name="battlestate_green" start="1" end="1"/>
-					<animation name="battlestate_green_to_red" start="1" end="80"/>
-					<animation name="battlestate_red" start="80" end="80"/>
-					<animation name="battlestate_red_to_green" start="80" end="240"/>
+					<animation name="battlestate_green" start="0" end="0"/>
+					<animation name="battlestate_green_to_red" start="0" end="60"/>
+					<animation name="battlestate_red" start="60" end="60"/>
+					<animation name="battlestate_red_to_green" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="5.476114" y="2.71155" z="-1.233188" />

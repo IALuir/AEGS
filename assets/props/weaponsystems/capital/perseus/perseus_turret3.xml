@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-05-10 14:55:11 from Blender-->
+<components>
+  <component name="perseus_turret3" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\perseus\perseus_turret3_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForyaw" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="yaw">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_pom" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Core_Plating" />
+                  <material id="4" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="5" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="6" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.792047" y="0.4615912" z="0.7897885" />
+              <center x="0.002567992" y="0.3421572" z="2.148747e-05" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpitch" tags="part " parent="yaw">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-15.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="0.002568" y="0.7008021" z="0.05698395" />
+        </offset>
+        <parts>
+          <part name="pitch">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_turret_1_mtl_pom" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="3" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="4" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="5" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6618054" y="0.4857761" z="1.152856" />
+              <center x="-1.053512e-05" y="0.1270458" z="0.5626565" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="pitch">
+        <offset>
+          <position x="-0.002568" y="-0.009295881" z="1.717605" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_pdc_s1">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

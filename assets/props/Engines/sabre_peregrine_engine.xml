@@ -17,7 +17,7 @@
     <connections>
       <connection name="container" tags="contents" value="0"/>
 			<connection name="position" tags="position" value="1"/>
-      <connection name="ConnectionForengine" tags="part ">
+      <connection name="ConnectionForengine" tags="part nocollision">
         <parts>
           <part name="engine">
             <lods>

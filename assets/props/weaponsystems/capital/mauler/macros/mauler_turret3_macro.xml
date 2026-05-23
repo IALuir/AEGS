@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="mauler_turret3_macro" class="turret">
+    <component ref="mauler_turret3" />
+    <properties>
+      <identification name="{996667,91014}" basename="{996667,91014}" shortname="{996667,91014}" makerrace="xenon" description="{996667,91015}" mk="1" />
+      <bullet class="S9_omnisk_2x_macro" />
+      <rotationspeed max="25" />
+      <rotationacceleration max="20" />
+      <reload rate="1" time="1" />
+      <hull max="12000" threshold="0.2" paint="1" />
+    </properties>
+  </macro>
+</macros>

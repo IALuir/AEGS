@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdscript name="aegs_test_all_blueprints" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+    <cues>
+        <cue name="grant_all_blueprints_for_test">
+            <conditions>
+                <check_any>
+                    <event_game_started />
+                    <event_game_loaded />
+                </check_any>
+            </conditions>
+            <delay exact="10s" />
+            <actions>
+                <add_blueprints />
+                <show_notification text="'AEGS TEST: all blueprints granted.'" />
+            </actions>
+        </cue>
+    </cues>
+</mdscript>

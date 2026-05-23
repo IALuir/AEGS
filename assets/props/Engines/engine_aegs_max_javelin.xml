@@ -343,7 +343,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_fx" tags="part ">
+      <connection name="ConnectionForpart_fx" tags="part nocollision">
         <parts>
           <part name="part_fx">
             <lods>
@@ -360,7 +360,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_fx001" tags="part ">
+      <connection name="ConnectionForpart_fx001" tags="part nocollision">
         <parts>
           <part name="part_fx001">
             <lods>
@@ -377,7 +377,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_fx002" tags="part ">
+      <connection name="ConnectionForpart_fx002" tags="part nocollision">
         <parts>
           <part name="part_fx002">
             <lods>
@@ -394,7 +394,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_fx003" tags="part ">
+      <connection name="ConnectionForpart_fx003" tags="part nocollision">
         <parts>
           <part name="part_fx003">
             <lods>
@@ -411,7 +411,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_fx004" tags="part ">
+      <connection name="ConnectionForpart_fx004" tags="part nocollision">
         <parts>
           <part name="part_fx004">
             <lods>
@@ -428,7 +428,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_fx005" tags="part ">
+      <connection name="ConnectionForpart_fx005" tags="part nocollision">
         <parts>
           <part name="part_fx005">
             <lods>
@@ -445,7 +445,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_fx006" tags="part ">
+      <connection name="ConnectionForpart_fx006" tags="part nocollision">
         <parts>
           <part name="part_fx006">
             <lods>
@@ -462,7 +462,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_fx007" tags="part ">
+      <connection name="ConnectionForpart_fx007" tags="part nocollision">
         <parts>
           <part name="part_fx007">
             <lods>
@@ -479,7 +479,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_fx008" tags="part ">
+      <connection name="ConnectionForpart_fx008" tags="part nocollision">
         <parts>
           <part name="part_fx008">
             <lods>
@@ -496,7 +496,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_fx009" tags="part ">
+      <connection name="ConnectionForpart_fx009" tags="part nocollision">
         <parts>
           <part name="part_fx009">
             <lods>
@@ -514,7 +514,7 @@
         </parts>
       </connection>
       
-      <connection name="ConnectionForrear_engine_fx" tags="part ">
+      <connection name="ConnectionForrear_engine_fx" tags="part nocollision">
         <parts>
           <part name="rear_engine_fx">
             <lods>
@@ -531,7 +531,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForrear_engine_fx001" tags="part ">
+      <connection name="ConnectionForrear_engine_fx001" tags="part nocollision">
         <parts>
           <part name="rear_engine_fx001">
             <lods>
@@ -548,7 +548,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForrear_engine_fx002" tags="part ">
+      <connection name="ConnectionForrear_engine_fx002" tags="part nocollision">
         <parts>
           <part name="rear_engine_fx002">
             <lods>
@@ -565,7 +565,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForrear_engine_fx003" tags="part ">
+      <connection name="ConnectionForrear_engine_fx003" tags="part nocollision">
         <parts>
           <part name="rear_engine_fx003">
             <lods>

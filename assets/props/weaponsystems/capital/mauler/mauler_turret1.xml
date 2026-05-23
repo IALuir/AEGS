@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-05-13 22:25:43 from Blender-->
+<components>
+  <component name="mauler_turret1" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\mauler\mauler_turret1_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="turret" />
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForbase" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y">
+            <limits>
+							<min value="-30.0 "/>
+							<max value="30 "/>
+						</limits>
+					</restriction>
+          <restriction type="rotation_x">
+						<limits>
+							<min value="-30.0 "/>
+							<max value="30 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="base" wreck="base_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_plasmacannon_mtl_main" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vncl_plasmacannon_mtl_main" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vncl_plasmacannon_mtl_main" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vncl_plasmacannon_mtl_main" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.980703" y="2.888424" z="12.58709" />
+              <center x="-8.642673e-06" y="-0.01018548" z="7.962302" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser" parent="base">
+        <offset>
+          <position x="0" y="0" z="19.99999" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_m" tags="turret medium component combat aegs_mauler_s7">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

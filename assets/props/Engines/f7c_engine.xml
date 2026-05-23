@@ -17,7 +17,7 @@
     <connections>
       <connection name="container" tags="contents" value="0"/>
 			<connection name="position" tags="position" value="1"/>
-      <connection name="ConnectionForanvl_hornet_f7c_thruster_main_skin" tags="part ">
+      <connection name="ConnectionForanvl_hornet_f7c_thruster_main_skin" tags="part nocollision">
         <parts>
           <part name="anvl_hornet_f7c_thruster_main_skin">
             <lods>
@@ -88,7 +88,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_fx" tags="part ">
+      <connection name="ConnectionForpart_fx" tags="part nocollision">
         <offset>
           <position x="0" y="0" z="-0.019177" />
         </offset>

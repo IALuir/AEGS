@@ -1888,7 +1888,7 @@
     <connections>
       <connection name="space" tags="ship_m ship" />
       <connection name="position" tags="position" value="1" />
-      <connection name="ConnectionForanvl_carrack_landing_gear_front_skin" tags="part animation">
+      <connection name="ConnectionForanvl_carrack_landing_gear_front_skin" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="60"/>
@@ -2558,7 +2558,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFormeshanvlcarrackantennal004" group="scan" tags="part animation">
+      <connection name="ConnectionFormeshanvlcarrackantennal004" group="scan" tags="part animation nocollision">
         <animations>
           <animation name="deactivated" start="1" end="1" />
           <animation name="activating" start="1" end="60" />
@@ -2598,7 +2598,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFormeshanvlcarrackantennal005" group="scan" tags="part animation">
+      <connection name="ConnectionFormeshanvlcarrackantennal005" group="scan" tags="part animation nocollision">
         <animations>
           <animation name="deactivated" start="1" end="1" />
           <animation name="activating" start="1" end="60" />
@@ -2638,7 +2638,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFormeshanvlcarrackantennas004" group="scan" tags="part animation">
+      <connection name="ConnectionFormeshanvlcarrackantennas004" group="scan" tags="part animation nocollision">
         <animations>
           <animation name="deactivated" start="1" end="1" />
           <animation name="activating" start="1" end="60" />
@@ -2678,7 +2678,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFormeshanvlcarrackantennas005" group="scan" tags="part animation">
+      <connection name="ConnectionFormeshanvlcarrackantennas005" group="scan" tags="part animation nocollision">
         <animations>
           <animation name="deactivated" start="1" end="1" />
           <animation name="activating" start="1" end="60" />
@@ -3010,7 +3010,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForfx_logo" tags="part ">
+      <connection name="ConnectionForfx_logo" tags="part nocollision">
         <offset>
           <position x="-2.9e-05" y="-2.547331" z="-5.550063" />
         </offset>
@@ -3489,12 +3489,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFormeshanimhangardoorrear001" group="top_door" tags="part animation">
+      <connection name="ConnectionFormeshanimhangardoorrear001" group="top_door" tags="part animation anim_dockdoor">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="60" />
-          <animation name="active" start="60" end="60" />
-          <animation name="deactivating" start="60" end="120" />
+          <animation name="dockingbay_closed" start="1" end="1" />
+          <animation name="dockingbay_opening" start="1" end="60" />
+          <animation name="dockingbay_open" start="60" end="60" />
+          <animation name="dockingbay_closing" start="60" end="120" />
         </animations>
         <offset>
           <position x="-0.009862" y="3.625078" z="-17.05659" />
@@ -4020,12 +4020,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFormeshdoorfront001" group="top_door" tags="animation part">
+      <connection name="ConnectionFormeshdoorfront001" group="top_door" tags="animation part anim_dockdoor">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="60" />
-          <animation name="active" start="60" end="60" />
-          <animation name="deactivating" start="60" end="120" />
+          <animation name="dockingbay_closed" start="1" end="1" />
+          <animation name="dockingbay_opening" start="1" end="60" />
+          <animation name="dockingbay_open" start="60" end="60" />
+          <animation name="dockingbay_closing" start="60" end="120" />
         </animations>
         <offset>
           <position x="-0.009865" y="3.625078" z="2.961401" />
@@ -4128,7 +4128,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForobject20535001" tags="part ">
+      <connection name="ConnectionForobject20535001" tags="part nocollision">
         <offset>
           <position x="-3.075251e-05" y="-0.7430224" z="3.464351" />
         </offset>
@@ -4148,7 +4148,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForwingsl001" tags="animation part ">
+      <connection name="ConnectionForwingsl001" tags="animation part nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="60"/>
@@ -4194,7 +4194,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForanvl_carrack_landing_gear_rear_skin2" tags="animation part" parent="wingsl001">
+      <connection name="ConnectionForanvl_carrack_landing_gear_rear_skin2" tags="animation part nocollision" parent="wingsl001">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="60"/>
@@ -4234,7 +4234,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFormeshwingsensortopl001" tags="animation part " parent="wingsl001">
+      <connection name="ConnectionFormeshwingsensortopl001" tags="animation part nocollision" parent="wingsl001">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="60"/>
@@ -4272,7 +4272,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFormeshwingsensormidl001" tags="animation part " parent="meshwingsensortopl001">
+      <connection name="ConnectionFormeshwingsensormidl001" tags="animation part nocollision" parent="meshwingsensortopl001">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="60"/>
@@ -4310,7 +4310,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForwingsr001" tags="animation part ">
+      <connection name="ConnectionForwingsr001" tags="animation part nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="60"/>
@@ -4356,7 +4356,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForanvl_carrack_landing_gear_rear_skin" tags="animation part" parent="wingsr001">
+      <connection name="ConnectionForanvl_carrack_landing_gear_rear_skin" tags="animation part nocollision" parent="wingsr001">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="60"/>
@@ -4396,7 +4396,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFormeshwingsensortopr001" tags="animation part " parent="wingsr001">
+      <connection name="ConnectionFormeshwingsensortopr001" tags="animation part nocollision" parent="wingsr001">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="60"/>
@@ -4434,7 +4434,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFormeshwingsensormidr001" tags="animation part " parent="meshwingsensortopr001">
+      <connection name="ConnectionFormeshwingsensormidr001" tags="animation part nocollision" parent="meshwingsensortopr001">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="60"/>

@@ -17,7 +17,7 @@
     <connections>
       <connection name="container" tags="contents" value="0"/>
 			<connection name="position" tags="position" value="1"/>
-      <connection name="ConnectionForengine" tags="part ">
+      <connection name="ConnectionForengine" tags="part nocollision">
         <offset>
           <position x="-2.23754e-07" y="0" z="0" />
         </offset>

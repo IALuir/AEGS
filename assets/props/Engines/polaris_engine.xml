@@ -9,23 +9,6 @@
     <connections>
       <connection name="container" tags="contents" value="0"/>
 			<connection name="position" tags="position" value="1"/>
-      <connection name="ConnectionForengine" tags="part ">
-        <parts>
-          <part name="engine">
-            <lods>
-              <lod index="0">
-                <materials>
-                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Glow_Thrusters" />
-                </materials>
-              </lod>
-            </lods>
-            <size>
-              <max x="38.02703" y="16.46842" z="13.20223" />
-              <center x="0.001654625" y="-0.2762985" z="7.207035" />
-            </size>
-          </part>
-        </parts>
-      </connection>
       <connection name="ConnectionForfx_animal" tags="animation detail_l fx nocollision part speedscale_forward textureanimation useobjectrotation ">
         <animations>
 					<animation name="loop" start="1" end="120"/>
@@ -40,8 +23,8 @@
               </lod>
             </lods>
             <size>
-              <max x="34.39229" y="14.60698" z="29.39" />
-              <center x="0" y="4.768372e-07" z="-28.04919" />
+              <max x="2.230959" y="1.744691" z="16.56511" />
+              <center x="-0.01267105" y="1.738247" z="-16.90844" />
             </size>
             <uv_animations>
               <uv_animation rotaroundcenter="1" mapchannel="1">
@@ -65,6 +48,28 @@
                 </uv_property>
               </uv_animation>
             </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part nocollision">
+        <parts>
+          <part name="part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Glow_Thrusters" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.945219" y="3.636424" z="13.92569" />
+              <center x="5.424023e-06" y="3.339591" z="7.255566" />
+            </size>
           </part>
         </parts>
       </connection>

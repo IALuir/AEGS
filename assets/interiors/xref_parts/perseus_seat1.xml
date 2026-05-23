@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-05-08 19:45:15 from Blender-->
+<components>
+  <component name="perseus_seat1" referenceable="1" class="positional">
+    <source geometry="extensions\AEGS\assets\interiors\xref_parts\perseus_seat1_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="positional">
+				<offset/>
+			</connection>
+      <connection name="ConnectionForseat1" tags="part ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation ">
+        <parts>
+          <part name="seat1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Paint_Secondary" />
+                  <material id="2" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Paint_Secondary" />
+                  <material id="3" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Primary_Metal" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="5" ref="generic.rsi_int_master_01_mtl_Tile_Rubber_Plain" />
+                  <material id="6" ref="generic.rsi_int_master_01_mtl_Decal_Diffuse_a" />
+                  <material id="7" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="8" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Paint_Secondary" />
+                  <material id="9" ref="generic.crus_spirit_int_mtl_Decal_POM_Leather_Stitch" />
+                  <material id="10" ref="generic.rsi_int_master_01_mtl_Decal_Glow_Unlinked" />
+                  <material id="11" ref="generic.rsi_int_master_01_mtl_Panel_Sec_MF_Secondary" />
+                  <material id="12" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Paint_Secondary" />
+                  <material id="13" ref="generic.rsi_int_master_01_mtl_Trim_Metal_HF" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.370327" y="0.7754508" z="0.6117895" />
+              <center x="1.005828e-06" y="0.7149152" z="-0.008068502" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForseat1_mesh" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="seat1">
+        <parts>
+          <part name="seat1_mesh">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Paint_Secondary" />
+                  <material id="2" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Paint_Secondary" />
+                  <material id="3" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Primary_Metal" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="5" ref="generic.rsi_int_master_01_mtl_Tile_Rubber_Plain" />
+                  <material id="6" ref="generic.rsi_int_master_01_mtl_Decal_Diffuse_a" />
+                  <material id="7" ref="generic.aegs_idris_mtl_leather" />
+                  <material id="8" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Paint_Secondary" />
+                  <material id="9" ref="generic.crus_spirit_int_mtl_Decal_POM_Leather_Stitch" />
+                  <material id="10" ref="generic.rsi_int_master_01_mtl_Decal_Glow_Unlinked" />
+                  <material id="11" ref="generic.rsi_int_master_01_mtl_Panel_Sec_MF_Secondary" />
+                  <material id="12" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Paint_Secondary" />
+                  <material id="13" ref="generic.rsi_int_master_01_mtl_Trim_Metal_HF" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.370327" y="0.7754508" z="0.6117895" />
+              <center x="1.005828e-06" y="0.7149152" z="-0.008068502" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

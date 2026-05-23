@@ -11,7 +11,7 @@
 		<connections>
       <connection name="container" tags="contents" value="0"/>
 			<connection name="position" tags="position" value="1"/>
-      <connection name="ConnectionFordetail_s" tags="part ">
+      <connection name="ConnectionFordetail_s" tags="part nocollision">
         <parts>
           <part name="detail_s">
             <lods>
@@ -30,7 +30,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForfront_engine" tags="part ">
+      <connection name="ConnectionForfront_engine" tags="part nocollision">
         <parts>
           <part name="front_engine">
             <lods>
@@ -49,7 +49,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFormain_engine" tags="part ">
+      <connection name="ConnectionFormain_engine" tags="part nocollision">
         <parts>
           <part name="main_engine" wreck="main_engine-wreck">
             <lods>
@@ -105,7 +105,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForrear_engine" tags="part ">
+      <connection name="ConnectionForrear_engine" tags="part nocollision">
         <parts>
           <part name="rear_engine">
             <lods>
@@ -130,7 +130,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForrear_engine_fx" tags="part ">
+      <connection name="ConnectionForrear_engine_fx" tags="part nocollision">
         <parts>
           <part name="rear_engine_fx">
             <lods>

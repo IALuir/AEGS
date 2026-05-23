@@ -9,7 +9,7 @@
     <connections>
       <connection name="space" tags="weapon" />
       <connection name="position" tags="position" value="1" />
-      <connection name="ConnectionFormain" tags="part ">
+      <connection name="ConnectionFormain" tags="part nocollision">
         <restrictions>
 					<restriction type="rotation_y">
 						<limits>
@@ -34,7 +34,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFornbd_body" tags="part " parent="main">
+      <connection name="ConnectionFornbd_body" tags="part nocollision" parent="main">
         <restrictions>
 					<restriction type="rotation_x">
 						<limits>
@@ -122,7 +122,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFornbd_core_inner" tags="part animation" parent="nbd_body">
+      <connection name="ConnectionFornbd_core_inner" tags="part animation nocollision" parent="nbd_body">
         <animations>
 					<animation name="loop" start="0" end="80"/>
 				</animations>

@@ -9,7 +9,7 @@
     <connections>
       <connection name="container" tags="contents" value="0"/>
 			<connection name="position" tags="position" value="1"/>
-      <connection name="ConnectionFormissile" tags="part">
+      <connection name="ConnectionFormissile" tags="part nocollision">
         <offset>
           <quaternion qx="4.190959e-09" qy="0" qz="-1.862642e-09" qw="-1" />
         </offset>

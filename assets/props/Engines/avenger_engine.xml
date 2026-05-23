@@ -17,7 +17,7 @@
     <connections>
       <connection name="container" tags="contents" value="0"/>
 			<connection name="position" tags="position" value="1"/>
-      <connection name="ConnectionForavenger_thruster_main" tags="part ">
+      <connection name="ConnectionForavenger_thruster_main" tags="part nocollision">
         <parts>
           <part name="avenger_thruster_main">
             <lods>

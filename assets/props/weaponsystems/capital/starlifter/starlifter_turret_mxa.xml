@@ -24,30 +24,6 @@
                   <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
                 </materials>
               </lod>
-              <lod index="1">
-                <materials>
-                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
-                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
-                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
-                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
-                </materials>
-              </lod>
-              <lod index="2">
-                <materials>
-                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
-                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
-                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
-                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
-                </materials>
-              </lod>
-              <lod index="3">
-                <materials>
-                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
-                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
-                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
-                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
-                </materials>
-              </lod>
             </lods>
             <size>
               <max x="0.5037995" y="0.4233834" z="0.5146649" />
@@ -79,40 +55,7 @@
                   <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
                   <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
                   <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
-                  <material id="7" ref="generic.starlifter_exterior_mtl_Raw_Metal" />
-                </materials>
-              </lod>
-              <lod index="1">
-                <materials>
-                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
-                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
-                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
-                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
-                  <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
-                  <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
-                  <material id="7" ref="generic.starlifter_exterior_mtl_Raw_Metal" />
-                </materials>
-              </lod>
-              <lod index="2">
-                <materials>
-                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
-                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
-                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
-                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
-                  <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
-                  <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
-                  <material id="7" ref="generic.starlifter_exterior_mtl_Raw_Metal" />
-                </materials>
-              </lod>
-              <lod index="3">
-                <materials>
-                  <material id="1" ref="generic.starlifter_exterior_mtl_POM_Blended" />
-                  <material id="2" ref="generic.aegs_redeemer_mtl_decal_leaks" />
-                  <material id="3" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
-                  <material id="4" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
-                  <material id="5" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
-                  <material id="6" ref="generic.crus_starfighter_mtl_ext_tertiary_panel_b" />
-                  <material id="7" ref="generic.starlifter_exterior_mtl_Raw_Metal" />
+                  <material id="7" ref="generic.crus_starfighter_mtl_int_titanium_panel" />
                 </materials>
               </lod>
             </lods>

@@ -9,7 +9,7 @@
     <connections>
       <connection name="container" tags="contents" value="0"/>
       <connection name="position" tags="position" value="1" />
-      <connection name="ConnectionFormain" tags="part forceoutline">
+      <connection name="ConnectionFormain" tags="part forceoutline nocollision">
         <restrictions>
 					<restriction type="rotation_y">
 						<limits>
@@ -34,7 +34,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForbase_mesh" tags="part forceoutline" parent="main">
+      <connection name="ConnectionForbase_mesh" tags="part forceoutline nocollision" parent="main">
         <restrictions>
 					<restriction type="rotation_x">
 						<limits>
@@ -117,7 +117,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForhindge_bottom_mesh" tags="part animation" parent="base_mesh">
+      <connection name="ConnectionForhindge_bottom_mesh" tags="part animation nocollision" parent="base_mesh">
         <animations>
 					<animation name="weapon_firing" start="0" end="40"/>
 				</animations>
@@ -145,7 +145,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlid_bottom_mesh" tags="part animation" parent="hindge_bottom_mesh">
+      <connection name="ConnectionForlid_bottom_mesh" tags="part animation nocollision" parent="hindge_bottom_mesh">
         <animations>
 					<animation name="weapon_firing" start="0" end="40"/>
 				</animations>
@@ -175,7 +175,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForhindge_top_mesh" tags="part animation" parent="base_mesh">
+      <connection name="ConnectionForhindge_top_mesh" tags="part animation nocollision" parent="base_mesh">
         <animations>
 					<animation name="weapon_firing" start="0" end="40"/>
 				</animations>
@@ -203,7 +203,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlid_top_mesh" tags="part animation" parent="hindge_top_mesh">
+      <connection name="ConnectionForlid_top_mesh" tags="part animation nocollision" parent="hindge_top_mesh">
         <animations>
 					<animation name="weapon_firing" start="0" end="40"/>
 				</animations>

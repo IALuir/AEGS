@@ -8,7 +8,9 @@
       <build />
       <hull integrated="1" />
       <secrecy level="3" />
-      <supply classes="ship_m ship_s" />
+      <builder classes="ship_s dock_aegs_p52 dock_aegs_c8" optimalprocessorunits="0" usemasstraffic="0" />
+      <equip classes="ship_s" />
+      <supply classes="ship_m ship_s dock_aegs_p52 dock_aegs_c8" />
       
     </properties>
     <connections>

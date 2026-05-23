@@ -9,7 +9,7 @@
     <connections>
       <connection name="container" tags="contents" value="0"/>
       <connection name="position" tags="position" value="1" />
-      <connection name="ConnectionFormain" tags="part platformcollision forceoutline">
+      <connection name="ConnectionFormain" tags="part platformcollision forceoutline nocollision">
         <restrictions>
 					<restriction type="rotation_y">
 						<limits>
@@ -34,7 +34,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForgun" tags="part platformcollision forceoutline " parent="main">
+      <connection name="ConnectionForgun" tags="part platformcollision forceoutline nocollision" parent="main">
         <restrictions>
 					<restriction type="rotation_x">
 						<limits>

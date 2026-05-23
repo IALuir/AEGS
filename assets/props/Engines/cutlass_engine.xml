@@ -17,7 +17,7 @@
     <connections>
       <connection name="container" tags="contents" value="0"/>
 			<connection name="position" tags="position" value="1"/>
-      <connection name="ConnectionForcutlass_thruster_main_nozzle" tags="part ">
+      <connection name="ConnectionForcutlass_thruster_main_nozzle" tags="part nocollision">
         <offset>
           <position x="-1.270273e-07" y="0" z="-0.4956702" />
         </offset>

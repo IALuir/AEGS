@@ -9,7 +9,7 @@
     <connections>
       <connection name="container" tags="contents" value="0"/>
 			<connection name="position" tags="position" value="1"/>
-      <connection name="ConnectionForengine" tags="part ">
+      <connection name="ConnectionForengine" tags="part nocollision">
         <offset>
           <position x="0" y="2.002817" z="0" />
         </offset>
@@ -67,7 +67,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_fx" tags="part ">
+      <connection name="ConnectionForpart_fx" tags="part nocollision">
         <offset>
           <position x="0" y="2.002817" z="0" />
         </offset>

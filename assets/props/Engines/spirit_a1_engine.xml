@@ -17,7 +17,7 @@
     <connections>
       <connection name="container" tags="contents" value="0"/>
 			<connection name="position" tags="position" value="1"/>
-      <connection name="ConnectionFormain_geo" tags="part ">
+      <connection name="ConnectionFormain_geo" tags="part nocollision">
         <parts>
           <part name="main_geo">
             <lods>

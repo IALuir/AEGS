@@ -45,7 +45,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForfx" tags="part ">
+      <connection name="ConnectionForfx" tags="part nocollision">
         <parts>
           <part name="fx">
             <lods>

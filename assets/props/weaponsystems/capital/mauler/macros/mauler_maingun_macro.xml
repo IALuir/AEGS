@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="mauler_maingun_macro" class="weapon">
+    <component ref="mauler_maingun" />
+    <properties>
+      <identification name="{996667,91018}" basename="{996667,91018}" shortname="{996667,91018}" makerrace="xenon" description="{996667,91019}" mk="1" />
+      <bullet class="bullet_mauler_maingun_macro" />
+      <heat overheat="10000" cooldelay="2" coolrate="2500" reenable="0" />
+      <hull hittable="0" integrated="1" />
+      <effects>
+        <firing start="charge_aegs_xl_maingun" stop="stop_aegs_xl_maingun" />
+      </effects>
+      <sounds>
+        <firing ref="startshooting_aegs_xl_maingun" />
+      </sounds>
+    </properties>
+  </macro>
+</macros>

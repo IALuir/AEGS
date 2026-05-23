@@ -3,8 +3,8 @@
 
  <icon name="upgrade_*" texture="extensions\aegs\assets\fx\gui\textures\upgrades\*.dds" height="256" width="256"></icon>
  <icon name="ship_*" texture="extensions\aegs\assets\fx\gui\textures\ships\*.tga" height="256" width="256"></icon>
- <icon name="ship_aegs_dreadnought" texture="assets\fx\gui\textures\shipicon\ship_xl_destroyer_01.tga" height="128" width="128"></icon>
- <icon name="ship_aegs_cruiser" texture="assets\fx\gui\textures\shipicon\ship_l_destroyer_01.tga" height="128" width="128"></icon>
+ <icon name="ship_aegs_dreadnought" texture="extensions\aegs\assets\fx\gui\textures\shipicon\ship_aegs_dreadnought.tga" height="128" width="128"></icon>
+ <icon name="ship_aegs_cruiser" texture="extensions\aegs\assets\fx\gui\textures\shipicon\ship_aegs_cruiser.tga" height="128" width="128"></icon>
 <!-- 子系统 -->
  <icon name="small_hanger" texture="extensions\aegs\assets\fx\gui\textures\subsystem\small_hanger.tga" height="128" width="384"></icon>
  <icon name="medium_hanger" texture="extensions\aegs\assets\fx\gui\textures\subsystem\medium_hanger.tga" height="128" width="384"></icon>

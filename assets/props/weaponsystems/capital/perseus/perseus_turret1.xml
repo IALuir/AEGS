@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-05-10 14:55:38 from Blender-->
+<components>
+  <component name="perseus_turret1" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\perseus\perseus_turret1_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForturret_1" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="turret_1">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="2" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="3" ref="generic.rsi_perseus_a_mtl_Damage_Internal_Structure" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="5" ref="p1.cockpit_glass_inside_01" />
+                  <material id="6" ref="p1.cockpit_glass_inside_01" />
+                  <material id="7" ref="generic.rsi_perseus_a_mtl_Decal_POM_A" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="9" ref="generic.rsi_perseus_a_mtl_Decal_Glow_Unlinked" />
+                  <material id="10" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="11" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="12" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="13" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="14" ref="generic.rsi_perseus_a_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="15" ref="generic.rsi_perseus_a_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="16" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="17" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="18" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="19" ref="generic.rsi_polaris_ext_mtl_Decal_Text" />
+                  <material id="20" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="4.158463" y="2.457342" z="6.087596" />
+              <center x="0.000839591" y="1.716299" z="-0.2721906" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpitch" tags="part " parent="turret_1">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-5 "/>
+							<max value="45"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-3.011639" y="2.144275" z="0.9118958" />
+        </offset>
+        <parts>
+          <part name="pitch">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_perseus_a_mtl_Decal_POM_A" />
+                  <material id="2" ref="generic.rsi_perseus_a_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="3" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="4" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="6" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="7" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="8" ref="generic.rsi_int_master_01_mtl_Panel_MF_Secondary_Metal" />
+                  <material id="9" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Primary_Metal" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.812597" y="0.7965516" z="6.553432" />
+              <center x="2.98836" y="-0.2310831" z="6.553514" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForyaw" tags="part animation" parent="pitch">
+        <animations>
+					<animation name="gun_firing" start="0" end="30"/>
+				</animations>
+        <offset>
+          <position x="5.972776" y="-2.026558e-05" z="7.60241" />
+          <quaternion qx="0" qy="0" qz="-3.178651e-08" qw="-1" />
+        </offset>
+        <parts>
+          <part name="yaw">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_int_master_01_mtl_Panel_MF_Secondary_Metal" />
+                  <material id="2" ref="generic.rsi_perseus_a_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="3" ref="generic.rsi_perseus_a_mtl_Decal_POM_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.185518" y="0.1980329" z="6.102925" />
+              <center x="-2.98677" y="-0.0004513264" z="0.1012926" />
+            </size>
+            <size_raw>
+              <max x="3.185518" y="0.198033" z="5.427292" />
+              <center x="-2.98677" y="-0.0004513115" z="0.748683" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="yaw">
+        <offset>
+          <position x="0.001043558" y="0.0005882288" z="5.86879" />
+          <quaternion qx="0" qy="0" qz="3.178651e-08" qw="-1" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="yaw">
+        <offset>
+          <position x="-5.923317" y="0.0005886054" z="5.86879" />
+          <quaternion qx="0" qy="0" qz="3.178651e-08" qw="-1" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_m" tags="turret medium component combat aegs_perseus_s8">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

@@ -10,7 +10,7 @@
       <connection name="space" tags="weapon" />
       <connection name="container" tags="contents" value="0"/>
       <connection name="position" tags="position" value="1" />
-      <connection name="ConnectionFormain" tags="part ">
+      <connection name="ConnectionFormain" tags="part nocollision">
         <restrictions>
 					<restriction type="rotation_y">
 						<limits>
@@ -35,7 +35,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForgun" tags="part " parent="main">
+      <connection name="ConnectionForgun" tags="part nocollision" parent="main">
         <restrictions>
 					<restriction type="rotation_x">
 						<limits>

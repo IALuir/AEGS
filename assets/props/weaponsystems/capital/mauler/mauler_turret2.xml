@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-05-13 22:30:42 from Blender-->
+<components>
+  <component name="mauler_turret2" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\mauler\mauler_turret2_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="turret" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForanimturts5gunmount" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y">
+            <limits>
+							<min value="-30.0 "/>
+							<max value="30 "/>
+						</limits>
+					</restriction>
+          <restriction type="rotation_x">
+						<limits>
+							<min value="-30.0 "/>
+							<max value="30 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <parts>
+          <part name="animturts5gunmount" wreck="animturts5gunmount_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.vncl_hunter_mtl_greeble_pipes_b" />
+                  <material id="2" ref="generic.vncl_hunter_mtl_hades_trim" />
+                  <material id="3" ref="generic.vncl_hunter_mtl_Int_lattice_a" />
+                  <material id="4" ref="generic.vncl_hunter_mtl_Int_lattice_a_dmg" />
+                  <material id="5" ref="generic.vncl_hunter_mtl_int_structure_b" />
+                  <material id="6" ref="generic.vncl_hunter_mtl_hades_plate_b" />
+                  <material id="7" ref="generic.vncl_hunter_mtl_glows" />
+                  <material id="8" ref="generic.vncl_blade_mtl_int_wall_a" />
+                  <material id="9" ref="generic.vncl_hunter_mtl_int_structure_edge" />
+                  <material id="10" ref="generic.vncl_mastermaterial_ii_mtl_SubMtl2" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.vncl_hunter_mtl_greeble_pipes_b" />
+                  <material id="2" ref="generic.vncl_hunter_mtl_hades_trim" />
+                  <material id="3" ref="generic.vncl_hunter_mtl_Int_lattice_a" />
+                  <material id="4" ref="generic.vncl_hunter_mtl_Int_lattice_a_dmg" />
+                  <material id="5" ref="generic.vncl_hunter_mtl_int_structure_b" />
+                  <material id="6" ref="generic.vncl_hunter_mtl_hades_plate_b" />
+                  <material id="7" ref="generic.vncl_hunter_mtl_glows" />
+                  <material id="8" ref="generic.vncl_blade_mtl_int_wall_a" />
+                  <material id="9" ref="generic.vncl_hunter_mtl_int_structure_edge" />
+                  <material id="10" ref="generic.vncl_mastermaterial_ii_mtl_SubMtl2" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.vncl_hunter_mtl_greeble_pipes_b" />
+                  <material id="2" ref="generic.vncl_hunter_mtl_hades_trim" />
+                  <material id="3" ref="generic.vncl_hunter_mtl_Int_lattice_a" />
+                  <material id="4" ref="generic.vncl_hunter_mtl_Int_lattice_a_dmg" />
+                  <material id="5" ref="generic.vncl_hunter_mtl_int_structure_b" />
+                  <material id="6" ref="generic.vncl_hunter_mtl_hades_plate_b" />
+                  <material id="7" ref="generic.vncl_hunter_mtl_glows" />
+                  <material id="8" ref="generic.vncl_blade_mtl_int_wall_a" />
+                  <material id="9" ref="generic.vncl_hunter_mtl_int_structure_edge" />
+                  <material id="10" ref="generic.vncl_mastermaterial_ii_mtl_SubMtl2" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.vncl_hunter_mtl_greeble_pipes_b" />
+                  <material id="2" ref="generic.vncl_hunter_mtl_hades_trim" />
+                  <material id="3" ref="generic.vncl_hunter_mtl_Int_lattice_a" />
+                  <material id="4" ref="generic.vncl_hunter_mtl_Int_lattice_a_dmg" />
+                  <material id="5" ref="generic.vncl_hunter_mtl_int_structure_b" />
+                  <material id="6" ref="generic.vncl_hunter_mtl_hades_plate_b" />
+                  <material id="7" ref="generic.vncl_hunter_mtl_glows" />
+                  <material id="8" ref="generic.vncl_blade_mtl_int_wall_a" />
+                  <material id="9" ref="generic.vncl_hunter_mtl_int_structure_edge" />
+                  <material id="10" ref="generic.vncl_mastermaterial_ii_mtl_SubMtl2" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.938665" y="2.861187" z="6.634984" />
+              <center x="-2.843142e-05" y="3.33786e-06" z="5.32752" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="animturts5gunmount">
+        <offset>
+          <position x="0.02396124" y="0.3325143" z="11.91356" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="animturts5gunmount">
+        <offset>
+          <position x="-0.04133129" y="-0.4605513" z="11.59113" />
+        </offset>
+      </connection>
+      <connection name="laser002" tags="laser " parent="animturts5gunmount">
+        <offset>
+          <position x="0.3838665" y="-0.1022385" z="11.76925" />
+        </offset>
+      </connection>
+      <connection name="laser003" tags="laser " parent="animturts5gunmount">
+        <offset>
+          <position x="-0.4076066" y="-0.03216849" z="11.79592" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_m" tags="turret medium component combat aegs_mauler_s5">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

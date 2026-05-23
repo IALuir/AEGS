@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-05-10 15:00:48 from Blender-->
+<components>
+  <component name="perseus_turret2_mxa" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\perseus\perseus_turret2_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForsocket" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="socket">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_perseus_a_mtl_Damage_Internal_Structure" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="3" ref="generic.rsi_perseus_a_mtl_Damage_Internal_Structure" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="5" ref="generic.rsi_perseus_a_mtl_Decal_POM_A" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Trim_Core_Plating" />
+                  <material id="10" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="11" ref="generic.rsi_perseus_a_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="13" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="14" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Primary_Metal" />
+                  <material id="15" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="16" ref="generic.rsi_perseus_a_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="17" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="18" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8142275" y="0.9578422" z="1.219855" />
+              <center x="1.490116e-08" y="0.7526156" z="-0.3978305" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      
+      <connection name="ConnectionForgun" tags="part " parent="socket">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-15 "/>
+							<max value="90"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-0.5503142" y="1.190835" z="-0.5450414" />
+        </offset>
+        <parts>
+          <part name="gun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.behr_lasercannon_s5_mtl_painted_metal_02" />
+                  <material id="2" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="3" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="4" ref="generic.behr_lasercannon_s5_mtl_parkerized_metal_01" />
+                  <material id="5" ref="generic.behr_lasercannon_s5_mtl_copper_01" />
+                  <material id="6" ref="p1.cockpit_glass_outside_01" />
+                  <material id="7" ref="generic.behr_lasercannon_s5_mtl_pom_decals" />
+                  <material id="8" ref="generic.behr_lasercannon_s5_mtl_glows" />
+                  <material id="9" ref="generic.behr_lasercannon_s5_mtl_graphic_decals" />
+                  <material id="10" ref="generic.behr_lasercannon_s5_mtl_bare_metal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.156942" y="0.1624245" z="1.505669" />
+              <center x="0.5503143" y="-0.01212601" z="0.8377719" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="_mxa_laser001" tags="laser " parent="gun">
+        <offset>
+          <position x="1.505891" y="-0.01174939" z="2.31076" />
+        </offset>
+      </connection>
+      <connection name="mxa_laser" tags="laser " parent="gun">
+        <offset>
+          <position x="-0.4052629" y="-0.01174939" z="2.31076" />
+        </offset>
+      </connection>
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_perseus_s2">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

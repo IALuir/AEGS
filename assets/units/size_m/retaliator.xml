@@ -1010,7 +1010,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForfront_left_wing" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForfront_left_wing" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1045,7 +1045,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForfront_right_wing" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForfront_right_wing" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1080,7 +1080,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForfx_logo" tags="part ">
+      <connection name="ConnectionForfx_logo" tags="part nocollision">
         <offset>
           <position x="9.222662" y="2.985263" z="-33.1171" />
           <quaternion qx="0.3664873" qy="-0.9303821" qz="0.00811935" qw="-0.003198356" />
@@ -1158,7 +1158,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggears_center_skin2" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForlandinggears_center_skin2" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1224,7 +1224,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggears_center_skin2002" tags="part animation platformcollision forceoutline anim_dockdoor " parent="landinggears_center_skin2">
+      <connection name="ConnectionForlandinggears_center_skin2002" tags="part animation platformcollision forceoutline anim_dockdoor nocollision" parent="landinggears_center_skin2">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1290,7 +1290,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggears_center_skin2003" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForlandinggears_center_skin2003" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1356,7 +1356,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggears_center_skin2007" tags="part animation platformcollision forceoutline anim_dockdoor " parent="landinggears_center_skin2003">
+      <connection name="ConnectionForlandinggears_center_skin2007" tags="part animation platformcollision forceoutline anim_dockdoor nocollision" parent="landinggears_center_skin2003">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1422,7 +1422,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggears_center_skin2004" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForlandinggears_center_skin2004" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1488,7 +1488,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggears_center_skin2005" tags="part animation platformcollision forceoutline anim_dockdoor " parent="landinggears_center_skin2004">
+      <connection name="ConnectionForlandinggears_center_skin2005" tags="part animation platformcollision forceoutline anim_dockdoor nocollision" parent="landinggears_center_skin2004">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1554,7 +1554,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggears_center_skin_2" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForlandinggears_center_skin_2" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1620,7 +1620,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggears_center_skin2001" tags="part animation platformcollision forceoutline anim_dockdoor " parent="landinggears_center_skin_2">
+      <connection name="ConnectionForlandinggears_center_skin2001" tags="part animation platformcollision forceoutline anim_dockdoor nocollision" parent="landinggears_center_skin_2">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1686,7 +1686,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggears_rear_skin" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForlandinggears_rear_skin" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1751,7 +1751,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggears_rear_skin001" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForlandinggears_rear_skin001" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1816,7 +1816,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggears_rearmid_skin" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForlandinggears_rearmid_skin" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1881,7 +1881,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggears_rearmid_skin001" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForlandinggears_rearmid_skin001" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -2111,7 +2111,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthruster_mav_joint_01" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForthruster_mav_joint_01" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -2148,7 +2148,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthruster_mav_joint_01001" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForthruster_mav_joint_01001" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -2185,7 +2185,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthruster_mav_joint_02" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForthruster_mav_joint_02" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -2219,7 +2219,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthruster_mav_joint_02_nozzle001" tags="part " parent="thruster_mav_joint_02">
+      <connection name="ConnectionForthruster_mav_joint_02_nozzle001" tags="part nocollision" parent="thruster_mav_joint_02">
         <offset>
           <position x="9.950459" y="2.854866" z="8.010262" />
         </offset>
@@ -2251,7 +2251,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthruster_mav_joint_02001" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForthruster_mav_joint_02001" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -2285,7 +2285,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthruster_mav_joint_02_nozzle" tags="part " parent="thruster_mav_joint_02001">
+      <connection name="ConnectionForthruster_mav_joint_02_nozzle" tags="part nocollision" parent="thruster_mav_joint_02001">
         <offset>
           <position x="-0.000295639" y="-1.313789" z="0.01762819" />
         </offset>
@@ -2317,7 +2317,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthruster_mav_joint_02002" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForthruster_mav_joint_02002" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -2351,7 +2351,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthruster_mav_joint_02_nozzle002" tags="part " parent="thruster_mav_joint_02002">
+      <connection name="ConnectionForthruster_mav_joint_02_nozzle002" tags="part nocollision" parent="thruster_mav_joint_02002">
         <offset>
           <position x="-0.0002317429" y="-1.313795" z="0.01762819" />
         </offset>
@@ -2383,7 +2383,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthruster_mav_joint_02003" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForthruster_mav_joint_02003" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -2417,7 +2417,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthruster_mav_joint_02_nozzle003" tags="part " parent="thruster_mav_joint_02003">
+      <connection name="ConnectionForthruster_mav_joint_02_nozzle003" tags="part nocollision" parent="thruster_mav_joint_02003">
         <offset>
           <position x="-0.0002012253" y="-1.313788" z="0.01762819" />
         </offset>
@@ -2839,7 +2839,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForwing_left_rl_geom" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForwing_left_rl_geom" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -2876,7 +2876,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForwing_right_rl_geom" tags="part animation platformcollision forceoutline anim_dockdoor ">
+      <connection name="ConnectionForwing_right_rl_geom" tags="part animation platformcollision forceoutline anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>

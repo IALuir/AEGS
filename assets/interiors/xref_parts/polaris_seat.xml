@@ -12,44 +12,59 @@
 			<connection name="space" tags="positional">
 				<offset/>
 			</connection>
-      <connection name="ConnectionForchiar" tags="part ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation ">
+      <connection name="ConnectionForchairseat" tags="part ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation  ">
+        <offset>
+          <position x="0" y="-0.16" z="0" />
+        </offset>
         <parts>
-          <part name="chiar">
+          <part name="chairseat">
             <lods>
               <lod index="0">
                 <materials>
-                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
-                  <material id="2" ref="generic.misc_prospector_interior_mtl_Interior_Atlas" />
-                  <material id="3" ref="generic.rsi_bengal_int_mtl_ext_panel_a_gray_dark" />
-                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
-                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="1" ref="generic.rsi_int_master_01_mtl_Trim_Metal_HF" />
+                  <material id="2" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Paint_Secondary" />
+                  <material id="3" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Primary_Metal" />
+                  <material id="4" ref="generic.crus_spirit_int_mtl_Decal_POM_Leather_Stitch" />
+                  <material id="5" ref="generic.rsi_int_master_01_mtl_Trim_Padding_Panels_A_Tertiary" />
+                  <material id="6" ref="generic.rsi_int_master_01_mtl_Trim_Padding_Panels_A_Primary" />
+                  <material id="7" ref="generic.rsi_int_master_01_mtl_Trim_Greeble_A" />
+                  <material id="8" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Paint_Secondary" />
+                  <material id="9" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Paint_Secondary" />
+                  <material id="10" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="11" ref="generic.rsi_int_master_01_mtl_Decal_Diffuse_a" />
                 </materials>
               </lod>
             </lods>
             <size>
-              <max x="0.3753082" y="0.6967338" z="0.5439323" />
-              <center x="-2.235174e-08" y="0.6954897" z="-0.1165084" />
+              <max x="0.3645736" y="0.6985603" z="0.5420817" />
+              <center x="-0.0009784773" y="0.6909443" z="-0.4089477" />
             </size>
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForchiar_mesh" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="chiar">
+      <connection name="ConnectionForchairseat_mesh" tags="part iklink detail_xl chair platformcollision walk_exclude walk_excludeplayer " parent="chairseat">
         <parts>
-          <part name="chiar_mesh">
+          <part name="chairseat_mesh">
             <lods>
               <lod index="0">
                 <materials>
-                  <material id="1" ref="generic.rsi_scorpius_int_mtl_Decal_POM2" />
-                  <material id="2" ref="generic.misc_prospector_interior_mtl_Interior_Atlas" />
-                  <material id="3" ref="generic.rsi_bengal_int_mtl_ext_panel_a_gray_dark" />
-                  <material id="4" ref="generic.anvl_valkyrie_interior_mtl_Leather_Atlas" />
-                  <material id="5" ref="generic.rsi_scorpius_mtl_Decal_Diffuse2" />
+                  <material id="1" ref="generic.rsi_int_master_01_mtl_Trim_Metal_HF" />
+                  <material id="2" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Paint_Secondary" />
+                  <material id="3" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Primary_Metal" />
+                  <material id="4" ref="generic.crus_spirit_int_mtl_Decal_POM_Leather_Stitch" />
+                  <material id="5" ref="generic.rsi_int_master_01_mtl_Trim_Padding_Panels_A_Tertiary" />
+                  <material id="6" ref="generic.rsi_int_master_01_mtl_Trim_Padding_Panels_A_Primary" />
+                  <material id="7" ref="generic.rsi_int_master_01_mtl_Trim_Greeble_A" />
+                  <material id="8" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Paint_Secondary" />
+                  <material id="9" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Paint_Secondary" />
+                  <material id="10" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="11" ref="generic.rsi_int_master_01_mtl_Decal_Diffuse_a" />
                 </materials>
               </lod>
             </lods>
             <size>
-              <max x="0.3753082" y="0.6967183" z="0.5439323" />
-              <center x="-2.235174e-08" y="0.6954488" z="-0.1165084" />
+              <max x="0.3645736" y="0.6985603" z="0.5420817" />
+              <center x="-0.0009784773" y="0.6909443" z="-0.4089477" />
             </size>
           </part>
         </parts>

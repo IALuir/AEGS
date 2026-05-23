@@ -1128,7 +1128,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggear_left_skin" tags="part animation" parent="wing_mechanism_bottom_left">
+      <connection name="ConnectionForlandinggear_left_skin" tags="part animation nocollision" parent="wing_mechanism_bottom_left">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1190,7 +1190,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggear_left_skin001" tags="part animation" parent="landinggear_left_skin">
+      <connection name="ConnectionForlandinggear_left_skin001" tags="part animation nocollision" parent="landinggear_left_skin">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1428,7 +1428,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggear_right_skin" tags="part animation" parent="wing_mechanism_bottom_right">
+      <connection name="ConnectionForlandinggear_right_skin" tags="part animation nocollision" parent="wing_mechanism_bottom_right">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1489,7 +1489,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggear_right_skin001" tags="part animation" parent="landinggear_right_skin">
+      <connection name="ConnectionForlandinggear_right_skin001" tags="part animation nocollision" parent="landinggear_right_skin">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>

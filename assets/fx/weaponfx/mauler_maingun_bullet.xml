@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-05-15 18:59:30 from Blender-->
+<components>
+  <component name="mauler_maingun_bullet" class="bullet">
+    <source geometry="extensions\AEGS\assets\fx\weaponfx\mauler_maingun_bullet_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="bullet" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForanim_beam_bolt" tags="part ">
+        <parts>
+          <part name="anim_beam_bolt">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.beam_fx_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.154699" y="6.05246" z="0.1000006" />
+              <center x="-0.7895797" y="-0.8346999" z="0.1002829" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForanim_beam_core" tags="part animation textureanimation ">
+        <animations>
+          <animation name="loop_random" start="0" end="20" />
+        </animations>
+        <parts>
+          <part name="anim_beam_core">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2fx.fx_p2_mining_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.809128" y="0.7691759" z="0.09999555" />
+              <center x="-7.450581e-08" y="2.980232e-08" z="0.1007568" />
+            </size>
+            <uv_animations>
+              <uv_animation rotaroundcenter="1" mapchannel="2">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="0" value="0" />
+                  <key frame="20" value="0" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="0" value="0" />
+                  <key frame="20" value="1" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForanim_beam_glow" tags="part animation textureanimation iklink">
+        <animations>
+          <animation name="loop_random" start="0" end="20" />
+        </animations>
+        <parts>
+          <part name="anim_beam_glow">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2fx.fx_p2_mining_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.1647" y="6.35078" z="0.100001" />
+              <center x="-0.01761472" y="0.01891518" z="0.1005047" />
+            </size>
+            <uv_animations>
+              <uv_animation rotaroundcenter="1" mapchannel="2">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="0" value="0" />
+                  <key frame="20" value="0" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="0" value="0" />
+                  <key frame="20" value="1" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_distortion" tags="part nocollision">
+        <parts>
+          <part name="fx_distortion">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_bullet_distortion_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="39.41048" y="39.41048" z="0.100003" />
+              <center x="0" y="0" z="0.1011456" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlight" tags="part ">
+        <parts>
+          <part name="light">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.129774" y="1.129773" z="0.1003077" />
+              <center x="2.980232e-07" y="0" z="0.1007219" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="connection_laser01" tags="laser">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

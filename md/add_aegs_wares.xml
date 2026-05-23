@@ -69,7 +69,11 @@
                 ware.defender_engine,
                 ware.sabre_firebrid_engine,
                 ware.sabre_raven_engine,
-                ware.sabre_peregrine_engine
+                ware.sabre_peregrine_engine,
+                ware.blade_engine,
+                ware.glaive_engine,
+                ware.perseus_engine,
+                ware.mauler_engine
                 ]" />
                 <add_blueprints wares="$aegswares" />
                 <remove_value name="$aegswares" />

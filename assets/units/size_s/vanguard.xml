@@ -33,7 +33,7 @@
       <connection name="space" tags="ship_s ship" />
       <connection name="position" tags="position" value="1" />
       <connection name="defencenpc" tags="defence" value="-1" />
-      <connection name="ConnectionForAEGS_Gladius_LandingGear_Front" tags="part animation">
+      <connection name="ConnectionForAEGS_Gladius_LandingGear_Front" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -64,7 +64,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForanvil_hornet_front_landinggear_left" tags="part animation">
+      <connection name="ConnectionForanvil_hornet_front_landinggear_left" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -116,7 +116,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForanvil_hornet_front_landinggear_right" tags="part animation">
+      <connection name="ConnectionForanvil_hornet_front_landinggear_right" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>

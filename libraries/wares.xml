@@ -474,7 +474,7 @@
 		</ware>
 		<ware id="polaris" name="{996666,73}" description="{996666,74}" transport="ship" volume="1" tags="ship">
 			<price min="18529975" average="18529975" max="18529975"/>
-			<production time="365" amount="1" method="default" name="{996666,73}">
+			<production time="1" amount="1" method="default" name="{996666,73}">
 			<primary>
 				<ware ware="computronicsubstrate" amount="230"/>
 				<ware ware="energycells" amount="1410"/>
@@ -640,6 +640,37 @@
 				</primary>
 			</production>
 			<component ref="scythe_macro"/>
+			<restriction licence="generaluseship"/>
+			<owner faction="xenon"/>
+		</ware>
+		<ware id="perseus" name="{996666,97}" description="{996666,98}" transport="ship" volume="1" tags="ship">
+			<price min="12529975" average="12529975" max="12529975"/>
+			<production time="1" amount="1" method="default" name="{996666,97}">
+			<primary>
+				<ware ware="computronicsubstrate" amount="191"/>
+				<ware ware="energycells" amount="1050"/>
+				<ware ware="metallicmicrolattice" amount="290"/>
+			</primary>
+			</production>
+			<component ref="perseus_macro"/>
+			<restriction licence="militaryship"/>
+			<owner faction="terran"/>
+		</ware>
+		<ware id="mauler" name="{996666,1}" description="{996666,2}" transport="ship" volume="1" tags="ship nocustomgamestart">
+			<price min="57059950" average="57059950" max="57059950"/>
+			<production time="695" amount="1" method="default" name="{996666,1}">
+				<primary>
+					<ware ware="computronicsubstrate" amount="659"/>
+					<ware ware="energycells" amount="34817"/>
+					<ware ware="metallicmicrolattice" amount="1170"/>
+				</primary>
+			</production>
+			<production time="270" amount="1" method="xenon" name="{20206,601}" tags="noplayerbuild" dismantlefactor="10">
+				<primary>
+					<ware ware="energycells" amount="900000"/>
+				</primary>
+			</production>
+			<component ref="mauler_macro" amount="1"/>
 			<restriction licence="generaluseship"/>
 			<owner faction="xenon"/>
 		</ware>
@@ -1197,6 +1228,39 @@
 				</primary>
 			</production>
 			<component ref="glaive_engine_macro" amount="1"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="xenon"/>
+		</ware>
+		<ware id="perseus_engine" name="{996670,1}" description="{996670,1}" group="engines" transport="equipment" volume="1" tags="equipment engine ">
+			<price min="1" average="1" max="1"/>
+			<production time="1" amount="1" method="default" name="{996670,1}">
+			<primary>
+				<ware ware="computronicsubstrate" amount="1"/>
+				<ware ware="energycells" amount="1"/>
+				<ware ware="metallicmicrolattice" amount="1"/>
+				</primary>
+			</production>
+			<component ref="perseus_engine_macro" amount="1"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="terran"/>
+		</ware>
+		<ware id="mauler_engine" name="{996670,1}" description="{996670,1}" group="engines" transport="equipment" volume="1" tags="equipment engine ">
+			<price min="1" average="1" max="1"/>
+			<production time="1" amount="1" method="default" name="{996670,1}">
+			<primary>
+				<ware ware="computronicsubstrate" amount="1"/>
+				<ware ware="energycells" amount="1"/>
+				<ware ware="metallicmicrolattice" amount="1"/>
+				</primary>
+			</production>
+			<production time="5" amount="1" method="xenon" name="{20206,601}" tags="noplayerbuild" dismantlefactor="10">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<component ref="mauler_engine_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
 			<use threshold="0"/>
 			<owner faction="xenon"/>
@@ -2245,6 +2309,21 @@
 		  <use threshold="0"/>		  
 		  <owner faction="terran"/>	  
 		</ware>
+		<ware id="polaris_turret3" name="{996667,70007}" description="{996667,70008}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+		  <price min="859058" average="859058" max="859058"/>
+		  <production time="1" amount="1" method="default" name="{996667,70007}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="23"/>
+				<ware ware="energycells" amount="138"/>
+				<ware ware="metallicmicrolattice" amount="158"/>
+				<ware ware="siliconcarbide" amount="29"/>
+      			</primary>
+		  </production>
+		  <component ref="polaris_turret3_macro" amount="1"/>
+		  <restriction licence="generaluseequipment"/>
+		  <use threshold="0"/>		  
+		  <owner faction="terran"/>	  
+		</ware>
 
 		<ware id="reclaimer_turret_cf" name="{996667,3}" description="{996667,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
 		  <price min="658751" average="658751" max="658751"/>
@@ -2640,6 +2719,206 @@
 		  <use threshold="0"/>		  
 		  <owner faction="terran"/>	  
 		</ware>
+
+
+
+
+
+
+
+
+
+		<ware id="perseus_turret1" name="{996667,70013}" description="{996667,70014}" group="turrets" transport="equipment" volume="1" tags="equipment turret ">
+		  <price min="2691689" average="2691689" max="2691689"/>
+		  <production time="1" amount="1" method="default" name="{996667,70013}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="60"/>
+				<ware ware="energycells" amount="408"/>
+				<ware ware="metallicmicrolattice" amount="503"/>
+				<ware ware="siliconcarbide" amount="76"/>
+      			</primary>
+		  </production>
+		  <component ref="perseus_turret1_macro" amount="1"/>
+		  <restriction licence="generaluseequipment"/>
+		  <use threshold="0"/>		  
+		  <owner faction="terran"/>	  
+		</ware>
+		<ware id="perseus_turret2_cf" name="{996667,1}" description="{996667,2}" group="turrets" transport="equipment" volume="1" tags="equipment turret ">
+		  <price min="658751" average="658751" max="658751"/>
+		  <production time="1" amount="1" method="default" name="{996667,1}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="14"/>
+				<ware ware="energycells" amount="86"/>
+				<ware ware="metallicmicrolattice" amount="112"/>
+				<ware ware="siliconcarbide" amount="17"/>
+      			</primary>
+		  </production>
+		  <component ref="perseus_turret2_cf_macro" amount="1"/>
+		  <restriction licence="generaluseequipment"/>
+		  <use threshold="0"/>		  
+		  <owner faction="terran"/>	  
+		</ware>
+		<ware id="perseus_turret2_gtx" name="{996667,30003}" description="{996667,30004}" group="turrets" transport="equipment" volume="1" tags="equipment turret ">
+		  <price min="671926" average="671926" max="671926"/>
+		  <production time="1" amount="1" method="default" name="{996667,30003}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="14"/>
+				<ware ware="energycells" amount="88"/>
+				<ware ware="metallicmicrolattice" amount="114"/>
+				<ware ware="siliconcarbide" amount="17"/>
+      			</primary>
+		  </production>
+		  <component ref="perseus_turret2_gtx_macro" amount="1"/>
+		  <restriction licence="generaluseequipment"/>
+		  <use threshold="0"/>		  
+		  <owner faction="terran"/>	  
+		</ware>
+		<ware id="perseus_turret2_sp" name="{996667,70001}" description="{996667,70002}" group="turrets" transport="equipment" volume="1" tags="equipment turret ">
+		  <price min="724626" average="724626" max="724626"/>
+		  <production time="1" amount="1" method="default" name="{996667,70001}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="15"/>
+				<ware ware="energycells" amount="108"/>
+				<ware ware="metallicmicrolattice" amount="123"/>
+				<ware ware="siliconcarbide" amount="19"/>
+      			</primary>
+		  </production>
+		  <component ref="perseus_turret2_sp_macro" amount="1"/>
+		  <restriction licence="generaluseequipment"/>
+		  <use threshold="0"/>		  
+		  <owner faction="terran"/>	  
+		</ware>
+		<ware id="perseus_turret2_mxa" name="{996667,23}" description="{996667,24}" group="turrets" transport="equipment" volume="1" tags="equipment turret ">
+		  <price min="724626" average="724626" max="724626"/>
+		  <production time="1" amount="1" method="default" name="{996667,23}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="15"/>
+				<ware ware="energycells" amount="108"/>
+				<ware ware="metallicmicrolattice" amount="123"/>
+				<ware ware="siliconcarbide" amount="19"/>
+      			</primary>
+		  </production>
+		  <component ref="perseus_turret2_mxa_macro" amount="1"/>
+		  <restriction licence="generaluseequipment"/>
+		  <use threshold="0"/>		  
+		  <owner faction="terran"/>	  
+		</ware>
+		<ware id="perseus_turret3" name="{996667,1}" description="{996667,2}" group="turrets" transport="equipment" volume="1" tags="equipment turret ">
+		  <price min="258751" average="258751" max="258751"/>
+		  <production time="1" amount="1" method="default" name="{996667,1}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="4"/>
+				<ware ware="energycells" amount="46"/>
+				<ware ware="metallicmicrolattice" amount="62"/>
+				<ware ware="siliconcarbide" amount="7"/>
+      			</primary>
+		  </production>
+		  <component ref="perseus_turret3_macro" amount="1"/>
+		  <restriction licence="generaluseequipment"/>
+		  <use threshold="0"/>		  
+		  <owner faction="terran"/>	  
+		</ware>
+		<ware id="mauler_turret1" name="{996667,91010}" description="{996667,91011}" group="turrets" transport="equipment" volume="1" tags="equipment turret ">
+		  <price min="258751" average="258751" max="258751"/>
+		  <production time="1" amount="1" method="default" name="{996667,91010}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="4"/>
+				<ware ware="energycells" amount="46"/>
+				<ware ware="metallicmicrolattice" amount="62"/>
+				<ware ware="siliconcarbide" amount="7"/>
+      			</primary>
+		  </production>
+		  <production time="1" amount="1" method="xenon" name="{20206,601}" tags="noplayerbuild" dismantlefactor="10">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+		  <component ref="mauler_turret1_macro" amount="1"/>
+		  <restriction licence="generaluseequipment"/>
+		  <use threshold="0"/>		  
+		  <owner faction="xenon"/>
+		</ware>
+		<ware id="mauler_turret2" name="{996667,91006}" description="{996667,91007}" group="turrets" transport="equipment" volume="1" tags="equipment turret ">
+		  <price min="258751" average="258751" max="258751"/>
+		  <production time="1" amount="1" method="default" name="{996667,91006}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="3"/>
+				<ware ware="energycells" amount="38"/>
+				<ware ware="metallicmicrolattice" amount="42"/>
+				<ware ware="siliconcarbide" amount="5"/>
+      			</primary>
+		  </production>
+		  <production time="1" amount="1" method="xenon" name="{20206,601}" tags="noplayerbuild" dismantlefactor="10">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+		  <component ref="mauler_turret2_macro" amount="1"/>
+		  <restriction licence="generaluseequipment"/>
+		  <use threshold="0"/>		  
+		  <owner faction="xenon"/>
+		</ware>
+		<ware id="mauler_turret3" name="{996667,91014}" description="{996667,91015}" group="turrets" transport="equipment" volume="1" tags="equipment turret ">
+		  <price min="258751" average="258751" max="258751"/>
+		  <production time="1" amount="1" method="default" name="{996667,91014}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="12"/>
+				<ware ware="energycells" amount="78"/>
+				<ware ware="metallicmicrolattice" amount="69"/>
+				<ware ware="siliconcarbide" amount="18"/>
+      			</primary>
+		  </production>
+		  <production time="1" amount="1" method="xenon" name="{20206,601}" tags="noplayerbuild" dismantlefactor="10">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+		  <component ref="mauler_turret3_macro" amount="1"/>
+		  <restriction licence="generaluseequipment"/>
+		  <use threshold="0"/>		  
+		  <owner faction="xenon"/>
+		</ware>
+		<ware id="mauler_turret4" name="{996667,91016}" description="{996667,91017}" group="turrets" transport="equipment" volume="1" tags="equipment turret ">
+		  <price min="258751" average="258751" max="258751"/>
+		  <production time="1" amount="1" method="default" name="{996667,91016}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="26"/>
+				<ware ware="energycells" amount="128"/>
+				<ware ware="metallicmicrolattice" amount="86"/>
+				<ware ware="siliconcarbide" amount="32"/>
+      			</primary>
+		  </production>
+		  <production time="1" amount="1" method="xenon" name="{20206,601}" tags="noplayerbuild" dismantlefactor="10">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+		  <component ref="mauler_turret4_macro" amount="1"/>
+		  <restriction licence="generaluseequipment"/>
+		  <use threshold="0"/>		  
+		  <owner faction="xenon"/>
+		</ware>
+		<ware id="mauler_maingun" name="{996667,91020}" description="{996667,91021}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+		  <price min="5756832" average="5756832" max="5756832"/>
+		  <production time="1" amount="1" method="default" name="{996667,91020}">
+				<primary>
+				<ware ware="computronicsubstrate" amount="216"/>
+				<ware ware="energycells" amount="395"/>
+				<ware ware="metallicmicrolattice" amount="878"/>
+				<ware ware="siliconcarbide" amount="176"/>
+      			</primary>
+		  </production>
+		  <production time="1" amount="1" method="xenon" name="{20206,601}" tags="noplayerbuild" dismantlefactor="10">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+		  <component ref="mauler_maingun_macro" amount="1"/>
+		  <restriction licence="generaluseequipment"/>
+		  <use threshold="0"/>		  
+		  <owner faction="xenon"/>	  
+		</ware>
+
 
 		<ware id="aegs_l_s10" name="{996671,12}" description="{996671,13}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
 		  <price min="5756832" average="5756832" max="5756832"/>
@@ -4610,14 +4889,5 @@
 			<use threshold="0"/>
 			<owner faction="terran"/>
 		</ware>
-	</add>
-	
-
-	<add sel="/wares/ware[@id='refinedmetals']">
-		<production time="10" amount="20" method="kraken" name="{996671,36}">
-			<primary>
-				<ware ware="ore" amount="20"/>
-			</primary>
-		</production>
 	</add>
 </diff>

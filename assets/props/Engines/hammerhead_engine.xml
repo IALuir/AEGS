@@ -34,7 +34,7 @@
     <connections>
       <connection name="container" tags="contents" value="0"/>
 			<connection name="position" tags="position" value="1"/>
-      <connection name="ConnectionForhammerhead_thruster_main_left" tags="part ">
+      <connection name="ConnectionForhammerhead_thruster_main_left" tags="part nocollision">
         <parts>
           <part name="hammerhead_thruster_main_left" wreck="hammerhead_thruster_main_left_wreck">
             <lods>
@@ -98,7 +98,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForhammerhead_thruster_main_right" tags="part ">
+      <connection name="ConnectionForhammerhead_thruster_main_right" tags="part nocollision">
         <parts>
           <part name="hammerhead_thruster_main_right" wreck="hammerhead_thruster_main_right_wreck">
             <lods>
@@ -190,7 +190,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_fx" tags="part ">
+      <connection name="ConnectionForpart_fx" tags="part nocollision">
         <parts>
           <part name="part_fx">
             <lods>

@@ -754,7 +754,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForknee_joint_left" tags="animation part ">
+      <connection name="ConnectionForknee_joint_left" tags="animation part nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -869,7 +869,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForespr_talon_landing_gear_front_left" tags="animation part " parent="slider_left">
+      <connection name="ConnectionForespr_talon_landing_gear_front_left" tags="animation part nocollision" parent="slider_left">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -935,7 +935,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForespr_talon_landing_gear_rear_left" tags="animation part " parent="slider_left">
+      <connection name="ConnectionForespr_talon_landing_gear_rear_left" tags="animation part nocollision" parent="slider_left">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1059,7 +1059,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForknee_joint_right" tags="animation part ">
+      <connection name="ConnectionForknee_joint_right" tags="animation part nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1174,7 +1174,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForespr_talon_landing_gear_front_right" tags="animation part " parent="slider_right">
+      <connection name="ConnectionForespr_talon_landing_gear_front_right" tags="animation part nocollision" parent="slider_right">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1240,7 +1240,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForespr_talon_landing_gear_rear_right" tags="animation part " parent="slider_right">
+      <connection name="ConnectionForespr_talon_landing_gear_rear_right" tags="animation part nocollision" parent="slider_right">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1610,7 +1610,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpiston_wing_01_left" tags="animation part ">
+      <connection name="ConnectionForpiston_wing_01_left" tags="animation part nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1642,7 +1642,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpiston_wing_01_right" tags="animation part ">
+      <connection name="ConnectionForpiston_wing_01_right" tags="animation part nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1674,7 +1674,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpiston_wing_02_inner_left" tags="animation part ">
+      <connection name="ConnectionForpiston_wing_02_inner_left" tags="animation part nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1707,7 +1707,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpiston_wing_02_inner_right" tags="animation part ">
+      <connection name="ConnectionForpiston_wing_02_inner_right" tags="animation part nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1877,7 +1877,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForwing_left" tags="animation part ">
+      <connection name="ConnectionForwing_left" tags="animation part nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -2058,7 +2058,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpiston_wing_01_outer_left" tags="animation part " parent="wing_left">
+      <connection name="ConnectionForpiston_wing_01_outer_left" tags="animation part nocollision" parent="wing_left">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -2091,7 +2091,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpiston_wing_02_outer_left" tags="animation part " parent="wing_left">
+      <connection name="ConnectionForpiston_wing_02_outer_left" tags="animation part nocollision" parent="wing_left">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -2123,7 +2123,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForwing_right" tags="animation part ">
+      <connection name="ConnectionForwing_right" tags="animation part nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -2304,7 +2304,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpiston_wing_01_outer_right" tags="animation part " parent="wing_right">
+      <connection name="ConnectionForpiston_wing_01_outer_right" tags="animation part nocollision" parent="wing_right">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -2337,7 +2337,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpiston_wing_02_outer_right" tags="animation part " parent="wing_right">
+      <connection name="ConnectionForpiston_wing_02_outer_right" tags="animation part nocollision" parent="wing_right">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>

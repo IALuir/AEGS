@@ -174,7 +174,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForcargo_door_box" tags="detail_l nocollision part ">
+      <connection name="ConnectionForcargo_door_box" tags="part ">
         <offset>
           <position x="0.728413" y="0.7271371" z="-1.942744" />
         </offset>
@@ -200,13 +200,13 @@
       </connection>
       <connection name="ConnectionFordoor_hydrolic_a_top" group="door01" tags="part animation require_docked nocollision detail_l" parent="cargo_door_box">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="120" end="120" />
         </animations>
         <offset>
-          <position x="2.095471" y="-1.469741" z="-10.4931" />
+          <position x="2.095471" y="-1.470179" z="-10.4931" />
         </offset>
         <parts>
           <part name="door_hydrolic_a_top">
@@ -220,7 +220,7 @@
             </lods>
             <size>
               <max x="2.985302" y="0.4010922" z="0.1448107" />
-              <center x="-2.811569" y="-0.2564791" z="-0.002663612" />
+              <center x="-2.811569" y="-0.2560413" z="-0.002663612" />
             </size>
             <size_raw>
               <max x="2.985302" y="0.135426" z="0.1448105" />
@@ -231,13 +231,13 @@
       </connection>
       <connection name="ConnectionFordoor_hydrolic_a_pole" group="door01" tags="part animation require_docked detail_l nocollision" parent="door_hydrolic_a_top">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="120" end="120" />
         </animations>
         <offset>
-          <quaternion qx="-0.1008873" qy="-0.0001869539" qz="1.884616e-05" qw="-0.9948978" />
+          <quaternion qx="-0.1010143" qy="-0.0001869515" qz="1.887002e-05" qw="-0.994885" />
         </offset>
         <parts>
           <part name="door_hydrolic_a_pole">
@@ -252,10 +252,10 @@
             </lods>
             <size>
               <max x="2.986205" y="0.9456943" z="0.3164921" />
-              <center x="-2.811113" y="-1.022143" z="-0.2859373" />
+              <center x="-2.811113" y="-1.021705" z="-0.2859373" />
             </size>
             <size_raw>
-              <max x="2.986205" y="0.6800282" z="0.3164923" />
+              <max x="2.986205" y="0.6800281" z="0.3164923" />
               <center x="-2.811113" y="-0.7564775" z="-0.2859375" />
             </size_raw>
           </part>
@@ -263,14 +263,14 @@
       </connection>
       <connection name="ConnectionForint_door" group="door01" tags="part animation ui require_docked trigger_interact" parent="cargo_door_box">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="120" end="120" />
         </animations>
         <offset>
           <position x="-0.0004140139" y="-4.160691" z="-10.933" />
-          <quaternion qx="0.4654869" qy="0" qz="0" qw="-0.8850548" />
+          <quaternion qx="0.4658975" qy="0" qz="0" qw="-0.8848387" />
         </offset>
         <parts>
           <part name="int_door">
@@ -290,18 +290,18 @@
             </lods>
             <size>
               <max x="3.197485" y="3.241158" z="0.5115361" />
-              <center x="-0.717083" y="3.18627" z="0.4041224" />
+              <center x="-0.717083" y="3.18627" z="0.4041214" />
             </size>
             <size_raw>
-              <max x="3.197485" y="3.241157" z="0.5115361" />
+              <max x="3.197485" y="3.241158" z="0.5115361" />
               <center x="-0.717083" y="3.18627" z="0.404122" />
             </size_raw>
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFordoor_hydrolic_b_bot" tags="detail_l nocollision part " parent="int_door">
+      <connection name="ConnectionFordoor_hydrolic_b_bot" tags="part " parent="int_door">
         <offset>
-          <position x="2.095473" y="1.036142" z="0.3386698" />
+          <position x="2.095473" y="1.036141" z="0.3386707" />
           <quaternion qx="-0.1123336" qy="0" qz="0" qw="-0.9936706" />
         </offset>
         <parts>
@@ -316,11 +316,11 @@
               </lod>
             </lods>
             <size>
-              <max x="3" y="0.7532902" z="0.3106513" />
-              <center x="-2.811576" y="-0.3730423" z="-0.2752562" />
+              <max x="3" y="0.7532916" z="0.310627" />
+              <center x="-2.811576" y="-0.3724289" z="-0.2744265" />
             </size>
             <size_raw>
-              <max x="3" y="0.2078154" z="0.09652997" />
+              <max x="3" y="0.2078155" z="0.09652999" />
               <center x="-2.811576" y="0.1724325" z="-0.061134" />
             </size_raw>
           </part>
@@ -328,14 +328,14 @@
       </connection>
       <connection name="ConnectionFordoor_hydrolic_b_pole" group="door01" tags="part animation require_docked nocollision detail_l" parent="door_hydrolic_b_bot">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="120" end="120" />
         </animations>
         <offset>
-          <position x="-1.192093e-06" y="-9.536743e-07" z="-3.814697e-06" />
-          <quaternion qx="-0.4542598" qy="-0.0001801612" qz="-5.079315e-05" qw="-0.8908693" />
+          <position x="-1.192093e-06" y="-1.907349e-06" z="-3.814697e-06" />
+          <quaternion qx="-0.4547626" qy="-0.0001801899" qz="-5.069144e-05" qw="-0.8906127" />
         </offset>
         <parts>
           <part name="door_hydrolic_b_pole">
@@ -347,11 +347,11 @@
               </lod>
             </lods>
             <size>
-              <max x="2.968389" y="1.432464" z="0.5754595" />
-              <center x="-2.811565" y="0.2775331" z="0.08334637" />
+              <max x="2.968389" y="1.432465" z="0.5754352" />
+              <center x="-2.811565" y="0.2781463" z="0.08417511" />
             </size>
             <size_raw>
-              <max x="2.968389" y="0.886989" z="0.3613388" />
+              <max x="2.968389" y="0.8869892" z="0.3613389" />
               <center x="-2.811568" y="0.8230075" z="0.297467" />
             </size_raw>
           </part>
@@ -359,13 +359,13 @@
       </connection>
       <connection name="ConnectionForext_door" group="door01" tags="part ui require_docked trigger_interact" parent="int_door">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="120" end="120" />
         </animations>
         <offset>
-          <position x="-0.718905" y="-0.07860851" z="-0.0977478" />
+          <position x="-0.718905" y="-0.07860947" z="-0.09774637" />
           <quaternion qx="-0.465487" qy="0" qz="0" qw="-0.8850548" />
         </offset>
         <parts>
@@ -383,8 +383,8 @@
               </lod>
             </lods>
             <size>
-              <max x="3.220538" y="2.378402" z="2.546569" />
-              <center x="-9.536743e-07" y="2.191084" z="-2.444788" />
+              <max x="3.220538" y="2.378401" z="2.546568" />
+              <center x="-9.536743e-07" y="2.191075" z="-2.444903" />
             </size>
             <size_raw>
               <max x="3.220538" y="2.338534" z="2.492785" />
@@ -702,12 +702,13 @@
       <connection name="ConnectionForlanding_gear_front_skin" tags="detail_l nocollision part animation">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="-0.00951" y="-3.694376" z="9.725264" />
+          <quaternion qx="0.3335425" qy="0" qz="0" qw="-0.942735" />
         </offset>
         <parts>
           <part name="landing_gear_front_skin">
@@ -726,11 +727,11 @@
             </lods>
             <size>
               <max x="1.137782" y="1.262051" z="1.858909" />
-              <center x="-0.002162973" y="-0.9975052" z="1.525049" />
+              <center x="-0.002163092" y="-0.9975054" z="1.525049" />
             </size>
             <size_raw>
-              <max x="0.001137782" y="0.001262051" z="0.001858909" />
-              <center x="-2.162997e-06" y="-0.0009975052" z="0.00152505" />
+              <max x="1.137782" y="1.262051" z="1.858909" />
+              <center x="-0.002162993" y="-0.9975051" z="1.52505" />
             </size_raw>
           </part>
         </parts>
@@ -738,12 +739,13 @@
       <connection name="ConnectionForlanding_gear_left_skin" tags="detail_l nocollision part animation">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
-          <position x="-3.825511" y="-3.86195" z="-10.014" />
+          <position x="-2.819431" y="-3.86195" z="-10.014" />
+          <quaternion qx="0" qy="0" qz="0.6423467" qw="-0.7664142" />
         </offset>
         <parts>
           <part name="landing_gear_left_skin">
@@ -761,12 +763,12 @@
               </lod>
             </lods>
             <size>
-              <max x="2.717093" y="1.483486" z="0.9133401" />
-              <center x="-2.294089" y="-0.6353846" z="-0.01812363" />
+              <max x="3.220548" y="1.483485" z="0.9133401" />
+              <center x="-2.796714" y="-0.6353848" z="-0.01812267" />
             </size>
             <size_raw>
-              <max x="0.002717093" y="0.001483486" z="0.00091334" />
-              <center x="-0.002294089" y="-0.0006353846" z="-1.812298e-05" />
+              <max x="2.717093" y="0.7423541" z="0.91334" />
+              <center x="-2.294089" y="-0.6353846" z="-0.01812297" />
             </size_raw>
           </part>
         </parts>
@@ -774,12 +776,13 @@
       <connection name="ConnectionForlanding_gear_right_skin" tags="detail_l nocollision part animation">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
-          <position x="3.806059" y="-3.861951" z="-10.01354" />
+          <position x="2.806884" y="-3.861951" z="-10.01354" />
+          <quaternion qx="0" qy="0" qz="-0.6423467" qw="-0.7664142" />
         </offset>
         <parts>
           <part name="landing_gear_right_skin">
@@ -797,23 +800,23 @@
               </lod>
             </lods>
             <size>
-              <max x="2.717093" y="1.483485" z="0.9004841" />
-              <center x="2.294085" y="-0.6353347" z="0.01943588" />
+              <max x="3.217093" y="1.483485" z="0.9004841" />
+              <center x="2.793261" y="-0.6353347" z="0.01943588" />
             </size>
             <size_raw>
-              <max x="0.002717093" y="0.001483486" z="0.000900484" />
-              <center x="0.002294085" y="-0.0006353345" z="1.943597e-05" />
+              <max x="2.717093" y="0.742354" z="0.9004841" />
+              <center x="2.294085" y="-0.6353346" z="0.01943597" />
             </size_raw>
           </part>
         </parts>
       </connection>
       <connection name="ConnectionForsidedoor_left" group="door02 " tags="part animation ui require_docked trigger_interact">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
-        </animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
         <offset>
           <position x="-4.699362" y="0.128818" z="-1.322091" />
         </offset>
@@ -856,11 +859,11 @@
       </connection>
       <connection name="ConnectionForsidedoor_left_02" group="door02 " tags="part animation ui require_docked trigger_interact">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
-        </animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
         <offset>
           <position x="-4.70054" y="0.120713" z="-3.839288" />
         </offset>
@@ -899,11 +902,11 @@
       </connection>
       <connection name="ConnectionForsidedoor_right" group="door03 " tags="part animation ui require_docked trigger_interact">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
-        </animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
         <offset>
           <position x="4.712717" y="0.127424" z="-1.322092" />
         </offset>
@@ -942,11 +945,11 @@
       </connection>
       <connection name="ConnectionForsidedoor_right_02" group="door03 " tags="part animation ui require_docked trigger_interact">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
-        </animations>
+					<animation name="landinggears_inactive" start="0" end="0"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
+				</animations>
         <offset>
           <position x="4.713894" y="0.120713" z="-3.839291" />
         </offset>
@@ -1070,7 +1073,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForcutlass_thruster_main001" tags="detail_xl nocollision part " parent="thruster_main_left">
+      <connection name="ConnectionForcutlass_thruster_main001" tags="part " parent="thruster_main_left">
         <offset>
           <position x="0.07612991" y="1.029758" z="-4.412954" />
           <quaternion qx="0.5000004" qy="0.4999996" qz="-0.4999996" qw="-0.5000004" />
@@ -1094,7 +1097,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForcutlass_thruster_retro001" tags="detail_l nocollision part " parent="thruster_main_left">
+      <connection name="ConnectionForcutlass_thruster_retro001" tags="part " parent="thruster_main_left">
         <offset>
           <position x="0.06029987" y="-1.173083" z="4.754817" />
           <quaternion qx="-4.768372e-07" qy="0" qz="0" qw="-1" />
@@ -1122,7 +1125,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForcutlass_thruster_retro_nozzle001" tags="detail_m nocollision part " parent="cutlass_thruster_retro001">
+      <connection name="ConnectionForcutlass_thruster_retro_nozzle001" tags="part " parent="cutlass_thruster_retro001">
         <offset>
           <position x="0" y="-8.006249e-06" z="-0.3770108" />
         </offset>
@@ -1225,7 +1228,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForcutlass_thruster_main" tags="detail_xl nocollision part " parent="thruster_main_right">
+      <connection name="ConnectionForcutlass_thruster_main" tags="part " parent="thruster_main_right">
         <offset>
           <position x="-0.2450047" y="1.029772" z="-4.611927" />
           <quaternion qx="0.5000004" qy="0.4999996" qz="-0.4999996" qw="-0.5000004" />
@@ -1249,7 +1252,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForcutlass_thruster_retro" tags="detail_l nocollision part " parent="thruster_main_right">
+      <connection name="ConnectionForcutlass_thruster_retro" tags="part " parent="thruster_main_right">
         <offset>
           <position x="-0.2291746" y="-1.173094" z="4.754817" />
           <quaternion qx="1.509958e-07" qy="0" qz="0" qw="-1" />
@@ -1277,7 +1280,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForcutlass_thruster_retro_nozzle" tags="detail_m nocollision part " parent="cutlass_thruster_retro">
+      <connection name="ConnectionForcutlass_thruster_retro_nozzle" tags="part " parent="cutlass_thruster_retro">
         <offset>
           <position x="0" y="-8.023195e-06" z="-0.3770108" />
         </offset>

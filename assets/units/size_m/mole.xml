@@ -118,7 +118,7 @@
       <connection name="space" tags="ship_m ship" />
       <connection name="position" tags="position" value="1" />
       <connection name="container" tags="contents" value="0"/>
-      <connection name="ConnectionForargomolegreyboxarmbasemesh001" group="front" tags="part animation forceoutline">
+      <connection name="ConnectionForargomolegreyboxarmbasemesh001" group="front" tags="part animation forceoutline nocollision">
         <animations>
 					<animation name="turrethatch_inactive" start="0" end="0"/>
 					<animation name="turrethatch_activating" start="0" end="80"/>
@@ -149,7 +149,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForargomolegreyboxarmmiddlemesh001" group="front" tags="part animation" parent="argomolegreyboxarmbasemesh001">
+      <connection name="ConnectionForargomolegreyboxarmmiddlemesh001" group="front" tags="part animation nocollision" parent="argomolegreyboxarmbasemesh001">
         <animations>
 					<animation name="turrethatch_inactive" start="0" end="0"/>
 					<animation name="turrethatch_activating" start="0" end="80"/>
@@ -185,7 +185,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForturretyawmesh001" group="front" tags="part animation" parent="argomolegreyboxarmmiddlemesh001">
+      <connection name="ConnectionForturretyawmesh001" group="front" tags="part animation nocollision" parent="argomolegreyboxarmmiddlemesh001">
         <animations>
 					<animation name="turrethatch_inactive" start="0" end="0"/>
 					<animation name="turrethatch_activating" start="0" end="80"/>
@@ -218,7 +218,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForfmcexterior001" group="front" tags="part animation" parent="dummy">
+      <connection name="ConnectionForfmcexterior001" group="front" tags="part animation nocollision" parent="dummy">
         <animations>
 					<animation name="turrethatch_inactive" start="0" end="0"/>
 					<animation name="turrethatch_activating" start="0" end="80"/>
@@ -266,7 +266,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFordoorleftinner001" group="door1" tags="part animation trigger_interact ui" parent="fmcexterior001">
+      <connection name="ConnectionFordoorleftinner001" group="door1" tags="part animation trigger_interact ui nocollision" parent="fmcexterior001">
         <animations>
           <animation name="deactivated" start="1" end="1" />
           <animation name="activating" start="1" end="80" />
@@ -303,7 +303,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFordoorrightinner001" group="door1" tags="part animation trigger_interact ui" parent="fmcexterior001">
+      <connection name="ConnectionFordoorrightinner001" group="door1" tags="part animation trigger_interact ui nocollision" parent="fmcexterior001">
         <animations>
           <animation name="deactivated" start="1" end="1" />
           <animation name="activating" start="1" end="80" />
@@ -636,7 +636,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForleft" group="left_turret" tags="part animation">
+      <connection name="ConnectionForleft" group="left_turret" tags="part animation nocollision">
         <animations>
 					<animation name="turrethatch_inactive" start="0" end="0"/>
 					<animation name="turrethatch_activating" start="0" end="80"/>
@@ -679,7 +679,7 @@
         </parts>
       </connection>
       
-      <connection name="ConnectionForlgfrontskinskin" tags="part animation">
+      <connection name="ConnectionForlgfrontskinskin" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -712,7 +712,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlgmidskinskin" tags="part animation">
+      <connection name="ConnectionForlgmidskinskin" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -746,7 +746,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlgmidskinskin2" tags="part animation">
+      <connection name="ConnectionForlgmidskinskin2" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -780,7 +780,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlogo" tags="part ">
+      <connection name="ConnectionForlogo" tags="part nocollision">
         <parts>
           <part name="logo">
             <lods>
@@ -894,7 +894,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForright" group="right_turret" tags="part animation">
+      <connection name="ConnectionForright" group="right_turret" tags="part animation nocollision">
         <animations>
 					<animation name="turrethatch_inactive" start="0" end="0"/>
 					<animation name="turrethatch_activating" start="0" end="80"/>
@@ -1240,7 +1240,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthrusterbotleft001" tags="part animation">
+      <connection name="ConnectionForthrusterbotleft001" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1280,7 +1280,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthrusterbotright001" tags="part animation">
+      <connection name="ConnectionForthrusterbotright001" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1320,7 +1320,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthrusterfrontvtolleft001" tags="part ">
+      <connection name="ConnectionForthrusterfrontvtolleft001" tags="part nocollision">
         <restrictions>
 					<restriction type="rotation_x">
 						<limits>
@@ -1411,7 +1411,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthrusterfrontvtolright001" tags="part ">
+      <connection name="ConnectionForthrusterfrontvtolright001" tags="part nocollision">
         <restrictions>
 					<restriction type="rotation_x">
 						<limits>
@@ -1502,7 +1502,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthrustersliderleft001" tags="part animation">
+      <connection name="ConnectionForthrustersliderleft001" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1534,7 +1534,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthrustersliderright001" tags="part animation">
+      <connection name="ConnectionForthrustersliderright001" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1566,7 +1566,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthrustertopleft001" tags="part animation">
+      <connection name="ConnectionForthrustertopleft001" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1604,7 +1604,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthrustertopright001" tags="part animation">
+      <connection name="ConnectionForthrustertopright001" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="80"/>
@@ -1643,7 +1643,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForvtolrearleft001" tags="part ">
+      <connection name="ConnectionForvtolrearleft001" tags="part nocollision">
         <restrictions>
 					<restriction type="rotation_x">
 						<limits>
@@ -1727,7 +1727,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForvtolrearright001" tags="part ">
+      <connection name="ConnectionForvtolrearright001" tags="part nocollision">
         <restrictions>
 					<restriction type="rotation_x">
 						<limits>
@@ -1871,7 +1871,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForleft_dummy2" group="left_turret" tags="part animation" parent="left_dummy">
+      <connection name="ConnectionForleft_dummy2" group="left_turret" tags="part animation nocollision" parent="left_dummy">
         <animations>
 					<animation name="turrethatch_inactive" start="0" end="0"/>
 					<animation name="turrethatch_activating" start="0" end="80"/>
@@ -1901,7 +1901,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForright_dummy2" group="right_turret" tags="part animation" parent="right_dummy">
+      <connection name="ConnectionForright_dummy2" group="right_turret" tags="part animation nocollision" parent="right_dummy">
         <animations>
 					<animation name="turrethatch_inactive" start="0" end="0"/>
 					<animation name="turrethatch_activating" start="0" end="80"/>
@@ -2347,7 +2347,7 @@
         </offset>
 			</connection>
 
-      <connection name="minin_turret_01" tags="turret small component combat aegs_mole_min unhittable mandatory" parent="right">
+      <connection name="minin_turret_01" tags="turret small component combat aegs_mole_min unhittable mandatory nocollision" parent="right">
         <offset>
           <position x="1.023791" y="2.749697" z="4.020977" />
         </offset>
@@ -2371,7 +2371,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="minin_turret_02" tags="turret small component combat aegs_mole_min unhittable mandatory" parent="left">
+      <connection name="minin_turret_02" tags="turret small component combat aegs_mole_min unhittable mandatory nocollision" parent="left">
         <offset>
           <position x="-1.023787" y="2.749693" z="4.020977" />
         </offset>
@@ -2395,7 +2395,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="minin_turret_03" tags="turret small component combat aegs_mole_min2 unhittable mandatory" parent="turretyawmesh001">
+      <connection name="minin_turret_03" tags="turret small component combat aegs_mole_min2 unhittable mandatory nocollision" parent="turretyawmesh001">
         <offset>
           <position x="0" y="-0.6884871" z="-0.001037598" />
         </offset>

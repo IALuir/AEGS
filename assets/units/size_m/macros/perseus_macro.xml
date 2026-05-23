@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.59) at 13.10.2021_12-11-29-->
+<macros>
+  <macro name="perseus_macro" class="ship_m">
+    <component ref="perseus" />
+    <properties>
+      <identification name="{996666,97}" basename="{996666,97}" description="{996666,98}" makerrace="terran" icon="ship_m_gunboat_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <explosiondamage value="1200" shield="3000" />
+      <storage missile="28" unit="2" countermeasure="40" deployable="20"/>
+      <hull max="44500" />
+      <secrecy level="3" />
+      <purpose primary="fight" />
+      <people capacity="5" />
+      <docksize tag="dock_aegs_small_m" />
+      <sounds>
+        <shipdetail ref="shipdetail_ship_m_03" />
+      </sounds>
+      <physics mass="28.5">
+        <inertia pitch="9.9" yaw="7.1" roll="9.9" />
+        <drag forward="10.46" reverse="44.22" horizontal="11.877" vertical="11.877" pitch="28.15" yaw="14.76" roll="10.94" />
+      </physics>
+      <thruster tags="medium" />
+      <ship type="gunboat" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="con_cockpit">
+        <macro ref="cockpit_gen_virtual_01_macro" connection="ship" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="dock_aegs_xs_macro" connection="Connection_component" />
+      </connection>
+      
+      <connection ref="con_storage01">
+        <macro ref="storage_perseus_macro" connection="ShipConnection" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

@@ -37,7 +37,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthruster_fx" tags="part ">
+      <connection name="ConnectionForthruster_fx" tags="part nocollision">
         <parts>
           <part name="thruster_fx">
             <lods>
@@ -54,7 +54,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthruster_main_left" tags="part ">
+      <connection name="ConnectionForthruster_main_left" tags="part nocollision">
         <parts>
           <part name="thruster_main_left">
             <lods>
@@ -77,7 +77,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthruster_main_right" tags="part ">
+      <connection name="ConnectionForthruster_main_right" tags="part nocollision">
         <parts>
           <part name="thruster_main_right">
             <lods>

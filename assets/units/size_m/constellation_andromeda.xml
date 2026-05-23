@@ -230,7 +230,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForLG_Rear1" tags="animation iklink part anim_dockdoor">
+      <connection name="ConnectionForLG_Rear1" tags="animation iklink part anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="1" end="1"/>
 					<animation name="landinggears_activating" start="1" end="80"/>
@@ -261,7 +261,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForLG_Rear2" tags="animation iklink part anim_dockdoor">
+      <connection name="ConnectionForLG_Rear2" tags="animation iklink part anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="1" end="1"/>
 					<animation name="landinggears_activating" start="1" end="80"/>
@@ -291,7 +291,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForLG_Rear3" tags="animation iklink part anim_dockdoor">
+      <connection name="ConnectionForLG_Rear3" tags="animation iklink part anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="1" end="1"/>
 					<animation name="landinggears_activating" start="1" end="80"/>
@@ -322,7 +322,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForLG_Rear4" tags="animation iklink part anim_dockdoor">
+      <connection name="ConnectionForLG_Rear4" tags="animation iklink part anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="1" end="1"/>
 					<animation name="landinggears_activating" start="1" end="80"/>
@@ -1316,7 +1316,7 @@
 			</connection>
       <connection name="con_npc_stand_001" group="transporter_01" tags="npc_waypoint stand npctransport ">
 				<offset>
-          <position x="0" y="1.97512" z="3.01271" />
+          <position x="0" y="1.97512" z="2.91271" />
         </offset>
 			</connection>
 

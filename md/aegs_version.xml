@@ -3,7 +3,7 @@
 	<cues>
           <library name="aegsVersion" namespace="this" version="1">
                <params>
-                    <param name="Version" default="0.91"/>
+                    <param name="Version" default="0.95"/>
                </params>
           </library>
 	</cues>

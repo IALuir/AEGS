@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-05-10 15:00:48 from Blender-->
+<components>
+  <component name="perseus_turret2_gtx" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\perseus\perseus_turret2_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForsocket" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="socket">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_perseus_a_mtl_Damage_Internal_Structure" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="3" ref="generic.rsi_perseus_a_mtl_Damage_Internal_Structure" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Damage_Internal_Tile" />
+                  <material id="5" ref="generic.rsi_perseus_a_mtl_Decal_POM_A" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                  <material id="9" ref="generic.rsi_polaris_ext_mtl_Trim_Core_Plating" />
+                  <material id="10" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="11" ref="generic.rsi_perseus_a_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="12" ref="generic.carrack_interior_mtl_Grate" />
+                  <material id="13" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="14" ref="generic.rsi_int_master_01_mtl_Panel_Main_LF_Primary_Metal" />
+                  <material id="15" ref="generic.behr_turret_1_mtl_H_base_flat_01_A" />
+                  <material id="16" ref="generic.rsi_perseus_a_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="17" ref="generic.anvl_pisces_ext_mtl_HS_Trims_A" />
+                  <material id="18" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.8142275" y="0.9578422" z="1.219855" />
+              <center x="1.490116e-08" y="0.7526156" z="-0.3978305" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      
+      <connection name="ConnectionForgtx" tags="part " parent="socket">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-15 "/>
+							<max value="90"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="-0.5546963" y="1.161493" z="-0.5447991" />
+        </offset>
+        <parts>
+          <part name="gtx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.GATS_MasterMaterial_bal_gat_mtl_I_decal" />
+                  <material id="2" ref="generic.GATS_MasterMaterial_bal_gat_mtl_I_decal" />
+                  <material id="3" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="4" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="5" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="6" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="7" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="8" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                  <material id="9" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="10" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="11" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="12" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="13" ref="generic.GATS_MasterMaterial_bal_gat_mtl_L_cotton_01_checkered_A" />
+                  <material id="14" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="15" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="16" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="17" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="18" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="19" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.203004" y="0.293799" z="0.613909" />
+              <center x="0.5546963" y="-0.007533997" z="-0.001401007" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbarrel_body" tags="part animation" parent="gtx">
+        <animations>
+					<animation name="gun_firing" start="0" end="20"/>
+				</animations>
+        <offset>
+          <position x="0.5546963" y="-1.500021" z="1.024108" />
+          <quaternion qx="0" qy="0" qz="0.03036406" qw="-0.9995389" />
+        </offset>
+        <parts>
+          <part name="barrel_body">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.GATS_MasterMaterial_bal_gat_mtl_I_decal" />
+                  <material id="4" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.141117" y="0.1289985" z="0.5609015" />
+              <center x="0.01025504" y="-0.0007668734" z="0.6178886" />
+            </size>
+            <size_raw>
+              <max x="0.141117" y="0.1289985" z="0.5609015" />
+              <center x="0.01025504" y="-0.0007668659" z="0.6178886" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForbarrel_body001" tags="part animation" parent="gtx">
+        <animations>
+					<animation name="gun_firing" start="0" end="20"/>
+				</animations>
+        <offset>
+          <position x="0.5546963" y="0.2868606" z="1.024108" />
+          <quaternion qx="0" qy="0" qz="0.03036406" qw="-0.9995389" />
+        </offset>
+        <parts>
+          <part name="barrel_body001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.mxox_neu_rep_I_bas_mat_mtl_paint_03_A" />
+                  <material id="2" ref="generic.mxox_neu_rep_I_bas_mat_mtl_Bare_01_A" />
+                  <material id="3" ref="generic.GATS_MasterMaterial_bal_gat_mtl_I_decal" />
+                  <material id="4" ref="generic.kron_mastermaterial_mtl_H_bare_04_B" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.141117" y="0.1289985" z="0.5609015" />
+              <center x="0.01025504" y="-0.0007668734" z="0.6178886" />
+            </size>
+            <size_raw>
+              <max x="0.141117" y="0.1289985" z="0.5609015" />
+              <center x="0.01025504" y="-0.0007668659" z="0.6178886" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="gtx_laser" tags="laser " parent="gtx">
+        <offset>
+          <position x="-0.3379439" y="-0.001533031" z="1.695398" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="gtx_laser001" tags="laser " parent="gtx">
+        <offset>
+          <position x="1.449081" y="0.001532912" z="1.695398" />
+          <quaternion qx="0" qy="0" qz="0.7071068" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="con_turret_laser_s" tags="turret small component combat aegs_perseus_s2">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

@@ -40,15 +40,15 @@
     <connections>
       <connection name="space" tags="ship_s ship" />
       <connection name="position" tags="position" value="1" />
-      <connection name="ConnectionForaegs_avenger_landinggear_back" tags="part animation">
+      <connection name="ConnectionForaegs_avenger_landinggear_back" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
-          <position x="0.00153017" y="-2.665699" z="-4.092545" />
+          <position x="0.00153017" y="-0.228572" z="-4.092545" />
         </offset>
         <parts>
           <part name="aegs_avenger_landinggear_back">
@@ -65,25 +65,26 @@
               </lod>
             </lods>
             <size>
-              <max x="2.174809" y="1.381023" z="1.123608" />
-              <center x="-0.002718449" y="-0.3877594" z="0.2132292" />
+              <max x="2.50103" y="2.600592" z="1.123608" />
+              <center x="-0.003126383" y="-1.605318" z="0.2132289" />
             </size>
             <size_raw>
-              <max x="0.002174809" y="0.001381023" z="0.001123608" />
-              <center x="-2.718356e-06" y="-0.0003877596" z="0.000213229" />
+              <max x="2.500762" y="1.381023" z="1.123608" />
+              <center x="-0.002718508" y="-0.3877596" z="0.2132289" />
             </size_raw>
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForaegs_avenger_landinggear_front" tags="part animation">
+      <connection name="ConnectionForaegs_avenger_landinggear_front" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
-          <position x="0" y="-3.023522" z="6.097014" />
+          <position x="0" y="-1.709957" z="5.78184" />
+          <quaternion qx="0.3823844" qy="0" qz="0" qw="-0.9240034" />
         </offset>
         <parts>
           <part name="aegs_avenger_landinggear_front">
@@ -100,19 +101,19 @@
               </lod>
             </lods>
             <size>
-              <max x="0.24527" y="1.528197" z="1.087872" />
-              <center x="0" y="0.1164424" z="-0.05636644" />
+              <max x="0.24527" y="1.69213" z="1.087872" />
+              <center x="0" y="-1.033191" z="0.2588072" />
             </size>
             <size_raw>
-              <max x="0.00024527" y="0.001528197" z="0.001087872" />
-              <center x="0" y="0.0001164425" z="-5.636649e-05" />
+              <max x="0.24527" y="0.6120346" z="0.5443839" />
+              <center x="3.72529e-09" y="0.1164425" z="-0.05636644" />
             </size_raw>
           </part>
         </parts>
       </connection>
       <connection name="ConnectionForbody" tags="part ">
         <offset>
-          <position x="0" y="-0.473" z="5.702999" />
+          <position x="0" y="-0.473" z="5.703" />
         </offset>
         <parts>
           <part name="body" wreck="body_wreck">
@@ -223,10 +224,10 @@
       </connection>
       <connection name="ConnectionForcanopy_pistona" group="door2" tags="part animation ui require_docked trigger_interact" parent="body">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="120" end="120" />
         </animations>
         <offset>
           <position x="6.1e-05" y="2.046895" z="-2.027626" />
@@ -246,8 +247,12 @@
             </lods>
             <size>
               <max x="0.9676735" y="1.163518" z="2.755328" />
-              <center x="0.001723543" y="-1.074979" z="2.747406" />
+              <center x="0.001723503" y="-1.074979" z="2.747407" />
             </size>
+            <size_raw>
+              <max x="0.9676735" y="1.163518" z="2.755328" />
+              <center x="0.001723543" y="-1.074979" z="2.747406" />
+            </size_raw>
           </part>
         </parts>
       </connection>
@@ -266,9 +271,13 @@
               </lod>
             </lods>
             <size>
+              <max x="0.01141095" y="0.07172704" z="0.3143764" />
+              <center x="0" y="0" z="-4.768372e-07" />
+            </size>
+            <size_raw>
               <max x="0.011411" y="0.071727" z="0.3143765" />
               <center x="0" y="0" z="-5.066395e-07" />
-            </size>
+            </size_raw>
           </part>
         </parts>
       </connection>
@@ -322,10 +331,10 @@
       </connection>
       <connection name="ConnectionFordoor2" group="door" tags="part animation ui require_docked trigger_interact">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="120" end="120" />
         </animations>
         <offset>
           <position x="0.000198" y="-2.221984" z="-7.500085" />
@@ -354,12 +363,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFordoor1"  group="door" tags="part animation ui require_docked trigger_interact" parent="door2">
+      <connection name="ConnectionFordoor1" group="door" tags="part animation ui require_docked trigger_interact" parent="door2">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="120" end="120" />
         </animations>
         <offset>
           <position x="0.00081" y="-0.2946839" z="-0.2290506" />

@@ -245,7 +245,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForscreen001" tags="detail_l part " parent="arm_bottom">
+      <connection name="ConnectionForscreen001" tags="detail_l part nocollision" parent="arm_bottom">
         <offset>
           <position x="-0.1807299" y="-0.716944" z="-0.4891109" />
           <quaternion qx="0" qy="-0.7071067" qz="0" qw="-0.7071068" />
@@ -466,7 +466,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForscreen002" tags="detail_l part " parent="arm_bottom001">
+      <connection name="ConnectionForscreen002" tags="detail_l part nocollision" parent="arm_bottom001">
         <offset>
           <position x="-0.223815" y="-0.716944" z="-0.4891071" />
           <quaternion qx="0" qy="-0.7071067" qz="0" qw="-0.7071068" />
@@ -594,7 +594,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForbody_glows" tags="part ">
+      <connection name="ConnectionForbody_glows" tags="part nocollision">
         <offset>
           <position x="0" y="-5.035441" z="7.725" />
         </offset>
@@ -614,7 +614,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForbody_pipes" tags="detail_l part ">
+      <connection name="ConnectionForbody_pipes" tags="detail_l part nocollision">
         <offset>
           <position x="0" y="-5.035441" z="7.725" />
         </offset>
@@ -635,7 +635,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFordetail1" tags="detail_m part ">
+      <connection name="ConnectionFordetail1" tags="detail_m part nocollision">
         <parts>
           <part name="detail1">
             <lods>
@@ -671,7 +671,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForfx_logo" tags="detail_l part ">
+      <connection name="ConnectionForfx_logo" tags="detail_l part nocollision">
         <parts>
           <part name="fx_logo">
             <lods>
@@ -688,7 +688,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForhammerhead_thruster_mav_fixed" tags="detail_xxl part ">
+      <connection name="ConnectionForhammerhead_thruster_mav_fixed" tags="detail_xxl part nocollision">
         <offset>
           <position x="11.51851" y="4.433733" z="42.65167" />
           <quaternion qx="0" qy="0" qz="0.06104855" qw="-0.9981348" />
@@ -1210,7 +1210,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlanding_gear_back_skin" tags="animation iklink part anim_dockdoor">
+      <connection name="ConnectionForlanding_gear_back_skin" tags="animation iklink part anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="1" end="1"/>
 					<animation name="landinggears_activating" start="1" end="80"/>
@@ -1245,7 +1245,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlanding_gear_back_skin003" tags="animation iklink part anim_dockdoor" parent="landing_gear_back_skin">
+      <connection name="ConnectionForlanding_gear_back_skin003" tags="animation iklink part anim_dockdoor nocollision" parent="landing_gear_back_skin">
         <animations>
 					<animation name="landinggears_inactive" start="1" end="1"/>
 					<animation name="landinggears_activating" start="1" end="80"/>
@@ -1280,7 +1280,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlanding_gear_front_skin002" tags="animation iklink part anim_dockdoor">
+      <connection name="ConnectionForlanding_gear_front_skin002" tags="animation iklink part anim_dockdoor nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="1" end="1"/>
 					<animation name="landinggears_activating" start="1" end="80"/>
@@ -1312,7 +1312,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlanding_gear_front_skin" tags="animation iklink part anim_dockdoor " parent="landing_gear_front_skin002">
+      <connection name="ConnectionForlanding_gear_front_skin" tags="animation iklink part anim_dockdoor nocollision" parent="landing_gear_front_skin002">
         <animations>
 					<animation name="landinggears_inactive" start="1" end="1"/>
 					<animation name="landinggears_activating" start="1" end="80"/>
@@ -1347,7 +1347,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlanding_gear_front_skin001" tags="animation iklink part anim_dockdoor " parent="landing_gear_front_skin">
+      <connection name="ConnectionForlanding_gear_front_skin001" tags="animation iklink part anim_dockdoor nocollision" parent="landing_gear_front_skin">
         <animations>
 					<animation name="landinggears_inactive" start="1" end="1"/>
 					<animation name="landinggears_activating" start="1" end="80"/>
@@ -1382,7 +1382,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlanding_gear_front_skin005" tags="animation iklink part anim_dockdoor " parent="landing_gear_front_skin">
+      <connection name="ConnectionForlanding_gear_front_skin005" tags="animation iklink part anim_dockdoor nocollision" parent="landing_gear_front_skin">
         <animations>
 					<animation name="landinggears_inactive" start="1" end="1"/>
 					<animation name="landinggears_activating" start="1" end="80"/>
@@ -1416,7 +1416,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlanding_gear_front_skin006" tags="animation iklink part anim_dockdoor " parent="landing_gear_front_skin002">
+      <connection name="ConnectionForlanding_gear_front_skin006" tags="animation iklink part anim_dockdoor nocollision" parent="landing_gear_front_skin002">
         <animations>
 					<animation name="landinggears_inactive" start="1" end="1"/>
 					<animation name="landinggears_activating" start="1" end="80"/>
@@ -1448,7 +1448,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlanding_gear_front_skin003" tags="animation iklink part anim_dockdoor " parent="landing_gear_front_skin006">
+      <connection name="ConnectionForlanding_gear_front_skin003" tags="animation iklink part anim_dockdoor nocollision" parent="landing_gear_front_skin006">
         <animations>
 					<animation name="landinggears_inactive" start="1" end="1"/>
 					<animation name="landinggears_activating" start="1" end="80"/>
@@ -1484,7 +1484,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlanding_gear_front_skin004" tags="animation iklink part anim_dockdoor " parent="landing_gear_front_skin003">
+      <connection name="ConnectionForlanding_gear_front_skin004" tags="animation iklink part anim_dockdoor nocollision" parent="landing_gear_front_skin003">
         <animations>
 					<animation name="landinggears_inactive" start="1" end="1"/>
 					<animation name="landinggears_activating" start="1" end="80"/>
@@ -1658,7 +1658,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForscreen" tags="part " parent="platform001">
+      <connection name="ConnectionForscreen" tags="part nocollision" parent="platform001">
         <parts>
           <part name="screen">
             <lods>

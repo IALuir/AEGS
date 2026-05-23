@@ -55,7 +55,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForhorizontal_rotation_pivot_mesh" tags="part animation ui detail_xl chair nocollision forceoutline walk_exclude walk_excludeplayer chairreservation" parent="horizontal_rotation_pivot">
+      <connection name="ConnectionForhorizontal_rotation_pivot_mesh" tags="part animation ui detail_xl chair forceoutline walk_exclude walk_excludeplayer chairreservation" parent="horizontal_rotation_pivot">
         <parts>
           <part name="horizontal_rotation_pivot_mesh">
             <lods>

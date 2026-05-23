@@ -13,6 +13,7 @@
 				<set_value name="$Object_polaris" exact="[]"/>
 				<set_value name="$Object_carrack" exact="[]"/>
 				<set_value name="$Object_javelin" exact="[]"/>
+				<create_group groupname="$Object_polaris_group"/>
 				<debug_text text="'ship_animations_start'"/>
 
 				<reset_cue cue="ship_animations_start_01"/>
@@ -21,51 +22,64 @@
 				<reset_cue cue="ship_carrack_animations_start_01"/>
 				<reset_cue cue="ship_javelin_animations_start_01"/>
 				<reset_cue cue="ship_carrack_animations_lift_01"/>
+				<reset_cue cue="ship_polaris_animations_lift_01"/>
+				<reset_cue cue="ship_polaris_animations_lift_02"/>
+				<reset_cue cue="ship_perseus_animations_lift_01"/>
 			</actions>
 			<cues>
-				<cue name="ship_animations_start_01" instantiate="true" checkinterval="20min">
+				<cue name="ship_animations_start_01" instantiate="true" checkinterval="1min">
 					<actions>
 						<set_value name="$Object_bengal" exact="[]"/>
 						<set_value name="$Object_polaris" exact="[]"/>
 						<set_value name="$Object_carrack" exact="[]"/>
 						<set_value name="$Object_javelin" exact="[]"/>
 
-						<find_ship name="$Object_bengal" macro="macro.ship_aegs_l_bengal_macro" multiple="true" append="true"/>
-						<find_ship name="$Object_polaris" macro="macro.polaris_macro" multiple="true" append="true"/>
-						<find_ship name="$Object_carrack" macro="macro.carrack_macro" multiple="true" append="true"/>
-						<find_ship name="$Object_javelin" macro="macro.ship_aegs_l_javelin_macro" multiple="true" append="true"/>
+						<find_ship name="$Object_bengal" macro="macro.ship_aegs_l_bengal_macro" space="player.galaxy" multiple="true" append="true"/>
+						<find_ship name="$Object_polaris" macro="macro.polaris_macro" space="player.galaxy" multiple="true" append="true"/>
+						<find_ship name="$Object_carrack" macro="macro.carrack_macro" space="player.galaxy" multiple="true" append="true"/>
+						<find_ship name="$Object_javelin" macro="macro.ship_aegs_l_javelin_macro" space="player.galaxy" multiple="true" append="true"/>
 					</actions>
 				</cue>
 
-				<cue name="ship_bengal_animations_start_01" instantiate="true" checkinterval="3s">
+				<cue name="ship_bengal_animations_start_01" instantiate="true" checkinterval="5s">
 					<actions>
 						<do_for_each name="$ship" in="$Object_bengal">
 							<set_value name="$hasdock" exact="0"/>
+							<set_value name="$dockstatekey" exact="'aegs_bengal_door_' + $ship.idcode"/>
 							<find_dockingbay name="$dockingbays" object="$ship" multiple="true"/>
 							<do_all exact="$dockingbays.count" counter="$i">
 								<do_if value="$dockingbays.{$i}.assignedship and not $dockingbays.{$i}.assignedship.dock">
 									<set_value name="$hasdock" exact="1"/>
 								</do_if>
 							</do_all>
-							<do_if value="$hasdock == 0">
-								<trigger_animation object="$ship" group="'front_door'" trigger="deactivate" />
-								<trigger_animation object="$ship" group="'back_door'" trigger="deactivate" />
-								<trigger_animation object="$ship" group="'top_door'" trigger="deactivate" />
+							<do_if value="@userdata.{$dockstatekey} != $hasdock">
+								<do_if value="$hasdock == 0">
+									<trigger_animation object="$ship" group="'front_door'" trigger="deactivate" />
+									<trigger_animation object="$ship" group="'back_door'" trigger="deactivate" />
+									<trigger_animation object="$ship" group="'top_door'" trigger="deactivate" />
+								</do_if>
+								<do_else>
+									<trigger_animation object="$ship" group="'front_door'" trigger="activate" />
+									<trigger_animation object="$ship" group="'back_door'" trigger="activate" />
+									<trigger_animation object="$ship" group="'top_door'" trigger="activate" />
+								</do_else>
+								<set_userdata name="$dockstatekey" value="$hasdock"/>
 							</do_if>
-							<do_else>
-								<trigger_animation object="$ship" group="'front_door'" trigger="activate" />
-								<trigger_animation object="$ship" group="'back_door'" trigger="activate" />
-								<trigger_animation object="$ship" group="'top_door'" trigger="activate" />
-							</do_else>
 						</do_for_each>
 					</actions>
 				</cue>
 
-				<cue name="ship_polaris_animations_start_01" instantiate="true"  checkinterval="3s">
+				<cue name="ship_polaris_animations_start_01" instantiate="true"  checkinterval="5s">
 					<actions>
+						<clear_group group="$Object_polaris_group"/>
 						<do_for_each name="$ship" in="$Object_polaris">
+
+							<add_to_group groupname="$Object_polaris_group" object="$ship"/>
+
 							<set_value name="$hasdock" exact="0"/>
 							<set_value name="$hasactive" exact="0"/>
+							<set_value name="$turretstatekey" exact="'aegs_polaris_turret_' + $ship.idcode"/>
+							<set_value name="$dockstatekey" exact="'aegs_polaris_topdoor_' + $ship.idcode"/>
 							<find_object_component name="$turrets" object="$ship" class="class.turret" checkoperational="false" multiple="true"/>
 							<do_if value="$turrets.count">
 								<do_all exact="$turrets.count" counter="$i">
@@ -74,54 +88,65 @@
 									</do_if>
 								</do_all>
 							</do_if>
-							<do_if value="$hasactive == 1">
-								<trigger_animation object="$ship" group="'left_turret'" trigger="activate_turret_hatch" />
-								<trigger_animation object="$ship" group="'right_turret'" trigger="activate_turret_hatch" />
+							<do_if value="@userdata.{$turretstatekey} != $hasactive">
+								<do_if value="$hasactive == 1">
+									<trigger_animation object="$ship" group="'left_turret'" trigger="activate" />
+									<trigger_animation object="$ship" group="'right_turret'" trigger="activate" />
+								</do_if>
+								<do_else>
+									<trigger_animation object="$ship" group="'left_turret'" trigger="deactivate" />
+									<trigger_animation object="$ship" group="'right_turret'" trigger="deactivate" />
+								</do_else>
+								<set_userdata name="$turretstatekey" value="$hasactive"/>
 							</do_if>
-							<do_else>
-								<trigger_animation object="$ship" group="'left_turret'" trigger="deactivate_turret_hatch" />
-								<trigger_animation object="$ship" group="'right_turret'" trigger="deactivate_turret_hatch" />
-							</do_else>
 							<find_dockingbay name="$dockingbays" object="$ship" multiple="true"/>
 							<do_all exact="$dockingbays.count" counter="$i">
 								<do_if value="$dockingbays.{$i}.assignedship and not $dockingbays.{$i}.assignedship.dock">
 									<set_value name="$hasdock" exact="1"/>
 								</do_if>
 							</do_all>
-							<do_if value="$hasdock">
-								<trigger_animation object="$ship" group="'door'" trigger="activate" />
+							<do_if value="@userdata.{$dockstatekey} != $hasdock">
+								<do_if value="$hasdock">
+									<trigger_animation object="$ship" group="'top_door'" trigger="activate" />
+								</do_if>
+								<do_else>
+									<trigger_animation object="$ship" group="'top_door'" trigger="deactivate" />
+								</do_else>
+								<set_userdata name="$dockstatekey" value="$hasdock"/>
 							</do_if>
-							<do_else>
-								<trigger_animation object="$ship" group="'door'" trigger="deactivate" />
-							</do_else>
 						</do_for_each>
 					</actions>
 				</cue>
 
-				<cue name="ship_carrack_animations_start_01" instantiate="true"  checkinterval="3s">
+				<cue name="ship_carrack_animations_start_01" instantiate="true"  checkinterval="5s">
 					<actions>
 						<do_for_each name="$ship" in="$Object_carrack">
 							<find_dockingbay name="$dockingbays" object="$ship" multiple="true"/>
 							<set_value name="$hasdock" exact="0"/>
+							<set_value name="$dockstatekey" exact="'aegs_carrack_topdoor_' + $ship.idcode"/>
 							<do_all exact="$dockingbays.count" counter="$i">
 								<do_if value="$dockingbays.{$i}.assignedship and not $dockingbays.{$i}.assignedship.dock">
 									<set_value name="$hasdock" exact="1"/>
 								</do_if>
 							</do_all>
-							<do_if value="$hasdock">
-								<trigger_animation object="$ship" group="'top_door'" trigger="activate" />
+							<do_if value="@userdata.{$dockstatekey} != $hasdock">
+								<do_if value="$hasdock">
+									<trigger_animation object="$ship" group="'top_door'" trigger="activate" />
+								</do_if>
+								<do_else>
+									<trigger_animation object="$ship" group="'top_door'" trigger="deactivate" />
+								</do_else>
+								<set_userdata name="$dockstatekey" value="$hasdock"/>
 							</do_if>
-							<do_else>
-								<trigger_animation object="$ship" group="'top_door'" trigger="deactivate" />
-							</do_else>
 						</do_for_each>
 					</actions>
 				</cue>
 
-				<cue name="ship_javelin_animations_start_01" instantiate="true"  checkinterval="3s">
+				<cue name="ship_javelin_animations_start_01" instantiate="true"  checkinterval="5s">
 					<actions>
 						<do_for_each name="$ship" in="$Object_javelin">
 							<set_value name="$hasdock" exact="0"/>
+							<set_value name="$dockstatekey" exact="'aegs_javelin_door_' + $ship.idcode"/>
 							<find_dockingbay name="$dockingbays" object="$ship" multiple="true"/>
 							<do_all exact="$dockingbays.count" counter="$i">
 								<set_value name="$anima_dockingbay" exact="$dockingbays.{$i}"/>
@@ -129,15 +154,30 @@
 									<set_value name="$hasdock" exact="1"/>
 								</do_if>
 							</do_all>
-							<do_if value="$hasdock == 0">
-								<trigger_animation object="$anima_dockingbay" group="'open'" trigger="deactivate" />
-								<trigger_animation object="$ship" group="'door'" trigger="deactivate" />
+							<do_if value="@userdata.{$dockstatekey} != $hasdock">
+								<do_if value="$hasdock == 0">
+									<trigger_animation object="$anima_dockingbay" group="'open'" trigger="deactivate" />
+									<trigger_animation object="$ship" group="'door'" trigger="deactivate" />
+								</do_if>
+								<do_else>
+									<trigger_animation object="$ship" group="'door'" trigger="activate" />
+									<trigger_animation object="$anima_dockingbay" group="'open'" trigger="activate" />
+								</do_else>
+								<set_userdata name="$dockstatekey" value="$hasdock"/>
 							</do_if>
-							<do_else>
-								<trigger_animation object="$ship" group="'door'" trigger="activate" />
-								<trigger_animation object="$anima_dockingbay" group="'open'" trigger="activate" />
-							</do_else>
 						</do_for_each>
+					</actions>
+				</cue>
+
+				<cue name="ship_polaris_animations_lift_02" instantiate="true">
+					<conditions>
+						<check_any>
+							<event_object_docked group="$Object_polaris_group" />
+						</check_any>
+					</conditions>
+					<actions>
+						<trigger_animation object="event.object" group="'lift2'" trigger="switch03" />
+						<trigger_animation object="event.object" group="'bottom_door'" trigger="activate" />
 					</actions>
 				</cue>
 			</cues>
@@ -189,5 +229,73 @@
             </actions>
         </cue>
 
+		<cue name="ship_polaris_animations_lift_01" instantiate="true">
+            <conditions>
+				<check_any>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift1_button_1"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift1_button_2"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift1_button_3"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift2_button_1"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift2_button_2"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift2_button_3"/>
+
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift1_button_call_1"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift1_button_call_2"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift1_button_call_3"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.bottom_button"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift2_button_call_2"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift2_button_call_3"/>
+                </check_any>
+            </conditions>
+            <actions>
+				<do_if value="event.param2 == tag.lift1_button_1 or event.param2 == tag.lift1_button_call_1">
+					<trigger_animation object="player.ship" group="'lift1'" trigger="switch01" />
+				</do_if>
+				<do_elseif value="event.param2 == tag.lift1_button_2 or event.param2 == tag.lift1_button_call_2">
+					<trigger_animation object="player.ship" group="'lift1'" trigger="switch02" />
+				</do_elseif>
+				<do_elseif value="event.param2 == tag.lift1_button_3 or event.param2 == tag.lift1_button_call_3">
+					<trigger_animation object="player.ship" group="'lift1'" trigger="switch03" />
+				</do_elseif>
+
+				<do_if value="event.param2 == tag.lift2_button_1 or event.param2 == tag.bottom_button">
+					<trigger_animation object="player.ship" group="'lift2'" trigger="switch03" />
+					<trigger_animation object="player.ship" group="'bottom_door'" trigger="activate" />
+				</do_if>
+				<do_elseif value="event.param2 == tag.lift2_button_2 or event.param2 == tag.lift2_button_call_2">
+					<trigger_animation object="player.ship" group="'lift2'" trigger="switch02" />
+					<trigger_animation object="player.ship" group="'bottom_door'" trigger="deactivate" />
+				</do_elseif>
+				<do_elseif value="event.param2 == tag.lift2_button_3 or event.param2 == tag.lift2_button_call_3">
+					<trigger_animation object="player.ship" group="'lift2'" trigger="switch01" />
+					<trigger_animation object="player.ship" group="'bottom_door'" trigger="deactivate" />
+				</do_elseif>
+            </actions>
+        </cue>
+
+		<cue name="ship_perseus_animations_lift_01" instantiate="true">
+            <conditions>
+				<check_any>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift_button_1"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift_button_2"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift_button_3"/>
+
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift_call_1"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift_call_2"/>
+					<event_player_activated_platform_trigger component="player.ship" group="tag.lift_call_3"/>
+                </check_any>
+            </conditions>
+            <actions>
+				<do_if value="event.param2 == tag.lift_button_1 or event.param2 == tag.lift_call_1">
+					<trigger_animation object="player.ship" group="'lift_2'" trigger="switch01" />
+				</do_if>
+				<do_elseif value="event.param2 == tag.lift_button_2 or event.param2 == tag.lift_call_2">
+					<trigger_animation object="player.ship" group="'lift_2'" trigger="switch02" />
+				</do_elseif>
+				<do_elseif value="event.param2 == tag.lift_button_3 or event.param2 == tag.lift_call_3">
+					<trigger_animation object="player.ship" group="'lift_2'" trigger="switch03" />
+				</do_elseif>
+            </actions>
+        </cue>
 	</cues>
 </mdscript>

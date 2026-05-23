@@ -1068,7 +1068,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForfx_logo" tags="part ">
+      <connection name="ConnectionForfx_logo" tags="part nocollision">
         <offset>
           <position x="0" y="12.841" z="-58.91846" />
         </offset>
@@ -1425,7 +1425,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlights" tags="part ">
+      <connection name="ConnectionForlights" tags="part nocollision">
         <offset>
           <position x="0" y="1e-06" z="-4e-06" />
         </offset>
@@ -1562,7 +1562,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpersonnel_door1" group="elevator_01 " tags="part animation require_docked">
+      <connection name="ConnectionForpersonnel_door1" group="elevator_01 " tags="part animation require_docked nocollision">
         <animations>
           <animation name="deactivated" start="1" end="1" />
           <animation name="activating" start="1" end="80" />
@@ -1595,7 +1595,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpersonnel_door2" group="elevator_01 " tags="part animation require_docked">
+      <connection name="ConnectionForpersonnel_door2" group="elevator_01 " tags="part animation require_docked nocollision">
         <animations>
           <animation name="deactivated" start="1" end="1" />
           <animation name="activating" start="1" end="80" />
@@ -1627,7 +1627,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForMount" tags="part ">
+      <connection name="ConnectionForMount" tags="part nocollision">
         <offset>
           <position x="0" y="-11.90119" z="0" />
         </offset>
@@ -1657,7 +1657,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForBig_Piston_Mount_Top_Left" tags="part animation" parent="Mount">
+      <connection name="ConnectionForBig_Piston_Mount_Top_Left" tags="part animation nocollision" parent="Mount">
         <animations>
 					<animation name="scraphatch_closed" start="1" end="1"/>
 					<animation name="scraphatch_opening" start="1" end="80"/>
@@ -1694,7 +1694,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForBig_Piston_Mount_Top_Right" tags="part animation" parent="Mount">
+      <connection name="ConnectionForBig_Piston_Mount_Top_Right" tags="part animation nocollision" parent="Mount">
         <animations>
 					<animation name="scraphatch_closed" start="1" end="1"/>
 					<animation name="scraphatch_opening" start="1" end="80"/>
@@ -1731,7 +1731,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForMain_Arm" tags="part animation" parent="Mount">
+      <connection name="ConnectionForMain_Arm" tags="part animation nocollision" parent="Mount">
         <animations>
 					<animation name="scraphatch_closed" start="1" end="1"/>
 					<animation name="scraphatch_opening" start="1" end="80"/>
@@ -1770,7 +1770,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForForearm_Carriage" tags="part animation" parent="Main_Arm">
+      <connection name="ConnectionForForearm_Carriage" tags="part animation nocollision" parent="Main_Arm">
         <animations>
 					<animation name="scraphatch_closed" start="1" end="1"/>
 					<animation name="scraphatch_opening" start="1" end="80"/>
@@ -1809,7 +1809,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForBig_Piston_Mount_Bottom_Left" tags="part animation" parent="Forearm_Carriage">
+      <connection name="ConnectionForBig_Piston_Mount_Bottom_Left" tags="part animation nocollision" parent="Forearm_Carriage">
         <animations>
 					<animation name="scraphatch_closed" start="1" end="1"/>
 					<animation name="scraphatch_opening" start="1" end="80"/>
@@ -1843,7 +1843,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForBig_Piston_Mount_Bottom_Right" tags="part animation" parent="Forearm_Carriage">
+      <connection name="ConnectionForBig_Piston_Mount_Bottom_Right" tags="part animation nocollision" parent="Forearm_Carriage">
         <animations>
 					<animation name="scraphatch_closed" start="1" end="1"/>
 					<animation name="scraphatch_opening" start="1" end="80"/>
@@ -1877,7 +1877,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForForearm_Base" tags="part animation" parent="Forearm_Carriage">
+      <connection name="ConnectionForForearm_Base" tags="part animation nocollision" parent="Forearm_Carriage">
         <animations>
 					<animation name="scraphatch_closed" start="1" end="1"/>
 					<animation name="scraphatch_opening" start="1" end="80"/>
@@ -1915,7 +1915,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForForearm_Geo" tags="part " parent="Forearm_Base">
+      <connection name="ConnectionForForearm_Geo" tags="part nocollision" parent="Forearm_Base">
         <offset>
           <position x="6.995905" y="1.979681e-06" z="-0.3015925" />
           <quaternion qx="1.192093e-07" qy="-1.036936e-07" qz="1" qw="-1.629202e-07" />
@@ -1948,7 +1948,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForHead" tags="part " parent="Forearm_Geo">
+      <connection name="ConnectionForHead" tags="part nocollision" parent="Forearm_Geo">
         <offset>
           <position x="-18.12189" y="3.397203e-06" z="0.008280456" />
           <quaternion qx="5.960464e-08" qy="1.039699e-07" qz="-1" qw="-2.821292e-07" />
@@ -1980,7 +1980,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForFinger_BL_Cylinder" tags="part animation" parent="Head">
+      <connection name="ConnectionForFinger_BL_Cylinder" tags="part animation nocollision" parent="Head">
         <animations>
 					<animation name="scraphatch_closed" start="1" end="1"/>
 					<animation name="scraphatch_opening" start="1" end="80"/>
@@ -2017,7 +2017,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForFinger_BR_Cylinder" tags="part animation" parent="Head">
+      <connection name="ConnectionForFinger_BR_Cylinder" tags="part animation nocollision" parent="Head">
         <animations>
 					<animation name="scraphatch_closed" start="1" end="1"/>
 					<animation name="scraphatch_opening" start="1" end="80"/>
@@ -2054,7 +2054,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForFinger_TL_Cylinder" tags="part animation" parent="Head">
+      <connection name="ConnectionForFinger_TL_Cylinder" tags="part animation nocollision" parent="Head">
         <animations>
 					<animation name="scraphatch_closed" start="1" end="1"/>
 					<animation name="scraphatch_opening" start="1" end="80"/>
@@ -2091,7 +2091,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForFinger_TR_Cylinder" tags="part animation" parent="Head">
+      <connection name="ConnectionForFinger_TR_Cylinder" tags="part animation nocollision" parent="Head">
         <animations>
 					<animation name="scraphatch_closed" start="1" end="1"/>
 					<animation name="scraphatch_opening" start="1" end="80"/>
@@ -2128,7 +2128,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForIntake_Funnel" tags="part " parent="Head">
+      <connection name="ConnectionForIntake_Funnel" tags="part nocollision" parent="Head">
         <offset>
           <position x="3.457096" y="-1.000006e-06" z="0.7251962" />
           <quaternion qx="-5.380945e-09" qy="5.48504e-09" qz="0.7071068" qw="-0.7071068" />
@@ -2157,7 +2157,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForCrusher_Left" tags="part animation" parent="Intake_Funnel">
+      <connection name="ConnectionForCrusher_Left" tags="part animation nocollision" parent="Intake_Funnel">
         <animations>
 					<animation name="loop" start="1" end="80"/>
 				</animations>
@@ -2186,7 +2186,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForCrusher_Right" tags="part animation" parent="Intake_Funnel">
+      <connection name="ConnectionForCrusher_Right" tags="part animation nocollision" parent="Intake_Funnel">
         <animations>
 					<animation name="loop" start="1" end="80"/>
 				</animations>

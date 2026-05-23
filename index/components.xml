@@ -50,6 +50,8 @@
 		<entry name="blade" value="extensions\AEGS\assets\units\size_s\blade"/>
 		<entry name="glaive" value="extensions\AEGS\assets\units\size_s\glaive"/>
 		<entry name="scythe" value="extensions\AEGS\assets\units\size_s\scythe"/>
+		<entry name="perseus" value="extensions\AEGS\assets\units\size_m\perseus"/>
+		<entry name="mauler" value="extensions\AEGS\assets\units\size_l\mauler"/>
 
 		<!-- 引擎 -->
 		<entry name="engine_aegs_m_javelin" value="extensions\AEGS\assets\props\Engines\engine_aegs_m_javelin" />
@@ -93,6 +95,8 @@
 		<entry name="sabre_peregrine_engine" value="extensions\AEGS\assets\props\Engines\sabre_peregrine_engine" />
 		<entry name="blade_engine" value="extensions\AEGS\assets\props\Engines\blade_engine" />
 		<entry name="glaive_engine" value="extensions\AEGS\assets\props\Engines\glaive_engine"/>
+		<entry name="perseus_engine" value="extensions\AEGS\assets\props\Engines\perseus_engine"/>
+		<entry name="mauler_engine" value="extensions\AEGS\assets\props\Engines\mauler_engine"/>
 
 		<!-- 护盾 -->
       <entry name="shield_aegs_civilian_akura" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_civilian_akura" />
@@ -122,7 +126,7 @@
       <entry name="shield_aegs_millitary_fr76" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_millitary_fr76" />
       <entry name="shield_aegs_millitary_fr86" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_millitary_fr86" />
 	  <entry name="shield_aegs_millitary_fr96" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_millitary_fr96" />
-      <entry name="shield_aegs_millitary_fullblock" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_civilian_akura" />
+      <entry name="shield_aegs_millitary_fullblock" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_millitary_fullblock" />
       <entry name="shield_aegs_millitary_fullstop" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_millitary_fullstop" />
       <entry name="shield_aegs_millitary_sukoran" value="extensions\aegs\assets\props\SurfaceElements\shield_aegs_millitary_sukoran" />
 
@@ -218,6 +222,7 @@
 		<entry name="polaris_turret2_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret2_gtx"/>
 		<entry name="polaris_turret2_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret2_mxa"/>
 		<entry name="polaris_turret2_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret2_sp"/>
+		<entry name="polaris_turret3" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret3"/>
 		<entry name="polaris_turret2_missile" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\polaris_turret2_missile"/>
 		<entry name="carrack_turret_1_ad" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_1_ad"/>
 		<entry name="carrack_turret_1_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_1_cf"/>
@@ -232,6 +237,16 @@
 		<entry name="carrack_turret_3_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_3_cf"/>
 		<entry name="carrack_turret_3_db" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_3_db"/>
 		<entry name="carrack_turret_3_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\carrack_turret_3_mxa"/>
+		<entry name="perseus_turret2_cf" value="extensions\AEGS\assets\props\weaponsystems\capital\perseus\perseus_turret2_cf"/>
+		<entry name="perseus_turret2_gtx" value="extensions\AEGS\assets\props\weaponsystems\capital\perseus\perseus_turret2_gtx"/>
+		<entry name="perseus_turret2_mxa" value="extensions\AEGS\assets\props\weaponsystems\capital\perseus\perseus_turret2_mxa"/>
+		<entry name="perseus_turret2_sp" value="extensions\AEGS\assets\props\weaponsystems\capital\perseus\perseus_turret2_sp"/>
+		<entry name="perseus_turret1" value="extensions\AEGS\assets\props\weaponsystems\capital\perseus\perseus_turret1"/>
+		<entry name="perseus_turret3" value="extensions\AEGS\assets\props\weaponsystems\capital\perseus\perseus_turret3"/>
+		<entry name="mauler_turret1" value="extensions\AEGS\assets\props\weaponsystems\capital\mauler\mauler_turret1"/>
+		<entry name="mauler_turret2" value="extensions\AEGS\assets\props\weaponsystems\capital\mauler\mauler_turret2"/>
+		<entry name="mauler_turret3" value="extensions\AEGS\assets\props\weaponsystems\capital\mauler\mauler_turret3"/>
+		<entry name="mauler_turret4" value="extensions\AEGS\assets\props\weaponsystems\capital\mauler\mauler_turret4"/>
 
 		<!-- 特殊武器 -->
 		<entry name="wepon_f8c_missile" value="extensions\AEGS\assets\props\weaponsystems\capital\f8\wepon_f8c_missile"/>
@@ -251,6 +266,7 @@
 		<entry name="wepon_missile_blade_missile" value="extensions\AEGS\assets\props\weaponsystems\capital\missile\wepon_missile_blade_missile"/>
 		<entry name="weapon_glaive_s3" value="extensions\aegs\assets\props\weaponsystems\generic\weapon_glaive_s3"/>
 		<entry name="weapon_glaive_s2" value="extensions\aegs\assets\props\weaponsystems\generic\weapon_glaive_s2"/>
+		<entry name="mauler_maingun" value="extensions\AEGS\assets\props\weaponsystems\capital\mauler\mauler_maingun"/>
 
 		<!-- 实体导弹 -->
 		<entry name="missile_s2" value="extensions\AEGS\assets\props\weaponsystems\generic\missile_s2"/>
@@ -334,6 +350,7 @@
 		<entry name="bullet_blue_m" value="extensions\AEGS\assets\fx\weaponfx\bullet_blue_m"/>
 		<entry name="bullet_railgun_sx" value="extensions\AEGS\assets\fx\weaponfx\bullet_railgun_sx"/>
 		<entry name="retribution_maingun_bullet" value="extensions\AEGS\assets\fx\weaponfx\retribution_maingun_bullet"/>
+		<entry name="mauler_maingun_bullet" value="extensions\AEGS\assets\fx\weaponfx\mauler_maingun_bullet"/>
 
 		<!-- 导弹 -->
 		<entry name="missile_s12_seeker_xii" value="extensions\AEGS\assets\props\weaponsystems\missile\missile_s12_seeker_xii"/>
@@ -436,6 +453,7 @@
 		<entry name="redeemer_seat" value="extensions\AEGS\assets\interiors\xref_parts\redeemer_seat"/>
 		<entry name="mole_seat" value="extensions\AEGS\assets\interiors\xref_parts\mole_seat"/>
 		<entry name="polaris_seat" value="extensions\AEGS\assets\interiors\xref_parts\polaris_seat"/>
+		<entry name="polaris_seat2" value="extensions\AEGS\assets\interiors\xref_parts\polaris_seat2"/>
 		<entry name="prospector_seat" value="extensions\AEGS\assets\interiors\xref_parts\prospector_seat"/>
 		<entry name="carrack_seat" value="extensions\AEGS\assets\interiors\xref_parts\carrack_seat"/>
 		<entry name="carrack_seat2" value="extensions\AEGS\assets\interiors\xref_parts\carrack_seat2"/>
@@ -443,5 +461,8 @@
 		<entry name="caterpillar_seat" value="extensions\AEGS\assets\interiors\xref_parts\caterpillar_seat"/>
 		<entry name="defender_seat" value="extensions\AEGS\assets\interiors\xref_parts\defender_seat"/>
 		<entry name="sabre_firebrid_seat" value="extensions\AEGS\assets\interiors\xref_parts\sabre_firebrid_seat"/>
+		<entry name="perseus_seat1" value="extensions\AEGS\assets\interiors\xref_parts\perseus_seat1"/>
+		<entry name="perseus_seat2" value="extensions\AEGS\assets\interiors\xref_parts\perseus_seat2"/>
+		<entry name="perseus_seat3" value="extensions\AEGS\assets\interiors\xref_parts\perseus_seat3"/>
 	</add>
 </diff>

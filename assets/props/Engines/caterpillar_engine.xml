@@ -9,7 +9,7 @@
     <connections>
       <connection name="container" tags="contents" value="0"/>
 			<connection name="position" tags="position" value="1"/>
-      <connection name="ConnectionFormain_engine" tags="part speedscale_forward textureanimation">
+      <connection name="ConnectionFormain_engine" tags="part speedscale_forward textureanimation nocollision">
         <parts>
           <part name="main_engine">
             <lods>

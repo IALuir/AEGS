@@ -9,7 +9,7 @@
     <connections>
       <connection name="container" tags="contents" value="0"/>
 			<connection name="position" tags="position" value="1"/>
-      <connection name="ConnectionForargomolemainmesh" tags="part ">
+      <connection name="ConnectionForargomolemainmesh" tags="part nocollision">
         <parts>
           <part name="argomolemainmesh">
             <lods>

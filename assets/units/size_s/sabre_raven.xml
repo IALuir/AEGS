@@ -236,7 +236,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggear" tags="part animation">
+      <connection name="ConnectionForlandinggear" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="60"/>
@@ -272,7 +272,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggear001" tags="part animation">
+      <connection name="ConnectionForlandinggear001" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="60"/>
@@ -308,7 +308,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForlandinggear002" tags="part animation">
+      <connection name="ConnectionForlandinggear002" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
 					<animation name="landinggears_activating" start="0" end="60"/>
@@ -838,6 +838,11 @@
 				<offset>
           <position x="0" y="0.271409" z="8.99202" />
         </offset>
+			</connection>
+      <connection name="con_storage01" tags="storage ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
 			</connection>
 
       <connection name="con_countermeasures_01" tags="countermeasures ">

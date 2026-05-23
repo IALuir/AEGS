@@ -9,7 +9,7 @@
     <connections>
       <connection name="container" tags="contents" value="0"/>
       <connection name="position" tags="position" value="1" />
-      <connection name="ConnectionFormain" tags="part ">
+      <connection name="ConnectionFormain" tags="part nocollision">
         <restrictions>
 					<restriction type="rotation_y">
 						<limits>
@@ -34,7 +34,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFordb_bas" tags="part " parent="main">
+      <connection name="ConnectionFordb_bas" tags="part nocollision" parent="main">
         <restrictions>
 					<restriction type="rotation_x">
 						<limits>
@@ -106,7 +106,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFordb_bar" tags="part " parent="db_bas">
+      <connection name="ConnectionFordb_bar" tags="part nocollision" parent="db_bas">
         <offset>
           <position x="0" y="-0.6580958" z="0.8535092" />
         </offset>

@@ -50,6 +50,8 @@
       <entry name="blade_macro" value="extensions\AEGS\assets\units\size_s\macros\blade_macro" />
       <entry name="glaive_macro" value="extensions\AEGS\assets\units\size_s\macros\glaive_macro" />
       <entry name="scythe_macro" value="extensions\AEGS\assets\units\size_s\macros\scythe_macro" />
+      <entry name="perseus_macro" value="extensions\AEGS\assets\units\size_m\macros\perseus_macro" />
+      <entry name="mauler_macro" value="extensions\AEGS\assets\units\size_l\macros\mauler_macro" />
 
       <!-- 引擎 -->
       <entry name="engine_aegs_m_javelin_macro" value="extensions\AEGS\assets\props\Engines\macros\engine_aegs_m_javelin_macro" />
@@ -93,6 +95,8 @@
       <entry name="sabre_peregrine_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\sabre_peregrine_engine_macro" />
       <entry name="blade_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\blade_engine_macro" />
       <entry name="glaive_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\glaive_engine_macro" />
+      <entry name="perseus_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\perseus_engine_macro" />
+      <entry name="mauler_engine_macro" value="extensions\AEGS\assets\props\Engines\macros\mauler_engine_macro" />
 
       <!-- 护盾 -->
       <entry name="shield_aegs_civilian_akura_macro" value="extensions\aegs\assets\props\SurfaceElements\macros\shield_aegs_civilian_akura_macro" />
@@ -239,6 +243,7 @@
       <entry name="polaris_turret2_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret2_mxa_macro"/>
       <entry name="polaris_turret2_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret2_gtx_macro"/>
       <entry name="polaris_turret2_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret2_sp_macro"/>
+      <entry name="polaris_turret3_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret3_macro"/>
       <entry name="polaris_turret2_missile_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\polaris\macros\polaris_turret2_missile_macro"/>
 
       <entry name="carrack_turret_1_ad_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_1_ad_macro"/>
@@ -254,6 +259,18 @@
       <entry name="carrack_turret_3_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_3_cf_macro"/>
       <entry name="carrack_turret_3_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_3_mxa_macro"/>
       <entry name="carrack_turret_3_db_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\carrack\macros\carrack_turret_3_db_macro"/>
+
+      <entry name="perseus_turret1_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\perseus\macros\perseus_turret1_macro"/>
+      <entry name="perseus_turret3_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\perseus\macros\perseus_turret3_macro"/>
+      <entry name="perseus_turret2_cf_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\perseus\macros\perseus_turret2_cf_macro"/>
+      <entry name="perseus_turret2_gtx_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\perseus\macros\perseus_turret2_gtx_macro"/>
+      <entry name="perseus_turret2_mxa_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\perseus\macros\perseus_turret2_mxa_macro"/>
+      <entry name="perseus_turret2_sp_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\perseus\macros\perseus_turret2_sp_macro"/>
+
+      <entry name="mauler_turret1_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\mauler\macros\mauler_turret1_macro"/>
+      <entry name="mauler_turret2_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\mauler\macros\mauler_turret2_macro"/>
+      <entry name="mauler_turret3_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\mauler\macros\mauler_turret3_macro"/>
+      <entry name="mauler_turret4_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\mauler\macros\mauler_turret4_macro"/>
 
       
 
@@ -292,6 +309,8 @@
 
       <entry name="weapon_glaive_s3_macro" value="extensions\aegs\assets\props\weaponsystems\generic\macros\weapon_glaive_s3_macro"/>
       <entry name="weapon_glaive_s2_macro" value="extensions\aegs\assets\props\weaponsystems\generic\macros\weapon_glaive_s2_macro"/>
+
+      <entry name="mauler_maingun_macro" value="extensions\AEGS\assets\props\weaponsystems\capital\mauler\macros\mauler_maingun_macro"/>
 
       <!-- 武器 -->
       <entry name="weapon_nnxa_s2_macro" value="extensions\AEGS\assets\props\weaponsystems\generic\macros\weapon_nnxa_s2_macro"/>
@@ -527,6 +546,7 @@
       <entry name="S10_p_laser_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S10_p_laser_macro"/>
       <entry name="antares_emp_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\antares_emp_macro"/>
       <entry name="bullet_retribution_maingun_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\bullet_retribution_maingun_macro"/>
+      <entry name="bullet_mauler_maingun_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\bullet_mauler_maingun_macro"/>
 
       <entry name="S7_s_ad_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S7_s_ad_macro"/>
       <entry name="S7_s_mxa_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S7_s_mxa_macro"/>
@@ -534,6 +554,7 @@
       <entry name="S10_gvsr_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S10_gvsr_macro"/>
       <entry name="S11_gvsr_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S11_gvsr_2x_macro"/>
       <entry name="SX_rail_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\SX_rail_macro"/>
+      <entry name="S12_vncl_mauler_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S12_vncl_mauler_macro"/>
 
       <entry name="S10_bengal_gun_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S10_bengal_gun_2x_macro"/>
       <entry name="S6_aa_2x_macro" value="extensions\AEGS\assets\fx\weaponfx\macros\S6_aa_2x_macro"/>
@@ -639,6 +660,7 @@
       <entry name="spirit_a1_inner_macro" value="extensions\AEGS\assets\units\size_m\inner\macros\spirit_a1_inner_macro"/>
       <entry name="spirit_c1_inner_macro" value="extensions\AEGS\assets\units\size_m\inner\macros\spirit_c1_inner_macro"/>
       <entry name="storage_polaris_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_polaris_macro"/>
+      <entry name="storage_perseus_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_perseus_macro"/>
       <entry name="shipstorage_polaris_macro" value="extensions\AEGS\assets\units\size_m\macros\shipstorage_polaris_macro"/>
       <entry name="storage_prospector_macro" value="extensions\AEGS\assets\units\size_s\macros\storage_prospector_macro"/>
       <entry name="storage_carrack_macro" value="extensions\AEGS\assets\units\size_m\macros\storage_carrack_macro"/>

@@ -128,10 +128,10 @@
       </connection>
       <connection name="ConnectionForcanopy" tags="part animation nocollision" parent="body">
         <animations>
-					<animation name="cockpit_closed" start="1" end="1" />
-          <animation name="cockpit_opening" start="1" end="80" />
-          <animation name="cockpit_open" start="80" end="80" />
-          <animation name="cockpit_closing" start="80" end="240" />
+					<animation name="cockpit_closed" start="0" end="0" />
+          <animation name="cockpit_opening" start="0" end="60" />
+          <animation name="cockpit_open" start="60" end="60" />
+          <animation name="cockpit_closing" start="60" end="120" />
 				</animations>
         <offset>
           <position x="0" y="0.970918" z="-2.235873" />
@@ -243,10 +243,10 @@
       </connection>
       <connection name="ConnectionForladder_01" group="ladder" tags="part animation trigger_interact require_docked">
         <animations>
-					<animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
 				</animations>
         <offset>
           <position x="-1.832147" y="-0.107504" z="-1.096918" />
@@ -275,10 +275,10 @@
       </connection>
       <connection name="ConnectionForladder_02" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_01">
         <animations>
-					<animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
 				</animations>
         <offset>
           <position x="0.003710389" y="-0.001405003" z="0.003710032" />
@@ -307,10 +307,10 @@
       </connection>
       <connection name="ConnectionForladder_03" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_02">
         <animations>
-					<animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
 				</animations>
         <offset>
           <position x="0.02644598" y="-0.00962302" z="0.02644598" />
@@ -339,10 +339,10 @@
       </connection>
       <connection name="ConnectionForladder_col" group="ladder" tags="part animation trigger_interact require_docked" parent="ladder_03">
         <animations>
-					<animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
 				</animations>
         <offset>
           <position x="0.06277025" y="-0.289104" z="0.04281271" />
@@ -370,10 +370,10 @@
       </connection>
       <connection name="ConnectionForladder_panel_01" group="ladder" tags="part animation trigger_interact require_docked ui">
         <animations>
-					<animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
 				</animations>
         <offset>
           <position x="-1.583594" y="-0.2947431" z="-0.750546" />
@@ -400,12 +400,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFormerlin_landing_gear_front_skin" tags="part animation">
+      <connection name="ConnectionFormerlin_landing_gear_front_skin" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="0.009518" y="-0.590293" z="4.556952" />
@@ -432,22 +432,22 @@
               </lod>
             </lods>
             <size>
-              <max x="0.223656" y="0.536459" z="0.5223635" />
-              <center x="-0.009518" y="-0.3473379" z="-0.3153615" />
+              <max x="0.223656" y="0.8867621" z="0.5223635" />
+              <center x="-0.009518" y="-0.6970633" z="-0.3153615" />
             </size>
             <size_raw>
-              <max x="0.000223656" y="0.0005364589" z="0.0005223635" />
-              <center x="-9.518e-06" y="-0.0003473379" z="-0.0003153613" />
+              <max x="0.223656" y="0.5364589" z="0.5223635" />
+              <center x="-0.009517992" y="-0.3473379" z="-0.3153614" />
             </size_raw>
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFormerlin_landing_gear_rear_left_skin" tags="part animation">
+      <connection name="ConnectionFormerlin_landing_gear_rear_left_skin" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="-0.996255" y="-0.679984" z="-2.287714" />
@@ -473,22 +473,22 @@
               </lod>
             </lods>
             <size>
-              <max x="0.2253252" y="0.4452229" z="0.5119331" />
-              <center x="-0.1085295" y="-0.3660119" z="0.485466" />
+              <max x="0.3284445" y="0.8253414" z="0.5119331" />
+              <center x="-0.2114788" y="-0.7455034" z="0.485466" />
             </size>
             <size_raw>
-              <max x="0.0002253252" y="0.0004452229" z="0.0005119331" />
-              <center x="-0.0001085296" y="-0.0003660118" z="0.000485466" />
+              <max x="0.2253252" y="0.4452229" z="0.511933" />
+              <center x="-0.1085296" y="-0.3660119" z="0.4854661" />
             </size_raw>
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFormerlin_landing_gear_rear_right_skin" tags="part animation">
+      <connection name="ConnectionFormerlin_landing_gear_rear_right_skin" tags="part animation nocollision">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
           <position x="0.996255" y="-0.679985" z="-2.287714" />
@@ -514,22 +514,22 @@
               </lod>
             </lods>
             <size>
-              <max x="0.223469" y="0.4455117" z="0.5121261" />
-              <center x="0.1067457" y="-0.3662997" z="0.4856598" />
+              <max x="0.3265884" y="0.8256307" z="0.5121261" />
+              <center x="0.2096949" y="-0.7457917" z="0.4856598" />
             </size>
             <size_raw>
-              <max x="0.000223469" y="0.0004455117" z="0.0005121262" />
-              <center x="0.0001067457" y="-0.0003662997" z="0.0004856598" />
+              <max x="0.223469" y="0.4455117" z="0.5121262" />
+              <center x="0.1067457" y="-0.3662997" z="0.4856597" />
             </size_raw>
           </part>
         </parts>
       </connection>
       <connection name="ConnectionForrail_01" group="ladder" tags="part animation trigger_interact require_docked">
         <animations>
-					<animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+					<animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
 				</animations>
         <offset>
           <position x="-1.652424" y="0.08536994" z="-0.678086" />

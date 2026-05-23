@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-05-10 14:09:27 from Blender-->
+<components>
+  <component name="perseus_engine" class="engine">
+    <source geometry="extensions\AEGS\assets\props\Engines\perseus_engine_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+      <connection name="ConnectionForfx_animal" tags="animation detail_l engineeffect fx nocollision part speedscale_forward textureanimation useobjectrotation ">
+        <animations>
+					<animation name="loop" start="1" end="120"/>
+			  </animations>
+        <parts>
+          <part name="fx_animal">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2fx.fx_p2_thruster_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="16.82307" y="4.410558" z="16.56511" />
+              <center x="1.430511e-06" y="-2.745252" z="-18.93209" />
+            </size>
+            <uv_animations>
+              <uv_animation rotaroundcenter="1" mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="8" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="0" />
+                </uv_property>
+              </uv_animation>
+              <uv_animation rotaroundcenter="1" mapchannel="2">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="2" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="120" value="-16" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFormain_engine" tags="part nocollision">
+        <parts>
+          <part name="main_engine">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_perseus_a_mtl_Decal_POM_A" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="3" ref="generic.rsi_perseus_a_mtl_Glow_Thrusters" />
+                  <material id="4" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="5" ref="generic.rsi_perseus_a_mtl_Panel_LF_Paint_Glossy_Dark" />
+                  <material id="6" ref="generic.rsi_perseus_a_mtl_Panel_LF_Metal_A" />
+                  <material id="7" ref="generic.rsi_perseus_a_mtl_Panel_Tile_Metal_Bronze" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="17.50411" y="4.886682" z="3.782624" />
+              <center x="-4.768372e-07" y="-2.803046" z="-0.02388406" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+
+      <connection name="con_engine_01" tags="engine medium component aegs_perseus">
+			  <offset/>
+		  </connection>
+    </connections>
+  </component>
+</components>

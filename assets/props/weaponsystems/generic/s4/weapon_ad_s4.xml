@@ -9,7 +9,7 @@
     <connections>
       <connection name="container" tags="contents" value="0"/>
       <connection name="position" tags="position" value="1" />
-      <connection name="ConnectionFormain" tags="part ">
+      <connection name="ConnectionFormain" tags="part nocollision">
         <restrictions>
 					<restriction type="rotation_y">
 						<limits>
@@ -34,7 +34,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForad_part_main" tags="part " parent="main">
+      <connection name="ConnectionForad_part_main" tags="part nocollision" parent="main">
         <restrictions>
 					<restriction type="rotation_x">
 						<limits>
@@ -113,7 +113,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForad_bar" tags="part animation" parent="ad_part_main">
+      <connection name="ConnectionForad_bar" tags="part animation nocollision" parent="ad_part_main">
         <animations>
 					<animation name="weapon_firing" start="0" end="10"/>
 				</animations>

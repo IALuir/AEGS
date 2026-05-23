@@ -17,7 +17,7 @@
     <connections>
       <connection name="container" tags="contents" value="0"/>
 			<connection name="position" tags="position" value="1"/>
-      <connection name="ConnectionForthrustercapsule" tags="part ">
+      <connection name="ConnectionForthrustercapsule" tags="part nocollision">
         <parts>
           <part name="thrustercapsule">
             <lods>

@@ -2,20 +2,32 @@
 
 <diff>
 	<add sel="//groups/group[@name='xen_fighter_s']">
-		<select macro="blade_macro" weight="10"/>
-		<select macro="glaive_macro" weight="10"/>
-		<select macro="scythe_macro" weight="20"/>
+		<select macro="blade_macro" weight="5"/>
+		<select macro="glaive_macro" weight="5"/>
+		<select macro="scythe_macro" weight="10"/>
 	</add>
 
 	<add sel="//groups/group[@name='xen_fighter_heavy_s']">
-		<select macro="blade_macro" weight="30"/>
-		<select macro="glaive_macro" weight="30"/>
+		<select macro="blade_macro" weight="10"/>
+		<select macro="glaive_macro" weight="10"/>
 		<select macro="scythe_macro" weight="15"/>
 	</add>
 
 	<add sel="//groups/group[@name='xen_fighter_light_s']">
-		<select macro="blade_macro" weight="10"/>
-		<select macro="glaive_macro" weight="10"/>
-		<select macro="scythe_macro" weight="30"/>
+		<select macro="blade_macro" weight="5"/>
+		<select macro="glaive_macro" weight="5"/>
+		<select macro="scythe_macro" weight="10"/>
+	</add>
+
+	<add sel="//groups/group[@name='xen_fighter_m']">
+		<select macro="mauler_macro" weight="5"/>
+	</add>
+
+	<add sel="//groups/group[@name='xen_corvette_m']">
+		<select macro="mauler_macro" weight="5"/>
+	</add>
+
+	<add sel="//groups/group[@name='xen_terraformer_l']">
+		<select macro="mauler_macro" weight="33"/>
 	</add>
 </diff>

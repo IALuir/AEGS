@@ -45,7 +45,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_fx" tags="part ">
+      <connection name="ConnectionForpart_fx" tags="part nocollision">
         <offset>
 					<position x="0" y="0" z="-0.1" />
 				</offset>
@@ -65,7 +65,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_main" tags="part ">
+      <connection name="ConnectionForpart_main" tags="part nocollision">
         <parts>
           <part name="part_main">
             <lods>

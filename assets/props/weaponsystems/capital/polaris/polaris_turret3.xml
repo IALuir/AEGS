@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-02-16 15:37:21 from Blender-->
+<components>
+  <component name="polaris_turret3" class="turret">
+    <source geometry="extensions\aegs\assets\props\weaponsystems\capital\polaris\polaris_turret3_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0"/>
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForsidepodlarge001" tags="part ">
+        <restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+        <parts>
+          <part name="sidepodlarge001">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Decal_Text" />
+                  <material id="8" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="9" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="10" ref="p1.cockpit_glass_outside_01" />
+                  <material id="11" ref="generic.apar_ballisticgatling_s4_material_mtl_Glow" />
+                  <material id="12" ref="p1.cockpit_glass_inside_01" />
+                  <material id="13" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="14" ref="generic.rsi_polaris_ext_mtl_Trim_Cable" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.075818" y="1.333928" z="3.840739" />
+              <center x="4.768372e-07" y="0.132363" z="-0.6716537" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForrsibespokecannona" tags="part nocollision" parent="sidepodlarge001">
+        <restrictions>
+					<restriction type="rotation_x">
+            <limits>
+							<min value="-15 "/>
+							<max value="45"/>
+						</limits>
+					</restriction>
+				</restrictions>
+        <offset>
+          <position x="1.866958" y="-0.07373986" z="0.4479141" />
+        </offset>
+        <parts>
+          <part name="rsibespokecannona">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Trim_Embedded_Cable" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Trim_Structural_A" />
+                  <material id="5" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="7" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="8" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.390592" y="0.5712371" z="3.830542" />
+              <center x="-1.866956" y="0.03123003" z="3.274263" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForanimbarrel" tags="part animation nocollision" parent="rsibespokecannona">
+        <animations>
+					<animation name="gun_firing" start="0" end="15"/>
+				</animations>
+        <offset>
+          <position x="-0.07112813" y="0.0003828481" z="3.481816" />
+        </offset>
+        <parts>
+          <part name="animbarrel">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.rsi_polaris_ext_mtl_Decal_POM" />
+                  <material id="2" ref="generic.rsi_polaris_ext_mtl_Decal_Diffuse" />
+                  <material id="3" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="4" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                  <material id="5" ref="generic.anvl_valkyrie_interior_mtl_Blacks" />
+                  <material id="6" ref="generic.rsi_polaris_ext_mtl_Panel_LF_Paint_Primary" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.154779" y="0.2838378" z="2.425739" />
+              <center x="-1.79583" y="0.005813926" z="2.1933" />
+            </size>
+            <size_raw>
+              <max x="2.154779" y="0.2838378" z="2.017268" />
+              <center x="-1.79583" y="0.005813926" z="2.537895" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="laser" tags="laser " parent="animbarrel">
+        <offset>
+          <position x="0.07362437" y="-0.002653085" z="4.490241" />
+        </offset>
+      </connection>
+      <connection name="laser001" tags="laser " parent="animbarrel">
+        <offset>
+          <position x="-3.665279" y="-0.002653085" z="4.490241" />
+        </offset>
+      </connection>
+
+      <connection name="con_turret_laser_s" tags="turret medium component combat aegs_polaris_s5">
+				<offset/>
+			</connection>
+    </connections>
+  </component>
+</components>

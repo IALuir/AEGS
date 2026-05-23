@@ -62,18 +62,18 @@
     <connections>
       <connection name="space" tags="ship_s ship" />
       <connection name="position" tags="position" value="1" />
-      <connection name="ConnectionForAEGS_Gladius_LandingGear_Back" tags="animation part ">
+      <connection name="ConnectionForaegs_gladius_landinggear_back" tags="part animation">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
-          <position x="0" y="-0.2185971" z="-0.2801583" />
+          <position x="0" y="0.5000079" z="-0.2801583" />
         </offset>
         <parts>
-          <part name="AEGS_Gladius_LandingGear_Back">
+          <part name="aegs_gladius_landingGear_back">
             <lods>
               <lod index="0">
                 <materials>
@@ -101,28 +101,28 @@
               </lod>
             </lods>
             <size>
-              <max x="3.051702" y="1.357615" z="1.510063" />
-              <center x="0" y="-1.043958" z="-1.032882" />
+              <max x="3.051702" y="1.623117" z="1.510063" />
+              <center x="0" y="-1.497061" z="-1.032882" />
             </size>
             <size_raw>
-              <max x="0.003051702" y="0.001357615" z="0.001510063" />
-              <center x="0" y="-0.001043958" z="-0.001032882" />
+              <max x="1.22219" y="0.5437173" z="0.6047719" />
+              <center x="5.960464e-08" y="-1.043958" z="-1.032882" />
             </size_raw>
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForAEGS_Gladius_LandingGear_Front" tags="animation part ">
+      <connection name="ConnectionForaegs_gladius_landinggear_front" tags="part animation">
         <animations>
 					<animation name="landinggears_inactive" start="0" end="0"/>
-					<animation name="landinggears_activating" start="0" end="80"/>
-					<animation name="landinggears_active" start="80" end="80"/>
-					<animation name="landinggears_deactivating" start="80" end="240"/>
+					<animation name="landinggears_activating" start="0" end="60"/>
+					<animation name="landinggears_active" start="60" end="60"/>
+					<animation name="landinggears_deactivating" start="60" end="120"/>
 				</animations>
         <offset>
-          <position x="0" y="-1.097278" z="4.614135" />
+          <position x="0" y="-0.01196644" z="4.614135" />
         </offset>
-         <parts>
-          <part name="AEGS_Gladius_LandingGear_Front">
+        <parts>
+          <part name="aegs_gladius_landingGear_front">
             <lods>
               <lod index="0">
                 <materials>
@@ -150,12 +150,12 @@
               </lod>
             </lods>
             <size>
-              <max x="0.3409815" y="0.9844366" z="1.697847" />
-              <center x="0.0003165305" y="-0.5392616" z="0.0338273" />
+              <max x="0.3409815" y="1.52754" z="1.697847" />
+              <center x="0.0003165305" y="-1.08147" z="0.0338273" />
             </size>
             <size_raw>
-              <max x="0.0003409815" y="0.0009844366" z="0.001697847" />
-              <center x="3.165114e-07" y="-0.0005392616" z="3.382703e-05" />
+              <max x="0.3409815" y="0.9844366" z="1.697847" />
+              <center x="0.0003165081" y="-0.5392616" z="0.03382701" />
             </size_raw>
           </part>
         </parts>
@@ -308,18 +308,18 @@
               </lod>
             </lods>
             <size>
-              <max x="0.6203861" y="0.06031647" z="0.4042504" />
+              <max x="0.6203861" y="0.06031647" z="0.4042503" />
               <center x="-0.01860702" y="-0.004609499" z="-0.3944045" />
             </size>
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForcanopy" group="door" tags="animation part trigger_interact nocollision">
+      <connection name="ConnectionForcanopy" group="door" tags="part animation nocollision">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
         </animations>
         <offset>
           <position x="0" y="0.9133438" z="7.066806" />
@@ -339,7 +339,7 @@
             </lods>
             <size>
               <max x="0.675166" y="0.752922" z="1.713011" />
-              <center x="-1.013279e-06" y="-0.708602" z="1.578476" />
+              <center x="-1.013279e-06" y="-0.708602" z="1.578475" />
             </size>
             <size_raw>
               <max x="0.675166" y="0.752922" z="1.713011" />
@@ -348,7 +348,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForcanopy_glass_lines_int" tags="part nocollision" parent="canopy">
+      <connection name="ConnectionForcanopy_glass_lines_int" tags="part " parent="canopy">
         <offset>
           <position x="-1e-06" y="-2.980232e-06" z="1.907349e-06" />
         </offset>
@@ -362,8 +362,8 @@
               </lod>
             </lods>
             <size>
-              <max x="0.6604335" y="0.6494236" z="1.381375" />
-              <center x="-3.470348e-06" y="-0.6640064" z="1.741277" />
+              <max x="0.6604335" y="0.6494231" z="1.381376" />
+              <center x="-3.470348e-06" y="-0.6640069" z="1.741278" />
             </size>
             <size_raw>
               <max x="0.6604335" y="0.649422" z="1.381375" />
@@ -372,9 +372,9 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForglassheater" tags="part nocollision" parent="canopy">
+      <connection name="ConnectionForglassheater" tags="part " parent="canopy">
         <offset>
-          <position x="1e-06" y="1.072884e-06" z="-1.907349e-06" />
+          <position x="1e-06" y="1.013279e-06" z="-1.907349e-06" />
         </offset>
         <parts>
           <part name="glassheater">
@@ -386,8 +386,8 @@
               </lod>
             </lods>
             <size>
-              <max x="0.296321" y="0.2053711" z="0.7642108" />
-              <center x="1.327896e-08" y="-0.2245401" z="1.162959" />
+              <max x="0.296321" y="0.2053709" z="0.7642109" />
+              <center x="1.327896e-08" y="-0.2245399" z="1.16296" />
             </size>
             <size_raw>
               <max x="0.296321" y="0.20537" z="0.7642105" />
@@ -487,42 +487,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForladder_col" group="door" tags="part animation trigger_interact require_docked walk_stairway">
-        <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
-        </animations>
-        <offset>
-          <position x="-1.52806" y="-1.29948" z="9.229194" />
-        </offset>
-        <parts>
-          <part name="ladder_col">
-            <lods>
-              <lod index="0">
-                <materials>
-                  <material id="1" ref="dummy.transparent" />
-                </materials>
-              </lod>
-            </lods>
-            <size>
-              <max x="0.6692821" y="1.543299" z="0.3199997" />
-              <center x="0" y="0" z="-9.536743e-07" />
-            </size>
-            <size_raw>
-              <max x="0.0006692822" y="0.0015433" z="0.0003199997" />
-              <center x="0" y="0" z="-9.458745e-10" />
-            </size_raw>
-          </part>
-        </parts>
-      </connection>
       <connection name="ConnectionFordoor_a" group="door" tags="animation part trigger_interact ui require_docked">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
         </animations>
         <offset>
           <position x="-1.354703" y="-0.5447848" z="9.157877" />
@@ -553,10 +523,10 @@
       </connection>
       <connection name="ConnectionFordoor_b" group="door" tags="animation part trigger_interact ui require_docked">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
         </animations>
         <offset>
           <position x="-1.445355" y="-1.174069" z="9.15691" />
@@ -586,10 +556,10 @@
       </connection>
       <connection name="ConnectionFordoor_c" group="door" tags="animation part trigger_interact ui require_docked">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
         </animations>
         <offset>
           <position x="-1.102267" y="-1.414686" z="9.160447" />
@@ -664,6 +634,36 @@
           </part>
         </parts>
       </connection>
+      <connection name="ConnectionForladder_col" group="door" tags="part animation trigger_interact require_docked walk_stairway">
+        <animations>
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
+        </animations>
+        <offset>
+          <position x="-1.52806" y="-1.29948" z="9.229194" />
+        </offset>
+        <parts>
+          <part name="ladder_col">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="dummy.transparent" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.6692821" y="1.543299" z="0.3199997" />
+              <center x="0" y="0" z="-9.536743e-07" />
+            </size>
+            <size_raw>
+              <max x="0.0006692822" y="0.0015433" z="0.0003199997" />
+              <center x="0" y="0" z="-9.458745e-10" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
       <connection name="ConnectionForladder_interior" tags="part ">
         <offset>
           <position x="-1.458002" y="-0.9188439" z="8.906738" />
@@ -690,10 +690,10 @@
       </connection>
       <connection name="ConnectionForladder_main" group="door" tags="animation part trigger_interact require_docked">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
         </animations>
         <offset>
           <position x="-1.210777" y="-1.140071" z="9.22289" />
@@ -722,10 +722,10 @@
       </connection>
       <connection name="ConnectionForladder_bottom" group="door" tags="animation part trigger_interact require_docked" parent="ladder_main">
         <animations>
-          <animation name="deactivated" start="1" end="1" />
-          <animation name="activating" start="1" end="80" />
-          <animation name="active" start="80" end="80" />
-          <animation name="deactivating" start="80" end="240" />
+          <animation name="deactivated" start="0" end="0" />
+          <animation name="activating" start="0" end="60" />
+          <animation name="active" start="60" end="60" />
+          <animation name="deactivating" start="60" end="120" />
         </animations>
         <offset>
           <position x="0.07203805" y="0.156315" z="-9.536743e-07" />
@@ -755,7 +755,7 @@
       <connection name="ConnectionForrearwingleft_flap" tags="part ">
         <offset>
           <position x="-3.565298" y="-0.5740314" z="-7.059031" />
-          <quaternion qx="-0.0294529" qy="-0.3506537" qz="-0.0738527" qw="-0.9331239" />
+          <quaternion qx="-0.02945289" qy="-0.3506537" qz="-0.0738527" qw="-0.9331239" />
         </offset>
         <parts>
           <part name="rearwingleft_flap">
@@ -769,7 +769,7 @@
               </lod>
             </lods>
             <size>
-              <max x="1.229579" y="0.06554552" z="0.2745755" />
+              <max x="1.229579" y="0.06554552" z="0.2745754" />
               <center x="0.234059" y="-0.0250835" z="-0.2729595" />
             </size>
           </part>
@@ -813,7 +813,7 @@
               </lod>
             </lods>
             <size>
-              <max x="0.07304998" y="1.130879" z="0.4757167" />
+              <max x="0.07304997" y="1.130879" z="0.4757167" />
               <center x="0.023065" y="-0.2657025" z="-0.4472275" />
             </size>
           </part>
@@ -822,7 +822,7 @@
       <connection name="ConnectionForrudder_right_flap" tags="part ">
         <offset>
           <position x="2.592016" y="1.778014" z="-5.093194" />
-          <quaternion qx="-0.2312176" qy="0.04248903" qz="0.1775927" qw="-0.9556118" />
+          <quaternion qx="-0.2312176" qy="0.04248902" qz="0.1775927" qw="-0.9556118" />
         </offset>
         <parts>
           <part name="rudder_right_flap">
@@ -843,7 +843,7 @@
       <connection name="ConnectionForwingleft_mid_flap" tags="part ">
         <offset>
           <position x="-6.445968" y="-0.4977207" z="-2.795979" />
-          <quaternion qx="0.3512058" qy="-0.02752179" qz="0.9342269" qw="-0.05583053" />
+          <quaternion qx="0.3512058" qy="-0.02752179" qz="0.9342269" qw="-0.05583052" />
         </offset>
         <parts>
           <part name="wingleft_mid_flap">

@@ -40,7 +40,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForthrustermain" tags="part ">
+      <connection name="ConnectionForthrustermain" tags="part nocollision">
         <parts>
           <part name="thrustermain">
             <lods>
