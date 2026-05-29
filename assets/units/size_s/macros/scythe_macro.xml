@@ -15,7 +15,7 @@
         <software ware="software_trademk1" compatible="1" />
       </software>
       <storage missile="0" countermeasure="40" deployable="50"/>
-      <hull max="7350" />
+      <hull max="4350" />
       <secrecy level="1" />
       <purpose primary="fight" />
       <people capacity="1" />

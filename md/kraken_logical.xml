@@ -27,7 +27,7 @@
                          <actions>
                               <set_value name="$Object_kraken" exact="[]"/>
 
-                              <find_ship name="$Object_kraken" macro="macro.ship_drak_kraken_macro"  multiple="true" append="true"/>
+                               <find_ship name="$Object_kraken" macro="macro.ship_drak_kraken_macro"  multiple="true" append="true" space="player.galaxy"/>
                               <clear_group group="$Object_krakenGroup"/>
                               <do_for_each name="$ship" in="$Object_kraken">
                                    <add_to_group groupname="$Object_krakenGroup" object="$ship"/>

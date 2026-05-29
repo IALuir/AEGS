@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
 	<add sel="/wares">
-		<ware id="retribution" name="{996666,11}" description="{996666,12}" transport="ship" volume="1" tags="ship nocustomgamestart">
+		<ware id="retribution" name="{996666,11}" description="{996666,12}" transport="ship" volume="1" tags="ship nocustomgamestart limited">
 			<price min="75399475" average="75399475" max="75399475"/>
 			<production time="1516" amount="1" method="default" name="{996666,11}">
 				<primary>
@@ -9,9 +9,6 @@
 					<ware ware="energycells" amount="5732"/>
 					<ware ware="metallicmicrolattice" amount="1566"/>
 				</primary>
-				<research>
-					<ware ware="research_aegs_01"/>
-				</research>
 			</production>
 			<component ref="retribution_macro" amount="1"/>
 			<restriction licence="capitalship"/>
@@ -656,9 +653,9 @@
 			<restriction licence="militaryship"/>
 			<owner faction="terran"/>
 		</ware>
-		<ware id="mauler" name="{996666,1}" description="{996666,2}" transport="ship" volume="1" tags="ship nocustomgamestart">
+		<ware id="mauler" name="{996666,99}" description="{996666,100}" transport="ship" volume="1" tags="ship nocustomgamestart">
 			<price min="57059950" average="57059950" max="57059950"/>
-			<production time="695" amount="1" method="default" name="{996666,1}">
+			<production time="695" amount="1" method="default" name="{996666,99}">
 				<primary>
 					<ware ware="computronicsubstrate" amount="659"/>
 					<ware ware="energycells" amount="34817"/>
@@ -4316,18 +4313,6 @@
 			</production>
 		</ware>
 
-		<ware id="research_aegs_01" name="{996676,1}" description="{996676,2}" transport="research" volume="1" tags="research" sortorder="601">
-			<price min="1" average="1" max="1"/>
-			<research time="60">
-			<primary>
-				<ware ware="computronicsubstrate" amount="4000"/>
-				<ware ware="energycells" amount="30000"/>
-				<ware ware="metallicmicrolattice" amount="6000"/>
-				<ware ware="siliconcarbide" amount="3000"/>
-			</primary>
-			</research>
-		</ware>
-
 		<!-- 护盾 -->
 		<ware id="shield_aegs_civilian_akura" name="{996678,1}" description="{996678,2}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="286002" average="286002" max="286002"/>
@@ -4888,6 +4873,18 @@
 			<restriction licence="generaluseequipment"/>
 			<use threshold="0"/>
 			<owner faction="terran"/>
+		</ware>
+
+
+		<ware id="aegs_xenon_core_fragment" name="{996680,5}" description="{996680,6}" group="hardware" transport="inventory" volume="1" tags="crafting inventory">
+			<price min="1000" average="1000" max="1000"/>
+			<component ref="collectable_asteroidchunk_s_01_macro"/>
+			<icon video="ware_inventory_fragment_macro"/>
+			<sources>
+				<source type="{20224,41}"/>
+				<source type="{20224,31}"/>
+				<source type="{20224,91}"/>
+			</sources>
 		</ware>
 	</add>
 </diff>

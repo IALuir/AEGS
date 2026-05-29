@@ -1070,7 +1070,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForcm_ladder_bottom_rung" roup="ladder" tags="part animation trigger_interact require_docked" parent="cm_ladder_top_rung">
+      <connection name="ConnectionForcm_ladder_bottom_rung" group="ladder" tags="part animation trigger_interact require_docked" parent="cm_ladder_top_rung">
         <animations>
 					<animation name="deactivated" start="1" end="1" />
           <animation name="activating" start="1" end="80" />

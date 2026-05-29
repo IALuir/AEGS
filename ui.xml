@@ -2,6 +2,8 @@
 <addon name="aegs_ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../core/addon.xsd">
   <environment type="menus">
     <file name="ui/aegs_ui.lua" />
+    <file name="ui/aegs_gacha.lua" />
+    <dependency name="gs_ui" />
     <dependency name="kuertee_ui_extensions" />
   </environment>
 </addon>

@@ -18,7 +18,7 @@
 
                     <cue name="aegs_neutron_armor_02" instantiate="true" checkinterval="20min">
                          <actions>
-                              <find_ship name="$Object_Ship" macro="macro.retribution_macro"  multiple="true" />
+                              <find_ship name="$Object_Ship" macro="macro.retribution_macro"  multiple="true" space="player.galaxy" />
                               <clear_group group="$Object_ShipGroup"/>
                               <do_for_each name="$ship" in="$Object_Ship">
                                    <add_to_group groupname="$Object_ShipGroup" object="$ship"/>

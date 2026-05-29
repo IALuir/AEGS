@@ -19,7 +19,7 @@
 					<actions>
 						<set_value name="$Object_raven" exact="[]"/>
 						
-						<find_ship name="$Object_raven" macro="macro.sabre_raven_macro"  multiple="true" />
+						<find_ship name="$Object_raven" macro="macro.sabre_raven_macro"  multiple="true" space="player.galaxy" />
 					</actions>
 				</cue>
 

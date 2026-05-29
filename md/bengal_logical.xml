@@ -20,7 +20,7 @@
                          <actions>
                               <set_value name="$Object_bengal" exact="[]"/>
                               
-                              <find_ship name="$Object_bengal" macro="macro.ship_aegs_l_bengal_macro"  multiple="true" />
+                               <find_ship name="$Object_bengal" macro="macro.ship_aegs_l_bengal_macro"  multiple="true" space="player.galaxy" />
                          </actions>
                     </cue>
 

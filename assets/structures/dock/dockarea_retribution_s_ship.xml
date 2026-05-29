@@ -102,7 +102,7 @@
         </offset>
       </connection>
 
-      <connection name="ConnectionForfence" tags="part platformcollision">
+      <connection name="ConnectionForfence" tags="part nocollision">
         <parts>
           <part name="fence">
             <lods>

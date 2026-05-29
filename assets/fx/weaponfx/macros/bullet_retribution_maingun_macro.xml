@@ -8,7 +8,8 @@
       <reload time="3" />
       <damage value="89042" shield="9060" repair="0" />
       <effects>
-        <impact ref="impact_aegs_xl_maingun" />
+        <impact ref="impact_bor_l_beam_01_mk1" inside="impact_bor_l_beam_01_mk1_inside" />
+        <bigobjectimpact ref="impact_bor_l_beam_01_mk1_bigobject" inside="impact_bor_l_beam_01_mk1_bigobject_inside" />
         <launch ref="startshooting_aegs_xl_maingun" />
       </effects>
       <weapon system="weapon_standard" />

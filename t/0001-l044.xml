@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <diff>
     <add sel="/language[@id='44']">
         <page id="996666" title="ship" descr="ship" voice="yes">
@@ -98,8 +98,8 @@
             <t id="94">Size: S1&amp;#xA; Manufacturer: VNCL&amp;#xA; Description: The Vanduul Scythe (UEE designation) is a medium fighter that appears in every Vanduul raid. There is not a single allowance for comfort, cargo or anything that would dilute the ship's function as a dedicated dogfighter. Featuring a hefty weapons payload, the Scythe's real asset is its maneuverability, found in the twin main and twelve maneuvering thrusters.</t>
         </page>
         <page id="996669" title="missile" descr="missile" voice="no">
-            <t id="1">AEGS 蜂鸟反战机导弹</t>
-            <t id="2">AEGS 蜂鸟反战机导弹</t>
+            <t id="1">AEGS 铚傞笩鍙嶆垬鏈哄寮?/t>
+            <t id="2">AEGS 铚傞笩鍙嶆垬鏈哄寮?/t>
             <t id="3">S12 PX-12 &quot;Apex&quot;</t>
             <t id="4">Size: S1&amp;#xA; Type: Torpedo&amp;#xA; Description: Guided Anti-Ship torpedo exclusively equipped by Javelin, expensive, but immune to flares.&amp;#xA; Has extremely high damage, medium range, but low speed.</t>
             <t id="5">S9 Argos IX</t>
@@ -422,9 +422,19 @@
             <t id="5">Unfortunately, we didn't find anything useful from the wreckage of the Xenon E.</t>
             <t id="6">You might not believe it! His Imperial Majesty, Emperor Ivar Messer, has given his authorization! Now we can build the United Empire of Earth's Retribution-class dreadnought!</t>
         </page>
+        <page id="996680" title="aegs gacha" descr="aegs gacha" voice="no">
+            <t id="1">Xenon Access Permit</t>
+            <t id="2">Special currency used to draw from the Xenon gacha pool.</t>
+            <t id="3">Xenon Special Vessel Pool</t>
+            <t id="4">Each draw costs 10 Xenon Access Permits.</t>
+            <t id="5">Xenon Core Fragment</t>
+            <t id="6">A core fragment recovered from Xenon wrecks, can be exchanged for Xenon Access Permits.</t>
+            <t id="7">Xenon Core Fragment Exchange</t>
+            <t id="8">Each core fragment can be exchanged for 1 Xenon Access Permit.</t>
+        </page>
     </add>
-
     <add sel="/language[@id='44']/page[@id='20221']">
         <t id="5063">Dreadnought</t>
     </add>
 </diff>
+

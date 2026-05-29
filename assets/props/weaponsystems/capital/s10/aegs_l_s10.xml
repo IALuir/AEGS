@@ -250,7 +250,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_sam" tags="part" parent="part_main_s10">
+      <connection name="ConnectionForpart_sam" tags="part nocollision" parent="part_main_s10">
         <restrictions>
 					<restriction type="rotation_x">
 						<limits>
@@ -285,7 +285,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_sam2" tags="part" parent="part_main_s10">
+      <connection name="ConnectionForpart_sam2" tags="part nocollision" parent="part_main_s10">
         <restrictions>
 					<restriction type="rotation_x">
 						<limits>

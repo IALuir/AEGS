@@ -21,7 +21,7 @@
 					<actions>
 						<set_value name="$Object_polaris" exact="[]"/>
 						
-						<find_ship name="$Object_polaris" macro="macro.polaris_macro"  multiple="true" />
+						<find_ship name="$Object_polaris" macro="macro.polaris_macro"  multiple="true" space="player.galaxy" />
 					</actions>
 				</cue>
 

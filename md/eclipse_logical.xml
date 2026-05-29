@@ -21,7 +21,7 @@
 					<actions>
 						<set_value name="$Object_eclipse" exact="[]"/>
 						
-						<find_ship name="$Object_eclipse" macro="macro.eclipse_macro"  multiple="true" />
+						<find_ship name="$Object_eclipse" macro="macro.eclipse_macro"  multiple="true" space="player.galaxy" />
 					</actions>
 				</cue>
 

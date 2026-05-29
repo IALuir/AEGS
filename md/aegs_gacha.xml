@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="aegs_gacha" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+  <cues>
+    <cue name="Root">
+      <cues>
+        <library name="AddAegsCore100">
+          <actions>
+            <set_value name="$currencyKey" exact="'aegs_xenon_vncl_money'" />
+            <set_value name="$delta" exact="100" />
+
+            <set_value name="$idx" exact="md.aegs_gacha_logic.Root.$RuntimeCurrencyKeys.indexof.{$currencyKey}" />
+            <do_if value="not $idx">
+              <append_to_list name="md.aegs_gacha_logic.Root.$RuntimeCurrencyKeys" exact="$currencyKey" />
+              <append_to_list name="md.aegs_gacha_logic.Root.$RuntimeCurrencyValues" exact="0" />
+              <set_value name="$idx" exact="md.aegs_gacha_logic.Root.$RuntimeCurrencyKeys.count" />
+            </do_if>
+
+            <set_value name="$current" exact="md.aegs_gacha_logic.Root.$RuntimeCurrencyValues.{$idx}" />
+            <set_value name="$newValue" exact="$current + $delta" />
+            <do_if value="$newValue lt 0">
+              <set_value name="$newValue" exact="0" />
+            </do_if>
+            <set_value name="md.aegs_gacha_logic.Root.$RuntimeCurrencyValues.{$idx}" exact="$newValue" />
+
+            <set_value name="$payload" exact="'%s|%s'.[$currencyKey, $newValue]" />
+            <debug_text text="'[AEGS][Gacha] AddAegsCore100 -> ' + $payload" filter="error" />
+            <raise_lua_event name="'GS.Gacha.CurrencySync'" param="$payload" />
+          </actions>
+        </library>
+        
+        <library name="ExchangeXenonCoreFragment">
+          <actions>
+            <set_value name="$currencyKey" exact="'aegs_xenon_vncl_money'" />
+            <set_value name="$fragmentWare" exact="ware.aegs_xenon_core_fragment" />
+            <set_value name="$have" exact="player.entity.inventory.{$fragmentWare}.count" />
+
+            <do_if value="$have le 0">
+              <debug_text text="'[AEGS][Gacha] ExchangeXenonCoreFragment -> no fragment'" filter="error" />
+            </do_if>
+            <do_else>
+              <set_value name="$delta" exact="$have" />
+              <remove_inventory entity="player.entity" ware="$fragmentWare" exact="$have" />
+
+              <set_value name="$idx" exact="md.aegs_gacha_logic.Root.$RuntimeCurrencyKeys.indexof.{$currencyKey}" />
+              <do_if value="not $idx">
+                <append_to_list name="md.aegs_gacha_logic.Root.$RuntimeCurrencyKeys" exact="$currencyKey" />
+                <append_to_list name="md.aegs_gacha_logic.Root.$RuntimeCurrencyValues" exact="0" />
+                <set_value name="$idx" exact="md.aegs_gacha_logic.Root.$RuntimeCurrencyKeys.count" />
+              </do_if>
+
+              <set_value name="$current" exact="md.aegs_gacha_logic.Root.$RuntimeCurrencyValues.{$idx}" />
+              <set_value name="$newValue" exact="$current + $delta" />
+              <do_if value="$newValue lt 0">
+                <set_value name="$newValue" exact="0" />
+              </do_if>
+              <set_value name="md.aegs_gacha_logic.Root.$RuntimeCurrencyValues.{$idx}" exact="$newValue" />
+
+              <set_value name="$payload" exact="'%s|%s'.[$currencyKey, $newValue]" />
+              <debug_text text="'[AEGS][Gacha] ExchangeXenonCoreFragment -> ' + $payload + ' (fragments=' + $have + ')'" filter="error" />
+              <raise_lua_event name="'GS.Gacha.CurrencySync'" param="$payload" />
+            </do_else>
+          </actions>
+        </library>
+
+        <cue name="TriggerAddAegsCore100" instantiate="true">
+          <conditions>
+            <event_cue_signalled />
+          </conditions>
+          <actions>
+            <include_actions ref="AddAegsCore100" />
+          </actions>
+        </cue>
+        <cue name="TriggerExchangeXenonCoreFragment" instantiate="true">
+          <conditions>
+            <event_inventory_added object="player.entity" />
+          </conditions>
+          <actions>
+            <include_actions ref="ExchangeXenonCoreFragment" />
+          </actions>
+        </cue>
+      </cues>
+    </cue>
+  </cues>
+</mdscript>
