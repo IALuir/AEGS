@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<aiscript name="order.aegs.buildship" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="aiscripts.xsd" version="2">
+<aiscript name="order.aegs.buildship" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="aiscripts.xsd" version="7">
   <order id="aegs_buildship" name="{996671, 40}" description="{996671, 41}" category="navigation" infinite="true" allowinloop="false">
     <params>
       <param name="timeout" type="time" default="0s" infinitevalue="0s" text="{1041, 10034}" comment="Duration">
@@ -8,14 +8,12 @@
         <input_param name="step" value="30s" />
       </param>
       <param name="allowdocked" type="bool" default="this.ship.isplayerowned and not this.ship.iscapitalship" advanced="true" text="{1041, 10121}" comment="Stay docked. only works for non capital ships. implementation is in orders.base.">
-        <patch value="this.ship.isplayerowned and not this.ship.iscapitalship" sinceversion="5"/>
       </param>
       <param name="holdfire" type="bool" default="false" text="{1041, 10157}" comment="Hold fire. Hold fire until this order is completed or aborted."/>
       <param name="noattackresponse" type="internal" default="false" comment="Will not respond to attacks. Read in interrupt.attacked"/>
       <param name="attacker" type="internal" default="null" comment="Order will end when attacker is no longer in radar range. Will only take effect if this order is an override order."/>
       <param name="skipalignment" type="internal" default="null" comment="Whether or not to skip the ship's alignment to the ecliptic."/>
       <param name="fidget" type="internal" default="false" comment="Idles rather than waits in place. Ignored if docked.">
-        <patch value="false" sinceversion="7"/>
       </param>
       <param name="debugchance" type="bool" default="0" advanced="true" text="{1041, 10086}" comment="Print debug output">
         <input_param name="truevalue" value="100"/>
@@ -126,34 +124,6 @@
     <set_order_syncpoint_reached order="this.ship.order" />
   </init>
 
-  <patch sinceversion="2">
-    <do_if value="not $holdfire?">
-      <set_value name="$holdfire" exact="false"/>
-    </do_if>
-  </patch>
-  <patch sinceversion="3" early="true">
-    <set_value name="$attacker" exact="null"/>
-  </patch>
-  <patch sinceversion="4">
-    <do_if value="this.assignedcontrolled.isclass.ship_xs">
-      <destroy_object object="this.assignedcontrolled"/>
-    </do_if>
-  </patch>
-  <patch sinceversion="5">
-    <set_value name="$allowdocked" exact="this.assignedcontrolled.isplayerowned and not this.assignedcontrolled.iscapitalship"/>
-  </patch>
-  <patch sinceversion="6">
-    <!-- patch for r438122 -->
-    <do_if value="@this.assignedcontrolled.dock.container.isclass.buildstorage">
-      <create_order id="'Undock'" object="this.assignedcontrolled">
-        <param name="skipwait" value="true"/>
-      </create_order>
-    </do_if>
-  </patch>
-  <patch sinceversion="7">
-    <set_value name="$fidget" exact="false"/>
-  </patch>
-
   <attention min="unknown">
     <actions>
 
@@ -164,7 +134,7 @@
 
       <do_if value="$holdfire">
         <!-- hold fire -->
-        <run_script name="'lib.set.weaponmode'" result="$weaponmodes" sinceversion="1">
+        <run_script name="'lib.set.weaponmode'" result="$weaponmodes">
           <param name="weaponmode" value="weaponmode.holdfire"/>
           <param name="debugchance" value="$debugchance"/>
         </run_script>
@@ -209,7 +179,7 @@
       <do_if value="$timeout">
         <!-- Wait for timeout -->
         <do_if value="$fidget and not this.assignedcontrolled.dock">
-          <run_script name="'move.idle'" sinceversion="7">
+          <run_script name="'move.idle'">
             <param name="TimeOut" value="$timeout"/>
           </run_script>
         </do_if>
@@ -219,7 +189,7 @@
       </do_if>
       <do_else>
         <do_if value="$fidget and not this.assignedcontrolled.dock">
-          <run_script name="'move.idle'" sinceversion="7"/>
+          <run_script name="'move.idle'"/>
         </do_if>
         <do_else>
           <!-- Wait until a new order is added, or if there is a sync point, until it is released -->        
@@ -231,7 +201,7 @@
 
       <!-- restore weapon modes -->
       <do_if value="$holdfire and $weaponmodes? and $weaponmodes.keys.count">
-        <run_script name="'lib.set.weaponmode'" sinceversion="1">
+        <run_script name="'lib.set.weaponmode'">
           <param name="weapons" value="$weaponmodes.keys.list"/>
           <param name="weaponmodes" value="$weaponmodes"/>
           <param name="debugchance" value="$debugchance"/>

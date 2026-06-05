@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<mdscript name="Addthemestoplayer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+<mdscript name="Add_aegs_wares" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
     <cues>
         <cue name="add_aegs_wares">
             <conditions>

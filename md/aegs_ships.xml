@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="aegs_ships" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+  <cues>
+    <cue name="init_limited_blueprints" version="1">
+      <conditions>
+        <check_any>
+          <event_game_started />
+          <event_game_loaded />
+        </check_any>
+      </conditions>
+      <actions>
+        <set_userdata name="'limited_blueprint_retribution'" value="1" signed="true" />
+      </actions>
+    </cue>
+  </cues>
+</mdscript>

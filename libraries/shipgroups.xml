@@ -20,14 +20,14 @@
 	</add>
 
 	<add sel="//groups/group[@name='xen_fighter_m']">
-		<select macro="mauler_macro" weight="5"/>
+		<select macro="mauler_macro" weight="10"/>
 	</add>
 
 	<add sel="//groups/group[@name='xen_corvette_m']">
-		<select macro="mauler_macro" weight="5"/>
+		<select macro="mauler_macro" weight="10"/>
 	</add>
 
 	<add sel="//groups/group[@name='xen_terraformer_l']">
-		<select macro="mauler_macro" weight="33"/>
+		<select macro="mauler_macro" weight="40"/>
 	</add>
 </diff>
